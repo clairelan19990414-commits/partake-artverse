@@ -1,0 +1,187 @@
+{
+  "subject_summary": "A cultural analysis using \"cloud bombing\" (mass micro-celebrity group photos) as a lens to examine post-COVID shifts in social behavior, parasocial relationships, the collapse of aesthetic connoisseurship into representative diversity, the media mythology of geographic scenes like Dimes Square, and the anti-social habits cultivated during pandemic isolation.",
+  "key_concepts": [
+    {
+      "name": "Cloud Bombing",
+      "definition": "A group photo featuring a large cast of micro-celebrities from different cultural fields, designed to trigger a domino effect of social media reposts across overlapping follower counts, creating brief moments of mass cultural visibility.",
+      "role": "Central organizing metaphor; symptom of cloud inflation and the collapse of singular celebrity"
+    },
+    {
+      "name": "Cloud Inflation",
+      "definition": "The devaluation of individual micro-celebrity attention, requiring ever-larger group efforts to generate the reach once achieved by a single star.",
+      "role": "Explains why cloud bombs need 50 people to do what one celebrity once accomplished"
+    },
+    {
+      "name": "Representative Diversity as Quality",
+      "definition": "The condition in which diversity of visible identities has become the primary surviving aesthetic criterion, replacing earlier standards of connoisseurship that postmodernism delegitimized as subjective or culturally conditioned.",
+      "role": "Frames how cloud bombs justify themselves aesthetically and morally"
+    },
+    {
+      "name": "Parasocial Relationship",
+      "definition": "A one-sided relationship audiences form with media figures, replicating the emotional texture of friendship through habitual content consumption without mutual interaction.",
+      "role": "Core social dynamic replacing real friendships; intensified by COVID isolation"
+    },
+    {
+      "name": "Audience Capture",
+      "definition": "The phenomenon where content creators feel locked into permanently performing the version of themselves their audience expects, under implicit threat of backlash for any deviation.",
+      "role": "Describes the cage parasocial dynamics create for micro-celebrities"
+    },
+    {
+      "name": "Scenes Without Territories",
+      "definition": "Loose online networks of accounts that interact with each other's posts but lack geographic grounding, making them nearly impossible to define, visualize, or write about using traditional cultural journalism tools.",
+      "role": "Explains the cultural vacuum that made Dimes Square so legible and over-covered by media"
+    },
+    {
+      "name": "Millennial Cultural Liberalism",
+      "definition": "A teleological view of art as a moral instrument whose value is measured by its capacity to represent marginalized identities and produce social change, rather than by pre-established aesthetic standards.",
+      "role": "Ideological framework underpinning representative diversity and parasocial ally-consumption"
+    },
+    {
+      "name": "Anti-Social Thinking",
+      "definition": "A cultural tendency to reframe negative social trends (declining birth rates, friendship collapse, rising crime) as liberatory or valid, normalizing pathology and pathologizing normalcy.",
+      "role": "Named as the ideological product of pandemic isolation and parasocial training"
+    },
+    {
+      "name": "Tielbox",
+      "definition": "A meme implying that any young person's disillusionment with liberal cultural consensus could only be explained by secret financial payment from Peter Thiel; a form of bad jacketing.",
+      "role": "Media strategy to delegitimize Dimes Square as astroturfed rather than organic"
+    },
+    {
+      "name": "Bad Jacketing",
+      "definition": "Casting doubt on the authenticity of a cultural movement by implying it is externally funded or manufactured, rather than addressing its actual ideas.",
+      "role": "Tactic used against Dimes Square by blue-check journalists"
+    },
+    {
+      "name": "Teleological View of Art",
+      "definition": "The belief that art's value is judged not by pre-established rules but by the real-world consequences it produces after being exhibited — specifically whether it increases representation and social equity.",
+      "role": "Philosophical foundation of millennial cultural liberalism and its conflation of moral and aesthetic goodness"
+    },
+    {
+      "name": "Main Character of the Internet",
+      "definition": "A viral phenomenon in which one person becomes the breathlessly discussed subject of mass online attention, memed into oblivion, then quickly discarded.",
+      "role": "Individualized precursor to the communal cloud bomb"
+    }
+  ],
+  "people": [
+    {
+      "name": "Brad Traumel",
+      "role": "Author and presenter of the Cloud Bombing Report; cultural critic",
+      "wiki_slug": "",
+      "note": "Posted the original carousel on cloud bombing; narrates this video essay"
+    },
+    {
+      "name": "Peter Thiel",
+      "role": "Tech billionaire and political investor",
+      "wiki_slug": "Peter_Thiel",
+      "note": "Briefly funded the New People's Cinema Club in Dimes Square; used by journalists to imply the scene was astroturfed via 'Tielbox' narrative"
+    },
+    {
+      "name": "Freddie deBoer",
+      "role": "Writer and essayist",
+      "wiki_slug": "Freddie_deBoer",
+      "note": "Quoted on the therapeutic logic of parasocial contact: audiences expect a ceaseless state of feeling valid and attended to"
+    },
+    {
+      "name": "Dustin Guastella",
+      "role": "Writer and commentator, likely affiliated with left-wing publications",
+      "wiki_slug": "Dustin_Guastella",
+      "note": "Quoted describing the internal logic of lockdowns and noting hindsight evidence that isolationism was neither the only nor best response"
+    }
+  ],
+  "books": [
+    {
+      "title": "Vice Magazine",
+      "author": "Various",
+      "year": "2008",
+      "isbn": "",
+      "note": "Referenced as a benchmark: Dimes Square's most transgressive poetry was no more conservative than a 2008 Vice issue, which some of the scene's harshest critics wrote for"
+    }
+  ],
+  "movements": [
+    {
+      "period": "2020–2022",
+      "name": "COVID-19 Lockdowns",
+      "description": "Government-mandated social distancing, school closures, and work-from-home orders justified as disease control; argued by speaker to have caused lasting anti-social behavioral shifts including surging murder, drug abuse, depression, and declining literacy and friendships"
+    },
+    {
+      "period": "2020–present",
+      "name": "Remote Work Revolution",
+      "description": "Mass shift to work-from-home arrangements that created a permanent professional-class lockdown, praised by PMC workers who were rewarded socially for avoiding others"
+    },
+    {
+      "period": "2020–2023",
+      "name": "Dimes Square Scene",
+      "description": "A short-lived Lower Manhattan geographic art and party scene that provided culture journalists a rare legible location-based scene to write about after years of digital formlessness; generated more think pieces than notable artworks"
+    },
+    {
+      "period": "2010s–present",
+      "name": "Millennial Cultural Liberalism",
+      "description": "Cultural framework prioritizing representation, authorship diversity, and art as moral instrument; led to autobiographical trauma-focused art and the conflation of aesthetic and moral goodness"
+    },
+    {
+      "period": "1960s–present",
+      "name": "Postmodernism",
+      "description": "Philosophical movement that delegitimized earlier aesthetic connoisseurship as subjective and culturally conditioned, creating the vacuum that representative diversity moved into as the new default criterion"
+    },
+    {
+      "period": "2010s–present",
+      "name": "Traditional Catholicism (Tradcath) Online Movement",
+      "description": "An internet-native posture of ironic or sincere Catholic traditionalism that Dimes Square figures were accused of promoting; speaker argues the threat was largely LARPed and the media criticism of it was equally performative"
+    },
+    {
+      "period": "2000s–present",
+      "name": "Global Art Fair and Biennial Circuit",
+      "description": "Internationalization of exhibition spaces ostensibly for greater diversity, which paradoxically homogenized global contemporary art into a single aesthetic register, eliminating regional distinctiveness"
+    },
+    {
+      "period": "1980s–2010s",
+      "name": "Geographic Art Scenes",
+      "description": "Location-specific cultural movements (e.g., Williamsburg, the Mission School, the Yale photographers, the East Village, the Cool School) that gave writers a formula for mapping creative tendencies onto place; largely dissolved with digital culture"
+    },
+    {
+      "period": "2020",
+      "name": "2020 Social Justice Protests",
+      "description": "Mass in-person street protests following George Floyd's murder that created a contradiction with simultaneous lockdown messaging; the end of the protest cycle coincided with the abandonment of social contact as a protected right"
+    },
+    {
+      "period": "2010s–present",
+      "name": "Micro-Celebrity Culture",
+      "description": "The proliferation of small-scale internet fame built on consistency, disclosure, and habitual revelation of private life rather than the distance and mystique of classical celebrity"
+    }
+  ],
+  "quotes": [
+    "Representative diversity is the only aesthetic value that everyone still believes in.",
+    "Cloud bombs are a calculated offering, which allows everyone involved the chance to co-sign one another and publicly affirm their social allegiances.",
+    "We know that you know that we want you to re-share this image. And yet people re-share it anyway.",
+    "Social media acts as both the disease and the treatment to our loneliness.",
+    "Every tweet you read by a stranger is meant to look like a text you receive from a friend.",
+    "Parasocialism teaches us to think of ourselves as being alone even when we're around other people.",
+    "The further away you could afford to be from others, the better the person you were.",
+    "Your personality isn't a collection of adopted pathologies and performed weaknesses to the mind for sympathy from strangers who have no therapeutic obligation to you.",
+    "Overcoming conflicts is what creates real human connection, and the willingness to endure them comes from the understanding that pain and suffering are completely unavoidable.",
+    "The lockdowns will never be over until we abandon the ways of thinking we became infected with during that time.",
+    "We superficially came to value our differences while becoming more homogeneous.",
+    "It's yet another irony that these exhibition spaces, which were made international for the sake of greater diversity, wound up fostering a culture where every art fair and biennial in the world now looks the same."
+  ],
+  "tags": [
+    "cloud bombing",
+    "micro-celebrity",
+    "parasocial relationships",
+    "social media",
+    "COVID-19",
+    "lockdowns",
+    "cultural criticism",
+    "Dimes Square",
+    "representative diversity",
+    "anti-social behavior",
+    "audience capture",
+    "millennial liberalism",
+    "internet culture",
+    "social isolation",
+    "aesthetic theory",
+    "scene culture",
+    "PMC",
+    "postmodernism",
+    "New York art world"
+  ]
+}

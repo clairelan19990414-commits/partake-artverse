@@ -1,0 +1,279 @@
+{
+  "subject_summary": "A lecture by \"Brad\" analyzing \"literalism\"—the willful bad-faith literalization of metaphor—as the common rhetorical engine driving American moral panics, traced across three eras: the 1980s–2000s Satanic Panic, the 2010s campus call-out crusades, and the current \"cavefab\" era of performative outrage without genuine ideological conviction.",
+  "key_concepts": [
+    {
+      "name": "Literalism",
+      "definition": "The willful misinterpretation of metaphors by taking them as literally as possible, ignoring context and intent, to reframe debate by casting oneself as righteous and opponents as purely evil.",
+      "role": "Central analytical lens unifying all three moral panic eras in the talk"
+    },
+    {
+      "name": "Apophilia",
+      "definition": "Identifying a pattern because you want it to be there; starting from a conclusion and cherry-picking distorted evidence to support a desired outcome.",
+      "role": "Cognitive mechanism underlying literalist thinking"
+    },
+    {
+      "name": "Moral panic",
+      "definition": "Recurring societal fear campaigns that target cultural scapegoats, sustained by institutional authority buy-in from media, police, and religious leaders.",
+      "role": "Recurring historical phenomenon the speaker analyzes through the lens of literalism"
+    },
+    {
+      "name": "Literalist instrumentalism of art",
+      "definition": "The belief that art's sole legitimate purpose is to reflect consensus morality as directly and unambiguously as possible; any ambiguity is treated as suspicious or dangerous.",
+      "role": "Explains why literalists produce dull, predetermined culture and critique complex art"
+    },
+    {
+      "name": "Literalist impressionability thesis",
+      "definition": "The belief that audiences passively and totally absorb the moral character of whatever culture they consume, as though words and images are spells cast on blank minds.",
+      "role": "Justifies moral panic campaigns by framing audiences (especially children) as helpless victims of culture"
+    },
+    {
+      "name": "Campus Crusades",
+      "definition": "2010s liberal college campus moral panic treating language as a form of literal violence, elevating the stakes of speech and driving cancellations and mandatory public apologies.",
+      "role": "Second major case study, showing how literalism migrated from Christian conservatism to campus liberalism"
+    },
+    {
+      "name": "Social cleansing / cancellation",
+      "definition": "Public shunning of an individual as a ritual surrogate sacrifice meant to symbolically destroy a larger social evil (e.g., canceling one curator to 'kill' racism itself).",
+      "role": "Key mechanism of campus-era literalism; explains disproportionate punishment"
+    },
+    {
+      "name": "Trigger warnings",
+      "definition": "Content advisories preceding potentially upsetting material, serving primarily as an a priori ideological alliance signal rather than genuine medical protection.",
+      "role": "Symptom of literalist culture in the 2010s; functions as a loyalty oath to the consensus"
+    },
+    {
+      "name": "Cavefab culture",
+      "definition": "Post-2020 era in which literalist performances—calling opponents fascists, satanists, groomers—continue as purely symbolic communal rituals after genuine ideological conviction has eroded.",
+      "role": "Third case study; explains how literalism survives the collapse of true belief"
+    },
+    {
+      "name": "Provocation cycle",
+      "definition": "An engineered outrage loop in which an influencer creates content designed to bait a predictable literalist reaction from opponents, which then rallies their own audience through shared enemy hatred.",
+      "role": "Shows how literalism is now commercially weaponized; renders consensus as brave vanguard"
+    },
+    {
+      "name": "Microaggression",
+      "definition": "Minor linguistic choices construed as subtle forms of literal violence, elevating the stakes of everyday speech for college-educated professionals.",
+      "role": "Core concept in campus crusades era; extended the logic of violence to all communicative conflict"
+    },
+    {
+      "name": "Literalist cultural production",
+      "definition": "Art made to serve a predetermined ideological message directly, with form as an afterthought; the speaker argues its lack of ambiguity is its selling point for its audience.",
+      "role": "Outcome of literalism applied to creation rather than criticism; seen in both Christian and liberal media"
+    }
+  ],
+  "people": [
+    {
+      "name": "Patricia Pulling",
+      "role": "Founder of BADD (Bothered About Dungeons & Dragons), anti-D&D activist and concerned-parent spokesperson",
+      "wiki_slug": "Patricia_Pulling",
+      "note": "Speaker mispronounces her name as 'Patricia Poling'; founded BADD in 1982 after her son's suicide, which she attributed to demonic possession from playing D&D"
+    },
+    {
+      "name": "Geraldo Rivera",
+      "role": "TV journalist and talk-show host who promoted Satanic Panic coverage",
+      "wiki_slug": "Geraldo_Rivera",
+      "note": "Speaker refers to him phonetically as 'Heraldo'; cited alongside Oprah as a media amplifier of Satanic ritual abuse claims"
+    },
+    {
+      "name": "Oprah Winfrey",
+      "role": "TV talk-show host who promoted Satanic Panic coverage",
+      "wiki_slug": "Oprah_Winfrey",
+      "note": "Cited as an example of mainstream media providing profitable, salacious coverage framed as righteous awareness-raising"
+    },
+    {
+      "name": "Gary Gygax",
+      "role": "Co-creator of Dungeons & Dragons",
+      "wiki_slug": "Gary_Gygax",
+      "note": "Mentioned as someone who did not intend a literalist backlash, contrasted with modern influencers who engineer outrage deliberately"
+    },
+    {
+      "name": "Kathryn Lofton",
+      "role": "Yale religious studies scholar quoted on cults, communal belonging, and religious repetition",
+      "wiki_slug": "Kathryn_Lofton",
+      "note": "Speaker spells her name 'Katherine'; her quote frames cavefab literalism as a post-faith belonging ritual"
+    },
+    {
+      "name": "Lil Nas X",
+      "role": "Musician used as the primary case study in engineered provocation cycles",
+      "wiki_slug": "Lil_Nas_X",
+      "note": "Speaker walks through how his satanic-themed content was designed to bait conservative literalists and ultimately rally liberal audiences"
+    },
+    {
+      "name": "Andrew Tate",
+      "role": "Influencer cited as a mirror-image provocation cycle example on the right",
+      "wiki_slug": "Andrew_Tate",
+      "note": "Mentioned as executing the same provocation loop as Lil Nas X but with sides flipped"
+    },
+    {
+      "name": "Sam Smith",
+      "role": "Musician cited as another provocation cycle example",
+      "wiki_slug": "Sam_Smith_(singer)",
+      "note": "Cited alongside Kim Petras as executing the same engineered outrage structure"
+    },
+    {
+      "name": "Kim Petras",
+      "role": "Musician cited alongside Sam Smith in provocation cycle analysis",
+      "wiki_slug": "Kim_Petras",
+      "note": "Their joint Grammy performance is the implied reference point for the provocation cycle described"
+    },
+    {
+      "name": "Alex Jones",
+      "role": "Right-wing media personality cited as provocation cycle practitioner",
+      "wiki_slug": "Alex_Jones_(radio_host)",
+      "note": "Mentioned as executing the provocation loop from the conservative side"
+    },
+    {
+      "name": "Ben Shapiro",
+      "role": "Conservative commentator cited as an amplifier in the provocation cycle",
+      "wiki_slug": "Ben_Shapiro",
+      "note": "Listed among conservative outlets (Daily Caller, Prager U, Cernovich) that broadcast bait content to conservative normies"
+    },
+    {
+      "name": "Mike Cernovich",
+      "role": "Right-wing commentator cited as an amplifier in the provocation cycle",
+      "wiki_slug": "Mike_Cernovich",
+      "note": "Listed alongside Shapiro and others as part of the conservative media amplification layer in the outrage loop"
+    }
+  ],
+  "books": [
+    {
+      "title": "Dungeons & Dragons Player's Handbook (1st Edition)",
+      "author": "Gary Gygax",
+      "year": "1974",
+      "isbn": "",
+      "note": "Primary cultural target of the Satanic Panic; BADD founder Patricia Pulling attributed her son's suicide to demonic possession from playing it"
+    },
+    {
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "year": "1997",
+      "isbn": "978-0-7475-3269-9",
+      "note": "Cited as a late-stage Satanic Panic target; its mainstream acceptance began undermining the panic's credibility when ordinary children read it without becoming Satanists"
+    },
+    {
+      "title": "Animorphs (series)",
+      "author": "K.A. Applegate",
+      "year": "1996",
+      "isbn": "978-0-590-62977-1",
+      "note": "Cited as one of many children's properties accused of Satanic influence in the increasingly strained late-1990s phase of the panic"
+    },
+    {
+      "title": "The Sopranos (HBO series)",
+      "author": "David Chase",
+      "year": "1999",
+      "isbn": "",
+      "note": "Used to illustrate literalist TV criticism: 'Tony Soprano is a misogynist, therefore The Sopranos is a misogynistic show'"
+    },
+    {
+      "title": "Tár (film)",
+      "author": "Todd Field",
+      "year": "2022",
+      "isbn": "",
+      "note": "Used to illustrate literalist film criticism: 'Lydia Tár is endophobic, therefore Tár is endophobic'"
+    },
+    {
+      "title": "Girls (HBO series)",
+      "author": "Lena Dunham",
+      "year": "2012",
+      "isbn": "",
+      "note": "Used to illustrate literalist TV criticism: 'Hannah Horvath is racist, therefore Girls is racist'"
+    },
+    {
+      "title": "VeggieTales (video series)",
+      "author": "Phil Vischer and Mike Nawrocki",
+      "year": "1993",
+      "isbn": "",
+      "note": "Cited as the exemplar of Christian literalist cultural production—a 'Trojan horse' for predetermined Biblical messaging; speaker uses it as a metaphor for contemporary liberal media"
+    },
+    {
+      "title": "Magic: The Gathering",
+      "author": "Richard Garfield / Wizards of the Coast",
+      "year": "1993",
+      "isbn": "",
+      "note": "Card game cited alongside D&D as a target of Satanic Panic claims that its demon imagery could literally possess players"
+    }
+  ],
+  "movements": [
+    {
+      "name": "Satanic Panic",
+      "period": "1980s–2000s",
+      "description": "Widespread American moral panic asserting that Satanism was infiltrating society through daycare centers and mainstream culture; fueled false criminal prosecutions of daycare workers and cultural boycotts of games, music, and films"
+    },
+    {
+      "name": "Campus Call-Out Culture (Campus Crusades)",
+      "period": "2010s",
+      "description": "Liberal college campus movement that expanded the definition of violence to include language, driving public cancellations, mandatory apologies, trigger warnings, and a culture of constant self-censorship among the college-educated"
+    },
+    {
+      "name": "Cavefab Culture",
+      "period": "2020s–present",
+      "description": "Post-conviction era in which culture-war literalist performances (labeling opponents fascists, satanists, groomers) continue as hollow communal rituals and belonging signals after genuine ideological belief has collapsed"
+    },
+    {
+      "name": "Televangelism",
+      "period": "1970s–1990s",
+      "description": "Christian broadcast movement that reached peak influence during the Satanic Panic, using it to generate renewed evangelical purpose and audience as church attendance began its long decline"
+    },
+    {
+      "name": "Child Safety Movement",
+      "period": "1980s–1990s",
+      "description": "Broader cultural push to protect children from danger, coinciding with the Satanic Panic; produced zero-tolerance policies, playground safety regulations, warning labels, and the 'latchkey kid' anxiety driving parental guilt"
+    },
+    {
+      "name": "Second Wave Feminism",
+      "period": "1960s–1980s",
+      "description": "Feminist movement cited as enabling upper-middle-class women to choose careers over full-time homemaking, indirectly producing the 'latchkey kid' phenomenon and parental anxiety that fueled Satanic Panic scapegoating of daycare centers"
+    },
+    {
+      "name": "Cancel Culture",
+      "period": "2015–present",
+      "description": "Social media-driven campaigns of public shaming over perceived language violations; framed by the speaker as digital moral panics functioning as pressure-valve rituals for suppressed social anxiety"
+    },
+    {
+      "name": "QAnon",
+      "period": "2017–present",
+      "description": "Far-right conspiracy theory (speaker references 'saving the mole children') cited as a cavefab example—believers continue performing the ritual even after knowing it was fraudulent"
+    },
+    {
+      "name": "Black Lives Matter",
+      "period": "2013–present",
+      "description": "Racial justice movement cited as a cavefab example—white allies maintain BLM links in bios as belonging signals even after the speaker claims the movement's organizational credibility collapsed"
+    },
+    {
+      "name": "Christian Alternative Media",
+      "period": "1990s–present",
+      "description": "Literalist Christian cultural production (VeggieTales, Christian rock, straight-to-VHS films) created as safe, unambiguous alternatives to mainstream culture; speaker argues it exemplifies how literalism produces inferior art by subordinating form to message"
+    }
+  ],
+  "quotes": [
+    "Literalism is a way of willfully misinterpreting metaphors by taking them as literally as possible.",
+    "Literalism is the rhetorical machine, which converts personal grievances into justified causes. It's what turns bullies into victims.",
+    "Literalism is a kind of apophilia with identifying a pattern because you want it to be there. It's a way of starting from a conclusion and then cherry picking distorted information which supports a desired outcome.",
+    "Literalism is born from anxiety and austerity. It's the paranoid mode of interpretation people resort to when they don't feel secure in the way things are.",
+    "If we can't all win together, then at least I can watch the people I hate lose.",
+    "The satanic panic just gave police a righteous excuse for doing what they were already going to do anyway.",
+    "Kathryn Lofton: 'New religious movements, sometimes called cults, offer ritual resolve for people seeking solutions to their most profound questions and pain... Those communal repetitions come to constitute a form of belonging. If I say the Lord's Prayer, I'm speaking individually, but I'm speaking in a way many other people speak and when we hear each other speak it, we know who we are.'",
+    "In a great stroke of irony, literalism has now become metaphorical.",
+    "The enemy of my enemy is my fandom.",
+    "Engineering an outrage isn't a way of canceling culture, but of completing it, of making it whole by achieving its intended effect.",
+    "Its lack of ambiguity is its selling point.",
+    "Better to judge than be judged."
+  ],
+  "tags": [
+    "moral panic",
+    "literalism",
+    "satanic panic",
+    "cancel culture",
+    "media criticism",
+    "cultural analysis",
+    "rhetoric",
+    "American religion",
+    "internet culture",
+    "provocation",
+    "campus culture",
+    "social media",
+    "outrage cycles",
+    "art criticism"
+  ]
+}

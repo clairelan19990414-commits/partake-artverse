@@ -1,0 +1,258 @@
+{
+  "subject_summary": "A critical history of American art schools arguing that the forced merger of avant-garde culture and academia since the 1930s produced an obfuscatory dialect called art-speak, a cycle of professional failure at scale, and financially predatory MFA programs — institutions that commodify the promise of creative community rather than reliably advancing artistic careers.",
+  "key_concepts": [
+    {
+      "name": "Art-speak",
+      "definition": "A pidgin academic dialect combining buzzwords from media theory, Marxism, feminism, and psychoanalysis used in art press releases and critiques; functions as a status signal rather than a communicative language, offloading interpretive responsibility onto the audience.",
+      "role": "Primary symptom of academia's influence on art culture; sustains credentialist hierarchy while producing meaningless discourse"
+    },
+    {
+      "name": "Permanent Revolution",
+      "definition": "The avant-garde ideal that art must continuously produce new work rendering previous movements obsolete; institutionalized in studio art schools as the central purpose of art-making.",
+      "role": "Core myth driving both artistic ambition and the endless churn of movements; makes radical posturing and careerism indistinguishable"
+    },
+    {
+      "name": "The Critique",
+      "definition": "The central pedagogical method in studio art schools where teachers and peers verbally analyze student work; evolved from Beaux-Arts direct correction into open-ended, often evasive discourse.",
+      "role": "Socializes students into art-speak and the norms of professional conversation rather than technical skill"
+    },
+    {
+      "name": "Aesthetic of Administration",
+      "definition": "Benjamin Buchloh's term for conceptual art that resembles bureaucratic office culture — relying on dry information cataloging, charts, and data rather than aesthetic beauty or craft.",
+      "role": "Describes how art's alliance with academia produced work formally indistinguishable from institutional paperwork"
+    },
+    {
+      "name": "Elite Overproduction",
+      "definition": "Approximately 40,000 visual art graduates per year vastly outnumber available spots at blue-chip galleries, creating perpetual credential inflation, high unemployment, and unsustainable student debt.",
+      "role": "Structural outcome of art school's open-admissions model; forces graduates into endless self-reinvention"
+    },
+    {
+      "name": "Cooling the Mark",
+      "definition": "Erving Goffman's sociological framework describing how con men help victims accept their loss and move on; applied here to how the art world manages artists' career failures through publicized blowups, stalling, and polite silent departures.",
+      "role": "Explains the art world's autoimmune defenses against the failure its schools mass-produce without requiring structural change"
+    },
+    {
+      "name": "Studio Art School",
+      "definition": "The Bauhaus-influenced model treating art as a laboratory of experimentation where everyone can be socialized as an artist regardless of prior talent, aligned with scientific progressivism rather than humanistic tradition.",
+      "role": "Dominant paradigm since mid-20th century; the 'factory' producing artists at industrial scale"
+    },
+    {
+      "name": "MFA (Master of Fine Arts)",
+      "definition": "Popularized post-WWII as the terminal degree for professional artists and a formal requirement for art school teaching positions; now the primary stable career path for art graduates.",
+      "role": "Credential that both legitimizes art school's bureaucratic structure and creates the debt trap most graduates cannot escape"
+    },
+    {
+      "name": "Gainful Employment Rule",
+      "definition": "2014 federal regulation requiring colleges to demonstrate that graduates could find jobs allowing loan repayment; shut down many for-profit art schools but exempted nonprofits via a loophole, despite many nonprofits having worse debt-to-income ratios.",
+      "role": "Revealed structural predation of art schools; its nonprofit loophole is cited as a policy failure"
+    },
+    {
+      "name": "Ready-made",
+      "definition": "Duchampian concept renewed in the 1960s counter-culture proposing that anyone can be an artist and anything can be art given the correct context; used to justify art school's egalitarian premise.",
+      "role": "Philosophical foundation for eliminating technical barriers to art-making, further eroding craft-based standards"
+    },
+    {
+      "name": "Subjectivity as Pedagogy",
+      "definition": "The art school practice since the 1930s of teaching students a worldview hostile to the familiar through intentionally confusing assignments designed to discourage expressive introspection in favor of analytic experimentation.",
+      "role": "Core method of avant-garde socialization; produces students who can speak the language but may lack genuine critical sensibility"
+    },
+    {
+      "name": "Beaux-Arts Correction (Séance)",
+      "definition": "The traditional disciplinary teaching method where art instructors corrected student work by painting directly over their canvases to model correct technique; abandoned in post-1960s liberated art schools.",
+      "role": "Represents the technical craft tradition displaced by conversational peer culture"
+    }
+  ],
+  "people": [
+    {
+      "name": "Brad Tremel",
+      "role": "Video essayist and narrator; critic of art school culture",
+      "wiki_slug": "Brad_Tremel",
+      "note": "Argues art schools are financially predatory institutions that produce professional failure at scale; frames the entire analysis"
+    },
+    {
+      "name": "Josef Albers",
+      "role": "Bauhaus artist and educator; ran Black Mountain College",
+      "wiki_slug": "Josef_Albers",
+      "note": "Key figure in transplanting Bauhaus philosophy to America; his collaborative, experimental model defined the first half of 20th-century studio art education"
+    },
+    {
+      "name": "György Kepes",
+      "role": "Instructor at the New Bauhaus in Chicago; author of Language of Vision",
+      "wiki_slug": "György_Kepes",
+      "note": "Explicitly articulated the science-inspired, avant-garde view of art; his atom-energy analogy encapsulates the ambition of Bauhaus pedagogy in America"
+    },
+    {
+      "name": "Robert Motherwell",
+      "role": "Abstract Expressionist painter and teacher",
+      "wiki_slug": "Robert_Motherwell",
+      "note": "Quoted on the importance of immersive proximity to working artists; helped establish talk and social presence as central to post-war art education"
+    },
+    {
+      "name": "Mark Rothko",
+      "role": "Abstract Expressionist painter and teacher",
+      "wiki_slug": "Mark_Rothko",
+      "note": "Described by students as speaking elusively about philosophy and life rather than directly critiquing paintings; typifies the roundabout ABX teaching style"
+    },
+    {
+      "name": "Judith Adler",
+      "role": "Sociologist; ethnographer of academic art scenes",
+      "wiki_slug": "Judith_Adler",
+      "note": "Described the awkward merger of Bohemian art subculture and bureaucratic academia; noted ABX's allure of 'professional celebrity and radical integrity'"
+    },
+    {
+      "name": "Howard Singerman",
+      "role": "Art historian; analyzed MFA programs and artist career paths",
+      "wiki_slug": "Howard_Singerman",
+      "note": "Documented how ABX streamlined the BFA→MFA→New York art world→teaching career path that persists today"
+    },
+    {
+      "name": "Benjamin H.D. Buchloh",
+      "role": "Art critic and historian",
+      "wiki_slug": "Benjamin_H.D._Buchloh",
+      "note": "Coined 'aesthetic of administration' to describe conceptual art's affinity for bureaucratic information formats"
+    },
+    {
+      "name": "Erving Goffman",
+      "role": "Sociologist; authored 'Cooling the Mark Out'",
+      "wiki_slug": "Erving_Goffman",
+      "note": "His essay on con-man exit strategies is applied throughout Chapter 3 to explain how artists manage career failure and professional reinvention"
+    },
+    {
+      "name": "Magali Sarfatti Larson",
+      "role": "Sociologist; theorist of professions",
+      "wiki_slug": "Magali_Sarfatti_Larson",
+      "note": "Quoted on how professions lacking standardized training compensate with unnecessary jargon and pseudo-paradigm changes — used to explain art-speak's function"
+    },
+    {
+      "name": "Saul Whit",
+      "role": "Quoted describing the conceptual artist as 'a clerk'",
+      "wiki_slug": "",
+      "note": "Name likely misheard or mistranscribed in source; described conceptual art as dry cataloging of the artist's own premise rather than literary allegory"
+    },
+    {
+      "name": "College Art Association",
+      "role": "Professional organization formed in 1912; set competing frameworks for art education",
+      "wiki_slug": "College_Art_Association",
+      "note": "Formation date marks the origin of the three competing philosophies of art school: technical craft, liberal arts scholarship, and studio experimentation"
+    }
+  ],
+  "books": [
+    {
+      "title": "Language of Vision",
+      "author": "György Kepes",
+      "year": "1944",
+      "isbn": "0-486-28650-X",
+      "note": "Explicitly named in the transcript; articulated the science-inspired view of avant-garde art that became foundational to American studio art education"
+    },
+    {
+      "title": "Cooling the Mark Out",
+      "author": "Erving Goffman",
+      "year": "1952",
+      "isbn": "",
+      "note": "Essay published in Psychiatry journal; explicitly referenced by title; describes con-man exit strategies applied to art world career failure and reinvention"
+    },
+    {
+      "title": "Art Subjects: Making Artists in the American University",
+      "author": "Howard Singerman",
+      "year": "1999",
+      "isbn": "978-0-520-21580-9",
+      "note": "Implied source for Singerman's quoted analysis of the ABX-derived MFA career path and the formalization of studio art programs"
+    },
+    {
+      "title": "Artists in Offices: An Ethnography of an Academic Art Scene",
+      "author": "Judith Adler",
+      "year": "1979",
+      "isbn": "",
+      "note": "Implied source for Adler's multiple quoted observations on Bohemian culture vs. academic bureaucracy and art school's allure"
+    },
+    {
+      "title": "General Education in a Free Society (Harvard Red Book)",
+      "author": "Harvard University Committee",
+      "year": "1945",
+      "isbn": "",
+      "note": "Referenced as '1940 Harvard committee' report; quoted on art education as participation in 'the give and take of one's own time' rather than mere observation"
+    }
+  ],
+  "movements": [
+    {
+      "period": "Late 19th century",
+      "name": "Technical Art Education",
+      "description": "Art departments created to standardize craft skills for growing industrial labor demand, replacing apprenticeships; viewed art as learnable craft open to everyone"
+    },
+    {
+      "period": "17th–19th century",
+      "name": "Beaux-Arts Tradition",
+      "description": "Disciplined European academic training in figure painting, composition, and perspective; instructors corrected students by painting directly over their canvases; emphasized fidelity to historical aesthetic principles"
+    },
+    {
+      "period": "1919–1933",
+      "name": "Bauhaus",
+      "description": "German design school merging fine art with craft and industrial design; emphasized experimental making for the present over preserving the past; teachers emigrated to America and reshaped studio art education"
+    },
+    {
+      "period": "1933–1957",
+      "name": "Black Mountain College Era",
+      "description": "Pioneering American studio school in North Carolina run by Josef Albers; modeled on Bauhaus; free-spirited collaborative culture defined the first half of 20th-century studio art education in America"
+    },
+    {
+      "period": "1943–early 1960s",
+      "name": "Abstract Expressionism",
+      "description": "First major American avant-garde movement; CIA-promoted as a symbol of freedom; commercial success made art school a mandatory career step and introduced the ideal of permanent revolution to a mass student audience"
+    },
+    {
+      "period": "1944–1970s",
+      "name": "Post-WWII Art School Expansion",
+      "description": "GI Bill subsidized tuition and triggered exponential growth in art programs; MFA formalized as the terminal degree and prerequisite for teaching; studio schools gained federal accreditation requirements"
+    },
+    {
+      "period": "1960s–1970s",
+      "name": "Counter-culture in Academia",
+      "description": "Colleges replaced church as primary socialization institution; hierarchical professor-student dynamic flattened into peer collaboration; Duchampian ready-made was renewed, proposing that anyone and anything could be art"
+    },
+    {
+      "period": "1960s–1970s",
+      "name": "Conceptual Art",
+      "description": "First major movement created entirely by college-educated artists; dematerialized art into pure information and text; produced Buchloh's 'aesthetic of administration' and compelled artists to become writers, lecturers, and publicists"
+    },
+    {
+      "period": "1961–present",
+      "name": "CalArts Frenemy Culture",
+      "description": "California Institute of the Arts established an academic rivalry model replacing Black Mountain's collaborative spirit; set the competitive, gossip-driven precedent for the latter half of 20th-century art school culture"
+    },
+    {
+      "period": "1970s–present",
+      "name": "Studio MFA System and Debt Crisis",
+      "description": "Standardized BFA→MFA→gallery career path produces ~40,000 graduates per year against a market that cannot absorb them; highest unemployment rate, tuition cost, and student debt of any degree, with average income below high school diploma holders"
+    }
+  ],
+  "quotes": [
+    "Just as contemporary scientists liberate the inexhaustible energy of the atom, the painters of our day must liberate the inexhaustible energy reservoir of visual associations. — György Kepes",
+    "Those in the learning stage benefit most by being immersed among working artists. Only then can they learn what his subjects are, methods of inspiration, moral attitudes, and what's being done now. — Robert Motherwell",
+    "No doubt many prospective students found the suggestion that they could attain professional celebrity and radical integrity, particularly alluring. — Judith Adler",
+    "Art is a highly-admised Bohemian subculture that prizes anarchistic individualism, eccentricity, and spontaneous behavior. On the other hand, academia is a bureaucratic work organization that stresses procedure, routine, and formal titles. — Judith Adler",
+    "The conceptual artist doesn't create literary allegories through beautiful or mysterious things, but is merely a clerk, cataloging the informational results of his own premise. — Saul Whit",
+    "Professions that don't have a clearly standardized basis of training tend to create and emphasize pure mannerisms, such as unnecessary jargon, unjustifiably esoteric techniques, and pseudo-paradigm changes. — Magali Sarfatti Larson",
+    "A standard method of cooling is to allow the mark to explode, to cause a scene, to blow his top. If this release of emotions doesn't find a target, then at least it serves a cathartic purpose. — Erving Goffman",
+    "A defining aspect of the avant-garde tradition is the conviction that art movements or individual artists solely die once they've been institutionalized, and that true culture lives on in the endless process of challenging conventions the moment they become established. — Judith Adler",
+    "Learning to create art isn't merely a question of sharpening the power to observe, but of participating in the give and take of one's own time. — 1945 Harvard Committee",
+    "Art school offered revolution without sacrifice and success without compromise. — Brad Tremel",
+    "If the purpose of a system is what it does, then it's clear the purpose of art school is to create professional failure on a mass scale. — Brad Tremel",
+    "The few people who become wealthy artists do so despite art school, not because of it. — Brad Tremel"
+  ],
+  "tags": [
+    "art education",
+    "MFA",
+    "art-speak",
+    "Bauhaus",
+    "avant-garde",
+    "conceptual art",
+    "abstract expressionism",
+    "art market",
+    "student debt",
+    "professional failure",
+    "academia",
+    "career reinvention",
+    "credential inflation",
+    "sociology of art"
+  ]
+}

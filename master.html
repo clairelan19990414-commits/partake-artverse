@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Master Index · partake notes</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+<style>
+
+/* ── Master-page overrides ── */
+.master-hero {
+  background: var(--text);
+  padding: 60px 64px 52px;
+  border-bottom: 3px solid var(--accent);
+}
+.master-eyebrow {
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 14px;
+}
+.master-title {
+  font-family: var(--mono);
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin-bottom: 18px;
+}
+.master-desc {
+  font-size: 0.88rem;
+  color: #888;
+  max-width: 700px;
+  line-height: 1.8;
+  border-left: 3px solid var(--accent);
+  padding-left: 20px;
+}
+.master-stats {
+  margin-top: 24px;
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+.master-stat {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  color: #555;
+}
+.master-stat strong { color: var(--accent); font-size: 1.1rem; font-weight: 700; margin-right: 4px; }
+
+/* ── Threads ── */
+.threads-list { display: flex; flex-direction: column; gap: 16px; }
+.thread-card {
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+.thread-header {
+  background: var(--text);
+  padding: 14px 22px;
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+.thread-number {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  color: var(--accent);
+  letter-spacing: 0.12em;
+}
+.thread-name {
+  font-family: var(--mono);
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #fff;
+}
+.thread-tagline {
+  font-size: 0.72rem;
+  color: #555;
+  margin-left: auto;
+  font-style: italic;
+}
+.thread-body { padding: 16px 22px 20px; }
+.thread-desc {
+  font-size: 0.78rem;
+  color: var(--text-2);
+  line-height: 1.7;
+  margin-bottom: 14px;
+  max-width: 760px;
+}
+.thread-path {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.thread-node {
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  padding: 4px 10px;
+  border: 1px solid var(--border-2);
+  white-space: nowrap;
+}
+.thread-node.report {
+  background: var(--text);
+  color: var(--accent);
+  border-color: #333;
+  text-decoration: none;
+}
+.thread-node.report:hover { border-color: var(--accent); text-decoration: none; }
+.thread-node.concept {
+  background: var(--accent-dim);
+  color: var(--text-2);
+  border-color: rgba(45,140,0,0.2);
+}
+.thread-arrow {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--accent);
+  opacity: 0.5;
+}
+.thread-concepts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 10px;
+}
+.thread-concept-pill {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  padding: 2px 8px;
+  border: 1px solid var(--border-2);
+  color: var(--text-3);
+  background: var(--bg-2);
+}
+
+/* ── Figures grid ── */
+.figures-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+.figure-card {
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  overflow: hidden;
+  transition: border-color 0.15s;
+}
+.figure-card:hover { border-color: var(--accent); }
+.figure-img-wrap {
+  width: 100%;
+  aspect-ratio: 1;
+  background: var(--bg-2);
+  overflow: hidden;
+  position: relative;
+}
+.figure-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.figure-img.loaded { opacity: 1; }
+.figure-placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--mono);
+  font-size: 0.58rem;
+  color: var(--text-3);
+}
+.figure-info { padding: 12px 14px; }
+.figure-name {
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+.figure-count {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+.figure-reports { display: flex; flex-wrap: wrap; gap: 4px; }
+.figure-report-tag {
+  font-family: var(--mono);
+  font-size: 0.56rem;
+  padding: 1px 6px;
+  border: 1px solid var(--border-2);
+  color: var(--text-3);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.figure-report-tag:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+
+/* ── Bridging concepts ── */
+.bridge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+}
+.bridge-card {
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  padding: 14px 18px;
+}
+.bridge-name {
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+.bridge-count {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+.bridge-reports { display: flex; flex-wrap: wrap; gap: 4px; }
+.bridge-report-tag {
+  font-family: var(--mono);
+  font-size: 0.58rem;
+  padding: 2px 7px;
+  border: 1px solid var(--border-2);
+  color: var(--text-3);
+  text-decoration: none;
+}
+.bridge-report-tag:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+
+/* ── All reports list ── */
+.all-reports-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 8px;
+}
+.all-report-row {
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  padding: 12px 18px;
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  text-decoration: none;
+  transition: border-color 0.15s;
+}
+.all-report-row:hover { border-color: var(--accent); text-decoration: none; }
+.all-report-num {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  color: var(--accent);
+  flex-shrink: 0;
+  width: 28px;
+}
+.all-report-title {
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: var(--text);
+  flex: 1;
+}
+.all-report-arrow {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  color: var(--accent);
+  opacity: 0.6;
+}
+
+@media (max-width: 700px) {
+  .master-hero { padding: 36px 24px; }
+  .master-title { font-size: 1.6rem; }
+  .thread-tagline { display: none; }
+}
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <a class="nav-logo" href="index.html">partake</a>
+  <div class="nav-links">
+    <a class="nav-link" href="index.html">home</a>
+    <a class="nav-link active" href="master.html">synthesis</a>
+  </div>
+</nav>
+
+<header class="master-hero">
+  <div class="master-eyebrow">Master Index · 2025–2026 · Cross-Report Synthesis</div>
+  <h1 class="master-title">THE SYNTHESIS REPORT</h1>
+  <p class="master-desc">A map of recurring figures, bridging concepts, and thematic threads drawn from all reports in this archive. Where single reports trace one argument, this page reveals the connections — the figures who appear everywhere, the concepts that migrate across disciplines, and the five threads that run through all of it.</p>
+  <div class="master-stats">
+    <div class="master-stat"><strong>18</strong> reports</div>
+    <div class="master-stat"><strong>5</strong> thematic threads</div>
+    <div class="master-stat"><strong>12</strong> recurring figures</div>
+    <div class="master-stat"><strong>18</strong> bridging concepts</div>
+  </div>
+</header>
+
+<div class="page-body">
+
+  <!-- THEMATIC THREADS -->
+  <section>
+    <div class="section-label">Thematic Threads</div>
+    <div class="threads-list">
+
+      <div class="thread-card">
+        <div class="thread-header">
+          <span class="thread-number">Thread 01</span>
+          <span class="thread-name">THE ECONOMY OF ATTENTION</span>
+          <span class="thread-tagline">How finance warped culture</span>
+        </div>
+        <div class="thread-body">
+          <p class="thread-desc">Zero interest rate policy flooded Silicon Valley with capital that had nowhere else to go. That capital bought growth at the expense of quality, created the Millennial Lifestyle Subsidy, and — when rates rose — cashed out by turning every platform and cultural product into a monetization engine. Slop, hustle culture, cloutbombing, and the NFT bubble are all downstream of the same balance sheet.</p>
+          <div class="thread-path">
+            <a class="thread-node report" href="zerp_slop.html">ZERP Slop</a>
+            <span class="thread-arrow">→</span>
+            <span class="thread-node concept">Enshittification</span>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="the_hustle_report.html">Hustle</a>
+            <span class="thread-arrow">→</span>
+            <span class="thread-node concept">Millennial Lifestyle Subsidy</span>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="the_cloutbombing_report.html">Cloutbombing</a>
+            <span class="thread-arrow">→</span>
+            <span class="thread-node concept">Derivative Media</span>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="the_nft_report.html">NFT</a>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="the_contemporary_art_report.html">Contemporary Art</a>
+          </div>
+          <div class="thread-concepts">
+            <span class="thread-concept-pill">ZERP</span>
+            <span class="thread-concept-pill">Blitz Scaling</span>
+            <span class="thread-concept-pill">Enshittification</span>
+            <span class="thread-concept-pill">Slop</span>
+            <span class="thread-concept-pill">Brain Rot</span>
+            <span class="thread-concept-pill">Hustle Culture</span>
+            <span class="thread-concept-pill">Cloutbombing</span>
+            <span class="thread-concept-pill">NFT Bubble</span>
+            <span class="thread-concept-pill">Derivative Media</span>
+            <span class="thread-concept-pill">Millennial Lifestyle Subsidy</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="thread-card">
+        <div class="thread-header">
+          <span class="thread-number">Thread 02</span>
+          <span class="thread-name">THE ART INSTITUTION COLLAPSE</span>
+          <span class="thread-tagline">How the art world ate itself</span>
+        </div>
+        <div class="thread-body">
+          <p class="thread-desc">The CIA weaponized Abstract Expressionism as Cold War propaganda, establishing the template for art funded by ideology rather than conviction. That template produced the MFA industrial complex — credential inflation, elite overproduction, and artspeak as gatekeeping language. The collapse of that gatekeeping produced celebrity art, selfie museums, and a contemporary art world where representation replaced quality as the primary criterion.</p>
+          <div class="thread-path">
+            <a class="thread-node report" href="the_cia_ab_ex_psyop_report_audio_fixed.html">CIA AB-EX Psyop</a>
+            <span class="thread-arrow">→</span>
+            <span class="thread-node concept">Art for Art's Sake</span>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="the_art_school_report.html">Art School</a>
+            <span class="thread-arrow">→</span>
+            <span class="thread-node concept">Elite Overproduction</span>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="the_artspeak_report.html">Artspeak</a>
+            <span class="thread-arrow">→</span>
+            <span class="thread-node concept">International Art English</span>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="the_celebrity_artist_report.html">Celebrity Artist</a>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="the_selfie_museum_report.html">Selfie Museum</a>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="post_internet.html">Post-Internet</a>
+          </div>
+          <div class="thread-concepts">
+            <span class="thread-concept-pill">Abstract Expressionism</span>
+            <span class="thread-concept-pill">MFA Crisis</span>
+            <span class="thread-concept-pill">Elite Overproduction</span>
+            <span class="thread-concept-pill">Artspeak</span>
+            <span class="thread-concept-pill">Credential Inflation</span>
+            <span class="thread-concept-pill">Celebrity Art</span>
+            <span class="thread-concept-pill">Big Fun Art</span>
+            <span class="thread-concept-pill">Post-Internet</span>
+            <span class="thread-concept-pill">Zombie Formalism</span>
+            <span class="thread-concept-pill">Conceptual Art</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="thread-card">
+        <div class="thread-header">
+          <span class="thread-number">Thread 03</span>
+          <span class="thread-name">THE CULTURE WAR MACHINE</span>
+          <span class="thread-tagline">The radicalization pipeline</span>
+        </div>
+        <div class="thread-body">
+          <p class="thread-desc">The hipster's ironic detachment curdled into the meme wars. The left's inability to communicate beyond in-group signaling created a vacuum that the right filled with transgression, apophenia, and eventually QAnon. Cancel culture provided the enforcement mechanism, literalism provided the moral panic, and the contemporary art world became the staging ground where all these tensions played out simultaneously.</p>
+          <div class="thread-path">
+            <a class="thread-node report" href="the_hipster_report.html">Hipster</a>
+            <span class="thread-arrow">→</span>
+            <span class="thread-node concept">Irony Poisoning</span>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="the_left_cant_meme_report.html">Left Can't Meme</a>
+            <span class="thread-arrow">→</span>
+            <span class="thread-node concept">Gamergate</span>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="the_cancelled_report.html">Cancelled</a>
+            <span class="thread-arrow">→</span>
+            <span class="thread-node concept">Apophenia</span>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="the_literalists.html">Literalists</a>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="the_q_report_is_back.html">QAnon</a>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="the_contemporary_art_report.html">Contemporary Art</a>
+          </div>
+          <div class="thread-concepts">
+            <span class="thread-concept-pill">Irony vs. Earnestness</span>
+            <span class="thread-concept-pill">Meme Magic</span>
+            <span class="thread-concept-pill">Gamergate</span>
+            <span class="thread-concept-pill">Cancel Culture</span>
+            <span class="thread-concept-pill">Satanic Panic</span>
+            <span class="thread-concept-pill">Apophenia</span>
+            <span class="thread-concept-pill">QAnon</span>
+            <span class="thread-concept-pill">Literalism</span>
+            <span class="thread-concept-pill">Hyperstition</span>
+            <span class="thread-concept-pill">Context Collapse</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="thread-card">
+        <div class="thread-header">
+          <span class="thread-number">Thread 04</span>
+          <span class="thread-name">THE SELF AS PRODUCT</span>
+          <span class="thread-tagline">Identity under late capitalism</span>
+        </div>
+        <div class="thread-body">
+          <p class="thread-desc">Byung-Chul Han's Achievement Society demands that individuals become their own HR departments, branding themselves for maximum productivity. Hustle culture, healing culture, and pastel millennial aesthetics are three responses to the same underlying pressure — perform wellness, perform success, perform authenticity — all while the platforms that host those performances extract value from every post.</p>
+          <div class="thread-path">
+            <a class="thread-node report" href="the_healing_report.html">Healing</a>
+            <span class="thread-arrow">→</span>
+            <span class="thread-node concept">Achievement Society</span>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="the_hustle_report.html">Hustle</a>
+            <span class="thread-arrow">→</span>
+            <span class="thread-node concept">Burnout</span>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="pastel_hell_the_definitive_guide_to_millennial_aesthetics.html">Pastel Hell</a>
+            <span class="thread-arrow">→</span>
+            <span class="thread-node concept">Parasocial Trust</span>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="the_cancelled_report.html">Cancelled</a>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="the_celebrity_artist_report.html">Celebrity Artist</a>
+          </div>
+          <div class="thread-concepts">
+            <span class="thread-concept-pill">Achievement Society</span>
+            <span class="thread-concept-pill">Burnout</span>
+            <span class="thread-concept-pill">Therapy Speak</span>
+            <span class="thread-concept-pill">Hustle Culture</span>
+            <span class="thread-concept-pill">Sigma Male</span>
+            <span class="thread-concept-pill">Parasocial Relationship</span>
+            <span class="thread-concept-pill">Main Character Syndrome</span>
+            <span class="thread-concept-pill">Contained Crisis</span>
+            <span class="thread-concept-pill">Woo / Manifesting</span>
+            <span class="thread-concept-pill">Narcissism as Survival</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="thread-card">
+        <div class="thread-header">
+          <span class="thread-number">Thread 05</span>
+          <span class="thread-name">THE AESTHETICS OF NETWORKS</span>
+          <span class="thread-tagline">How the internet changed what art looks like</span>
+        </div>
+        <div class="thread-body">
+          <p class="thread-desc">Post-Internet art named the condition: artists whose entire visual sensibility was formed online. That condition spread outward — the selfie museum democratized Instagram-native spectacle, cloutbombing turned virality into the artwork itself, and the slop economy completed the loop by making algorithmic content indistinguishable from art. The Poor Image and the AI-generated thumbnail are the same object at different points in the same arc.</p>
+          <div class="thread-path">
+            <a class="thread-node report" href="post_internet.html">Post-Internet</a>
+            <span class="thread-arrow">→</span>
+            <span class="thread-node concept">Poor Image</span>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="the_selfie_museum_report.html">Selfie Museum</a>
+            <span class="thread-arrow">→</span>
+            <span class="thread-node concept">Big Fun Art</span>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="the_cloutbombing_report.html">Cloutbombing</a>
+            <span class="thread-arrow">→</span>
+            <span class="thread-node concept">Scenes Without Territories</span>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="the_contemporary_art_report.html">Contemporary Art</a>
+            <span class="thread-arrow">→</span>
+            <a class="thread-node report" href="zerp_slop.html">ZERP Slop</a>
+          </div>
+          <div class="thread-concepts">
+            <span class="thread-concept-pill">Post-Internet</span>
+            <span class="thread-concept-pill">Poor Image</span>
+            <span class="thread-concept-pill">Normcore</span>
+            <span class="thread-concept-pill">Digital Dualism</span>
+            <span class="thread-concept-pill">Big Fun Art</span>
+            <span class="thread-concept-pill">Cloutbombing</span>
+            <span class="thread-concept-pill">Dead Internet Theory</span>
+            <span class="thread-concept-pill">Slop</span>
+            <span class="thread-concept-pill">Echoic Behavior</span>
+            <span class="thread-concept-pill">Zombie Formalism</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- RECURRING FIGURES -->
+  <section>
+    <div class="section-label">Recurring Figures</div>
+    <div class="figures-grid">
+
+      <div class="figure-card">
+        <div class="figure-img-wrap">
+          <img class="figure-img" data-wiki="Donald_Trump" alt="Donald Trump">
+          <div class="figure-placeholder">loading…</div>
+        </div>
+        <div class="figure-info">
+          <div class="figure-name">Donald Trump</div>
+          <div class="figure-count">▶ appears in 7 reports</div>
+          <div class="figure-reports">
+            <a class="figure-report-tag" href="the_cancelled_report.html">cancelled</a>
+            <a class="figure-report-tag" href="the_contemporary_art_report.html">contemporary art</a>
+            <a class="figure-report-tag" href="the_hustle_report.html">hustle</a>
+            <a class="figure-report-tag" href="the_left_cant_meme_report.html">left can't meme</a>
+            <a class="figure-report-tag" href="pastel_hell_the_definitive_guide_to_millennial_aesthetics.html">pastel hell</a>
+            <a class="figure-report-tag" href="the_q_report_is_back.html">qanon</a>
+            <a class="figure-report-tag" href="the_nft_report.html">nft</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="figure-card">
+        <div class="figure-img-wrap">
+          <img class="figure-img" data-wiki="Clement_Greenberg" alt="Clement Greenberg">
+          <div class="figure-placeholder">loading…</div>
+        </div>
+        <div class="figure-info">
+          <div class="figure-name">Clement Greenberg</div>
+          <div class="figure-count">▶ appears in 2 reports</div>
+          <div class="figure-reports">
+            <a class="figure-report-tag" href="the_artspeak_report.html">artspeak</a>
+            <a class="figure-report-tag" href="the_cia_ab_ex_psyop_report_audio_fixed.html">cia ab-ex</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="figure-card">
+        <div class="figure-img-wrap">
+          <img class="figure-img" data-wiki="Jackson_Pollock" alt="Jackson Pollock">
+          <div class="figure-placeholder">loading…</div>
+        </div>
+        <div class="figure-info">
+          <div class="figure-name">Jackson Pollock</div>
+          <div class="figure-count">▶ appears in 2 reports</div>
+          <div class="figure-reports">
+            <a class="figure-report-tag" href="the_artspeak_report.html">artspeak</a>
+            <a class="figure-report-tag" href="the_cia_ab_ex_psyop_report_audio_fixed.html">cia ab-ex</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="figure-card">
+        <div class="figure-img-wrap">
+          <img class="figure-img" data-wiki="Barack_Obama" alt="Barack Obama">
+          <div class="figure-placeholder">loading…</div>
+        </div>
+        <div class="figure-info">
+          <div class="figure-name">Barack Obama</div>
+          <div class="figure-count">▶ appears in 3 reports</div>
+          <div class="figure-reports">
+            <a class="figure-report-tag" href="zerp_slop.html">zerp slop</a>
+            <a class="figure-report-tag" href="pastel_hell_the_definitive_guide_to_millennial_aesthetics.html">pastel hell</a>
+            <a class="figure-report-tag" href="the_nft_report.html">nft</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="figure-card">
+        <div class="figure-img-wrap">
+          <img class="figure-img" data-wiki="Peter_Thiel" alt="Peter Thiel">
+          <div class="figure-placeholder">loading…</div>
+        </div>
+        <div class="figure-info">
+          <div class="figure-name">Peter Thiel</div>
+          <div class="figure-count">▶ appears in 2 reports</div>
+          <div class="figure-reports">
+            <a class="figure-report-tag" href="zerp_slop.html">zerp slop</a>
+            <a class="figure-report-tag" href="the_cloutbombing_report.html">cloutbombing</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="figure-card">
+        <div class="figure-img-wrap">
+          <img class="figure-img" data-wiki="Freddie_deBoer" alt="Freddie deBoer">
+          <div class="figure-placeholder">loading…</div>
+        </div>
+        <div class="figure-info">
+          <div class="figure-name">Freddie deBoer</div>
+          <div class="figure-count">▶ appears in 2 reports</div>
+          <div class="figure-reports">
+            <a class="figure-report-tag" href="the_cloutbombing_report.html">cloutbombing</a>
+            <a class="figure-report-tag" href="the_healing_report.html">healing</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="figure-card">
+        <div class="figure-img-wrap">
+          <img class="figure-img" data-wiki="Ben_Davis_(art_critic)" alt="Ben Davis">
+          <div class="figure-placeholder">loading…</div>
+        </div>
+        <div class="figure-info">
+          <div class="figure-name">Ben Davis</div>
+          <div class="figure-count">▶ appears in 2 reports</div>
+          <div class="figure-reports">
+            <a class="figure-report-tag" href="the_hipster_report.html">hipster</a>
+            <a class="figure-report-tag" href="the_selfie_museum_report.html">selfie museum</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="figure-card">
+        <div class="figure-img-wrap">
+          <img class="figure-img" data-wiki="Jean_Baudrillard" alt="Jean Baudrillard">
+          <div class="figure-placeholder">loading…</div>
+        </div>
+        <div class="figure-info">
+          <div class="figure-name">Jean Baudrillard</div>
+          <div class="figure-count">▶ appears in 2 reports</div>
+          <div class="figure-reports">
+            <a class="figure-report-tag" href="pastel_hell_the_definitive_guide_to_millennial_aesthetics.html">pastel hell</a>
+            <a class="figure-report-tag" href="the_nft_report.html">nft</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="figure-card">
+        <div class="figure-img-wrap">
+          <img class="figure-img" data-wiki="Kamala_Harris" alt="Kamala Harris">
+          <div class="figure-placeholder">loading…</div>
+        </div>
+        <div class="figure-info">
+          <div class="figure-name">Kamala Harris</div>
+          <div class="figure-count">▶ appears in 3 reports</div>
+          <div class="figure-reports">
+            <a class="figure-report-tag" href="the_cancelled_report.html">cancelled</a>
+            <a class="figure-report-tag" href="pastel_hell_the_definitive_guide_to_millennial_aesthetics.html">pastel hell</a>
+            <a class="figure-report-tag" href="the_nft_report.html">nft</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="figure-card">
+        <div class="figure-img-wrap">
+          <img class="figure-img" data-wiki="Taylor_Swift" alt="Taylor Swift">
+          <div class="figure-placeholder">loading…</div>
+        </div>
+        <div class="figure-info">
+          <div class="figure-name">Taylor Swift</div>
+          <div class="figure-count">▶ appears in 2 reports</div>
+          <div class="figure-reports">
+            <a class="figure-report-tag" href="the_contemporary_art_report.html">contemporary art</a>
+            <a class="figure-report-tag" href="the_left_cant_meme_report.html">left can't meme</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="figure-card">
+        <div class="figure-img-wrap">
+          <img class="figure-img" data-wiki="Andy_Warhol" alt="Andy Warhol">
+          <div class="figure-placeholder">loading…</div>
+        </div>
+        <div class="figure-info">
+          <div class="figure-name">Andy Warhol</div>
+          <div class="figure-count">▶ appears in 2 reports</div>
+          <div class="figure-reports">
+            <a class="figure-report-tag" href="the_celebrity_artist_report.html">celebrity artist</a>
+            <a class="figure-report-tag" href="the_selfie_museum_report.html">selfie museum</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="figure-card">
+        <div class="figure-img-wrap">
+          <img class="figure-img" data-wiki="Byung-Chul_Han" alt="Byung-Chul Han">
+          <div class="figure-placeholder">loading…</div>
+        </div>
+        <div class="figure-info">
+          <div class="figure-name">Byung-Chul Han</div>
+          <div class="figure-count">▶ appears in 2 reports</div>
+          <div class="figure-reports">
+            <a class="figure-report-tag" href="the_healing_report.html">healing</a>
+            <a class="figure-report-tag" href="the_contemporary_art_report.html">contemporary art</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BRIDGING CONCEPTS -->
+  <section>
+    <div class="section-label">Bridging Concepts</div>
+    <div class="bridge-grid">
+
+      <div class="bridge-card">
+        <div class="bridge-name">Cancel Culture</div>
+        <div class="bridge-count">▶ 4 reports</div>
+        <div class="bridge-reports">
+          <a class="bridge-report-tag" href="the_cancelled_report.html">cancelled</a>
+          <a class="bridge-report-tag" href="the_literalists.html">literalists</a>
+          <a class="bridge-report-tag" href="the_left_cant_meme_report.html">left can't meme</a>
+          <a class="bridge-report-tag" href="the_contemporary_art_report.html">contemporary art</a>
+        </div>
+      </div>
+
+      <div class="bridge-card">
+        <div class="bridge-name">QAnon</div>
+        <div class="bridge-count">▶ 4 reports</div>
+        <div class="bridge-reports">
+          <a class="bridge-report-tag" href="the_q_report_is_back.html">qanon</a>
+          <a class="bridge-report-tag" href="the_literalists.html">literalists</a>
+          <a class="bridge-report-tag" href="the_left_cant_meme_report.html">left can't meme</a>
+          <a class="bridge-report-tag" href="the_contemporary_art_report.html">contemporary art</a>
+        </div>
+      </div>
+
+      <div class="bridge-card">
+        <div class="bridge-name">NFT / Crypto Art</div>
+        <div class="bridge-count">▶ 4 reports</div>
+        <div class="bridge-reports">
+          <a class="bridge-report-tag" href="the_nft_report.html">nft</a>
+          <a class="bridge-report-tag" href="the_celebrity_artist_report.html">celebrity artist</a>
+          <a class="bridge-report-tag" href="the_contemporary_art_report.html">contemporary art</a>
+          <a class="bridge-report-tag" href="the_hustle_report.html">hustle</a>
+        </div>
+      </div>
+
+      <div class="bridge-card">
+        <div class="bridge-name">Conceptual Art</div>
+        <div class="bridge-count">▶ 4 reports</div>
+        <div class="bridge-reports">
+          <a class="bridge-report-tag" href="post_internet.html">post-internet</a>
+          <a class="bridge-report-tag" href="the_art_school_report.html">art school</a>
+          <a class="bridge-report-tag" href="the_artspeak_report.html">artspeak</a>
+          <a class="bridge-report-tag" href="the_selfie_museum_report.html">selfie museum</a>
+        </div>
+      </div>
+
+      <div class="bridge-card">
+        <div class="bridge-name">Abstract Expressionism</div>
+        <div class="bridge-count">▶ 3 reports</div>
+        <div class="bridge-reports">
+          <a class="bridge-report-tag" href="the_cia_ab_ex_psyop_report_audio_fixed.html">cia ab-ex</a>
+          <a class="bridge-report-tag" href="the_art_school_report.html">art school</a>
+          <a class="bridge-report-tag" href="the_artspeak_report.html">artspeak</a>
+        </div>
+      </div>
+
+      <div class="bridge-card">
+        <div class="bridge-name">Parasocial Relationship</div>
+        <div class="bridge-count">▶ 3 reports</div>
+        <div class="bridge-reports">
+          <a class="bridge-report-tag" href="the_cancelled_report.html">cancelled</a>
+          <a class="bridge-report-tag" href="the_cloutbombing_report.html">cloutbombing</a>
+          <a class="bridge-report-tag" href="the_contemporary_art_report.html">contemporary art</a>
+        </div>
+      </div>
+
+      <div class="bridge-card">
+        <div class="bridge-name">MFA / Art School</div>
+        <div class="bridge-count">▶ 3 reports</div>
+        <div class="bridge-reports">
+          <a class="bridge-report-tag" href="the_art_school_report.html">art school</a>
+          <a class="bridge-report-tag" href="the_artspeak_report.html">artspeak</a>
+          <a class="bridge-report-tag" href="the_celebrity_artist_report.html">celebrity artist</a>
+        </div>
+      </div>
+
+      <div class="bridge-card">
+        <div class="bridge-name">Post-Internet Art</div>
+        <div class="bridge-count">▶ 3 reports</div>
+        <div class="bridge-reports">
+          <a class="bridge-report-tag" href="post_internet.html">post-internet</a>
+          <a class="bridge-report-tag" href="the_selfie_museum_report.html">selfie museum</a>
+          <a class="bridge-report-tag" href="the_contemporary_art_report.html">contemporary art</a>
+        </div>
+      </div>
+
+      <div class="bridge-card">
+        <div class="bridge-name">Elite Overproduction</div>
+        <div class="bridge-count">▶ 2 reports</div>
+        <div class="bridge-reports">
+          <a class="bridge-report-tag" href="the_art_school_report.html">art school</a>
+          <a class="bridge-report-tag" href="the_artspeak_report.html">artspeak</a>
+        </div>
+      </div>
+
+      <div class="bridge-card">
+        <div class="bridge-name">Millennial Lifestyle Subsidy</div>
+        <div class="bridge-count">▶ 2 reports</div>
+        <div class="bridge-reports">
+          <a class="bridge-report-tag" href="zerp_slop.html">zerp slop</a>
+          <a class="bridge-report-tag" href="the_contemporary_art_report.html">contemporary art</a>
+        </div>
+      </div>
+
+      <div class="bridge-card">
+        <div class="bridge-name">Satanic Panic</div>
+        <div class="bridge-count">▶ 2 reports</div>
+        <div class="bridge-reports">
+          <a class="bridge-report-tag" href="the_literalists.html">literalists</a>
+          <a class="bridge-report-tag" href="the_contemporary_art_report.html">contemporary art</a>
+        </div>
+      </div>
+
+      <div class="bridge-card">
+        <div class="bridge-name">Apophenia</div>
+        <div class="bridge-count">▶ 2 reports</div>
+        <div class="bridge-reports">
+          <a class="bridge-report-tag" href="the_q_report_is_back.html">qanon</a>
+          <a class="bridge-report-tag" href="the_literalists.html">literalists</a>
+        </div>
+      </div>
+
+      <div class="bridge-card">
+        <div class="bridge-name">Hyperstition</div>
+        <div class="bridge-count">▶ 2 reports</div>
+        <div class="bridge-reports">
+          <a class="bridge-report-tag" href="zerp_slop.html">zerp slop</a>
+          <a class="bridge-report-tag" href="the_left_cant_meme_report.html">left can't meme</a>
+        </div>
+      </div>
+
+      <div class="bridge-card">
+        <div class="bridge-name">Cloutbombing</div>
+        <div class="bridge-count">▶ 2 reports</div>
+        <div class="bridge-reports">
+          <a class="bridge-report-tag" href="the_cloutbombing_report.html">cloutbombing</a>
+          <a class="bridge-report-tag" href="the_contemporary_art_report.html">contemporary art</a>
+        </div>
+      </div>
+
+      <div class="bridge-card">
+        <div class="bridge-name">Burnout Society</div>
+        <div class="bridge-count">▶ 2 reports</div>
+        <div class="bridge-reports">
+          <a class="bridge-report-tag" href="the_healing_report.html">healing</a>
+          <a class="bridge-report-tag" href="the_contemporary_art_report.html">contemporary art</a>
+        </div>
+      </div>
+
+      <div class="bridge-card">
+        <div class="bridge-name">International Art English</div>
+        <div class="bridge-count">▶ 2 reports</div>
+        <div class="bridge-reports">
+          <a class="bridge-report-tag" href="the_artspeak_report.html">artspeak</a>
+          <a class="bridge-report-tag" href="the_selfie_museum_report.html">selfie museum</a>
+        </div>
+      </div>
+
+      <div class="bridge-card">
+        <div class="bridge-name">Gamergate</div>
+        <div class="bridge-count">▶ 2 reports</div>
+        <div class="bridge-reports">
+          <a class="bridge-report-tag" href="the_cancelled_report.html">cancelled</a>
+          <a class="bridge-report-tag" href="the_left_cant_meme_report.html">left can't meme</a>
+        </div>
+      </div>
+
+      <div class="bridge-card">
+        <div class="bridge-name">Normcore</div>
+        <div class="bridge-count">▶ 2 reports</div>
+        <div class="bridge-reports">
+          <a class="bridge-report-tag" href="post_internet.html">post-internet</a>
+          <a class="bridge-report-tag" href="the_hipster_report.html">hipster</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ALL REPORTS -->
+  <section>
+    <div class="section-label">All Reports</div>
+    <div class="all-reports-grid">
+      <a class="all-report-row" href="zerp_slop.html">
+        <span class="all-report-num">01</span>
+        <span class="all-report-title">THE ZIRPSLOP REPORT</span>
+        <span class="all-report-arrow">→</span>
+      </a>
+      <a class="all-report-row" href="post_internet.html">
+        <span class="all-report-num">02</span>
+        <span class="all-report-title">THE POST-INTERNET ART REPORT</span>
+        <span class="all-report-arrow">→</span>
+      </a>
+      <a class="all-report-row" href="the_hipster_report.html">
+        <span class="all-report-num">03</span>
+        <span class="all-report-title">THE HIPSTER REPORT</span>
+        <span class="all-report-arrow">→</span>
+      </a>
+      <a class="all-report-row" href="the_artspeak_report.html">
+        <span class="all-report-num">04</span>
+        <span class="all-report-title">THE ARTSPEAK REPORT</span>
+        <span class="all-report-arrow">→</span>
+      </a>
+      <a class="all-report-row" href="the_art_school_report.html">
+        <span class="all-report-num">05</span>
+        <span class="all-report-title">THE ART SCHOOL REPORT</span>
+        <span class="all-report-arrow">→</span>
+      </a>
+      <a class="all-report-row" href="the_cia_ab_ex_psyop_report_audio_fixed.html">
+        <span class="all-report-num">06</span>
+        <span class="all-report-title">THE CIA AB-EX PSYOP REPORT</span>
+        <span class="all-report-arrow">→</span>
+      </a>
+      <a class="all-report-row" href="the_celebrity_artist_report.html">
+        <span class="all-report-num">07</span>
+        <span class="all-report-title">THE CELEBRITY ARTIST REPORT</span>
+        <span class="all-report-arrow">→</span>
+      </a>
+      <a class="all-report-row" href="the_contemporary_art_report.html">
+        <span class="all-report-num">08</span>
+        <span class="all-report-title">THE CONTEMPORARY ART REPORT</span>
+        <span class="all-report-arrow">→</span>
+      </a>
+      <a class="all-report-row" href="the_selfie_museum_report.html">
+        <span class="all-report-num">09</span>
+        <span class="all-report-title">THE SELFIE MUSEUM REPORT</span>
+        <span class="all-report-arrow">→</span>
+      </a>
+      <a class="all-report-row" href="the_cloutbombing_report.html">
+        <span class="all-report-num">10</span>
+        <span class="all-report-title">THE CLOUTBOMBING REPORT</span>
+        <span class="all-report-arrow">→</span>
+      </a>
+      <a class="all-report-row" href="the_cancelled_report.html">
+        <span class="all-report-num">11</span>
+        <span class="all-report-title">THE CANCELLED REPORT</span>
+        <span class="all-report-arrow">→</span>
+      </a>
+      <a class="all-report-row" href="the_left_cant_meme_report.html">
+        <span class="all-report-num">12</span>
+        <span class="all-report-title">THE LEFT CAN'T MEME REPORT</span>
+        <span class="all-report-arrow">→</span>
+      </a>
+      <a class="all-report-row" href="the_q_report_is_back.html">
+        <span class="all-report-num">13</span>
+        <span class="all-report-title">THE Q REPORT IS BACK</span>
+        <span class="all-report-arrow">→</span>
+      </a>
+      <a class="all-report-row" href="the_literalists.html">
+        <span class="all-report-num">14</span>
+        <span class="all-report-title">THE LITERALISTS</span>
+        <span class="all-report-arrow">→</span>
+      </a>
+      <a class="all-report-row" href="the_healing_report.html">
+        <span class="all-report-num">15</span>
+        <span class="all-report-title">THE HEALING REPORT</span>
+        <span class="all-report-arrow">→</span>
+      </a>
+      <a class="all-report-row" href="the_hustle_report.html">
+        <span class="all-report-num">16</span>
+        <span class="all-report-title">THE HUSTLE REPORT</span>
+        <span class="all-report-arrow">→</span>
+      </a>
+      <a class="all-report-row" href="pastel_hell_the_definitive_guide_to_millennial_aesthetics.html">
+        <span class="all-report-num">17</span>
+        <span class="all-report-title">PASTEL HELL: MILLENNIAL AESTHETICS</span>
+        <span class="all-report-arrow">→</span>
+      </a>
+      <a class="all-report-row" href="the_nft_report.html">
+        <span class="all-report-num">18</span>
+        <span class="all-report-title">THE NFT REPORT</span>
+        <span class="all-report-arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+</div>
+
+<footer class="site-footer">
+  partake · synthesis · <a href="index.html">← back to home</a> · images via wikimedia commons
+</footer>
+
+<script>
+async function loadWikiImage(img) {
+  try {
+    const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${img.dataset.wiki}`);
+    const data = await res.json();
+    if (data.thumbnail?.source) {
+      img.src = data.thumbnail.source;
+      img.onload = () => { img.classList.add('loaded'); img.nextElementSibling.style.display = 'none'; };
+    }
+  } catch(e) {}
+}
+document.querySelectorAll('.figure-img[data-wiki]').forEach(loadWikiImage);
+</script>
+</body>
+</html>

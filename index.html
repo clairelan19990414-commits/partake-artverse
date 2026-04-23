@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>partake · notes</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+<style>
+  .home-header {
+    background: var(--text);
+    padding: 72px 64px 60px;
+    border-bottom: 3px solid var(--accent);
+  }
+  .home-logo {
+    font-family: var(--mono);
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: -0.04em;
+    margin-bottom: 10px;
+  }
+  .home-tagline {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #555;
+  }
+  .home-body {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 52px 40px 100px;
+  }
+  .home-section-label {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 24px;
+  }
+  .home-section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+  .reports-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+    gap: 16px;
+  }
+  .report-card {
+    background: var(--bg-1);
+    border: 1px solid var(--border);
+    overflow: hidden;
+    transition: border-color 0.15s, box-shadow 0.15s;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .report-card:hover {
+    border-color: var(--accent);
+    box-shadow: 0 4px 24px rgba(45,140,0,0.12);
+    text-decoration: none;
+  }
+  .report-card-header {
+    background: var(--text);
+    padding: 24px 28px 20px;
+    border-bottom: 2px solid var(--accent);
+  }
+  .report-number {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 8px;
+  }
+  .report-title {
+    font-family: var(--mono);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2;
+  }
+  .report-body { padding: 22px 28px; flex: 1; }
+  .report-subject {
+    font-size: 0.82rem;
+    color: var(--text-2);
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+  .report-stats {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .report-stat {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--text-3);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .report-stat strong { color: var(--accent); font-weight: 700; font-size: 0.78rem; }
+  .report-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+  .report-tag {
+    font-family: var(--mono);
+    font-size: 0.62rem;
+    padding: 2px 8px;
+    border: 1px solid var(--border-2);
+    color: var(--text-3);
+  }
+  .report-footer {
+    padding: 14px 28px;
+    border-top: 1px solid var(--border);
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--accent);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <a class="nav-logo" href="index.html">partake</a>
+  <div class="nav-links">
+    <a class="nav-link active" href="index.html">home</a>
+    <a class="nav-link" href="master.html">synthesis</a>
+  </div>
+</nav>
+
+<header class="home-header">
+  <div class="home-logo">partake<span style="color:#fff">·</span>notes</div>
+  <div class="home-tagline">structured knowledge from video</div>
+</header>
+
+<div class="home-body">
+  <div class="home-section-label">Reports</div>
+  <div class="reports-grid">
+
+    <a class="report-card" href="zerp_slop.html">
+      <div class="report-card-header">
+        <div class="report-number">Report 01 · 2025</div>
+        <div class="report-title">THE ZIRPSLOP REPORT</div>
+      </div>
+      <div class="report-body">
+        <p class="report-subject">Traces the causal chain from Federal Reserve zero interest rate policy through venture capital incentives, platform monopolization, and enshittification — arriving at a landscape of brain rot, grift, and hollowed-out internet culture.</p>
+        <div class="report-stats">
+          <div class="report-stat"><strong>10</strong> key concepts</div>
+          <div class="report-stat"><strong>5</strong> people</div>
+          <div class="report-stat"><strong>1</strong> book</div>
+          <div class="report-stat"><strong>5</strong> movements</div>
+          <div class="report-stat"><strong>7</strong> quotes</div>
+        </div>
+        <div class="report-tags">
+          <span class="report-tag">economics</span>
+          <span class="report-tag">tech culture</span>
+          <span class="report-tag">media criticism</span>
+          <span class="report-tag">enshittification</span>
+          <span class="report-tag">venture capital</span>
+        </div>
+      </div>
+      <div class="report-footer">
+        <span>Brad Troemel · YouTube · ~15 min</span>
+        <span>open →</span>
+      </div>
+    </a>
+
+    <a class="report-card" href="post_internet.html">
+      <div class="report-card-header">
+        <div class="report-number">Report 02 · 2025</div>
+        <div class="report-title">THE POST-INTERNET ART REPORT</div>
+      </div>
+      <div class="report-body">
+        <p class="report-subject">A critical history of post-Internet art — from 1960s art-and-technology collaborations through 1990s net art to the movement's emergence, commercialization, and dilution in the 2010s. Narrated by a participant with no claim to objectivity.</p>
+        <div class="report-stats">
+          <div class="report-stat"><strong>18</strong> key concepts</div>
+          <div class="report-stat"><strong>33</strong> artists</div>
+          <div class="report-stat"><strong>14</strong> critics</div>
+          <div class="report-stat"><strong>17</strong> movements</div>
+          <div class="report-stat"><strong>12</strong> quotes</div>
+        </div>
+        <div class="report-tags">
+          <span class="report-tag">art history</span>
+          <span class="report-tag">net art</span>
+          <span class="report-tag">post-internet</span>
+          <span class="report-tag">platform culture</span>
+          <span class="report-tag">conceptual art</span>
+        </div>
+      </div>
+      <div class="report-footer">
+        <span>Brad Troemel · Patreon · ~70 min</span>
+        <span>open →</span>
+      </div>
+    </a>
+
+
+
+    <a class="report-card" href="the_contemporary_art_report.html">
+      <div class="report-card-header">
+        <div class="report-number">Report 03 · 2026</div>
+        <div class="report-title">THE CONTEMPORARY ART REPORT</div>
+      </div>
+      <div class="report-body">
+        <p class="report-subject">A satirical retrospective lecture covering 20 chapters of contemporary art world shifts from 2015–2025, arguing that political polarization, cancel culture, representative-diversity orthodoxy, NFT speculation, COVID lockdowns, parasocial media, and Silicon Valley indifference collectively eroded art&#x27;s cultural authority. Real controversies (Philip Guston cancellation, Dana Schutz/Whitney protest, QAnon, NFT bubble, AI influencers) are intercut with fictional vignettes to diagnose how art stopped leading culture and began chasing it.</p>
+        <div class="report-stats">
+          <div class="report-stat"><strong>12</strong> key concepts</div>
+          <div class="report-stat"><strong>12</strong> people</div>
+          <div class="report-stat"><strong>8</strong> books</div>
+          <div class="report-stat"><strong>10</strong> movements</div>
+          <div class="report-stat"><strong>12</strong> quotes</div>
+        </div>
+        <div class="report-tags"><span class="report-tag">contemporary art</span><span class="report-tag">art world critique</span><span class="report-tag">2015–2025</span><span class="report-tag">cancel culture</span><span class="report-tag">qanon</span></div>
+      </div>
+      <div class="report-footer">
+        <span>Brad Troemel · Patreon · ~74 min</span>
+        <span>open →</span>
+      </div>
+    </a>
+
+
+    <a class="report-card" href="the_cancelled_report.html">
+      <div class="report-card-header">
+        <div class="report-number">Report 04 · 2026</div>
+        <div class="report-title">THE CANCELLED REPORT</div>
+      </div>
+      <div class="report-body">
+        <p class="report-subject">A long-form video essay tracing cancel culture as a coercive mechanism within a politically stagnant liberalism, arguing that downwardly mobile &quot;fallen professionals&quot; used online mob punishment to enforce ideological conformity and compete for scarce opportunities, and examining why its power has declined through discourse fracture and political realignment after 2022.</p>
+        <div class="report-stats">
+          <div class="report-stat"><strong>12</strong> key concepts</div>
+          <div class="report-stat"><strong>7</strong> people</div>
+          <div class="report-stat"><strong>2</strong> books</div>
+          <div class="report-stat"><strong>10</strong> movements</div>
+          <div class="report-stat"><strong>12</strong> quotes</div>
+        </div>
+        <div class="report-tags"><span class="report-tag">cancel culture</span><span class="report-tag">liberalism</span><span class="report-tag">political theory</span><span class="report-tag">class anxiety</span><span class="report-tag">social media</span></div>
+      </div>
+      <div class="report-footer">
+        <span>Brad Troemel · Patreon · ~53 min</span>
+        <span>open →</span>
+      </div>
+    </a>
+
+
+    <a class="report-card" href="the_art_school_report.html">
+      <div class="report-card-header">
+        <div class="report-number">Report 05 · 2026</div>
+        <div class="report-title">THE ART SCHOOL REPORT</div>
+      </div>
+      <div class="report-body">
+        <p class="report-subject">A critical history of American art schools arguing that the forced merger of avant-garde culture and academia since the 1930s produced an obfuscatory dialect called art-speak, a cycle of professional failure at scale, and financially predatory MFA programs — institutions that commodify the promise of creative community rather than reliably advancing artistic careers.</p>
+        <div class="report-stats">
+          <div class="report-stat"><strong>12</strong> key concepts</div>
+          <div class="report-stat"><strong>12</strong> people</div>
+          <div class="report-stat"><strong>5</strong> books</div>
+          <div class="report-stat"><strong>10</strong> movements</div>
+          <div class="report-stat"><strong>12</strong> quotes</div>
+        </div>
+        <div class="report-tags"><span class="report-tag">art education</span><span class="report-tag">mfa</span><span class="report-tag">art-speak</span><span class="report-tag">bauhaus</span><span class="report-tag">avant-garde</span></div>
+      </div>
+      <div class="report-footer">
+        <span>Brad Troemel · Patreon · ~40 min</span>
+        <span>open →</span>
+      </div>
+    </a>
+
+
+    <a class="report-card" href="the_q_report_is_back.html">
+      <div class="report-card-header">
+        <div class="report-number">Report 06 · 2026</div>
+        <div class="report-title">THE Q REPORT IS BACK!</div>
+      </div>
+      <div class="report-body">
+        <p class="report-subject">A video essay by Brad Troemel analyzing QAnon as a cultural and social phenomenon — examining its 2017 origins on 4chan, its mechanics as a guided-apophenia augmented reality game, and its appeal as a participatory creative outlet for Trump supporters disillusioned by unmet political and cultural expectations.</p>
+        <div class="report-stats">
+          <div class="report-stat"><strong>12</strong> key concepts</div>
+          <div class="report-stat"><strong>12</strong> people</div>
+          <div class="report-stat"><strong>2</strong> books</div>
+          <div class="report-stat"><strong>10</strong> movements</div>
+          <div class="report-stat"><strong>12</strong> quotes</div>
+        </div>
+        <div class="report-tags"><span class="report-tag">qanon</span><span class="report-tag">conspiracy theory</span><span class="report-tag">donald trump</span><span class="report-tag">maga</span><span class="report-tag">4chan</span></div>
+      </div>
+      <div class="report-footer">
+        <span>Brad Troemel · Patreon · ~0 min</span>
+        <span>open →</span>
+      </div>
+    </a>
+
+
+
+
+    <a class="report-card" href="the_healing_report.html">
+      <div class="report-card-header">
+        <div class="report-number">Report 07 · 2026</div>
+        <div class="report-title">THE HEALING REPORT</div>
+      </div>
+      <div class="report-body">
+        <p class="report-subject">A cultural critique by Brad Troemel tracing how neoliberal achievement society replaced institutional disciplinary control with internalized self-optimization, producing universal burnout expressed through therapy-speak self-diagnosis, woo spiritualism, and healing communities. The talk argues that neither therapeutic nor mystical healing methods address the underlying societal cause of burnout, and that structured social rituals and physical community offer more genuine relief.</p>
+        <div class="report-stats">
+          <div class="report-stat"><strong>12</strong> key concepts</div>
+          <div class="report-stat"><strong>12</strong> people</div>
+          <div class="report-stat"><strong>8</strong> books</div>
+          <div class="report-stat"><strong>10</strong> movements</div>
+          <div class="report-stat"><strong>12</strong> quotes</div>
+        </div>
+        <div class="report-tags"><span class="report-tag">healing culture</span><span class="report-tag">neoliberalism</span><span class="report-tag">achievement society</span><span class="report-tag">burnout</span><span class="report-tag">therapy speak</span></div>
+      </div>
+      <div class="report-footer">
+        <span>Brad Troemel · Patreon · ~62 min</span>
+        <span>open →</span>
+      </div>
+    </a>
+
+
+    <a class="report-card" href="the_hipster_report.html">
+      <div class="report-card-header">
+        <div class="report-number">Report 08 · 2026</div>
+        <div class="report-title">THE HIPSTER REPORT</div>
+      </div>
+      <div class="report-body">
+        <p class="report-subject">A comprehensive video essay tracing hipster subculture across four distinct eras (1999–2014), arguing that hipsters emerged from two macro forces—unrestricted internet access to culture and the service economy&#x27;s commodification of lifestyle—and that rather than dying, hipsterdom became the invisible background software of contemporary culture, ultimately transforming into activist identity after 2015.</p>
+        <div class="report-stats">
+          <div class="report-stat"><strong>12</strong> key concepts</div>
+          <div class="report-stat"><strong>12</strong> people</div>
+          <div class="report-stat"><strong>8</strong> books</div>
+          <div class="report-stat"><strong>10</strong> movements</div>
+          <div class="report-stat"><strong>12</strong> quotes</div>
+        </div>
+        <div class="report-tags"><span class="report-tag">hipster</span><span class="report-tag">subculture</span><span class="report-tag">millennials</span><span class="report-tag">gentrification</span><span class="report-tag">indie music</span></div>
+      </div>
+      <div class="report-footer">
+        <span>Brad Troemel · Patreon · ~53 min</span>
+        <span>open →</span>
+      </div>
+    </a>
+
+
+    <a class="report-card" href="the_ai_report.html">
+      <div class="report-card-header">
+        <div class="report-number">Report 09 · 2026</div>
+        <div class="report-title">THE AI REPORT</div>
+      </div>
+      <div class="report-body">
+        <p class="report-subject">A video essay tracing the four eras of American hipster culture (1999–2014), their origins in digital cultural access and the service economy, their corporate representatives (Pitchfork, Vice, American Apparel), and their eventual dissolution into mainstream culture and the successor identity of the social-media-era activist.</p>
+        <div class="report-stats">
+          <div class="report-stat"><strong>12</strong> key concepts</div>
+          <div class="report-stat"><strong>12</strong> people</div>
+          <div class="report-stat"><strong>8</strong> books</div>
+          <div class="report-stat"><strong>10</strong> movements</div>
+          <div class="report-stat"><strong>12</strong> quotes</div>
+        </div>
+        <div class="report-tags"><span class="report-tag">hipster</span><span class="report-tag">millennial culture</span><span class="report-tag">subculture</span><span class="report-tag">gentrification</span><span class="report-tag">indie music</span></div>
+      </div>
+      <div class="report-footer">
+        <span>Brad Troemel · Patreon · ~41 min</span>
+        <span>open →</span>
+      </div>
+    </a>
+
+
+    <a class="report-card" href="the_cloutbombing_report.html">
+      <div class="report-card-header">
+        <div class="report-number">Report 10 · 2026</div>
+        <div class="report-title">THE CLOUTBOMBING REPORT</div>
+      </div>
+      <div class="report-body">
+        <p class="report-subject">A cultural analysis using &quot;cloud bombing&quot; (mass micro-celebrity group photos) as a lens to examine post-COVID shifts in social behavior, parasocial relationships, the collapse of aesthetic connoisseurship into representative diversity, the media mythology of geographic scenes like Dimes Square, and the anti-social habits cultivated during pandemic isolation.</p>
+        <div class="report-stats">
+          <div class="report-stat"><strong>12</strong> key concepts</div>
+          <div class="report-stat"><strong>4</strong> people</div>
+          <div class="report-stat"><strong>1</strong> books</div>
+          <div class="report-stat"><strong>10</strong> movements</div>
+          <div class="report-stat"><strong>12</strong> quotes</div>
+        </div>
+        <div class="report-tags"><span class="report-tag">cloud bombing</span><span class="report-tag">micro-celebrity</span><span class="report-tag">parasocial relationships</span><span class="report-tag">social media</span><span class="report-tag">covid-19</span></div>
+      </div>
+      <div class="report-footer">
+        <span>Brad Troemel · Patreon · ~0 min</span>
+        <span>open →</span>
+      </div>
+    </a>
+
+
+    <a class="report-card" href="the_literalists.html">
+      <div class="report-card-header">
+        <div class="report-number">Report 11 · 2026</div>
+        <div class="report-title">THE LITERALISTS</div>
+      </div>
+      <div class="report-body">
+        <p class="report-subject">A lecture by &quot;Brad&quot; analyzing &quot;literalism&quot;—the willful bad-faith literalization of metaphor—as the common rhetorical engine driving American moral panics, traced across three eras: the 1980s–2000s Satanic Panic, the 2010s campus call-out crusades, and the current &quot;cavefab&quot; era of performative outrage without genuine ideological conviction.</p>
+        <div class="report-stats">
+          <div class="report-stat"><strong>12</strong> key concepts</div>
+          <div class="report-stat"><strong>12</strong> people</div>
+          <div class="report-stat"><strong>8</strong> books</div>
+          <div class="report-stat"><strong>10</strong> movements</div>
+          <div class="report-stat"><strong>12</strong> quotes</div>
+        </div>
+        <div class="report-tags"><span class="report-tag">moral panic</span><span class="report-tag">literalism</span><span class="report-tag">satanic panic</span><span class="report-tag">cancel culture</span><span class="report-tag">media criticism</span></div>
+      </div>
+      <div class="report-footer">
+        <span>Brad Troemel · Patreon · ~0 min</span>
+        <span>open →</span>
+      </div>
+    </a>
+
+
+    <a class="report-card" href="the_left_cant_meme_report.html">
+      <div class="report-card-header">
+        <div class="report-number">Report 12 · 2026</div>
+        <div class="report-title">THE LEFT CANT MEME REPORT</div>
+      </div>
+      <div class="report-body">
+        <p class="report-subject">A video lecture by Brad Troemel analyzing the &quot;left can&#x27;t meme&quot; phenomenon through a comparative history of liberal social media culture and 4chan anonymous culture, tracing their divergent meme philosophies from the late 2000s through Gamergate, the 2016 election meme war, and the post-election hashtag resistance era.</p>
+        <div class="report-stats">
+          <div class="report-stat"><strong>12</strong> key concepts</div>
+          <div class="report-stat"><strong>12</strong> people</div>
+          <div class="report-stat"><strong>8</strong> books</div>
+          <div class="report-stat"><strong>10</strong> movements</div>
+          <div class="report-stat"><strong>12</strong> quotes</div>
+        </div>
+        <div class="report-tags"><span class="report-tag">internet culture</span><span class="report-tag">memes</span><span class="report-tag">political communication</span><span class="report-tag">4chan</span><span class="report-tag">liberalism</span></div>
+      </div>
+      <div class="report-footer">
+        <span>Brad Troemel · Patreon · ~0 min</span>
+        <span>open →</span>
+      </div>
+    </a>
+
+
+    <a class="report-card" href="the_celebrity_artist_report.html">
+      <div class="report-card-header">
+        <div class="report-number">Report 13 · 2026</div>
+        <div class="report-title">THE CELEBRITY ARTIST REPORT</div>
+      </div>
+      <div class="report-body">
+        <p class="report-subject">A critical report by art writer Brad Troemel analyzing the celebrity artist phenomenon in the contemporary art world. Traumel categorizes celebrity artists into four archetypes—ACAs, retiree hobbyists, merchandise grifters, and industry interlopers—and exposes how publicist-driven media narratives manufacture the appearance of artistic legitimacy for cultural insiders, while critics and the art world remain complicit through silence.</p>
+        <div class="report-stats">
+          <div class="report-stat"><strong>12</strong> key concepts</div>
+          <div class="report-stat"><strong>12</strong> people</div>
+          <div class="report-stat"><strong>4</strong> books</div>
+          <div class="report-stat"><strong>8</strong> movements</div>
+          <div class="report-stat"><strong>12</strong> quotes</div>
+        </div>
+        <div class="report-tags"><span class="report-tag">celebrity art</span><span class="report-tag">art criticism</span><span class="report-tag">contemporary art</span><span class="report-tag">art world</span><span class="report-tag">nfts</span></div>
+      </div>
+      <div class="report-footer">
+        <span>Brad Troemel · Patreon · ~0 min</span>
+        <span>open →</span>
+      </div>
+    </a>
+
+
+    <a class="report-card" href="the_hustle_report.html">
+      <div class="report-card-header">
+        <div class="report-number">Report 14 · 2026</div>
+        <div class="report-title">THE HUSTLE REPORT</div>
+      </div>
+      <div class="report-body">
+        <p class="report-subject">A video essay by Brad Troemel tracing hustle culture from its Protestant and American Dream roots through three distinct social media eras — morning-positivity memes, gig economy grind culture, and Web3 crypto scams — arguing that each iteration functions as ideological cover for workers to embrace their own exploitation under conditions of economic precarity.</p>
+        <div class="report-stats">
+          <div class="report-stat"><strong>12</strong> key concepts</div>
+          <div class="report-stat"><strong>12</strong> people</div>
+          <div class="report-stat"><strong>3</strong> books</div>
+          <div class="report-stat"><strong>10</strong> movements</div>
+          <div class="report-stat"><strong>12</strong> quotes</div>
+        </div>
+        <div class="report-tags"><span class="report-tag">hustle culture</span><span class="report-tag">gig economy</span><span class="report-tag">social media</span><span class="report-tag">capitalism</span><span class="report-tag">cryptocurrency</span></div>
+      </div>
+      <div class="report-footer">
+        <span>Brad Troemel · Patreon · ~0 min</span>
+        <span>open →</span>
+      </div>
+    </a>
+
+
+    <a class="report-card" href="the_artspeak_report.html">
+      <div class="report-card-header">
+        <div class="report-number">Report 15 · 2026</div>
+        <div class="report-title">THE ARTSPEAK REPORT</div>
+      </div>
+      <div class="report-body">
+        <p class="report-subject">A video essay by artist Brad Troemel tracing the origins, mechanics, and persistence of &quot;art speak&quot; (a.k.a. International Art English) — the jargon-heavy language of gallery press releases and art world criticism. Trimell argues art speak emerged from two forces: modern art&#x27;s paradoxical return to literary dependency as it dematerialized (literary horseshoe theory), and the academic elite overproduction of MFA graduates competing for scarce art world positions. The essay also dissects art speak&#x27;s grammatical techniques — verbification, dependent clause stacking, liminal framing — and concludes that misplaced ambition in writing must be redirected into the art itself.</p>
+        <div class="report-stats">
+          <div class="report-stat"><strong>12</strong> key concepts</div>
+          <div class="report-stat"><strong>12</strong> people</div>
+          <div class="report-stat"><strong>2</strong> books</div>
+          <div class="report-stat"><strong>10</strong> movements</div>
+          <div class="report-stat"><strong>12</strong> quotes</div>
+        </div>
+        <div class="report-tags"><span class="report-tag">art speak</span><span class="report-tag">international art english</span><span class="report-tag">contemporary art</span><span class="report-tag">art criticism</span><span class="report-tag">art history</span></div>
+      </div>
+      <div class="report-footer">
+        <span>Brad Troemel · Patreon · ~0 min</span>
+        <span>open →</span>
+      </div>
+    </a>
+
+
+    <a class="report-card" href="the_selfie_museum_report.html">
+      <div class="report-card-header">
+        <div class="report-number">Report 16 · 2026</div>
+        <div class="report-title">THE SELFIE MUSEUM REPORT</div>
+      </div>
+      <div class="report-body">
+        <p class="report-subject">A video essay by Brad Troemel tracing the contested history of art museums—from their 19th-century founding by robber-baron heirs through the academic identity-politics turn toward inclusivity—to argue that selfie museums are the logical, troubling endpoint of a decades-long public demand for representation over education, and a case study in how &quot;inclusivity&quot; launders commercial cynicism.</p>
+        <div class="report-stats">
+          <div class="report-stat"><strong>12</strong> key concepts</div>
+          <div class="report-stat"><strong>11</strong> people</div>
+          <div class="report-stat"><strong>5</strong> books</div>
+          <div class="report-stat"><strong>10</strong> movements</div>
+          <div class="report-stat"><strong>12</strong> quotes</div>
+        </div>
+        <div class="report-tags"><span class="report-tag">art history</span><span class="report-tag">museum studies</span><span class="report-tag">selfie culture</span><span class="report-tag">inclusivity</span><span class="report-tag">institutional critique</span></div>
+      </div>
+      <div class="report-footer">
+        <span>Brad Troemel · Patreon · ~0 min</span>
+        <span>open →</span>
+      </div>
+    </a>
+
+
+    <a class="report-card" href="the_cia_ab_ex_psyop_report_audio_fixed.html">
+      <div class="report-card-header">
+        <div class="report-number">Report 17 · 2026</div>
+        <div class="report-title">THE CIA AB-EX PSYOP REPORT - AUDIO FIXED ;)</div>
+      </div>
+      <div class="report-body">
+        <p class="report-subject">A documentary analysis of the CIA&#x27;s covert program to deploy Abstract Expressionism as Cold War soft power, tracing the collaboration between MoMA, the Rockefeller family, and the Congress for Cultural Freedom to position American avant-garde art as a global symbol of individual freedom against Soviet socialist realism — and examining how this engineered the privatization of arts funding in America.</p>
+        <div class="report-stats">
+          <div class="report-stat"><strong>12</strong> key concepts</div>
+          <div class="report-stat"><strong>12</strong> people</div>
+          <div class="report-stat"><strong>8</strong> books</div>
+          <div class="report-stat"><strong>10</strong> movements</div>
+          <div class="report-stat"><strong>12</strong> quotes</div>
+        </div>
+        <div class="report-tags"><span class="report-tag">cold war</span><span class="report-tag">abstract expressionism</span><span class="report-tag">cia</span><span class="report-tag">moma</span><span class="report-tag">propaganda</span></div>
+      </div>
+      <div class="report-footer">
+        <span>Brad Troemel · Patreon · ~0 min</span>
+        <span>open →</span>
+      </div>
+    </a>
+
+
+    <a class="report-card" href="pastel_hell_the_definitive_guide_to_millennial_aesthetics.html">
+      <div class="report-card-header">
+        <div class="report-number">Report 18 · 2026</div>
+        <div class="report-title">PASTEL HELL: THE DEFINITIVE GUIDE TO MILLENNIAL AESTHETICS</div>
+      </div>
+      <div class="report-body">
+        <p class="report-subject">A critical video essay by Brad Troemel analyzing millennial visual aesthetics, tracing digital interface design from skeuomorphism through flat design to neumorphism, and Instagram&#x27;s cultural zeitgeists from brunch photos to selfies to infographics, with analysis of how social media incentive structures, economic anxiety, and political polarization shape collective identity performance and visual culture.</p>
+        <div class="report-stats">
+          <div class="report-stat"><strong>12</strong> key concepts</div>
+          <div class="report-stat"><strong>10</strong> people</div>
+          <div class="report-stat"><strong>3</strong> books</div>
+          <div class="report-stat"><strong>10</strong> movements</div>
+          <div class="report-stat"><strong>12</strong> quotes</div>
+        </div>
+        <div class="report-tags"><span class="report-tag">millennial aesthetics</span><span class="report-tag">skeuomorphism</span><span class="report-tag">flat design</span><span class="report-tag">neumorphism</span><span class="report-tag">social media</span></div>
+      </div>
+      <div class="report-footer">
+        <span>Brad Troemel · Patreon · ~0 min</span>
+        <span>open →</span>
+      </div>
+    </a>
+
+
+
+
+    <a class="report-card" href="the_nft_report.html">
+      <div class="report-card-header">
+        <div class="report-number">Report 19 · 2026</div>
+        <div class="report-title">THE NFT REPORT</div>
+      </div>
+      <div class="report-body">
+        <p class="report-subject">A video essay by Brad Troemel analyzing the evolution of millennial visual aesthetics—skeuomorphism, flat design, and neumorphism—alongside Instagram&#x27;s cultural shifts from brunch posts to selfies to infographics, framed through Baudrillard&#x27;s theory of simulacra and a critique of social media&#x27;s attention-economy incentive structures.</p>
+        <div class="report-stats">
+          <div class="report-stat"><strong>12</strong> key concepts</div>
+          <div class="report-stat"><strong>9</strong> people</div>
+          <div class="report-stat"><strong>1</strong> books</div>
+          <div class="report-stat"><strong>10</strong> movements</div>
+          <div class="report-stat"><strong>12</strong> quotes</div>
+        </div>
+        <div class="report-tags"><span class="report-tag">millennial aesthetics</span><span class="report-tag">flat design</span><span class="report-tag">skeuomorphism</span><span class="report-tag">neumorphism</span><span class="report-tag">social media</span></div>
+      </div>
+      <div class="report-footer">
+        <span>Brad Troemel · Patreon · ~0 min</span>
+        <span>open →</span>
+      </div>
+    </a>
+
+
+  </div>
+</div>
+
+<footer class="site-footer">
+  partake · notes · images via wikimedia commons
+</footer>
+
+</body>
+</html>

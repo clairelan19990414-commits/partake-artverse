@@ -1,0 +1,283 @@
+{
+  "subject_summary": "A video essay tracing the four eras of American hipster culture (1999–2014), their origins in digital cultural access and the service economy, their corporate representatives (Pitchfork, Vice, American Apparel), and their eventual dissolution into mainstream culture and the successor identity of the social-media-era activist.",
+  "key_concepts": [
+    {
+      "name": "Hipster",
+      "definition": "An amateur connoisseur of culture who converts taste refinement into social currency and identity, born from the intersection of digital access and the commodified service economy.",
+      "role": "Central subject traced across four distinct cultural eras."
+    },
+    {
+      "name": "Service Economy",
+      "definition": "A post-industrial economic model where intangible activities and lifestyle experiences replace physical goods as the primary commodity.",
+      "role": "Macro condition that made coolness a viable employment strategy and gave rise to the hipster class."
+    },
+    {
+      "name": "Commodification of Lifestyle",
+      "definition": "The process by which everyday social practices and personal interests are repackaged as for-profit services marketed as identity.",
+      "role": "Explains how taste-making became a profession and hipsters became cultural laborers."
+    },
+    {
+      "name": "Pitchfork Decimal Point",
+      "definition": "Pitchfork's practice of scoring albums to a single decimal (e.g., 8.2) to simulate scientific precision and authority in cultural judgment.",
+      "role": "Gave Pitchfork outsized influence over hipster taste by mimicking empirical objectivity."
+    },
+    {
+      "name": "Gentrification",
+      "definition": "The displacement of low-income urban residents as college-educated creatives moved into cheap neighborhoods, inadvertently raising rents and property values.",
+      "role": "Explains the structural contradictions of hipster urban migration and its role as symptom rather than cause."
+    },
+    {
+      "name": "Lampshading",
+      "definition": "A screenwriting technique of preemptively acknowledging an inconsistency to deflect criticism, applied to hipsters calling each other 'hipster' to authenticate their own identity.",
+      "role": "Describes the reflexive self-distancing that maintained in-group hierarchies."
+    },
+    {
+      "name": "Going Gray Man",
+      "definition": "A doomsday-prepper strategy of blending in with no distinctive markers; adopted as normcore fashion logic in the Gray Era.",
+      "role": "Defines the Gray Era aesthetic of strategic blandness to outflank mainstream adoption."
+    },
+    {
+      "name": "Cool as Social Currency",
+      "definition": "The idea that cultural taste and hipness could be exchanged for jobs, status, or identity compensation in a low-wage creative economy.",
+      "role": "Links hipster connoisseurship to economic precarity and the service economy's demand for self-marketing."
+    },
+    {
+      "name": "Party Photographers",
+      "definition": "Photographers hired at hipster nightlife events to document attendees, offering on-demand social validation and a form of local celebrity.",
+      "role": "Bridged pre-social-media hipster culture with the self-documentation logic of social media."
+    },
+    {
+      "name": "The Activist Identity",
+      "definition": "The post-2015 cultural successor to hipsters, using overt political engagement as the new marker of distinction among college-educated young people.",
+      "role": "Framed as hipsterdom's transformation: same social mechanics, same coolness anxiety, rendered in political rather than aesthetic terms."
+    },
+    {
+      "name": "Indie Sleaze Revival",
+      "definition": "A mid-2020s nostalgic aesthetic movement reviving the raucous, pre-social-media visual and social energy of early-2000s hipster culture.",
+      "role": "Interpreted as a reaction to the joylessness and political earnestness of the activist era."
+    },
+    {
+      "name": "Cultural Taxonomy",
+      "definition": "The compulsive hipster drive to map, rank, and connect all cultural consumption into a singular hierarchy that defines individual taste.",
+      "role": "Explains the paranoid, conspiratorial side of hipster connoisseurship and the appeal of Pitchfork's scoring system."
+    }
+  ],
+  "people": [
+    {
+      "name": "Mark Greif",
+      "role": "Cultural critic; credited with the hipster timeline used to structure the essay's four eras.",
+      "wiki_slug": "Mark_Greif",
+      "note": "Transcript garbles name as 'Mark Reef'; likely Mark Greif, n+1 co-founder who wrote extensively on hipsters."
+    },
+    {
+      "name": "Ian Svenonius",
+      "role": "Musician and writer; cited explaining NPR's campaign to destroy college radio stations in the late 1980s.",
+      "wiki_slug": "Ian_Svenonius",
+      "note": "Transcript spells name as 'Ian Sevenius'; DC punk and garage rock figure also known as a cultural critic."
+    },
+    {
+      "name": "Gavin McInnes",
+      "role": "Co-founder of Vice Magazine; wrote the Dos and Don'ts column that set the social philosophy of Vice's early years.",
+      "wiki_slug": "Gavin_McInnes",
+      "note": "Described in the essay as offering 'pro-social,' fatherly guidance despite his later far-right notoriety."
+    },
+    {
+      "name": "Dov Charney",
+      "role": "Founder of American Apparel; built the brand around ethical domestic manufacturing and provocative advertising.",
+      "wiki_slug": "Dov_Charney",
+      "note": "Transcript garbles name as 'Dubtarny'; later ousted amid sexual harassment lawsuits and massive debt."
+    },
+    {
+      "name": "Ryan McGinley",
+      "role": "Photographer known for intimate, youth-focused imagery in hipster visual culture.",
+      "wiki_slug": "Ryan_McGinley",
+      "note": "Associated with the polaroid-influenced flash aesthetic described in the video."
+    },
+    {
+      "name": "Terry Richardson",
+      "role": "Fashion photographer; part of the hipster photography milieu defined by raw flash and sexual frankness.",
+      "wiki_slug": "Terry_Richardson",
+      "note": "Controversial figure; style characterized by over-exposed flash and provocative imagery."
+    },
+    {
+      "name": "Juergen Teller",
+      "role": "German fashion photographer; grouped with the hipster photography aesthetic circle.",
+      "wiki_slug": "Juergen_Teller",
+      "note": "Transcript garbles name as 'Yurigen Teller.'"
+    },
+    {
+      "name": "Dash Snow",
+      "role": "New York artist and photographer emblematic of the downtown NYC hipster scene.",
+      "wiki_slug": "Dash_Snow",
+      "note": "Died in 2009; associated with reckless downtown art-scene energy of the White and Green eras."
+    },
+    {
+      "name": "Carles",
+      "role": "Anonymous blogger who ran Hipster Runoff (2007–2013), satirizing hipster identity through shifting first-person personas.",
+      "wiki_slug": "Hipster_Runoff",
+      "note": "Named micro-trends the moment they emerged, accelerating their cultural expiration; eventually stopped writing under the pressure of constant posting."
+    },
+    {
+      "name": "Rob Horning",
+      "role": "Cultural critic; quoted on the commodification of lifestyle and post-industrial identity.",
+      "wiki_slug": "Rob_Horning",
+      "note": "Quoted: 'life became a lifestyle sold to us as an ongoing construction project.'"
+    },
+    {
+      "name": "Ben Davis",
+      "role": "Art critic; quoted arguing gentrification's real causes lie in housing policy, not hipster presence.",
+      "wiki_slug": "Ben_Davis_(art_critic)",
+      "note": "Quoted: 'if you're truly concerned with gentrification, you might start with better public housing or rent control.'"
+    },
+    {
+      "name": "Johnny Knoxville",
+      "role": "TV personality and stuntman; host of Jackass, cited as the celebrity face of the White Era's working-class rebel aesthetic.",
+      "wiki_slug": "Johnny_Knoxville",
+      "note": "Jackass (2000) is used as the defining cultural artifact of the White Era's fetish for 'white trash' violence."
+    }
+  ],
+  "books": [
+    {
+      "title": "Jackass (TV series)",
+      "author": "Johnny Knoxville et al.",
+      "year": "2000",
+      "isbn": "N/A",
+      "note": "Embodied the White Era's ironic fetish for working-class white-trash rebellion and mock violence."
+    },
+    {
+      "title": "Hipster Runoff (blog)",
+      "author": "Carles",
+      "year": "2007",
+      "isbn": "N/A",
+      "note": "Satirical blog that named hipster micro-trends the moment they appeared, accelerating their cultural obsolescence."
+    },
+    {
+      "title": "Portlandia (TV series)",
+      "author": "Fred Armisen, Carrie Brownstein",
+      "year": "2011",
+      "isbn": "N/A",
+      "note": "IFC series cited as a defining Gray Era satire of hipster culture becoming self-parodic."
+    },
+    {
+      "title": "Girls (TV series)",
+      "author": "Lena Dunham",
+      "year": "2012",
+      "isbn": "N/A",
+      "note": "HBO series cited as a Gray Era representation of young urban creative-class identity."
+    },
+    {
+      "title": "Broad City (TV series)",
+      "author": "Abbi Jacobson, Ilana Glazer",
+      "year": "2014",
+      "isbn": "N/A",
+      "note": "Comedy Central series grouped with Portlandia and Girls as Gray Era cultural touchstones."
+    },
+    {
+      "title": "How to Be a Man (film)",
+      "author": "Gavin McInnes",
+      "year": "2013",
+      "isbn": "N/A",
+      "note": "Film written by Vice co-founder McInnes, referenced to characterize his 'fatherly' Dos and Don'ts philosophy."
+    },
+    {
+      "title": "Pitchfork Media (publication)",
+      "author": "Ryan Schreiber",
+      "year": "1996",
+      "isbn": "N/A",
+      "note": "Free online music magazine that used decimal scoring to grant scientific authority to indie taste; defined hipster music canon for over a decade."
+    },
+    {
+      "title": "Vice Magazine",
+      "author": "Gavin McInnes, Shane Smith, Suroosh Alvi",
+      "year": "1994",
+      "isbn": "N/A",
+      "note": "Free ad-supported lifestyle magazine and primary cultural guide for hipsters from the late 1990s through the mid-2000s; declined through successive identity crises before bankruptcy."
+    }
+  ],
+  "movements": [
+    {
+      "period": "1999–2003",
+      "name": "White Era Hipsterdom",
+      "description": "First hipster era defined by ironic adoption of working-class Americana: trucker hats, PBR, polaroids, sailor Jerry tattoos, and bands like The Strokes and The White Stripes. Marked a reverse migration of white money back into formerly impoverished cities."
+    },
+    {
+      "period": "2003–2008",
+      "name": "Green Era Hipsterdom",
+      "description": "Second era defined by environmentalism, fair-trade coffee, fixed-gear bikes, skinny jeans, and neo-folk bands with eugenic-sounding names (Animal Collective, Fleet Foxes). Shaped by anti-Iraq War sentiment and a turn toward outdoorsy innocence."
+    },
+    {
+      "period": "2008–2012",
+      "name": "Neon Era Hipsterdom",
+      "description": "Third era of anxiety-masquerading-as-decadence, driven by DJ culture, mashups, Sparks-fueled dance parties, and the proliferation of party photographers. Pitchfork began reviewing mainstream pop; indie and pop boundaries collapsed."
+    },
+    {
+      "period": "2012–2014",
+      "name": "Gray Era Hipsterdom",
+      "description": "Fourth era defined by normcore and muted tones as hipsters adopted 'going gray man' fashion to evade mainstream co-optation. The internet shifted from a secondary document of social life to its primary site."
+    },
+    {
+      "period": "2015–present",
+      "name": "Activist Era",
+      "description": "Post-hipster identity for college-educated young people; replaced aesthetic taste with overt political engagement as the primary marker of distinction. Digital discourse supplanted cultural consumption as the aesthetic battleground."
+    },
+    {
+      "period": "Mid-2020s",
+      "name": "Indie Sleaze Revival",
+      "description": "Nostalgic aesthetic movement reclaiming the raucous visual and social energy of early-2000s hipster culture, interpreted as a reaction to the joylessness and political earnestness of the activist era."
+    },
+    {
+      "period": "1999–2001",
+      "name": "File-Sharing Era",
+      "description": "Napster and subsequent peer-to-peer platforms gave anyone free unlimited access to music and video, democratizing culture and creating the anxiety of infinite choice that defined hipster taste culture."
+    },
+    {
+      "period": "1999–2014",
+      "name": "Hipster Gentrification Wave",
+      "description": "College-educated creatives with negative-ROI humanities degrees migrated into low-income urban neighborhoods, serving as an involuntary colonial vanguard for real estate capital while often being economically worse off than non-college peers."
+    },
+    {
+      "period": "1990s",
+      "name": "Service Economy Transition",
+      "description": "America's full shift from industrial to service-based economy, outsourcing manufacturing abroad and turning lifestyle, identity, and cultural taste into the primary forms of professional capital."
+    },
+    {
+      "period": "2003",
+      "name": "Iraq War Protest Movement",
+      "description": "Mass millennial protests against the U.S. invasion of Iraq raised awareness of American imperial aggression and fossil fuel dependence, triggering the aesthetic and ideological shift from the White Era into the Green Era."
+    }
+  ],
+  "quotes": [
+    "No cultural figures have ever been issued their death certificate as many times as hipsters.",
+    "We're all hipsters now.",
+    "It's not that hipsters died, it's that like the air we breathe, hipsterdom became both invisible and ubiquitous.",
+    "This is how life became a lifestyle sold to us as an ongoing construction project.",
+    "When the fringes got more and more crowded, hipsters turned toward the middle. Having mastered difference, the truly cool attempted to master sameness.",
+    "The creative hipster was merely temporary janitor used to clear the way for those who later bought the apartments they could only ever hope to rent.",
+    "The gentrifying hipster of the odds was the trial subject for what became the millennial generation's motto: You will own nothing and be happy.",
+    "If you're truly concerned with gentrification, you might start with better public housing or rent control, instead of ridiculing girls with bangs and guys wearing tight pants.",
+    "Calling someone else a hipster was a way of saying, look, I know you're thinking I'm a hipster too, but I'm one of the good ones.",
+    "The obsession with scapegoating hipsters for being the cause, rather than a symptom of gentrification, turned out to be an enormous public relations gift to the colleges, policy makers, and real estate firms responsible for it.",
+    "To develop your taste as a means of connection, as a way of finding joyful purpose with others, is a precious thing.",
+    "People should be allowed to make fashion mistakes just as people should be allowed to make un-serious status updates without fear of social abandonment."
+  ],
+  "tags": [
+    "hipster",
+    "millennial culture",
+    "subculture",
+    "gentrification",
+    "indie music",
+    "music criticism",
+    "Pitchfork",
+    "Vice Media",
+    "American Apparel",
+    "service economy",
+    "cultural criticism",
+    "social media",
+    "identity politics",
+    "normcore",
+    "indie sleaze",
+    "cool hunting",
+    "Williamsburg",
+    "digital culture"
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "subject_summary": "A cultural critique by Brad Trimow tracing how neoliberal achievement society replaced institutional disciplinary control with internalized self-optimization, producing universal burnout expressed through therapy-speak self-diagnosis, woo spiritualism, and healing communities. The talk argues that neither therapeutic nor mystical healing methods address the underlying societal cause of burnout, and that structured social rituals and physical community offer more genuine relief.",
+  "key_concepts": [
+    {
+      "name": "Disciplinary Society",
+      "definition": "Social order in which institutions enforce conformity through negative power—prohibition, punishment, and surveillance—telling people what they should and should not be.",
+      "role": "Historical baseline against which achievement society is contrasted; associated with Foucault and Byung-Chul Han."
+    },
+    {
+      "name": "Achievement Society",
+      "definition": "Byung-Chul Han's term for the post-disciplinary regime where positive power replaces prohibition; individuals self-coerce toward limitless self-optimization under the illusion of total freedom.",
+      "role": "Central diagnostic framework of the talk; explains the structural origin of universal burnout."
+    },
+    {
+      "name": "Negative Power",
+      "definition": "Form of authority operating through prohibition and command ('you can't/shouldn't do this'), characteristic of disciplinary institutions.",
+      "role": "Contrasted with positive power to show how coercion evolved from external discipline to internalized self-pressure."
+    },
+    {
+      "name": "Positive Power",
+      "definition": "Coercive force operating through affirmation and possibility ('you can be anything'); more effective than negative power at increasing productivity because it is self-directed and limitless.",
+      "role": "The operative force in achievement society; drives the authentic-self project and eventual burnout."
+    },
+    {
+      "name": "Neoliberalism",
+      "definition": "Political-economic project deregulating markets and enshrining radical individual freedom; eliminates central authority in favor of free markets and self-governing persons.",
+      "role": "Ideological backdrop that dismantled disciplinary society and created the conditions for achievement society."
+    },
+    {
+      "name": "Authentic Self",
+      "definition": "The achievement-society ideal of an individual fully self-realized on their own terms, unencumbered by the demands of others; answerable only to oneself.",
+      "role": "The horizon of perpetual striving whose very limitlessness makes burnout inevitable."
+    },
+    {
+      "name": "Therapy Speak",
+      "definition": "Memified version of Freudian clinical concepts used for social-media self-diagnosis, boundary-setting, and interpersonal power dynamics.",
+      "role": "Analyzed as a discourse that pathologizes ordinary behavior, confers victim status, and mirrors the non-stop self-making it claims to heal."
+    },
+    {
+      "name": "Burnout",
+      "definition": "Inevitable exhaustion resulting from perpetual self-optimization in achievement society; the shared experience that drives both therapy-speak diagnosis and woo healing.",
+      "role": "The universal endpoint of achievement-society logic; the talk's central symptom."
+    },
+    {
+      "name": "Woo / Woo-Spiritualism",
+      "definition": "Broad constellation of scientifically rejected alternative healing methods—astrology, crystals, manifesting, reality shifting—framed as spiritual alternatives to medical orthodoxy.",
+      "role": "Positioned as the mystical parallel to therapy speak; analyzed as exploiting crisis and loneliness while rarely delivering lasting relief."
+    },
+    {
+      "name": "Manifesting",
+      "definition": "Woo practice of using focused intention and positive thought alone to materialize desired outcomes in collaboration with 'the universe.'",
+      "role": "Traced to prosperity gospel and secular self-help; shown to seamlessly merge with positive-power ideology by locating all failure in individual willpower."
+    },
+    {
+      "name": "Narcissism (as Survival Strategy)",
+      "definition": "Christopher Lasch's concept reframed: compulsive self-focus not as grandiosity but as a coping mechanism in the face of an overwhelming external reality one cannot change.",
+      "role": "Explains why achievement society produces relentless self-obsession without traditional narcissistic confidence."
+    },
+    {
+      "name": "Emotional Labor",
+      "definition": "Therapy-speak concept framing social interactions as transactions requiring compensation; used to justify severing relationships that fail to provide constant affirmation.",
+      "role": "Exemplifies how therapy speak turns human connection into a transactional market governed by self-interest."
+    }
+  ],
+  "people": [
+    {
+      "name": "Brad Trimow",
+      "role": "Presenter and cultural critic delivering the talk",
+      "wiki_slug": "",
+      "note": "Author of 'The Healing Report'; synthesizes Han, Foucault, Lasch, and Adorno into a critique of contemporary healing culture."
+    },
+    {
+      "name": "Byung-Chul Han",
+      "role": "South Korean-German philosopher; author of The Burnout Society",
+      "wiki_slug": "Byung-Chul_Han",
+      "note": "Primary theoretical source; his concepts of disciplinary society, achievement society, negative/positive power, and the value of ritual structure the entire talk."
+    },
+    {
+      "name": "Michel Foucault",
+      "role": "French philosopher and social theorist",
+      "wiki_slug": "Michel_Foucault",
+      "note": "Cited alongside Han as the foundational theorist of the disciplinary society and institutional control through surveillance and punishment."
+    },
+    {
+      "name": "Sigmund Freud",
+      "role": "Founder of psychoanalysis",
+      "wiki_slug": "Sigmund_Freud",
+      "note": "Therapy speak is described as a memified version of concepts originating in Freudian talk therapy; also associated with the disciplinary-society era."
+    },
+    {
+      "name": "Christopher Lasch",
+      "role": "American historian and social critic",
+      "wiki_slug": "Christopher_Lasch",
+      "note": "Quoted on narcissism as a survival strategy rather than simple self-aggrandizement, reframing the self-obsession of achievement society."
+    },
+    {
+      "name": "Tyler Austin Harper",
+      "role": "Writer and cultural critic",
+      "wiki_slug": "",
+      "note": "Quoted on positive power encouraging people to treat themselves as startups with a 'pro-growth mindset for personhood.'"
+    },
+    {
+      "name": "Freddie DeBoer",
+      "role": "Writer and blogger",
+      "wiki_slug": "Freddie_deBoer",
+      "note": "Quoted twice: on irrational-confidence girl-boss memes, and on internet communities self-segregating toward extremity by expelling moderate voices."
+    },
+    {
+      "name": "Danielle Carr",
+      "role": "Writer and academic",
+      "wiki_slug": "",
+      "note": "Quoted on how across the political spectrum trauma functions as an identity anchor and the basis for claiming righteous victimhood and power."
+    },
+    {
+      "name": "Tara Isabella Burton",
+      "role": "Author and journalist covering religion and culture",
+      "wiki_slug": "Tara_Isabella_Burton",
+      "note": "Quoted identifying manifesting as part of a long-standing American tradition of conflating spiritual forces with political and economic outcomes."
+    },
+    {
+      "name": "Theodor Adorno",
+      "role": "German philosopher and critical theorist",
+      "wiki_slug": "Theodor_W._Adorno",
+      "note": "Quoted defining woo as a 'secondary superstition' with an abstract, anonymous source, and on how woo avoids fatalism by leaving final choice to the individual."
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "role": "German philosopher",
+      "wiki_slug": "Friedrich_Nietzsche",
+      "note": "Quoted on health rising to divine status after the death of God, framing woo's obsessive body-healing as a quasi-religious substitute."
+    },
+    {
+      "name": "Norman Vincent Peale",
+      "role": "Protestant minister and self-help author",
+      "wiki_slug": "Norman_Vincent_Peale",
+      "note": "Author of The Power of Positive Thinking; cited alongside The Secret as a secular precursor to the manifesting tradition."
+    }
+  ],
+  "books": [
+    {
+      "title": "The Burnout Society",
+      "author": "Byung-Chul Han",
+      "year": "2015",
+      "isbn": "978-0804795098",
+      "note": "English translation of Müdigkeitsgesellschaft (2010); the talk's primary theoretical text, supplying the disciplinary/achievement society framework and the value of ritual."
+    },
+    {
+      "title": "The Culture of Narcissism",
+      "author": "Christopher Lasch",
+      "year": "1979",
+      "isbn": "978-0393307382",
+      "note": "Source for the concept of narcissism as a survival strategy rather than classic self-aggrandizement; directly cited in chapter two."
+    },
+    {
+      "title": "The Secret",
+      "author": "Rhonda Byrne",
+      "year": "2006",
+      "isbn": "978-1582701707",
+      "note": "Secular self-help manifesting guide cited as a direct precursor to contemporary woo manifesting culture."
+    },
+    {
+      "title": "The Power of Positive Thinking",
+      "author": "Norman Vincent Peale",
+      "year": "1952",
+      "isbn": "978-0743234801",
+      "note": "Cited alongside The Secret as an earlier secular prayer guide in the lineage leading to contemporary manifesting."
+    },
+    {
+      "title": "The Stars Down to Earth",
+      "author": "Theodor W. Adorno",
+      "year": "1994",
+      "isbn": "978-0415278270",
+      "note": "Source for Adorno's concept of 'secondary superstition' applied to astrology and woo; the abstract, anonymous nature of their authority structures."
+    },
+    {
+      "title": "Discipline and Punish",
+      "author": "Michel Foucault",
+      "year": "1975",
+      "isbn": "978-0679752554",
+      "note": "Foundational text for the disciplinary-society concept underpinning the talk's opening historical framework."
+    },
+    {
+      "title": "Strange Rites: New Religions for a Godless World",
+      "author": "Tara Isabella Burton",
+      "year": "2020",
+      "isbn": "978-1541618855",
+      "note": "Burton's study of emerging spiritual movements; her observation about manifesting as a long-standing American tradition is quoted in chapter four."
+    },
+    {
+      "title": "In the Swarm: Digital Prospects",
+      "author": "Byung-Chul Han",
+      "year": "2017",
+      "isbn": "978-0262533539",
+      "note": "Related Han work on digital communication and community; informs the talk's contrast between social-media communication and ritual-based community."
+    }
+  ],
+  "movements": [
+    {
+      "period": "17th–mid 20th century",
+      "name": "Disciplinary Society",
+      "description": "Social order enforcing conformity through institutional negative power—punishment, surveillance, and prohibition—as theorized by Foucault and Han."
+    },
+    {
+      "period": "1970s–present",
+      "name": "Neoliberalism",
+      "description": "Political-economic project deregulating markets and enshrining individual freedom; dismantled disciplinary institutions and created the conditions for achievement society."
+    },
+    {
+      "period": "1980s–present",
+      "name": "Achievement Society",
+      "description": "Post-disciplinary regime in which individuals self-coerce toward limitless self-optimization through positive power, producing universal burnout."
+    },
+    {
+      "period": "1950s–present",
+      "name": "Self-Help Movement",
+      "description": "Cultural industry promoting personal improvement, positive thinking, and individual responsibility as sufficient paths to happiness and success."
+    },
+    {
+      "period": "1960s–present",
+      "name": "New Age / Woo-Spiritualism",
+      "description": "Constellation of alternative spiritual practices—astrology, crystals, manifesting, reality shifting—rejecting scientific orthodoxy in favor of cosmic or mystical healing frameworks."
+    },
+    {
+      "period": "Early 20th century–present",
+      "name": "Prosperity Gospel",
+      "description": "Evangelical Christian theology equating material wealth with divine favor through tithing and prayer; identified as a direct root of contemporary manifesting culture."
+    },
+    {
+      "period": "1990s–present",
+      "name": "Therapy Culture",
+      "description": "Mainstream spread of therapeutic language into everyday life and social media identity, pathologizing ordinary emotional experience and conferring victim status."
+    },
+    {
+      "period": "2010s–present",
+      "name": "Hustle Culture",
+      "description": "Ideology valorizing nonstop entrepreneurial self-investment, passive income, and pump-and-dump speculation as means of escaping wage labor."
+    },
+    {
+      "period": "1990s–present",
+      "name": "Polyamory Movement",
+      "description": "Practice and advocacy of consensual non-monogamy framed as liberation from repressive relationship norms; analyzed as reproducing achievement-society bureaucratic logic."
+    },
+    {
+      "period": "1980s–present",
+      "name": "Life Coaching and MLM Healing Industry",
+      "description": "Commercialized personal-development industry blending therapeutic, spiritual, and entrepreneurial frameworks; gateway to both benign retreats and predatory cults."
+    }
+  ],
+  "quotes": [
+    "Positive power encourages us to think of ourselves as our own startups, adopting a pro-growth mindset for our personhood and deregulating our desires. — Tyler Austin Harper",
+    "Rituals provide a distance from the self. They create community without communication, whereas social media offers communication without community. — Byung-Chul Han",
+    "After the death of God, health rose to divine status. — Nietzsche",
+    "Many stories about the internet are really about one particular dynamic, small groups oriented around a particular passion finding each other, then self-segregating into even smaller communities that expel anyone who urges restraint. — Freddie DeBoer",
+    "Our trauma is the guarantor of what we believe we are owed. — Danielle Carr",
+    "Once we were whole, but now we're not. Yet this wound provides our new identity — at once the thing that gives us the right to speak and the only thing we have left to say when we do. — Danielle Carr",
+    "While the idea of manifesting may seem modern, the instinct to conflate spiritual forces, political and economic outcomes, and our own personal desires, is a long-standing American tradition. — Tara Burton",
+    "[Woo is] a secondary superstition, a belief whose source remains entirely abstract, unapproachable and anonymous to the viewer. — Adorno",
+    "Woo attempts to get away from unpopular fatalism by establishing outward forces operating on the individual's decision and then leaving the ultimate choice to him. — Adorno",
+    "Positive power created the conditions for every person to view themselves as their own boss, and because everyone has always hated their boss, everyone now hates themselves. — Brad Trimow",
+    "The tragedy of our time is that we're encouraged to imagine ourselves as an infinite series of cans, going to crash against a material reality still firmly governed by all too human limitations. — Brad Trimow",
+    "There is no fully individualized healing solution to what is a society-wide burnout problem. — Brad Trimow"
+  ],
+  "tags": [
+    "healing culture",
+    "neoliberalism",
+    "achievement society",
+    "burnout",
+    "therapy speak",
+    "woo spiritualism",
+    "self-help",
+    "Byung-Chul Han",
+    "cultural criticism",
+    "authentic self",
+    "manifesting",
+    "polyamory",
+    "hustle culture",
+    "self-diagnosis",
+    "social media",
+    "narcissism",
+    "positive power",
+    "ritual",
+    "identity politics",
+    "prosperity gospel"
+  ]
+}

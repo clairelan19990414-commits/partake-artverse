@@ -1,0 +1,283 @@
+{
+  "subject_summary": "A satirical retrospective lecture covering 20 chapters of contemporary art world shifts from 2015–2025, arguing that political polarization, cancel culture, representative-diversity orthodoxy, NFT speculation, COVID lockdowns, parasocial media, and Silicon Valley indifference collectively eroded art's cultural authority. Real controversies (Philip Guston cancellation, Dana Schutz/Whitney protest, QAnon, NFT bubble, AI influencers) are intercut with fictional vignettes to diagnose how art stopped leading culture and began chasing it.",
+  "key_concepts": [
+    {
+      "name": "Literalism",
+      "definition": "The willful misreading of metaphor or satire to justify moral outrage, collapsing artistic representation into literal reality.",
+      "role": "Central mechanism by which art's interpretive range narrowed during the Trump era; produced sanitized, message-first work."
+    },
+    {
+      "name": "Context Collapse",
+      "definition": "The process by which any online content becomes reframed by the largest and angriest audience, regardless of original subject or intent.",
+      "role": "Amplified literalism and chilling effects on artistic risk-taking throughout the 2010s–2020s."
+    },
+    {
+      "name": "Representative Diversity",
+      "definition": "A critical standard that evaluates exhibitions by the demographic identities of participants rather than aesthetic or formal criteria.",
+      "role": "Replaced avant-gardeism and beauty as the dominant framework for institutional judgment after 2017."
+    },
+    {
+      "name": "Standpoint Theory for Painting",
+      "definition": "The position that only victim-designated identity groups may represent or address their own experience in visual art.",
+      "role": "Introduced to the broader art world via the Dana Schutz / Open Casket controversy; reframed galleries as identity-reparations mechanisms."
+    },
+    {
+      "name": "Parasocial Relationship",
+      "definition": "A one-sided emotional bond between a fan and a celebrity or influencer, experienced as mutual intimacy but structurally controlled entirely by the public figure.",
+      "role": "Replaced in-person art scenes as the primary social structure of art-world engagement by the 2020s."
+    },
+    {
+      "name": "Millennial Lifestyle Subsidy",
+      "definition": "The vast ecosystem of venture-capital-subsidized goods and services (rideshares, co-working, meal kits) that artificially lowered urban living costs for downwardly mobile graduates.",
+      "role": "Allowed art-school graduates to linger in gentrifying neighborhoods without their paychecks matching their lifestyles; masked precarity."
+    },
+    {
+      "name": "Redship Art",
+      "definition": "Art purchased as a lifestyle prop—instantly legible as 'art' in a social media post—characterized by oversized figurines, pop-culture mashups, and celebrity portraits.",
+      "role": "Represented a new collector class (hip-hop moguls, influencers) who valued spectacle and status signaling over institutional or aesthetic criteria."
+    },
+    {
+      "name": "NFT (Non-Fungible Token)",
+      "definition": "Blockchain-verified digital property rights sold predominantly in cryptocurrency, marketed to artists as a new direct-sales channel.",
+      "role": "Temporarily merged Silicon Valley speculative capital with art-world desperation during COVID; functioned as exit liquidity for crypto recruiters."
+    },
+    {
+      "name": "Cloudbombing",
+      "definition": "A viral group-portrait format in which ~50 high-follower individuals are assembled and photographed together to trigger a repost chain reaction across parasocial networks.",
+      "role": "Replaced organic scene documentation with engineered feed saturation; exposed how manufactured 'scenes' had become."
+    },
+    {
+      "name": "Safetyism",
+      "definition": "The assumption that symbolic or representational discomfort constitutes genuine harm, outsourcing artistic judgment to imaginary offended third parties.",
+      "role": "Drove institutional risk-aversion and the cancellation of works like Philip Guston's retrospective; later weaponized against pro-Palestinian artists."
+    },
+    {
+      "name": "Burnout Society",
+      "definition": "A condition in which hustle-culture pressures and the art world's fetishization of tortured creativity turned ordinary career failure into felt proof of personal defect.",
+      "role": "Fueled a cottage industry of art-world coaches and self-diagnosis; transformed emotional struggle into marketable identity."
+    },
+    {
+      "name": "Cancellation",
+      "definition": "A social media–driven campaign to destroy a person's reputation and sever their institutional relationships, used both by progressive activists and, later, by well-organized reactionary groups.",
+      "role": "Transformed galleries, museums, and schools from exploratory spaces into platforms aligned with activist demands; the rhetoric was ultimately turned against its originators."
+    }
+  ],
+  "people": [
+    {
+      "name": "Philip Guston",
+      "role": "American painter; his 1960s satirical Klan paintings were indefinitely canceled by four museums in 2020 and became the defining cancellation case of the era.",
+      "wiki_slug": "Philip_Guston",
+      "note": "Retrospective was canceled, then reopened with added 'continuation paintings' by his estate, then denounced by the ADL; slated to reopen again in 2027."
+    },
+    {
+      "name": "Dana Schutz",
+      "role": "American painter whose 2016 work Open Casket (depicting Emmett Till) was exhibited at the Whitney Biennial and became the flashpoint for standpoint-theory debates.",
+      "wiki_slug": "Dana_Schutz",
+      "note": "Hannah Black led a protest demanding the painting be destroyed on the grounds that a white woman had no right to depict Black suffering."
+    },
+    {
+      "name": "Hannah Black",
+      "role": "British-German artist and writer who authored the open letter calling for the destruction of Dana Schutz's Open Casket at the 2017 Whitney Biennial.",
+      "wiki_slug": "Hannah_Black_(artist)",
+      "note": "Her intervention introduced standpoint theory for painting to mainstream art-world discourse."
+    },
+    {
+      "name": "Coco Fusco",
+      "role": "Cuban-American performance artist and scholar; mentioned as having a sculpture of Trump-as-Tin-Man that was punched by the fictional activist Mark Jefferies.",
+      "wiki_slug": "Coco_Fusco",
+      "note": "Appears in a satirical vignette; the incident described is fictional."
+    },
+    {
+      "name": "Pablo Picasso",
+      "role": "Spanish painter cited as the first artist whose mass-media fame made him a celebrity outside the art world; his 1971 retrospective established the blockbuster exhibition model.",
+      "wiki_slug": "Pablo_Picasso",
+      "note": "Used as the origin point for a satirical chain-letter tracing celebrity-artist interconnections across the contemporary art world."
+    },
+    {
+      "name": "Hannah Gadsby",
+      "role": "Australian comedian whose Brooklyn Museum exhibition 'It's Problematic' engaged Picasso's legacy through a clapback-driven format.",
+      "wiki_slug": "Hannah_Gadsby",
+      "note": "Exhibition described satirically as relying on her celebrity as much as Picasso's; framed as a symptom of celebrity-art crossover."
+    },
+    {
+      "name": "Taylor Swift",
+      "role": "American musician; the subject of a radicalized fan union (TSFU) that demanded revenue sharing and creative control, and of a subsequent AI personalization app called 'Taylor'd'.",
+      "wiki_slug": "Taylor_Swift",
+      "note": "The fan union and Taylor'd app are presented as satirical but plausible extrapolations of real parasocial dynamics."
+    },
+    {
+      "name": "Stand Watie",
+      "role": "Cherokee leader and the only Native American to reach Brigadier General in the Confederate Army; the last Confederate general to surrender; subject of a contested Oklahoma monument.",
+      "wiki_slug": "Stand_Watie",
+      "note": "His statue became a strange-bedfellows flashpoint uniting Proud Boys and queer revisionists; ultimately bisected and split between a Confederate museum and the LGBTQ+ Museum."
+    },
+    {
+      "name": "Lil Miquela",
+      "role": "CGI-rendered virtual influencer launched by creative studio Brud in 2016; her feed was eventually handed over to AI trained on fan comments, leading to incoherence and suspension.",
+      "wiki_slug": "Lil_Miquela",
+      "note": "Used as the concluding case study on AI and art; her decline into bot-generated spam is described as more honest about AI's nature than her human-scripted origins."
+    },
+    {
+      "name": "Jonathan Greenblatt",
+      "role": "CEO of the Anti-Defamation League; successfully called for the closure of the Philip Guston retrospective on grounds of antisemitism.",
+      "wiki_slug": "Jonathan_Greenblatt",
+      "note": "His intervention—citing a post-mortem collaboration featuring a pro-Palestinian clansman in a keffiyeh—is presented as ironic payback for the art world's own cancellation logic."
+    },
+    {
+      "name": "Donald Trump",
+      "role": "45th and 47th US President; his election, administration, and re-election provide the overarching political backdrop for all 20 chapters.",
+      "wiki_slug": "Donald_Trump",
+      "note": "Described as the shadow over all art from the past decade; also quoted (verbatim from a Chinatown Art Brigade statement) in a speech about Venezuelan immigrants."
+    },
+    {
+      "name": "Kanye West",
+      "role": "American musician and artist who exhibited work at Blumen Po; cited in the celebrity-art chain as a commender of Willow Smith's exhibition.",
+      "wiki_slug": "Kanye_West",
+      "note": "Appears in a satirical chain-letter of celebrity-artist interconnections; no specific work is critically evaluated."
+    }
+  ],
+  "books": [
+    {
+      "title": "Open Casket",
+      "author": "Dana Schutz",
+      "year": "2016",
+      "isbn": "",
+      "note": "Oil painting depicting Emmett Till in his open casket; exhibited at the 2017 Whitney Biennial; became the central flashpoint for standpoint-theory debates in art."
+    },
+    {
+      "title": "Philip Guston's 1960s Klan Paintings (retrospective body of work)",
+      "author": "Philip Guston",
+      "year": "1968",
+      "isbn": "",
+      "note": "Satirical figurative paintings depicting bumbling Klansmen; universally read as critiques of banal evil; their 2020 museum cancellation is the report's primary cancellation case study."
+    },
+    {
+      "title": "VCBNB (installation)",
+      "author": "K-hole",
+      "year": "2016",
+      "isbn": "",
+      "note": "Immersive installation in New York's Chinatown furnished entirely with VC-backed startup products obtained via promo codes, then listed on Airbnb; became a lightning rod for gentrification critique."
+    },
+    {
+      "title": "If I Did It (exhibition)",
+      "author": "Vanessa Stock (fictional)",
+      "year": "2021",
+      "isbn": "",
+      "note": "Satirical fictional exhibition in which an artist with self-diagnosed DID used gallery sections to dox their own alter-identities in a three-way callout show; fictional character."
+    },
+    {
+      "title": "The People's Bodies Voices (exhibition)",
+      "author": "Wally De Peermon / Guggenheim (fictional)",
+      "year": "2021",
+      "isbn": "",
+      "note": "Satirical fictional Guggenheim show that was revealed as a conceptual hoax by art advisor Wally De Peermon, who fabricated artists and outsourced paintings to China."
+    },
+    {
+      "title": "It's Problematic (exhibition)",
+      "author": "Hannah Gadsby",
+      "year": "2023",
+      "isbn": "",
+      "note": "Described as a Brooklyn Museum exhibition engaging Picasso's legacy through a celebrity-driven clapback format; presented satirically as symptom of celebrity-art institutional capture."
+    },
+    {
+      "title": "The Daily Squeak (zine)",
+      "author": "Tube City Polycule (fictional)",
+      "year": "2020",
+      "isbn": "",
+      "note": "A fictional hamster-delivered post-it zine of imagined news reports, co-authored by COVID lockdown holdouts who sealed themselves in an Oregon farmhouse; satirical fictional vignette."
+    },
+    {
+      "title": "Bubble Butt Buddies (NFT series)",
+      "author": "Jared Green (fictional)",
+      "year": "2021",
+      "isbn": "",
+      "note": "Fictional NFT series of multicolored twerking cartoons used to satirize the arc of artists entering and losing the NFT market; the character and project are invented for the talk."
+    }
+  ],
+  "movements": [
+    {
+      "period": "1980s–2000s",
+      "name": "Satanic Panic",
+      "description": "Christian-driven moral hysteria claiming that games like Dungeons and Dragons were gateways to demonic possession; fueled a crusade against art and entertainment based on the belief that symbols alone could corrupt minds."
+    },
+    {
+      "period": "2017–present",
+      "name": "QAnon",
+      "description": "A massively multiplayer alternate reality built around cryptic drops from a supposed government insider; functioned as interactive horror fiction and collective political escape for Trump supporters grappling with material disappointment."
+    },
+    {
+      "period": "2017–2021",
+      "name": "Resistance Art",
+      "description": "Art explicitly aligned with anti-Trump mainstream liberalism; preempted criticism by declaring allegiances literally rather than symbolically, producing satirical portraits and slogans at the expense of genuine political analysis."
+    },
+    {
+      "period": "2017–2023",
+      "name": "Representative Diversity Movement",
+      "description": "A shift in art-world critical standards from formal criteria to demographic representation of participants; triggered by the Dana Schutz / Open Casket controversy and fueled by Black Lives Matter collector mania for Black figurative painting."
+    },
+    {
+      "period": "2019–2023",
+      "name": "Cancel Culture in the Art World",
+      "description": "Social media–driven campaigns to destroy reputations and sever institutional ties; exploited the art world's oversupply of participants and scarce jobs; later weaponized by antisemitic groups against pro-Palestinian artists using the same rhetoric."
+    },
+    {
+      "period": "2020–2022",
+      "name": "Dime Square Scene",
+      "description": "A Lower East Side micro-scene promoted as a right-wing counterweight to wokeness; generated far more think pieces than notable artworks; ultimately a mutually reinforced fiction sustained by liberal-media fixation and conservative-media boosting."
+    },
+    {
+      "period": "2020–2022",
+      "name": "NFT Art Bubble",
+      "description": "A speculative boom merging cryptocurrency infrastructure with art-world desperation during COVID gallery closures; artists served as evangelists and exit liquidity for crypto schemes before the market collapsed."
+    },
+    {
+      "period": "2020–2022",
+      "name": "COVID Lockdown Cultural Stasis",
+      "description": "The full inversion of digital and physical art-world realities during pandemic closures; accelerated institutional homogenization, exposed class fault lines between salaried administrators and precarious working artists, and fostered extreme isolation communities."
+    },
+    {
+      "period": "2022–2025",
+      "name": "Parasocial Fan Activism",
+      "description": "The radicalization of parasocial fandom into labor and compensation claims, exemplified by the Taylor Swift Fan Union; met by platforms and artists with AI personalization tools that simulated reciprocity while bypassing actual relationships."
+    },
+    {
+      "period": "2015–2025",
+      "name": "Silicon Valley Cultural Displacement",
+      "description": "The westward shift of economic power from finance to tech, replacing art-collecting as elite status display with startup founding; Silicon Valley's rationalist rejection of interpretive ambiguity contributed to the collapse of the mid-2020s art market."
+    }
+  ],
+  "quotes": [
+    "Works not over. We still need to save the children trapped in the tunnels beneath those kids.",
+    "I'm just going to say, if your art isn't political, if it doesn't mean some of a larger collective struggle for liberation, I don't give a f*** about it.",
+    "Intent doesn't matter, impact does.",
+    "Fan work is real work.",
+    "whenever I liked one of their artist's shows, I bought three pieces because there was no guarantee any art would exist six months later",
+    "In Europe, artists have state-funded counsalls. In America, we have property reimbursement from Liberty Mutual.",
+    "I did not just spend four hours working on this heart piece just to get 16 likes.",
+    "If the only past we preserve is the one that flatters us now, what we're keeping alive isn't history at all. It's propaganda.",
+    "What does the experience of life mean if you're incapable of death?",
+    "Art now occupies a conflicted role. It's sacred enough to draw headlines yet contemptible enough to be smeared in soup.",
+    "VCBNB is just another example of the unwanted invasion into our neighborhood by people who have no interest in assimilating to our way of life.",
+    "you're not meeting the community where they're at. Keep it cute. Keep it simple."
+  ],
+  "tags": [
+    "contemporary art",
+    "art world critique",
+    "2015–2025",
+    "cancel culture",
+    "QAnon",
+    "NFTs",
+    "representative diversity",
+    "parasocial relationships",
+    "gentrification",
+    "COVID lockdowns",
+    "artificial intelligence",
+    "celebrity art",
+    "resistance art",
+    "satire",
+    "institutional critique",
+    "hustle culture",
+    "Silicon Valley",
+    "social media"
+  ]
+}

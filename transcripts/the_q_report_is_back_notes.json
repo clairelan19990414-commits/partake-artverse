@@ -1,0 +1,242 @@
+{
+  "subject_summary": "A video essay by Brad Tremel analyzing QAnon as a cultural and social phenomenon — examining its 2017 origins on 4chan, its mechanics as a guided-apophenia augmented reality game, and its appeal as a participatory creative outlet for Trump supporters disillusioned by unmet political and cultural expectations.",
+  "key_concepts": [
+    {
+      "name": "QAnon",
+      "definition": "A conspiracy theory framework positing a secret apocalyptic war between Trump-aligned military generals and a satanic pedophilic cabal running a global child sex trafficking ring.",
+      "role": "Central subject of the essay; analyzed as a cultural and social phenomenon rather than a truth claim."
+    },
+    {
+      "name": "Adrenochrome",
+      "definition": "A substance QAnon adherents claim is harvested from children's brains as a life-extension potion; central myth of the cabal narrative.",
+      "role": "Motivating horror element in QAnon's internal mythology."
+    },
+    {
+      "name": "Q drops",
+      "definition": "Cryptic, intentionally vague posts released by the anonymous figure 'Q' on 4chan, 8chan, and 8kun message boards.",
+      "role": "Primary mechanism of QAnon content distribution and narrative seeding."
+    },
+    {
+      "name": "Apophenia",
+      "definition": "The tendency to perceive meaningful connections or patterns between unrelated things.",
+      "role": "Core psychological mechanism exploited by QAnon's design to drive belief formation."
+    },
+    {
+      "name": "Guided apophenia",
+      "definition": "Reed Berkowitz's term for QAnon's technique of steering users toward predetermined false conclusions through suggestive but vague prompts, with no actual puzzle or solution.",
+      "role": "Key analytical framework explaining QAnon's effectiveness as a disinformation system."
+    },
+    {
+      "name": "Bakers / bread bakers",
+      "definition": "QAnon community members who interpret Q drops and produce 'bread' — layered interpretations distributed to other followers.",
+      "role": "Distributed authorship layer that expands and sustains the QAnon narrative."
+    },
+    {
+      "name": "Victims in charge",
+      "definition": "A psychological state where Trump supporters simultaneously felt victorious (holding all branches of power) and persecuted as a cultural minority.",
+      "role": "Explains why QAnon's persecution narrative resonated even after electoral victory."
+    },
+    {
+      "name": "The Storm",
+      "definition": "QAnon's prophesied event in which Trump unseals 40,000 indictments and mass-arrests the cabal.",
+      "role": "Eschatological endpoint that keeps followers engaged and anticipatory."
+    },
+    {
+      "name": "Do your own research",
+      "definition": "QAnon's participatory epistemology encouraging followers to independently arrive at conclusions they have been guided toward.",
+      "role": "Transfers ownership of belief to the follower, making the conclusions feel self-discovered and resistant to debunking."
+    },
+    {
+      "name": "Exquisite corpse",
+      "definition": "A surrealist collaborative fiction game in which each participant adds to a narrative without full knowledge of what came before.",
+      "role": "Analogy used to describe QAnon's horizontal, crowd-sourced narrative construction."
+    },
+    {
+      "name": "Conspiracy theory as metaphysics",
+      "definition": "Boris Groys' framing of conspiracy theory as the modern replacement for traditional religious metaphysics — a discourse about the hidden and invisible after the death of God.",
+      "role": "Provides philosophical grounding for why conspiracy theories fill the void left by declining institutional religion."
+    },
+    {
+      "name": "Augmented reality game (ARG)",
+      "definition": "An interactive narrative that blends fictional elements with real-world research and participation; applied by Berkowitz as an analytical model for QAnon.",
+      "role": "Framework showing how QAnon functions as entertainment and community-building rather than sincere belief."
+    }
+  ],
+  "people": [
+    {
+      "name": "Brad Tremel",
+      "role": "Video essayist and narrator; self-described 'meme professor' analyzing QAnon as cultural phenomenon.",
+      "wiki_slug": "",
+      "note": "No known Wikipedia page; presents as an independent online commentator."
+    },
+    {
+      "name": "Donald Trump",
+      "role": "45th U.S. President; QAnon's heroic figurehead, believed by followers to be secretly fighting the cabal.",
+      "wiki_slug": "Donald_Trump",
+      "note": "Shared over 200 QAnon-related items on Twitter; ran 2020 reelection campaign as insurgent outsider while serving as incumbent."
+    },
+    {
+      "name": "Steve Bannon",
+      "role": "Trump campaign strategist and far-right ideologist; co-architect of the nationalist-populist agenda.",
+      "wiki_slug": "Steve_Bannon",
+      "note": "Mentioned as co-author with Trump of a 'blood and soil' agenda that was never enacted."
+    },
+    {
+      "name": "Boris Groys",
+      "role": "Philosopher and art theorist quoted on conspiracy theory as the successor to religious metaphysics.",
+      "wiki_slug": "Boris_Groys",
+      "note": "Quoted: 'following the death of God, the conspiracy theory became the only surviving form of traditional metaphysics.'"
+    },
+    {
+      "name": "Reed Berkowitz",
+      "role": "Game designer who analyzed QAnon as an augmented reality game built on guided apophenia.",
+      "wiki_slug": "",
+      "note": "Authored a widely cited essay describing QAnon as 'a breadcrumb trail away from reality'; no known Wikipedia page."
+    },
+    {
+      "name": "Edward Snowden",
+      "role": "NSA whistleblower; cited as an example of a genuine leaker who released information as directly as possible.",
+      "wiki_slug": "Edward_Snowden",
+      "note": "Contrasted with Q to illustrate that Q functions as fiction rather than whistleblowing."
+    },
+    {
+      "name": "Chelsea Manning",
+      "role": "U.S. Army whistleblower; cited alongside Snowden as a model of authentic classified-information disclosure.",
+      "wiki_slug": "Chelsea_Manning",
+      "note": "Used as contrast to Q's cryptic, unverifiable drops."
+    },
+    {
+      "name": "Michael Flynn",
+      "role": "Trump's former National Security Advisor; described as an outspoken QAnon supporter.",
+      "wiki_slug": "Michael_Flynn",
+      "note": "Cited as an example of mainstream political validation of QAnon."
+    },
+    {
+      "name": "Marjorie Taylor Greene",
+      "role": "U.S. congresswoman; described as the first openly pro-QAnon member of Congress.",
+      "wiki_slug": "Marjorie_Taylor_Greene",
+      "note": "Her election seen by QAnon followers as institutional legitimization of the movement."
+    },
+    {
+      "name": "Sidney Powell",
+      "role": "Trump's election lawyer; described as a QAnon supporter 'since day one.'",
+      "wiki_slug": "Sidney_Powell",
+      "note": "Listed among political figures whose Q-adjacent gestures reinforced follower belief regardless of sincerity."
+    },
+    {
+      "name": "Jim Watkins",
+      "role": "Owner of the 8kun message board; identified as a likely candidate for Q's identity or involvement.",
+      "wiki_slug": "Jim_Watkins_(businessman)",
+      "note": "One of three scenarios the narrator outlines for Q's real identity."
+    },
+    {
+      "name": "JFK Jr.",
+      "role": "Subject of QAnon theory claiming he faked his 1999 death and would return to support Trump.",
+      "wiki_slug": "John_F._Kennedy_Jr.",
+      "note": "Cited as an example of the wild conclusions Anons reach through guided apophenia."
+    }
+  ],
+  "books": [
+    {
+      "title": "A Game Designer's Analysis Of QAnon",
+      "author": "Reed Berkowitz",
+      "year": "2020",
+      "isbn": "",
+      "note": "Published as a Medium essay, not a book; directly quoted in the transcript. Argues QAnon is an ARG built on guided apophenia with no real solution."
+    },
+    {
+      "title": "Introduction to Antiphilosophy",
+      "author": "Boris Groys",
+      "year": "2012",
+      "isbn": "9781844677986",
+      "note": "Groys' essays engage conspiracy, metaphysics, and post-God meaning-making; the specific source of the quoted passage is unconfirmed in the transcript — attributed only to 'Boris Groys.'"
+    }
+  ],
+  "movements": [
+    {
+      "period": "2016–present",
+      "name": "MAGA / Make America Great Again",
+      "description": "Populist nationalist political movement centered on Donald Trump's presidential campaigns; promised cultural restoration, wall construction, swamp-draining, and economic nationalism — most of which was not enacted."
+    },
+    {
+      "period": "2017–present",
+      "name": "QAnon",
+      "description": "Online conspiracy movement originating on 4chan in October 2017; grew into a broad alternate-reality belief system involving a satanic cabal, mass arrests, and Trump as a messianic figure."
+    },
+    {
+      "period": "2016",
+      "name": "Pizzagate",
+      "description": "Predecessor conspiracy theory alleging a Democratic pedophile ring operated out of a Washington D.C. pizza restaurant; collapsed when a believer arrived with a gun and found nothing."
+    },
+    {
+      "period": "1990s–present",
+      "name": "Culture War (United States)",
+      "description": "Ongoing social and political conflict over values, identity, and cultural norms; framed in the essay as a decades-long losing battle for social conservatives that MAGA was supposed to reverse."
+    },
+    {
+      "period": "1970s–present",
+      "name": "Neoliberalism",
+      "description": "Dominant economic ideology of both major U.S. parties emphasizing deregulation, austerity, privatization, and free markets; critiqued as the shared substrate beneath partisan culture-war theater."
+    },
+    {
+      "period": "2017–2021",
+      "name": "Trump Presidency",
+      "description": "Administration of the 45th U.S. President; characterized in the essay as governing as a traditional neoliberal Republican while performing outsider grievance politics rhetorically."
+    },
+    {
+      "period": "2016–present",
+      "name": "Red-pill / Deplorable identity politics",
+      "description": "Online right-wing identity movement framing conservative conversion as a heroic awakening; adherents describe social costs of Trump support as trauma-bonding sacrifices."
+    },
+    {
+      "period": "2016–present",
+      "name": "Digital soldiers movement",
+      "description": "QAnon-adjacent online activist culture treating social media posting and meme-making as a form of information warfare on behalf of Trump."
+    },
+    {
+      "period": "2016–present",
+      "name": "Anti-establishment / Deep State resistance",
+      "description": "Broad political sentiment, spanning left and right, rejecting both major parties and mainstream media as corrupt; fertile ground for QAnon recruitment."
+    },
+    {
+      "period": "2000s–present",
+      "name": "Online chan culture (4chan / 8chan / 8kun)",
+      "description": "Anonymous imageboard ecosystem where QAnon originated and evolved; characterized by irony, extremism, and participatory content creation that shaped QAnon's structure and aesthetics."
+    }
+  ],
+  "quotes": [
+    "following the death of God, the conspiracy theory became the only surviving form of traditional metaphysics as a discourse about the hidden and the invisible, where we once had nature and God, we now have design and conspiracy theory.",
+    "here apophenia is the point of everything. There are no scripted plots. There are no puzzles to solve created by game designers. There are no solutions. QAnon grows on the wild misinterpretation of random data, presented in a suggestive fashion to help users come to the intended misunderstanding.",
+    "They are constantly getting the player lost by pointing out unrelated random events and creating a meaning for them that fits the propaganda message Q is delivering. There is no reality here. No actual solution in the real world. Instead, this is a breadcrumb trail away from reality.",
+    "Q is an augmented reality game based on guided apophenia.",
+    "You didn't tell them what to believe, they found out on their own.",
+    "Q requires active ongoing participation. It's a lot more fun to be the person helping write history than it is to be a passive viewer watching Fox.",
+    "The only way to bring an end to something like QAnon is for politics to offer people a reality worth living.",
+    "No one looks to conspiracy theories to explain their life when things are going well. Conspiracy becomes appealing when life feels out of control or when you've been excluded.",
+    "They would become the victims in charge.",
+    "QAnon isn't the cause of our troubles, but an alarming symptom that people are attempting to create new gods to save them because the old ones have abandoned them.",
+    "The degree to which QAnon has invented a reality, separate from our own, is symptomatic of Americans' collective desire to escape the two-party neoliberal hell we all live in.",
+    "If you believe that politics is downstream from culture, then it's important to look at what's culturally working."
+  ],
+  "tags": [
+    "QAnon",
+    "conspiracy theory",
+    "Donald Trump",
+    "MAGA",
+    "4chan",
+    "8chan",
+    "augmented reality game",
+    "apophenia",
+    "political analysis",
+    "media criticism",
+    "neoliberalism",
+    "culture war",
+    "online radicalization",
+    "misinformation",
+    "Boris Groys",
+    "Reed Berkowitz",
+    "participatory fiction",
+    "populism",
+    "deep state"
+  ]
+}

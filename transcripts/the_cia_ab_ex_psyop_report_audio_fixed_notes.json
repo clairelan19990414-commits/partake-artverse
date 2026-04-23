@@ -1,0 +1,280 @@
+{
+  "subject_summary": "A documentary analysis of the CIA's covert program to deploy Abstract Expressionism as Cold War soft power, tracing the collaboration between MoMA, the Rockefeller family, and the Congress for Cultural Freedom to position American avant-garde art as a global symbol of individual freedom against Soviet socialist realism — and examining how this engineered the privatization of arts funding in America.",
+  "key_concepts": [
+    {
+      "name": "Abstract Expressionism (ABX)",
+      "definition": "American avant-garde painting movement characterized by expressive gestures and absence of pre-ordained formal rules; symbolized individual freedom and was actively deployed as Cold War propaganda.",
+      "role": "Central subject of the CIA's covert cultural operation"
+    },
+    {
+      "name": "Psychological Operations (SIOPs)",
+      "definition": "Covert influence campaigns used to shape foreign perceptions of America and communism without direct military confrontation; cheaper and subtler than conventional warfare.",
+      "role": "Strategic framework within which the CIA art program operated"
+    },
+    {
+      "name": "Art for Art's Sake",
+      "definition": "Aesthetic philosophy arguing art is completely autonomous from social or political reality, governed only by its own intrinsic formal rules.",
+      "role": "Ideological position championed by Alfred Barr and Clement Greenberg to detach ABX from its leftist origins"
+    },
+    {
+      "name": "Social Realism",
+      "definition": "1930s American art movement depicting Depression-era hardship through a left-wing political lens, often tied to communist publications and the Federal Arts Project.",
+      "role": "The dominant American art mode that ABX replaced, making the political shift legible"
+    },
+    {
+      "name": "Socialist Realism",
+      "definition": "Soviet state-mandated art doctrine requiring art to depict idealized communist citizens in heroic or civically minded acts; used as a foil to ABX in American propaganda.",
+      "role": "The artistic enemy against which ABX was positioned as a counter-symbol"
+    },
+    {
+      "name": "Federal Arts Project (FAP)",
+      "definition": "New Deal program (1935–1943) that subsidized public murals and artworks as relief for unemployed artists; many future ABX painters were funded through it.",
+      "role": "Origin point of many Abstract Expressionists' careers and their communist associations"
+    },
+    {
+      "name": "Congress for Cultural Freedom (CCF)",
+      "definition": "CIA-created anti-communist organization founded in 1950 and headquartered in Paris, presenting itself as an independent arts organization while covertly propagating Western democratic culture.",
+      "role": "Primary covert vehicle for CIA-funded American art exhibitions in Europe"
+    },
+    {
+      "name": "Avant-Garde",
+      "definition": "Originally a French military term for vanguard troops advancing ahead of the main force; adopted to describe pioneering art that breaks with convention.",
+      "role": "Linguistic frame connecting artistic innovation to military strategy throughout the narrative"
+    },
+    {
+      "name": "Golden Umbilical Cord",
+      "definition": "Clement Greenberg's metaphor for the financial connection between the avant-garde and its wealthy patrons — the ruling class from whom artists imagined themselves independent but were always funded by.",
+      "role": "Theoretical concept that rationalized Rockefeller patronage of leftist artists"
+    },
+    {
+      "name": "Cultural Hegemony",
+      "definition": "The dominance of one nation's culture over others as a form of power; the video traces how New York displaced Paris as the world's art capital through deliberate political engineering.",
+      "role": "Underlying geopolitical prize the CIA art program was designed to capture"
+    },
+    {
+      "name": "Art Privatization",
+      "definition": "The structural shift from public to private arts funding in America, whereby tax exemptions replaced direct grants, benefiting collectors more than artists.",
+      "role": "Long-term domestic legacy of the Cold War art strategy"
+    },
+    {
+      "name": "New York School",
+      "definition": "The group of mid-20th century Abstract Expressionist artists based in New York — including Pollock, Rothko, and Mitchell — whose work was internationally canonized through CIA-backed exhibitions.",
+      "role": "The specific artistic cohort elevated by the covert program"
+    }
+  ],
+  "people": [
+    {
+      "name": "Nelson Rockefeller",
+      "role": "President of MoMA; Coordinator of Inter-American Affairs; Eisenhower's Cold War strategy advisor overseeing CIA covert operations; central architect of the CIA art program",
+      "wiki_slug": "Nelson_Rockefeller",
+      "note": "Described ABX as 'free enterprise painting'; held over 2,500 ABX works and hung them in Chase Bank buildings"
+    },
+    {
+      "name": "Clement Greenberg",
+      "role": "Influential art critic; editor of CIA-funded Partisan Review; theorized elite patronage of the avant-garde as necessary and inevitable",
+      "wiki_slug": "Clement_Greenberg",
+      "note": "Wrote 'Avant-Garde and Kitsch' (1939); described as 'the main man of CIA modernism' in the video"
+    },
+    {
+      "name": "Meyer Schapiro",
+      "role": "Art historian whose 1937 essay 'The Nature of Abstract Art' theorized abstraction as socially rooted, enabling left-wing artists to embrace non-figurative work",
+      "wiki_slug": "Meyer_Schapiro",
+      "note": "Called 'Serge Gibos' in the transcript (transcription error); warned artists work 'under the illusion of freedom'"
+    },
+    {
+      "name": "Jackson Pollock",
+      "role": "Iconic Abstract Expressionist painter; attended communist workshops in the 1930s; became the public face of American ABX after a 1949 Life magazine centerfold",
+      "wiki_slug": "Jackson_Pollock",
+      "note": "Described as ABX's 'poster boy'; featured in the 1960 Antagonisms exhibition at the Louvre"
+    },
+    {
+      "name": "Alfred H. Barr Jr.",
+      "role": "MoMA president and art critic; argued for art's autonomy from politics; led the domestic media campaign persuading Henry Luce to editorially support ABX",
+      "wiki_slug": "Alfred_H._Barr_Jr.",
+      "note": "Wrote the New York Times editorial 'Is Modern Art Communistic?' (1952)"
+    },
+    {
+      "name": "Thomas W. Braden",
+      "role": "CIA agent; MoMA executive secretary (1948–1949); publicly defended covert cultural operations in his 1967 article 'I'm Glad the CIA Is Immoral'",
+      "wiki_slug": "Thomas_W._Braden",
+      "note": "Explained the need for secrecy: 'It had to be covert because it would have been turned down if it was put to a vote in a democracy'"
+    },
+    {
+      "name": "John Hay Whitney",
+      "role": "MoMA president; member of OSS (CIA precursor); declared MoMA 'a weapon of national defense'; founded J.H. Whitney & Company, described as a CIA money front",
+      "wiki_slug": "John_Hay_Whitney",
+      "note": "Nephew of Gertrude Vanderbilt Whitney, founder of the Whitney Museum"
+    },
+    {
+      "name": "Abby Aldrich Rockefeller",
+      "role": "Co-founder of MoMA (1929); Nelson Rockefeller's mother; supported communist artists as a patronage strategy to neutralize radical politics",
+      "wiki_slug": "Abby_Aldrich_Rockefeller",
+      "note": "Said 'reds would stop being reds if we could just get them some artistic recognition'"
+    },
+    {
+      "name": "Porter McCray",
+      "role": "Director of MoMA's circulating exhibitions; oversaw the cultural section of the Marshall Plan in Paris; aggressively pursued European ABX exhibitions throughout the 1950s",
+      "wiki_slug": "Porter_McCray",
+      "note": "Complained the State Department's art ban 'plays right into the hands of communist'"
+    },
+    {
+      "name": "Diego Rivera",
+      "role": "Mexican Revolutionary muralist supported by Abby Aldrich Rockefeller despite his avowed communist politics; exemplified the Rockefeller co-optation strategy",
+      "wiki_slug": "Diego_Rivera",
+      "note": "Used as evidence that capitalist patronage could compromise communist artists' 'purity'"
+    },
+    {
+      "name": "George Dondero",
+      "role": "Michigan Congressman who publicly called modern art part of 'a worldwide conspiracy to weaken America'; blocked public funding for cultural exports",
+      "wiki_slug": "George_A._Dondero",
+      "note": "His opposition was the direct reason the CIA had to operate covertly, per Thomas Braden"
+    },
+    {
+      "name": "Harry S. Truman",
+      "role": "U.S. President who publicly mocked the Advancing American Art exhibition, accelerating its cancellation and proving Soviet claims of American cultural barbarism",
+      "wiki_slug": "Harry_S._Truman",
+      "note": "Reportedly said 'If this is art, then I am a black man'"
+    }
+  ],
+  "books": [
+    {
+      "title": "How New York Stole the Idea of Modern Art",
+      "author": "Serge Guilbaut",
+      "year": "1983",
+      "isbn": "978-0226310558",
+      "note": "Primary source for the video's narrative; author's name rendered as 'Serge Gibos' in the transcript due to transcription error. Published by University of Chicago Press."
+    },
+    {
+      "title": "The Nature of Abstract Art",
+      "author": "Meyer Schapiro",
+      "year": "1937",
+      "isbn": "",
+      "note": "Essay published in Marxist Quarterly; argued all art, even abstract, is rooted in social conditions — theoretically legitimizing left-wing use of abstraction."
+    },
+    {
+      "title": "Avant-Garde and Kitsch",
+      "author": "Clement Greenberg",
+      "year": "1939",
+      "isbn": "",
+      "note": "Essay published in Partisan Review; argued wealthy Americans should adopt European-style elite patronage of the avant-garde. Later collected in 'Art and Culture' (Beacon Press, 1961)."
+    },
+    {
+      "title": "Is Modern Art Communistic?",
+      "author": "Alfred H. Barr Jr.",
+      "year": "1952",
+      "isbn": "",
+      "note": "New York Times editorial that served as the definitive Cold War culture-warrior talking point, tracing Soviet art's narrowing from 1917 to 1952."
+    },
+    {
+      "title": "I'm Glad the CIA Is Immoral",
+      "author": "Thomas W. Braden",
+      "year": "1967",
+      "isbn": "",
+      "note": "Saturday Evening Post article in which Braden publicly confirmed the CIA's role in funding cultural exports, arguing it won more goodwill than diplomacy could."
+    },
+    {
+      "title": "Partisan Review",
+      "author": "Various (editor: Clement Greenberg)",
+      "year": "1934",
+      "isbn": "",
+      "note": "CIA-funded literary magazine positioned as left-leaning but anti-communist; published T.S. Eliot and George Orwell; used to generate favorable press for American art abroad."
+    },
+    {
+      "title": "Life Magazine (Jackson Pollock feature)",
+      "author": "Henry Luce (publisher)",
+      "year": "1949",
+      "isbn": "",
+      "note": "After MoMA's Alfred Barr persuaded Luce to change his editorial policy, Life ran a centerfold on Pollock placing ABX on middle-class American coffee tables."
+    },
+    {
+      "title": "Look Magazine ('Your Money Bought These Paintings')",
+      "author": "Unknown",
+      "year": "1946",
+      "isbn": "",
+      "note": "The article that triggered conservative political backlash against the Advancing American Art exhibition, leading to its cancellation and the State Department's ban on funding art by artists with communist associations."
+    }
+  ],
+  "movements": [
+    {
+      "period": "1930–1943",
+      "name": "Social Realism (American)",
+      "description": "Art movement depicting Depression-era hardship through a left-wing political lens; tied to communist publications like The New Masses and the Federal Arts Project; the dominant mode before ABX."
+    },
+    {
+      "period": "1935–1943",
+      "name": "Federal Arts Project (New Deal Art)",
+      "description": "Government program subsidizing murals and public works as artist relief; funded many future ABX painters and cemented the association between American artists and communist politics."
+    },
+    {
+      "period": "1932–1991",
+      "name": "Socialist Realism (Soviet)",
+      "description": "Soviet state-mandated art doctrine requiring idealized depictions of communist citizens; used as the primary foil against which ABX was positioned as a symbol of freedom."
+    },
+    {
+      "period": "1939–1945",
+      "name": "WWII Cultural Propaganda",
+      "description": "All major powers — US, Germany, and USSR — promoted national art as a symbol of their way of life; MoMA fulfilled 38 government contracts and mounted 19 Latin American exhibitions under Nelson Rockefeller."
+    },
+    {
+      "period": "1940–1965",
+      "name": "Abstract Expressionism / New York School",
+      "description": "American avant-garde painting movement featuring expressive gesture and non-figuration; elevated from a domestic avant-garde to global art-historical canon through CIA-backed international exhibitions."
+    },
+    {
+      "period": "1946–1947",
+      "name": "Advancing American Art Campaign",
+      "description": "State Department-funded traveling exhibition of 79 American paintings (O'Keeffe, Hartley, Ben Shahn, etc.) sent to Europe and Latin America; canceled after domestic political backlash and sold at 95% loss."
+    },
+    {
+      "period": "1950–1967",
+      "name": "Congress for Cultural Freedom Era",
+      "description": "CIA-created covert cultural organization headquartered in Paris; funded exhibitions, magazines, and intellectual events across Europe to 'fight the battle for Picasso's mind' against Soviet influence."
+    },
+    {
+      "period": "1950–1954",
+      "name": "McCarthyism",
+      "description": "Domestic anti-communist purge led by Senator Joseph McCarthy; paradoxically ran concurrently with the CIA's covert promotion of artists with communist backgrounds, requiring maximum secrecy."
+    },
+    {
+      "period": "1954–1962",
+      "name": "MoMA Venice Biennale Program",
+      "description": "MoMA replaced the State Department as organizer of American participation in the Venice Biennale to avoid public funds touching 'communist' art; the only privately owned pavilion ever to exhibit there."
+    },
+    {
+      "period": "1907–1930s",
+      "name": "Cubism",
+      "description": "European avant-garde movement referenced as a contrast to ABX; cited as an example of art with pre-ordained formal rules, against which ABX's freedom was defined."
+    }
+  ],
+  "quotes": [
+    "In Europe, as well as Latin America, a widespread legend prevails that the United States is a big country, but without tradition, without art, without soul. — Dr. Louise Kintinia, counselor of the Mexican Embassy, 1941",
+    "You will not impress the natives of this continent with statistics on industrial production and other numerical evidence of your material strength. If you esteem our friendship, you must appeal to our hearts, a song, a painting, a monument, will bring you nearer to us. — Dr. Louise Kintinia, 1941",
+    "Reds would stop being reds if we could just get them some artistic recognition. — Abby Aldrich Rockefeller",
+    "It had to be covert because it would have been turned down if it was put to a vote in a democracy. In order to encourage openness, we had to be secret. — Thomas W. Braden, CIA agent",
+    "Abstract Artists work under the illusion of freedom, but don't understand the complexity of their situation, or the tenuousness of their position — they don't grasp the full implications of their work. — Meyer Schapiro, 'The Nature of Abstract Art,' 1937",
+    "As long as our artists are free to create with sincerity and conviction, there will be a healthy controversy in progress in art. How different it is in tyranny when artists are made the slaves and tools of the state, when artists become the chief propagandists of a cause, progress is arrested and creation and genius are destroyed. — President Dwight D. Eisenhower, MoMA 25th Anniversary",
+    "This modern art is actually a means of espionage. If you know how to properly read them, modern paintings will disclose the weak spots in U.S. fortifications, providing secret maps to crucial constructions such as the Boulder Dam. — Los Angeles City Councilman Harold Harvey",
+    "If this is art, then I am a black man. — President Harry S. Truman, on Advancing American Art",
+    "Exhibiting American art abroad won more claim for the US than John Foster Dulles or Dwight D. Eisenhower could have brought with a hundred speeches. — Thomas W. Braden, 'I'm Glad the CIA Is Immoral,' 1967",
+    "[MoMA is] a weapon of national defense. — John Hay Whitney, MoMA press release, 1941",
+    "[J.H. Whitney & Company is] a partnership dedicated to the propagation of the free enterprise system by furnishing the financial backing for new, undeveloped, and risky business that might have trouble attracting investment capital through more conservative channels. — John Hay Whitney",
+    "[The Masterpieces of the 20th Century exhibition] could not have been created by such totalitarian regimes as Nazi Germany or present-day Soviet Russia. — James Sweeney, curator, press release 1952"
+  ],
+  "tags": [
+    "Cold War",
+    "Abstract Expressionism",
+    "CIA",
+    "MoMA",
+    "propaganda",
+    "Rockefeller",
+    "soft power",
+    "art history",
+    "New York School",
+    "Congress for Cultural Freedom",
+    "covert operations",
+    "arts funding",
+    "cultural policy",
+    "Soviet Union",
+    "art patronage"
+  ]
+}

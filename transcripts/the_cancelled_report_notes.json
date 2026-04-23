@@ -1,0 +1,208 @@
+{
+  "subject_summary": "A long-form video essay tracing cancel culture as a coercive mechanism within a politically stagnant liberalism, arguing that downwardly mobile \"fallen professionals\" used online mob punishment to enforce ideological conformity and compete for scarce opportunities, and examining why its power has declined through discourse fracture and political realignment after 2022.",
+  "key_concepts": [
+    {
+      "name": "Cancel Culture",
+      "definition": "Extrajudicial reputational destruction via online mob campaigns, finalized only when employers sign off on firing the target; effective as punishment only within the anxious professional class",
+      "role": "Central subject of analysis; the enforcement mechanism of liberal cultural norms"
+    },
+    {
+      "name": "Fallen Professionals",
+      "definition": "The majority of college graduates forced into low-paying, off-field work who retain educational cultural capital as their primary identity marker despite downward class mobility",
+      "role": "Primary participants in cancel culture campaigns; the group most subject to status anxiety and most likely to cancel peers"
+    },
+    {
+      "name": "Rump Professionals",
+      "definition": "The minority elite of college graduates occupying prestigious jobs in academia, media, politics, and the arts, who cater to fallen professionals' resentment while serving corporate and oligarchic interests",
+      "role": "Architects of the discourse who redirect class resentment away from capital owners and toward internal culture war battles"
+    },
+    {
+      "name": "The Discourse",
+      "definition": "A horizontal, leaderless online consensus-building process that continuously expands permissible speech norms, invents new terminology, and sets evolving liberal cultural etiquette on a post-by-post basis",
+      "role": "The carrot system rewarding participation in liberalism; the source of the rules that cancellations enforce"
+    },
+    {
+      "name": "Status Anxiety",
+      "definition": "Social fear among college graduates that failure to perform woke etiquette will expose their downward class mobility and forfeit the upwardly mobile professional benefits a degree once promised",
+      "role": "Core motivating force sustaining liberal participation in the discourse and in cancellation campaigns"
+    },
+    {
+      "name": "Escalation",
+      "definition": "A rhetorical move that erases one's own role in a mutual conflict, reclassifying it as unilateral abuse, to claim the moral authority to punish the other party without due process or possibility of recourse",
+      "role": "Primary mechanism transforming ordinary conflicts and minor offenses into cancellable events"
+    },
+    {
+      "name": "Parasocial Relationships",
+      "definition": "One-sided emotional bonds fans form with celebrities, experienced subjectively as reciprocal friendships; the fantasy of reciprocity makes perceived offenses by the celebrity feel like personal betrayal",
+      "role": "Motive behind offense-escalated-to-violence cancellations involving public figures and their fan communities"
+    },
+    {
+      "name": "Conflict vs. Abuse",
+      "definition": "The analytical distinction between conflict (a mutual power struggle in which both parties have agency) and abuse (one-sided domination where one party controls the other); conflating the two is the engine of cancel culture",
+      "role": "Analytical frame revealing how cancellations systematically misclassified ordinary conflicts as abuse to justify disproportionate punishment"
+    },
+    {
+      "name": "Cultural Capital",
+      "definition": "Non-economic social currency derived from educational credentials and mastery of elite discourse norms, which fallen professionals deploy to distinguish themselves from workers and justify their self-regard",
+      "role": "The resource fallen professionals protect through exclusive discourse and cancellation of perceived imposters"
+    },
+    {
+      "name": "PR Risk Bar",
+      "definition": "Institutions' internal threshold for removing an employee, calibrated to the volume and speed of negative social media feedback in a borderless, globalized competitive environment",
+      "role": "The institutional mechanism that allowed digital mobs to convert online pressure into real-world terminations"
+    },
+    {
+      "name": "Fratricidal Cancellation",
+      "definition": "Horizontal punishment targeting peers within the same professional class, structurally incapable of reaching capital owners, politicians, or robust institutions who do not depend on social approval",
+      "role": "Reveals the class ceiling of cancel culture's effectiveness and its true function as intra-class competition"
+    },
+    {
+      "name": "Overton Window Expansion",
+      "definition": "The discourse's ongoing process of declaring ever-more-niche positions sacrosanct and inventing ever-more-elaborate terminology, continuously raising the bar for correct opinion-having",
+      "role": "Creates the evolving tripwires participants use to cancel one another as they compete for limited career opportunities"
+    }
+  ],
+  "people": [
+    {
+      "name": "Benjamin Studebaker",
+      "role": "Political theorist and blogger who coined the 'rump professionals' vs. 'fallen professionals' distinction to describe class fractures within college-educated liberalism",
+      "wiki_slug": "Benjamin_Studebaker",
+      "note": "Primarily known through his political blog and essays; may not have a dedicated Wikipedia article"
+    },
+    {
+      "name": "Sarah Schulman",
+      "role": "Author and activist whose framework on conflict vs. abuse and the inflated definition of violence provides the report's core analytical vocabulary throughout",
+      "wiki_slug": "Sarah_Schulman",
+      "note": "Author of 'Conflict Is Not Abuse' (2016, Arsenal Pulp Press); extensively quoted and paraphrased"
+    },
+    {
+      "name": "Claire Dederer",
+      "role": "Author cited for defining parasocial relationships and the logic of cancel culture as a surveillance culture premised on total biographical disclosure about public figures",
+      "wiki_slug": "Claire_Dederer",
+      "note": "Transcribed as 'Claire Deeterer' in the source; author of 'Monsters: A Fan's Dilemma' (2023)"
+    },
+    {
+      "name": "Ben Burgis",
+      "role": "Socialist commentator cited for analyzing the psychological pleasure and competitive incentives—Schadenfreude, self-righteous posturing—that drive pile-on cancellations",
+      "wiki_slug": "Ben_Burgis",
+      "note": "Transcribed as 'Ben Burgess' in the source; Jacobin contributor and author"
+    },
+    {
+      "name": "Donald Trump",
+      "role": "2024 U.S. presidential election winner; his victory is identified as a symptom—not the cause—of the public's broader shift away from cancel culture's social enforcement mechanisms",
+      "wiki_slug": "Donald_Trump",
+      "note": "Referenced as a signal of cultural shift rather than its sole driver"
+    },
+    {
+      "name": "Kamala Harris",
+      "role": "2024 Democratic presidential candidate; cited as the centrist pole against which radical liberal positions were measured, illustrating irreconcilable intra-left splits on Palestine and foreign policy",
+      "wiki_slug": "Kamala_Harris",
+      "note": "Referenced to illustrate 2024 coalition fractures that destroyed discourse consensus"
+    },
+    {
+      "name": "Britney Spears",
+      "role": "Pop star cited as an example of a celebrity whose publicized private life built parasocial fan investment, used to contrast moralized call-outs with tabloid voyeurism",
+      "wiki_slug": "Britney_Spears",
+      "note": "Used as an illustrative example of parasocial dynamics and the entertainment function of cancellations"
+    }
+  ],
+  "books": [
+    {
+      "title": "Conflict Is Not Abuse: Harmdoing, Blame, and the Duty to Struggle",
+      "author": "Sarah Schulman",
+      "year": "2016",
+      "isbn": "978-1-55152-670-6",
+      "note": "Primary theoretical source for the video's framework on conflict vs. abuse and the rhetorical inflation of violence; ISBN is approximate"
+    },
+    {
+      "title": "Monsters: A Fan's Dilemma",
+      "author": "Claire Dederer",
+      "year": "2023",
+      "isbn": "",
+      "note": "Likely source for the parasocial relationship framework and the claim that cancel culture presupposes knowing everything about everyone; ISBN not confirmed from transcript"
+    }
+  ],
+  "movements": [
+    {
+      "period": "2014",
+      "name": "Gamergate",
+      "description": "Online harassment campaign targeting women in gaming culture; cited as a discourse period during which wearing anime merchandise at an awards ceremony became grounds for cancellation"
+    },
+    {
+      "period": "2017–2018",
+      "name": "#MeToo Movement",
+      "description": "Sexual harassment accountability movement that amplified cancel culture's reach into professional workplaces and media industries, including cases of genuine abuse alongside contested interpersonal conflicts"
+    },
+    {
+      "period": "2013–2020 (peak 2020)",
+      "name": "Black Lives Matter",
+      "description": "Racial justice movement whose 2020 peak discourse period was cited as a time when phonetically ambiguous language in an educational context could result in a firing campaign"
+    },
+    {
+      "period": "2020–2022",
+      "name": "COVID Social Discourse",
+      "description": "Pandemic-era norm enforcement in which mask compliance and social distancing became grounds for peer cancellation, e.g., walking unmasked outdoors alone"
+    },
+    {
+      "period": "2015–2022",
+      "name": "Peak Cancel Culture Era",
+      "description": "Period of maximum extrajudicial mob punishment activity, characterized by firing campaigns co-signed by institutions, deplatforming, preemptive employer terminations, and de-banking"
+    },
+    {
+      "period": "2022–2025",
+      "name": "Anti-Woke Conservative Backlash",
+      "description": "Period in which conservative influencers reframed cancellation as a badge of honor and an expanded conservative media ecosystem reduced the material stakes of being targeted by liberal mobs"
+    },
+    {
+      "period": "2022–present",
+      "name": "Ukraine War Discourse",
+      "description": "Foreign policy debate that split the neoliberal-left coalition along new lines—neoliberals and neoconservatives vs. leftists and national conservatives—fracturing the discourse's ability to enforce consensus"
+    },
+    {
+      "period": "2023–present",
+      "name": "Gaza Conflict Discourse",
+      "description": "Israel-Palestine debate that produced irreconcilable splits within the liberal coalition, destroying the presumption of centrist support for radical positions and ending the conditions for uniform cancellation consensus"
+    },
+    {
+      "period": "2024–2025",
+      "name": "H1B Visa Discourse",
+      "description": "Tech immigration debate that crossed traditional left-right lines, with neoliberals and neocons supporting unlimited skilled-worker visas while leftists and national conservatives opposed them on labor grounds"
+    },
+    {
+      "period": "2014–2022",
+      "name": "Identitarian Liberal Hegemony",
+      "description": "Period during which race, gender, and sexuality dominated liberal political discourse, mapping cleanly onto existing culture war fault lines and enabling cancel culture to function with a unified, enforceable etiquette"
+    }
+  ],
+  "quotes": [
+    "For most, liberalism is less a mind virus than a compulsory social etiquette brought on by status anxiety.",
+    "The accusation was itself the proof of guilt.",
+    "The difference between conflict and abuse is the difference between a power struggle and the power over.",
+    "Conflict is a position filled with responsibility and opportunity.",
+    "The word violence has expanded far beyond the field of physical assault, where it's now used to describe a wide range of emotional reactions to others.",
+    "Everyone tends to avoid talking about how much fun they're having during cancellations.",
+    "The phrase cancel culture presupposes the idea of an entire culture built on the fact that we know everything about everyone.",
+    "Everyone who publicly exists is either canceled or about to be canceled.",
+    "Cancellation can never punch upward as a punishment because robust institutions will simply remove the bad apple causing them trouble.",
+    "It's only when liberals can find a way to forgive themselves for existing, will they ever be prepared to forgive their friends for choosing to be around them.",
+    "Cancel culture never happened is just another way of saying, cancel culture is real, and I think it's a good thing. It's just no longer as effective as I'd like it to be.",
+    "The more fallen professionals are made to live like workers, the more they hold on to this cultural distinctiveness as a form of resistance."
+  ],
+  "tags": [
+    "cancel culture",
+    "liberalism",
+    "political theory",
+    "class anxiety",
+    "social media",
+    "discourse",
+    "identity politics",
+    "parasocial relationships",
+    "status anxiety",
+    "accountability culture",
+    "online harassment",
+    "woke culture",
+    "political stasis",
+    "forgiveness",
+    "fallen professionals"
+  ]
+}
