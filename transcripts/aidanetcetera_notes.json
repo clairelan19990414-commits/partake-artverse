@@ -1,0 +1,152 @@
+{
+  "creator_thesis": "@aidanetcetera uses internet culture artifacts \u2014 memes, brainrot, Skibidi Toilet, slop \u2014 as primary texts for critical theory, arguing they reveal deeper structures of power, consciousness, and geopolitics. He connects seemingly absurd digital phenomena (gooning, framemogging, AI fruit) to serious questions about surveillance capitalism, state violence, and democratic decay. His central claim is that the aesthetics and mechanics of online culture are not trivial noise but diagnostic signals about how power, attention, and reality are being reorganized.",
+  "key_concepts": [
+    {
+      "name": "Framemogging / Metric Capture",
+      "definition": "When algorithmic metrics (views, canthal tilt, engagement rate) displace lived reality, causing people to deform themselves \u2014 physically and discursively \u2014 to satisfy measurements that don't correspond to anything real.",
+      "via_posts": [
+        "DVCr4dZDU7p"
+      ]
+    },
+    {
+      "name": "Meme Cycles",
+      "definition": "Internet aesthetics recur like fashion nostalgia cycles; memes cannibalize past content and resurface years later, meaning online culture has temporal rhythms rather than purely linear progression.",
+      "via_posts": [
+        "DTQVFCVkcuY"
+      ]
+    },
+    {
+      "name": "Silicon Sampling",
+      "definition": "The practice of querying AI models to simulate public opinion instead of asking real people, producing epistemic distortion that gets laundered as polling data and fed back into political decision-making.",
+      "via_posts": [
+        "DW5QL37ja0J"
+      ]
+    },
+    {
+      "name": "Slop Tax",
+      "definition": "A proposed 1% levy on tech companies' market capitalization, funding an independent cultural trust to compensate creators, support schools, and redirect AI's economic extraction toward public benefit.",
+      "via_posts": [
+        "DVXc2PgDXxm"
+      ]
+    },
+    {
+      "name": "AI Infrastructure as Geopolitical Territory",
+      "definition": "Data centers are contested political terrain, not neutral utilities \u2014 built on historic battlefields, subsidized by taxpayers, concentrating global information flow in a single region while externalizing energy and climate costs onto the public.",
+      "via_posts": [
+        "DU13kuJjLzq"
+      ]
+    },
+    {
+      "name": "Prophetic Geopolitics",
+      "definition": "State actors and power figures genuinely operate through Abrahamic mythological frameworks (Baal, apocalypse, antichrist), meaning secular-rational analysis systematically misses the psychology driving otherwise inexplicable decisions.",
+      "via_posts": [
+        "DWaVTwXDSDQ"
+      ]
+    },
+    {
+      "name": "Skibidi Toilet as Eschatological Text",
+      "definition": "Brainrot media merges the scatological with the eschatological, encoding transhumanist and apocalyptic content inside apparently absurd formats \u2014 placing the viewer in a posthuman POV on the edge of civilizational collapse.",
+      "via_posts": [
+        "DUexfGzDf88"
+      ]
+    },
+    {
+      "name": "Old Media Attention Capture",
+      "definition": "Legacy outlets amplify trivial internet controversies over substantive crises because clicks now govern editorial logic \u2014 the NYT covers Hasan Piker while burying a journalist killed in a double-tap airstrike on the same page.",
+      "via_posts": [
+        "DXfmuu1j_gp"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Leif Weatherby",
+      "type": "person / scholar",
+      "referenced_in": [
+        "DW5QL37ja0J"
+      ]
+    },
+    {
+      "name": "Language Machines",
+      "type": "book (by Leif Weatherby)",
+      "referenced_in": [
+        "DW5QL37ja0J"
+      ]
+    },
+    {
+      "name": "Mike Peppy",
+      "type": "person / policy thinker",
+      "referenced_in": [
+        "DVXc2PgDXxm"
+      ]
+    },
+    {
+      "name": "Peter Thiel",
+      "type": "person",
+      "referenced_in": [
+        "DWaVTwXDSDQ"
+      ]
+    },
+    {
+      "name": "Hasan Piker",
+      "type": "person / streamer",
+      "referenced_in": [
+        "DXfmuu1j_gp"
+      ]
+    },
+    {
+      "name": "Luigi Mangione",
+      "type": "person",
+      "referenced_in": [
+        "DXfmuu1j_gp"
+      ]
+    },
+    {
+      "name": "Clavicular",
+      "type": "person / content creator",
+      "referenced_in": [
+        "DVCr4dZDU7p"
+      ]
+    },
+    {
+      "name": "Baal",
+      "type": "mythological / religious figure",
+      "referenced_in": [
+        "DWaVTwXDSDQ"
+      ]
+    },
+    {
+      "name": "Skibidi Toilet",
+      "type": "media / meme",
+      "referenced_in": [
+        "DUexfGzDf88"
+      ]
+    },
+    {
+      "name": "@being_on_line",
+      "type": "creator",
+      "referenced_in": [
+        "DUexfGzDf88"
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "type": "person",
+      "referenced_in": [
+        "DVXc2PgDXxm"
+      ]
+    }
+  ],
+  "positions": [
+    "\"Skibidi Toilet takes the scatological and merges it with the eschatological\" \u2014 brainrot is an apocalyptic transhumanist text, not trivial content.",
+    "\"We are swaddled just like Clavicular in a self-constructed sheath of illusions fueled by math that ultimately doesn't care about us at all\" \u2014 algorithmic metrics colonize selfhood and deform public discourse the same way looksmaxxing deforms a face.",
+    "\"Everything else is going to change except the fact that Sam Altman is a multi-billionaire and you can't afford a house... It is not inevitable at all. It is negotiable.\" \u2014 AI's economic order is a political choice, not a natural law.",
+    "\"If leaders with fingers on missile buttons genuinely believe we are heading toward the apocalypse, and we don't factor that in, we don't understand why they do such self-destructive things\" \u2014 prophetic belief systems must be taken seriously as geopolitical forces.",
+    "\"The solution is to framemog \u2014 be aware of the medium, the ways it's distorting you, and push bad actors out of the frame\" \u2014 critical media literacy reframed as an offensive, tactical move rather than defensive abstinence."
+  ],
+  "tags": [
+    "internet-culture-theory",
+    "AI-political-economy",
+    "digital-embodiment"
+  ]
+}

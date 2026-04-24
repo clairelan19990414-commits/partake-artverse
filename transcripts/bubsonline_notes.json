@@ -1,0 +1,149 @@
+{
+  "creator_thesis": "This creator synthesizes evolutionary psychology, Nietzschean philosophy, and Taoist thought into short explanatory videos aimed at young men navigating questions of self-improvement, dating, and meaning. The through-line is a belief that human behavior is best understood through biological instinct and cultural archetypes rather than mainstream social frameworks. Posts frequently pit \"authentic\" philosophical or natural law against what the creator sees as modern dysfunction.",
+  "key_concepts": [
+    {
+      "name": "Wu Wei / Non-Resistance",
+      "definition": "The Taoist principle of effortless action and non-striving applied as the ideal psychological orientation toward life and death \u2014 internal tension produces suffering; ease and release produce flow.",
+      "via_posts": [
+        "DTyeHRdkrbS",
+        "DUCQtbKjTWJ"
+      ]
+    },
+    {
+      "name": "Three Metamorphoses (Nietzsche)",
+      "definition": "A psychological evolution from Camel (bearing inherited duty) to Lion (refusing false authority) to Child (joyfully creating new values) \u2014 framed as stages of consciousness, not age.",
+      "via_posts": [
+        "DUMiXZijTtX"
+      ]
+    },
+    {
+      "name": "Music Genre Archetypes",
+      "definition": "Music genres as evolutionary psychological clusters that synchronize nervous systems, crystallize collective identity, and reveal stable personality types in the cultural unconscious.",
+      "via_posts": [
+        "DVRompskp8M"
+      ]
+    },
+    {
+      "name": "Evolutionary Mating Logic",
+      "definition": "Social norms around female promiscuity explained through paternity certainty, pair-bond stability, and downstream effects on child outcomes \u2014 framed as biological fact rather than social construct.",
+      "via_posts": [
+        "DWt25HODe0e"
+      ]
+    },
+    {
+      "name": "Language as Power Tool",
+      "definition": "Following Wittgenstein, words derive power from precise use in context; imprecise or pompous language creates false problems, while clarity and directness are treated as moral virtues.",
+      "via_posts": [
+        "DUCQtbKjTWJ"
+      ]
+    },
+    {
+      "name": "Religion as Memetic Technology",
+      "definition": "Religion is an evolving social technology tracing from animism through polytheism and monotheism to modern 'secular religions' (capitalism, communism, liberalism) \u2014 all sharing the structure of superhuman ordering principles.",
+      "via_posts": [
+        "DXF_6coDRc5"
+      ]
+    },
+    {
+      "name": "Civilizational Conscientiousness",
+      "definition": "High-conscientiousness, high-IQ cultures (Germany, Japan) achieve order and prosperity but can channel those same traits into authoritarian violence when captured by supremacist ideology.",
+      "via_posts": [
+        "DWZlm6bEjI7"
+      ]
+    },
+    {
+      "name": "Futurist Governance Typology",
+      "definition": "Speculative political structures \u2014 cyberocracy, noocracy, polystate, gerontocracy \u2014 presented as the next evolutionary frontier, where AI and decentralization replace democratic nation-states.",
+      "via_posts": [
+        "DXcrVzwkt_j"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Friedrich Nietzsche / Thus Spoke Zarathustra",
+      "type": "philosopher / book",
+      "referenced_in": [
+        "DUMiXZijTtX",
+        "DUCQtbKjTWJ"
+      ]
+    },
+    {
+      "name": "Ludwig Wittgenstein",
+      "type": "philosopher",
+      "referenced_in": [
+        "DUCQtbKjTWJ"
+      ]
+    },
+    {
+      "name": "Taoism / Daoism",
+      "type": "philosophical tradition",
+      "referenced_in": [
+        "DTyeHRdkrbS",
+        "DUCQtbKjTWJ",
+        "DXcrVzwkt_j"
+      ]
+    },
+    {
+      "name": "Kazimierz Dabrowski",
+      "type": "psychologist",
+      "referenced_in": [
+        "DUMiXZijTtX"
+      ]
+    },
+    {
+      "name": "The Name of the Wind (Patrick Rothfuss)",
+      "type": "book",
+      "referenced_in": [
+        "DUCQtbKjTWJ"
+      ]
+    },
+    {
+      "name": "Sapiens (Yuval Noah Harari)",
+      "type": "book (implied via #sapiens hashtag and religion-evolution framework)",
+      "referenced_in": [
+        "DXF_6coDRc5"
+      ]
+    },
+    {
+      "name": "Eagle Eye",
+      "type": "film",
+      "referenced_in": [
+        "DXcrVzwkt_j"
+      ]
+    },
+    {
+      "name": "Karl Marx / Engels / Lenin",
+      "type": "political philosophers",
+      "referenced_in": [
+        "DXF_6coDRc5"
+      ]
+    },
+    {
+      "name": "Zoroastrianism",
+      "type": "religion / historical movement",
+      "referenced_in": [
+        "DXF_6coDRc5"
+      ]
+    },
+    {
+      "name": "Buddhism / Siddhartha Gautama",
+      "type": "religion / historical figure",
+      "referenced_in": [
+        "DXF_6coDRc5"
+      ]
+    }
+  ],
+  "positions": [
+    "\"Human civilizations independently arrived at the same judgment [about female promiscuity]. It is obviously beyond social conditioning, and it's more rooted in biology and survival.\" (DWt25HODe0e)",
+    "\"The highest form of freedom is not constantly brown-nosing or being the asshole, but to joyfully create values and turn your own life into a piece of art.\" (DUMiXZijTtX)",
+    "\"Real power is speaking precisely and honestly and living a life that backs up those words.\" (DUCQtbKjTWJ)",
+    "\"Soviet communism is no lesser religion than Islam.\" \u2014 all ideological systems treated as equivalent memetic structures competing for doctrinal dominance. (DXF_6coDRc5)",
+    "\"Your tension feels like hell and your ease feels like heaven... it's not just some demigod in the clouds judging you\" \u2014 heaven/hell reframed as internal states of resistance vs. release, not divine judgment. (DTyeHRdkrbS)"
+  ],
+  "tags": [
+    "evolutionary psychology & masculinity",
+    "Nietzsche\u2013Taoism synthesis",
+    "civilizational analysis"
+  ]
+}

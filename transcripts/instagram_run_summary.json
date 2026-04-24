@@ -1,0 +1,89 @@
+{
+  "total_handles": 30,
+  "ok_handles": [
+    "eugbrandstrat",
+    "etymologynerd",
+    "willfrancis",
+    "fakeplasticbrands",
+    "kaburbank",
+    "lhuijuni.ldn",
+    "davidkylechoe",
+    "didoriot",
+    "h_miller76",
+    "bjornd.al",
+    "musingsofacrouton",
+    "codebynordveritas",
+    "eyes_of_apoorva",
+    "maryisalien",
+    "kai_rehagen",
+    "bubsonline",
+    "g.a.works",
+    "itsvicchang",
+    "culturalfingerprints",
+    "noteswnat",
+    "dan_dug_",
+    "aidanetcetera",
+    "thewaronbeauty",
+    "andreyazizov",
+    "stylebykvn",
+    "vinny_creative"
+  ],
+  "failed_handles": [
+    "maalivikabhat",
+    "sihaam",
+    "fastfoodledgendofficial",
+    "art_lust"
+  ],
+  "clusters": [
+    {
+      "name": "Brand Systems and Strategic Legibility",
+      "count": 7,
+      "creators": [
+        "eugbrandstrat",
+        "willfrancis",
+        "fakeplasticbrands",
+        "codebynordveritas",
+        "h_miller76",
+        "vinny_creative",
+        "bjornd.al"
+      ]
+    },
+    {
+      "name": "Language, Memory, and Cultural Codes",
+      "count": 6,
+      "creators": [
+        "etymologynerd",
+        "lhuijuni.ldn",
+        "maryisalien",
+        "g.a.works",
+        "culturalfingerprints",
+        "noteswnat"
+      ]
+    },
+    {
+      "name": "Platform Selfhood and Algorithmic Life",
+      "count": 7,
+      "creators": [
+        "davidkylechoe",
+        "didoriot",
+        "musingsofacrouton",
+        "kai_rehagen",
+        "bubsonline",
+        "itsvicchang",
+        "aidanetcetera"
+      ]
+    },
+    {
+      "name": "Visual Taste, Beauty, and Place",
+      "count": 6,
+      "creators": [
+        "kaburbank",
+        "eyes_of_apoorva",
+        "dan_dug_",
+        "thewaronbeauty",
+        "andreyazizov",
+        "stylebykvn"
+      ]
+    }
+  ]
+}

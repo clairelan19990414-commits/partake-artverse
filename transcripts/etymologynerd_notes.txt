@@ -1,0 +1,29 @@
+@etymologynerd notes
+
+    Thesis:
+    @etymologynerd creates infographic-based content that traces the word origins of everyday objects, places, and concepts — showing how language acts as a compressed archive of human history, culture, and migration. The creator's thesis is that etymology is universally accessible and endlessly surprising: virtually any domain (food, geography, science, music) reveals hidden linguistic patterns once you look. Most recently, this framework has been extended into a book arguing that social media algorithms are the newest force reshaping how language evolves.
+
+    Key concepts:
+    - Etymology as hidden history: Words function as compressed records of cultural exchange, human migration, and historical discovery, making linguistics a form of archaeology. (via CAnIRdiA5Ow, CaCjk4ZuriT, B99HGTKAZA7)
+- Toponym patterns: Place names encode layers of colonial, indigenous, and immigrant history, making geography a readable map of power and settlement. (via CaCjk4ZuriT, CAnIRdiA5Ow)
+- Scientific naming conventions: Taxonomy, anatomy, medicine, and geology follow systematic Latin and Greek construction rules that preserve the logic of early scientific thought. (via CcaawemOJ1p, B99HGTKAZA7)
+- Algospeak: Platform content moderation and recommendation algorithms now actively drive vocabulary formation, producing terms like 'unalive' as users adapt language to evade filters. (via DDHqAcvOF0x)
+- Brand and cultural naming: Artist names, art movement labels, typeface names, and currency terms reflect the values, aesthetics, and power structures of the era that coined them. (via CPx3luegPNt, CRgpE72ADEi, Ctob1J5g7l3)
+- Cross-domain universality: The same etymological mechanisms — metaphor, borrowing, eponymy — operate identically across unrelated fields, suggesting language change follows deep structural patterns. (via CPx3luegPNt, CcaawemOJ1p, Ctob1J5g7l3, CRgpE72ADEi)
+- Visual/spatial etymology mapping: Presenting word origins as infographics and geographic maps makes abstract linguistic history legible and shareable for general audiences. (via CAnIRdiA5Ow, CaCjk4ZuriT, CPx3luegPNt)
+
+    References:
+    - ALGOSPEAK: How Social Media is Transforming the Future of Language [book] via DDHqAcvOF0x
+- Alfred A. Knopf (@aaknopf) [publisher] via DDHqAcvOF0x
+- Tyler Comrie [person] via DDHqAcvOF0x
+- Romance languages [movement] via CAnIRdiA5Ow
+- Latin / Greek naming systems [reference system] via CcaawemOJ1p, B99HGTKAZA7, CPx3luegPNt
+
+    Positions:
+    - Algorithms are now an active linguistic force: platform moderation produces vocabulary ('unalive', 'skibidi', 'cottagecore') the same way trade routes and conquest once did.
+- Etymology is universally accessible — any domain reveals hidden linguistic patterns once you apply the same lens.
+- Words carry compressed cultural records: to know a word's origin is to recover a piece of history that written records may have lost.
+- Visual presentation (infographics, maps) is not just a delivery format but an argument — it demonstrates that etymology has spatial and systemic logic, not just trivia value.
+
+    Tags:
+    etymology, linguistics, visual education

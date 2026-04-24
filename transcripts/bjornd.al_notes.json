@@ -1,0 +1,169 @@
+{
+  "creator_thesis": "@bjornd.al is a Minneapolis-based multi-hyphenate (musician, graphic designer, writer, video essayist) who uses absurdist humor as the connective tissue across wildly disparate creative output. His primary vehicle is \"Esoteric Meme Breakdown,\" a video series that uses internet memes as entry points into obscure history, conspiracy lore, and art criticism. Simultaneously, he documents a dense local DIY scene through band promotion, self-published chapbooks, invented holidays, and hand-made merchandise \u2014 all delivered with a deadpan, self-aware voice.",
+  "key_concepts": [
+    {
+      "name": "Esoteric Meme Breakdown",
+      "definition": "A serialized video series that uses internet memes as entry points into obscure history, lost knowledge, and art criticism \u2014 memes as Trojan horses for intellectual content.",
+      "via_posts": [
+        "DXbw4BUj2N2",
+        "DXJvS6tAh1Y",
+        "DQ62uH4j7UC"
+      ]
+    },
+    {
+      "name": "Lost-knowledge deep-dives",
+      "definition": "Recurring investigative interest in forgotten or discredited innovators whose techniques or contributions were suppressed, erased, or died with them \u2014 treated as genuine historical tragedy.",
+      "via_posts": [
+        "DXJvS6tAh1Y",
+        "DXbw4BUj2N2"
+      ]
+    },
+    {
+      "name": "DIY music documentation",
+      "definition": "Sustained, community-minded coverage of Minneapolis's indie and experimental music scene \u2014 bands, venues, residencies, and concert graphics treated as worth archiving and celebrating.",
+      "via_posts": [
+        "DQ62uH4j7UC",
+        "C5rLgwlA4nH"
+      ]
+    },
+    {
+      "name": "Absurdist community mythology",
+      "definition": "Invented holidays, mascots, rituals, and in-jokes that translate online deadpan humor into real-world IRL gatherings and communal identity.",
+      "via_posts": [
+        "DVqjiU8gGd8",
+        "DQ62uH4j7UC"
+      ]
+    },
+    {
+      "name": "Self-publishing and zine culture",
+      "definition": "Chapbooks, hand-bound editions, free digital reads, and small-batch signed copies as the primary publishing model \u2014 distribution through shows and mail, priced at five to eight dollars.",
+      "via_posts": [
+        "CuCgNkkgLs8"
+      ]
+    },
+    {
+      "name": "Graphic design as artistic practice",
+      "definition": "Posters, album art, book layouts, merchandise, and mascots treated as standalone creative output rather than purely functional deliverables.",
+      "via_posts": [
+        "CuIF9jzAtMa",
+        "C5rLgwlA4nH",
+        "DAOwht0IBsT"
+      ]
+    },
+    {
+      "name": "Serialized brand infrastructure",
+      "definition": "Episode numbering, recurring mascots, a dedicated shop, and merchandise function as the organizational scaffolding that turns a web series into a persistent creative world.",
+      "via_posts": [
+        "DQ62uH4j7UC"
+      ]
+    },
+    {
+      "name": "Deadpan absurdism as tonal default",
+      "definition": "Even functional announcements \u2014 show dates, album drops, holiday logistics \u2014 are filtered through ironic, self-deprecating comedy that never fully drops the bit.",
+      "via_posts": [
+        "DVqjiU8gGd8",
+        "DAOwht0IBsT",
+        "CuCgNkkgLs8"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Irving Berlin",
+      "type": "person",
+      "referenced_in": [
+        "DXbw4BUj2N2"
+      ]
+    },
+    {
+      "name": "Girolamo Segato",
+      "type": "person",
+      "referenced_in": [
+        "DXJvS6tAh1Y"
+      ]
+    },
+    {
+      "name": "Valentine Mott",
+      "type": "person",
+      "referenced_in": [
+        "DXJvS6tAh1Y"
+      ]
+    },
+    {
+      "name": "Henry Wilde",
+      "type": "person",
+      "referenced_in": [
+        "DXJvS6tAh1Y"
+      ]
+    },
+    {
+      "name": "Prairie Clamor",
+      "type": "collective/band",
+      "referenced_in": [
+        "DQ62uH4j7UC",
+        "C5rLgwlA4nH"
+      ]
+    },
+    {
+      "name": "Phillip Yermind",
+      "type": "character/mascot",
+      "referenced_in": [
+        "DQ62uH4j7UC"
+      ]
+    },
+    {
+      "name": "BROOD II / TOOTH DREAMS",
+      "type": "book/chapbook",
+      "referenced_in": [
+        "CuCgNkkgLs8"
+      ]
+    },
+    {
+      "name": "Saint Chesterton's Day of Pre-Hydration",
+      "type": "invented holiday",
+      "referenced_in": [
+        "DVqjiU8gGd8"
+      ]
+    },
+    {
+      "name": "@lanzilloart",
+      "type": "person",
+      "referenced_in": [
+        "CuIF9jzAtMa"
+      ]
+    },
+    {
+      "name": "Alexander's Ragtime Band",
+      "type": "artwork/song",
+      "referenced_in": [
+        "DXbw4BUj2N2"
+      ]
+    },
+    {
+      "name": "Guitar Wolf",
+      "type": "band",
+      "referenced_in": [
+        "C5rLgwlA4nH"
+      ]
+    },
+    {
+      "name": "The Entry / Mortimer's",
+      "type": "venue",
+      "referenced_in": [
+        "C5rLgwlA4nH"
+      ]
+    }
+  ],
+  "positions": [
+    "Memes are legitimate intellectual vehicles \u2014 the absurd format earns its depth rather than undercutting it.",
+    "Working around limitations is a path to mastery: Irving Berlin's inability to play outside F-sharp led him to commission transposing pianos and become one of the most prolific songwriters in American history.",
+    "Lost or suppressed knowledge (Segato's petrification method, destroyed upon his death) is worth investigating and mourning \u2014 these gaps in the historical record are genuinely tragic.",
+    "Community infrastructure \u2014 invented holidays, hand-made licenses, mascots \u2014 can be built through humor without sacrificing sincerity; the bit and the real thing coexist.",
+    "Self-deprecating irony ('I am going to become an influencer now') is fully compatible with serious, sustained craft across multiple disciplines."
+  ],
+  "tags": [
+    "meme archaeology / internet culture",
+    "DIY / zine culture",
+    "absurdist comedy"
+  ]
+}

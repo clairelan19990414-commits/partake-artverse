@@ -1,0 +1,136 @@
+{
+  "creator_thesis": "@dan_dug_ builds a masculine intellectual identity around history, canon literature, and philosophy, packaging it for Midwest-coded young men who see reading and historical curiosity as a form of cultural rebellion against mediocrity. The account operates at the intersection of \"litbro\" culture and faith-adjacent traditionalism, using meme formats to lower the barrier to serious ideas. Its underlying argument is that consuming great books and knowing your history is both cool and a distinctly male virtue.",
+  "key_concepts": [
+    {
+      "name": "Masculine intellectual identity",
+      "definition": "Reading, history, and philosophy reframed as distinctly male virtues \u2014 markers of seriousness and strength rather than nerd signifiers.",
+      "via_posts": [
+        "DW37GruEVei",
+        "DUbMfA6kUTH",
+        "DVRsw-YESps"
+      ]
+    },
+    {
+      "name": "History-as-meme",
+      "definition": "Translating crusades, ancient Greece, and civil war figures into relatable, funny formats to make the past feel urgent and personally relevant.",
+      "via_posts": [
+        "DTTB85Kkb-J",
+        "DN8OgDzkTmG"
+      ]
+    },
+    {
+      "name": "Midwest regional identity",
+      "definition": "Flyover-country pride mythologized as a source of cultural authenticity \u2014 'Middle (West) Earth' \u2014 positioned against coastal aesthetic dominance.",
+      "via_posts": [
+        "DN8OgDzkTmG"
+      ]
+    },
+    {
+      "name": "Anti-slop canon gatekeeping",
+      "definition": "Active curation of worthy literature (Faulkner, Hemingway, Ellison, Ishiguro, Saunders) as an act of resistance against cultural mediocrity.",
+      "via_posts": [
+        "DUbMfA6kUTH",
+        "DVRsw-YESps"
+      ]
+    },
+    {
+      "name": "Christian heritage as living culture",
+      "definition": "Crusade history, Celtic crosses, Irish high crosses, and Catholic iconography treated as active identity anchors rather than museum artifacts.",
+      "via_posts": [
+        "DTTB85Kkb-J",
+        "DWAbRltEVU7"
+      ]
+    },
+    {
+      "name": "Historical figures as masculine archetypes",
+      "definition": "Figures like Teddy Roosevelt, Thucydides, and Ulysses S. Grant presented as aspirational role models embodying virtue, grit, and intellectual seriousness.",
+      "via_posts": [
+        "DTTB85Kkb-J"
+      ]
+    },
+    {
+      "name": "Propaganda and media criticism",
+      "definition": "Drawing on Ellul's framework to argue that modern mass media is structurally propagandistic \u2014 shaping men's attitudes beyond any single political regime's intent.",
+      "via_posts": [
+        "DRSvW5TETy8"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jacques Ellul",
+      "type": "person",
+      "referenced_in": [
+        "DRSvW5TETy8"
+      ]
+    },
+    {
+      "name": "Propaganda: The Formation of Men's Attitudes (Ellul)",
+      "type": "book",
+      "referenced_in": [
+        "DRSvW5TETy8"
+      ]
+    },
+    {
+      "name": "Ralph Ellison",
+      "type": "person",
+      "referenced_in": [
+        "DVRsw-YESps"
+      ]
+    },
+    {
+      "name": "George Saunders",
+      "type": "person",
+      "referenced_in": [
+        "DUbMfA6kUTH"
+      ]
+    },
+    {
+      "name": "Sandro Botticelli / Birth of Venus",
+      "type": "artwork",
+      "referenced_in": [
+        "DQFwck1EXfv"
+      ]
+    },
+    {
+      "name": "Muiredach's High Cross, Monasterboice",
+      "type": "artwork",
+      "referenced_in": [
+        "DWAbRltEVU7"
+      ]
+    },
+    {
+      "name": "First Crusade",
+      "type": "movement",
+      "referenced_in": [
+        "DTTB85Kkb-J"
+      ]
+    },
+    {
+      "name": "Thucydides",
+      "type": "person",
+      "referenced_in": [
+        "DTTB85Kkb-J"
+      ]
+    },
+    {
+      "name": "Teddy Roosevelt",
+      "type": "person",
+      "referenced_in": [
+        "DTTB85Kkb-J"
+      ]
+    }
+  ],
+  "positions": [
+    "Reading has personal, transformative value in the 21st century \u2014 best argued through personal history and lived experience rather than abstract cultural prescription.",
+    "Propaganda is not a political tool but a structural feature of modern society itself \u2014 mass media inherently shapes men's attitudes, per Ellul's framework.",
+    "The Midwest is mythologized home terrain ('Middle (West) Earth') \u2014 a source of genuine identity that coastal aesthetics can't replicate or co-opt.",
+    "'Anti-slop' is a moral stance: choosing Faulkner over filler is an act of seriousness, not elitism \u2014 the canon exists to be defended.",
+    "Christian and crusade history is not dusty theology but living cultural identity \u2014 the Celtic cross's symbolism, the high crosses of Ireland, and the First Crusade are all present-tense inheritance."
+  ],
+  "tags": [
+    "litbro traditionalism",
+    "history meme culture",
+    "canon gatekeeping"
+  ]
+}

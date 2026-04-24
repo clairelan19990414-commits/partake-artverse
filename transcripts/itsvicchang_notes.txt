@@ -1,0 +1,33 @@
+@itsvicchang notes
+
+    Thesis:
+    Vic Chang spots micro-trend signals (search volume spikes, Reddit communities, shifting cultural attitudes) and translates them into concrete brand or product design opportunities. He frames consumer behavior — status signaling, lifestyle aspiration, category white space — as the raw material for startup ideas. AI-accelerated prototyping is a recurring throughline: he treats rapid visual mockups as a core part of the ideation process, not just presentation.
+
+    Key concepts:
+    - Trend-to-brand pipeline: Search volume spikes and subreddit activity function as early-warning signals for unmet product demand, giving founders a data-driven entry point before a category gets crowded. (via DVrZr4xDxI6)
+- White space aestheticization: Commoditized, design-ignored categories (litter boxes, cat furniture, paper plates) represent open territory for a premium aesthetic layer that commands higher margins and brand loyalty. (via DVrZr4xDxI6)
+- Lifestyle signaling as product strategy: Consumer goods function as identity and status markers first, functional objects second — sobriety, clean energy, and luxury candles are all aspirational cues that drive willingness to pay. (via DVwinlHB5IX, DXUhdD9Dtj-)
+- Behavioral monetization redesign: Rethinking incentive structures at the product level — e.g. pay-per-match instead of pay-per-swipe — to align user motivations with business outcomes and reduce low-quality engagement. (via DWmOGhVDnbe)
+- AI as rapid prototyping infrastructure: Generative image tools (guided by Pinterest references, reverse-prompted for specificity, run in 3×3 batch outputs) collapse the distance between idea and visual pitch, making prototyping a core ideation step. (via DV1tuprEuRH, DVz5xsSjnm4)
+- Subcultural design latency: Avant-garde aesthetics that initially repel mainstream audiences eventually become canonical — the gap between shock and adoption is a signal of genuine originality, not failure. (via DWDSyRijhhm)
+- Gender-ful brand philosophy: Replacing 'unisex' (erasure of gender) with 'gender-ful' (celebration of its full spectrum) as a framework that expands addressable market rather than narrowing to a niche identity segment. (via DXUhdD9Dtj-)
+- Environmental psychology in retail: In-store sensory design — particularly music tempo — controls the pace of customer decision-making and is an underused lever for conversion and dwell time. (via DW1z_NQD82q)
+
+    References:
+    - Boy Smells [brand] via DXUhdD9Dtj-
+- Y-3 Beast Pack (2006) [product / design artifact] via DWDSyRijhhm
+- Modkat [brand] via DVrZr4xDxI6
+- NanoBanana2 [AI tool] via DV1tuprEuRH
+- r/DIYcatwall [online community] via DVrZr4xDxI6
+- @galinthejungle [person / collaborator] via DWmOGhVDnbe
+- Particl.hq [data platform] via DXUhdD9Dtj-
+
+    Positions:
+    - "Instead of paying for swipes, what if users paid for matches?" — a pay-per-match model makes users more selective and more motivated to convert, aligning incentives that subscription models misalign.
+- "In-store music selection isn't just about creating vibes. It's about controlling the pace of decision making." — retail psychology is an underutilized brand lever.
+- "It's artificial intelligence, not artificial innovation." — AI accelerates the path from concept to visual proof; the creative judgment still has to be human.
+- On the Y-3 Beast Pack: "Like a lot of good art, it shocks your system initially because you don't know what to compare it to" — aesthetic rejection at launch is often a mark of genuine originality, not a product failure.
+- On sober-curiosity: ordering a mocktail is now "a subtle flex that you're serious about your health" — abstinence has become an aspirational status signal, opening white space for premium zero-proof products.
+
+    Tags:
+    trend-spotting, brand-building, consumer-behavior

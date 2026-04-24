@@ -1,0 +1,33 @@
+@eugbrandstrat notes
+
+    Thesis:
+    Eugene Healey argues that brands must identify and amplify existing cultural currents rather than attempt to manufacture culture themselves — functioning as patrons, not architects. He applies critical theory (Baudrillard, Lacan) to decode how late capitalism is restructuring desire, identity, and status, particularly as traditional aspirational levers (education, class mobility, luxury goods) collapse. The practical output is a strategic framework for brands navigating a post-aspiration, post-luxury, algorithmically-saturated consumer environment.
+
+    Key concepts:
+    - Brands as cultural patrons: Culturally resonant brands do not create culture — they identify relevant cultural currents and grant them a platform, enabling a transference of cultural capital into brand equity. (via DW7wDW3jDv_)
+- Post-luxury behavioural status symbols: As material luxury becomes algorithmically commodified and widely accessible, status migrates to hard-to-replicate behaviours: connected privacy, hyper-niche expertise, wasteful time, aspirational parenthood, quality sleep, and community creation. (via DUHZiw-iSzo)
+- Baudrillardian body commodification: Once capitalism exhausts external goods to commodify, it turns inward — when education, careers, and class mobility fail as levers, the self and body become the final investable asset, driving phenomena like looksmaxxing. (via DXNxs-Riat_)
+- Aspiration collapse in the k-shaped economy: In a bifurcated economy where consumers are either reaching for true luxury or drowning in cost-of-living pressure, brands can no longer sell aspirational identity to Gen Z — strategy must pivot from signalling to utility and forward mobility. (via DWP3qwQE_4l, DUCPeMrAB-w)
+- Decentralised desire and the creator/celebrity distinction: Creator culture has disaggregated the desire-formation function previously held by Hollywood, meaning a creator's influence is structural and niche-specific — not celebrity-like — and brands briefing creators as celebrities fundamentally misread the mechanism. (via DWFkfPQiG5m)
+- Ontological collapse and brand mythology: The cultural mythologies underwriting Western brand equity — progress, meritocracy, aspiration — are dissolving, leaving brands built on those belief systems structurally exposed. (via DV92LnVkfWf)
+- Mediated selfhood and the Lacanian gaze: Chronic online existence produces a performed self perpetually optimised for external perception — a Lacanian perversion of the gaze — with direct consequences for how brands and creators construct authentic presence. (via DV5fE7HDRd2)
+- Brand coherence at infinite surface area: As AI and distributed creation expand brand touchpoints infinitely, traditional brand guidelines become insufficient — new infrastructure is required to maintain coherent identity across an unbounded and unpredictable surface area. (via )
+
+    References:
+    - Jean Baudrillard [theorist] via DXNxs-Riat_, DV92LnVkfWf
+- Jacques Lacan [theorist] via DV5fE7HDRd2
+- Reid Litman (@reidjlitman) [collaborator] via DWP3qwQE_4l
+- Jasmine Bina (@jasminebina) [collaborator] via DV92LnVkfWf
+- The Slow Down [podcast] via DV5fE7HDRd2
+- Costco [brand example] via DUCPeMrAB-w
+- Hollywood [cultural institution] via DWFkfPQiG5m
+
+    Positions:
+    - "Brands do NOT create culture. Culturally resonant brands identify cultural currents relevant to their strategy and then grant that culture a platform." — if you're trying to 'shape' culture as a brand marketer, you've already misunderstood the assignment.
+- "You can't sell aspiration to a society that doesn't believe in it." — brands must shift from helping young people signal identity to helping them make actual progress.
+- "When education, careers, and class mobility stop working as levers, the self becomes the last investable asset." — Baudrillard called this in 1970: once capitalism exhausts the external world of things to commodify, it turns inward.
+- "A creator's fame is the least interesting thing about them." — decentralised desire killed Hollywood, and brands need to stop treating creators like celebrities.
+- "The mythologies that hold our reality together are collapsing." — brands built upon ontological beliefs that have ceased to exist are structurally exposed.
+
+    Tags:
+    brand strategy & cultural theory, post-aspiration economics, creator economy

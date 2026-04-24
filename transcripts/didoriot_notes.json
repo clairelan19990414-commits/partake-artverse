@@ -1,0 +1,215 @@
+{
+  "creator_thesis": "@didoriot applies marketing and cultural critique to internet trends, influencer aesthetics, and consumer behavior \u2014 treating brand decisions, platform dynamics, and online identity as legitimate objects of analysis. The creator operates from inside the culture they critique: a salaried professional who also writes on Substack, crosses between TikTok and Instagram, and is openly figuring out the creator economy in real time. The throughline is the tension between aspiration and reality \u2014 in careers, in consumption, in how people perform themselves online.",
+  "key_concepts": [
+    {
+      "name": "Goop-ification / conversation piece products",
+      "definition": "Brands releasing products that function as cultural signals rather than functional goods \u2014 earnestly marketed as wellness, but really purchased to virtue-signal membership in an increasingly niche audience.",
+      "via_posts": [
+        "DRU2xzpiS4w"
+      ]
+    },
+    {
+      "name": "Parasocial management of the Instagram boyfriend",
+      "definition": "Influencers strategically calibrate partner visibility to protect audience parasocial attachment; the only socially acceptable way to feature a boyfriend online is through complete gender role reversal \u2014 putting him behind the camera.",
+      "via_posts": [
+        "DU1e1q7iVMb"
+      ]
+    },
+    {
+      "name": "Attention span as future capital",
+      "definition": "AI advancement will bifurcate the workforce into a 'thinking class' that can manage its own attention and cognition versus those who cannot \u2014 positioning attention span as the new EQ/IQ differentiator.",
+      "via_posts": [
+        "DSQefheCSD4"
+      ]
+    },
+    {
+      "name": "Gen Alpha marketing overreach",
+      "definition": "Brands crossing unspoken ethical boundaries by marketing adult wellness products to children, coinciding with legislative responses like Australia's under-16 social media ban.",
+      "via_posts": [
+        "DSQefheCSD4"
+      ]
+    },
+    {
+      "name": "'You can just do things' / free will discourse",
+      "definition": "A Gen Z cultural meme about reclaiming agency as a response to decision paralysis caused by infinite online options \u2014 the generational successor to the millennial 'adulting' frame.",
+      "via_posts": [
+        "DTlGB7EEX9p"
+      ]
+    },
+    {
+      "name": "Dream job displacement and the Substack era",
+      "definition": "Institutional cultural authority (Vogue, print media) has collapsed into the creator economy; the new aspirational 'cool girl' career is Substack newsletter writer \u2014 fashionable, smart, and immune to layoffs.",
+      "via_posts": [
+        "DUJDVG0jgcq"
+      ]
+    },
+    {
+      "name": "Gendered etiquette curriculum online",
+      "definition": "Social media replicates centuries of formal femininity instruction by converting individual women (Carolyn Bessette-Kennedy, 'that girl') into gendered templates \u2014 diluting the original essence that made them compelling, and making girls lonelier.",
+      "via_posts": [
+        "DWHfsAcCWqI"
+      ]
+    },
+    {
+      "name": "Provocation marketing / controversy as free engagement",
+      "definition": "Large multinationals deliberately court backlash (AI Super Bowl ads, boycotted brand Coachella trips) because hate comments are still engagement and negative press clarifies their core consumer against everyone else.",
+      "via_posts": [
+        "DXPI238jjV4"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Carolyn Bessette-Kennedy",
+      "type": "person",
+      "referenced_in": [
+        "DWHfsAcCWqI"
+      ]
+    },
+    {
+      "name": "Gwyneth Paltrow / Goop",
+      "type": "person/brand",
+      "referenced_in": [
+        "DRU2xzpiS4w"
+      ]
+    },
+    {
+      "name": "Bren\u00e9 Brown",
+      "type": "person",
+      "referenced_in": [
+        "DSQefheCSD4"
+      ]
+    },
+    {
+      "name": "Casey Lewis (Gen Alpha trend forecaster)",
+      "type": "person",
+      "referenced_in": [
+        "DSQefheCSD4"
+      ]
+    },
+    {
+      "name": "Shay Mitchell / Rene (children's skincare)",
+      "type": "person/brand",
+      "referenced_in": [
+        "DSQefheCSD4"
+      ]
+    },
+    {
+      "name": "The Bell Jar (Sylvia Plath) \u2014 fig tree analogy",
+      "type": "book",
+      "referenced_in": [
+        "DTlGB7EEX9p"
+      ]
+    },
+    {
+      "name": "Sex and the City (Carrie Bradshaw)",
+      "type": "television",
+      "referenced_in": [
+        "DUJDVG0jgcq"
+      ]
+    },
+    {
+      "name": "Girls (Hannah Horvath)",
+      "type": "television",
+      "referenced_in": [
+        "DUJDVG0jgcq"
+      ]
+    },
+    {
+      "name": "Hulu's Love Story (CBK series)",
+      "type": "television",
+      "referenced_in": [
+        "DWHfsAcCWqI"
+      ]
+    },
+    {
+      "name": "Diary of a CEO (podcast)",
+      "type": "media",
+      "referenced_in": [
+        "DSQefheCSD4"
+      ]
+    },
+    {
+      "name": "Real Housewives / Secret Lives of Mormon Wives",
+      "type": "television",
+      "referenced_in": [
+        "DU1e1q7iVMb"
+      ]
+    },
+    {
+      "name": "Coperni C+ care wear (probiotic athleisure)",
+      "type": "brand/product",
+      "referenced_in": [
+        "DRU2xzpiS4w"
+      ]
+    },
+    {
+      "name": "Volbeck (copper wire jacket)",
+      "type": "brand/product",
+      "referenced_in": [
+        "DRU2xzpiS4w"
+      ]
+    },
+    {
+      "name": "Starbucks / Coachella influencer trip",
+      "type": "brand/event",
+      "referenced_in": [
+        "DXPI238jjV4"
+      ]
+    },
+    {
+      "name": "Teen Vogue layoffs",
+      "type": "event",
+      "referenced_in": [
+        "DUJDVG0jgcq"
+      ]
+    },
+    {
+      "name": "Australia under-16 social media ban",
+      "type": "policy/event",
+      "referenced_in": [
+        "DSQefheCSD4"
+      ]
+    },
+    {
+      "name": "Serena Shahidi",
+      "type": "person",
+      "referenced_in": [
+        "DWHfsAcCWqI"
+      ]
+    },
+    {
+      "name": "Danielle Bernstein / Hallie Kate",
+      "type": "person",
+      "referenced_in": [
+        "DU1e1q7iVMb"
+      ]
+    },
+    {
+      "name": "Brea Gallardo-McNeil",
+      "type": "person",
+      "referenced_in": [
+        "DXPI238jjV4"
+      ]
+    },
+    {
+      "name": "Steve Jobs (iPad anecdote)",
+      "type": "person",
+      "referenced_in": [
+        "DSQefheCSD4"
+      ]
+    }
+  ],
+  "positions": [
+    "\"You can't follow a tutorial on how to seem like you've never followed a tutorial\" \u2014 gendered self-optimization content destroys the very quality it promises to teach. (DWHfsAcCWqI)",
+    "\"There's too much content online. So we buy these products to virtue signal to an increasingly niche audience who understands what these things are and what they say about us.\" (DRU2xzpiS4w)",
+    "\"The only thing that's embarrassing is publicly needing or wanting a man\" \u2014 having a boyfriend is still a status symbol; what's changed is that dependence has become the taboo, not the relationship itself. (DU1e1q7iVMb)",
+    "\"The medium has changed, the message has not\" \u2014 social media is the latest iteration of centuries-old gendered etiquette instruction, and it's making girls lonelier than ever. (DWHfsAcCWqI)",
+    "\"Do what makes you unique and special because that cannot and will not be replicated by AI\" \u2014 the collapse of junior corporate roles is also an opening to pursue genuine creative interests. (DUJDVG0jgcq)"
+  ],
+  "tags": [
+    "marketing-critique",
+    "creator-economy",
+    "platform-culture"
+  ]
+}

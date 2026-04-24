@@ -1,0 +1,146 @@
+{
+  "creator_thesis": "Will Francis is a practical AI educator who demystifies new tools, models, and workflows for everyday creators and marketers. His content is built around actionable tutorials \u2014 showing exactly how to use the latest AI releases to save time, make content, and build things. A secondary thread runs through his work around AI literacy: helping audiences recognise AI-generated text, video, and media so they're not fooled by it.",
+  "key_concepts": [
+    {
+      "name": "Prompt injection",
+      "definition": "A security attack where hidden commands are embedded in web content (e.g. near-invisible text) to hijack an AI browser agent into performing unauthorized actions like accessing accounts or exfiltrating data.",
+      "via_posts": [
+        "DQKCHUIDMnz"
+      ]
+    },
+    {
+      "name": "Vibe coding / no-code AI building",
+      "definition": "Using AI scaffolding tools like Bolt to build fully functional apps from a plain-English prompt, without writing or touching a single line of code.",
+      "via_posts": [
+        "DPrQumhAR0M"
+      ]
+    },
+    {
+      "name": "Agentic AI",
+      "definition": "AI systems that autonomously plan and execute multi-step tasks across apps and the web \u2014 going beyond single-turn chat to complete whole projects from one prompt.",
+      "via_posts": [
+        "DU_XMyDDqiM"
+      ]
+    },
+    {
+      "name": "AI writing detection",
+      "definition": "A set of learnable signals \u2014 em dashes, 'puffery,' fake balance structures, hallmark words like 'delve,' curly quotes, fabricated citations \u2014 that reliably distinguish AI-generated prose from human writing.",
+      "via_posts": [
+        "DW4fkQPDh6R"
+      ]
+    },
+    {
+      "name": "Claude Skills (portable AI identity)",
+      "definition": "Custom, reusable instruction profiles trained on brand assets (slides, fonts, colours) and saved inside Claude, so the model applies consistent style and rules across future sessions without re-prompting.",
+      "via_posts": [
+        "DXKY8s5Dr4F"
+      ]
+    },
+    {
+      "name": "AI policy lag",
+      "definition": "The structural gap between how fast AI capabilities grow and how slowly law and regulation can catch up \u2014 meaning only the companies that built the models can currently make reliable safety judgements about them.",
+      "via_posts": [
+        "DVZb9Z1CF8p"
+      ]
+    },
+    {
+      "name": "AI slop and the creativity rebound",
+      "definition": "The thesis that formulaic AI-generated content is forcing human creators toward more experimental, rule-breaking work \u2014 mirroring how photography once pushed painters away from realism toward Impressionism and Dadaism.",
+      "via_posts": [
+        "DWmmBSiDmQp"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Angine de Poitrine",
+      "type": "artist/band",
+      "referenced_in": [
+        "DWmmBSiDmQp"
+      ]
+    },
+    {
+      "name": "Dadaism",
+      "type": "art movement",
+      "referenced_in": [
+        "DWmmBSiDmQp"
+      ]
+    },
+    {
+      "name": "Impressionism",
+      "type": "art movement",
+      "referenced_in": [
+        "DWmmBSiDmQp"
+      ]
+    },
+    {
+      "name": "Surrealism",
+      "type": "art movement",
+      "referenced_in": [
+        "DWmmBSiDmQp"
+      ]
+    },
+    {
+      "name": "Expressionism",
+      "type": "art movement",
+      "referenced_in": [
+        "DWmmBSiDmQp"
+      ]
+    },
+    {
+      "name": "Cubism",
+      "type": "art movement",
+      "referenced_in": [
+        "DWmmBSiDmQp"
+      ]
+    },
+    {
+      "name": "Wikipedia",
+      "type": "institution/source",
+      "referenced_in": [
+        "DW4fkQPDh6R"
+      ]
+    },
+    {
+      "name": "Brave",
+      "type": "company/research team",
+      "referenced_in": [
+        "DQKCHUIDMnz"
+      ]
+    },
+    {
+      "name": "Manus.ai",
+      "type": "AI tool (acquired by Meta)",
+      "referenced_in": [
+        "DU_XMyDDqiM"
+      ]
+    },
+    {
+      "name": "Anthropic",
+      "type": "company",
+      "referenced_in": [
+        "DVZb9Z1CF8p"
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "type": "company",
+      "referenced_in": [
+        "DVZb9Z1CF8p",
+        "DPrQumhAR0M"
+      ]
+    }
+  ],
+  "positions": [
+    "You can't rely on what's currently lawful to govern a technology that's getting more powerful by the day \u2014 the only people who can make good decisions on what it is and is not capable of are the people who built it. (Paraphrasing Anthropic CEO, DVZb9Z1CF8p)",
+    "AI browsers are really easy to hack \u2014 prompt injection lets attackers hide commands in web content that humans can't see but an AI's OCR reads as instructions, breaking the same-origin security model that keeps websites separated. (DQKCHUIDMnz)",
+    "Go and look at the comments on this YouTube video that's gone viral. You will just witness how encouraged everybody is by the plight of humanity and human creativity in the face of AI slop. (DWmmBSiDmQp)",
+    "I just built my own Sora 2 powered video generator for free using Bolt and an API key and I didn't touch a line of code. (DPrQumhAR0M)",
+    "If you see three or four of these [hallmark AI words] in one piece of writing, that's a very strong signal \u2014 and different models have different favourite words. (DW4fkQPDh6R)"
+  ],
+  "tags": [
+    "AI literacy",
+    "practical tutorials",
+    "creator economy"
+  ]
+}

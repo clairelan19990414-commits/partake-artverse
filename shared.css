@@ -379,3 +379,27 @@ img { display: block; }
   .site-nav { padding: 0 20px; }
   .movement-period { width: 100px; }
 }
+
+
+.visuals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
+  gap: 10px;
+}
+.visual-ref {
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+.visual-ref img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+.visual-ref figcaption {
+  padding: 10px 14px;
+  font-size: 0.72rem;
+  color: var(--text-2);
+  line-height: 1.5;
+  border-top: 1px solid var(--border);
+}

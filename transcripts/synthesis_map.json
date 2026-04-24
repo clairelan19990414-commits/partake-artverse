@@ -1,0 +1,512 @@
+{
+  "clusters": [
+    {
+      "name": "Brand Systems and Strategic Legibility",
+      "slug": "brand_systems",
+      "description": "These creators treat brands as systems for making value legible. Across marketing explainers, fake-brand satire, design education, and fashion/brand travel guides, the shared concern is how names, tools, references, workflows, and narratives turn visual material into trust, status, and commercial meaning.",
+      "creators": [
+        "eugbrandstrat",
+        "willfrancis",
+        "fakeplasticbrands",
+        "codebynordveritas",
+        "h_miller76",
+        "vinny_creative",
+        "bjornd.al"
+      ],
+      "shared_ideas": [
+        {
+          "name": "Brand as Operating System",
+          "definition": "A brand is not just a logo or campaign but a repeatable structure for decisions, behavior, recognition, and trust.",
+          "via_handles": [
+            "eugbrandstrat",
+            "willfrancis",
+            "h_miller76",
+            "vinny_creative"
+          ]
+        },
+        {
+          "name": "Professional Taste Infrastructure",
+          "definition": "Taste is built through research systems, reference libraries, case studies, tools, and repeated comparison rather than raw intuition.",
+          "via_handles": [
+            "vinny_creative",
+            "codebynordveritas",
+            "bjornd.al"
+          ]
+        },
+        {
+          "name": "Strategic Clarity Over Decoration",
+          "definition": "Visual polish matters less than whether an audience can understand the role, value, and difference of the thing being presented.",
+          "via_handles": [
+            "eugbrandstrat",
+            "fakeplasticbrands",
+            "h_miller76"
+          ]
+        },
+        {
+          "name": "Synthetic Brands as Critique",
+          "definition": "Invented or exaggerated brands reveal how contemporary commerce manufactures familiarity, desire, and legitimacy.",
+          "via_handles": [
+            "fakeplasticbrands",
+            "willfrancis",
+            "codebynordveritas"
+          ]
+        },
+        {
+          "name": "AI as Workflow Pressure",
+          "definition": "AI makes execution cheaper, pushing creative workers toward judgment, strategy, and systems as defensible forms of labor.",
+          "via_handles": [
+            "willfrancis",
+            "vinny_creative",
+            "codebynordveritas"
+          ]
+        }
+      ],
+      "tensions": [
+        {
+          "tension": "Strategy vs. surface",
+          "side_a": "Brand strategists argue meaning comes from positioning and systems.",
+          "side_b": "Visual educators still treat style libraries and execution as necessary evidence of taste."
+        },
+        {
+          "tension": "Automation vs. authorship",
+          "side_a": "AI tools can speed production and website building.",
+          "side_b": "The creators keep returning to judgment, research, and distinct point of view as the work AI cannot replace."
+        }
+      ],
+      "voices": [
+        {
+          "handle": "vinny_creative",
+          "quote": "The designer AI will not replace is the one with brand judgment, research habits, and taste-building systems."
+        },
+        {
+          "handle": "fakeplasticbrands",
+          "quote": "Fake brands make real brand logic visible by exaggerating the rituals of credibility."
+        },
+        {
+          "handle": "eugbrandstrat",
+          "quote": "Brand strategy is the work of making culture readable as value."
+        },
+        {
+          "handle": "willfrancis",
+          "quote": "Marketing and AI are useful only when they sharpen the decision, not when they replace the thinking."
+        }
+      ],
+      "references": [
+        {
+          "name": "Brand New / UnderConsideration",
+          "type": "design criticism site",
+          "referenced_by": [
+            "vinny_creative"
+          ]
+        },
+        {
+          "name": "Cannes Lions",
+          "type": "creative industry event",
+          "referenced_by": [
+            "vinny_creative"
+          ]
+        },
+        {
+          "name": "Claude Code / Lovable AI",
+          "type": "AI website tools",
+          "referenced_by": [
+            "vinny_creative"
+          ]
+        },
+        {
+          "name": "Are.na",
+          "type": "research platform",
+          "referenced_by": [
+            "vinny_creative",
+            "codebynordveritas"
+          ]
+        },
+        {
+          "name": "Awwwards",
+          "type": "web design reference",
+          "referenced_by": [
+            "vinny_creative"
+          ]
+        }
+      ],
+      "is_visual_heavy": false
+    },
+    {
+      "name": "Language, Memory, and Cultural Codes",
+      "slug": "language_memory",
+      "description": "This cluster reads culture through words, symbols, habits, and inherited references. Etymology, subcultural language, identity labels, archives, and everyday phrases become tools for noticing how history hides inside speech and how communities preserve or distort meaning.",
+      "creators": [
+        "etymologynerd",
+        "lhuijuni.ldn",
+        "maryisalien",
+        "g.a.works",
+        "culturalfingerprints",
+        "noteswnat"
+      ],
+      "shared_ideas": [
+        {
+          "name": "Words as Fossils",
+          "definition": "Language carries traces of older social worlds, migrations, jokes, and power relations.",
+          "via_handles": [
+            "etymologynerd",
+            "noteswnat",
+            "culturalfingerprints"
+          ]
+        },
+        {
+          "name": "Cultural Translation",
+          "definition": "Meaning changes when it crosses class, nation, platform, or subculture, producing both insight and misunderstanding.",
+          "via_handles": [
+            "lhuijuni.ldn",
+            "g.a.works",
+            "maryisalien"
+          ]
+        },
+        {
+          "name": "Archive as Identity",
+          "definition": "Old media, inherited objects, and remembered phrases become evidence for how people locate themselves culturally.",
+          "via_handles": [
+            "culturalfingerprints",
+            "noteswnat",
+            "maryisalien"
+          ]
+        },
+        {
+          "name": "Microhistory",
+          "definition": "Small linguistic or visual details can open onto broad histories of taste, labor, migration, and social belonging.",
+          "via_handles": [
+            "etymologynerd",
+            "g.a.works",
+            "lhuijuni.ldn"
+          ]
+        }
+      ],
+      "tensions": [
+        {
+          "tension": "Explanation vs. mystique",
+          "side_a": "Educational accounts clarify hidden origins and social codes.",
+          "side_b": "Archive-driven accounts preserve ambiguity, affect, and atmosphere as part of meaning."
+        },
+        {
+          "tension": "Universal pattern vs. local specificity",
+          "side_a": "Some creators seek broad rules of language or culture.",
+          "side_b": "Others insist the detail only makes sense inside a place, accent, or community."
+        }
+      ],
+      "voices": [
+        {
+          "handle": "etymologynerd",
+          "quote": "A word is never just a word; it is a miniature history of use."
+        },
+        {
+          "handle": "culturalfingerprints",
+          "quote": "The smallest object can behave like an archive if you know how to read it."
+        },
+        {
+          "handle": "noteswnat",
+          "quote": "Language is culture wearing everyday clothes."
+        }
+      ],
+      "references": [
+        {
+          "name": "Etymology",
+          "type": "linguistic method",
+          "referenced_by": [
+            "etymologynerd"
+          ]
+        },
+        {
+          "name": "Archive culture",
+          "type": "movement / method",
+          "referenced_by": [
+            "culturalfingerprints",
+            "noteswnat"
+          ]
+        },
+        {
+          "name": "Internet vernacular",
+          "type": "language field",
+          "referenced_by": [
+            "lhuijuni.ldn",
+            "maryisalien"
+          ]
+        }
+      ],
+      "is_visual_heavy": false
+    },
+    {
+      "name": "Platform Selfhood and Algorithmic Life",
+      "slug": "platform_selfhood",
+      "description": "These creators focus on how people become characters, brands, metrics, or moral positions inside platform culture. Their shared terrain is the self under algorithmic pressure: identity as content, taste as performance, politics as feed logic, and media literacy as survival skill.",
+      "creators": [
+        "davidkylechoe",
+        "didoriot",
+        "musingsofacrouton",
+        "kai_rehagen",
+        "bubsonline",
+        "itsvicchang",
+        "aidanetcetera"
+      ],
+      "shared_ideas": [
+        {
+          "name": "The Self as Format",
+          "definition": "Online identity is shaped by repeatable formats: the take, the persona, the confession, the fit, the bit, the metric.",
+          "via_handles": [
+            "davidkylechoe",
+            "didoriot",
+            "bubsonline",
+            "itsvicchang"
+          ]
+        },
+        {
+          "name": "Metric Capture",
+          "definition": "Views, rankings, engagement, and algorithmic measures begin to dictate how people understand reality and themselves.",
+          "via_handles": [
+            "aidanetcetera",
+            "musingsofacrouton",
+            "kai_rehagen"
+          ]
+        },
+        {
+          "name": "Media Literacy as Tactic",
+          "definition": "Understanding the frame becomes a way to resist manipulation rather than merely explain it.",
+          "via_handles": [
+            "aidanetcetera",
+            "didoriot",
+            "davidkylechoe"
+          ]
+        },
+        {
+          "name": "Performance of Authenticity",
+          "definition": "Platforms reward sincerity only after it has been formatted into recognizable signals.",
+          "via_handles": [
+            "bubsonline",
+            "itsvicchang",
+            "musingsofacrouton"
+          ]
+        },
+        {
+          "name": "Absurdity as Diagnosis",
+          "definition": "Brainrot, jokes, and strange platform rituals reveal serious structures of labor, politics, and attention.",
+          "via_handles": [
+            "aidanetcetera",
+            "kai_rehagen",
+            "didoriot"
+          ]
+        }
+      ],
+      "tensions": [
+        {
+          "tension": "Participation vs. refusal",
+          "side_a": "Some creators use platform forms knowingly to critique them from inside.",
+          "side_b": "Others imply that every use of the form deepens dependence on the system."
+        },
+        {
+          "tension": "Irony vs. sincerity",
+          "side_a": "Absurdity exposes hidden rules.",
+          "side_b": "Too much irony can make critique indistinguishable from the feed it critiques."
+        }
+      ],
+      "voices": [
+        {
+          "handle": "aidanetcetera",
+          "quote": "Be aware of the medium, the ways it is distorting you, and push bad actors out of the frame."
+        },
+        {
+          "handle": "didoriot",
+          "quote": "The persona is not outside the platform; it is one of the platform’s native products."
+        },
+        {
+          "handle": "musingsofacrouton",
+          "quote": "The feed makes identity feel personal while quietly standardizing its forms."
+        }
+      ],
+      "references": [
+        {
+          "name": "Skibidi Toilet",
+          "type": "meme / media object",
+          "referenced_by": [
+            "aidanetcetera"
+          ]
+        },
+        {
+          "name": "Leif Weatherby",
+          "type": "scholar",
+          "referenced_by": [
+            "aidanetcetera"
+          ]
+        },
+        {
+          "name": "Language Machines",
+          "type": "book",
+          "referenced_by": [
+            "aidanetcetera"
+          ]
+        },
+        {
+          "name": "Hasan Piker",
+          "type": "streamer",
+          "referenced_by": [
+            "aidanetcetera"
+          ]
+        },
+        {
+          "name": "Sam Altman",
+          "type": "technology executive",
+          "referenced_by": [
+            "aidanetcetera"
+          ]
+        }
+      ],
+      "is_visual_heavy": false
+    },
+    {
+      "name": "Visual Taste, Beauty, and Place",
+      "slug": "visual_taste_place",
+      "description": "This cluster is about how visual taste is anchored in bodies, cities, materials, and moral claims. Fashion guides, beauty polemics, poster systems, scanned textures, and visual-reference accounts all treat aesthetics as something learned through looking closely at place, craft, history, and material evidence.",
+      "creators": [
+        "kaburbank",
+        "eyes_of_apoorva",
+        "dan_dug_",
+        "thewaronbeauty",
+        "andreyazizov",
+        "stylebykvn"
+      ],
+      "shared_ideas": [
+        {
+          "name": "Taste as Situated Knowledge",
+          "definition": "Style is not abstract preference; it emerges from cities, rituals, storefronts, bodies, and local references.",
+          "via_handles": [
+            "stylebykvn",
+            "kaburbank",
+            "eyes_of_apoorva"
+          ]
+        },
+        {
+          "name": "Beauty as Argument",
+          "definition": "Aesthetic judgment carries moral, spiritual, or cultural stakes rather than being mere decoration.",
+          "via_handles": [
+            "thewaronbeauty",
+            "dan_dug_",
+            "eyes_of_apoorva"
+          ]
+        },
+        {
+          "name": "Material Evidence",
+          "definition": "Texture, scanning, craft, and physical residue give visual work credibility by showing contact with the world.",
+          "via_handles": [
+            "andreyazizov",
+            "dan_dug_",
+            "kaburbank"
+          ]
+        },
+        {
+          "name": "Reference as Practice",
+          "definition": "Looking carefully at archives, fashion houses, museums, and street-level scenes is itself a creative method.",
+          "via_handles": [
+            "stylebykvn",
+            "eyes_of_apoorva",
+            "andreyazizov"
+          ]
+        },
+        {
+          "name": "Anti-Generic Visuality",
+          "definition": "The cluster rejects clean sameness in favor of specificity: ornament, grit, local style, and authored taste.",
+          "via_handles": [
+            "thewaronbeauty",
+            "andreyazizov",
+            "kaburbank"
+          ]
+        }
+      ],
+      "tensions": [
+        {
+          "tension": "Tradition vs. remix",
+          "side_a": "The War on Beauty frames tradition and faith as the ground of beauty.",
+          "side_b": "Andrey Azizov and fashion-guide accounts embrace remix, scanning, and commercial pop production."
+        },
+        {
+          "tension": "Place vs. platform",
+          "side_a": "Fashion geography insists taste is tied to physical neighborhoods and cities.",
+          "side_b": "Visual-reference creators translate those places into shareable digital palettes and frames."
+        }
+      ],
+      "voices": [
+        {
+          "handle": "thewaronbeauty",
+          "quote": "Beauty is not taste alone; its decline is a spiritual and civic problem."
+        },
+        {
+          "handle": "andreyazizov",
+          "quote": "Design becomes more memorable when it carries evidence of material contact."
+        },
+        {
+          "handle": "stylebykvn",
+          "quote": "To understand a city aesthetically, follow its fashion infrastructure."
+        },
+        {
+          "handle": "eyes_of_apoorva",
+          "quote": "Visual culture is a way of reading where bodies, objects, and histories meet."
+        }
+      ],
+      "references": [
+        {
+          "name": "John Ruskin",
+          "type": "critic / writer",
+          "referenced_by": [
+            "thewaronbeauty"
+          ]
+        },
+        {
+          "name": "Plato",
+          "type": "philosopher",
+          "referenced_by": [
+            "thewaronbeauty"
+          ]
+        },
+        {
+          "name": "Issey Miyake",
+          "type": "designer / fashion house",
+          "referenced_by": [
+            "stylebykvn"
+          ]
+        },
+        {
+          "name": "Courreges",
+          "type": "fashion house",
+          "referenced_by": [
+            "stylebykvn"
+          ]
+        },
+        {
+          "name": "Vogue / Met Gala",
+          "type": "fashion media production",
+          "referenced_by": [
+            "andreyazizov"
+          ]
+        },
+        {
+          "name": "TRASHSCAN",
+          "type": "texture pack",
+          "referenced_by": [
+            "andreyazizov"
+          ]
+        },
+        {
+          "name": "Azzedine Alaia Foundation",
+          "type": "fashion museum",
+          "referenced_by": [
+            "stylebykvn"
+          ]
+        }
+      ],
+      "is_visual_heavy": true
+    }
+  ],
+  "cross_cutting_themes": [
+    "Taste becomes a form of literacy: creators repeatedly teach audiences how to read brands, words, images, places, and feeds.",
+    "AI and automation appear as pressure that makes judgment, reference quality, and cultural specificity more valuable.",
+    "Platforms convert culture into repeatable formats, but creators keep using those same formats to smuggle in critique and education.",
+    "Materiality returns as a counterweight to digital sameness: scans, textures, places, archives, and bodies become proof of specificity."
+  ]
+}

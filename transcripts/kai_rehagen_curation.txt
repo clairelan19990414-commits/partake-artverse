@@ -1,0 +1,21 @@
+@kai_rehagen curation
+
+    Core thesis:
+    Based on extremely sparse caption data (3 posts, near-zero text), @kai_rehagen is a visual-first creator who lets images carry all meaning, using captions as minimal labels or omitting them entirely. This deliberate anti-caption stance positions the work as art objects rather than social content.
+
+    Classification:
+    visual-reference heavy
+
+    Distinct post IDs:
+    - DWr1wj3kZEu
+- DWXCnbcEc_7
+- DWIjbM0lUbD
+- DWXCnbcEc_7
+- DWr1wj3kZEu
+
+    Key ideas:
+    - Radical caption minimalism — images need no explanation
+- Photography as art object, not content
+- Silence and negative space as aesthetic choices
+- Anti-algorithm posting (no keywords, no hooks)
+- Vernacular titling ('Some Pictures') as deadpan irony

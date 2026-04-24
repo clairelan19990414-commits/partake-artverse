@@ -1,0 +1,145 @@
+{
+  "creator_thesis": "This creator operates at the intersection of personal finance and late-stage capitalism critique, examining how economic systems shape bodies, lifestyles, and aspirations\u2014particularly for high-earning women in expensive cities like London. She reframes wealth not as a number but as a quality-of-life question, using frameworks like time affluence and the HENRY trap to expose the gap between earning well and feeling rich. Her lens is observational and slightly sardonic: capitalism produces absurdities (\u00a3300 gyms, body-as-brand culture, financial nihilism) and she documents them as a fellow participant, not a detached critic.",
+  "key_concepts": [
+    {
+      "name": "Time Affluence",
+      "definition": "The psychological feeling of having enough time; research shows this predicts wellbeing better than income once basic needs are met, making it the true metric of wealth for high earners.",
+      "via_posts": [
+        "DXCETV9DGj8"
+      ]
+    },
+    {
+      "name": "HENRY Trap",
+      "definition": "High Earner Not Rich Yet \u2014 the structural bind where top-3% earners in high-cost cities remain asset-poor due to punitive tax thresholds, lifestyle inflation, and housing unaffordability.",
+      "via_posts": [
+        "DUl5YiHDgIe"
+      ]
+    },
+    {
+      "name": "Body-as-Brand",
+      "definition": "The shift of the body into a professional status signal in competitive cities, where fitness, aesthetics, and biohacking vocabulary function as career credentials that have inflated beyond traditional markers like degrees and salaries.",
+      "via_posts": [
+        "DWe5evKDiMJ"
+      ]
+    },
+    {
+      "name": "Financial Nihilism",
+      "definition": "A generational loss of faith in traditional wealth-building paths \u2014 particularly homeownership \u2014 causing Gen Z to redirect toward immediate consumption, volatile assets, and deprioritized career ambition.",
+      "via_posts": [
+        "DVZRSsbDlEf"
+      ]
+    },
+    {
+      "name": "Lifestyle Inflation",
+      "definition": "The voluntary (image maintenance) and involuntary (convenience purchasing under time scarcity) escalation of spending that accompanies high-pressure professional roles, eroding the practical gains of higher income.",
+      "via_posts": [
+        "DUl5YiHDgIe"
+      ]
+    },
+    {
+      "name": "Carry Trade / Mrs. Watanabe",
+      "definition": "A currency strategy \u2014 borrow in a low-interest currency, invest in a high-interest one \u2014 popularized by ordinary Japanese housewives managing household savings, reframing finance as democratically accessible rather than Wall Street-exclusive.",
+      "via_posts": [
+        "DUtDpjVjELv"
+      ]
+    },
+    {
+      "name": "Activist Short-Selling",
+      "definition": "A market practice of forensic investigation into corporate fraud or misconduct, followed by taking a short position before publishing findings publicly \u2014 controversial because profit is structurally tied to reputational damage.",
+      "via_posts": [
+        "DU-9p61jCwi"
+      ]
+    },
+    {
+      "name": "Multipolar Modernity",
+      "definition": "The fracturing of Western modernity as the global default reference point, with China's rising cultural visibility via the attention economy signaling a shift toward multiple parallel versions of what progress and lifestyle look like.",
+      "via_posts": [
+        "DVFB_pUjCOK"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Hindenburg Research",
+      "type": "organization",
+      "referenced_in": [
+        "DU-9p61jCwi"
+      ]
+    },
+    {
+      "name": "Adani Group",
+      "type": "company",
+      "referenced_in": [
+        "DU-9p61jCwi"
+      ]
+    },
+    {
+      "name": "Block (Jack Dorsey)",
+      "type": "company",
+      "referenced_in": [
+        "DU-9p61jCwi"
+      ]
+    },
+    {
+      "name": "Fumi Wakabayashi \u2014 I Love Stocks",
+      "type": "book",
+      "referenced_in": [
+        "DUtDpjVjELv"
+      ]
+    },
+    {
+      "name": "Mayumi Tori \u2014 FX Beauty Club",
+      "type": "book/social club",
+      "referenced_in": [
+        "DUtDpjVjELv"
+      ]
+    },
+    {
+      "name": "Pop Mart (labubu/boo-boos)",
+      "type": "brand",
+      "referenced_in": [
+        "DVFB_pUjCOK"
+      ]
+    },
+    {
+      "name": "I Show Speed",
+      "type": "person",
+      "referenced_in": [
+        "DVFB_pUjCOK"
+      ]
+    },
+    {
+      "name": "Confucius Institutes",
+      "type": "institution",
+      "referenced_in": [
+        "DVFB_pUjCOK"
+      ]
+    },
+    {
+      "name": "Goldman Sachs",
+      "type": "institution",
+      "referenced_in": [
+        "DWCr-mfDMHx"
+      ]
+    },
+    {
+      "name": "Balenciaga",
+      "type": "brand",
+      "referenced_in": [
+        "DWCr-mfDMHx"
+      ]
+    }
+  ],
+  "positions": [
+    "At some point, earning more only makes you happier if it also increases your time affluence.",
+    "Your body is your brand now, whether you opted into that or not \u2014 you're not vain for caring how you look, you're just playing the game the way the game is currently set up.",
+    "If your credentials weren't enough, and now your body is not enough either, what's left to optimize?",
+    "A Henry in London with two kids earning \u00a399,999 might actually end up with more disposable income than someone in the same situation earning \u00a3149K \u2014 so people are refusing promotions just to stay below the 100K threshold.",
+    "If owning a home becomes completely out of reach, the incentive weakens \u2014 people spend on immediate satisfaction, tolerate less at work, and chase volatile assets not because they're irrational but because they're searching for a different path."
+  ],
+  "tags": [
+    "personal finance",
+    "late-stage capitalism",
+    "gender & wealth"
+  ]
+}

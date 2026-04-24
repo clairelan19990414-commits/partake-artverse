@@ -1,0 +1,36 @@
+@willfrancis notes
+
+    Thesis:
+    Will Francis is a practical AI educator who demystifies new tools, models, and workflows for everyday creators and marketers. His content is built around actionable tutorials — showing exactly how to use the latest AI releases to save time, make content, and build things. A secondary thread runs through his work around AI literacy: helping audiences recognise AI-generated text, video, and media so they're not fooled by it.
+
+    Key concepts:
+    - Prompt injection: A security attack where hidden commands are embedded in web content (e.g. near-invisible text) to hijack an AI browser agent into performing unauthorized actions like accessing accounts or exfiltrating data. (via DQKCHUIDMnz)
+- Vibe coding / no-code AI building: Using AI scaffolding tools like Bolt to build fully functional apps from a plain-English prompt, without writing or touching a single line of code. (via DPrQumhAR0M)
+- Agentic AI: AI systems that autonomously plan and execute multi-step tasks across apps and the web — going beyond single-turn chat to complete whole projects from one prompt. (via DU_XMyDDqiM)
+- AI writing detection: A set of learnable signals — em dashes, 'puffery,' fake balance structures, hallmark words like 'delve,' curly quotes, fabricated citations — that reliably distinguish AI-generated prose from human writing. (via DW4fkQPDh6R)
+- Claude Skills (portable AI identity): Custom, reusable instruction profiles trained on brand assets (slides, fonts, colours) and saved inside Claude, so the model applies consistent style and rules across future sessions without re-prompting. (via DXKY8s5Dr4F)
+- AI policy lag: The structural gap between how fast AI capabilities grow and how slowly law and regulation can catch up — meaning only the companies that built the models can currently make reliable safety judgements about them. (via DVZb9Z1CF8p)
+- AI slop and the creativity rebound: The thesis that formulaic AI-generated content is forcing human creators toward more experimental, rule-breaking work — mirroring how photography once pushed painters away from realism toward Impressionism and Dadaism. (via DWmmBSiDmQp)
+
+    References:
+    - Angine de Poitrine [artist/band] via DWmmBSiDmQp
+- Dadaism [art movement] via DWmmBSiDmQp
+- Impressionism [art movement] via DWmmBSiDmQp
+- Surrealism [art movement] via DWmmBSiDmQp
+- Expressionism [art movement] via DWmmBSiDmQp
+- Cubism [art movement] via DWmmBSiDmQp
+- Wikipedia [institution/source] via DW4fkQPDh6R
+- Brave [company/research team] via DQKCHUIDMnz
+- Manus.ai [AI tool (acquired by Meta)] via DU_XMyDDqiM
+- Anthropic [company] via DVZb9Z1CF8p
+- OpenAI [company] via DVZb9Z1CF8p, DPrQumhAR0M
+
+    Positions:
+    - You can't rely on what's currently lawful to govern a technology that's getting more powerful by the day — the only people who can make good decisions on what it is and is not capable of are the people who built it. (Paraphrasing Anthropic CEO, DVZb9Z1CF8p)
+- AI browsers are really easy to hack — prompt injection lets attackers hide commands in web content that humans can't see but an AI's OCR reads as instructions, breaking the same-origin security model that keeps websites separated. (DQKCHUIDMnz)
+- Go and look at the comments on this YouTube video that's gone viral. You will just witness how encouraged everybody is by the plight of humanity and human creativity in the face of AI slop. (DWmmBSiDmQp)
+- I just built my own Sora 2 powered video generator for free using Bolt and an API key and I didn't touch a line of code. (DPrQumhAR0M)
+- If you see three or four of these [hallmark AI words] in one piece of writing, that's a very strong signal — and different models have different favourite words. (DW4fkQPDh6R)
+
+    Tags:
+    AI literacy, practical tutorials, creator economy

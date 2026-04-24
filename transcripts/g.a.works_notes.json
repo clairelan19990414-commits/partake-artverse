@@ -1,0 +1,153 @@
+{
+  "creator_thesis": "@g.a.works is a printmaking-centered fine artist who layers serigraphy with acrylic and found ephemera (cigarette wrappers, paper) on progressively industrial substrates \u2014 paper, then board, then steel \u2014 as a material argument about durability and weight. The work fuses vernacular American pop culture (Vegas Vic, pinball, roadside food) with global references (Japan, Arabic, Latin America) and explicit political and literary citation (Baldwin, John Brown, anti-ICE imagery). The iterative \"study\" format made public signals that process and accumulation are as much the subject as any single finished piece.",
+  "key_concepts": [
+    {
+      "name": "Serigraphy as primary language",
+      "definition": "Screenprint is not decoration but the core medium and meaning \u2014 the technical act of printing IS the artistic statement.",
+      "via_posts": [
+        "DLstYIVvhtp",
+        "DLGC3FsvGLH",
+        "DLF3UxuAV_I"
+      ]
+    },
+    {
+      "name": "Material escalation as argument",
+      "definition": "Progressive use of heavier substrates \u2014 paper to board to steel \u2014 embeds a conceptual claim about permanence, weight, and political stakes.",
+      "via_posts": [
+        "DLstYIVvhtp",
+        "DLGC3FsvGLH",
+        "DXNIX6FFp95",
+        "DW7GRwsFvaF"
+      ]
+    },
+    {
+      "name": "Cross-cultural vernacular collision",
+      "definition": "American Southwest iconography, Japanese textile tradition, Arabic script, and Latin American references coexist in the same frame without imposing hierarchy.",
+      "via_posts": [
+        "DXNIX6FFp95",
+        "DQSl-ISAAAj",
+        "DNoC0rxgygz"
+      ]
+    },
+    {
+      "name": "Political iconography as fine-art layer",
+      "definition": "Explicit anti-ICE imagery, abolitionist figures, and radical slogans are embedded within formally resolved fine-art works rather than kept separate as protest art.",
+      "via_posts": [
+        "DLstYIVvhtp",
+        "DLGC3FsvGLH",
+        "DLF3UxuAV_I"
+      ]
+    },
+    {
+      "name": "Found and ephemeral material inclusion",
+      "definition": "Cigarette wrappers and paper scraps are incorporated into otherwise archival works, introducing impermanence and vernacular debris as intentional content.",
+      "via_posts": [
+        "DW7GRwsFvaF"
+      ]
+    },
+    {
+      "name": "Public iteration as finished practice",
+      "definition": "\"Paper studies\" are posted openly and treated as complete works, positioning process and accumulation as subject matter rather than preparation.",
+      "via_posts": [
+        "DLstYIVvhtp",
+        "DLF3UxuAV_I"
+      ]
+    },
+    {
+      "name": "American roadside pop elevated to philosophy",
+      "definition": "Vernacular icons like Vegas Vic and pinball machines are treated as serious pictorial subjects capable of carrying conceptual and political meaning.",
+      "via_posts": [
+        "DNoC0rxgygz"
+      ]
+    },
+    {
+      "name": "Literary citation as visual layer",
+      "definition": "Textual references to writers, musicians, and thinkers (Baldwin, Waylon Jennings, Sartre) function as pictorial elements layered into the print surface.",
+      "via_posts": [
+        "DLGC3FsvGLH",
+        "DLF3UxuAV_I"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "James Baldwin",
+      "type": "person \u2014 writer and civil rights thinker",
+      "referenced_in": [
+        "DLGC3FsvGLH",
+        "DLF3UxuAV_I"
+      ]
+    },
+    {
+      "name": "John Brown",
+      "type": "person \u2014 19th-century abolitionist",
+      "referenced_in": [
+        "DLGC3FsvGLH"
+      ]
+    },
+    {
+      "name": "Vegas Vic",
+      "type": "artwork/icon \u2014 mid-century American roadside neon figure",
+      "referenced_in": [
+        "DNoC0rxgygz"
+      ]
+    },
+    {
+      "name": "Waylon Jennings",
+      "type": "person \u2014 outlaw country musician",
+      "referenced_in": [
+        "DLF3UxuAV_I"
+      ]
+    },
+    {
+      "name": "\"This Machine Kills Fascists\"",
+      "type": "phrase/movement \u2014 Woody Guthrie slogan, art-as-weapon tradition",
+      "referenced_in": [
+        "DLF3UxuAV_I"
+      ]
+    },
+    {
+      "name": "Tenugui",
+      "type": "cultural object \u2014 Japanese hand-dyed textile tradition",
+      "referenced_in": [
+        "DQSl-ISAAAj"
+      ]
+    },
+    {
+      "name": "Samsara",
+      "type": "concept \u2014 Buddhist cycle of existence",
+      "referenced_in": [
+        "DW7GRwsFvaF"
+      ]
+    },
+    {
+      "name": "Anti-ICE movement",
+      "type": "movement \u2014 immigrant rights / abolish-ICE political organizing",
+      "referenced_in": [
+        "DLstYIVvhtp"
+      ]
+    },
+    {
+      "name": "Jean-Paul Sartre",
+      "type": "person \u2014 existentialist philosopher",
+      "referenced_in": []
+    },
+    {
+      "name": "Marina Abramovi\u0107",
+      "type": "person \u2014 performance artist",
+      "referenced_in": []
+    }
+  ],
+  "positions": [
+    "Steel as substrate is not an aesthetic upgrade but a political one \u2014 the material's industrial permanence makes an argument that paper cannot.",
+    "Pairing John Brown and James Baldwin in a single work proposes a lineage of radical American justice that crosses 19th-century direct action and 20th-century literary witness.",
+    "\"French Fried Samsara\" frames American fast-food culture within Buddhist cyclical existence \u2014 suggesting the consumer loop is its own form of spiritual captivity.",
+    "Posting paper studies publicly refuses the art-world convention that process is private; accumulation of studies IS the body of work, not a backstage to it.",
+    "\"This Machine Kills Fascists\" as citation positions the practice inside a longer tradition of art-as-weapon, where the tool itself \u2014 the screen, the press \u2014 is the political instrument."
+  ],
+  "tags": [
+    "printmaking / serigraphy",
+    "political art / radical iconography",
+    "cross-cultural vernacular pop"
+  ]
+}

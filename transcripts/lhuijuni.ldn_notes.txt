@@ -1,0 +1,36 @@
+@lhuijuni.ldn notes
+
+    Thesis:
+    This creator operates at the intersection of personal finance and late-stage capitalism critique, examining how economic systems shape bodies, lifestyles, and aspirations—particularly for high-earning women in expensive cities like London. She reframes wealth not as a number but as a quality-of-life question, using frameworks like time affluence and the HENRY trap to expose the gap between earning well and feeling rich. Her lens is observational and slightly sardonic: capitalism produces absurdities (£300 gyms, body-as-brand culture, financial nihilism) and she documents them as a fellow participant, not a detached critic.
+
+    Key concepts:
+    - Time Affluence: The psychological feeling of having enough time; research shows this predicts wellbeing better than income once basic needs are met, making it the true metric of wealth for high earners. (via DXCETV9DGj8)
+- HENRY Trap: High Earner Not Rich Yet — the structural bind where top-3% earners in high-cost cities remain asset-poor due to punitive tax thresholds, lifestyle inflation, and housing unaffordability. (via DUl5YiHDgIe)
+- Body-as-Brand: The shift of the body into a professional status signal in competitive cities, where fitness, aesthetics, and biohacking vocabulary function as career credentials that have inflated beyond traditional markers like degrees and salaries. (via DWe5evKDiMJ)
+- Financial Nihilism: A generational loss of faith in traditional wealth-building paths — particularly homeownership — causing Gen Z to redirect toward immediate consumption, volatile assets, and deprioritized career ambition. (via DVZRSsbDlEf)
+- Lifestyle Inflation: The voluntary (image maintenance) and involuntary (convenience purchasing under time scarcity) escalation of spending that accompanies high-pressure professional roles, eroding the practical gains of higher income. (via DUl5YiHDgIe)
+- Carry Trade / Mrs. Watanabe: A currency strategy — borrow in a low-interest currency, invest in a high-interest one — popularized by ordinary Japanese housewives managing household savings, reframing finance as democratically accessible rather than Wall Street-exclusive. (via DUtDpjVjELv)
+- Activist Short-Selling: A market practice of forensic investigation into corporate fraud or misconduct, followed by taking a short position before publishing findings publicly — controversial because profit is structurally tied to reputational damage. (via DU-9p61jCwi)
+- Multipolar Modernity: The fracturing of Western modernity as the global default reference point, with China's rising cultural visibility via the attention economy signaling a shift toward multiple parallel versions of what progress and lifestyle look like. (via DVFB_pUjCOK)
+
+    References:
+    - Hindenburg Research [organization] via DU-9p61jCwi
+- Adani Group [company] via DU-9p61jCwi
+- Block (Jack Dorsey) [company] via DU-9p61jCwi
+- Fumi Wakabayashi — I Love Stocks [book] via DUtDpjVjELv
+- Mayumi Tori — FX Beauty Club [book/social club] via DUtDpjVjELv
+- Pop Mart (labubu/boo-boos) [brand] via DVFB_pUjCOK
+- I Show Speed [person] via DVFB_pUjCOK
+- Confucius Institutes [institution] via DVFB_pUjCOK
+- Goldman Sachs [institution] via DWCr-mfDMHx
+- Balenciaga [brand] via DWCr-mfDMHx
+
+    Positions:
+    - At some point, earning more only makes you happier if it also increases your time affluence.
+- Your body is your brand now, whether you opted into that or not — you're not vain for caring how you look, you're just playing the game the way the game is currently set up.
+- If your credentials weren't enough, and now your body is not enough either, what's left to optimize?
+- A Henry in London with two kids earning £99,999 might actually end up with more disposable income than someone in the same situation earning £149K — so people are refusing promotions just to stay below the 100K threshold.
+- If owning a home becomes completely out of reach, the incentive weakens — people spend on immediate satisfaction, tolerate less at work, and chase volatile assets not because they're irrational but because they're searching for a different path.
+
+    Tags:
+    personal finance, late-stage capitalism, gender & wealth

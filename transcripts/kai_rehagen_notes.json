@@ -1,0 +1,91 @@
+{
+  "creator_thesis": "@kai_rehagen is a visual-first creator who treats images as autonomous art objects, deploying radical caption minimalism \u2014 blank text, deadpan generic titles, or a single emoji \u2014 as a deliberate refusal of platform content conventions and algorithmic legibility.",
+  "key_concepts": [
+    {
+      "name": "Radical caption minimalism",
+      "definition": "The practice of posting with no caption, a single glyph, or a near-empty label as an aesthetic stance rather than oversight.",
+      "via_posts": [
+        "DWr1wj3kZEu",
+        "DWXCnbcEc_7",
+        "DWIjbM0lUbD"
+      ]
+    },
+    {
+      "name": "Photography as art object",
+      "definition": "Images positioned as self-contained objects that carry full meaning without textual mediation, aligning them with gallery work rather than social content.",
+      "via_posts": [
+        "DWr1wj3kZEu",
+        "DWXCnbcEc_7"
+      ]
+    },
+    {
+      "name": "Silence as aesthetic choice",
+      "definition": "The deliberate absence of language \u2014 blank captions, withheld context \u2014 used as a compositional element signaling refusal of explanation.",
+      "via_posts": [
+        "DWr1wj3kZEu",
+        "DWIjbM0lUbD"
+      ]
+    },
+    {
+      "name": "Anti-algorithm posting",
+      "definition": "A posting strategy that omits keywords, hooks, hashtags, and discoverability cues, treating algorithmic indifference as a value rather than a liability.",
+      "via_posts": [
+        "DWr1wj3kZEu",
+        "DWXCnbcEc_7",
+        "DWIjbM0lUbD"
+      ]
+    },
+    {
+      "name": "Vernacular titling / deadpan irony",
+      "definition": "Using the most generic possible label ('Some Pictures') as an ironic negation of branding, echoing the flat titling conventions of photobooks and exhibition catalogs.",
+      "via_posts": [
+        "DWXCnbcEc_7"
+      ]
+    },
+    {
+      "name": "Emoji as total caption",
+      "definition": "Reducing the entire communicative gesture of a caption to a single glyph, preserving affect while stripping all descriptive or contextual language.",
+      "via_posts": [
+        "DWIjbM0lUbD"
+      ]
+    },
+    {
+      "name": "Platform refusal",
+      "definition": "A conscious rejection of social media content conventions \u2014 no narrative, no call-to-action, no hook \u2014 that repositions the feed as exhibition space.",
+      "via_posts": [
+        "DWr1wj3kZEu",
+        "DWXCnbcEc_7",
+        "DWIjbM0lUbD"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Photobook/exhibition titling conventions",
+      "type": "movement",
+      "referenced_in": [
+        "DWXCnbcEc_7"
+      ]
+    },
+    {
+      "name": "Conceptual photography tradition",
+      "type": "movement",
+      "referenced_in": [
+        "DWr1wj3kZEu",
+        "DWXCnbcEc_7"
+      ]
+    }
+  ],
+  "positions": [
+    "Images require no textual mediation \u2014 a caption explains what an art object should resist explaining.",
+    "'Some Pictures' is the most generic title imaginable, and that genericity is the point: ironic deflation of content branding.",
+    "A single flower emoji (\ud83d\udc90) contains more affective precision than any descriptive caption could.",
+    "Refusing algorithmic hooks is a political gesture \u2014 illegibility to the platform is a form of integrity.",
+    "Silence and negative space are not absences but active compositional choices that position the work as art, not content."
+  ],
+  "tags": [
+    "visual minimalism",
+    "anti-caption",
+    "photography-as-art-object"
+  ]
+}

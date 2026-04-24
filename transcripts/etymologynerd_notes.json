@@ -1,0 +1,115 @@
+{
+  "creator_thesis": "@etymologynerd creates infographic-based content that traces the word origins of everyday objects, places, and concepts \u2014 showing how language acts as a compressed archive of human history, culture, and migration. The creator's thesis is that etymology is universally accessible and endlessly surprising: virtually any domain (food, geography, science, music) reveals hidden linguistic patterns once you look. Most recently, this framework has been extended into a book arguing that social media algorithms are the newest force reshaping how language evolves.",
+  "key_concepts": [
+    {
+      "name": "Etymology as hidden history",
+      "definition": "Words function as compressed records of cultural exchange, human migration, and historical discovery, making linguistics a form of archaeology.",
+      "via_posts": [
+        "CAnIRdiA5Ow",
+        "CaCjk4ZuriT",
+        "B99HGTKAZA7"
+      ]
+    },
+    {
+      "name": "Toponym patterns",
+      "definition": "Place names encode layers of colonial, indigenous, and immigrant history, making geography a readable map of power and settlement.",
+      "via_posts": [
+        "CaCjk4ZuriT",
+        "CAnIRdiA5Ow"
+      ]
+    },
+    {
+      "name": "Scientific naming conventions",
+      "definition": "Taxonomy, anatomy, medicine, and geology follow systematic Latin and Greek construction rules that preserve the logic of early scientific thought.",
+      "via_posts": [
+        "CcaawemOJ1p",
+        "B99HGTKAZA7"
+      ]
+    },
+    {
+      "name": "Algospeak",
+      "definition": "Platform content moderation and recommendation algorithms now actively drive vocabulary formation, producing terms like 'unalive' as users adapt language to evade filters.",
+      "via_posts": [
+        "DDHqAcvOF0x"
+      ]
+    },
+    {
+      "name": "Brand and cultural naming",
+      "definition": "Artist names, art movement labels, typeface names, and currency terms reflect the values, aesthetics, and power structures of the era that coined them.",
+      "via_posts": [
+        "CPx3luegPNt",
+        "CRgpE72ADEi",
+        "Ctob1J5g7l3"
+      ]
+    },
+    {
+      "name": "Cross-domain universality",
+      "definition": "The same etymological mechanisms \u2014 metaphor, borrowing, eponymy \u2014 operate identically across unrelated fields, suggesting language change follows deep structural patterns.",
+      "via_posts": [
+        "CPx3luegPNt",
+        "CcaawemOJ1p",
+        "Ctob1J5g7l3",
+        "CRgpE72ADEi"
+      ]
+    },
+    {
+      "name": "Visual/spatial etymology mapping",
+      "definition": "Presenting word origins as infographics and geographic maps makes abstract linguistic history legible and shareable for general audiences.",
+      "via_posts": [
+        "CAnIRdiA5Ow",
+        "CaCjk4ZuriT",
+        "CPx3luegPNt"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "ALGOSPEAK: How Social Media is Transforming the Future of Language",
+      "type": "book",
+      "referenced_in": [
+        "DDHqAcvOF0x"
+      ]
+    },
+    {
+      "name": "Alfred A. Knopf (@aaknopf)",
+      "type": "publisher",
+      "referenced_in": [
+        "DDHqAcvOF0x"
+      ]
+    },
+    {
+      "name": "Tyler Comrie",
+      "type": "person",
+      "referenced_in": [
+        "DDHqAcvOF0x"
+      ]
+    },
+    {
+      "name": "Romance languages",
+      "type": "movement",
+      "referenced_in": [
+        "CAnIRdiA5Ow"
+      ]
+    },
+    {
+      "name": "Latin / Greek naming systems",
+      "type": "reference system",
+      "referenced_in": [
+        "CcaawemOJ1p",
+        "B99HGTKAZA7",
+        "CPx3luegPNt"
+      ]
+    }
+  ],
+  "positions": [
+    "Algorithms are now an active linguistic force: platform moderation produces vocabulary ('unalive', 'skibidi', 'cottagecore') the same way trade routes and conquest once did.",
+    "Etymology is universally accessible \u2014 any domain reveals hidden linguistic patterns once you apply the same lens.",
+    "Words carry compressed cultural records: to know a word's origin is to recover a piece of history that written records may have lost.",
+    "Visual presentation (infographics, maps) is not just a delivery format but an argument \u2014 it demonstrates that etymology has spatial and systemic logic, not just trivia value."
+  ],
+  "tags": [
+    "etymology",
+    "linguistics",
+    "visual education"
+  ]
+}

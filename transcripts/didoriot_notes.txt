@@ -1,0 +1,46 @@
+@didoriot notes
+
+    Thesis:
+    @didoriot applies marketing and cultural critique to internet trends, influencer aesthetics, and consumer behavior — treating brand decisions, platform dynamics, and online identity as legitimate objects of analysis. The creator operates from inside the culture they critique: a salaried professional who also writes on Substack, crosses between TikTok and Instagram, and is openly figuring out the creator economy in real time. The throughline is the tension between aspiration and reality — in careers, in consumption, in how people perform themselves online.
+
+    Key concepts:
+    - Goop-ification / conversation piece products: Brands releasing products that function as cultural signals rather than functional goods — earnestly marketed as wellness, but really purchased to virtue-signal membership in an increasingly niche audience. (via DRU2xzpiS4w)
+- Parasocial management of the Instagram boyfriend: Influencers strategically calibrate partner visibility to protect audience parasocial attachment; the only socially acceptable way to feature a boyfriend online is through complete gender role reversal — putting him behind the camera. (via DU1e1q7iVMb)
+- Attention span as future capital: AI advancement will bifurcate the workforce into a 'thinking class' that can manage its own attention and cognition versus those who cannot — positioning attention span as the new EQ/IQ differentiator. (via DSQefheCSD4)
+- Gen Alpha marketing overreach: Brands crossing unspoken ethical boundaries by marketing adult wellness products to children, coinciding with legislative responses like Australia's under-16 social media ban. (via DSQefheCSD4)
+- 'You can just do things' / free will discourse: A Gen Z cultural meme about reclaiming agency as a response to decision paralysis caused by infinite online options — the generational successor to the millennial 'adulting' frame. (via DTlGB7EEX9p)
+- Dream job displacement and the Substack era: Institutional cultural authority (Vogue, print media) has collapsed into the creator economy; the new aspirational 'cool girl' career is Substack newsletter writer — fashionable, smart, and immune to layoffs. (via DUJDVG0jgcq)
+- Gendered etiquette curriculum online: Social media replicates centuries of formal femininity instruction by converting individual women (Carolyn Bessette-Kennedy, 'that girl') into gendered templates — diluting the original essence that made them compelling, and making girls lonelier. (via DWHfsAcCWqI)
+- Provocation marketing / controversy as free engagement: Large multinationals deliberately court backlash (AI Super Bowl ads, boycotted brand Coachella trips) because hate comments are still engagement and negative press clarifies their core consumer against everyone else. (via DXPI238jjV4)
+
+    References:
+    - Carolyn Bessette-Kennedy [person] via DWHfsAcCWqI
+- Gwyneth Paltrow / Goop [person/brand] via DRU2xzpiS4w
+- Brené Brown [person] via DSQefheCSD4
+- Casey Lewis (Gen Alpha trend forecaster) [person] via DSQefheCSD4
+- Shay Mitchell / Rene (children's skincare) [person/brand] via DSQefheCSD4
+- The Bell Jar (Sylvia Plath) — fig tree analogy [book] via DTlGB7EEX9p
+- Sex and the City (Carrie Bradshaw) [television] via DUJDVG0jgcq
+- Girls (Hannah Horvath) [television] via DUJDVG0jgcq
+- Hulu's Love Story (CBK series) [television] via DWHfsAcCWqI
+- Diary of a CEO (podcast) [media] via DSQefheCSD4
+- Real Housewives / Secret Lives of Mormon Wives [television] via DU1e1q7iVMb
+- Coperni C+ care wear (probiotic athleisure) [brand/product] via DRU2xzpiS4w
+- Volbeck (copper wire jacket) [brand/product] via DRU2xzpiS4w
+- Starbucks / Coachella influencer trip [brand/event] via DXPI238jjV4
+- Teen Vogue layoffs [event] via DUJDVG0jgcq
+- Australia under-16 social media ban [policy/event] via DSQefheCSD4
+- Serena Shahidi [person] via DWHfsAcCWqI
+- Danielle Bernstein / Hallie Kate [person] via DU1e1q7iVMb
+- Brea Gallardo-McNeil [person] via DXPI238jjV4
+- Steve Jobs (iPad anecdote) [person] via DSQefheCSD4
+
+    Positions:
+    - "You can't follow a tutorial on how to seem like you've never followed a tutorial" — gendered self-optimization content destroys the very quality it promises to teach. (DWHfsAcCWqI)
+- "There's too much content online. So we buy these products to virtue signal to an increasingly niche audience who understands what these things are and what they say about us." (DRU2xzpiS4w)
+- "The only thing that's embarrassing is publicly needing or wanting a man" — having a boyfriend is still a status symbol; what's changed is that dependence has become the taboo, not the relationship itself. (DU1e1q7iVMb)
+- "The medium has changed, the message has not" — social media is the latest iteration of centuries-old gendered etiquette instruction, and it's making girls lonelier than ever. (DWHfsAcCWqI)
+- "Do what makes you unique and special because that cannot and will not be replicated by AI" — the collapse of junior corporate roles is also an opening to pursue genuine creative interests. (DUJDVG0jgcq)
+
+    Tags:
+    marketing-critique, creator-economy, platform-culture

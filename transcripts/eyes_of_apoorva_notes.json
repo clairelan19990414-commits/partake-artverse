@@ -1,0 +1,163 @@
+{
+  "creator_thesis": "@eyes_of_apoorva excavates the hidden histories behind visual and cultural conventions \u2014 why things look the way they do, who decided that, and what it reveals about power, bias, and collective imagination. The creator traces influence chains across anime, film, design, and advertising to show that aesthetic \"defaults\" are almost never neutral, weaving this analytical lens through a personal visual diary of travel, poetry, and everyday beauty.",
+  "key_concepts": [
+    {
+      "name": "Corporate capture of cultural imagery",
+      "definition": "Single companies quietly standardize how billions of people visualize gods, holiday icons, and human skin tones, making one corporation's aesthetic choices into perceived universal defaults.",
+      "via_posts": [
+        "DVTQ9RLkmNV",
+        "DW_j15QCRk0"
+      ]
+    },
+    {
+      "name": "Color as ideological code",
+      "definition": "Film color grading encodes political and cultural meaning \u2014 yellow for Mexico, blue for Russia \u2014 rather than functioning as neutral artistic choice.",
+      "via_posts": [
+        "DWoT1FdCdv8"
+      ]
+    },
+    {
+      "name": "Cross-medium influence chains",
+      "definition": "A single source \u2014 a real person, a film, a manga \u2014 propagates its visual grammar across anime, games, and Hollywood for decades through direct copying and unconscious absorption.",
+      "via_posts": [
+        "DV87eLYkt8k",
+        "DWlr4IgiYFc"
+      ]
+    },
+    {
+      "name": "Design bias embedded in standards",
+      "definition": "Ostensibly neutral technical defaults \u2014 photography calibration cards, font choices, ad color conventions \u2014 carry racial, gender, or class assumptions built in at the point of standardization.",
+      "via_posts": [
+        "DW_j15QCRk0",
+        "DXMaVMykbdX"
+      ]
+    },
+    {
+      "name": "Archaeology of symbols",
+      "definition": "Everyday visual icons (the heart shape, pink-for-girls, the Kubrick Stare) have surprising, often arbitrary origins that harden over time into what feels like natural law.",
+      "via_posts": [
+        "DXMaVMykbdX",
+        "DVTQ9RLkmNV"
+      ]
+    },
+    {
+      "name": "Narrative tropes as cultural infrastructure",
+      "definition": "Recurring story structures \u2014 damsel-in-distress, evil empire, apocalypse fantasy \u2014 are not just entertainment conventions but structural grammars that shape how entire societies imagine the future.",
+      "via_posts": [
+        "DXWrl2bCQtH"
+      ]
+    },
+    {
+      "name": "Accidental Baroque",
+      "definition": "Modern photography accidentally reproduces the compositional and lighting logic of Renaissance and Baroque painting, suggesting that aesthetic conventions persist through cultural memory even without conscious imitation.",
+      "via_posts": [
+        "DUdOAdVkhqv"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Bj\u00f6rn Andr\u00e9sen (Swedish actor)",
+      "type": "person",
+      "referenced_in": [
+        "DV87eLYkt8k"
+      ]
+    },
+    {
+      "name": "Katsuhiro Otomo",
+      "type": "person",
+      "referenced_in": [
+        "DWlr4IgiYFc"
+      ]
+    },
+    {
+      "name": "Dr Rebecca Marks",
+      "type": "person",
+      "referenced_in": [
+        "DUdOAdVkhqv"
+      ]
+    },
+    {
+      "name": "Akira (1988 film)",
+      "type": "artwork",
+      "referenced_in": [
+        "DWlr4IgiYFc"
+      ]
+    },
+    {
+      "name": "Berserk (manga)",
+      "type": "artwork",
+      "referenced_in": [
+        "DV87eLYkt8k"
+      ]
+    },
+    {
+      "name": "Kodak Shirley Card",
+      "type": "artwork",
+      "referenced_in": [
+        "DW_j15QCRk0"
+      ]
+    },
+    {
+      "name": "Sicario",
+      "type": "artwork",
+      "referenced_in": [
+        "DWoT1FdCdv8"
+      ]
+    },
+    {
+      "name": "Breaking Bad",
+      "type": "artwork",
+      "referenced_in": [
+        "DWoT1FdCdv8"
+      ]
+    },
+    {
+      "name": "Nope (Jordan Peele)",
+      "type": "artwork",
+      "referenced_in": [
+        "DWlr4IgiYFc"
+      ]
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "type": "artwork",
+      "referenced_in": [
+        "DWlr4IgiYFc"
+      ]
+    },
+    {
+      "name": "Mad Max",
+      "type": "artwork",
+      "referenced_in": [
+        "DXWrl2bCQtH"
+      ]
+    },
+    {
+      "name": "Cyberpunk aesthetic",
+      "type": "movement",
+      "referenced_in": [
+        "DWlr4IgiYFc"
+      ]
+    },
+    {
+      "name": "Culture Dump (Substack)",
+      "type": "reference",
+      "referenced_in": [
+        "DUdOAdVkhqv"
+      ]
+    }
+  ],
+  "positions": [
+    "Aesthetic defaults are never neutral \u2014 every visual convention encodes the assumptions of whoever standardized it, usually a single company or cultural moment with outsized reach.",
+    "Film color grading is a political act: yellow Mexico and blue Russia are ideological choices, not artistic ones, and their repetition across decades makes the bias invisible.",
+    "Kodak's Shirley Card calibrated 'correct' skin tone to white women, meaning the racial bias of photography was built into the technical standard from the start \u2014 its fix came from chocolate and furniture manufacturers needing accurate brown tones.",
+    "The Akira motorcycle slide has been copied for thirty years by directors who may not know the source \u2014 influence chains operate below conscious awareness, making origin archaeology necessary to understand the present.",
+    "Gendered color (pink = girl) is a social construct, not something innate in nature, and knowing that makes all the difference \u2014 the naturalization of arbitrary conventions is itself a mechanism of power."
+  ],
+  "tags": [
+    "visual culture history",
+    "aesthetic power structures",
+    "design bias"
+  ]
+}

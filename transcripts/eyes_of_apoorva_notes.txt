@@ -1,0 +1,38 @@
+@eyes_of_apoorva notes
+
+    Thesis:
+    @eyes_of_apoorva excavates the hidden histories behind visual and cultural conventions — why things look the way they do, who decided that, and what it reveals about power, bias, and collective imagination. The creator traces influence chains across anime, film, design, and advertising to show that aesthetic "defaults" are almost never neutral, weaving this analytical lens through a personal visual diary of travel, poetry, and everyday beauty.
+
+    Key concepts:
+    - Corporate capture of cultural imagery: Single companies quietly standardize how billions of people visualize gods, holiday icons, and human skin tones, making one corporation's aesthetic choices into perceived universal defaults. (via DVTQ9RLkmNV, DW_j15QCRk0)
+- Color as ideological code: Film color grading encodes political and cultural meaning — yellow for Mexico, blue for Russia — rather than functioning as neutral artistic choice. (via DWoT1FdCdv8)
+- Cross-medium influence chains: A single source — a real person, a film, a manga — propagates its visual grammar across anime, games, and Hollywood for decades through direct copying and unconscious absorption. (via DV87eLYkt8k, DWlr4IgiYFc)
+- Design bias embedded in standards: Ostensibly neutral technical defaults — photography calibration cards, font choices, ad color conventions — carry racial, gender, or class assumptions built in at the point of standardization. (via DW_j15QCRk0, DXMaVMykbdX)
+- Archaeology of symbols: Everyday visual icons (the heart shape, pink-for-girls, the Kubrick Stare) have surprising, often arbitrary origins that harden over time into what feels like natural law. (via DXMaVMykbdX, DVTQ9RLkmNV)
+- Narrative tropes as cultural infrastructure: Recurring story structures — damsel-in-distress, evil empire, apocalypse fantasy — are not just entertainment conventions but structural grammars that shape how entire societies imagine the future. (via DXWrl2bCQtH)
+- Accidental Baroque: Modern photography accidentally reproduces the compositional and lighting logic of Renaissance and Baroque painting, suggesting that aesthetic conventions persist through cultural memory even without conscious imitation. (via DUdOAdVkhqv)
+
+    References:
+    - Björn Andrésen (Swedish actor) [person] via DV87eLYkt8k
+- Katsuhiro Otomo [person] via DWlr4IgiYFc
+- Dr Rebecca Marks [person] via DUdOAdVkhqv
+- Akira (1988 film) [artwork] via DWlr4IgiYFc
+- Berserk (manga) [artwork] via DV87eLYkt8k
+- Kodak Shirley Card [artwork] via DW_j15QCRk0
+- Sicario [artwork] via DWoT1FdCdv8
+- Breaking Bad [artwork] via DWoT1FdCdv8
+- Nope (Jordan Peele) [artwork] via DWlr4IgiYFc
+- Cyberpunk 2077 [artwork] via DWlr4IgiYFc
+- Mad Max [artwork] via DXWrl2bCQtH
+- Cyberpunk aesthetic [movement] via DWlr4IgiYFc
+- Culture Dump (Substack) [reference] via DUdOAdVkhqv
+
+    Positions:
+    - Aesthetic defaults are never neutral — every visual convention encodes the assumptions of whoever standardized it, usually a single company or cultural moment with outsized reach.
+- Film color grading is a political act: yellow Mexico and blue Russia are ideological choices, not artistic ones, and their repetition across decades makes the bias invisible.
+- Kodak's Shirley Card calibrated 'correct' skin tone to white women, meaning the racial bias of photography was built into the technical standard from the start — its fix came from chocolate and furniture manufacturers needing accurate brown tones.
+- The Akira motorcycle slide has been copied for thirty years by directors who may not know the source — influence chains operate below conscious awareness, making origin archaeology necessary to understand the present.
+- Gendered color (pink = girl) is a social construct, not something innate in nature, and knowing that makes all the difference — the naturalization of arbitrary conventions is itself a mechanism of power.
+
+    Tags:
+    visual culture history, aesthetic power structures, design bias

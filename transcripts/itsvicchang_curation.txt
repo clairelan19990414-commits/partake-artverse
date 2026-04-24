@@ -1,0 +1,27 @@
+@itsvicchang curation
+
+    Core thesis:
+    Vic Chang spots micro-trend signals (search volume spikes, Reddit communities, shifting cultural attitudes) and translates them into concrete brand or product design opportunities. He frames consumer behavior — status signaling, lifestyle aspiration, category white space — as the raw material for startup ideas. AI-accelerated prototyping is a recurring throughline: he treats rapid visual mockups as a core part of the ideation process, not just presentation.
+
+    Classification:
+    visual-reference heavy
+
+    Distinct post IDs:
+    - DWmOGhVDnbe
+- DW1z_NQD82q
+- DXUhdD9Dtj-
+- DVz5xsSjnm4
+- DVwinlHB5IX
+- DWDSyRijhhm
+- DVrZr4xDxI6
+- DV1tuprEuRH
+
+    Key ideas:
+    - Trend-to-brand pipeline: search volume spikes and subreddit activity as early signals for unmet product demand
+- White space aestheticization: commoditized categories (litter boxes, paper plates, cat furniture) have room for a premium design layer
+- Lifestyle signaling: products function as identity markers — luxury candles, NA cocktails, and clean energy drinks are status objects as much as functional goods
+- Behavioral monetization redesign: rethinking incentive structures at the product level (pay-per-match vs. pay-per-swipe) to align user and business outcomes
+- AI as rapid prototyping infrastructure: using generative image tools to collapse the distance between idea and visual pitch
+- Subcultural design ahead of its time: avant-garde aesthetics that initially repel eventually become canonical (Y-3 Beast Pack as case study)
+- Gender/identity deconstruction as brand philosophy: 'gender-ful' as a framework that expands market rather than narrowing to a niche
+- Environmental psychology in retail: controlling pace of decision-making through sensory design (music tempo, spatial cues)

@@ -1,0 +1,197 @@
+{
+  "creator_thesis": "Jessica Burbank is a progressive journalist and political commentator who investigates the intersection of surveillance capitalism, war profiteering, and concentrated elite power \u2014 arguing that both parties have failed ordinary people as tech companies and capital syndicates increasingly operate outside democratic accountability. She blends on-the-ground investigative reporting (FOIA requests, city council appearances) with a broader theoretical framework about how global power has been restructured around capital rather than nation-states. Her project is equal parts exposure and movement-building: naming the machinery and then organizing readers to fight it.",
+  "key_concepts": [
+    {
+      "name": "Mass Surveillance Infrastructure",
+      "definition": "Flock Safety's national license-plate-reader network, sold city by city to local governments, often without public notice \u2014 a privatized police state built through quiet municipal contracts.",
+      "via_posts": [
+        "DNQ8BOEpaRO",
+        "DXfNBZ5CcQt"
+      ]
+    },
+    {
+      "name": "Retroactive Surveillance",
+      "definition": "Persistent passive data collection that enables law enforcement to surveil anyone backward in time without prior suspicion, inverting the traditional civil-liberties check that required articulating a suspicion before gathering data.",
+      "via_posts": [
+        "DNQ8BOEpaRO"
+      ]
+    },
+    {
+      "name": "Syndicates of Capital",
+      "definition": "Global elites operating as organized capital blocs that bypass and hollow out the nation-state rather than working through it \u2014 rendering old left/right political labels obsolete.",
+      "via_posts": [
+        "DWHK8qVgIgD"
+      ]
+    },
+    {
+      "name": "War Profiteering Loop",
+      "definition": "The same tech-defense ecosystem profits from building weapons, from the decision to deploy them, and from reconstructing the damage \u2014 structural conflicts of interest baked into Pentagon leadership.",
+      "via_posts": [
+        "DV_w9K2gv1p",
+        "DVjwP6SlKuy"
+      ]
+    },
+    {
+      "name": "Progressive Digital Strategy",
+      "definition": "The left must develop algorithmic fluency \u2014 understanding how platforms like TikTok surface content \u2014 to compete with right-wing media machinery rather than ceding those spaces.",
+      "via_posts": [
+        "DXJ4W6pjHty"
+      ]
+    },
+    {
+      "name": "Don't Obey in Advance",
+      "definition": "Timothy Snyder's rule for living under authoritarian pressure: preemptive capitulation by corporations, tech oligarchs, and individuals grants the regime power it hasn't yet earned \u2014 self-censorship as the regime's most effective tool.",
+      "via_posts": [
+        "DVzShFyj5Ox"
+      ]
+    },
+    {
+      "name": "Veterans as a Contested Political Force",
+      "definition": "Disaffected current and former military members sit on a knife's edge between rightward radicalization and anti-imperialist alignment; the left historically underestimates their importance to groundswell movements and loses them through ideological gatekeeping.",
+      "via_posts": [
+        "DVzShFyj5Ox"
+      ]
+    },
+    {
+      "name": "Pop-Culture as Political Education",
+      "definition": "Using Andor, meme-format commentary, and accessible fictional analogies to make structural critique \u2014 fascism, imperialism, rebellion \u2014 legible to audiences who wouldn't engage with direct theory.",
+      "via_posts": [
+        "DVzShFyj5Ox"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Flock Safety",
+      "type": "company",
+      "referenced_in": [
+        "DNQ8BOEpaRO",
+        "DXfNBZ5CcQt"
+      ]
+    },
+    {
+      "name": "Andor",
+      "type": "artwork",
+      "referenced_in": [
+        "DVzShFyj5Ox"
+      ]
+    },
+    {
+      "name": "Tony Gilroy",
+      "type": "person",
+      "referenced_in": [
+        "DVzShFyj5Ox"
+      ]
+    },
+    {
+      "name": "Timothy Snyder",
+      "type": "person",
+      "referenced_in": [
+        "DVzShFyj5Ox"
+      ]
+    },
+    {
+      "name": "Hasan Piker",
+      "type": "person",
+      "referenced_in": [
+        "DVzShFyj5Ox"
+      ]
+    },
+    {
+      "name": "Ross Douthat",
+      "type": "person",
+      "referenced_in": [
+        "DVzShFyj5Ox"
+      ]
+    },
+    {
+      "name": "Margaret Killjoy",
+      "type": "person",
+      "referenced_in": [
+        "DVzShFyj5Ox"
+      ]
+    },
+    {
+      "name": "John Kiriakou",
+      "type": "person",
+      "referenced_in": [
+        "DVzShFyj5Ox"
+      ]
+    },
+    {
+      "name": "Luther Burbank",
+      "type": "person",
+      "referenced_in": [
+        "DWAPgfKCRlD"
+      ]
+    },
+    {
+      "name": "Cerberus Capital Management",
+      "type": "organization",
+      "referenced_in": [
+        "DV_w9K2gv1p"
+      ]
+    },
+    {
+      "name": "Lockheed Martin",
+      "type": "organization",
+      "referenced_in": [
+        "DV_w9K2gv1p"
+      ]
+    },
+    {
+      "name": "Institute for Justice",
+      "type": "organization",
+      "referenced_in": [
+        "DNQ8BOEpaRO"
+      ]
+    },
+    {
+      "name": "The Bonus Army",
+      "type": "movement",
+      "referenced_in": [
+        "DVzShFyj5Ox"
+      ]
+    },
+    {
+      "name": "Operation Epic Fury",
+      "type": "event",
+      "referenced_in": [
+        "DVjwP6SlKuy"
+      ]
+    },
+    {
+      "name": "re:publica 26",
+      "type": "event",
+      "referenced_in": [
+        "DXJ4W6pjHty"
+      ]
+    },
+    {
+      "name": "The Andor Rebellion Project",
+      "type": "movement",
+      "referenced_in": [
+        "DVzShFyj5Ox"
+      ]
+    },
+    {
+      "name": "Rogue One",
+      "type": "artwork",
+      "referenced_in": [
+        "DVzShFyj5Ox"
+      ]
+    }
+  ],
+  "positions": [
+    "\"This might be the only place in the world where residents' dirt is more protected than their data\" \u2014 on Scarsdale approving a $2.1M Flock surveillance contract in 37 seconds without public notice or agenda disclosure.",
+    "The Trump administration is structurally biased toward war because its Pentagon officials are former defense contractors who personally profit from military action \u2014 62% of active recruits come from below-median-income families while decision-makers hold millions in contractor stock.",
+    "Leftists get punished for being right too early, but consistency on anti-imperialism and anti-fascism before it was mainstream now grants credibility \u2014 the reward arrives as things get worse, not before.",
+    "Language policing and ideological purity tests on the left undermine coalition-building with veterans and working-class people who are natural allies but will be lost if the entry ticket requires updated terminology.",
+    "Andor is the best piece of anti-fascist media of the 21st century \u2014 Tony Gilroy studied fascist movements to write it, was muzzled by Disney from using the words 'genocide' and 'fascism' in promotion, and its fictional framework reaches people who would never engage with direct political theory."
+  ],
+  "tags": [
+    "surveillance capitalism",
+    "anti-imperialism",
+    "left media strategy"
+  ]
+}

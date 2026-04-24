@@ -1,0 +1,43 @@
+@kaburbank notes
+
+    Thesis:
+    Jessica Burbank is a progressive journalist and political commentator who investigates the intersection of surveillance capitalism, war profiteering, and concentrated elite power — arguing that both parties have failed ordinary people as tech companies and capital syndicates increasingly operate outside democratic accountability. She blends on-the-ground investigative reporting (FOIA requests, city council appearances) with a broader theoretical framework about how global power has been restructured around capital rather than nation-states. Her project is equal parts exposure and movement-building: naming the machinery and then organizing readers to fight it.
+
+    Key concepts:
+    - Mass Surveillance Infrastructure: Flock Safety's national license-plate-reader network, sold city by city to local governments, often without public notice — a privatized police state built through quiet municipal contracts. (via DNQ8BOEpaRO, DXfNBZ5CcQt)
+- Retroactive Surveillance: Persistent passive data collection that enables law enforcement to surveil anyone backward in time without prior suspicion, inverting the traditional civil-liberties check that required articulating a suspicion before gathering data. (via DNQ8BOEpaRO)
+- Syndicates of Capital: Global elites operating as organized capital blocs that bypass and hollow out the nation-state rather than working through it — rendering old left/right political labels obsolete. (via DWHK8qVgIgD)
+- War Profiteering Loop: The same tech-defense ecosystem profits from building weapons, from the decision to deploy them, and from reconstructing the damage — structural conflicts of interest baked into Pentagon leadership. (via DV_w9K2gv1p, DVjwP6SlKuy)
+- Progressive Digital Strategy: The left must develop algorithmic fluency — understanding how platforms like TikTok surface content — to compete with right-wing media machinery rather than ceding those spaces. (via DXJ4W6pjHty)
+- Don't Obey in Advance: Timothy Snyder's rule for living under authoritarian pressure: preemptive capitulation by corporations, tech oligarchs, and individuals grants the regime power it hasn't yet earned — self-censorship as the regime's most effective tool. (via DVzShFyj5Ox)
+- Veterans as a Contested Political Force: Disaffected current and former military members sit on a knife's edge between rightward radicalization and anti-imperialist alignment; the left historically underestimates their importance to groundswell movements and loses them through ideological gatekeeping. (via DVzShFyj5Ox)
+- Pop-Culture as Political Education: Using Andor, meme-format commentary, and accessible fictional analogies to make structural critique — fascism, imperialism, rebellion — legible to audiences who wouldn't engage with direct theory. (via DVzShFyj5Ox)
+
+    References:
+    - Flock Safety [company] via DNQ8BOEpaRO, DXfNBZ5CcQt
+- Andor [artwork] via DVzShFyj5Ox
+- Tony Gilroy [person] via DVzShFyj5Ox
+- Timothy Snyder [person] via DVzShFyj5Ox
+- Hasan Piker [person] via DVzShFyj5Ox
+- Ross Douthat [person] via DVzShFyj5Ox
+- Margaret Killjoy [person] via DVzShFyj5Ox
+- John Kiriakou [person] via DVzShFyj5Ox
+- Luther Burbank [person] via DWAPgfKCRlD
+- Cerberus Capital Management [organization] via DV_w9K2gv1p
+- Lockheed Martin [organization] via DV_w9K2gv1p
+- Institute for Justice [organization] via DNQ8BOEpaRO
+- The Bonus Army [movement] via DVzShFyj5Ox
+- Operation Epic Fury [event] via DVjwP6SlKuy
+- re:publica 26 [event] via DXJ4W6pjHty
+- The Andor Rebellion Project [movement] via DVzShFyj5Ox
+- Rogue One [artwork] via DVzShFyj5Ox
+
+    Positions:
+    - "This might be the only place in the world where residents' dirt is more protected than their data" — on Scarsdale approving a $2.1M Flock surveillance contract in 37 seconds without public notice or agenda disclosure.
+- The Trump administration is structurally biased toward war because its Pentagon officials are former defense contractors who personally profit from military action — 62% of active recruits come from below-median-income families while decision-makers hold millions in contractor stock.
+- Leftists get punished for being right too early, but consistency on anti-imperialism and anti-fascism before it was mainstream now grants credibility — the reward arrives as things get worse, not before.
+- Language policing and ideological purity tests on the left undermine coalition-building with veterans and working-class people who are natural allies but will be lost if the entry ticket requires updated terminology.
+- Andor is the best piece of anti-fascist media of the 21st century — Tony Gilroy studied fascist movements to write it, was muzzled by Disney from using the words 'genocide' and 'fascism' in promotion, and its fictional framework reaches people who would never engage with direct political theory.
+
+    Tags:
+    surveillance capitalism, anti-imperialism, left media strategy

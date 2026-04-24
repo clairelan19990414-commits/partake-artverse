@@ -1,0 +1,34 @@
+@culturalfingerprints notes
+
+    Thesis:
+    @culturalfingerprints treats NYC restaurant choking compliance signs as vernacular urban folklore — cultural artifacts encoding the stories, languages, and identities of diaspora communities. The project draws a direct parallel between archiving custom signage and traditional fairy tale collection, arguing both are expressions of "the people's voice." Through fieldwork, podcasting, and comparative folklore analysis, it surfaces hidden cultural meaning in the everyday visual landscape of New York City.
+
+    Key concepts:
+    - Cultural Fingerprinting: A framework for reading everyday signage as legible artifacts of diaspora identity, ethnic community, and local subculture — each sign treated as a traceable cultural imprint. (via DQalQ7CkdPJ, DVov7VNk7SD, DUa3v5DEcmZ)
+- Vernacular Urban Folklore: The idea that custom choking compliance signs function as folk art — carrying community stories the way fairy tales carry the stories of the unseen, produced outside institutional art channels. (via DVov7VNk7SD, DWRdDs2Ec8s, DV16u1JiRGO)
+- ATU Tale-Type Classification: The Aarne-Thompson-Uther index used by folklorists to categorize recurring story patterns across cultures; applied here to show how the same plot motifs reappear in fairy tales from South Africa, Russia, Armenia, and elsewhere. (via DVZwws0EUMK, DVjAG85kWhW)
+- Regulatory Flexibility as Creative Space: The observation that loose regulation around required safety signage creates an opening for artistic expression, allowing restaurants to commission custom illustrated designs instead of standard templates. (via DV16u1JiRGO)
+- Multilingual Signage as Cultural Encoding: Bilingual and multilingual choking signs are read as semiotic artifacts — language choice and translation encode the specific immigrant or diaspora community a restaurant belongs to. (via DTyjP5DkeG_, DUa3v5DEcmZ, DQalQ7CkdPJ)
+- Fieldwork Archiving Methodology: Systematic on-the-ground collection of custom choking signs across NYC restaurants, treated as primary research analogous to ethnographic fieldwork or folk tale anthologizing. (via DTyjP5DkeG_, DVov7VNk7SD)
+- Oral History via Podcast: Using podcast interviews with sign designers and restaurant owners as a method for collecting the human stories behind each artifact — extending the folklore project into an audio documentary form. (via DVov7VNk7SD, DWRdDs2Ec8s, DV16u1JiRGO)
+- Local Subculture Embedded in Safety Design: Custom signs synthesize hyperlocal cultural references — sports moments, ethnic iconography, pop culture — into regulatory objects, making the mandatory sign a site of community self-expression. (via DWRdDs2Ec8s, DUa3v5DEcmZ)
+
+    References:
+    - Pitu Sanchez (@pitu_nyc) [person] via DWRdDs2Ec8s
+- Reggie Miller [person] via DWRdDs2Ec8s
+- Spike Lee [person] via DWRdDs2Ec8s
+- Lia Kantrowitz (@liakantro) [person] via DV16u1JiRGO
+- Jessica Saesue (@yessiqua) [person] via DV16u1JiRGO
+- Fish Cheeks (@fishcheeksnyc) [artwork] via DV16u1JiRGO, DVov7VNk7SD
+- ATU 336 (corpse reclaims stolen object tale type) [movement] via DVjAG85kWhW
+- Aarne-Thompson-Uther (ATU) Classification System [movement] via DVZwws0EUMK, DVjAG85kWhW
+
+    Positions:
+    - Fairy tales and custom choking signs are both expressions of the people's voice — they hold the stories of the unseen and deserve to be treated as folklore.
+- Archiving NYC choking signs is a legitimate form of folklore fieldwork, parallel to the collection of folk tales across cultures.
+- The flexible regulation around safety signage creates room for art in the ordinary — a rare opening for vernacular creativity within a bureaucratic mandate.
+- Cross-cultural recurring motifs in fairy tales (ATU classification) reveal deep patterns in the human condition, just as similar design choices across choking signs reveal shared community values.
+- The multilingual dimension of these signs — Chinese templates, Spanish iconography — encodes diaspora identity in ways that standard city-issued signs erase.
+
+    Tags:
+    vernacular folklore, urban semiotics, diaspora identity

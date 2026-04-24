@@ -1,0 +1,27 @@
+@willfrancis curation
+
+    Core thesis:
+    Will Francis is a practical AI educator who demystifies new tools, models, and workflows for everyday creators and marketers. His content is built around actionable tutorials — showing exactly how to use the latest AI releases to save time, make content, and build things. A secondary thread runs through his work around AI literacy: helping audiences recognise AI-generated text, video, and media so they're not fooled by it.
+
+    Classification:
+    talking-head/spoken
+
+    Distinct post IDs:
+    - DWmmBSiDmQp
+- DVZb9Z1CF8p
+- DW4fkQPDh6R
+- DVYzAApCOWW
+- DQKCHUIDMnz
+- DPrQumhAR0M
+- DWB7p7XiHip
+- DU_XMyDDqiM
+
+    Key ideas:
+    - Practical how-to tutorials for specific AI tools (Claude, ChatGPT, Gemini, etc.)
+- AI literacy and detection — spotting AI-generated text, images, and video
+- Portable AI identity — building a persistent, cross-platform profile that moves between LLMs
+- Agentic AI — autonomous agents that complete multi-step tasks rather than just answer prompts
+- Vibe coding / no-code app building with AI scaffolding
+- AI tool selection by use case — mapping the right LLM to the right job
+- AI policy and security risks — platform politics, browser vulnerabilities, and safety concerns
+- AI-assisted content creation and marketing at scale

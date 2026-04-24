@@ -1,0 +1,27 @@
+@aidanetcetera curation
+
+    Core thesis:
+    @aidanetcetera uses internet culture artifacts — memes, brainrot, Skibidi Toilet, slop — as primary texts for critical theory, arguing they reveal deeper structures of power, consciousness, and geopolitics. He connects seemingly absurd digital phenomena (gooning, framemogging, AI fruit) to serious questions about surveillance capitalism, state violence, and democratic decay. His central claim is that the aesthetics and mechanics of online culture are not trivial noise but diagnostic signals about how power, attention, and reality are being reorganized.
+
+    Classification:
+    talking-head/spoken
+
+    Distinct post IDs:
+    - DUexfGzDf88
+- DW5QL37ja0J
+- DVXc2PgDXxm
+- DWaVTwXDSDQ
+- DXc6fjMDEyj
+- DU13kuJjLzq
+- DVCr4dZDU7p
+- DTQVFCVkcuY
+
+    Key ideas:
+    - Skibidi Toilet as philosophical text — cyborg violence, digital witness, and transhumanism embedded in brainrot media
+- Slop/brainrot as a diagnostic framework for measuring shifting cultural and cognitive expectations under AI
+- AI infrastructure as geopolitical territory — data centers on battlefields, Palantir, Nvidia chips as national security
+- Meme cycles as fashion cycles — cultural recurrence, resets, and the temporal logic of internet aesthetics
+- Looksmaxxing/framemogging as a site where physical embodiment and digital performance collapse into each other
+- Silicon sampling — how tech-industry polling and epistemic bubbles distort political reality
+- The persistence of old power structures (empire, Baal, antichrist figures like Thiel) beneath new digital forms
+- Internet shutdowns and state control of information as the hard edge of platform geopolitics

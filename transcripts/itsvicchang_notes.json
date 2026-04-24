@@ -1,0 +1,126 @@
+{
+  "creator_thesis": "Vic Chang spots micro-trend signals (search volume spikes, Reddit communities, shifting cultural attitudes) and translates them into concrete brand or product design opportunities. He frames consumer behavior \u2014 status signaling, lifestyle aspiration, category white space \u2014 as the raw material for startup ideas. AI-accelerated prototyping is a recurring throughline: he treats rapid visual mockups as a core part of the ideation process, not just presentation.",
+  "key_concepts": [
+    {
+      "name": "Trend-to-brand pipeline",
+      "definition": "Search volume spikes and subreddit activity function as early-warning signals for unmet product demand, giving founders a data-driven entry point before a category gets crowded.",
+      "via_posts": [
+        "DVrZr4xDxI6"
+      ]
+    },
+    {
+      "name": "White space aestheticization",
+      "definition": "Commoditized, design-ignored categories (litter boxes, cat furniture, paper plates) represent open territory for a premium aesthetic layer that commands higher margins and brand loyalty.",
+      "via_posts": [
+        "DVrZr4xDxI6"
+      ]
+    },
+    {
+      "name": "Lifestyle signaling as product strategy",
+      "definition": "Consumer goods function as identity and status markers first, functional objects second \u2014 sobriety, clean energy, and luxury candles are all aspirational cues that drive willingness to pay.",
+      "via_posts": [
+        "DVwinlHB5IX",
+        "DXUhdD9Dtj-"
+      ]
+    },
+    {
+      "name": "Behavioral monetization redesign",
+      "definition": "Rethinking incentive structures at the product level \u2014 e.g. pay-per-match instead of pay-per-swipe \u2014 to align user motivations with business outcomes and reduce low-quality engagement.",
+      "via_posts": [
+        "DWmOGhVDnbe"
+      ]
+    },
+    {
+      "name": "AI as rapid prototyping infrastructure",
+      "definition": "Generative image tools (guided by Pinterest references, reverse-prompted for specificity, run in 3\u00d73 batch outputs) collapse the distance between idea and visual pitch, making prototyping a core ideation step.",
+      "via_posts": [
+        "DV1tuprEuRH",
+        "DVz5xsSjnm4"
+      ]
+    },
+    {
+      "name": "Subcultural design latency",
+      "definition": "Avant-garde aesthetics that initially repel mainstream audiences eventually become canonical \u2014 the gap between shock and adoption is a signal of genuine originality, not failure.",
+      "via_posts": [
+        "DWDSyRijhhm"
+      ]
+    },
+    {
+      "name": "Gender-ful brand philosophy",
+      "definition": "Replacing 'unisex' (erasure of gender) with 'gender-ful' (celebration of its full spectrum) as a framework that expands addressable market rather than narrowing to a niche identity segment.",
+      "via_posts": [
+        "DXUhdD9Dtj-"
+      ]
+    },
+    {
+      "name": "Environmental psychology in retail",
+      "definition": "In-store sensory design \u2014 particularly music tempo \u2014 controls the pace of customer decision-making and is an underused lever for conversion and dwell time.",
+      "via_posts": [
+        "DW1z_NQD82q"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Boy Smells",
+      "type": "brand",
+      "referenced_in": [
+        "DXUhdD9Dtj-"
+      ]
+    },
+    {
+      "name": "Y-3 Beast Pack (2006)",
+      "type": "product / design artifact",
+      "referenced_in": [
+        "DWDSyRijhhm"
+      ]
+    },
+    {
+      "name": "Modkat",
+      "type": "brand",
+      "referenced_in": [
+        "DVrZr4xDxI6"
+      ]
+    },
+    {
+      "name": "NanoBanana2",
+      "type": "AI tool",
+      "referenced_in": [
+        "DV1tuprEuRH"
+      ]
+    },
+    {
+      "name": "r/DIYcatwall",
+      "type": "online community",
+      "referenced_in": [
+        "DVrZr4xDxI6"
+      ]
+    },
+    {
+      "name": "@galinthejungle",
+      "type": "person / collaborator",
+      "referenced_in": [
+        "DWmOGhVDnbe"
+      ]
+    },
+    {
+      "name": "Particl.hq",
+      "type": "data platform",
+      "referenced_in": [
+        "DXUhdD9Dtj-"
+      ]
+    }
+  ],
+  "positions": [
+    "\"Instead of paying for swipes, what if users paid for matches?\" \u2014 a pay-per-match model makes users more selective and more motivated to convert, aligning incentives that subscription models misalign.",
+    "\"In-store music selection isn't just about creating vibes. It's about controlling the pace of decision making.\" \u2014 retail psychology is an underutilized brand lever.",
+    "\"It's artificial intelligence, not artificial innovation.\" \u2014 AI accelerates the path from concept to visual proof; the creative judgment still has to be human.",
+    "On the Y-3 Beast Pack: \"Like a lot of good art, it shocks your system initially because you don't know what to compare it to\" \u2014 aesthetic rejection at launch is often a mark of genuine originality, not a product failure.",
+    "On sober-curiosity: ordering a mocktail is now \"a subtle flex that you're serious about your health\" \u2014 abstinence has become an aspirational status signal, opening white space for premium zero-proof products."
+  ],
+  "tags": [
+    "trend-spotting",
+    "brand-building",
+    "consumer-behavior"
+  ]
+}

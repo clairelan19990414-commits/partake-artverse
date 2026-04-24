@@ -1,0 +1,37 @@
+@aidanetcetera notes
+
+    Thesis:
+    @aidanetcetera uses internet culture artifacts — memes, brainrot, Skibidi Toilet, slop — as primary texts for critical theory, arguing they reveal deeper structures of power, consciousness, and geopolitics. He connects seemingly absurd digital phenomena (gooning, framemogging, AI fruit) to serious questions about surveillance capitalism, state violence, and democratic decay. His central claim is that the aesthetics and mechanics of online culture are not trivial noise but diagnostic signals about how power, attention, and reality are being reorganized.
+
+    Key concepts:
+    - Framemogging / Metric Capture: When algorithmic metrics (views, canthal tilt, engagement rate) displace lived reality, causing people to deform themselves — physically and discursively — to satisfy measurements that don't correspond to anything real. (via DVCr4dZDU7p)
+- Meme Cycles: Internet aesthetics recur like fashion nostalgia cycles; memes cannibalize past content and resurface years later, meaning online culture has temporal rhythms rather than purely linear progression. (via DTQVFCVkcuY)
+- Silicon Sampling: The practice of querying AI models to simulate public opinion instead of asking real people, producing epistemic distortion that gets laundered as polling data and fed back into political decision-making. (via DW5QL37ja0J)
+- Slop Tax: A proposed 1% levy on tech companies' market capitalization, funding an independent cultural trust to compensate creators, support schools, and redirect AI's economic extraction toward public benefit. (via DVXc2PgDXxm)
+- AI Infrastructure as Geopolitical Territory: Data centers are contested political terrain, not neutral utilities — built on historic battlefields, subsidized by taxpayers, concentrating global information flow in a single region while externalizing energy and climate costs onto the public. (via DU13kuJjLzq)
+- Prophetic Geopolitics: State actors and power figures genuinely operate through Abrahamic mythological frameworks (Baal, apocalypse, antichrist), meaning secular-rational analysis systematically misses the psychology driving otherwise inexplicable decisions. (via DWaVTwXDSDQ)
+- Skibidi Toilet as Eschatological Text: Brainrot media merges the scatological with the eschatological, encoding transhumanist and apocalyptic content inside apparently absurd formats — placing the viewer in a posthuman POV on the edge of civilizational collapse. (via DUexfGzDf88)
+- Old Media Attention Capture: Legacy outlets amplify trivial internet controversies over substantive crises because clicks now govern editorial logic — the NYT covers Hasan Piker while burying a journalist killed in a double-tap airstrike on the same page. (via DXfmuu1j_gp)
+
+    References:
+    - Leif Weatherby [person / scholar] via DW5QL37ja0J
+- Language Machines [book (by Leif Weatherby)] via DW5QL37ja0J
+- Mike Peppy [person / policy thinker] via DVXc2PgDXxm
+- Peter Thiel [person] via DWaVTwXDSDQ
+- Hasan Piker [person / streamer] via DXfmuu1j_gp
+- Luigi Mangione [person] via DXfmuu1j_gp
+- Clavicular [person / content creator] via DVCr4dZDU7p
+- Baal [mythological / religious figure] via DWaVTwXDSDQ
+- Skibidi Toilet [media / meme] via DUexfGzDf88
+- @being_on_line [creator] via DUexfGzDf88
+- Sam Altman [person] via DVXc2PgDXxm
+
+    Positions:
+    - "Skibidi Toilet takes the scatological and merges it with the eschatological" — brainrot is an apocalyptic transhumanist text, not trivial content.
+- "We are swaddled just like Clavicular in a self-constructed sheath of illusions fueled by math that ultimately doesn't care about us at all" — algorithmic metrics colonize selfhood and deform public discourse the same way looksmaxxing deforms a face.
+- "Everything else is going to change except the fact that Sam Altman is a multi-billionaire and you can't afford a house... It is not inevitable at all. It is negotiable." — AI's economic order is a political choice, not a natural law.
+- "If leaders with fingers on missile buttons genuinely believe we are heading toward the apocalypse, and we don't factor that in, we don't understand why they do such self-destructive things" — prophetic belief systems must be taken seriously as geopolitical forces.
+- "The solution is to framemog — be aware of the medium, the ways it's distorting you, and push bad actors out of the frame" — critical media literacy reframed as an offensive, tactical move rather than defensive abstinence.
+
+    Tags:
+    internet-culture-theory, AI-political-economy, digital-embodiment

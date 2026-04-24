@@ -1,0 +1,26 @@
+@etymologynerd curation
+
+    Core thesis:
+    @etymologynerd creates infographic-based content that traces the word origins of everyday objects, places, and concepts — showing how language acts as a compressed archive of human history, culture, and migration. The creator's thesis is that etymology is universally accessible and endlessly surprising: virtually any domain (food, geography, science, music) reveals hidden linguistic patterns once you look. Most recently, this framework has been extended into a book arguing that social media algorithms are the newest force reshaping how language evolves.
+
+    Classification:
+    visual-reference heavy
+
+    Distinct post IDs:
+    - DDHqAcvOF0x
+- CAnIRdiA5Ow
+- CaCjk4ZuriT
+- CPx3luegPNt
+- CcaawemOJ1p
+- Ctob1J5g7l3
+- CRgpE72ADEi
+- B99HGTKAZA7
+
+    Key ideas:
+    - Etymology as hidden history — words carry compressed records of culture, migration, and discovery
+- Toponym patterns — place names (cities, neighborhoods, regions) encode colonial, indigenous, and immigrant history
+- Scientific naming conventions — taxonomy, anatomy, geology, and medicine follow systematic Latin/Greek construction rules
+- Brand and cultural naming — artist names, beer labels, and art movements reflect the era and values that coined them
+- Algospeak — internet algorithms and platform moderation are now an active driver of new vocabulary formation
+- Cross-domain universality — the same etymological forces (metaphor, borrowing, eponymy) operate identically across unrelated fields
+- Visual/spatial etymology mapping — presenting word origins as infographics and maps makes abstract linguistic history legible at a glance

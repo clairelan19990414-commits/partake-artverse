@@ -1,0 +1,43 @@
+@codebynordveritas notes
+
+    Thesis:
+    CODE by Nord Veritas argues that culture — art, architecture, institutions, collections — is never merely aesthetic but always a mechanism for signaling and consolidating capital, status, and power. The channel's method is structural decoding: stripping the surface language of taste and access to reveal the systems underneath. Its implicit claim is that power operates most effectively when it becomes invisible, naturalized as culture.
+
+    Key concepts:
+    - Culture as capital signal: Aesthetic choices in art, architecture, and taste encode status and power rather than mere preference — culture is infrastructure for class reproduction. (via DWJnHp7DQne, DXg5mSwDSEP)
+- The validation stack: Market value is constructed sequentially through layered institutional endorsements — fair momentum, museum acquisition, critical attention, collector signal — making price feel inevitable rather than manufactured. (via DXZ5SppDbGn)
+- Invisible order: When explicit classification dissolves (as in the LACMA redesign), hierarchy doesn't disappear — it becomes ambient and harder to contest, still determining what you see. (via DXUrSutDXuk)
+- Demand construction: Desire and cultural legitimacy are manufactured through meaning-attachment (Bernays model), not organically discovered — wanting is engineered before the product is sold. (via DWqnWYAjUSX)
+- Finance as architecture: Structural financial interventions (Rohatyn's NYC fiscal redesign) function like built space: they reorganize the conditions of possibility rather than solving surface problems. (via DWZVxnEjVK0)
+- Power transmission through proximity: Durable power moves through methods and systems, not individuals — figures fade but their operational logics persist, transmitted quietly through networks rather than taught publicly. (via DWjlbKFDfVp)
+- Permission as infrastructure: The AI-in-art debate is not about aesthetics or ethics but about which systems — markets, institutions, gatekeepers — hold authority to decide what counts as legitimate cultural production. (via DXXNPfODXMO)
+- Historical continuity of the art market: The art world did not become financialized recently — Renaissance commissions already specified pigment grades, payment phases, and reputational signaling; only the language has changed. (via DXg5mSwDSEP)
+
+    References:
+    - Edward Bernays [person] via DWqnWYAjUSX
+- Roy Cohn [person] via DWjlbKFDfVp
+- Felix Rohatyn [person] via DWZVxnEjVK0
+- Amoako Boafo [person] via DXZ5SppDbGn
+- Refik Anadol [person] via DXXNPfODXMO
+- Holly Herndon [person] via DXXNPfODXMO
+- Mat Dryhurst [person] via DXXNPfODXMO
+- Leonardo da Vinci [person] via DXg5mSwDSEP
+- Michelangelo / Sistine Chapel [artwork] via DXg5mSwDSEP
+- LACMA David Geffen Galleries [institution] via DXUrSutDXuk
+- British Museum [institution] via DXXNPfODXMO
+- Christie's Augmented Intelligence sale [event] via DXXNPfODXMO
+- Mariane Ibrahim Gallery [institution] via DXZ5SppDbGn
+- Rubell Museum [institution] via DXZ5SppDbGn
+- Art Basel Miami Beach [event] via DXZ5SppDbGn
+- Renaissance Florence [movement] via DXg5mSwDSEP
+- New York fiscal crisis 1975 [event] via DWZVxnEjVK0
+
+    Positions:
+    - "Culture is never only culture. It signals capital. It signals status. It signals power."
+- "When we say art became financial — we're not describing change. We're describing continuity. Only the language changed."
+- "When classification dissolves, order doesn't disappear. It becomes invisible. And still decides what you see."
+- "Power is rarely taught in public. It is transmitted. Quietly. Through proximity."
+- "The question is no longer whether AI belongs in art. The question is: who decides where it belongs?"
+
+    Tags:
+    power-and-culture, structural-analysis, art-market

@@ -1,0 +1,195 @@
+{
+  "creator_thesis": "CODE by Nord Veritas argues that culture \u2014 art, architecture, institutions, collections \u2014 is never merely aesthetic but always a mechanism for signaling and consolidating capital, status, and power. The channel's method is structural decoding: stripping the surface language of taste and access to reveal the systems underneath. Its implicit claim is that power operates most effectively when it becomes invisible, naturalized as culture.",
+  "key_concepts": [
+    {
+      "name": "Culture as capital signal",
+      "definition": "Aesthetic choices in art, architecture, and taste encode status and power rather than mere preference \u2014 culture is infrastructure for class reproduction.",
+      "via_posts": [
+        "DWJnHp7DQne",
+        "DXg5mSwDSEP"
+      ]
+    },
+    {
+      "name": "The validation stack",
+      "definition": "Market value is constructed sequentially through layered institutional endorsements \u2014 fair momentum, museum acquisition, critical attention, collector signal \u2014 making price feel inevitable rather than manufactured.",
+      "via_posts": [
+        "DXZ5SppDbGn"
+      ]
+    },
+    {
+      "name": "Invisible order",
+      "definition": "When explicit classification dissolves (as in the LACMA redesign), hierarchy doesn't disappear \u2014 it becomes ambient and harder to contest, still determining what you see.",
+      "via_posts": [
+        "DXUrSutDXuk"
+      ]
+    },
+    {
+      "name": "Demand construction",
+      "definition": "Desire and cultural legitimacy are manufactured through meaning-attachment (Bernays model), not organically discovered \u2014 wanting is engineered before the product is sold.",
+      "via_posts": [
+        "DWqnWYAjUSX"
+      ]
+    },
+    {
+      "name": "Finance as architecture",
+      "definition": "Structural financial interventions (Rohatyn's NYC fiscal redesign) function like built space: they reorganize the conditions of possibility rather than solving surface problems.",
+      "via_posts": [
+        "DWZVxnEjVK0"
+      ]
+    },
+    {
+      "name": "Power transmission through proximity",
+      "definition": "Durable power moves through methods and systems, not individuals \u2014 figures fade but their operational logics persist, transmitted quietly through networks rather than taught publicly.",
+      "via_posts": [
+        "DWjlbKFDfVp"
+      ]
+    },
+    {
+      "name": "Permission as infrastructure",
+      "definition": "The AI-in-art debate is not about aesthetics or ethics but about which systems \u2014 markets, institutions, gatekeepers \u2014 hold authority to decide what counts as legitimate cultural production.",
+      "via_posts": [
+        "DXXNPfODXMO"
+      ]
+    },
+    {
+      "name": "Historical continuity of the art market",
+      "definition": "The art world did not become financialized recently \u2014 Renaissance commissions already specified pigment grades, payment phases, and reputational signaling; only the language has changed.",
+      "via_posts": [
+        "DXg5mSwDSEP"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Edward Bernays",
+      "type": "person",
+      "referenced_in": [
+        "DWqnWYAjUSX"
+      ]
+    },
+    {
+      "name": "Roy Cohn",
+      "type": "person",
+      "referenced_in": [
+        "DWjlbKFDfVp"
+      ]
+    },
+    {
+      "name": "Felix Rohatyn",
+      "type": "person",
+      "referenced_in": [
+        "DWZVxnEjVK0"
+      ]
+    },
+    {
+      "name": "Amoako Boafo",
+      "type": "person",
+      "referenced_in": [
+        "DXZ5SppDbGn"
+      ]
+    },
+    {
+      "name": "Refik Anadol",
+      "type": "person",
+      "referenced_in": [
+        "DXXNPfODXMO"
+      ]
+    },
+    {
+      "name": "Holly Herndon",
+      "type": "person",
+      "referenced_in": [
+        "DXXNPfODXMO"
+      ]
+    },
+    {
+      "name": "Mat Dryhurst",
+      "type": "person",
+      "referenced_in": [
+        "DXXNPfODXMO"
+      ]
+    },
+    {
+      "name": "Leonardo da Vinci",
+      "type": "person",
+      "referenced_in": [
+        "DXg5mSwDSEP"
+      ]
+    },
+    {
+      "name": "Michelangelo / Sistine Chapel",
+      "type": "artwork",
+      "referenced_in": [
+        "DXg5mSwDSEP"
+      ]
+    },
+    {
+      "name": "LACMA David Geffen Galleries",
+      "type": "institution",
+      "referenced_in": [
+        "DXUrSutDXuk"
+      ]
+    },
+    {
+      "name": "British Museum",
+      "type": "institution",
+      "referenced_in": [
+        "DXXNPfODXMO"
+      ]
+    },
+    {
+      "name": "Christie's Augmented Intelligence sale",
+      "type": "event",
+      "referenced_in": [
+        "DXXNPfODXMO"
+      ]
+    },
+    {
+      "name": "Mariane Ibrahim Gallery",
+      "type": "institution",
+      "referenced_in": [
+        "DXZ5SppDbGn"
+      ]
+    },
+    {
+      "name": "Rubell Museum",
+      "type": "institution",
+      "referenced_in": [
+        "DXZ5SppDbGn"
+      ]
+    },
+    {
+      "name": "Art Basel Miami Beach",
+      "type": "event",
+      "referenced_in": [
+        "DXZ5SppDbGn"
+      ]
+    },
+    {
+      "name": "Renaissance Florence",
+      "type": "movement",
+      "referenced_in": [
+        "DXg5mSwDSEP"
+      ]
+    },
+    {
+      "name": "New York fiscal crisis 1975",
+      "type": "event",
+      "referenced_in": [
+        "DWZVxnEjVK0"
+      ]
+    }
+  ],
+  "positions": [
+    "\"Culture is never only culture. It signals capital. It signals status. It signals power.\"",
+    "\"When we say art became financial \u2014 we're not describing change. We're describing continuity. Only the language changed.\"",
+    "\"When classification dissolves, order doesn't disappear. It becomes invisible. And still decides what you see.\"",
+    "\"Power is rarely taught in public. It is transmitted. Quietly. Through proximity.\"",
+    "\"The question is no longer whether AI belongs in art. The question is: who decides where it belongs?\""
+  ],
+  "tags": [
+    "power-and-culture",
+    "structural-analysis",
+    "art-market"
+  ]
+}
