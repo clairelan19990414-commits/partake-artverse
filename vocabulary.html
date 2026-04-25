@@ -2325,9 +2325,9 @@ document.getElementById('testBankBtn').addEventListener('click', () => {
 });
 document.getElementById('testDismissBtn').addEventListener('click', () => {
   dismissWord(testCurrentWord.id);
-  testPool.splice(testIndex, 1);
-  if (testPool.length === 0) { showSummary(); return; }
-  if (testIndex >= testPool.length) testIndex = testPool.length - 1;
+  testQueue.splice(testIndex, 1);
+  if (testIndex >= testQueue.length) testIndex = testQueue.length - 1;
+  if (testQueue.length === 0) { showSummary(); return; }
   document.getElementById('testWriteSubmit').disabled = false;
   showQuestion();
 });
