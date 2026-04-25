@@ -587,6 +587,18 @@
 }
 .test-bank-btn:hover { background: #c87800; color: #fff; }
 .test-bank-btn.banked { background: #c87800; color: #fff; }
+.test-dismiss-btn {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  padding: 10px 16px;
+  background: transparent;
+  color: var(--text-3);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.test-dismiss-btn:hover { background: #5a2020; color: #e88; border-color: #e88; }
 .test-speak-btn {
   font-family: var(--mono);
   font-size: 0.68rem;
@@ -820,27 +832,6 @@
           <div class="setup-option-sub">Focus on words you flagged for review</div>
         </div>
       </label>
-      <label class="setup-option">
-        <input type="radio" name="testPool" value="verbs">
-        <div>
-          <div class="setup-option-label">Verbs only</div>
-          <div class="setup-option-sub">Practice the action words</div>
-        </div>
-      </label>
-      <label class="setup-option">
-        <input type="radio" name="testPool" value="adjectives">
-        <div>
-          <div class="setup-option-label">Adjectives only</div>
-          <div class="setup-option-sub">Practice the descriptive words</div>
-        </div>
-      </label>
-      <label class="setup-option">
-        <input type="radio" name="testPool" value="nouns">
-        <div>
-          <div class="setup-option-label">Nouns only</div>
-          <div class="setup-option-sub">Practice the concept words</div>
-        </div>
-      </label>
       <button class="setup-start" id="setupStart">Start →</button>
     </div>
 
@@ -870,6 +861,7 @@
       <div class="test-actions" id="testActions" style="display:none">
         <button class="test-next" id="testNext">Next →</button>
         <button class="test-bank-btn" id="testBankBtn">★ Bank this word</button>
+        <button class="test-dismiss-btn" id="testDismissBtn">✕ Never show again</button>
       </div>
     </div>
 
@@ -2330,6 +2322,14 @@ document.getElementById('testBankBtn').addEventListener('click', () => {
   const btn = document.getElementById('testBankBtn');
   btn.className = 'test-bank-btn' + (isBanked(testCurrentWord.id) ? ' banked' : '');
   btn.textContent = isBanked(testCurrentWord.id) ? '★ Banked' : '★ Bank this word';
+});
+document.getElementById('testDismissBtn').addEventListener('click', () => {
+  dismissWord(testCurrentWord.id);
+  testPool.splice(testIndex, 1);
+  if (testPool.length === 0) { showSummary(); return; }
+  if (testIndex >= testPool.length) testIndex = testPool.length - 1;
+  document.getElementById('testWriteSubmit').disabled = false;
+  showQuestion();
 });
 document.getElementById('testDontKnow').addEventListener('click', () => {
   document.querySelectorAll('.mc-option').forEach(b => {
