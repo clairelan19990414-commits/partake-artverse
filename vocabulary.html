@@ -287,6 +287,15 @@
 .syn-pill:hover { border-color: var(--accent); color: var(--accent); }
 .word-text { cursor: pointer; }
 .word-text:hover { color: var(--accent); }
+.feedback-syns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
 .feedback-zh {
   margin-top: 8px;
   font-size: 0.8rem;
@@ -854,6 +863,7 @@
           <div class="feedback-pos" id="feedbackPos"></div>
           <div class="feedback-def" id="feedbackDef"></div>
           <div class="feedback-example" id="feedbackExample"></div>
+          <div class="feedback-syns" id="feedbackSyns"></div>
           <div class="feedback-zh" id="feedbackZh"></div>
         </div>
       </div>
@@ -1622,7 +1632,63 @@ const SEED_WORDS = [
   { id:'sn55', word:'spirituality',   pos:'noun',
     definition:'Concern with the metaphysical, immaterial, or transcendent dimensions of existence.',
     example:'The spirituality that Kandinsky brought to abstraction is largely absent from its contemporary descendants.',
-    source:'Septemics: Scale of Civilization' }
+    source:'Septemics: Scale of Civilization' },
+
+  // ── PERSONAL LOOKUP BATCH ──
+  { id:'xv1', word:'refactor',      pos:'verb',
+    definition:'To restructure or reorganize something without changing its external behavior or output; to improve the underlying form while preserving function.',
+    example:'The best critical revision doesn\'t change what the work says — it refactors how the argument is assembled.',
+    source:'Personal lookup' },
+
+  { id:'xa1', word:'outlandish',    pos:'adjective',
+    definition:'Strikingly bizarre or unfamiliar; shockingly strange in appearance or character.',
+    example:'What reads as outlandish in one decade becomes the signature aesthetic of the next.',
+    source:'Personal lookup' },
+  { id:'xa2', word:'provident',     pos:'adjective',
+    definition:'Making careful provision for the future; frugal and prudent in managing resources.',
+    example:'The provident artist treats attention the way a provident investor treats capital — never spending it faster than it accrues.',
+    source:'Personal lookup' },
+  { id:'xa3', word:'epistemic',     pos:'adjective',
+    definition:'Of or relating to knowledge or the conditions required for knowledge; concerning the nature and scope of knowing.',
+    example:'The epistemic gap between artist intent and viewer interpretation is not a failure — it is the work\'s generative space.',
+    source:'Personal lookup' },
+  { id:'xa4', word:'asinine',       pos:'adjective',
+    definition:'Extremely stupid or foolish; resembling the stubbornness or dullness of an ass.',
+    example:'The asinine logic of trend cycles — each one declaring the last one dead — keeps the market moving without advancing anything.',
+    source:'Personal lookup' },
+
+  { id:'xn1', word:'tamarind',      pos:'noun',
+    definition:'A tropical tree whose pod yields a tangy, dark pulp widely used as a souring agent in cooking.',
+    example:'The tamarind\'s tartness cuts through richness the way a critical voice cuts through institutional sweetness.',
+    source:'Personal lookup' },
+  { id:'xn2', word:'hieroglyphs',   pos:'noun',
+    definition:'A writing system using pictorial symbols; the formal script of ancient Egypt combining logographic and phonetic elements.',
+    example:'Contemporary brand logos operate as hieroglyphs — legible only to those already inside the culture.',
+    source:'Personal lookup' },
+  { id:'xn3', word:'pax',           pos:'noun',
+    definition:'Peace; an agreed cessation of hostilities, especially informal or temporary; in liturgy, a kiss of peace.',
+    example:'The pax between rival galleries lasted one season — long enough for a joint show, short enough to mean nothing.',
+    source:'Personal lookup' },
+  { id:'xn4', word:'grievance',     pos:'noun',
+    definition:'A real or perceived wrong that causes resentment and grounds for complaint; a formal objection or protest.',
+    example:'Grievance is the engine of most institutional critique — the question is whether it produces analysis or just performance.',
+    source:'Personal lookup' },
+  { id:'xn5', word:'strata',        pos:'noun',
+    definition:'Layers or levels, especially of rock, society, or meaning; plural of stratum.',
+    example:'Every successful artwork operates on multiple strata — accessible on the surface, inexhaustible underneath.',
+    source:'Personal lookup' },
+  { id:'xn6', word:'derivative',    pos:'noun',
+    definition:'Something derived from another source; a secondary work or imitation lacking original risk; in finance, a contract whose value depends on an underlying asset.',
+    example:'Most trend-chasing art is a derivative of a derivative — the original risk has been fully insured away.',
+    source:'Personal lookup' },
+  { id:'xn7', word:'nit',           pos:'noun',
+    definition:'The egg of a louse; British informal for a foolish or dim-witted person.',
+    example:'Every workshop has its nit — the one who mistakes pedantry for precision.',
+    source:'Personal lookup' },
+  { id:'xn8', word:'serif',         pos:'noun',
+    definition:'A small decorative stroke added to the end of a letter\'s main strokes in typography; typefaces using such strokes are called serif fonts.',
+    example:'The choice between serif and sans-serif is never neutral — it carries the full weight of cultural association.',
+    source:'Personal lookup' }
 ];
 
 const SYNONYMS = {
@@ -1808,7 +1874,21 @@ const SYNONYMS = {
   'sn52': ['apprehension','understanding','interpretation','reading','impression','view','observation','cognition','take','recognition'],
   'sn53': ['violation','trespass','breach','infringement','overstepping','sin','offense','misdeed','excess','border-crossing'],
   'sn54': ['rationale','grounds','reasoning','excuse','vindication','argument','warrant','defense','basis','logic'],
-  'sn55': ['religiosity','transcendence','metaphysical life','inner life','devotion','mysticism','contemplation','soulfulness','numinosity','piety']
+  'sn55': ['religiosity','transcendence','metaphysical life','inner life','devotion','mysticism','contemplation','soulfulness','numinosity','piety'],
+
+  'xv1': ['restructure','reorganize','revise','overhaul','rearchitect','recompose','reorder','rebuild','streamline','optimize'],
+  'xa1': ['bizarre','eccentric','grotesque','freakish','exotic','peculiar','idiosyncratic','aberrant','anomalous','outré'],
+  'xa2': ['prudent','frugal','thrifty','foresighted','economical','sagacious','careful','judicious','circumspect','far-sighted'],
+  'xa3': ['cognitive','epistemological','knowledge-based','intellectual','noetic','rational','inferential','evidential','justificatory','gnoseological'],
+  'xa4': ['idiotic','moronic','fatuous','inane','witless','obtuse','crass','imbecilic','half-witted','brainless'],
+  'xn1': ['sour pod','Indian date','imli','sampalok','asam','tamarindo','legume fruit','tintiri','tropical sour','velvet tamarind'],
+  'xn2': ['pictograms','ideograms','glyphs','logograms','pictographs','runes','symbols','inscriptions','characters','sigils'],
+  'xn3': ['truce','peace','armistice','ceasefire','détente','accord','concord','reconciliation','lull','suspension'],
+  'xn4': ['complaint','injustice','resentment','gripe','protest','objection','wrong','affront','indignation','beef'],
+  'xn5': ['layers','levels','tiers','planes','ranks','echelons','grades','sediments','horizons','cross-sections'],
+  'xn6': ['by-product','offshoot','outgrowth','spin-off','imitation','copy','adaptation','epigone','descendant','knock-off'],
+  'xn7': ['louse egg','dimwit','dolt','blockhead','numskull','nincompoop','dullard','simpleton','halfwit','dunderpate'],
+  'xn8': ['finishing stroke','terminal stroke','foot','bracket','hairline','cross-stroke','typographic foot','stem terminal','slab','stroke termination']
 };
 
 const ZH = {
@@ -1994,7 +2074,21 @@ const ZH = {
   'sn52': '感知，认知（解释感官信息的过程；对事物的理解或体验方式）',
   'sn53': '越界，违规（对规则、道德准则或边界的违反；跨越禁止之限）',
   'sn54': '理由，辩护（证明某事正当或可接受的理由；为立场辩护的论据）',
-  'sn55': '灵性，精神生活（对超验或非物质存在维度的关注；内在精神世界）'
+  'sn55': '灵性，精神生活（对超验或非物质存在维度的关注；内在精神世界）',
+
+  'xv1': '重构（在不改变外部功能的前提下改善内部结构）',
+  'xa1': '古怪的，奇异的（令人震惊的陌生感；超出常规的怪异）',
+  'xa2': '有远见的，节俭的（审慎规划未来；善于管理资源）',
+  'xa3': '认识论的，知识的（与知识的性质和来源相关）',
+  'xa4': '愚蠢透顶的，荒唐的（愚蠢固执；驴一般的冥顽）',
+  'xn1': '罗望子（热带豆科乔木，果肉酸甜，广泛用于调味）',
+  'xn2': '象形文字（古埃及象形书写系统；泛指图形化符号文字）',
+  'xn3': '和平；停战（英式俚语中指暂停敌对；天主教礼仪中的亲吻礼）',
+  'xn4': '不满，冤屈（因感到不公平而产生的积怨；正式投诉的依据）',
+  'xn5': '层，阶层（地质层理；社会或意义的层级结构）',
+  'xn6': '派生物，衍生品（源自他物的产物；缺乏原创性的次级作品）',
+  'xn7': '虱卵；笨蛋（英式俚语，指愚蠢或迟钝的人）',
+  'xn8': '衬线（字体排印中字母笔画末端的装饰性短线）'
 };
 
 let userWords = JSON.parse(localStorage.getItem('partake_vocab') || '[]');
@@ -2121,13 +2215,35 @@ function toggleBank(id) {
 let testQueue = [], testIndex = 0, testCorrect = 0, testWrong = 0, testCurrentWord = null, testCurrentType = null;
 const overlay = document.getElementById('testOverlay');
 
+let recentIds = JSON.parse(localStorage.getItem('partake_recent') || '[]');
+
 function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [a[i], a[j]] = [a[j], a[i]];
   }
+  // push recently-seen words to the back third so they don't repeat too soon
+  const cutoff = Math.max(1, Math.floor(a.length * 0.67));
+  const recent = a.filter(w => recentIds.includes(w.id));
+  const fresh  = a.filter(w => !recentIds.includes(w.id));
+  return [...fresh, ...shuffle_plain(recent)];
+}
+
+function shuffle_plain(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
   return a;
+}
+
+function recordSeen(id) {
+  recentIds = recentIds.filter(x => x !== id);
+  recentIds.push(id);
+  if (recentIds.length > 30) recentIds = recentIds.slice(-30);
+  localStorage.setItem('partake_recent', JSON.stringify(recentIds));
 }
 
 function buildTestPool(mode) {
@@ -2158,6 +2274,7 @@ function showQuestion() {
   const types = ['mc-def', 'mc-word', 'write'];
   testCurrentType = types[testIndex % 3];
 
+  recordSeen(testCurrentWord.id);
   updateProgress();
   document.getElementById('testFeedback').classList.remove('show');
   document.getElementById('testActions').style.display = 'none';
@@ -2260,6 +2377,14 @@ function showFeedback(correct, skipped) {
   document.getElementById('feedbackPos').textContent = testCurrentWord.pos;
   document.getElementById('feedbackDef').textContent = testCurrentWord.definition;
   document.getElementById('feedbackExample').textContent = testCurrentWord.example || '';
+  const syns = SYNONYMS[testCurrentWord.id] || [];
+  const synsEl = document.getElementById('feedbackSyns');
+  if (syns.length) {
+    synsEl.innerHTML = '<span class="syn-label">also</span>' + syns.map(s => `<span class="syn-pill" onclick="speak('${s}')">${s}</span>`).join('');
+    synsEl.style.display = 'flex';
+  } else {
+    synsEl.style.display = 'none';
+  }
   const zh = ZH[testCurrentWord.id] || '';
   document.getElementById('feedbackZh').textContent = zh || '';
   document.getElementById('feedbackZh').style.display = zh ? 'block' : 'none';
