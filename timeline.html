@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<title>Timeline &middot; partake</title>
+<style>
+
+  /* ── partake shell ── */
+  .p-nav{background:#141414;padding:0 40px;display:flex;align-items:center;height:48px;position:sticky;top:0;z-index:200;font-family:'JetBrains Mono',monospace;box-sizing:border-box}
+  .p-nav-logo{font-size:.82rem;font-weight:700;color:#2d8c00;letter-spacing:-.02em;margin-right:32px;text-decoration:none}
+  .p-nav-logo:hover{opacity:.8;text-decoration:none}
+  .p-nav-links{display:flex;gap:2px}
+  .p-nav-link{font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;color:#666;padding:6px 14px;border:1px solid transparent;transition:color .15s;text-decoration:none}
+  .p-nav-link:hover{color:#ccc;text-decoration:none}
+  .p-nav-link.active{color:#2d8c00;border-color:#333}
+  .p-intro{background:#141414;border-bottom:3px solid #2d8c00;padding:28px 64px 24px;font-family:'JetBrains Mono',monospace}
+  .p-intro-ey{font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:#2d8c00;margin-bottom:10px}
+  .p-intro h1{font-size:1.45rem;font-weight:700;color:#fff;letter-spacing:-.02em;margin-bottom:14px;font-family:'JetBrains Mono',monospace}
+  .p-intro p{font-size:.82rem;color:#888;max-width:700px;line-height:1.8;border-left:3px solid #2d8c00;padding-left:16px;font-family:'Inter',sans-serif}
+  .p-intro-hint{margin-top:14px;font-size:.62rem;color:#444;letter-spacing:.05em}
+
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#111;background:#ece9e0}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.outer{overflow-x:auto;overflow-y:visible}
+/* x(year)=(year-1760)*10 | lc=140px | tc=2550px | page=2720px */
+.page{width:2720px;padding:6px 8px 16px;background:#ece9e0}
+.row{display:flex}
+.lc{width:140px;flex-shrink:0;font-size:10px;font-weight:700;color:#444;padding-top:3px;text-transform:uppercase;letter-spacing:.04em}
+.tc{width:2550px;flex-shrink:0}
+.br{width:2550px;position:relative;height:13px}
+.lr{width:2550px;position:relative;height:15px;overflow:visible}
+.gap3{height:3px}.gap6{height:6px}
+.bar{position:absolute;top:1px;height:11px;border-radius:2px;display:flex;align-items:center;padding:0 5px;font-size:8px;font-weight:700;cursor:pointer;white-space:nowrap;overflow:hidden;letter-spacing:.01em;border-left:3px solid rgba(0,0,0,.18)}
+.bar:hover{filter:brightness(.88);outline:1.5px solid rgba(0,0,0,.4);outline-offset:1px}
+.nm{position:absolute;top:0;font-size:8.5px;font-style:italic;cursor:pointer;white-space:nowrap;color:#222;overflow:visible}
+.nm:hover{color:#0000bb;text-decoration:underline}
+.an{position:absolute;top:0;font-size:8px;color:#999;white-space:nowrap;overflow:visible}
+.hdiv{border-top:1.5px solid #aaa;margin:4px 0;width:2720px}
+.bdiv{border-top:2.5px solid #555;margin:2px 0;width:2720px}
+.yax{display:flex;border-top:2px solid #444;border-bottom:2px solid #444;height:24px;align-items:center}
+.ym{position:absolute;font-size:9.5px;font-weight:700;color:#333;transform:translateX(-50%);top:4px}
+.sec-hd{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:#333;margin:5px 0 2px;padding-left:148px;border-bottom:1.5px solid #bbb;padding-bottom:2px}
+.sub-hd{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:#999;margin:3px 0 1px;padding-left:148px}
+/* semi-transparent bar fill — colour comes through, text stays sharp */
+.bar{background-image:linear-gradient(rgba(255,255,255,.45),rgba(255,255,255,.45))}
+#tt{display:none;position:fixed;z-index:9999;width:272px;background:#fff;border:1px solid #ddd;border-radius:10px;overflow:hidden;pointer-events:auto;box-shadow:0 4px 20px rgba(0,0,0,.18)}
+#tt-img{width:100%;height:130px;object-fit:cover;object-position:center top;background:#eee;display:none}
+#tt-ph{width:100%;height:60px;background:#f2efea;display:flex;align-items:center;justify-content:center;font-size:10px;color:#bbb}
+#tt-body{padding:9px 11px 8px}
+#tt-name{font-size:13px;font-weight:700;color:#111;margin-bottom:2px;line-height:1.2}
+#tt-type{font-size:9px;font-weight:700;padding:1px 7px;border-radius:10px;display:inline-block;margin-bottom:3px}
+#tt-dates{font-size:9px;color:#888;margin-bottom:4px}
+#tt-desc{font-size:10.5px;line-height:1.5;color:#333;margin-bottom:7px}
+#tt-links{display:flex;gap:8px;font-size:10px}
+#tt-links a{color:#0055cc;text-decoration:none}
+#tt-links a:hover{text-decoration:underline}
+#tt-links span{color:#ccc}
+</style>
+</head>
+<body>
+<nav class="p-nav">
+  <a class="p-nav-logo" href="index.html">partake</a>
+  <div class="p-nav-links">
+    <a class="p-nav-link" href="index.html">home</a>
+    <a class="p-nav-link" href="master.html">synthesis</a>
+    <a class="p-nav-link active" href="timeline.html">timeline</a>
+    <a class="p-nav-link" href="septemics.html">septemics</a>
+  </div>
+</nav>
+<div class="p-intro">
+  <div class="p-intro-ey">Research Tool &middot; Interactive</div>
+  <h1>Art, Philosophy &amp; New Media &middot; 1760&#8211;2015</h1>
+  <p>Interactive timeline of art movements, philosophers, media theorists, and cultural events. Hover any bar or name for a full tooltip. Scroll horizontally to navigate 255 years. Informed by Brad Troemel&#8217;s critical analysis of Post-Internet, contemporary, and digital art.</p>
+  <div class="p-intro-hint">&#8592; scroll or drag to move through history &nbsp;&nbsp;&middot;&nbsp;&nbsp; hover any element to explore</div>
+</div>
+
+<h1 class="sr-only">Interactive Timeline of Art, Philosophy and New Media 1760&#8211;2015</h1>
+<div style="position:relative">
+<div class="outer"><div class="page">
+
+<!-- ═══════════ PHILOSOPHY / THEORY ═══════════ -->
+<div class="sec-hd">Philosophy / Theory</div>
+<div class="row"><div class="lc">Philosophers</div><div class="tc">
+
+<!-- Philosophers — positioned at year of key publication, no bars -->
+<!-- Row A: Kant(1781=210) Hegel(1807=470) Schopenhauer(1818=580) Nietzsche(1872=1120) Freud(1900=1400) Saussure(1915=1550) Jung(1921=1610) Heidegger(1927=1670) Barthes(1953=1930) Lacan(1966=2060) Baudrillard(1981=2210) -->
+<div class="lr" style="height:18px">
+  <span class="nm" data-k="Immanuel Kant" style="left:210px;font-size:9.5px;font-style:normal;font-weight:700;color:#6650a4">Kant</span>
+  <span class="nm" data-k="G.W.F. Hegel" style="left:470px;font-size:9.5px;font-style:normal;font-weight:700;color:#6650a4">Hegel</span>
+  <span class="nm" data-k="Arthur Schopenhauer" style="left:580px;font-size:9.5px;font-style:normal;font-weight:700;color:#6650a4">Schopenhauer</span>
+  <span class="nm" data-k="Friedrich Nietzsche" style="left:1120px;font-size:9.5px;font-style:normal;font-weight:700;color:#6650a4">Nietzsche</span>
+  <span class="nm" data-k="Sigmund Freud" style="left:1400px;font-size:9.5px;font-style:normal;font-weight:700;color:#6650a4">Freud</span>
+  <span class="nm" data-k="Ferdinand de Saussure" style="left:1550px;font-size:9.5px;font-style:normal;font-weight:700;color:#6650a4">Saussure</span>
+  <span class="nm" data-k="C.G. Jung" style="left:1610px;font-size:9.5px;font-style:normal;font-weight:700;color:#6650a4">Jung</span>
+  <span class="nm" data-k="Martin Heidegger" style="left:1670px;font-size:9.5px;font-style:normal;font-weight:700;color:#6650a4">Heidegger</span>
+  <span class="nm" data-k="Roland Barthes" style="left:1930px;font-size:9.5px;font-style:normal;font-weight:700;color:#6650a4">Roland Barthes</span>
+  <span class="nm" data-k="Jacques Lacan" style="left:2060px;font-size:9.5px;font-style:normal;font-weight:700;color:#6650a4">Lacan</span>
+  <span class="nm" data-k="Jean Baudrillard" style="left:2210px;font-size:9.5px;font-style:normal;font-weight:700;color:#6650a4">Baudrillard</span>
+</div>
+<!-- Row B: Lévi-Strauss(1949=1890) Chomsky(1957=1970) Foucault(1966=2060) Badiou(1988=2280) Nick Land(1994=2340) -->
+<div class="lr" style="height:18px">
+  <span class="nm" data-k="L&#233;vi-Strauss" style="left:1890px;font-size:9.5px;font-style:normal;font-weight:700;color:#6650a4">L&#233;vi-Strauss</span>
+  <span class="nm" data-k="Noam Chomsky" style="left:1970px;font-size:9.5px;font-style:normal;font-weight:700;color:#6650a4">Chomsky</span>
+  <span class="nm" data-k="Michel Foucault" style="left:2070px;font-size:9.5px;font-style:normal;font-weight:700;color:#6650a4">Foucault</span>
+  <span class="nm" data-k="Alain Badiou" style="left:2280px;font-size:9.5px;font-style:normal;font-weight:700;color:#6650a4">Badiou</span>
+  <span class="nm" data-k="Nick Land" style="left:2340px;font-size:9.5px;font-style:normal;font-weight:700;color:#6650a4">Nick Land</span>
+</div>
+<!-- Key works row 1: spread to avoid overlap (x=year*10-1760*10) -->
+<div class="lr">
+  <span class="nm" data-k="Immanuel Kant" style="left:210px">Critique of Pure Reason (1781)</span>
+  <span class="nm" data-k="G.W.F. Hegel" style="left:470px">Phenom. of Spirit (1807)</span>
+  <span class="nm" data-k="Friedrich Nietzsche" style="left:1120px">Birth of Tragedy (1872)</span>
+  <span class="nm" data-k="Sigmund Freud" style="left:1400px">Interp. of Dreams (1900)</span>
+  <span class="nm" data-k="Martin Heidegger" style="left:1670px">Being &amp; Time (1927)</span>
+  <span class="nm" data-k="Jacques Lacan" style="left:2060px">&#201;crits (1966)</span>
+  <span class="nm" data-k="Jean Baudrillard" style="left:2220px">Simulacra (1981)</span>
+</div>
+<!-- Key works row 2 -->
+<div class="lr">
+  <span class="nm" data-k="Arthur Schopenhauer" style="left:580px">World as Will (1818)</span>
+  <span class="nm" data-k="Ferdinand de Saussure" style="left:1550px">Course in Linguistics (1915)</span>
+  <span class="nm" data-k="L&#233;vi-Strauss" style="left:1890px">Elem. Structures (1949)</span>
+  <span class="nm" data-k="Michel Foucault" style="left:2080px">Order of Things (1966)</span>
+  <span class="nm" data-k="Nick Land" style="left:2340px">Fanged Noumena (1994)</span>
+</div>
+<!-- Key works row 3 -->
+<div class="lr">
+  <span class="nm" data-k="C.G. Jung" style="left:1610px">Psychological Types (1921)</span>
+  <span class="nm" data-k="Roland Barthes" style="left:1930px">Writing Degree Zero (1953)</span>
+  <span class="nm" data-k="Noam Chomsky" style="left:2130px">Syntactic Structures (1957)</span>
+  <span class="nm" data-k="Alain Badiou" style="left:2310px">Being &amp; Event (1988)</span>
+</div>
+
+</div></div><!-- end philosophers row -->
+
+<!-- MEDIA THEORY sub-section -->
+<div class="sub-hd">Media Theory</div>
+<div class="row"><div class="lc">Media Theory</div><div class="tc">
+  <div class="lr">
+    <span class="nm" data-k="Walter Benjamin" style="left:1760px">Benjamin &#8212; Mech. Repr. (1936)</span>
+    <span class="nm" data-k="Clement Greenberg" style="left:2010px">Greenberg (1961)</span>
+    <span class="nm" data-k="Paul Virilio" style="left:2340px">Virilio (1994)</span>
+  </div>
+  <div class="lr">
+    <span class="nm" data-k="Marshal McLuhan" style="left:2040px">McLuhan &#8212; Understanding Media (1964)</span>
+    <span class="nm" data-k="Steven Levy" style="left:2275px">Levy &#8212; Hackers (1984)</span>
+    <span class="nm" data-k="Lev Manovich" style="left:2410px">Manovich &#8212; New Media (2001)</span>
+  </div>
+</div></div>
+
+<div class="hdiv"></div>
+
+<!-- ═══════════ ART ═══════════ -->
+<div class="sec-hd">Art</div>
+<div class="row"><div class="lc"></div><div class="tc">
+
+<!-- NEOCLASSICISM (1760-1850): left=0, width=900 -->
+<div class="br"><div class="bar" data-k="Neoclassicism" style="background:#e8dcc8;color:#5a4200;left:0;width:900px">NEOCLASSICISM / ENLIGHTENMENT HISTORY PAINTING (1760&#8211;1850)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Jacques-Louis David" style="left:0">J-L. David</span>
+  <span class="nm" data-k="Antonio Canova" style="left:320px">Canova</span>
+  <span class="nm" data-k="Jean-Auguste-Dominique Ingres" style="left:500px">Ingres</span>
+  <span class="nm" data-k="John Flaxman" style="left:700px">Flaxman</span>
+</div>
+
+<!-- ROMANTICISM (1780-1850): left=200, width=700 -->
+<div class="br"><div class="bar" data-k="Romanticism" style="background:#f5c4b3;color:#712B13;left:200px;width:700px">ROMANTICISM (1780&#8211;1850)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Francisco Goya" style="left:200px">Goya</span>
+  <span class="nm" data-k="William Blake" style="left:320px">Blake</span>
+  <span class="nm" data-k="Caspar David Friedrich" style="left:430px">C.D. Friedrich</span>
+  <span class="nm" data-k="J.M.W. Turner" style="left:580px">Turner</span>
+  <span class="nm" data-k="Eug&#232;ne Delacroix" style="left:680px">Delacroix</span>
+</div>
+
+<!-- REALISM (1840-1890): left=800, width=500 -->
+<div class="br"><div class="bar" data-k="Realism" style="background:#d4e8c8;color:#27500A;left:800px;width:500px">REALISM (1840&#8211;1890)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Gustave Courbet" style="left:800px">Courbet</span>
+  <span class="nm" data-k="Honor&#233; Daumier" style="left:900px">Daumier</span>
+  <span class="nm" data-k="&#201;douard Manet" style="left:1030px">Manet</span>
+  <span class="nm" data-k="Jean-Fran&#231;ois Millet" style="left:1180px">Millet</span>
+</div>
+
+<!-- IMPRESSIONISM (1860-1900): left=1000, width=400 -->
+<div class="br"><div class="bar" data-k="Impressionism" style="background:#ffc0cb;color:#4B1528;left:1000px;width:400px">IMPRESSIONISM (1860&#8211;1900)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Claude Monet" style="left:1000px">Monet</span>
+  <span class="nm" data-k="Pierre-Auguste Renoir" style="left:1090px">Renoir</span>
+  <span class="nm" data-k="Edgar Degas" style="left:1190px">Degas</span>
+  <span class="nm" data-k="Paul C&#233;zanne" style="left:1280px">C&#233;zanne</span>
+  <span class="nm" data-k="Vincent van Gogh" style="left:1360px">Van Gogh</span>
+</div>
+
+<!-- POST-IMPRESSIONISM (1886-1910): left=1260, width=240 -->
+<div class="br"><div class="bar" data-k="Post-Impressionism" style="background:#f2c8e0;color:#712B13;left:1260px;width:240px">POST-IMPRESSIONISM (1886&#8211;1910)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Paul Gauguin" style="left:1260px">Gauguin</span>
+  <span class="nm" data-k="Georges Seurat" style="left:1340px">Seurat</span>
+  <span class="nm" data-k="Henri de Toulouse-Lautrec" style="left:1430px">Toulouse-Lautrec</span>
+</div>
+
+<!-- SYMBOLISM (1886-1910): left=1260, width=240 -->
+<div class="br"><div class="bar" data-k="Symbolism" style="background:#c8b5f0;color:#26215C;left:1260px;width:240px">SYMBOLISM (1886&#8211;1910)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Gustav Klimt" style="left:1260px">Klimt</span>
+  <span class="nm" data-k="Edvard Munch" style="left:1340px">Munch</span>
+  <span class="nm" data-k="Odilon Redon" style="left:1420px">Redon</span>
+</div>
+
+<div class="gap3"></div>
+<!-- EXPRESSIONISM (1905-1933) -->
+<div class="br"><div class="bar" data-k="Expressionism" style="background:#f4a58a;color:#712B13;left:1450px;width:280px">EXPRESSIONISM (1905&#8211;1933)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Henri Matisse" style="left:1450px">Matisse</span>
+  <span class="nm" data-k="Ernst Ludwig Kirchner" style="left:1530px">Kirchner</span>
+  <span class="nm" data-k="Wassily Kandinsky" style="left:1600px">Kandinsky</span>
+  <span class="nm" data-k="Emil Nolde" style="left:1680px">Nolde</span>
+</div>
+
+<!-- CUBISM (1907-1930) -->
+<div class="br"><div class="bar" data-k="Cubism" style="background:#ddd;color:#333;left:1470px;width:230px">CUBISM (1907&#8211;1930)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Pablo Picasso" style="left:1470px">Picasso</span>
+  <span class="nm" data-k="Georges Braque" style="left:1540px">Braque</span>
+  <span class="nm" data-k="Juan Gris" style="left:1620px">Juan Gris</span>
+</div>
+
+<!-- FUTURISM (1909-1944) -->
+<div class="br"><div class="bar" data-k="Futurism" style="background:#f4a58a;color:#712B13;left:1490px;width:350px">FUTURISM (1909&#8211;1944)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Umberto Boccioni" style="left:1490px">Boccioni</span>
+  <span class="nm" data-k="Giacomo Balla" style="left:1570px">Balla</span>
+</div>
+
+<!-- DADA (1916-1924) -->
+<div class="br"><div class="bar" data-k="Dada" style="background:#c8b5f0;color:#26215C;left:1560px;width:80px">DADA</div></div>
+<div class="lr">
+  <span class="nm" data-k="Marcel Duchamp" style="left:1560px">Duchamp</span>
+  <span class="nm" data-k="Hannah H&#246;ch" style="left:1640px">Hannah H&#246;ch</span>
+</div>
+
+<!-- RUSSIAN CONSTRUCTIVISM (1915-1934) -->
+<div class="br"><div class="bar" data-k="Russian Constructivism" style="background:#f4a58a;color:#712B13;left:1550px;width:190px">RUSSIAN CONSTRUCTIVISM (1915&#8211;34)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Alexander Rodchenko" style="left:1550px">Rodchenko</span>
+  <span class="nm" data-k="El Lissitzky" style="left:1650px">El Lissitzky</span>
+</div>
+
+<!-- SURREALISM (1924-1955) -->
+<div class="br"><div class="bar" data-k="Surrealism" style="background:#dbb9f5;color:#26215C;left:1640px;width:310px">SURREALISM / PSYCHOANALYTIC MODERNISM (1924&#8211;50s)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Andr&#233; Breton" style="left:1640px">Breton</span>
+  <span class="nm" data-k="Salvador Dal&#237;" style="left:1710px">Dal&#237;</span>
+  <span class="nm" data-k="Max Ernst" style="left:1770px">M. Ernst</span>
+  <span class="nm" data-k="Ren&#233; Magritte" style="left:1840px">Magritte</span>
+  <span class="nm" data-k="Frida Kahlo" style="left:1920px">Kahlo</span>
+</div>
+
+<div class="gap3"></div>
+<!-- ABSTRACT EXPRESSIONISM (1943-1965): left=1830, width=220 -->
+<div class="br"><div class="bar" data-k="Abstract Expressionism" style="background:#f0997b;color:#4A1B0C;left:1830px;width:220px">ABSTRACT EXPRESSIONISM (1943&#8211;65)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Jackson Pollock" style="left:1870px">Pollock</span>
+  <span class="nm" data-k="Willem de Kooning" style="left:1930px">de Kooning</span>
+  <span class="nm" data-k="Mark Rothko" style="left:2000px">Rothko</span>
+  <span class="nm" data-k="Franz Kline" style="left:2060px">Kline</span>
+</div>
+
+<!-- POP ART (1954-1975): left=1940, width=210 -->
+<div class="br"><div class="bar" data-k="Pop Art" style="background:#f7d76b;color:#5a4200;left:1940px;width:210px">POP ART (1954&#8211;1975)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Jasper Johns" style="left:1940px">Jasper Johns</span>
+  <span class="nm" data-k="Andy Warhol" style="left:2020px">Warhol</span>
+  <span class="nm" data-k="Claes Oldenburg" style="left:2060px">Oldenburg</span>
+</div>
+
+<!-- MINIMALISM (1960-1975): left=2000, width=150 -->
+<div class="br"><div class="bar" data-k="Minimalism" style="background:#f5d97a;color:#5a4200;left:2000px;width:150px">MINIMALISM (1960&#8211;75)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Frank Stella" style="left:2000px">F. Stella</span>
+  <span class="nm" data-k="Sol LeWitt" style="left:2060px">Sol LeWitt</span>
+  <span class="nm" data-k="Richard Serra" style="left:2110px">R. Serra</span>
+</div>
+
+<!-- CONCEPTUAL ART (1960s-): left=2000, width=550 -->
+<div class="br"><div class="bar" data-k="Conceptual Art" style="background:#b5d4f4;color:#0C447C;left:2000px;width:550px">CONCEPTUAL ART / INSTITUTIONAL CRITIQUE (1960s&#8211;)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Joseph Beuys" style="left:2000px">Beuys</span>
+  <span class="nm" data-k="Joseph Kosuth" style="left:2060px">Kosuth</span>
+  <span class="nm" data-k="Hans Haacke" style="left:2130px">Haacke</span>
+  <span class="nm" data-k="Marcel Broodthaers" style="left:2200px">Broodthaers</span>
+</div>
+
+<!-- PERFORMANCE ART (1960s-): left=2000, width=550 -->
+<div class="br"><div class="bar" data-k="Performance Art" style="background:#ffc0cb;color:#4B1528;left:2000px;width:550px">PERFORMANCE ART (1960s&#8211;)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Performance Art" style="left:2000px">Fluxus / Happenings</span>
+  <span class="nm" data-k="Stelarc" style="left:2180px">Stelarc</span>
+  <span class="nm" data-k="Performance Art" style="left:2260px">Abramovi&#263;, Acconci</span>
+</div>
+
+<!-- ARTE POVERA (1967-1977): left=2070, width=110 -->
+<div class="br"><div class="bar" data-k="Arte Povera" style="background:#c6b08a;color:#3d2400;left:2070px;width:110px">ARTE POVERA (1967&#8211;77)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Michelangelo Pistoletto" style="left:2070px">Pistoletto</span>
+  <span class="nm" data-k="Jannis Kounellis" style="left:2100px">Kounellis</span>
+  <span class="nm" data-k="Mario Merz" style="left:2133px">M. Merz</span>
+  <span class="nm" data-k="Giovanni Anselmo" style="left:2163px">Anselmo</span>
+</div>
+
+<!-- EARTH ART (1967-1975): left=2070, width=80 -->
+<div class="br"><div class="bar" data-k="Earth Art" style="background:#a8d8bc;color:#085041;left:2070px;width:80px">EARTH ART</div></div>
+<div class="lr">
+  <span class="nm" data-k="Robert Smithson" style="left:2070px">Robert Smithson &#8212; Spiral Jetty (1970)</span>
+</div>
+
+<!-- POSTMODERNISM (1970s-): left=2100, width=450 -->
+<div class="br"><div class="bar" data-k="Postmodernism" style="background:#85b7eb;color:#042C53;left:2100px;width:450px">POSTMODERNISM / SIMULATION / APPROPRIATION ART (1970s&#8211;)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Sherrie Levine" style="left:2100px">Sherrie Levine</span>
+  <span class="nm" data-k="Cindy Sherman" style="left:2195px">Cindy Sherman</span>
+  <span class="nm" data-k="Barbara Kruger" style="left:2295px">Barbara Kruger</span>
+  <span class="nm" data-k="Richard Prince" style="left:2400px">Richard Prince</span>
+</div>
+
+<!-- POST-MODERN SCULPTURE (1970s-): left=2100, width=450 -->
+<div class="br"><div class="bar" data-k="Post-Modern Sculpture" style="background:#bbbdb6;color:#2C2C2A;left:2100px;width:450px">POST-MODERN SCULPTURE (1970s&#8211;)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Jeff Koons" style="left:2250px">Jeff Koons</span>
+  <span class="nm" data-k="Damien Hirst" style="left:2320px">Damien Hirst</span>
+</div>
+
+<!-- GRAFFITI (1970s-): left=2100, width=450 -->
+<div class="br"><div class="bar" data-k="Graffiti" style="background:#f5c4b3;color:#712B13;left:2100px;width:450px">GRAFFITI (1970s&#8211;)</div></div>
+<div class="lr">
+  <span class="nm" data-k="TAKI 183" style="left:2100px">TAKI 183</span>
+  <span class="nm" data-k="Jean-Michel Basquiat" style="left:2200px">Basquiat</span>
+  <span class="nm" data-k="Keith Haring" style="left:2260px">Keith Haring</span>
+</div>
+
+<!-- LOWBROW (1970s-): left=2100, width=450 -->
+<div class="br"><div class="bar" data-k="Lowbrow" style="background:#f4c8b3;color:#712B13;left:2100px;width:450px">LOWBROW / UNDERGROUND (1970s&#8211;)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Robert Williams" style="left:2100px">R. Williams</span>
+  <span class="an" style="left:2340px">Juxtapoz 1994</span>
+</div>
+
+<!-- CYBERNETIC ART (1960s-): left=2000, width=550 -->
+<div class="br"><div class="bar" data-k="Cybernetic Art" style="background:#85b7eb;color:#042C53;left:2000px;width:550px">CYBERNETIC ART (1960s&#8211;)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Nam June Paik" style="left:2000px">Nam June Paik</span>
+  <span class="an" style="position:absolute;right:0;font-size:9px;font-weight:700;color:#888">new media &#8594;</span>
+</div>
+
+<!-- VIDEO ART (1965-): left=2050, width=500 -->
+<div class="br"><div class="bar" data-k="Video Art" style="background:#b5d4f4;color:#0C447C;left:2050px;width:500px">VIDEO ART (1965&#8211;)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Nam June Paik" style="left:2050px">Paik</span>
+  <span class="nm" data-k="Bill Viola" style="left:2110px">Viola</span>
+  <span class="nm" data-k="Bruce Nauman" style="left:2165px">Nauman</span>
+</div>
+
+<!-- ALGORITHMIC ART (1965-): left=2050, width=500 -->
+<div class="br"><div class="bar" data-k="Algorithmic Art" style="background:#ddd4fa;color:#3C3489;left:2050px;width:500px">ALGORITHMIC ART (1965&#8211;)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Algorithmic Art" style="left:2050px">Nees, Nake, Molnar</span>
+  <span class="nm" data-k="Harold Cohen (AARON)" style="left:2150px">H. Cohen (AARON)</span>
+</div>
+
+<!-- GENERATIVE ART (1985-): left=2250, width=300 -->
+<div class="br"><div class="bar" data-k="Generative Art" style="background:#c8b5f0;color:#26215C;left:2250px;width:300px">GENERATIVE ART (1985&#8211;)</div></div>
+<div class="lr"><span class="nm" data-k="Karl Sims" style="left:2340px">Karl Sims</span></div>
+
+<!-- ORGANIC ART / ARTIFICIAL LIFE (1986-): left=2260, width=290 -->
+<div class="br"><div class="bar" data-k="Organic Art / Artificial Life" style="background:#a8d8bc;color:#085041;left:2260px;width:290px">ORGANIC ART / ARTIFICIAL LIFE (1986&#8211;)</div></div>
+<div class="lr"><span class="nm" data-k="Eduardo Kac" style="left:2400px">Eduardo Kac</span></div>
+
+<!-- HACKING EXPLORATORY (1983-): left=2230, width=320 -->
+<div class="br"><div class="bar" data-k="Hacking (Exploratory)" style="background:#c0dff5;color:#0C447C;left:2230px;width:320px">HACKING (EXPLORATORY) (1983&#8211;)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Hacking (Exploratory)" style="left:2230px">phreakers / BBS / demo scene</span>
+  <span class="nm" data-k="Steven Levy" style="left:2390px">Levy &#8216;Hackers&#8217; (1984)</span>
+</div>
+
+<!-- HACKTIVIST ART (1994-): left=2340, width=210 -->
+<div class="br"><div class="bar" data-k="Hacktivist Art" style="background:#85b7eb;color:#042C53;left:2340px;width:210px">HACKTIVIST ART (1994&#8211;)</div></div>
+<div class="lr"><span class="nm" data-k="Hacktivist Art" style="left:2340px">Electronic Disturbance Theater, Critical Art Ensemble</span></div>
+
+<!-- TACTICAL MEDIA (1996-): left=2360, width=190 -->
+<div class="br"><div class="bar" data-k="Tactical Media" style="background:#4d90d1;color:#E6F1FB;left:2360px;width:190px">TACTICAL MEDIA (1996&#8211;)</div></div>
+<div class="lr"><span class="nm" data-k="Tactical Media" style="left:2360px">Next 5 Minutes, RTMark, Yes Men</span></div>
+
+<!-- INTERNET ART / CYBERCULTURE (1990s-): left=2300, width=250 -->
+<div class="br"><div class="bar" data-k="Internet Art / Cyberculture Art" style="background:#378ADD;color:#E6F1FB;left:2300px;width:250px">INTERNET ART / CYBERCULTURE ART (1990s&#8211;)</div></div>
+<div class="lr">
+  <span class="nm" data-k="jodi.org" style="left:2300px">jodi.org</span>
+  <span class="nm" data-k="Olia Lialina" style="left:2360px">Olia Lialina</span>
+  <span class="nm" data-k="Josh On" style="left:2450px">Josh On</span>
+</div>
+
+<!-- POP SURREALISM (1990s-): left=2300, width=250 -->
+<div class="br"><div class="bar" data-k="Pop Surrealism" style="background:#f4b8cb;color:#4B1528;left:2300px;width:250px">POP SURREALISM (1990s&#8211;)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Mark Ryden" style="left:2300px">Mark Ryden</span>
+  <span class="nm" data-k="Robert Williams" style="left:2380px">R. Williams</span>
+</div>
+
+<!-- CONTEMPORARY CONCEPTUAL / POST-CONCEPTUAL (1990s-): left=2300, width=250 -->
+<div class="br"><div class="bar" data-k="Contemporary Conceptual Art" style="background:#b5d4f4;color:#0C447C;left:2300px;width:250px">CONTEMPORARY CONCEPTUAL / POST-CONCEPTUAL (1990s&#8211;)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Ai Weiwei" style="left:2300px">Ai Weiwei</span>
+  <span class="nm" data-k="Kara Walker" style="left:2370px">Kara Walker</span>
+  <span class="nm" data-k="Olafur Eliasson" style="left:2440px">Olafur Eliasson</span>
+</div>
+
+<!-- POST-INTERNET ART (2006-2015): left=2460, width=90 -->
+<div class="br"><div class="bar" data-k="Post-Internet Art" style="background:#8ab8d8;color:#03314B;left:2460px;width:90px">POST-INTERNET ART (2006&#8211;15)</div></div>
+<div class="lr">
+  <span class="nm" data-k="Cory Arcangel" style="left:2460px">Arcangel</span>
+  <span class="nm" data-k="Ryan Trecartin" style="left:2493px">Trecartin</span>
+  <span class="nm" data-k="Hito Steyerl" style="left:2524px">Steyerl</span>
+</div>
+
+<!-- ZOMBIE FORMALISM (2011-2015): left=2510, width=40 -->
+<div class="br"><div class="bar" data-k="Zombie Formalism" style="background:#888780;color:#F1EFE8;left:2510px;width:40px;font-size:7.5px">ZF</div></div>
+<div class="lr"><span class="nm" data-k="Zombie Formalism" style="left:2480px">Zombie Formalism (2011&#8211;15)</span></div>
+
+</div></div><!-- end art -->
+<div class="hdiv"></div>
+
+<!-- ═══════════ CONSUMER ART ═══════════ -->
+<div class="sec-hd">Consumer Art</div>
+<div class="row"><div class="lc">Animation</div><div class="tc">
+  <!-- Animation Golden Age (1928-1960): left=1680, width=320 -->
+  <div class="br">
+    <div class="bar" data-k="Animation (Golden Age)" style="background:#b5d4f4;color:#0C447C;left:1680px;width:320px">ANIMATION &#8212; Golden Age (1928&#8211;1960)</div>
+    <div class="bar" data-k="Animation (Pixar Era)" style="background:#85b7eb;color:#042C53;left:2350px;width:200px">Pixar / Dreamworks (1995&#8211;)</div>
+  </div>
+  <div class="lr">
+    <span class="nm" data-k="Mickey Mouse" style="left:1680px">Mickey (1928)</span>
+    <span class="nm" data-k="Snow White (1937)" style="left:1770px">Snow White (1937)</span>
+    <span class="nm" data-k="Toy Story (1995)" style="left:2350px">Toy Story (1995)</span>
+  </div>
+</div></div>
+<div class="row"><div class="lc">Comics</div><div class="tc">
+  <!-- Comics Platinum (1897-1937): left=1370, width=400; Golden (1938-1956): left=1780,w=180; Silver+ (1956-): left=1960,w=590 -->
+  <div class="br">
+    <div class="bar" data-k="Comics (Platinum Age)" style="background:#e0ddd6;color:#333;left:1370px;width:400px">COMICS &#8212; Platinum Age (1897&#8211;1937)</div>
+    <div class="bar" data-k="Comics (Golden Age)" style="background:#d0cdc6;color:#2C2C2A;left:1780px;width:180px">Golden Age (1938&#8211;56)</div>
+    <div class="bar" data-k="Comics (Silver/Bronze Age)" style="background:#bbb;color:#2C2C2A;left:1960px;width:590px">Silver, Bronze &amp; Modern Age (1956&#8211;)</div>
+  </div>
+  <div class="lr">
+    <span class="nm" data-k="Yellow Kid (1897)" style="left:1370px">Yellow Kid (1897)</span>
+    <span class="nm" data-k="Superman (1938)" style="left:1780px">Superman (1938)</span>
+    <span class="nm" data-k="Marvel Comics" style="left:1960px">Marvel (1939&#8211;)</span>
+    <span class="nm" data-k="Dark Knight Returns (1986)" style="left:2260px">Dark Knight (1986)</span>
+  </div>
+</div></div>
+<div class="row"><div class="lc">Video Games</div><div class="tc">
+  <!-- Video Games (1972-): left=2120, width=430 -->
+  <div class="br"><div class="bar" data-k="Video Games" style="background:#9FE1CB;color:#04342C;left:2120px;width:430px">VIDEO GAMES (1972&#8211;)</div></div>
+  <div class="lr">
+    <span class="nm" data-k="Pong (1972)" style="left:2120px">Pong</span>
+    <span class="nm" data-k="Super Mario (1985)" style="left:2250px">Super Mario</span>
+    <span class="nm" data-k="Doom (1993)" style="left:2330px">Doom</span>
+    <span class="nm" data-k="Quake (1996)" style="left:2360px">Quake</span>
+    <span class="nm" data-k="Warcraft" style="left:2410px">Warcraft</span>
+  </div>
+</div></div>
+<div class="bdiv"></div>
+
+<!-- ═══════════ POLITICS ═══════════ -->
+<div class="row" style="margin-top:2px"><div class="lc">Politics</div><div class="tc">
+  <div class="br" style="height:18px">
+    <div style="position:absolute;left:0;right:0;top:9px;height:1.5px;background:#c44"></div>
+    <div class="bar" data-k="French Revolution" style="background:#e24b4a;color:#fff;left:290px;width:100px;font-size:8px">French Rev.</div>
+    <div class="bar" data-k="Napoleon" style="background:#cc8888;color:#501313;left:390px;width:150px;font-size:8px">Napoleonic Era</div>
+    <div class="bar" data-k="World War I" style="background:#e24b4a;color:#fff;left:1540px;width:40px;font-size:8px">WWI</div>
+    <div class="bar" data-k="World War II" style="background:#e24b4a;color:#fff;left:1790px;width:60px;font-size:8px">WWII</div>
+    <div class="bar" data-k="Cold War" style="background:#cc8888;color:#501313;left:1870px;width:440px;font-size:8px">Cold War (1947&#8211;1991)</div>
+    <div class="bar" data-k="Vietnam War" style="background:#e24b4a;color:#fff;left:1950px;width:200px;font-size:8px">Vietnam War</div>
+    <div class="bar" data-k="Soviet-Afghanistan" style="background:#e24b4a;color:#fff;left:2190px;width:100px;font-size:8px">Soviet&#8211;Afg.</div>
+    <div class="bar" data-k="Rwanda" style="background:#e24b4a;color:#fff;left:2340px;width:30px;font-size:7px">Rwa</div>
+    <div class="bar" data-k="9/11" style="background:#ddcc00;color:#555;left:2410px;width:30px;font-size:7px">9/11</div>
+    <div class="bar" data-k="Iraq War" style="background:#e24b4a;color:#fff;left:2430px;width:80px;font-size:8px">Iraq War</div>
+  </div>
+  <div class="lr">
+    <span class="nm" data-k="World War I" style="left:1540px;font-style:normal;font-size:8px">WWI 1914&#8211;18</span>
+    <span class="nm" data-k="Great Leap Forward" style="left:1980px;font-style:normal;font-size:8px">Great Leap Forward</span>
+    <span class="nm" data-k="Berlin Wall Falls" style="left:2280px;font-style:normal;font-size:8px">Berlin Wall Falls (1989)</span>
+    <span class="nm" data-k="9/11" style="left:2390px;font-style:normal;font-size:8px">9/11</span>
+  </div>
+</div></div>
+
+<!-- ═══════════ YEAR AXIS ═══════════ -->
+<div class="yax"><div style="width:140px;flex-shrink:0"></div>
+<div style="width:2550px;position:relative;height:24px">
+  <span class="ym" style="left:0">1760</span>
+  <span class="ym" style="left:100px">1770</span>
+  <span class="ym" style="left:200px">1780</span>
+  <span class="ym" style="left:300px">1790</span>
+  <span class="ym" style="left:400px">1800</span>
+  <span class="ym" style="left:500px">1810</span>
+  <span class="ym" style="left:600px">1820</span>
+  <span class="ym" style="left:700px">1830</span>
+  <span class="ym" style="left:800px">1840</span>
+  <span class="ym" style="left:900px">1850</span>
+  <span class="ym" style="left:1000px">1860</span>
+  <span class="ym" style="left:1100px">1870</span>
+  <span class="ym" style="left:1200px">1880</span>
+  <span class="ym" style="left:1300px">1890</span>
+  <span class="ym" style="left:1400px">1900</span>
+  <span class="ym" style="left:1500px">1910</span>
+  <span class="ym" style="left:1600px">1920</span>
+  <span class="ym" style="left:1700px">1930</span>
+  <span class="ym" style="left:1800px">1940</span>
+  <span class="ym" style="left:1900px">1950</span>
+  <span class="ym" style="left:2000px">1960</span>
+  <span class="ym" style="left:2100px">1970</span>
+  <span class="ym" style="left:2200px">1980</span>
+  <span class="ym" style="left:2300px">1990</span>
+  <span class="ym" style="left:2400px">2000</span>
+  <span class="ym" style="left:2500px">2010</span>
+  <span class="ym" style="left:2550px">2015</span>
+</div></div>
+
+<!-- ═══════════ SCIENCE ═══════════ -->
+<div class="row" style="margin-top:3px"><div class="lc">Science</div><div class="tc">
+  <div class="lr">
+    <span class="nm" data-k="Quantum Theory" style="left:1400px">Quantum Theory (Planck 1900)</span>
+    <span class="nm" data-k="Theory of Relativity" style="left:1600px">Relativity (Einstein 1905/1916)</span>
+    <span class="an" style="left:1780px">Nuclear Fission 1938</span>
+  </div>
+  <div class="lr">
+    <span class="nm" data-k="Computer Invented" style="left:1830px">ENIAC (1945)</span>
+    <span class="nm" data-k="DNA Structure" style="left:1940px">DNA double helix (1953)</span>
+  </div>
+  <div class="lr">
+    <span class="nm" data-k="Man in Space" style="left:2010px">Gagarin (1961)</span>
+    <span class="nm" data-k="Moon Landing" style="left:2110px">Moon Landing (1969)</span>
+  </div>
+  <div class="lr">
+    <span class="nm" data-k="Chaos Theory" style="left:2030px">Chaos Theory (1963)</span>
+    <span class="nm" data-k="Rise of Popular Science" style="left:2200px">&#8594; rise of popular science</span>
+  </div>
+</div></div>
+
+<div style="text-align:right;font-size:8px;color:#ccc;margin-top:8px;padding-right:4px">Timeline of Art, Philosophy &amp; New Media 1760&#8211;2015 &#8212; hover any bar or name to explore</div>
+</div></div><!-- end page/outer -->
+
+<!-- ═══════════ CONNECTION SVG OVERLAY ═══════════ -->
+<svg id="conn-svg" style="position:fixed;top:0;left:0;width:100vw;height:100vh;pointer-events:none;z-index:9997;overflow:visible"></svg>
+
+<!-- ═══════════ TOOLTIP ═══════════ -->
+<div id="tt">
+  <img id="tt-img" src="" alt="">
+  <div id="tt-ph"><span>loading&#8230;</span></div>
+  <div id="tt-body">
+    <div id="tt-name"></div>
+    <div id="tt-type"></div>
+    <div id="tt-dates"></div>
+    <div id="tt-desc"></div>
+    <div id="tt-links">
+      <a id="tt-wiki" href="#" target="_blank" rel="noopener">Wikipedia &#8599;</a>
+      <span>&#183;</span>
+      <a id="tt-goog" href="#" target="_blank" rel="noopener">Google &#8599;</a>
+      <span>&#183;</span>
+      <a id="tt-yt" href="#" target="_blank" rel="noopener">YouTube &#8599;</a>
+    </div>
+  </div>
+</div>
+</div><!-- end position:relative wrapper -->
+
+<script>
+const D={
+/* ── Philosophers ── */
+"Immanuel Kant":{t:"Philosopher",bg:"#e8d5f5",tc:"#3C3489",d:"1724\u20131804",desc:"German philosopher whose Critique of Pure Reason (1781) synthesized rationalism and empiricism, founding transcendental idealism. His Critique of Judgment (1790) established concepts of the sublime and disinterested beauty foundational to all subsequent art theory.",wiki:"Immanuel_Kant"},
+"G.W.F. Hegel":{t:"Philosopher",bg:"#e8d5f5",tc:"#3C3489",d:"1770\u20131831",desc:"German idealist philosopher. His Phenomenology of Spirit (1807) introduced dialectical thinking (thesis\u2013antithesis\u2013synthesis). His Lectures on Aesthetics argued art\u2019s highest purpose is revealing truth about the Absolute Spirit.",wiki:"Georg_Wilhelm_Friedrich_Hegel"},
+"Arthur Schopenhauer":{t:"Philosopher",bg:"#e8d5f5",tc:"#3C3489",d:"1788\u20131860",desc:"German philosopher. The World as Will and Representation (1818) argued art\u2014especially music\u2014offers temporary escape from the suffering of blind Will. He profoundly influenced Nietzsche, Wagner, Freud, and 20th-century pessimism and aesthetics.",wiki:"Arthur_Schopenhauer"},
+"Friedrich Nietzsche":{t:"Philosopher",bg:"#e8d5f5",tc:"#3C3489",d:"1844\u20131900",desc:"German philosopher who declared \u2018God is dead\u2019 and developed the \xfcbermensch, will to power, and eternal recurrence. The Birth of Tragedy (1872) contrasted Apollonian and Dionysian impulses. He hugely influenced Expressionism, Dada, Existentialism, and 20th-century aesthetics.",wiki:"Friedrich_Nietzsche"},
+"Sigmund Freud":{t:"Psychoanalyst",bg:"#d8cbf0",tc:"#3C3489",d:"1856\u20131939",desc:"Founder of psychoanalysis. The Interpretation of Dreams (1900) established the unconscious, dream symbolism, and the Oedipus complex. His theories directly fueled Surrealism\u2019s automatic writing and paranoiac-critical methods.",wiki:"Sigmund_Freud"},
+"Ferdinand de Saussure":{t:"Linguist / Semiotician",bg:"#d8cbf0",tc:"#3C3489",d:"1857\u20131913",desc:"Swiss linguist whose posthumous Course in General Linguistics (1915) founded modern semiotics and structural linguistics. His distinction between signifier and signified became the cornerstone of Structuralism and Poststructuralism.",wiki:"Ferdinand_de_Saussure"},
+"C.G. Jung":{t:"Psychologist",bg:"#d8cbf0",tc:"#3C3489",d:"1875\u20131961",desc:"Swiss psychiatrist who founded analytical psychology. His concepts of the collective unconscious, archetypes, and the shadow (Psychological Types, 1921) influenced Surrealism, Abstract Expressionism, and depth psychology\u2019s impact on modern art.",wiki:"Carl_Jung"},
+"Martin Heidegger":{t:"Philosopher",bg:"#ddd4fa",tc:"#3C3489",d:"1889\u20131976",desc:"German philosopher and founder of fundamental ontology. Being and Time (1927) introduced Dasein and authenticity. His essay The Origin of the Work of Art (1935) argued art reveals truth and opens worlds, deeply influencing poststructuralism and contemporary art theory.",wiki:"Martin_Heidegger"},
+"Jacques Lacan":{t:"Psychoanalyst / Philosopher",bg:"#ddd4fa",tc:"#3C3489",d:"1901\u20131981",desc:"French psychoanalyst who reread Freud through structural linguistics. \u00c9crits (1966) introduced the mirror stage, the Symbolic/Imaginary/Real triad, and the axiom \u2018the unconscious is structured like a language.\u2019 Enormously influential on film theory, feminist theory, and art criticism.",wiki:"Jacques_Lacan"},
+"L\xe9vi-Strauss":{t:"Anthropologist / Structuralist",bg:"#ddd4fa",tc:"#3C3489",d:"1908\u20132009",desc:"French anthropologist and the leading figure of Structuralism. The Raw and the Cooked (1964) analysed myths through binary oppositions derived from Saussure\u2019s linguistics. His structural method became the model for structuralist art history and criticism.",wiki:"Claude_L\xe9vi-Strauss"},
+"Roland Barthes":{t:"Theorist / Semiotician",bg:"#ddd4fa",tc:"#3C3489",d:"1915\u20131980",desc:"French theorist who applied Saussure\u2019s semiotics to popular culture. Mythologies (1957) exposed bourgeois ideology in everyday signs. His essay \u2018The Death of the Author\u2019 (1967) declared meaning lies with the reader, not the artist\u2014foundational to Conceptual Art.",wiki:"Roland_Barthes"},
+"Michel Foucault":{t:"Philosopher",bg:"#c8b5f0",tc:"#26215C",d:"1926\u20131984",desc:"French philosopher who analyzed how power produces knowledge and subjects. The Order of Things (1966) and Discipline and Punish (1975) transformed art history, queer theory, and institutional critique. He declared \u2018the death of man\u2019 echoing Barthes\u2019s death of the author.",wiki:"Michel_Foucault"},
+"Noam Chomsky":{t:"Linguist / Political Theorist",bg:"#c8b5f0",tc:"#26215C",d:"1928\u2013",desc:"American linguist and political theorist. Syntactic Structures (1957) proposed universal grammar, revolutionizing linguistics and cognitive science. His political writings (Manufacturing Consent, 1988) became central to critical media theory and activist art.",wiki:"Noam_Chomsky"},
+"Jean Baudrillard":{t:"Philosopher",bg:"#c8b5f0",tc:"#26215C",d:"1929\u20132007",desc:"French philosopher of hyperreality and simulation. Simulacra and Simulation (1981) argued postmodern culture produces signs that no longer refer to reality\u2014only to other signs. He directly influenced appropriation art, simulation art, and The Matrix (1999) cited his work.",wiki:"Jean_Baudrillard"},
+"Alain Badiou":{t:"Philosopher",bg:"#b8a5e0",tc:"#1C1640",d:"1937\u2013",desc:"French philosopher and mathematician. Being and Event (1988) reformulated ontology as mathematics (set theory). He argues art is one of four \u2018truth procedures\u2019 alongside science, love, and politics\u2014engaged with theater, cinema, and contemporary aesthetics.",wiki:"Alain_Badiou"},
+"Nick Land":{t:"Philosopher / Accelerationist",bg:"#b8a5e0",tc:"#1C1640",d:"1962\u2013",desc:"English philosopher. Co-founded the Cybernetic Culture Research Unit (CCRU) at Warwick in the 1990s. His accelerationism argues capitalist-technological processes should be pushed to their limit rather than resisted. Coined \u2018hyperstition.\u2019 Fanged Noumena (2011) collected his writings.",wiki:"Nick_Land"},
+/* ── Media Theorists ── */
+"Walter Benjamin":{t:"Media Theorist",bg:"#c8b5f0",tc:"#26215C",d:"1892\u20131940",desc:"German critic and philosopher. The Work of Art in the Age of Mechanical Reproduction (1936) argued that mass reproduction destroys an artwork\u2019s \u2018aura\u2019\u2014its unique presence in time and place\u2014opening the way for political art.",wiki:"Walter_Benjamin"},
+"Marshal McLuhan":{t:"Media Theorist",bg:"#c8b5f0",tc:"#26215C",d:"1911\u20131980",desc:"Canadian communications theorist who coined \u2018the medium is the message.\u2019 Understanding Media (1964) argued the form of a medium\u2014not its content\u2014shapes human perception and culture. Predicted the global village and the internet age.",wiki:"Marshall_McLuhan"},
+"Clement Greenberg":{t:"Art Critic",bg:"#c8b5f0",tc:"#26215C",d:"1909\u20131994",desc:"America\u2019s most influential postwar art critic and the chief ideological architect of Abstract Expressionism\u2019s Cold War promotion. Art and Culture (1961) championed formalist Modernism; his theory of medium-specificity (painting must be about flatness) shaped Minimalism and Color Field. His 1939 essay \u2018Avant-Garde and Kitsch\u2019 theorised elite patronage as necessary for art\u2019s survival\u2014providing the Rockefeller network the intellectual framework it required to detach ABX from its artists\u2019 leftist origins.",wiki:"Clement_Greenberg"},
+"Steven Levy":{t:"Author",bg:"#c8b5f0",tc:"#26215C",d:"1951\u2013",desc:"American journalist and author. Hackers: Heroes of the Computer Revolution (1984) documented the hacker ethic\u2014that information should be free\u2014and the culture of MIT\u2019s Tech Model Railroad Club, Bell Labs, and early Silicon Valley.",wiki:"Steven_Levy"},
+"Paul Virilio":{t:"Media Theorist",bg:"#c8b5f0",tc:"#26215C",d:"1932\u20132018",desc:"French theorist of speed and technology. The Vision Machine (1994) and The Information Bomb (2000) argued that military technology and media accelerate perception to the point of catastrophe, a theme central to tactical media art.",wiki:"Paul_Virilio"},
+"Lev Manovich":{t:"Media Theorist",bg:"#c8b5f0",tc:"#26215C",d:"1960\u2013",desc:"Russian-American media theorist. The Language of New Media (2001) provided the first systematic theoretical framework for understanding digital culture, software, databases, and the logic of selection that drives new media art.",wiki:"Lev_Manovich"},
+/* ── Art Movements ── */
+"Neoclassicism":{t:"Art Movement",bg:"#e8dcc8",tc:"#5a4200",d:"1760\u20131850",desc:"Revival of ancient Greek and Roman ideals emerging from the Enlightenment. Jacques-Louis David\u2019s moral history paintings and Canova\u2019s sculpture embodied reason over passion. Directly tied to Kant\u2019s aesthetics and the French Revolutionary ideal of civic virtue.",wiki:"Neoclassicism"},
+"Romanticism":{t:"Art Movement",bg:"#f5c4b3",tc:"#712B13",d:"1780\u20131850",desc:"Movement reacting against Neoclassical reason with emotion, nature, and the sublime. Delacroix, Friedrich, Turner, and Goya explored feeling over form and the terror of nature. Schopenhauer\u2019s aesthetics and Kant\u2019s concept of the sublime were its philosophical bases.",wiki:"Romanticism"},
+"Realism":{t:"Art Movement",bg:"#d4e8c8",tc:"#27500A",d:"1840\u20131890",desc:"Rejection of Romantic idealization in favor of depictions of everyday working-class life. Courbet\u2019s The Stone Breakers (1849) portrayed peasant labor without heroism. Realism was closely tied to socialist politics and positivist materialism.",wiki:"Realism_(art_movement)"},
+"Impressionism":{t:"Art Movement",bg:"#ffc0cb",tc:"#4B1528",d:"1860\u20131900",desc:"French movement capturing transient effects of light through loose brushwork and pure color. Monet, Renoir, Degas, and Pissarro exhibited outside the official Salon from 1874. Impressionism revolutionized the relationship between direct observation and pictorial representation.",wiki:"Impressionism"},
+"Symbolism":{t:"Art Movement",bg:"#c8b5f0",tc:"#26215C",d:"1886\u20131910",desc:"Movement born from Jean Mor\xe9as\u2019s 1886 manifesto against materialism. Symbolists (Klimt, Moreau, Redon) used symbols to represent feelings and ideas rather than literal reality. Themes of death, dreams, and sexuality prefigured Surrealism.",wiki:"Symbolism_(arts)"},
+"Expressionism":{t:"Art Movement",bg:"#f4a58a",tc:"#712B13",d:"1905\u20131933",desc:"German-led movement using distorted forms and intense color to express inner emotional states. Die Br\xfccke (Dresden, 1905) and Der Blaue Reiter (Munich, 1911) were its core groups. Directly influenced by Nietzsche\u2019s Dionysian impulse.",wiki:"Expressionism"},
+"Cubism":{t:"Art Movement",bg:"#ddd",tc:"#333",d:"1907\u20131930",desc:"Co-founded by Picasso and Braque c.1907. Shattered objects into simultaneous geometric fragments from multiple viewpoints, destroying the single-point perspective that had dominated Western art since the Renaissance.",wiki:"Cubism"},
+"Futurism":{t:"Art Movement",bg:"#f4a58a",tc:"#712B13",d:"1909\u20131944",desc:"Italian movement founded by Marinetti\u2019s 1909 Manifesto. Celebrated speed, technology, industry, and violence. Futurism glorified the car, the airplane, and the machine age\u2014and influenced Constructivism, Vorticism, and Fascist aesthetics.",wiki:"Futurism"},
+"Dada":{t:"Art Movement",bg:"#c8b5f0",tc:"#26215C",d:"1916\u20131924",desc:"Anti-art, anti-war anarchic movement born at Cabaret Voltaire, Zurich, 1916. Rejected logic and reason in favor of absurdity, chance, and nonsense. Duchamp\u2019s readymades (Fountain, 1917) remain among the most consequential gestures in art history.",wiki:"Dada"},
+"Russian Constructivism":{t:"Art Movement",bg:"#f4a58a",tc:"#712B13",d:"1915\u20131934",desc:"Soviet artistic philosophy rejecting \u2018art for art\u2019s sake\u2019 in favor of functional design serving the communist state. Rodchenko, Tatlin, and El Lissitzky used industrial materials and geometric forms for typography, architecture, and propaganda.",wiki:"Russian_constructivism"},
+"Surrealism":{t:"Art Movement",bg:"#dbb9f5",tc:"#26215C",d:"1924\u20131950s",desc:"Founded by Andr\xe9 Breton\u2019s First Surrealist Manifesto (1924). Drew on Freud\u2019s unconscious through automatic writing, Dal\xed\u2019s paranoiac-critical method, and Ernst\u2019s collage. Surrealism sought to resolve waking and dreaming reality into a super-reality.",wiki:"Surrealism"},
+"Andr\xe9 Breton":{t:"Poet / Artist",bg:"#dbb9f5",tc:"#26215C",d:"1896\u20131966",desc:"French poet and founder of Surrealism. His First Manifesto (1924) defined automatic writing as the purest expression of the unconscious. He expelled and readmitted members as a self-appointed pope of Surrealism.",wiki:"Andr\xe9_Breton"},
+"Salvador Dal\xed":{t:"Artist",bg:"#dbb9f5",tc:"#26215C",d:"1904\u20131989",desc:"Spanish Surrealist known for the paranoiac-critical method\u2014simulating paranoid delusion to generate imagery. The Persistence of Memory (1931) is among the most recognized paintings of the 20th century. His showmanship made him the most famous artist of his era.",wiki:"Salvador_Dal\xed"},
+"Abstract Expressionism":{t:"Art Movement",bg:"#f0997b",tc:"#4A1B0C",d:"1943\u20131965",desc:"First major American art movement, centred in New York. Pollock (action painting), de Kooning (gestural figuration), and Rothko (color field) stressed spontaneous, large-scale emotional expression. The CIA covertly promoted ABX as Cold War soft power\u2014positioning its \u2018art for art\u2019s sake\u2019 individualism against Soviet Socialist Realism. Clement Greenberg supplied the theory; the Rockefeller family and the Congress for Cultural Freedom (a CIA front, 1950\u20131967) supplied the logistics, funding European touring shows. Thomas W. Braden (CIA): \u2018It had to be covert because it would have been turned down if it was put to a vote in a democracy.\u2019",wiki:"Abstract_expressionism"},
+"Jackson Pollock":{t:"Artist",bg:"#f0997b",tc:"#4A1B0C",d:"1912\u20131956",desc:"American painter famous for drip painting (c.1947\u201350). His action painting process\u2014moving around an unstretched canvas on the floor\u2014made the physical gesture central to the work. Became the unwitting poster boy of the CIA\u2019s Cold War cultural programme: Alfred Barr personally persuaded Life magazine\u2019s publisher to run a 1949 centrefold feature (\u2018Is He the Greatest Living Painter in the United States?\u2019), giving Abstract Expressionism its first mass-media audience.",wiki:"Jackson_Pollock"},
+"Henri Matisse":{t:"Artist",bg:"#f4a58a",tc:"#712B13",d:"1869\u20131954",desc:"French artist and leader of Fauvism. Known for bold saturated color and fluid draughtsmanship. His late cut-paper gouaches (Jazz, 1947) are among the most joyful works of the 20th century.",wiki:"Henri_Matisse"},
+"Pablo Picasso":{t:"Artist",bg:"#ddd",tc:"#333",d:"1881\u20131973",desc:"Spanish artist who co-founded Cubism with Braque. Les Demoiselles d\u2019Avignon (1907) initiated the Cubist revolution. Guernica (1937) remains among the most significant political paintings ever made.",wiki:"Pablo_Picasso"},
+"Pop Art":{t:"Art Movement",bg:"#f7d76b",tc:"#5a4200",d:"1955\u20131975",desc:"Emerged in the UK (Independent Group, 1952) and exploded in the USA c.1955. Incorporated imagery from advertising, comics, film, and consumer culture. Critic Leo Steinberg argued Pop defeated Abstract Expressionism at its own game\u2014achieving \u2018meta-flatness\u2019 by using already-flat imagery (flags, targets, soup cans) where ABX had to laboriously construct flatness through paint. Warhol established the celebrity-as-art-subject template that has defined the contemporary art market ever since.",wiki:"Pop_art"},
+"Jasper Johns":{t:"Artist",bg:"#f7d76b",tc:"#5a4200",d:"1930\u2013",desc:"American painter whose flags, targets, and number paintings (from 1954) bridged Abstract Expressionism and Pop Art. His use of familiar objects as subject matter prefigured Minimalism and Conceptual Art.",wiki:"Jasper_Johns"},
+"Andy Warhol":{t:"Artist",bg:"#f7d76b",tc:"#5a4200",d:"1928\u20131987",desc:"The central figure of American Pop Art. Campbell\u2019s Soup Cans (1962) and Marilyn Monroe silkscreens predicted media saturation culture. His studio The Factory was a laboratory for mass-produced art and celebrity. Warhol established the template\u2014never since abandoned\u2014of celebrity as art\u2019s most pliable material: since Warhol the art world\u2019s relationship to celebrity has oscillated between treating it as critique and simply reproducing it for market.",wiki:"Andy_Warhol"},
+"Claes Oldenburg":{t:"Artist",bg:"#f7d76b",tc:"#5a4200",d:"1929\u20132022",desc:"Swedish-American sculptor known for soft vinyl sculptures of everyday objects and monumental public sculptures. His Happenings (The Store, 1961) pioneered performance art and Pop sensibility.",wiki:"Claes_Oldenburg"},
+"Minimalism":{t:"Art Movement",bg:"#f5d97a",tc:"#5a4200",d:"1960\u20131975",desc:"Used simple geometric forms with no personal expression or illusionism. \u2018What you see is what you see\u2019 (Frank Stella). Donald Judd\u2019s stacks and Dan Flavin\u2019s fluorescent tubes explored the literal physicality of the art object.",wiki:"Minimalism_(visual_arts)"},
+"Frank Stella":{t:"Artist",bg:"#f5d97a",tc:"#5a4200",d:"1936\u20132024",desc:"American painter central to Minimalism. His Black Paintings (1958\u201360) \u2014 uniform bands of black enamel \u2014 eliminated compositional hierarchy. \u2018What you see is what you see.\u2019 Later work moved into flamboyant three-dimensional relief painting.",wiki:"Frank_Stella"},
+"Sol LeWitt":{t:"Artist",bg:"#b5d4f4",tc:"#0C447C",d:"1928\u20132007",desc:"American artist central to Minimalism and Conceptual Art. His wall drawings executed from written instructions made the idea the artwork, not the object. \u2018The idea itself, even if not made visual, is as much a work of art as any finished product.\u2019",wiki:"Sol_LeWitt"},
+"Richard Serra":{t:"Artist",bg:"#f5d97a",tc:"#5a4200",d:"1938\u20132024",desc:"American sculptor known for monumental site-specific Corten steel installations that transform spatial perception. Tilted Arc (1981), installed in NYC\u2019s Federal Plaza, sparked landmark debate about public art and was removed in 1989.",wiki:"Richard_Serra"},
+"Conceptual Art":{t:"Art Movement",bg:"#b5d4f4",tc:"#0C447C",d:"1960s\u2013",desc:"Movement in which the idea or concept is the primary work. Sol LeWitt\u2019s wall drawings, Joseph Kosuth\u2019s One and Three Chairs, and Hans Haacke\u2019s institutional critiques all prioritised idea over craft. The first major movement created entirely by college-educated artists, and the first to demand written justification as a condition of existence\u2014institutionalising what Troemel calls the \u2018literary horseshoe\u2019: modern art rebelled against literary painting only to become paradoxically more text-dependent as the work dematerialised. Benjamin Buchloh named this the \u2018Aesthetic of Administration.\u2019",wiki:"Conceptual_art"},
+"Performance Art":{t:"Art Form",bg:"#ffc0cb",tc:"#4B1528",d:"1960s\u2013",desc:"Live artworks where the artist\u2019s body and actions constitute the work. Emerged from Fluxus and Allan Kaprow\u2019s Happenings (1958). Abramovi\u0107, Ono, Schneemann, and Stelarc explored endurance, ritual, and technology. The Happenings\u2019 participatory format\u2014audience invited into the artwork\u2014established a lineage running through blockbuster museum installations (Abramovi\u0107 at MoMA 2010; Carsten H\u00f6ller\u2019s slides at Tate 2006; Eliasson\u2019s Weather Project 2003) before the selfie museum industry extracted the participatory shell while eliminating art, artists, and curators entirely.",wiki:"Performance_art"},
+"Joseph Beuys":{t:"Artist",bg:"#b5d4f4",tc:"#0C447C",d:"1921\u20131986",desc:"German artist, performance artist, and art theorist. Creator of \u2018social sculpture\u2019\u2014society itself shaped as a work of art, with \u2018everyone is an artist.\u2019 Key Fluxus figure. His actions using felt, fat, and honey were among the most influential art of the 20th century.",wiki:"Joseph_Beuys"},
+"Stelarc":{t:"Artist",bg:"#ffc0cb",tc:"#4B1528",d:"1946\u2013",desc:"Australian performance artist who uses robotics and surgery to extend and transform the human body. Known for his Suspension performances (hanging from hooks), his robotic Third Hand, and Ear on Arm (2007)\u2014a surgically constructed ear implanted on his forearm.",wiki:"Stelarc"},
+"Arte Povera":{t:"Art Movement",bg:"#c6b08a",tc:"#3d2400",d:"1967\u20131977",desc:"Italian movement named by critic Germano Celant (1967), who coined the term in an essay for Genoa\'s Galleria La Bertesca. Artists used \'poor\' everyday materials\u2014earth, coal, rags, live animals, fire, neon\u2014to reject the commodity status of the art object and confront consumer culture. Pistoletto, Kounellis, Merz, Anselmo, Boetti, and Fabro brought Arte Povera to international prominence at Documenta 5 (1972).",wiki:"Arte_povera"},
+"Michelangelo Pistoletto":{t:"Artist",bg:"#c6b08a",tc:"#3d2400",d:"1933\u2013",desc:"Italian Arte Povera pioneer. His Mirror Paintings (from 1962) embed photo-silkscreened figures onto polished stainless steel, drawing the viewer\u2019s reflection into the work and collapsing past and present. Venus of the Rags (1967)\u2014a classical plaster cast buried in a mound of colourful discarded clothing\u2014became a defining image of Arte Povera\u2019s confrontation between antiquity and consumer society.",wiki:"Michelangelo_Pistoletto"},
+"Jannis Kounellis":{t:"Artist",bg:"#c6b08a",tc:"#3d2400",d:"1936\u20132017",desc:"Greek-Italian artist central to Arte Povera. Untitled (12 Horses) (1969)\u2014twelve live horses tethered inside Rome\u2019s Galleria L\u2019Attico\u2014was among the most radical acts in postwar art. He used fire, coal, burlap, steel, and live plants to confront industrial civilisation with elemental and classical forces, and continued making monumental installations for five decades.",wiki:"Jannis_Kounellis"},
+"Mario Merz":{t:"Artist",bg:"#c6b08a",tc:"#3d2400",d:"1925\u20132003",desc:"Italian Arte Povera artist. His igloos\u2014domes of stone, glass, metal, clay, and neon\u2014embodied nomadic shelter and the tension between nature and technology. He inscribed the Fibonacci sequence in neon across buildings and organic forms, treating mathematical growth as a universal poetic principle governing all living things.",wiki:"Mario_Merz"},
+"Giovanni Anselmo":{t:"Artist",bg:"#c6b08a",tc:"#3d2400",d:"1934\u2013",desc:"Italian Arte Povera artist. Untitled (1968)\u2014a granite block clamped against a head of lettuce by copper wire\u2014made entropy and gravity the subject: as the lettuce decays the stone falls, requiring the work to be perpetually renewed. His practice investigates the physical forces and invisible energies that bind, transform, and erode matter.",wiki:"Giovanni_Anselmo"},
+"Earth Art":{t:"Art Movement",bg:"#a8d8bc",tc:"#085041",d:"1968\u20131975",desc:"Also called Land Art. Artists worked directly with landscape at monumental scale outside gallery walls. Robert Smithson\u2019s Spiral Jetty (1970, Great Salt Lake) and Walter De Maria\u2019s Lightning Field (1977) are canonical works.",wiki:"Land_art"},
+"Robert Smithson":{t:"Artist",bg:"#a8d8bc",tc:"#085041",d:"1938\u20131973",desc:"Founding figure of Land Art. Spiral Jetty (1970)\u2014a 1,500-foot basalt coil in Great Salt Lake\u2014is among the most iconic artworks of the 20th century. His concept of \u2018entropy\u2019 shaped ecological and time-based art.",wiki:"Robert_Smithson"},
+"Postmodernism":{t:"Art Movement",bg:"#85b7eb",tc:"#042C53",d:"1970s\u2013",desc:"Movement challenging grand narratives, originality, and the high/low culture divide. Baudrillard\u2019s simulation theory drove appropriation art (Sherrie Levine, Cindy Sherman) and delegitimised aesthetic connoisseurship as irreducibly subjective\u2014removing the critical language in which work could be dismissed as bad. The international art fair and biennial circuit, expanded in Postmodernism\u2019s name to promote global diversity, produced the opposite: by the 2010s every major fair and biennial in the world looked the same.",wiki:"Postmodern_art"},
+"Post-Modern Sculpture":{t:"Art Movement",bg:"#bbbdb6",tc:"#2C2C2A",d:"1970s\u2013",desc:"Sculpture after Minimalism that reintroduced narrative, figuration, and cultural reference. Jeff Koons\u2019s stainless steel Rabbit (1986) and Damien Hirst\u2019s vitrines blurred fine art and kitsch, commercial spectacle and institutional critique.",wiki:"Postmodern_art"},
+"Graffiti":{t:"Art Movement",bg:"#f5c4b3",tc:"#712B13",d:"1970s\u2013",desc:"Urban art form emerging from New York subway culture in the early 1970s. TAKI 183\u2019s tags, Style Wars\u2019s wildstyle lettering, and Jean-Michel Basquiat\u2019s neo-expressionist graffiti evolved from vandalism to gallery-collected art.",wiki:"Graffiti"},
+"Lowbrow":{t:"Art Movement",bg:"#f4c8b3",tc:"#712B13",d:"1970s\u2013",desc:"Underground art movement drawing on hot rod culture, punk, and pop culture. Robert Williams co-founded Juxtapoz magazine (1994), the movement\u2019s journal. Lowbrow pushed back against the seriousness of Conceptual Art with lurid, technically accomplished imagery.",wiki:"Lowbrow_(art_movement)"},
+"Robert Williams":{t:"Artist",bg:"#f4c8b3",tc:"#712B13",d:"1943\u2013",desc:"Pioneer of Lowbrow and Pop Surrealism. Co-founded Juxtapoz magazine (1994). His paintings combine hot rod imagery, psychedelia, and macabre humor with Old Master technical virtuosity.",wiki:"Robert_Williams_(artist)"},
+"Pop Surrealism":{t:"Art Movement",bg:"#f4b8cb",tc:"#4B1528",d:"1990s\u2013",desc:"Blends Pop Art with Surrealist imagery, typically with meticulous Old Master technique. Mark Ryden and Robert Williams combine saccharine pop-culture imagery with uncanny, disturbing symbolic content.",wiki:"Lowbrow_(art_movement)"},
+"Mark Ryden":{t:"Artist",bg:"#f4b8cb",tc:"#4B1528",d:"1963\u2013",desc:"Central Pop Surrealist painter. His exquisitely rendered paintings combine Victorian doll imagery, religious iconography, meat, and candy in unsettling symbolic tableaux. Called the godfather of Pop Surrealism.",wiki:"Mark_Ryden"},
+"Cybernetic Art":{t:"Media Art",bg:"#85b7eb",tc:"#042C53",d:"1960s\u2013",desc:"Art exploring feedback loops, systems, and control derived from Norbert Wiener\u2019s cybernetics (1948). Jack Burnham\u2019s Beyond Modern Sculpture (1968) theorized it; Nam June Paik and Wen-Ying Tsai built cybernetic sculpture.",wiki:"Cybernetic_art"},
+"Nam June Paik":{t:"Artist",bg:"#b5d4f4",tc:"#0C447C",d:"1932\u20132006",desc:"Korean-American artist widely considered the founder of video art. His early work (Exposition of Music\u2014Electronic Television, 1963) used modified TVs as sculpture. He coined the term \u2018electronic superhighway\u2019 and predicted the internet\u2019s cultural impact.",wiki:"Nam_June_Paik"},
+"Video Art":{t:"Media Art",bg:"#b5d4f4",tc:"#0C447C",d:"1965\u2013",desc:"Art using video technology as medium, emerging c.1965 with Nam June Paik\u2019s portable Sony Portapak. Steina and Woody Vasulka pioneered electronic image processing; Bill Viola and Gary Hill elevated it to a meditative, large-scale installation form.",wiki:"Video_art"},
+"Algorithmic Art":{t:"Media Art",bg:"#ddd4fa",tc:"#3C3489",d:"1965\u2013",desc:"Computer-generated art created via mathematical algorithms. Georg Nees and Frieder Nake (both 1965) produced the first public exhibitions of computer art. Vera Molnar pioneered algorithmic drawing from the late 1960s onward.",wiki:"Algorithmic_art"},
+"Harold Cohen (AARON)":{t:"Artist / Programmer",bg:"#ddd4fa",tc:"#3C3489",d:"1928\u20132016",desc:"British painter who created AARON\u2014one of the first autonomous art-making programs\u2014beginning in the early 1970s. AARON evolved from drawing simple shapes to producing complex figurative paintings, raising foundational questions about creativity and authorship.",wiki:"Harold_Cohen_(artist)"},
+"Generative Art":{t:"Media Art",bg:"#c8b5f0",tc:"#26215C",d:"1985\u2013",desc:"Art created through autonomous systems (algorithms, software, rules) that produce output with minimal direct human intervention. Encompasses Processing sketches, parametric architecture, and AI art. Now spans generative music, typography, and machine learning imagery.",wiki:"Generative_art"},
+"Karl Sims":{t:"Artist / Scientist",bg:"#c8b5f0",tc:"#26215C",d:"1962\u2013",desc:"American artist and computer scientist. Evolved Virtual Creatures (1994) used genetic algorithms to evolve simulated 3D organisms that competed for control of a block. A landmark work of Artificial Life art shown at SIGGRAPH.",wiki:"Karl_Sims"},
+"Organic Art / Artificial Life":{t:"Media Art",bg:"#a8d8bc",tc:"#085041",d:"1986\u2013",desc:"Art inspired by biological systems and Artificial Life research. Artists use genetic algorithms and emergent systems to create self-organizing artworks. Key events: Artificial Life conferences from 1987; Christa Sommerer and Laurent Mignonneau\u2019s interactive ecosystems.",wiki:"Artificial_life"},
+"Eduardo Kac":{t:"Artist",bg:"#a8d8bc",tc:"#085041",d:"1962\u2013",desc:"Brazilian-American bio art pioneer. GFP Bunny (Alba, 2000)\u2014a fluorescent rabbit created via genetic engineering\u2014sparked worldwide ethical debate about art, science, and life. He also pioneered telepresence art and holopoetry.",wiki:"Eduardo_Kac"},
+"Hacking (Exploratory)":{t:"Cultural Practice",bg:"#c0dff5",tc:"#0C447C",d:"1983\u2013",desc:"Creative exploratory culture of repurposing technology beyond its intended use. Steven Levy\u2019s Hackers (1984) documented the ethic: information should be free, decentralization is good, computers can be used for art and beauty.",wiki:"Hacker_culture"},
+"Hacktivist Art":{t:"Media Art",bg:"#85b7eb",tc:"#042C53",d:"1994\u2013",desc:"Art using hacking as political activism. Electronic Disturbance Theater (EDT) launched FloodNet (1998), flooding Mexican government sites during the Zapatista uprising. Critical Art Ensemble and RTMark used tactical media to expose corporate power.",wiki:"Hacktivism"},
+"Tactical Media":{t:"Media Art",bg:"#4d90d1",tc:"#E6F1FB",d:"1996\u2013",desc:"Art and activism using mass media tools\u2014pirate radio, guerrilla TV, net activism\u2014for political intervention. Theorised at The Next 5 Minutes festival (Amsterdam, 1996). The Yes Men impersonated WTO and Dow Chemical officials on TV and at conferences.",wiki:"Tactical_media"},
+"Internet Art / Cyberculture Art":{t:"Art Movement",bg:"#378ADD",tc:"#E6F1FB",d:"1990s\u2013",desc:"Art created for and through the internet. Pioneers jodi.org, Olia Lialina, and Vuk \u0106osi\u0107 used browsers, HTML, and email as creative materials. Net art still treated the internet as a portal to a separate digital frontier distinct from everyday life\u2014which distinguishes it from its successor Post-Internet Art (c.2006), where that frontier had dissolved entirely and the network became a constitutive condition rather than a medium.",wiki:"Internet_art"},
+"Josh On":{t:"Artist",bg:"#378ADD",tc:"#E6F1FB",d:"1972\u2013",desc:"British-American artist. They Rule (2001) mapped the interlocking directorates of America\u2019s most powerful corporations, making corporate power structures visible through interactive network visualization.",wiki:"Josh_On"},
+"Contemporary Conceptual Art":{t:"Art Movement",bg:"#b5d4f4",tc:"#0C447C",d:"1990s\u2013",desc:"Post-Conceptual art building on 1960s\u201370s Conceptual Art while engaging with identity politics, globalization, and institutional power. Ai Weiwei, Kara Walker, Olafur Eliasson, and Tino Sehgal combine installation, performance, and social engagement.",wiki:"Contemporary_art"},
+"Post-Internet Art":{t:"Art Movement",bg:"#8ab8d8",tc:"#03314B",d:"2006\u20132015",desc:"Coined by artist Marissa Olson (c.2008). Post-Internet art addressed the collapse of the distinction between online and offline life\u2014the internet as universal condition rather than novel medium. Cory Arcangel\u2019s dirt-style archaeology of obsolete media, Ryan Trecartin\u2019s compressed digital subjectivity, and Hito Steyerl\u2019s Poor Image theory defined its aesthetic. Surf clubs (Nasty Nets, Spirit Surfers) formed its infrastructure; Instagram and art fairs (c.2013) commercially captured and diluted it. Critically chronicled by Brad Troemel, a participant.",wiki:"Post-Internet_art"},
+"Cory Arcangel":{t:"Artist",bg:"#8ab8d8",tc:"#03314B",d:"1978\u2013",desc:"American artist and central figure of Post-Internet art. Super Mario Clouds (2002)\u2014a hacked Nintendo cartridge displaying only scrolling sky\u2014became an icon of artistic repurposing of obsolete technology. His \u2018dirt-style design\u2019 reframed pixelated internet-found media as digital archaeology carrying its own aesthetic value.",wiki:"Cory_Arcangel"},
+"Ryan Trecartin":{t:"Artist",bg:"#8ab8d8",tc:"#03314B",d:"1981\u2013",desc:"American video artist whose frenetic multi-channel works (I-Be Area, 2007; Any Ever, 2010) modelled a subjectivity native to online culture: compressed speech, gender fluidity, infinite channel-switching. He and collaborator Lizzie Fitch built elaborate sets casting friends in works that functioned as both portrait of and commentary on networked identity.",wiki:"Ryan_Trecartin"},
+"Hito Steyerl":{t:"Artist / Theorist",bg:"#8ab8d8",tc:"#03314B",d:"1966\u2013",desc:"German artist and theorist. \u2018In Defense of the Poor Image\u2019 (2009) argued low-resolution, compressed images carry authentic traces of their circulation through networks\u2014challenging assumptions about infinite reproducibility. Her video essays (How Not to Be Seen, 2013; Liquidity Inc., 2014) combined documentary, theory, and comedy to examine politics of visibility in the digital age.",wiki:"Hito_Steyerl"},
+"Zombie Formalism":{t:"Art Trend",bg:"#888780",tc:"#F1EFE8",d:"2011\u20132015",desc:"Pejorative term coined by critic Walter Robinson (2014) for market-driven abstract painting mimicking Modernist formalism without conceptual depth. Oscar Murillo and Lucien Smith produced gestural works rapidly consumed by speculative buyers in the post-2008 art market boom. Troemel\u2019s analysis identifies its structural cause: the Federal Reserve\u2019s Zero Interest Rate Policy (ZERP) post-2008 pushed venture capital into high-risk bets including the art market\u2014inflating a bubble that selected for rapidly producible, legible-as-art inventory over conceptual seriousness.",wiki:"Zombie_formalism"},
+"Jeff Koons":{t:"Artist",bg:"#bbbdb6",tc:"#2C2C2A",d:"1955\u2013",desc:"American artist known for stainless steel balloon sculptures and kitsch appropriation. Rabbit (1986) sold for $91.1M in 2019. Koons\u2019s work simultaneously embodies and critiques the commodity status of art and celebrity culture.",wiki:"Jeff_Koons"},
+"Damien Hirst":{t:"Artist",bg:"#bbbdb6",tc:"#2C2C2A",d:"1965\u2013",desc:"British artist and leader of the Young British Artists (YBAs). The Physical Impossibility of Death in the Mind of Someone Living (1991)\u2014a shark in formaldehyde\u2014became the defining image of 1990s art-world spectacle.",wiki:"Damien_Hirst"},
+/* ── Consumer Art ── */
+"Animation (Golden Age)":{t:"Consumer Art",bg:"#b5d4f4",tc:"#0C447C",d:"1928\u20131960",desc:"Golden Age from Mickey Mouse\u2019s Steamboat Willie (1928) through Disney\u2019s feature films and Warner Bros.\u2019 Looney Tunes. Key films: Snow White (1937), Pinocchio (1940), Bambi (1942), Duck Amuck (1953).",wiki:"Golden_Age_of_American_animation"},
+"Animation (Pixar Era)":{t:"Consumer Art",bg:"#85b7eb",tc:"#042C53",d:"1995\u2013",desc:"Pixar\u2019s Toy Story (1995)\u2014the first fully CGI feature film\u2014launched a new era of digital animation. Dreamworks, Sony, and Disney followed. Pixar\u2019s story culture and technical innovation redefined family entertainment.",wiki:"Pixar"},
+"Mickey Mouse":{t:"Cultural Icon",bg:"#b5d4f4",tc:"#0C447C",d:"1928\u2013",desc:"Debuted in Steamboat Willie on November 18, 1928\u2014the first synchronized sound cartoon. Became the global symbol of Disney and the most recognizable cartoon character in history.",wiki:"Mickey_Mouse"},
+"Snow White (1937)":{t:"Film",bg:"#b5d4f4",tc:"#0C447C",d:"1937",desc:"The first feature-length cel-animated film. Premiered December 21, 1937. Called \u2018Disney\u2019s Folly\u2019 before release, it became the highest-grossing film of 1938.",wiki:"Snow_White_and_the_Seven_Dwarfs_(1937_film)"},
+"Toy Story (1995)":{t:"Film",bg:"#85b7eb",tc:"#042C53",d:"1995",desc:"Pixar\u2019s first feature (November 22, 1995)\u2014the first entirely CGI-animated film. Directed by John Lasseter. Grossed $373M worldwide and launched the most successful animation studio in history.",wiki:"Toy_Story"},
+"Comics (Platinum Age)":{t:"Publishing Era",bg:"#e0ddd6",tc:"#333",d:"1897\u20131937",desc:"Began with Richard Outcault\u2019s The Yellow Kid\u2014the first comic strip collected into a book (1897). Newspaper comics proliferated; Buster Brown and Little Nemo followed.",wiki:"History_of_American_comics"},
+"Comics (Golden Age)":{t:"Publishing Era",bg:"#d0cdc6",tc:"#2C2C2A",d:"1938\u20131956",desc:"Began with Superman\u2019s debut in Action Comics #1 (June 1938). The Golden Age produced Batman (1939), Wonder Woman (1941), Captain America (1941), and the superhero genre.",wiki:"Golden_Age_of_Comic_Books"},
+"Comics (Silver/Bronze Age)":{t:"Publishing Era",bg:"#bbb",tc:"#2C2C2A",d:"1956\u2013",desc:"Silver Age (1956\u20131970): Marvel\u2019s Stan Lee/Kirby/Ditko era created Spider-Man, the X-Men, Iron Man, and the Fantastic Four. Bronze Age (1970\u20131985): darker themes entered mainstream comics.",wiki:"Silver_Age_of_Comic_Books"},
+"Yellow Kid (1897)":{t:"Comics Character",bg:"#e0ddd6",tc:"#333",d:"1895\u20131898",desc:"Richard Outcault\u2019s Yellow Kid in Hogan\u2019s Alley led to the first collected comic book (1897). The circulation war between Hearst and Pulitzer over the strip gave us the term \u2018yellow journalism.\u2019",wiki:"The_Yellow_Kid"},
+"Superman (1938)":{t:"Comics Character",bg:"#d0cdc6",tc:"#2C2C2A",d:"1938\u2013",desc:"Created by Jerry Siegel and Joe Shuster. First appeared in Action Comics #1, April 18, 1938. Superman launched the Golden Age of Comics and established the superhero genre.",wiki:"Superman"},
+"Marvel Comics":{t:"Publisher",bg:"#bbb",tc:"#2C2C2A",d:"1939\u2013",desc:"Founded 1939 as Timely Comics. The Stan Lee/Jack Kirby/Steve Ditko collaboration (1961\u2013) created Spider-Man, X-Men, Thor, Iron Man, and the Marvel Universe\u2014characters that now define global popular culture.",wiki:"Marvel_Comics"},
+"Dark Knight Returns (1986)":{t:"Comics",bg:"#bbb",tc:"#2C2C2A",d:"1986",desc:"Frank Miller\u2019s 4-issue series (1986) reimagined an aging Batman in a dystopian future. It redefined Batman, established the graphic novel as a literary form, and drove the darker tone of 1980s\u20132000s superhero comics.",wiki:"The_Dark_Knight_Returns"},
+"Video Games":{t:"Medium",bg:"#9FE1CB",tc:"#04342C",d:"1972\u2013",desc:"Interactive entertainment from Pong (1972) through arcade golden ages, home consoles, and online gaming into a $200B+ global industry exceeding Hollywood.",wiki:"Video_game"},
+"Pong (1972)":{t:"Video Game",bg:"#9FE1CB",tc:"#04342C",d:"1972",desc:"Atari\u2019s table tennis arcade game (November 29, 1972)\u2014the first commercially successful video game. Two paddles, one ball, digital score. Launched the home video game industry.",wiki:"Pong"},
+"Super Mario (1985)":{t:"Video Game",bg:"#9FE1CB",tc:"#04342C",d:"1985",desc:"Nintendo\u2019s Super Mario Bros. (September 13, 1985) was the killer application for the NES and rescued the video game industry after the 1983 crash. Established platform game grammar still used today.",wiki:"Super_Mario_Bros."},
+"Doom (1993)":{t:"Video Game",bg:"#9FE1CB",tc:"#04342C",d:"1993",desc:"id Software\u2019s first-person shooter (December 10, 1993). Popularized networked deathmatch and shareware distribution. Its graphic violence sparked the first major video game controversy and rating system debates.",wiki:"Doom_(1993_video_game)"},
+"Quake (1996)":{t:"Video Game",bg:"#9FE1CB",tc:"#04342C",d:"1996",desc:"id Software\u2019s first fully 3D first-person shooter. Pioneered online multiplayer culture, modding community, and esports. Its engine technology licensed to dozens of games.",wiki:"Quake_(video_game)"},
+"Warcraft":{t:"Video Game",bg:"#9FE1CB",tc:"#04342C",d:"1994\u2013",desc:"Blizzard\u2019s real-time strategy (1994) and World of Warcraft MMORPG (2004). WoW peaked at 12M subscribers\u2014a defining social phenomenon of the 2000s.",wiki:"Warcraft"},
+/* ── Politics ── */
+"French Revolution":{t:"Historical Event",bg:"#e24b4a",tc:"#fff",d:"1789\u20131799",desc:"The French Revolution overthrew the monarchy and established the First Republic. It directly inspired Neoclassical history painting (David\u2019s The Tennis Court Oath) and Romantic art (Delacroix\u2019s Liberty Leading the People, 1830).",wiki:"French_Revolution"},
+"Napoleon":{t:"Political Period",bg:"#cc8888",tc:"#501313",d:"1799\u20131815",desc:"The Napoleonic era spread Enlightenment values and the Neoclassical aesthetic across Europe. David was Napoleon\u2019s court painter; the Empire style dominated European decorative arts.",wiki:"Napoleon"},
+"World War I":{t:"Historical Event",bg:"#e24b4a",tc:"#fff",d:"1914\u20131918",desc:"The Great War killed 17\u201320M people. Its industrial-scale horror directly fueled Dada\u2019s anti-rational revolt in Zurich (1916) and Expressionism\u2019s anguished imagery.",wiki:"World_War_I"},
+"World War II":{t:"Historical Event",bg:"#e24b4a",tc:"#fff",d:"1939\u20131945",desc:"The deadliest conflict in history. Accelerated computing (Turing, ENIAC) and triggered the Cold War. The Holocaust became a defining ethical horizon for postwar art and philosophy.",wiki:"World_War_II"},
+"Cold War":{t:"Political Period",bg:"#cc8888",tc:"#501313",d:"1947\u20131991",desc:"USA\u2013USSR geopolitical tension. Drove the Space Race, the nuclear arms race, and ARPANET. The CIA covertly funded Abstract Expressionism abroad as a symbol of American freedom.",wiki:"Cold_War"},
+"Vietnam War":{t:"Historical Event",bg:"#e24b4a",tc:"#fff",d:"1955\u20131975",desc:"The anti-war movement became the defining force of American counterculture, fueling protest art, performance art, and the political art of the 1960s\u201370s.",wiki:"Vietnam_War"},
+"Soviet-Afghanistan":{t:"Historical Event",bg:"#e24b4a",tc:"#fff",d:"1979\u20131989",desc:"Soviet invasion of Afghanistan (1979\u20131989). CIA support for the mujahideen hastened the USSR\u2019s collapse and sowed the conditions for 9/11.",wiki:"Soviet\u2013Afghan_War"},
+"Rwanda":{t:"Historical Event",bg:"#e24b4a",tc:"#fff",d:"1994",desc:"The Rwandan genocide killed approximately 800,000 Tutsi and moderate Hutu in 100 days (April\u2013July 1994). Radio broadcast incitement became a landmark case in media ethics.",wiki:"Rwandan_genocide"},
+"9/11":{t:"Historical Event",bg:"#ddcc00",tc:"#555",d:"2001",desc:"The September 11, 2001 attacks killed 2,977 people. Triggered the War on Terror, invasions of Afghanistan and Iraq, and the surveillance state\u2014reshaping political and tactical media art.",wiki:"September_11_attacks"},
+"Iraq War":{t:"Historical Event",bg:"#e24b4a",tc:"#fff",d:"2003\u20132011",desc:"US-led invasion of Iraq (March 2003) based on disputed WMD intelligence. Inspired a wave of anti-war art and became the backdrop for embedded media and military aesthetics debates.",wiki:"Iraq_War"},
+"Great Leap Forward":{t:"Historical Event",bg:"#e24b4a",tc:"#fff",d:"1958\u20131962",desc:"Mao Zedong\u2019s campaign to transform China from agrarian to socialist industrial society resulted in the Great Chinese Famine\u2014estimated 15\u201355M deaths.",wiki:"Great_Leap_Forward"},
+"Berlin Wall Falls":{t:"Historical Event",bg:"#6dbd8e",tc:"#04342C",d:"1989",desc:"The Berlin Wall fell November 9, 1989\u2014the defining moment of the Cold War\u2019s end. Signaled the imminent collapse of the Soviet Union and the expansion of Western liberal capitalism.",wiki:"Fall_of_the_Berlin_Wall"},
+/* ── Science ── */
+"Quantum Theory":{t:"Science",bg:"#ffc0cb",tc:"#4B1528",d:"1900\u20131930s",desc:"Max Planck introduced quantum theory (1900); Bohr, Heisenberg, and Schr\xf6dinger established quantum mechanics (1920s). Challenged classical determinism and influenced Dada\u2019s embrace of chance and indeterminacy.",wiki:"Quantum_mechanics"},
+"Theory of Relativity":{t:"Science",bg:"#ffc0cb",tc:"#4B1528",d:"1905\u20131916",desc:"Einstein\u2019s special theory (1905) established E=mc\xb2 and the relativity of time. General theory (1916) described gravity as spacetime curvature. Transformed popular understanding of absolute vs. relative truth.",wiki:"Theory_of_relativity"},
+"Computer Invented":{t:"Science",bg:"#ffc0cb",tc:"#4B1528",d:"1943\u20131950s",desc:"Colossus (1943) broke Nazi codes; ENIAC (1945) was the first general-purpose electronic computer. The stored-program computer (von Neumann, 1945) established the architecture underlying all computing.",wiki:"History_of_computing_hardware"},
+"DNA Structure":{t:"Science",bg:"#ffc0cb",tc:"#4B1528",d:"1953",desc:"Watson and Crick\u2019s double helix model (April 25, 1953), built on Rosalind Franklin\u2019s X-ray crystallography, launched molecular biology. It underpins Bio Art and genetic engineering in art.",wiki:"Nucleic_acid_double_helix"},
+"Man in Space":{t:"Science",bg:"#ffc0cb",tc:"#4B1528",d:"1961",desc:"Yuri Gagarin became the first human in space on April 12, 1961\u2014a defining Cold War moment. The Space Race drove both military and civilian technological imagination.",wiki:"Vostok_1"},
+"Moon Landing":{t:"Science",bg:"#ffc0cb",tc:"#4B1528",d:"1969",desc:"Apollo 11 landed Neil Armstrong and Buzz Aldrin on the Moon on July 20, 1969. Watched live by 600M people. Transformed cosmic imagery in art and popular culture.",wiki:"Apollo_11"},
+"Chaos Theory":{t:"Science",bg:"#ffc0cb",tc:"#4B1528",d:"1963\u2013",desc:"Developed from Edward Lorenz\u2019s weather modelling (1963). Studies complex systems sensitive to initial conditions (\u2018butterfly effect\u2019). Influenced Generative Art and complexity-based aesthetics.",wiki:"Chaos_theory"},
+"Rise of Popular Science":{t:"Cultural Movement",bg:"#a8d8bc",tc:"#085041",d:"1960s\u2013",desc:"Mass popularization of science through television (Carl Sagan\u2019s Cosmos, 1980), popular books, and science museums. Blurred boundaries between scientific and cultural authority.",wiki:"Popular_science"},
+/* ── Early movement artists ── */
+"Jacques-Louis David":{t:"Artist",bg:"#e8dcc8",tc:"#5a4200",d:"1748\u20131825",desc:"French Neoclassical painter and leading political artist of the French Revolution. The Oath of the Horatii (1784) and The Death of Marat (1793) fused moral rigour with republican idealism. Napoleon\u2019s official painter.",wiki:"Jacques-Louis_David"},
+"Antonio Canova":{t:"Sculptor",bg:"#e8dcc8",tc:"#5a4200",d:"1757\u20131822",desc:"Italian Neoclassical sculptor, the dominant European sculptor of his era. Psyche Revived by Cupid\u2019s Kiss (1793) embodied idealized classical beauty. Napoleon, the Habsburgs, and the Borgese all commissioned him.",wiki:"Antonio_Canova"},
+"Jean-Auguste-Dominique Ingres":{t:"Artist",bg:"#e8dcc8",tc:"#5a4200",d:"1780\u20131867",desc:"French Neoclassical painter known for precise draughtsmanship and luminous surfaces. La Grande Odalisque (1814) combined classical idealism with orientalist fantasy. Championed line over colour in the great Romanticism vs. Classicism debate.",wiki:"Jean-Auguste-Dominique_Ingres"},
+"John Flaxman":{t:"Sculptor / Illustrator",bg:"#e8dcc8",tc:"#5a4200",d:"1755\u20131826",desc:"British Neoclassical sculptor and draughtsman. His outline illustrations to Homer, Dante, and Hesiod, widely circulated across Europe, defined the graphic style of Neoclassicism.",wiki:"John_Flaxman"},
+"Francisco Goya":{t:"Artist",bg:"#f5c4b3",tc:"#712B13",d:"1746\u20131828",desc:"Spanish painter and printmaker who witnessed the Enlightenment, the French Revolution, and the Napoleonic wars. The Third of May 1808 and his Black Paintings explored violence, irrationality, and the dark side of modernity.",wiki:"Francisco_Goya"},
+"William Blake":{t:"Artist / Poet",bg:"#f5c4b3",tc:"#712B13",d:"1757\u20131827",desc:"English Romantic poet, painter, and printmaker whose visionary works combined text and image in hand-illuminated books. The Ancient of Days (1794) and his illuminated Songs of Innocence and Experience are among the most original artworks in English history.",wiki:"William_Blake"},
+"Caspar David Friedrich":{t:"Artist",bg:"#f5c4b3",tc:"#712B13",d:"1774\u20131840",desc:"German Romantic painter of lonely figures in vast sublime landscapes. Wanderer above the Sea of Fog (1818) became the defining image of Romantic individualism. Revived by the Expressionists and later Postmodern painters.",wiki:"Caspar_David_Friedrich"},
+"J.M.W. Turner":{t:"Artist",bg:"#f5c4b3",tc:"#712B13",d:"1775\u20131851",desc:"British Romantic painter who pushed atmospheric effects of light, colour, and weather to an almost abstract extreme. Rain, Steam and Speed (1844) is seen as a proto-Impressionist work. Hugely influential on Monet.",wiki:"J._M._W._Turner"},
+"Eug\xe8ne Delacroix":{t:"Artist",bg:"#f5c4b3",tc:"#712B13",d:"1798\u20131863",desc:"French Romantic painter and leader of the Romantic movement. Liberty Leading the People (1830) fused political allegory with raw painterly energy. His use of pure colour directly influenced the Impressionists.",wiki:"Eug\xe8ne_Delacroix"},
+"Gustave Courbet":{t:"Artist",bg:"#d4e8c8",tc:"#27500A",d:"1819\u20131877",desc:"French founder of Realism. The Stone Breakers (1849) and A Burial at Ornans (1850) depicted ordinary working-class subjects at monumental scale\u2014a scandalous rejection of academic idealism. Refused the L\xe9gion d\u2019honneur.",wiki:"Gustave_Courbet"},
+"Honor\xe9 Daumier":{t:"Artist / Caricaturist",bg:"#d4e8c8",tc:"#27500A",d:"1808\u20131879",desc:"French printmaker, caricaturist, and painter. His lithographs in Le Charivari savagely lampooned bourgeois and political life. Gargantua (1831) earned him six months in jail. Balzac called him \u2018a Michelangelo of caricature.\u2019",wiki:"Honor\xe9_Daumier"},
+"\xc9douard Manet":{t:"Artist",bg:"#d4e8c8",tc:"#27500A",d:"1832\u20131883",desc:"French painter whose Le D\xe9jeuner sur l\u2019herbe (1863) and Olympia (1865) challenged academic convention with flat colour and confrontational modern subjects. A crucial bridge between Realism and Impressionism.",wiki:"\xc9douard_Manet"},
+"Jean-Fran\xe7ois Millet":{t:"Artist",bg:"#d4e8c8",tc:"#27500A",d:"1814\u20131875",desc:"French Realist painter of peasant subjects. The Gleaners (1857) and The Angelus (1859) dignified agricultural labour. He influenced Van Gogh, who made copies of his works.",wiki:"Jean-Fran\xe7ois_Millet"},
+"Claude Monet":{t:"Artist",bg:"#ffc0cb",tc:"#4B1528",d:"1840\u20131926",desc:"French founder of Impressionism. Impression, Sunrise (1872) gave the movement its name. His serial paintings of haystacks, Rouen Cathedral, and Water Lilies systematically analysed changing light. The Nympheas at the Orangerie remain among the most immersive environments in art.",wiki:"Claude_Monet"},
+"Pierre-Auguste Renoir":{t:"Artist",bg:"#ffc0cb",tc:"#4B1528",d:"1841\u20131919",desc:"French Impressionist painter of pleasure, light, and the human figure. Dance at Le Moulin de la Galette (1876) captures bourgeois Paris leisure with unmatched warmth and colour.",wiki:"Pierre-Auguste_Renoir"},
+"Edgar Degas":{t:"Artist",bg:"#ffc0cb",tc:"#4B1528",d:"1834\u20131917",desc:"French Impressionist known for ballet dancers, racehorses, and cafe scenes. He pioneered radically cropped compositions influenced by photography and Japanese prints. His late pastels pushed colour to explosive intensity.",wiki:"Edgar_Degas"},
+"Paul C\xe9zanne":{t:"Artist",bg:"#ffc0cb",tc:"#4B1528",d:"1839\u20131906",desc:"French Post-Impressionist painter who used geometric simplification and multiple simultaneous viewpoints to analyse structure beneath surface appearance. The father of modern art\u2014his Bathers directly led Picasso and Braque to Cubism.",wiki:"Paul_C\xe9zanne"},
+"Vincent van Gogh":{t:"Artist",bg:"#ffc0cb",tc:"#4B1528",d:"1853\u20131890",desc:"Dutch Post-Impressionist who used swirling brushstrokes and vivid colour to express emotional intensity. The Starry Night (1889), Sunflowers, and his 900 paintings in ten years made him the most reproduced artist in history. Died by suicide at 37.",wiki:"Vincent_van_Gogh"},
+"Gustav Klimt":{t:"Artist",bg:"#c8b5f0",tc:"#26215C",d:"1862\u20131918",desc:"Austrian Symbolist painter and leader of the Vienna Secession. The Kiss (1907\u201308) and his gold-leaf portrait cycle fused Byzantine decoration with Freudian symbolism and fin-de-si\xe8cle eroticism.",wiki:"Gustav_Klimt"},
+"Edvard Munch":{t:"Artist",bg:"#c8b5f0",tc:"#26215C",d:"1863\u20131944",desc:"Norwegian Symbolist and Expressionist. The Scream (1893) is among the most recognised images in Western art\u2014a primal depiction of existential anxiety that prefigured Expressionism.",wiki:"Edvard_Munch"},
+"Odilon Redon":{t:"Artist",bg:"#c8b5f0",tc:"#26215C",d:"1840\u20131916",desc:"French Symbolist artist whose dreamlike pastels and prints combined botanical observation with fantasy. His floating eyes and enigmatic flowers inhabited a world between waking and dreaming, prefiguring Surrealism.",wiki:"Odilon_Redon"},
+/* ── Newly clickable names ── */
+"Ai Weiwei":{t:"Artist",bg:"#b5d4f4",tc:"#0C447C",d:"1957\u2013",desc:"Chinese contemporary artist and activist. Sunflower Seeds (2010, Tate Turbine Hall) used 100 million hand-painted porcelain seeds to examine mass production and individuality. His arrest and detention by the Chinese government in 2011 galvanized global attention.",wiki:"Ai_Weiwei"},
+"Kara Walker":{t:"Artist",bg:"#b5d4f4",tc:"#0C447C",d:"1969\u2013",desc:"American artist known for large-scale black paper silhouettes examining race, gender, and American history. A Subtlety (2014)\u2014a giant sugar sphinx installed in a Brooklyn sugar refinery\u2014was among the most discussed public artworks of the decade.",wiki:"Kara_Walker"},
+"Olafur Eliasson":{t:"Artist",bg:"#b5d4f4",tc:"#0C447C",d:"1967\u2013",desc:"Danish-Icelandic artist who creates large-scale environmental installations exploring perception, light, and climate. The Weather Project (2003) filled Tate\u2019s Turbine Hall with artificial sun and mist\u2014over 2 million visitors.",wiki:"Olafur_Eliasson"},
+"jodi.org":{t:"Net Art Collective",bg:"#378ADD",tc:"#E6F1FB",d:"1994\u2013",desc:"Belgian-Dutch duo Joan Heemskerk and Dirk Paesmans. Their website jodi.org (1994) appeared broken and chaotic\u2014deliberately corrupted HTML and ASCII\u2014becoming the definitive early net.art provocation about the aesthetics of digital error.",wiki:"Jodi_(art_collective)"},
+"Olia Lialina":{t:"Net Artist",bg:"#378ADD",tc:"#E6F1FB",d:"1971\u2013",desc:"Russian net artist and theorist. My Boyfriend Came Back from the War (1996) was one of the first narrative web art works. Her ongoing project Turing Complete User argues for recognising the human behind the computer interface.",wiki:"Olia_Lialina"},
+"TAKI 183":{t:"Graffiti Pioneer",bg:"#f5c4b3",tc:"#712B13",d:"c.1969\u2013",desc:"Greek-American teenager (real name Demetrius) whose tags across New York City in 1969\u201371 triggered the graffiti writing movement. A 1971 New York Times profile made him the first graffiti writer to receive mainstream media coverage.",wiki:"TAKI_183"},
+"Jean-Michel Basquiat":{t:"Artist",bg:"#f5c4b3",tc:"#712B13",d:"1960\u20131988",desc:"American artist who rose from New York street graffiti (SAMO\u00a9) to the international art world. His neo-expressionist paintings combined text, symbols, and imagery to address race, anatomy, and capitalism. He died of a heroin overdose at 27.",wiki:"Jean-Michel_Basquiat"},
+"Keith Haring":{t:"Artist",bg:"#f5c4b3",tc:"#712B13",d:"1958\u20131990",desc:"American artist whose bold graphic style\u2014radiant baby, barking dog, dancing figures\u2014moved from New York subway chalk drawings to global brand. His Pop Shop and AIDS activism collapsed art-world and street-culture hierarchies.",wiki:"Keith_Haring"},
+"Sherrie Levine":{t:"Artist",bg:"#85b7eb",tc:"#042C53",d:"1947\u2013",desc:"American appropriation artist. After Walker Evans (1981)\u2014rephotographing Walker Evans\u2019s iconic FSA photographs\u2014challenged authorship, originality, and the commodity status of art. Central figure of the Pictures Generation.",wiki:"Sherrie_Levine"},
+"Cindy Sherman":{t:"Artist",bg:"#85b7eb",tc:"#042C53",d:"1954\u2013",desc:"American photographer known for Untitled Film Stills (1977\u201380): 69 black-and-white photographs in which she staged herself as fictional female stereotypes drawn from B-movies. Exposed how media constructs femininity.",wiki:"Cindy_Sherman"},
+"Barbara Kruger":{t:"Artist",bg:"#85b7eb",tc:"#042C53",d:"1945\u2013",desc:"American conceptual artist. Text-and-image works (Your Body Is a Battleground, 1989; I Shop Therefore I Am) collage advertising aesthetics with feminist and political critique. Her work has been widely appropriated back into commercial culture.",wiki:"Barbara_Kruger"},
+"Richard Prince":{t:"Artist",bg:"#85b7eb",tc:"#042C53",d:"1949\u2013",desc:"American appropriation artist. Rephotographed Marlboro cigarette advertisements (Cowboys series, 1977\u201384), questioning originality and the mythology of American masculinity. His Instagram appropriation works reignited copyright debates.",wiki:"Richard_Prince"},
+/* ── Expressionism / Cubism / Dada / Surrealism artists ── */
+"Ernst Ludwig Kirchner":{t:"Artist",bg:"#f4a58a",tc:"#712B13",d:"1880\u20131938",desc:"German Expressionist and co-founder of Die Br\xfccke (1905). His jagged, anxiety-ridden street scenes and nudes pushed emotional distortion toward abstraction. Destroyed many works and took his own life after the Nazis declared his art \u2018degenerate.\u2019",wiki:"Ernst_Ludwig_Kirchner"},
+"Wassily Kandinsky":{t:"Artist",bg:"#f4a58a",tc:"#712B13",d:"1866\u20131944",desc:"Russian-German painter widely credited as the pioneer of pure abstraction. Composition VII (1913) abandoned representation entirely. His theoretical writings (Concerning the Spiritual in Art, 1911) became the manifesto of abstract art.",wiki:"Wassily_Kandinsky"},
+"Emil Nolde":{t:"Artist",bg:"#f4a58a",tc:"#712B13",d:"1867\u20131956",desc:"German-Danish Expressionist known for intensely saturated watercolours and religious paintings. His work was deemed degenerate by the Nazis; he was forbidden to paint but continued secretly with small watercolour \u2018Unpainted Pictures.\u2019",wiki:"Emil_Nolde"},
+"Georges Braque":{t:"Artist",bg:"#ddd",tc:"#333",d:"1882\u20131963",desc:"French painter who co-developed Analytic Cubism with Picasso (1908\u201314). His Houses at l\u2019Estaque (1908) so shocked Matisse that it triggered the term \u2018cubes.\u2019 He developed collage (papier coll\xe9) as an independent art form.",wiki:"Georges_Braque"},
+"Juan Gris":{t:"Artist",bg:"#ddd",tc:"#333",d:"1887\u20131927",desc:"Spanish Cubist painter based in Paris. Developed Synthetic Cubism\u2014using flat planes of colour and newspaper collage\u2014into rigorous, crystalline compositions. Gertrude Stein called him \u2018the real Cubist.\u2019",wiki:"Juan_Gris"},
+"Umberto Boccioni":{t:"Artist",bg:"#f4a58a",tc:"#712B13",d:"1882\u20131916",desc:"Italian Futurist painter and sculptor. States of Mind (1911) and The City Rises (1910) translated the sensation of speed and simultaneity into paint. His Technical Manifesto of Futurist Sculpture (1912) influenced 20th-century sculpture.",wiki:"Umberto_Boccioni"},
+"Giacomo Balla":{t:"Artist",bg:"#f4a58a",tc:"#712B13",d:"1871\u20131958",desc:"Italian Futurist painter. Dynamism of a Dog on a Leash (1912) captured motion through multiple overlapping positions\u2014a direct influence of chronophotography. Later developed pure abstract \u2018iridescent interpenetrations.\u2019",wiki:"Giacomo_Balla"},
+"Marcel Duchamp":{t:"Artist",bg:"#c8b5f0",tc:"#26215C",d:"1887\u20131968",desc:"French-American artist whose readymades (Fountain, 1917\u2014a urinal submitted as sculpture) remain the most radical gestures in art history. He effectively invented Conceptual Art fifty years before the term existed.",wiki:"Marcel_Duchamp"},
+"Hannah H\xf6ch":{t:"Artist",bg:"#c8b5f0",tc:"#26215C",d:"1889\u20131978",desc:"German Dada artist who pioneered photomontage as political critique. Cut with the Kitchen Knife Dada (1919\u201320) assembled mass-media imagery into a savage commentary on the Weimar Republic. The only woman in the Berlin Dada group.",wiki:"Hannah_H\xf6ch"},
+"Alexander Rodchenko":{t:"Artist",bg:"#f4a58a",tc:"#712B13",d:"1891\u20131956",desc:"Russian Constructivist painter, sculptor, and photographer. Pure Red Colour, Pure Yellow Colour, Pure Blue Colour (1921) declared painting dead and the start of functional design. His posters and typography defined Soviet graphic design.",wiki:"Alexander_Rodchenko"},
+"El Lissitzky":{t:"Artist / Designer",bg:"#f4a58a",tc:"#712B13",d:"1890\u20131941",desc:"Russian Constructivist artist and designer. His Proun series merged architecture, painting, and graphic design. His exhibition designs (1923\u201328) transformed how art was displayed in space.",wiki:"El_Lissitzky"},
+"Max Ernst":{t:"Artist",bg:"#dbb9f5",tc:"#26215C",d:"1891\u20131976",desc:"German Surrealist who invented frottage, grattage, and decalcomania as techniques for accessing unconscious imagery. The Elephant Celebes (1921) and Europe After the Rain II (1940\u201342) are among Surrealism\u2019s defining works.",wiki:"Max_Ernst"},
+"Ren\xe9 Magritte":{t:"Artist",bg:"#dbb9f5",tc:"#26215C",d:"1898\u20131967",desc:"Belgian Surrealist whose hyper-realistic paintings placed familiar objects in uncanny juxtapositions. The Treachery of Images (\u2018Ceci n\u2019est pas une pipe,\u2019 1929) and The Son of Man (1964) became some of the most reproduced images in art history.",wiki:"Ren\xe9_Magritte"},
+"Frida Kahlo":{t:"Artist",bg:"#dbb9f5",tc:"#26215C",d:"1907\u20131954",desc:"Mexican painter whose intensely personal self-portraits fused folk art, Surrealism, and political symbolism. The Two Fridas (1939) and her diary paintings explored identity, pain, and the body. Reclaimed by feminist art history in the 1970s\u201380s.",wiki:"Frida_Kahlo"},
+/* ── Post-Impressionism ── */
+"Post-Impressionism":{t:"Art Movement",bg:"#f2c8e0",tc:"#712B13",d:"1886\u20131910",desc:"Umbrella term for artists who built on Impressionism while moving beyond it. C\xe9zanne sought underlying structure, Gauguin pursued symbolic expression, Seurat applied colour scientifically via Pointillism, and Van Gogh channelled raw emotion through gesture. Their innovations became the direct foundation of 20th-century modernism.",wiki:"Post-Impressionism"},
+"Paul Gauguin":{t:"Artist",bg:"#f2c8e0",tc:"#712B13",d:"1848\u20131903",desc:"French Post-Impressionist painter who abandoned European civilisation for Tahiti. His bold flat colour, thick contours, and symbolic primitivism (Where Do We Come From? What Are We? Where Are We Going?, 1897) laid foundations for Expressionism and Fauvism.",wiki:"Paul_Gauguin"},
+"Georges Seurat":{t:"Artist",bg:"#f2c8e0",tc:"#712B13",d:"1859\u20131891",desc:"French Post-Impressionist inventor of Pointillism (Divisionism)\u2014dots of pure colour that blend optically at a distance. A Sunday on La Grande Jatte (1886) is among the most analysed paintings in history. He died at 31, leaving only seven major canvases.",wiki:"Georges_Seurat"},
+"Henri de Toulouse-Lautrec":{t:"Artist",bg:"#f2c8e0",tc:"#712B13",d:"1864\u20131901",desc:"French Post-Impressionist who captured Parisian nightlife\u2014the Moulin Rouge, cabarets, brothels\u2014in bold graphic posters and intimate oil paintings. His lithograph poster art revolutionised graphic design and directly influenced 20th-century commercial art.",wiki:"Henri_de_Toulouse-Lautrec"},
+/* ── Abstract Expressionism artists ── */
+"Willem de Kooning":{t:"Artist",bg:"#f0997b",tc:"#4A1B0C",d:"1904\u20131997",desc:"Dutch-American painter central to Abstract Expressionism. His Women series (1950\u201353) combined gestural abstraction with fragmented figuration, shocking critics with its raw energy. With Pollock, he defined the New York School.",wiki:"Willem_de_Kooning"},
+"Mark Rothko":{t:"Artist",bg:"#f0997b",tc:"#4A1B0C",d:"1903\u20131970",desc:"Latvian-American painter who developed Color Field abstraction. His large canvases of luminous hovering rectangles sought to induce profound emotional and spiritual states. The Rothko Chapel, Houston (1971) realised his vision of painting as a total spiritual environment. Died by suicide.",wiki:"Mark_Rothko"},
+"Franz Kline":{t:"Artist",bg:"#f0997b",tc:"#4A1B0C",d:"1910\u20131962",desc:"American Abstract Expressionist known for monumental black-and-white gestural paintings. His bold calligraphic strokes at architectural scale (Chief, 1950; Mahoning, 1956) were inspired by an accidental projection enlargement of his sketches.",wiki:"Franz_Kline"},
+/* ── Video Art artists ── */
+"Bill Viola":{t:"Artist",bg:"#b5d4f4",tc:"#0C447C",d:"1951\u2013",desc:"American video artist who uses slow-motion and large-scale projection to explore birth, death, and spiritual transformation. The Passions (2000\u201303) and Observance (2002) reference Old Master painting to create meditative video installations.",wiki:"Bill_Viola"},
+"Bruce Nauman":{t:"Artist",bg:"#b5d4f4",tc:"#0C447C",d:"1941\u2013",desc:"American Conceptual and video artist. Human Nature/Life Death (1983) and One Hundred Live and Die (1984) use neon text to interrogate language and existence. His studio-as-laboratory approach\u2014using the body, language, and space\u2014influenced a generation of contemporary artists.",wiki:"Bruce_Nauman"},
+/* ── Conceptual Art artists ── */
+"Joseph Kosuth":{t:"Artist",bg:"#b5d4f4",tc:"#0C447C",d:"1945\u2013",desc:"American Conceptual artist. One and Three Chairs (1965)\u2014a physical chair, a photograph of it, and a dictionary definition\u2014is the canonical work of Conceptual Art. His essay Art After Philosophy (1969) argued art had superseded philosophy.",wiki:"Joseph_Kosuth"},
+"Hans Haacke":{t:"Artist",bg:"#b5d4f4",tc:"#0C447C",d:"1936\u2013",desc:"German-American Conceptual artist and pioneer of institutional critique. His works expose art-world complicity with corporate and political power. Shapolsky et al. Manhattan Real Estate Holdings (1971) caused the Guggenheim to cancel his exhibition.",wiki:"Hans_Haacke"},
+"Marcel Broodthaers":{t:"Artist",bg:"#b5d4f4",tc:"#0C447C",d:"1924\u20131976",desc:"Belgian Conceptual artist and poet. His fictional Mus\xe9e d\u2019Art Moderne, D\xe9partement des Aigles (1968\u201372)\u2014a self-declared museum operating in twelve sections across Europe\u2014satirised institutional authority and the sign-systems of art.",wiki:"Marcel_Broodthaers"}
+};
+
+/* ─── Tooltip engine ─── */
+const tt=document.getElementById('tt');
+const ttImg=document.getElementById('tt-img');
+const ttPh=document.getElementById('tt-ph');
+const ttName=document.getElementById('tt-name');
+const ttType=document.getElementById('tt-type');
+const ttDates=document.getElementById('tt-dates');
+const ttDesc=document.getElementById('tt-desc');
+const ttWiki=document.getElementById('tt-wiki');
+const ttGoog=document.getElementById('tt-goog');
+const ttYt=document.getElementById('tt-yt');
+let hideTimer=null;
+const imgCache={};
+
+function fetchImg(wikiTitle,cb){
+  if(imgCache[wikiTitle]!==undefined){cb(imgCache[wikiTitle]);return;}
+  fetch('https://en.wikipedia.org/api/rest_v1/page/summary/'+encodeURIComponent(wikiTitle))
+    .then(r=>r.json())
+    .then(d=>{const s=d&&d.thumbnail&&d.thumbnail.source?d.thumbnail.source:null;imgCache[wikiTitle]=s;cb(s);})
+    .catch(()=>{imgCache[wikiTitle]=null;cb(null);});
+}
+
+function positionTT(el){
+  const rect=el.getBoundingClientRect();
+  const ttW=270;
+  const ttH=tt.offsetHeight||260;
+  let top=rect.top-ttH-10;
+  let left=rect.left;
+  if(top<8)top=rect.bottom+8;           /* fallback: show below if not enough space above */
+  if(left+ttW>window.innerWidth-8)left=window.innerWidth-ttW-10;
+  if(left<8)left=8;
+  tt.style.top=top+'px';
+  tt.style.left=left+'px';
+}
+
+function showTT(el,key){
+  const d=D[key];if(!d)return;
+  clearTimeout(hideTimer);
+  const wikiKey=d.wiki||key.replace(/ /g,'_');
+  const wu='https://en.wikipedia.org/wiki/'+wikiKey;
+  ttName.textContent=key;
+  ttType.textContent=d.t;
+  ttType.style.background=d.bg;
+  ttType.style.color=d.tc;
+  ttDates.textContent=d.d||'';
+  ttDesc.textContent=d.desc||'';
+  ttWiki.href=wu;
+  ttGoog.href='https://www.google.com/search?q='+encodeURIComponent(key);
+  ttYt.href='https://www.youtube.com/results?search_query='+encodeURIComponent(key);
+  ttImg.style.display='none';
+  ttPh.style.display='flex';
+  ttPh.querySelector('span').textContent='loading\u2026';
+  tt.style.display='block';
+  positionTT(el);
+  fetchImg(wikiKey,function(src){
+    if(src){
+      ttImg.onload=function(){ttPh.style.display='none';ttImg.style.display='block';positionTT(el);};
+      ttImg.onerror=function(){ttPh.querySelector('span').textContent='no image';};
+      ttImg.src=src;
+    } else {
+      ttPh.querySelector('span').textContent='no image available';
+    }
+  });
+}
+
+/* ── Relationship map for dashed connection lines ── */
+const RELS={
+  "Immanuel Kant":["Neoclassicism","Romanticism","G.W.F. Hegel"],
+  "G.W.F. Hegel":["Neoclassicism","Immanuel Kant"],
+  "Arthur Schopenhauer":["Romanticism","Friedrich Nietzsche","Surrealism"],
+  "Friedrich Nietzsche":["Expressionism","Dada","Arthur Schopenhauer"],
+  "Sigmund Freud":["Surrealism","C.G. Jung","Jacques Lacan"],
+  "Ferdinand de Saussure":["Roland Barthes","L\xe9vi-Strauss","Conceptual Art"],
+  "C.G. Jung":["Surrealism","Abstract Expressionism","Sigmund Freud"],
+  "Martin Heidegger":["Conceptual Art","Performance Art"],
+  "Roland Barthes":["Pop Art","Conceptual Art","Postmodernism","Ferdinand de Saussure"],
+  "L\xe9vi-Strauss":["Conceptual Art","Ferdinand de Saussure"],
+  "Jacques Lacan":["Surrealism","Video Art","Sigmund Freud"],
+  "Michel Foucault":["Conceptual Art","Postmodernism","Contemporary Conceptual Art"],
+  "Noam Chomsky":["Conceptual Art"],
+  "Jean Baudrillard":["Postmodernism","Internet Art / Cyberculture Art","Pop Art"],
+  "Alain Badiou":["Contemporary Conceptual Art"],
+  "Nick Land":["Internet Art / Cyberculture Art","Hacking (Exploratory)","Algorithmic Art"],
+  "Walter Benjamin":["Postmodernism","Video Art","Dada"],
+  "Marshal McLuhan":["Video Art","Cybernetic Art","Pop Art"],
+  "Clement Greenberg":["Abstract Expressionism","Minimalism"],
+  "Neoclassicism":["Immanuel Kant","G.W.F. Hegel","French Revolution","Napoleon","Romanticism"],
+  "Romanticism":["Arthur Schopenhauer","Immanuel Kant","Neoclassicism","Realism"],
+  "Realism":["Impressionism","Post-Impressionism"],
+  "Impressionism":["Realism","Post-Impressionism","Paul C\xe9zanne","Vincent van Gogh"],
+  "Symbolism":["Surrealism","Expressionism","Post-Impressionism"],
+  "Expressionism":["Friedrich Nietzsche","Cubism","Dada","Post-Impressionism","Symbolism"],
+  "Cubism":["Expressionism","Pablo Picasso","Futurism"],
+  "Futurism":["Cubism","Russian Constructivism"],
+  "Dada":["Friedrich Nietzsche","Surrealism","Walter Benjamin"],
+  "Russian Constructivism":["Futurism","Conceptual Art"],
+  "Surrealism":["Sigmund Freud","C.G. Jung","Jacques Lacan","Andr\xe9 Breton","Salvador Dal\xed","Abstract Expressionism","Pop Surrealism"],
+  "Abstract Expressionism":["C.G. Jung","Jackson Pollock","Surrealism","Minimalism"],
+  "Pop Art":["Jean Baudrillard","Roland Barthes","Andy Warhol","Jasper Johns","Postmodernism"],
+  "Minimalism":["Conceptual Art","Frank Stella","Sol LeWitt","Richard Serra","Abstract Expressionism"],
+  "Conceptual Art":["Roland Barthes","Michel Foucault","Ferdinand de Saussure","Joseph Beuys","Sol LeWitt","Minimalism"],
+  "Performance Art":["Joseph Beuys","Stelarc","Conceptual Art"],
+  "Earth Art":["Robert Smithson","Conceptual Art"],
+  "Postmodernism":["Jean Baudrillard","Roland Barthes","Michel Foucault","Pop Art","Internet Art / Cyberculture Art"],
+  "Graffiti":["Lowbrow","Jean-Michel Basquiat"],
+  "Lowbrow":["Graffiti","Pop Surrealism","Robert Williams"],
+  "Pop Surrealism":["Lowbrow","Mark Ryden","Surrealism"],
+  "Cybernetic Art":["Marshal McLuhan","Video Art","Algorithmic Art","Nam June Paik"],
+  "Video Art":["Marshal McLuhan","Nam June Paik","Cybernetic Art","Jacques Lacan"],
+  "Algorithmic Art":["Generative Art","Cybernetic Art","Harold Cohen (AARON)","Nick Land"],
+  "Generative Art":["Algorithmic Art","Organic Art / Artificial Life","Karl Sims"],
+  "Organic Art / Artificial Life":["Generative Art","Eduardo Kac"],
+  "Hacking (Exploratory)":["Hacktivist Art","Internet Art / Cyberculture Art","Nick Land"],
+  "Hacktivist Art":["Internet Art / Cyberculture Art","Tactical Media","Hacking (Exploratory)"],
+  "Tactical Media":["Internet Art / Cyberculture Art","Hacktivist Art","Paul Virilio"],
+  "Internet Art / Cyberculture Art":["Jean Baudrillard","Nick Land","Josh On","Hacktivist Art","Tactical Media","jodi.org","Olia Lialina"],
+  "Post-Modern Sculpture":["Postmodernism","Jeff Koons","Damien Hirst"],
+  "Contemporary Conceptual Art":["Michel Foucault","Ai Weiwei","Kara Walker","Postmodernism"],
+  "Zombie Formalism":["Postmodernism","Contemporary Conceptual Art"],
+  "Jackson Pollock":["Abstract Expressionism"],
+  "Andy Warhol":["Pop Art"],
+  "Jasper Johns":["Pop Art","Minimalism"],
+  "Claes Oldenburg":["Pop Art","Performance Art"],
+  "Frank Stella":["Minimalism","Abstract Expressionism"],
+  "Sol LeWitt":["Minimalism","Conceptual Art"],
+  "Richard Serra":["Minimalism","Earth Art"],
+  "Joseph Beuys":["Conceptual Art","Performance Art"],
+  "Nam June Paik":["Video Art","Cybernetic Art"],
+  "Stelarc":["Performance Art","Cybernetic Art"],
+  "Robert Smithson":["Earth Art"],
+  "Harold Cohen (AARON)":["Algorithmic Art"],
+  "Karl Sims":["Generative Art"],
+  "Eduardo Kac":["Organic Art / Artificial Life"],
+  "Josh On":["Internet Art / Cyberculture Art"],
+  "jodi.org":["Internet Art / Cyberculture Art","Hacktivist Art"],
+  "Olia Lialina":["Internet Art / Cyberculture Art"],
+  "Jeff Koons":["Post-Modern Sculpture","Pop Art"],
+  "Damien Hirst":["Post-Modern Sculpture","Contemporary Conceptual Art"],
+  "Mark Ryden":["Pop Surrealism","Lowbrow"],
+  "Robert Williams":["Lowbrow","Pop Surrealism"],
+  "Ai Weiwei":["Contemporary Conceptual Art","Conceptual Art"],
+  "Kara Walker":["Contemporary Conceptual Art"],
+  "Olafur Eliasson":["Contemporary Conceptual Art"],
+  "Jean-Michel Basquiat":["Graffiti","Pop Art"],
+  "Sherrie Levine":["Postmodernism","Conceptual Art"],
+  "Cindy Sherman":["Postmodernism"],
+  "Barbara Kruger":["Postmodernism","Conceptual Art"],
+  "Richard Prince":["Postmodernism"],
+  "Salvador Dal\xed":["Surrealism"],
+  "Andr\xe9 Breton":["Surrealism"],
+  "Pablo Picasso":["Cubism"],
+  "French Revolution":["Neoclassicism","Romanticism"],
+  "Napoleon":["Neoclassicism"],
+  "Cold War":["Abstract Expressionism"],
+  "Animation (Golden Age)":["Animation (Pixar Era)"],
+  "Animation (Pixar Era)":["Animation (Golden Age)","Video Games"],
+  /* ── Early movement artists ── */
+  "Jacques-Louis David":["Neoclassicism","French Revolution"],
+  "Antonio Canova":["Neoclassicism"],
+  "Jean-Auguste-Dominique Ingres":["Neoclassicism","Romanticism"],
+  "John Flaxman":["Neoclassicism"],
+  "Francisco Goya":["Romanticism","Realism"],
+  "William Blake":["Romanticism","Symbolism"],
+  "Caspar David Friedrich":["Romanticism"],
+  "J.M.W. Turner":["Romanticism","Impressionism"],
+  "Eug\xe8ne Delacroix":["Romanticism"],
+  "Gustave Courbet":["Realism"],
+  "Honor\xe9 Daumier":["Realism"],
+  "\xc9douard Manet":["Realism","Impressionism"],
+  "Jean-Fran\xe7ois Millet":["Realism"],
+  "Claude Monet":["Impressionism"],
+  "Pierre-Auguste Renoir":["Impressionism"],
+  "Edgar Degas":["Impressionism"],
+  "Paul C\xe9zanne":["Impressionism","Post-Impressionism","Cubism"],
+  "Vincent van Gogh":["Impressionism","Post-Impressionism","Expressionism"],
+  "Paul Gauguin":["Post-Impressionism","Expressionism","Symbolism"],
+  "Georges Seurat":["Post-Impressionism","Impressionism"],
+  "Henri de Toulouse-Lautrec":["Post-Impressionism","Impressionism"],
+  "Post-Impressionism":["Impressionism","Paul Gauguin","Georges Seurat","Henri de Toulouse-Lautrec","Paul C\xe9zanne","Vincent van Gogh","Expressionism","Cubism"],
+  "Gustav Klimt":["Symbolism","Expressionism"],
+  "Edvard Munch":["Symbolism","Expressionism"],
+  "Odilon Redon":["Symbolism","Surrealism"],
+  "Henri Matisse":["Expressionism"],
+  "Ernst Ludwig Kirchner":["Expressionism"],
+  "Wassily Kandinsky":["Expressionism","Conceptual Art"],
+  "Emil Nolde":["Expressionism"],
+  "Georges Braque":["Cubism","Pablo Picasso"],
+  "Juan Gris":["Cubism"],
+  "Umberto Boccioni":["Futurism"],
+  "Giacomo Balla":["Futurism"],
+  "Marcel Duchamp":["Dada","Conceptual Art"],
+  "Hannah H\xf6ch":["Dada"],
+  "Alexander Rodchenko":["Russian Constructivism","Conceptual Art"],
+  "El Lissitzky":["Russian Constructivism"],
+  "Max Ernst":["Surrealism"],
+  "Ren\xe9 Magritte":["Surrealism"],
+  "Frida Kahlo":["Surrealism"],
+  /* ── Abstract Expressionism ── */
+  "Willem de Kooning":["Abstract Expressionism","Jackson Pollock"],
+  "Mark Rothko":["Abstract Expressionism"],
+  "Franz Kline":["Abstract Expressionism"],
+  /* ── Video Art ── */
+  "Bill Viola":["Video Art"],
+  "Bruce Nauman":["Conceptual Art","Video Art"],
+  /* ── Conceptual Art ── */
+  "Joseph Kosuth":["Conceptual Art"],
+  "Hans Haacke":["Conceptual Art","Postmodernism"],
+  "Marcel Broodthaers":["Conceptual Art"],
+};
+
+/* ── SVG connection lines ── */
+const connSvg=document.getElementById('conn-svg');
+
+function drawConnections(fromEl,key){
+  connSvg.innerHTML='';
+  const rels=RELS[key];
+  if(!rels||!rels.length)return;
+  const fr=fromEl.getBoundingClientRect();
+  const fx=fr.left+fr.width/2, fy=fr.top+fr.height/2;
+  const seen=new Set();
+  rels.forEach(rk=>{
+    document.querySelectorAll('[data-k="'+rk+'"]').forEach(toEl=>{
+      if(toEl===fromEl)return;
+      const id=rk+'__'+toEl.style.left;
+      if(seen.has(id))return; seen.add(id);
+      const tr=toEl.getBoundingClientRect();
+      const tx=tr.left+tr.width/2, ty=tr.top+tr.height/2;
+      const line=document.createElementNS('http://www.w3.org/2000/svg','line');
+      line.setAttribute('x1',fx);line.setAttribute('y1',fy);
+      line.setAttribute('x2',tx);line.setAttribute('y2',ty);
+      line.setAttribute('stroke','#b07d00');
+      line.setAttribute('stroke-width','1.5');
+      line.setAttribute('stroke-dasharray','5,4');
+      line.setAttribute('opacity','0.65');
+      connSvg.appendChild(line);
+      toEl.style.outline='1.5px dashed #b07d00';
+      toEl.style.outlineOffset='2px';
+    });
+  });
+}
+
+function clearConnections(){
+  connSvg.innerHTML='';
+  document.querySelectorAll('[data-k]').forEach(el=>{
+    el.style.outline='';el.style.outlineOffset='';
+  });
+}
+
+function startHide(){hideTimer=setTimeout(()=>{tt.style.display='none';clearConnections();},220);}
+
+document.querySelectorAll('[data-k]').forEach(el=>{
+  el.addEventListener('mouseenter',()=>{showTT(el,el.dataset.k);drawConnections(el,el.dataset.k);});
+  el.addEventListener('mouseleave',startHide);
+});
+tt.addEventListener('mouseenter',()=>clearTimeout(hideTimer));
+tt.addEventListener('mouseleave',startHide);
+</script>
+</body>
+</html>
