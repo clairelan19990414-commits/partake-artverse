@@ -82,6 +82,7 @@
 }
 .word-card:hover { box-shadow: 0 2px 16px rgba(45,140,0,0.1); }
 .word-card.user-added { border-top-color: #6a9fb5; }
+.word-card.dismissed-card { opacity: 0.45; border-top-color: #555; }
 
 
 .word-header {
@@ -596,6 +597,18 @@
 }
 .test-bank-btn:hover { background: #c87800; color: #fff; }
 .test-bank-btn.banked { background: #c87800; color: #fff; }
+.test-dismiss-btn {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  padding: 10px 16px;
+  background: transparent;
+  color: var(--text-3);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.test-dismiss-btn:hover { background: #5a2020; color: #e88; border-color: #e88; }
 
 .test-speak-btn {
   font-family: var(--mono);
@@ -820,7 +833,7 @@
     font-size: 0.72rem;
     text-align: center;
   }
-  .test-bank-btn {
+  .test-bank-btn, .test-dismiss-btn {
     flex: 1;
     min-width: 100px;
     padding: 12px 8px;
@@ -997,6 +1010,7 @@
       <div class="test-actions" id="testActions" style="display:none">
         <button class="test-next" id="testNext">Next →</button>
         <button class="test-bank-btn" id="testBankBtn">★ Bank this word</button>
+        <button class="test-dismiss-btn" id="testDismissBtn">✕ Never show again</button>
       </div>
     </div>
 
@@ -2890,12 +2904,30 @@ const ZH = {
 };
 
 let userWords = JSON.parse(localStorage.getItem('partake_vocab') || '[]');
+// One-time clear: wipe the old dismissed list so all words reappear fresh
+if (localStorage.getItem('partake_vocab_version') !== '2') {
+  localStorage.removeItem('partake_dismissed');
+  localStorage.setItem('partake_vocab_version', '2');
+}
+let dismissedIds = JSON.parse(localStorage.getItem('partake_dismissed') || '[]');
 let currentFilter = 'all';
 let currentSearch = '';
 let synth = window.speechSynthesis;
 
 function allWords() {
-  return [...SEED_WORDS, ...userWords];
+  return [...SEED_WORDS, ...userWords].filter(w => !dismissedIds.includes(w.id));
+}
+
+function dismissWord(id) {
+  if (userWords.find(u => u.id === id)) {
+    userWords = userWords.filter(w => w.id !== id);
+    localStorage.setItem('partake_vocab', JSON.stringify(userWords));
+  }
+  if (!dismissedIds.includes(id)) {
+    dismissedIds.push(id);
+    localStorage.setItem('partake_dismissed', JSON.stringify(dismissedIds));
+  }
+  renderWords();
 }
 
 function renderStats() {
@@ -2950,6 +2982,7 @@ function renderWords() {
         <div class="word-actions">
           <button class="speak-btn" title="Pronounce" onclick="speak('${w.word}')">♪</button>
           <button class="delete-btn" title="${banked ? 'Remove from bank' : 'Bank for review'}" onclick="toggleBank('${w.id}')" style="color:${banked ? '#c87800' : ''}; border-color:${banked ? '#c87800' : ''}">★</button>
+          <button class="delete-btn" title="Dismiss — I've learned this" onclick="dismissWord('${w.id}')">✕</button>
         </div>
       </div>
       <span class="word-pos ${w.pos}">${posLabel}</span>
@@ -3215,6 +3248,14 @@ document.getElementById('testBankBtn').addEventListener('click', () => {
   const btn = document.getElementById('testBankBtn');
   btn.className = 'test-bank-btn' + (isBanked(testCurrentWord.id) ? ' banked' : '');
   btn.textContent = isBanked(testCurrentWord.id) ? '★ Banked' : '★ Bank this word';
+});
+document.getElementById('testDismissBtn').addEventListener('click', () => {
+  dismissWord(testCurrentWord.id);
+  testQueue.splice(testIndex, 1);
+  if (testIndex >= testQueue.length) testIndex = testQueue.length - 1;
+  if (testQueue.length === 0) { showSummary(); return; }
+  document.getElementById('testWriteSubmit').disabled = false;
+  showQuestion();
 });
 
 document.getElementById('testDontKnow').addEventListener('click', () => {
