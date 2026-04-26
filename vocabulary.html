@@ -723,6 +723,145 @@
   color: var(--text-2);
   cursor: pointer;
 }
+
+/* ── Mobile ── */
+@media (max-width: 640px) {
+
+  /* Layout */
+  .page-body { padding: 20px 16px; }
+
+  /* Header */
+  .page-header { padding: 28px 16px 20px; }
+
+  /* Toolbar */
+  .vocab-toolbar {
+    gap: 6px;
+  }
+  .vocab-search {
+    width: 100%;
+    flex: none;
+    order: -1;
+  }
+  .vocab-filter {
+    padding: 8px 11px;
+    font-size: 0.65rem;
+  }
+  .add-btn, .test-btn {
+    padding: 9px 12px;
+    font-size: 0.65rem;
+  }
+
+  /* Stats */
+  .vocab-stats {
+    gap: 12px;
+    flex-wrap: wrap;
+    font-size: 0.6rem;
+  }
+
+  /* Word grid — single column */
+  .words-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Word card touch targets */
+  .speak-btn, .delete-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+
+  /* Synonym pills — no horizontal scroll */
+  .word-synonyms, .feedback-syns {
+    flex-wrap: wrap;
+  }
+
+  /* Test overlay */
+  .test-topbar {
+    padding: 0 16px;
+    height: 48px;
+  }
+  .test-topbar-label { font-size: 0.6rem; }
+  .test-progress-text { font-size: 0.6rem; }
+  .test-exit {
+    padding: 6px 10px;
+    font-size: 0.6rem;
+  }
+
+  .test-body {
+    padding: 20px 16px;
+    align-items: flex-start;
+  }
+
+  /* Test card */
+  .test-card { max-width: 100%; }
+  .test-setup { max-width: 100%; }
+  .test-summary { max-width: 100%; }
+
+  .test-prompt.is-word {
+    font-size: 1.25rem;
+  }
+
+  /* Multiple choice — single column on small screens */
+  .mc-options {
+    grid-template-columns: 1fr;
+  }
+  .mc-option {
+    padding: 16px;
+    font-size: 0.76rem;
+  }
+
+  /* Write-in — stack on very narrow */
+  .write-wrap {
+    flex-direction: column;
+  }
+  .write-submit {
+    width: 100%;
+    padding: 14px;
+  }
+
+  /* Test actions — wrap nicely */
+  .test-actions {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .test-next {
+    flex: 1;
+    min-width: 100px;
+    padding: 14px;
+    font-size: 0.72rem;
+    text-align: center;
+  }
+  .test-bank-btn, .test-dismiss-btn {
+    flex: 1;
+    min-width: 100px;
+    padding: 12px 8px;
+    font-size: 0.64rem;
+    text-align: center;
+  }
+
+  /* Feedback card */
+  .feedback-card {
+    padding: 14px 16px;
+  }
+
+  /* Setup options */
+  .setup-option {
+    padding: 16px;
+  }
+
+  /* Summary stats */
+  .summary-stats {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6px;
+  }
+  .summary-stat-num { font-size: 1.3rem; }
+
+  /* Modal */
+  .modal {
+    padding: 24px 20px;
+    margin: 12px;
+  }
+}
 </style>
 </head>
 <body>
@@ -1688,6 +1827,450 @@ const SEED_WORDS = [
   { id:'xn8', word:'serif',         pos:'noun',
     definition:'A small decorative stroke added to the end of a letter\'s main strokes in typography; typefaces using such strokes are called serif fonts.',
     example:'The choice between serif and sans-serif is never neutral — it carries the full weight of cultural association.',
+    source:'Personal lookup' },
+
+  // ── PERSONAL LOOKUP BATCH 2 ──
+  { id:'xv2',  word:'traverse',        pos:'verb',
+    definition:'To move across, through, or over; to pass or travel across.',
+    example:'The critic who traverses multiple disciplines without mastering any is a dilettante; the one who does it with depth earns the synthesis.',
+    source:'Personal lookup' },
+  { id:'xv3',  word:'overhaul',        pos:'verb',
+    definition:'To examine and repair or modernize thoroughly; to completely revise or reconstruct.',
+    example:'The museum\'s overhaul of its acquisition policy came a decade after the community had already moved on.',
+    source:'Personal lookup' },
+  { id:'xv4',  word:'metastasize',     pos:'verb',
+    definition:'To spread from one location to another; originally of cancer, now broadly of ideas or harmful phenomena.',
+    example:'A bad critical framework metastasizes quickly — it colonizes adjacent disciplines before anyone notices it is wrong.',
+    source:'Personal lookup' },
+  { id:'xv5',  word:'beseech',         pos:'verb',
+    definition:'To urgently and earnestly implore; to beg fervently.',
+    example:'The grant application that beseeches the committee rather than persuades it has already conceded ground.',
+    source:'Personal lookup' },
+  { id:'xv6',  word:'consecrate',      pos:'verb',
+    definition:'To make or declare something sacred; to dedicate solemnly to a high purpose.',
+    example:'The retrospective consecrated the artist\'s early failures as prescience — a trick the market pulls on the living and the dead alike.',
+    source:'Personal lookup' },
+  { id:'xv7',  word:'ensnare',         pos:'verb',
+    definition:'To catch in or as if in a trap; to entangle through trickery or subtle means.',
+    example:'The residency that ensnares artists with free studio space and no contract has its own economy.',
+    source:'Personal lookup' },
+  { id:'xv8',  word:'wallow',          pos:'verb',
+    definition:'To roll or lie in something; to indulge excessively in something pleasurable or self-pitying.',
+    example:'The artist who wallows in critical theory without making work produces only more critical theory.',
+    source:'Personal lookup' },
+  { id:'xv9',  word:'vindicate',       pos:'verb',
+    definition:'To clear from blame or suspicion; to show or prove to be right or justified.',
+    example:'Vindicated by a retrospective you did not live to see is the canonical arc of the misunderstood modernist.',
+    source:'Personal lookup' },
+  { id:'xv10', word:'valorize',        pos:'verb',
+    definition:'To assign or enhance the value of something; to treat as important, worthy, or legitimate.',
+    example:'The market valorizes whatever the institution names — then the institution names what the market has already priced.',
+    source:'Personal lookup' },
+  { id:'xv11', word:'evangelize',      pos:'verb',
+    definition:'To preach or promote a belief with fervent, missionary zeal; to convert through advocacy.',
+    example:'The artist who evangelizes their process in every interview eventually has nothing left to make.',
+    source:'Personal lookup' },
+  { id:'xv12', word:'redact',          pos:'verb',
+    definition:'To edit or censor a document for publication; to remove sensitive or classified material.',
+    example:'The institutional statement on the controversy was so thoroughly redacted it communicated only the fact of redaction.',
+    source:'Personal lookup' },
+  { id:'xv13', word:'percolate',       pos:'verb',
+    definition:'To filter gradually through a porous surface; to spread slowly and diffusely through a medium.',
+    example:'Ideas percolate through an art scene for years before any single work makes them legible.',
+    source:'Personal lookup' },
+  { id:'xv14', word:'insinuate',       pos:'verb',
+    definition:'To suggest or hint in an indirect way; to maneuver oneself into favor or into a situation by subtle means.',
+    example:'The review that insinuates rather than accuses is harder to answer — and more damaging.',
+    source:'Personal lookup' },
+
+  { id:'xa5',  word:'bigoted',         pos:'adjective',
+    definition:'Obstinately intolerant of beliefs or practices different from one\'s own; blindly devoted to a group or creed.',
+    example:'Bigoted aesthetic positions disguise themselves as standards — the refusal to engage becomes rigor.',
+    source:'Personal lookup' },
+  { id:'xa6',  word:'complacent',      pos:'adjective',
+    definition:'Uncritically satisfied with oneself or one\'s situation; smugly self-satisfied.',
+    example:'The complacent mid-career artist mistakes critical silence for acceptance rather than indifference.',
+    source:'Personal lookup' },
+  { id:'xa7',  word:'petulant',        pos:'adjective',
+    definition:'Childishly sulky or bad-tempered; querulously irritable when one does not get one\'s way.',
+    example:'The petulant rejection of negative feedback is not conviction — it is the refusal to think.',
+    source:'Personal lookup' },
+  { id:'xa8',  word:'egregious',       pos:'adjective',
+    definition:'Outstandingly bad; flagrant and shocking in its wrongness.',
+    example:'The most egregious critical failures are not the bad reviews but the raves of genuinely mediocre work.',
+    source:'Personal lookup' },
+  { id:'xa9',  word:'militant',        pos:'adjective',
+    definition:'Aggressively active in pursuing a cause; combative and confrontational in manner.',
+    example:'Militant aestheticism — the refusal to tolerate ugliness — has produced both the best and most insufferable taste in history.',
+    source:'Personal lookup' },
+  { id:'xa10', word:'farcical',        pos:'adjective',
+    definition:'Resembling a farce; so absurd as to be ridiculous.',
+    example:'The farcical spectacle of auction-house bidding wars has normalized numbers that once seemed satirical.',
+    source:'Personal lookup' },
+  { id:'xa11', word:'precocious',      pos:'adjective',
+    definition:'Having developed mental or cultural abilities at an unusually early age; prematurely advanced.',
+    example:'Precocious skill is easy to celebrate — the rarer thing is a practice that deepens rather than replicates it.',
+    source:'Personal lookup' },
+  { id:'xa12', word:'peculiar',        pos:'adjective',
+    definition:'Distinctly strange or unusual; belonging exclusively to a particular person or context.',
+    example:'Every genuinely original artist looks peculiar before their context catches up.',
+    source:'Personal lookup' },
+  { id:'xa13', word:'cyaneous',        pos:'adjective',
+    definition:'Of a deep blue or cyan color; sky-blue.',
+    example:'The cyaneous wash he applied last destroyed the painting — it looked like a weather report.',
+    source:'Personal lookup' },
+  { id:'xa14', word:'poignant',        pos:'adjective',
+    definition:'Evoking a keen sense of sadness or regret; sharply affecting the emotions.',
+    example:'The most poignant archive is the one that outlived everyone who could explain it.',
+    source:'Personal lookup' },
+  { id:'xa15', word:'tellurian',       pos:'adjective',
+    definition:'Of or relating to the earth; terrestrial; characteristic of earth\'s inhabitants.',
+    example:'The tellurian perspective — that art is accountable to actual life on this planet — is surprisingly radical in certain institutional contexts.',
+    source:'Personal lookup' },
+  { id:'xa16', word:'elusive',         pos:'adjective',
+    definition:'Difficult to find, catch, or achieve; tending to evade definition or grasp.',
+    example:'The elusive quality separating great art from accomplished work has kept critics employed for centuries.',
+    source:'Personal lookup' },
+  { id:'xa17', word:'presumptuous',    pos:'adjective',
+    definition:'Failing to observe proper limits; overstepping what is appropriate through arrogant boldness.',
+    example:'It is presumptuous to critique a practice you have not taken seriously enough to understand on its own terms.',
+    source:'Personal lookup' },
+  { id:'xa18', word:'constitutive',    pos:'adjective',
+    definition:'Forming an essential element or component; having the power to establish or create.',
+    example:'The frame is not incidental — it is constitutive of the painting\'s meaning, not just its boundary.',
+    source:'Personal lookup' },
+  { id:'xa19', word:'larval',          pos:'adjective',
+    definition:'Relating to a larva; in an early and undeveloped stage; latent and incipient.',
+    example:'The larval period of an artist\'s practice — before the signature style solidifies — is when the real thinking happens.',
+    source:'Personal lookup' },
+  { id:'xa20', word:'impending',       pos:'adjective',
+    definition:'About to happen; imminent and looming.',
+    example:'The impending collapse of the gallery system has been impending since at least 1989.',
+    source:'Personal lookup' },
+  { id:'xa21', word:'gnostic',         pos:'adjective',
+    definition:'Relating to knowledge, especially esoteric spiritual knowledge; claiming special insight into hidden truths.',
+    example:'The gnostic critic writes as if initiated — not explaining the mysteries but demonstrating that they exist.',
+    source:'Personal lookup' },
+  { id:'xa22', word:'detrimental',     pos:'adjective',
+    definition:'Causing harm or damage; injurious to interests or wellbeing.',
+    example:'Institutional flattery is detrimental precisely because it is hard to recognize — it wears the costume of support.',
+    source:'Personal lookup' },
+  { id:'xa23', word:'egalitarian',     pos:'adjective',
+    definition:'Believing in or based on the principle of equal rights and opportunities for all people.',
+    example:'The egalitarian fantasy of the white cube — that all work enters on equal terms — is demolished the moment you look at the checklist.',
+    source:'Personal lookup' },
+  { id:'xa24', word:'conniving',       pos:'adjective',
+    definition:'Scheming or plotting; giving tacit consent to or willfully ignoring wrongdoing.',
+    example:'The conniving curator who never says yes or no occupies the most defensible position in the art world.',
+    source:'Personal lookup' },
+  { id:'xa25', word:'contrived',       pos:'adjective',
+    definition:'Deliberately created rather than arising naturally; forced and lacking spontaneity.',
+    example:'The contrived transgression — the work that calculates its controversy — is always less interesting than accidental offense.',
+    source:'Personal lookup' },
+  { id:'xa26', word:'canonical',       pos:'adjective',
+    definition:'Conforming to or established by an accepted authority; included in the recognized body of work.',
+    example:'The canonical reading of any artwork becomes a prison for the next generation of critics.',
+    source:'Personal lookup' },
+  { id:'xa27', word:'emblematic',      pos:'adjective',
+    definition:'Serving as a symbol or representation; typifying something larger.',
+    example:'The iPhone became emblematic of a broader transformation in how attention is produced and sold.',
+    source:'Personal lookup' },
+  { id:'xa28', word:'coveted',         pos:'adjective',
+    definition:'Greatly desired by many; earnestly wished for.',
+    example:'The coveted residency slot is coveted in part because its scarcity signals value — not because the space is particularly useful.',
+    source:'Personal lookup' },
+  { id:'xa29', word:'toadyish',        pos:'adjective',
+    definition:'Excessively complimentary in a servile, ingratiating way; obsequiously flattering.',
+    example:'The toadyish studio visit — all enthusiasm, no resistance — tells the artist nothing useful.',
+    source:'Personal lookup' },
+  { id:'xa30', word:'obsequious',      pos:'adjective',
+    definition:'Obedient or attentive to an excessive or servile degree; fawning.',
+    example:'The obsequious collector who always agrees with the artist\'s statement has never bought anything challenging.',
+    source:'Personal lookup' },
+  { id:'xa31', word:'tenuous',         pos:'adjective',
+    definition:'Very weak, slight, or insubstantial; lacking a solid foundation.',
+    example:'The connection between the work and its stated political intent is often more tenuous than the press release admits.',
+    source:'Personal lookup' },
+  { id:'xa32', word:'insinuating',     pos:'adjective',
+    definition:'Subtly and gradually infiltrating; hinting at something unpleasant without direct accusation.',
+    example:'An insinuating review lands differently than a direct attack — it recruits the reader as collaborator in the takedown.',
+    source:'Personal lookup' },
+  { id:'xa33', word:'treacherous',     pos:'adjective',
+    definition:'Guilty of or involving betrayal; dangerous because of concealed hazards.',
+    example:'The most treacherous critical positions are the ones dressed in the vocabulary of support.',
+    source:'Personal lookup' },
+  { id:'xa34', word:'heuristic',       pos:'adjective',
+    definition:'Enabling discovery through exploration and trial-and-error; providing a practical method that is not guaranteed optimal.',
+    example:'The studio practice functions as a heuristic device — you do not know what you are looking for until you have looked.',
+    source:'Personal lookup' },
+  { id:'xa35', word:'humongous',       pos:'adjective',
+    definition:'Enormously large; of extreme or overwhelming size.',
+    example:'The humongous scale of Koons\'s sculptures is not an accident — it is the argument.',
+    source:'Personal lookup' },
+  { id:'xa36', word:'dubious',         pos:'adjective',
+    definition:'Hesitating or doubting; of questionable quality, honesty, or origin.',
+    example:'The dubious provenance of the piece did not deter the buyer — it added to the narrative.',
+    source:'Personal lookup' },
+  { id:'xa37', word:'indivisible',     pos:'adjective',
+    definition:'Unable to be divided or separated; forming an inseparable unified whole.',
+    example:'The work and its context are indivisible — you cannot extract the painting from the system that produced it.',
+    source:'Personal lookup' },
+  { id:'xa38', word:'blithe',          pos:'adjective',
+    definition:'Showing a cheerful and casual indifference; happily unconcerned with consequences.',
+    example:'The blithe assumption that all exposure is good exposure has destroyed more practices than bad reviews.',
+    source:'Personal lookup' },
+  { id:'xa39', word:'indebted',        pos:'adjective',
+    definition:'Owing gratitude for a service or favor; owing money or obligation.',
+    example:'To be indebted to a tradition is not the same as being trapped by it — the debt can be acknowledged and repaid through departure.',
+    source:'Personal lookup' },
+
+  { id:'xn9',  word:'audacity',        pos:'noun',
+    definition:'Willingness to take bold risks; insolent impudence; reckless daring.',
+    example:'The audacity of the claim was not the problem — the problem was that nothing in the work supported it.',
+    source:'Personal lookup' },
+  { id:'xn10', word:'pluck',           pos:'noun',
+    definition:'Spirited and determined courage in the face of difficulty.',
+    example:'It takes pluck to make unfashionable work — and even more to not explain yourself.',
+    source:'Personal lookup' },
+  { id:'xn11', word:'tenacity',        pos:'noun',
+    definition:'The quality of being very determined; persistence in maintaining a position or course of action.',
+    example:'The tenacity required to sustain a practice across decades of indifference is the most undervalued artistic skill.',
+    source:'Personal lookup' },
+  { id:'xn12', word:'ramifications',   pos:'noun',
+    definition:'Complex or unwanted consequences of an action or event; branches extending from a central point.',
+    example:'The ramifications of the institution\'s rebranding extended far beyond the logo — the programming changed too.',
+    source:'Personal lookup' },
+  { id:'xn13', word:'imperturbability',pos:'noun',
+    definition:'The quality of remaining calm and undisturbed in difficult situations; unshakeable composure.',
+    example:'The artist\'s imperturbability in the face of hostile criticism was itself the most compelling thing about the interview.',
+    source:'Personal lookup' },
+  { id:'xn14', word:'arbitrage',       pos:'noun',
+    definition:'The practice of exploiting price differences between markets; taking advantage of structural inconsistencies.',
+    example:'The secondary market runs on arbitrage — buying where value is underpriced and selling where it is over-recognized.',
+    source:'Personal lookup' },
+  { id:'xn15', word:'degradation',     pos:'noun',
+    definition:'The condition of being lowered in status or esteem; humiliation; physical or moral deterioration.',
+    example:'The degradation of the critical vocabulary — when every claim is "radical" or "urgent" — renders the words useless.',
+    source:'Personal lookup' },
+  { id:'xn16', word:'avarice',         pos:'noun',
+    definition:'Extreme greed for wealth or material gain; miserly acquisitiveness.',
+    example:'The avarice of the contemporary art market is not remarkable — what is remarkable is that it coexists with so much moralizing.',
+    source:'Personal lookup' },
+  { id:'xn17', word:'peonage',         pos:'noun',
+    definition:'A system in which workers are bound to service to repay debts; any form of enforced servitude.',
+    example:'The intern pipeline is peonage with a better-designed website.',
+    source:'Personal lookup' },
+  { id:'xn18', word:'mortmain',        pos:'noun',
+    definition:'The permanent ownership of property by a corporation; the deadening grip of the past on the present.',
+    example:'The collection in mortmain shapes what future curators can and cannot show — invisible governance from the dead.',
+    source:'Personal lookup' },
+  { id:'xn19', word:'granularity',     pos:'noun',
+    definition:'The scale or level of detail in data, analysis, or texture; fineness of resolution.',
+    example:'The granularity of the archival data is misleading — more detail does not produce more truth.',
+    source:'Personal lookup' },
+  { id:'xn20', word:'strobe',          pos:'noun',
+    definition:'A device that produces brief, intense, repetitive flashes of light; any stroboscopic effect.',
+    example:'The strobe at the opening did what the work failed to do — it made the room feel alive.',
+    source:'Personal lookup' },
+  { id:'xn21', word:'malady',          pos:'noun',
+    definition:'A disease or ailment; any deep-seated problem or unwholesome condition in a system.',
+    example:'The malady afflicting contemporary criticism is not bad taste — it is the fear of having taste at all.',
+    source:'Personal lookup' },
+  { id:'xn22', word:'hermeneutics',    pos:'noun',
+    definition:'The theory and methodology of interpretation, especially of texts or cultural artifacts.',
+    example:'Applied hermeneutics asks not what the work means but what conditions make certain meanings available.',
+    source:'Personal lookup' },
+  { id:'xn23', word:'shibboleth',      pos:'noun',
+    definition:'A word or practice used to identify members of a group; an outdated belief stubbornly maintained.',
+    example:'The white cube is both a functional space and a shibboleth — you know someone is outside the conversation when they question it literally.',
+    source:'Personal lookup' },
+  { id:'xn24', word:'paternalism',     pos:'noun',
+    definition:'The practice of limiting freedom for the supposed benefit of those affected; governance that treats adults as children.',
+    example:'The curatorial paternalism of deciding what audiences can handle has shaped public collections for a century.',
+    source:'Personal lookup' },
+  { id:'xn25', word:'grandstanding',   pos:'noun',
+    definition:'Behavior designed to attract favorable attention from an audience; playing to the crowd rather than the substance.',
+    example:'The panel\'s grandstanding consumed the time that should have gone to answering the actual question.',
+    source:'Personal lookup' },
+  { id:'xn26', word:'prowess',         pos:'noun',
+    definition:'Skill or expertise in an activity; exceptional ability or bravery.',
+    example:'Technical prowess that outpaces intention is a common early-career problem — the hand knows more than the mind.',
+    source:'Personal lookup' },
+  { id:'xn27', word:'gesticulation',   pos:'noun',
+    definition:'The use of expressive, often dramatic gestures; animated physical expression.',
+    example:'The collector\'s gesticulation during the studio visit — arms wide, hands on the work — told you more than the words did.',
+    source:'Personal lookup' },
+  { id:'xn28', word:'astroturfing',    pos:'noun',
+    definition:'The practice of masking the true sponsors of a message to simulate grassroots support.',
+    example:'Astroturfing in the cultural sector — a foundation funding criticism of its rivals — is rarely named and almost never prosecuted.',
+    source:'Personal lookup' },
+  { id:'xn29', word:'connoisseur',     pos:'noun',
+    definition:'An expert judge in matters of taste; one with refined knowledge and deep appreciation in a field.',
+    example:'The connoisseur\'s eye is trained by exposure — a thousand hours of looking at what is bad clarifies what is good.',
+    source:'Personal lookup' },
+  { id:'xn30', word:'stagflation',     pos:'noun',
+    definition:'An economic condition combining stagnation and inflation; persistent high prices alongside economic contraction.',
+    example:'The cultural equivalent of stagflation — maximum activity producing zero advancement — is the condition of most biennial circuits.',
+    source:'Personal lookup' },
+  { id:'xn31', word:'tautology',       pos:'noun',
+    definition:'Saying the same thing twice in different words; a statement that is necessarily true by its own construction.',
+    example:'"The art world values what the art world values" is tautology — useful for exposing the circularity of legitimation.',
+    source:'Personal lookup' },
+  { id:'xn32', word:'habitus',         pos:'noun',
+    definition:'Pierre Bourdieu\'s term for ingrained habits, dispositions, and tastes acquired through social position; embodied social structure.',
+    example:'The habitus of the MFA-trained artist is so thoroughly internalized that transgression happens within its rules, not against them.',
+    source:'Personal lookup' },
+  { id:'xn33', word:'rhizome',         pos:'noun',
+    definition:'A horizontal underground stem; in Deleuze and Guattari, a model of non-hierarchical, multi-entry networks of thought.',
+    example:'The rhizome became the theoretical model for every distributed, non-linear system the internet seemed to promise.',
+    source:'Personal lookup' },
+  { id:'xn34', word:'mystique',        pos:'noun',
+    definition:'A fascinating aura of mystery surrounding something; an air of authority that inspires awe.',
+    example:'The mystique surrounding the artist\'s studio has survived photography, open studios, and Instagram — which says something about its function.',
+    source:'Personal lookup' },
+  { id:'xn35', word:'empiricism',      pos:'noun',
+    definition:'The theory that knowledge derives from sensory experience; the practice of basing conclusions on observation.',
+    example:'Empiricism in criticism means returning to the object — looking at what is actually there before deciding what it means.',
+    source:'Personal lookup' },
+  { id:'xn36', word:'bigotry',         pos:'noun',
+    definition:'Obstinate intolerance of those with different beliefs or practices; narrow-minded prejudice.',
+    example:'Aesthetic bigotry — the refusal to take certain work seriously because of who made it — is the field\'s most reliably renewable resource.',
+    source:'Personal lookup' },
+  { id:'xn37', word:'contrarian',      pos:'noun',
+    definition:'A person who opposes prevailing opinion; one who takes a contrary position as principle or strategy.',
+    example:'The contrarian\'s value is not in being right but in forcing the majority position to articulate itself.',
+    source:'Personal lookup' },
+  { id:'xn38', word:'axiom',           pos:'noun',
+    definition:'A self-evident truth or universally accepted principle; a foundational statement requiring no proof.',
+    example:'"Context is everything" functions as an axiom in contemporary art — which means it is also a way of never saying what the context actually is.',
+    source:'Personal lookup' },
+  { id:'xn39', word:'ostracism',       pos:'noun',
+    definition:'Exclusion from a society or group by common consent; social or political exile.',
+    example:'The ostracism of an artist from institutional circuits does not always mean the work is bad — sometimes it means the work is honest.',
+    source:'Personal lookup' },
+  { id:'xn40', word:'condemnation',    pos:'noun',
+    definition:'The expression of strong disapproval; the action of judging something as wrong or unacceptable.',
+    example:'Condemnation as a critical act has a shorter half-life than analysis — it requires a moral consensus that keeps moving.',
+    source:'Personal lookup' },
+  { id:'xn41', word:'gestation',       pos:'noun',
+    definition:'The period of development before birth; the process of developing an idea or plan before it is ready.',
+    example:'The gestation period for a major work is often invisible — what looks like idleness is frequently the most productive phase.',
+    source:'Personal lookup' },
+  { id:'xn42', word:'genealogy',       pos:'noun',
+    definition:'The study or tracing of family history; the line of development from an earlier form.',
+    example:'Understanding the genealogy of an aesthetic position tells you where its assumptions came from — and where they are likely to break.',
+    source:'Personal lookup' },
+  { id:'xn43', word:'paralysis',       pos:'noun',
+    definition:'Loss of ability to move or act; inability to function caused by excessive options, fear, or contradiction.',
+    example:'The paralysis of the overeducated artist — so aware of precedent that no move seems original — is a specific kind of creative block.',
+    source:'Personal lookup' },
+  { id:'xn44', word:'revelation',      pos:'noun',
+    definition:'A surprising and previously unknown fact, especially when disclosed dramatically; a divine or profound disclosure.',
+    example:'The revelation that the collector had funded both the artist and the review publication was not, in the end, surprising.',
+    source:'Personal lookup' },
+  { id:'xn45', word:'confidant',       pos:'noun',
+    definition:'A person one confides in; a trusted friend with whom private matters are shared.',
+    example:'The gallerist-as-confidant relationship only works until the gallerist\'s interests diverge from the artist\'s — which is usually around the first price increase.',
+    source:'Personal lookup' },
+  { id:'xn46', word:'embezzlement',    pos:'noun',
+    definition:'The theft of funds placed in one\'s trust; misappropriation of funds by someone in a position of responsibility.',
+    example:'The embezzlement at the foundation did not destroy the institution — the coverage of it did.',
+    source:'Personal lookup' },
+  { id:'xn47', word:'lucidity',        pos:'noun',
+    definition:'Clarity of expression or thought; the quality of being easily understood.',
+    example:'The lucidity of a good critical sentence is not simplicity — it is complexity resolved into the smallest possible space.',
+    source:'Personal lookup' },
+  { id:'xn48', word:'repentance',      pos:'noun',
+    definition:'Genuine remorse for wrongdoing accompanied by commitment to change; turning away from past error.',
+    example:'Institutional repentance without structural reform is a press release — the gallery rehires the same people under new job titles.',
+    source:'Personal lookup' },
+  { id:'xn49', word:'apotheosis',      pos:'noun',
+    definition:'Elevation to divine status; the highest or best point of something; the perfect example.',
+    example:'The retrospective is the apotheosis — unless the artist is still alive, in which case it is the beginning of the end.',
+    source:'Personal lookup' },
+  { id:'xn50', word:'archipelago',     pos:'noun',
+    definition:'A chain or cluster of islands; any scattered group of related elements.',
+    example:'The archipelago of artist-run spaces across the city had no coordinating logic — which was, for a decade, its strength.',
+    source:'Personal lookup' },
+  { id:'xn51', word:'canon',           pos:'noun',
+    definition:'The accepted body of work considered the most important; an authoritative standard or rule.',
+    example:'The Western art historical canon was always a selection posing as an inevitability.',
+    source:'Personal lookup' },
+  { id:'xn52', word:'kitsch',          pos:'noun',
+    definition:'Art or objects considered garish or excessively sentimental; the deliberate cultivation of poor taste.',
+    example:'Kitsch is not failed seriousness — it is the serious pursuit of the wrong values, which makes it more interesting than mediocrity.',
+    source:'Personal lookup' },
+  { id:'xn53', word:'noosphere',       pos:'noun',
+    definition:'The sphere of human thought; the totality of human knowledge and cognition as a layer of the earth.',
+    example:'The noosphere as Teilhard conceived it — a unified field of human cognition — now has a network topology.',
+    source:'Personal lookup' },
+  { id:'xn54', word:'upheaval',        pos:'noun',
+    definition:'A violent or sudden change; a disruption of the established order.',
+    example:'The upheaval in distribution that the internet produced took two decades to reshape critical hierarchies.',
+    source:'Personal lookup' },
+  { id:'xn55', word:'misandry',        pos:'noun',
+    definition:'Dislike of, contempt for, or ingrained prejudice against men.',
+    example:'Misandry in critical discourse is often less visible than misogyny — which is itself a gendered observation worth unpacking.',
+    source:'Personal lookup' },
+  { id:'xn56', word:'apophenia',       pos:'noun',
+    definition:'The tendency to perceive meaningful connections or patterns between unrelated things; false pattern recognition.',
+    example:'The art world runs on productive apophenia — the career-making curatorial act is often just a confident misreading.',
+    source:'Personal lookup' },
+  { id:'xn57', word:'cabal',           pos:'noun',
+    definition:'A secret group engaged in plotting or intrigue; a small faction exerting hidden control.',
+    example:'Every field has its cabal — the small group whose informal consensus determines what gets taken seriously.',
+    source:'Personal lookup' },
+  { id:'xn58', word:'phlegm',          pos:'noun',
+    definition:'Mucus from the respiratory system; in the humoral tradition, stoic calm and composure unmoved by passion.',
+    example:'The phlegm of the long-established collector — unmoved by market hysteria — is the most expensive affect in the room.',
+    source:'Personal lookup' },
+  { id:'xn59', word:'gauntness',       pos:'noun',
+    definition:'Extreme thinness; bleak, sparse bareness; haggard leanness.',
+    example:'The gauntness of the gallery\'s final season — three shows on a budget that would have covered one — was its own kind of document.',
+    source:'Personal lookup' },
+  { id:'xn60', word:'stylization',     pos:'noun',
+    definition:'The representation of something in a conventional, non-realistic form; imposing a consistent formal style.',
+    example:'The stylization that began as a signature eventually became a cage — every new work arrived already expected.',
+    source:'Personal lookup' },
+  { id:'xn61', word:'pylon',           pos:'noun',
+    definition:'A tall structure used to support electrical cables or mark a path; a monumental gateway tower.',
+    example:'The pylon as sculptural form — monumental, utilitarian, ignored — was Judd\'s subject before it was anyone else\'s.',
+    source:'Personal lookup' },
+  { id:'xn62', word:'debauchery',      pos:'noun',
+    definition:'Excessive indulgence in sensual pleasures; moral corruption through the pursuit of pleasure.',
+    example:'The debauchery of the art fair — in its literal, not metaphorical sense — has been well documented by everyone who survived it.',
+    source:'Personal lookup' },
+  { id:'xn63', word:'indignation',     pos:'noun',
+    definition:'Anger or annoyance provoked by perceived unfairness or insulting treatment; righteous anger.',
+    example:'Moral indignation without analysis is just anger wearing the clothes of argument.',
+    source:'Personal lookup' },
+  { id:'xn64', word:'reckoning',       pos:'noun',
+    definition:'The process of calculating or settling accounts; a time when past mistakes must be faced and paid for.',
+    example:'The field\'s reckoning with its own gatekeeping has produced better language for the problem than solutions to it.',
+    source:'Personal lookup' },
+  { id:'xn65', word:'slactivism',      pos:'noun',
+    definition:'Support for a cause through minimal symbolic actions — sharing, liking — that create a sense of participation without real effort.',
+    example:'The slactivism of the repost — resharing the cause without committing time, money, or risk — is the dominant form of political expression in the cultural sector.',
+    source:'Personal lookup' },
+  { id:'xn66', word:'limerence',       pos:'noun',
+    definition:'The state of being infatuated with another person, characterized by intrusive thoughts and intense longing.',
+    example:'The limerence young artists often feel toward established figures in their field is structurally indistinguishable from what they feel toward the work.',
+    source:'Personal lookup' },
+  { id:'xn67', word:'infatuation',     pos:'noun',
+    definition:'An intense but short-lived passion or admiration; blind, uncritical devotion.',
+    example:'Critical infatuation with the newest arrival always looks prophetic until the next new arrival makes it look provincial.',
+    source:'Personal lookup' },
+  { id:'xn68', word:'pseudonym',       pos:'noun',
+    definition:'A fictitious name, especially one used by an author; a pen name or alias.',
+    example:'The pseudonym creates a second reputation that can be abandoned cleanly — which is why it has always attracted artists.',
+    source:'Personal lookup' },
+  { id:'xn69', word:'fringe',          pos:'noun',
+    definition:'The outer edge or margin; those on the periphery of a social or cultural group.',
+    example:'The fringe is where innovation accumulates before the center discovers it needs it.',
+    source:'Personal lookup' },
+  { id:'xn70', word:'pashmina',        pos:'noun',
+    definition:'A fine, luxurious wool from the Himalayan Pashmina goat; a shawl or wrap made from this fiber.',
+    example:'The pashmina draped over every chair at the vernissage — cashmere-adjacent, status-confirming — is the room\'s most reliable datum.',
     source:'Personal lookup' }
 ];
 
@@ -1888,7 +2471,121 @@ const SYNONYMS = {
   'xn5': ['layers','levels','tiers','planes','ranks','echelons','grades','sediments','horizons','cross-sections'],
   'xn6': ['by-product','offshoot','outgrowth','spin-off','imitation','copy','adaptation','epigone','descendant','knock-off'],
   'xn7': ['louse egg','dimwit','dolt','blockhead','numskull','nincompoop','dullard','simpleton','halfwit','dunderpate'],
-  'xn8': ['finishing stroke','terminal stroke','foot','bracket','hairline','cross-stroke','typographic foot','stem terminal','slab','stroke termination']
+  'xn8': ['finishing stroke','terminal stroke','foot','bracket','hairline','cross-stroke','typographic foot','stem terminal','slab','stroke termination'],
+
+  // ── BATCH 2 SYNONYMS ──
+  'xv2':  ['cross','travel across','span','ford','navigate','pass through','cover','cut across','range over','negotiate'],
+  'xv3':  ['revamp','renovate','rebuild','reconstruct','modernize','refurbish','recondition','reform','refit','transform'],
+  'xv4':  ['spread','proliferate','migrate','disseminate','propagate','diffuse','expand','multiply','colonize','extend'],
+  'xv5':  ['implore','entreat','supplicate','plead','beg','petition','appeal','importune','pray','adjure'],
+  'xv6':  ['sanctify','hallow','dedicate','bless','anoint','ordain','enshrine','solemnize','devote','set apart'],
+  'xv7':  ['trap','entangle','snare','enmesh','lure','entrap','catch','inveigle','net','entoil'],
+  'xv8':  ['luxuriate','revel','bask','roll','flounder','indulge','steep','immerse','languish','riot'],
+  'xv9':  ['exonerate','absolve','acquit','clear','justify','uphold','defend','corroborate','exculpate','confirm'],
+  'xv10': ['elevate','prize','esteem','champion','celebrate','validate','exalt','affirm','honor','promote'],
+  'xv11': ['proselytize','preach','advocate','convert','promote','crusade','agitate','propagandize','spread the word','mission'],
+  'xv12': ['censor','edit','black out','excise','sanitize','expurgate','delete','bowdlerize','remove','suppress'],
+  'xv13': ['seep','filter','trickle','diffuse','steep','ooze','infuse','penetrate','drain through','saturate'],
+  'xv14': ['imply','hint','suggest','intimate','ingratiate','worm in','whisper','allude','impute','subtly suggest'],
+
+  'xa5':  ['intolerant','prejudiced','narrow-minded','sectarian','fanatical','dogmatic','parochial','chauvinistic','biased','illiberal'],
+  'xa6':  ['self-satisfied','smug','uncritical','content','untroubled','at ease','indifferent','apathetic','nonchalant','complaisant'],
+  'xa7':  ['peevish','sulky','irritable','querulous','fractious','testy','sullen','huffy','churlish','bad-tempered'],
+  'xa8':  ['flagrant','glaring','outrageous','atrocious','monstrous','heinous','appalling','scandalous','conspicuous','rank'],
+  'xa9':  ['combative','aggressive','activist','confrontational','pugnacious','radical','zealous','hardline','belligerent','warlike'],
+  'xa10': ['absurd','ludicrous','ridiculous','laughable','preposterous','slapstick','comical','nonsensical','clownish','risible'],
+  'xa11': ['advanced','gifted','prodigious','forward','early-developed','ahead-of-age','mature','exceptional','talented','brilliant'],
+  'xa12': ['strange','odd','unusual','eccentric','singular','queer','idiosyncratic','curious','distinct','aberrant'],
+  'xa13': ['azure','cerulean','sapphire','cobalt','sky-blue','cornflower','indigo-tinged','deep-blue','ultramarine','teal-adjacent'],
+  'xa14': ['touching','moving','affecting','heartrending','evocative','piercing','tender','bittersweet','plaintive','emotional'],
+  'xa15': ['earthly','terrestrial','worldly','mundane','earthbound','temporal','sublunary','planetary','soil-dwelling','earthy'],
+  'xa16': ['evasive','slippery','fleeting','intangible','fugitive','shifty','impalpable','hard-to-pin-down','elusive of definition','difficult to catch'],
+  'xa17': ['arrogant','overbold','impertinent','overweening','insolent','audacious','uppity','overconfident','brash','forward'],
+  'xa18': ['foundational','formative','essential','integral','structural','determinative','defining','elemental','generative','originating'],
+  'xa19': ['nascent','embryonic','incipient','undeveloped','rudimentary','primitive','germinal','immature','latent','fledgling'],
+  'xa20': ['imminent','approaching','forthcoming','looming','threatening','near','brewing','oncoming','at hand','upcoming'],
+  'xa21': ['esoteric','mystical','occult','initiatory','spiritual','arcane','theosophical','revelatory','noetic','hidden-knowledge'],
+  'xa22': ['harmful','injurious','adverse','damaging','deleterious','noxious','ruinous','hurtful','pernicious','destructive'],
+  'xa23': ['equal-rights','equitable','democratic','leveling','fair','meritocratic','classless','equal-opportunity','just','inclusive'],
+  'xa24': ['scheming','plotting','manipulative','crafty','designing','underhanded','devious','sly','calculating','conspiratorial'],
+  'xa25': ['forced','artificial','manufactured','unnatural','strained','labored','staged','fake','orchestrated','formulaic'],
+  'xa26': ['authoritative','standard','official','accepted','orthodox','classic','recognized','definitive','approved','established'],
+  'xa27': ['symbolic','representative','typifying','characteristic','illustrative','paradigmatic','exemplary','metaphoric','allegorical','iconic'],
+  'xa28': ['desired','sought-after','prized','longed-for','enviable','lusted-after','yearned-for','wished-for','in-demand','treasured'],
+  'xa29': ['sycophantic','obsequious','fawning','servile','bootlicking','ingratiating','flattering','cringing','groveling','unctuous'],
+  'xa30': ['servile','fawning','sycophantic','subservient','groveling','cringing','toadying','oleaginous','unctuous','submissive'],
+  'xa31': ['thin','flimsy','weak','insubstantial','fragile','shaky','slight','nebulous','questionable','unsupported'],
+  'xa32': ['suggestive','hinting','implying','wheedling','sly','intimating','creeping','underhanded','innuendo-laden','worming-in'],
+  'xa33': ['traitorous','disloyal','perfidious','deceitful','dangerous','unreliable','faithless','duplicitous','backstabbing','hazardous'],
+  'xa34': ['exploratory','trial-and-error','practical','inductive','adaptive','experience-based','problem-solving','approximate','discovery-based','rules-of-thumb'],
+  'xa35': ['enormous','gigantic','colossal','mammoth','titanic','immense','massive','hulking','gargantuan','stupendous'],
+  'xa36': ['doubtful','questionable','suspect','uncertain','skeptical','ambiguous','shady','fishy','hesitant','unreliable'],
+  'xa37': ['inseparable','unified','whole','atomic','integral','indecomposable','unseverable','monolithic','single','fused'],
+  'xa38': ['carefree','cheerful','casual','unconcerned','lighthearted','airy','nonchalant','easygoing','sunny','insouciant'],
+  'xa39': ['obliged','beholden','grateful','owing','thankful','in debt','bound','accountable','tied','under obligation'],
+
+  'xn9':  ['boldness','daring','temerity','effrontery','nerve','gall','brazenness','bravado','impudence','intrepidity'],
+  'xn10': ['courage','grit','nerve','mettle','spirit','fortitude','spunk','backbone','guts','determination'],
+  'xn11': ['persistence','doggedness','grit','determination','resolve','perseverance','stubbornness','firmness','steadfastness','relentlessness'],
+  'xn12': ['consequences','repercussions','implications','offshoots','branches','effects','outcomes','fallout','aftereffects','upshots'],
+  'xn13': ['composure','equanimity','sangfroid','serenity','calm','coolness','placidity','steadiness','unflappability','poise'],
+  'xn14': ['market exploitation','price-gap trading','spread trading','risk arbitrage','structural opportunism','differential trading','market imbalance','spread capture','price differential','rate discrepancy'],
+  'xn15': ['debasement','humiliation','deterioration','corruption','demoralization','abasement','decline','depravity','squalor','dishonor'],
+  'xn16': ['greed','cupidity','covetousness','rapacity','acquisitiveness','miserliness','parsimony','insatiability','venality','money-hunger'],
+  'xn17': ['debt servitude','forced labor','bonded labor','serfdom','indentured service','coerced labor','bondage','thralldom','captivity','vassalage'],
+  'xn18': ['dead hand','institutional grip','perpetual ownership','inalienable tenure','corporate perpetuity','immovable possession','iron grip','legacy constraint','historical encumbrance','long-past hold'],
+  'xn19': ['resolution','detail','fineness','specificity','scale','precision','texture','grain','minuteness','depth'],
+  'xn20': ['flash','pulse','blink','stroboscope','flickering light','intermittent illumination','pulsating beam','strobe light','rapid flash','light pulse'],
+  'xn21': ['ailment','disease','sickness','disorder','affliction','complaint','condition','infirmity','illness','pathology'],
+  'xn22': ['interpretation theory','exegesis','textual analysis','reading methodology','decoding','semantic analysis','close reading','critical theory','meaning-making','explication'],
+  'xn23': ['password','test phrase','tribal marker','identity token','group signal','in-group code','catchword','dogma','cultural password','shibboleth test'],
+  'xn24': ['nannying','overprotection','condescension','moralizing','interference','benevolent authoritarianism','patronizing oversight','infantilization','soft coercion','well-meant control'],
+  'xn25': ['showboating','posturing','playing to the gallery','self-promotion','political theater','crowd-pleasing','performance activism','cheap populism','exhibitionism','spectacle over substance'],
+  'xn26': ['skill','expertise','mastery','ability','talent','dexterity','competence','proficiency','virtuosity','adeptness'],
+  'xn27': ['gesturing','hand-waving','body language','expressive motion','animated expression','pantomime','emphatic movement','theatrical gesture','gestural speech','mime'],
+  'xn28': ['manufactured grassroots','fake populism','sponsored activism','PR masquerade','industry front','synthetic campaign','manufactured campaign','fake activism','PR deception','coordinated inauthenticity'],
+  'xn29': ['expert','aficionado','authority','judge','specialist','devotee','arbiter','maven','enthusiast','adept'],
+  'xn30': ['inflationary recession','stagnant-price economy','supply-shock economy','dual-crisis economics','high-prices-plus-unemployment','recession with inflation','economic malaise','price-wage squeeze','stagnation plus inflation','cost-push recession'],
+  'xn31': ['redundancy','circular reasoning','repetition','pleonasm','truism','self-referential statement','saying-the-same-twice','empty tautology','logical circle','trivially true claim'],
+  'xn32': ['disposition','second nature','embodied practice','internalized schema','cultural habit','social hexis','behavioral tendency','acquired disposition','embodied taste','conditioning'],
+  'xn33': ['lateral network','non-hierarchical structure','horizontal root','spreading stem','Deleuzian network','underground stem','branching system','acentric network','lateral spread','tangled root system'],
+  'xn34': ['aura','allure','glamour','mystery','fascination','charisma','romance','enigma','spell','cachet'],
+  'xn35': ['observationalism','inductive reasoning','sense-based knowledge','experiential learning','positivism','experimentalism','scientific method','evidence-based knowing','sensory grounding','experience-first philosophy'],
+  'xn36': ['intolerance','prejudice','narrow-mindedness','fanaticism','sectarianism','hatred','parochialism','chauvinism','dogmatism','closed-mindedness'],
+  'xn37': ['dissenter','naysayer','skeptic','provocateur','devil\'s advocate','gadfly','iconoclast','rebel','oppositionist','challenger'],
+  'xn38': ['truism','postulate','principle','self-evident truth','maxim','first principle','presupposition','given','premise','fundamental'],
+  'xn39': ['exclusion','banishment','shunning','exile','expulsion','social rejection','cold-shouldering','blackballing','boycott','isolation'],
+  'xn40': ['censure','denunciation','criticism','reproach','disapproval','rebuke','damnation','castigation','reprobation','judgment'],
+  'xn41': ['development','incubation','maturation','growth','preparation','brewing','germination','formation','nurturing','cultivation'],
+  'xn42': ['lineage','ancestry','heritage','pedigree','family history','descent','derivation','bloodline','family tree','line of descent'],
+  'xn43': ['immobility','stasis','inaction','inability to act','shutdown','incapacity','inertia','gridlock','freeze','standstill'],
+  'xn44': ['disclosure','discovery','epiphany','unveiling','illumination','realization','uncovering','manifestation','bombshell','showing'],
+  'xn45': ['trusted friend','intimate','confessor','companion','ally','advisor','sounding board','close associate','privy counselor','insider'],
+  'xn46': ['fraud','misappropriation','peculation','pilfering','financial corruption','defalcation','theft','larceny','swindling','dishonest appropriation'],
+  'xn47': ['clarity','perspicuity','transparency','coherence','intelligibility','precision','clearness','explicitness','luminosity','comprehensibility'],
+  'xn48': ['contrition','remorse','penitence','atonement','compunction','self-reproach','regret','rue','guilt','reform'],
+  'xn49': ['deification','pinnacle','culmination','summit','zenith','perfection','glorification','ideal embodiment','elevation','acme'],
+  'xn50': ['island chain','island group','chain of islands','scattered islands','island cluster','atoll chain','island system','maritime scatter','insular chain','island archipelago'],
+  'xn51': ['standard','authority','corpus','body of work','tradition','orthodoxy','rule','norm','benchmark','recognized collection'],
+  'xn52': ['camp','schmaltz','bad taste','tackiness','sentimentalism','vulgarity','gaudy art','cultural low-end','ersatz art','schlock'],
+  'xn53': ['thought-sphere','mental sphere','global consciousness','sphere of mind','collective cognition','intellectual biosphere','cognitive layer','sphere of human reason','human knowledge domain','mental biosphere'],
+  'xn54': ['disruption','turmoil','convulsion','cataclysm','overturning','seismic shift','revolution','disorder','tumult','violent change'],
+  'xn55': ['man-hatred','anti-male prejudice','male-directed bigotry','sexism toward men','androphobia','hostility toward men','male aversion','anti-masculinity','misandric prejudice','hatred of men'],
+  'xn56': ['pattern-finding','false connection','illusory correlation','magical thinking','pareidolia','spurious pattern perception','over-interpretation','false meaning-making','delusional connection','pattern imposition'],
+  'xn57': ['clique','faction','conspiracy','plot','secret group','inner circle','ring','cell','coterie','junta'],
+  'xn58': ['mucus','stoicism','impassivity','calm','sluggishness','unflappability','composure','cold blood','tranquility','sangfroid'],
+  'xn59': ['emaciation','leanness','haggardness','skinniness','sparseness','bleakness','starkness','scrawniness','angularity','rawness'],
+  'xn60': ['formalization','convention','aestheticization','idealization','abstraction','systematization','artistic shaping','formal treatment','schematization','design convention'],
+  'xn61': ['tower','mast','column','obelisk','gateway','electric tower','transmission tower','support structure','marker post','stanchion'],
+  'xn62': ['licentiousness','dissipation','excess','immorality','indulgence','libertinism','corruption','hedonism','depravity','profligacy'],
+  'xn63': ['outrage','righteous anger','resentment','umbrage','fury','ire','affront','offense','wrath','displeasure'],
+  'xn64': ['accounting','settling scores','tally','day of judgment','comeuppance','calculation','retribution','confrontation','settlement','verdict'],
+  'xn65': ['armchair activism','symbolic protest','performative support','keyboard activism','lazy activism','social media engagement','click-and-forget','performative allyship','hashtag activism','low-effort solidarity'],
+  'xn66': ['infatuation','obsessive love','romantic fixation','intrusive longing','lovesickness','passionate attachment','obsessive longing','unrequited obsession','romantic mania','pathological love'],
+  'xn67': ['crush','obsession','passion','fixation','blind love','enchantment','bewitchment','adoration','romantic mania','captivation'],
+  'xn68': ['pen name','alias','nom de plume','assumed name','stage name','nom de guerre','false name','anonym','moniker','handle'],
+  'xn69': ['margin','periphery','edge','outer limits','extremity','borderland','outliers','radical wing','underground','counterculture'],
+  'xn70': ['cashmere shawl','Himalayan wool','fine wool wrap','luxury fiber shawl','softspun shawl','goat-wool textile','luxury wrap','fine-wool shawl','cashmere-adjacent wrap','artisan shawl']
 };
 
 const ZH = {
@@ -2088,7 +2785,121 @@ const ZH = {
   'xn5': '层，阶层（地质层理；社会或意义的层级结构）',
   'xn6': '派生物，衍生品（源自他物的产物；缺乏原创性的次级作品）',
   'xn7': '虱卵；笨蛋（英式俚语，指愚蠢或迟钝的人）',
-  'xn8': '衬线（字体排印中字母笔画末端的装饰性短线）'
+  'xn8': '衬线（字体排印中字母笔画末端的装饰性短线）',
+
+  // ── BATCH 2 ZH ──
+  'xv2':  '穿越，横贯（移动穿过或越过某处；从一端到另一端地通过）',
+  'xv3':  '彻底检修，全面改造（对某事物进行深度审查和修整；重建或现代化）',
+  'xv4':  '扩散，蔓延（从一处传播至另一处；原指癌症转移，引申为有害现象的蔓延）',
+  'xv5':  '恳求，哀求（急切而诚恳地请求；热切地祈求或恳请）',
+  'xv6':  '祝圣，奉献（使某物神圣；庄重地将某事物专用于崇高目的）',
+  'xv7':  '诱捕，使陷入圈套（用陷阱捕获；通过诡计或隐秘手段使人陷入困境）',
+  'xv8':  '沉溺，打滚（在某物中翻滚；过度沉迷于享乐或自怜）',
+  'xv9':  '证明清白，为……辩护（洗去指控或怀疑；证明某人或某事的正确性）',
+  'xv10': '赋予价值，提升地位（给某事物赋予意义和重要性；视为值得尊重或认可的）',
+  'xv11': '传道，狂热宣扬（以传教般的热忱宣传某种信念；致力于劝服他人）',
+  'xv12': '编辑，删改（为出版而审改文件；删除敏感或机密内容）',
+  'xv13': '渗透，慢慢扩散（逐渐过滤通过多孔物质；缓慢而弥散地传播）',
+  'xv14': '暗示，迂回暗指（以迂回的方式暗示；巧妙地将自己渗入某处或某人的好感）',
+
+  'xa5':  '偏执的，固执不宽容的（对与自身不同的信仰或做法固执地不包容；盲目忠于某群体）',
+  'xa6':  '自满的，沾沾自喜的（对自己或现状缺乏批判地满足；安于现状而不思进取）',
+  'xa7':  '使性子的，撒气的（孩子气地闷闷不乐或脾气暴躁；因不如意而易怒挑剔）',
+  'xa8':  '极其恶劣的，触目惊心的（坏得异常突出；因错误之严重而令人震惊）',
+  'xa9':  '好斗的，激进的（在追求某事业时富有攻击性；对抗性和对峙性强）',
+  'xa10': '荒诞的，滑稽可笑的（类似闹剧；荒谬到令人发笑的程度）',
+  'xa11': '早熟的，早慧的（心智或文化能力发育异常早；提前成熟）',
+  'xa12': '奇特的，特有的（明显奇怪或不寻常；专属于某人或某情境）',
+  'xa13': '深蓝色的，青色的（呈深蓝或青蓝色；天蓝色）',
+  'xa14': '令人心酸的，感人的（唤起强烈悲伤或遗憾之感；深刻触动情感）',
+  'xa15': '地球的，大地的（与地球有关的；属于地球或其居民的）',
+  'xa16': '难以捉摸的，逃避的（难以发现、捕获或界定；倾向于逃脱掌握）',
+  'xa17': '自以为是的，放肆的（不观察适当限度；以傲慢的大胆逾越本分）',
+  'xa18': '构成性的，形成性的（构成基本要素；具有建立或创造某物的能力）',
+  'xa19': '幼虫阶段的，初级的（与幼虫有关；处于早期未发育阶段；潜伏的）',
+  'xa20': '即将来临的，迫近的（即将发生的；紧迫逼近）',
+  'xa21': '灵知的，秘传知识的（与知识，尤其是秘传灵性知识有关；声称洞悉隐秘真理）',
+  'xa22': '有害的，造成损伤的（导致伤害或损害；对利益或健康有损）',
+  'xa23': '平等主义的（相信或基于所有人平等权利和机会的原则）',
+  'xa24': '阴谋策划的，暗中勾结的（密谋或图谋；默许或故意忽视不当行为）',
+  'xa25': '刻意制造的，矫揉造作的（刻意而非自然地创造；勉强而缺乏自发性）',
+  'xa26': '权威的，经典的（符合或由公认权威确立的；被纳入认可作品体系的）',
+  'xa27': '象征性的，标志性的（充当象征或代表；体现更大事物的典型）',
+  'xa28': '垂涎的，令人渴求的（被许多人强烈渴望的；热切盼望拥有的）',
+  'xa29': '谄媚的，献媚的（以卑屈奉承的方式过分讨好；阿谀奉承）',
+  'xa30': '奉承的，卑躬屈膝的（过度服从或殷勤到奴颜婢膝的程度；讨好巴结）',
+  'xa31': '脆弱的，站不住脚的（极其薄弱或缺乏实质；缺乏坚实基础）',
+  'xa32': '暗示性的，潜入式的（以微妙方式慢慢渗透；不明说而暗示不快之事）',
+  'xa33': '背叛的，危险的（犯有或涉及背叛；因隐藏危险而危险）',
+  'xa34': '启发式的，探索性的（通过探索和试错促进发现；提供实用但不保证最优的方法）',
+  'xa35': '巨大的，庞大的（极其庞大；令人压倒性的尺寸）',
+  'xa36': '可疑的，存疑的（犹疑不决；质量、诚信或来源存疑）',
+  'xa37': '不可分割的（无法被分割或分离；构成不可分开的整体）',
+  'xa38': '无忧无虑的，漫不经心的（表现出愉快而随意的漠然；对后果轻松不在意）',
+  'xa39': '感恩的，负有义务的（因某项服务或恩惠而欠情；欠款或负有义务）',
+
+  'xn9':  '大胆，放肆（承担大胆风险的意愿；鲁莽的无礼；无畏的勇气）',
+  'xn10': '胆量，勇气（在困难面前表现出的精神和坚定勇气）',
+  'xn11': '坚韧，执着（极度坚定的品质；在立场或行动方针上的持续坚持）',
+  'xn12': '后果，波及（某行动或事件的复杂或意料之外的后果；从中心延伸的分支）',
+  'xn13': '处变不惊，泰然自若（在困难情境中保持镇静的品质；不可动摇的从容）',
+  'xn14': '套利，利差交易（利用市场间价格差异的做法；利用结构性不一致获利）',
+  'xn15': '堕落，羞辱（地位或尊严降低的状态；道德或物质的败坏）',
+  'xn16': '贪婪，吝啬（对财富或物质利益的极度贪心；守财奴式的占有欲）',
+  'xn17': '债役制，强迫劳动（工人被迫服役以偿还债务的制度；任何形式的强迫劳役）',
+  'xn18': '死手，历史惰性（法人对财产的永久所有权；过去对现在的阻滞性束缚）',
+  'xn19': '粒度，细节层级（数据、分析或纹理的规模或详细程度；分辨率的精细度）',
+  'xn20': '频闪灯，频闪效果（产生短促强烈重复闪光的装置；任何频闪效果）',
+  'xn21': '疾病，顽疾（一种疾病或病痛；系统中根深蒂固的问题或不健康状态）',
+  'xn22': '阐释学（尤其对文本或文化工件进行解释的理论和方法论）',
+  'xn23': '行话，识别口令（用于识别某群体成员的词语或做法；固执维持的过时信念）',
+  'xn24': '家长主义（以所谓的利益为由限制他人自由的做法；将成年人当孩子对待的治理方式）',
+  'xn25': '作秀，哗众取宠（旨在赢得观众好感的行为；重形式而非实质地表演）',
+  'xn26': '超凡能力，卓越技巧（某活动中的技能或专长；非凡的才能或勇气）',
+  'xn27': '手势，比划（使用富有表现力的、常为戏剧性的手势；生动的肢体表达）',
+  'xn28': '虚假民意，人工草皮行动（掩盖信息真正赞助者以模拟草根支持的做法）',
+  'xn29': '鉴赏家，行家（品味方面的专家评判者；在某领域具有精致知识和深刻欣赏力的人）',
+  'xn30': '滞胀（经济停滞与通货膨胀并存的经济状况；持续的高物价与经济萎缩并存）',
+  'xn31': '赘言，同义反复（用不同词语表达同一件事；本身必然为真的陈述）',
+  'xn32': '惯习（布尔迪厄概念：通过社会地位习得的内化习惯、倾向和品味；体化的社会结构）',
+  'xn33': '根茎，块茎式网络（水平地下茎；在德勒兹和瓜塔里那里，指非等级化、多入口的思想网络模型）',
+  'xn34': '神秘魅力，光环（围绕某事物的迷人神秘气质；激发敬畏的权威气息）',
+  'xn35': '经验主义（知识源于感官经验的理论；以观察为基础得出结论的实践）',
+  'xn36': '偏执，固执偏见（对不同信仰或做法的顽固不宽容；偏狭的歧视）',
+  'xn37': '唱反调者，逆向思维者（反对主流意见的人；以采取相反立场为原则或策略的人）',
+  'xn38': '公理，不证自明的原则（不证自明的真理或被普遍接受的原则；无需证明的基础性陈述）',
+  'xn39': '放逐，排斥（由共同协定将某人排除在社会或群体之外；社会或政治流放）',
+  'xn40': '谴责，强烈批评（表达强烈的不认可；判定某事错误或不可接受的行为）',
+  'xn41': '孕育，酝酿（出生前的发育期；在就绪前发展想法或计划的过程）',
+  'xn42': '家谱，谱系（研究或追溯家族历史；从早期形式的发展脉络）',
+  'xn43': '瘫痪，无法行动（行动能力的丧失；因过多选择、恐惧或矛盾造成的无法运转）',
+  'xn44': '启示，揭露（令人惊讶的此前未知的事实，尤其以戏剧性方式披露；神圣或深刻的揭示）',
+  'xn45': '知己，密友（倾诉秘密的对象；分享私事的值得信赖的朋友）',
+  'xn46': '侵吞公款，挪用（对托管资金的盗窃；由处于责任职位的人对资金的挪用）',
+  'xn47': '清晰，明澈（表达或思想的清晰度；易于理解的品质）',
+  'xn48': '悔过，忏悔（对错误行为的真诚悔悟并伴随改变承诺；从过去错误中转变）',
+  'xn49': '神化，顶点（被提升至神圣地位；某事物的最高或最完美点；完美典范）',
+  'xn50': '群岛（一串或一群岛屿；任何散布的相关元素群）',
+  'xn51': '经典，正典（被认为最重要的公认作品体系；权威的标准或规则）',
+  'xn52': '媚俗，廉价感伤（被视为俗气或过于滥情的艺术或物品；刻意培养劣趣味）',
+  'xn53': '智慧圈，人类思维层（人类思想的领域；人类知识与认知的总体，作为地球的一个层次）',
+  'xn54': '剧变，动荡（激烈或突然的变化；对既定秩序的颠覆）',
+  'xn55': '厌男，对男性的偏见（对男性的不喜欢、蔑视或根深蒂固的偏见）',
+  'xn56': '妄想性联系，模式强加（在不相关事物之间感知到有意义联系或模式的倾向；虚假的模式识别）',
+  'xn57': '密谋小集团，阴谋团伙（从事阴谋策划的秘密群体；暗中掌控的小派系）',
+  'xn58': '黏液；冷静沉着（呼吸系统分泌的黏液；在体液传统中，指不受激情左右的沉静从容）',
+  'xn59': '消瘦，枯瘦（极度消瘦；荒凉稀疏的状态；憔悴的瘦削）',
+  'xn60': '程式化，风格化（以约定俗成的非写实形式表现某物；施加一致的形式风格）',
+  'xn61': '塔架，高压电线塔（用于支撑电缆或标记通道的高大结构；纪念性门塔）',
+  'xn62': '放荡，糜烂（对感官享乐的过度放纵；通过追求快乐的道德堕落）',
+  'xn63': '义愤，愤慨（因感知到不公或侮辱性对待而产生的愤怒或恼怒；正义之怒）',
+  'xn64': '清算，算账（计算或结清帐目的过程；过去错误必须面对并偿还的时刻）',
+  'xn65': '懒人行动主义（仅通过转发点赞等象征性行为支持某事业，创造参与感而无实际努力）',
+  'xn66': '迷恋状态（对他人痴迷的状态，以侵入性思想和强烈渴望为特征）',
+  'xn67': '迷恋，痴迷（强烈但短暂的激情或崇拜；盲目而不加批判的崇拜）',
+  'xn68': '笔名，化名（假名，尤指作家使用的；笔名或别名）',
+  'xn69': '边缘，外沿（外边缘或边际；处于社会或文化群体边缘的人）',
+  'xn70': '帕什米纳羊绒（来自喜马拉雅帕什米纳山羊的细腻奢华羊毛；用此纤维制成的披肩或围巾）'
 };
 
 let userWords = JSON.parse(localStorage.getItem('partake_vocab') || '[]');
