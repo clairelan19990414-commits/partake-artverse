@@ -2904,11 +2904,6 @@ const ZH = {
 };
 
 let userWords = JSON.parse(localStorage.getItem('partake_vocab') || '[]');
-// One-time clear: wipe the old dismissed list so all words reappear fresh
-if (localStorage.getItem('partake_vocab_version') !== '2') {
-  localStorage.removeItem('partake_dismissed');
-  localStorage.setItem('partake_vocab_version', '2');
-}
 let dismissedIds = JSON.parse(localStorage.getItem('partake_dismissed') || '[]');
 let currentFilter = 'all';
 let currentSearch = '';
