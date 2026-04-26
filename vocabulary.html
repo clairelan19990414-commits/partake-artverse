@@ -896,6 +896,7 @@
       
       
       <button class="vocab-filter" data-filter="banked">Banked</button>
+      <button class="vocab-filter" data-filter="dismissed">Dismissed</button>
       <button class="add-btn" id="addBtn">+ Add Word</button>
       <button class="test-btn" id="testBtn">▶ Test Me</button>
     </div>
@@ -2904,13 +2905,20 @@ const ZH = {
 };
 
 let userWords = JSON.parse(localStorage.getItem('partake_vocab') || '[]');
+// One-time clear of old dismissed list — starts fresh
+if (localStorage.getItem('partake_vocab_version') !== '3') {
+  localStorage.removeItem('partake_dismissed');
+  localStorage.setItem('partake_vocab_version', '3');
+}
 let dismissedIds = JSON.parse(localStorage.getItem('partake_dismissed') || '[]');
 let currentFilter = 'all';
 let currentSearch = '';
 let synth = window.speechSynthesis;
 
 function allWords() {
-  return [...SEED_WORDS, ...userWords].filter(w => !dismissedIds.includes(w.id));
+  const all = [...SEED_WORDS, ...userWords];
+  if (currentFilter === 'dismissed') return all.filter(w => dismissedIds.includes(w.id));
+  return all.filter(w => !dismissedIds.includes(w.id));
 }
 
 function dismissWord(id) {
@@ -2922,6 +2930,12 @@ function dismissWord(id) {
     dismissedIds.push(id);
     localStorage.setItem('partake_dismissed', JSON.stringify(dismissedIds));
   }
+  renderWords();
+}
+
+function restoreWord(id) {
+  dismissedIds = dismissedIds.filter(d => d !== id);
+  localStorage.setItem('partake_dismissed', JSON.stringify(dismissedIds));
   renderWords();
 }
 
@@ -2939,6 +2953,7 @@ function filteredWords() {
     const matchFilter = currentFilter === 'all' ? true
       : currentFilter === 'user' ? userWords.find(u => u.id === w.id)
       : currentFilter === 'banked' ? isBanked(w.id)
+      : currentFilter === 'dismissed' ? true
       : w.pos === currentFilter;
     const q = currentSearch.toLowerCase();
     const matchSearch = !q || w.word.toLowerCase().includes(q) || w.definition.toLowerCase().includes(q);
@@ -2963,8 +2978,9 @@ function renderWords() {
   words.forEach(w => {
     const isUser = !!userWords.find(u => u.id === w.id);
     const banked = isBanked(w.id);
+    const dismissed = currentFilter === 'dismissed';
     const card = document.createElement('div');
-    card.className = 'word-card' + (banked ? ' banked' : isUser ? ' user-added' : '');
+    card.className = 'word-card' + (banked ? ' banked' : isUser ? ' user-added' : '') + (dismissed ? ' dismissed-card' : '');
 
     const posLabel = w.pos === 'verb' ? 'verb' : w.pos === 'adjective' ? 'adjective' : w.pos === 'noun' ? 'noun' : w.pos;
 
@@ -2975,9 +2991,12 @@ function renderWords() {
       <div class="word-header">
         <div class="word-text" onclick="speak('${w.word}')" title="Click to pronounce">${w.word}${banked ? '<span class="bank-indicator">★ review</span>' : ''}</div>
         <div class="word-actions">
-          <button class="speak-btn" title="Pronounce" onclick="speak('${w.word}')">♪</button>
-          <button class="delete-btn" title="${banked ? 'Remove from bank' : 'Bank for review'}" onclick="toggleBank('${w.id}')" style="color:${banked ? '#c87800' : ''}; border-color:${banked ? '#c87800' : ''}">★</button>
-          <button class="delete-btn" title="Dismiss — I've learned this" onclick="dismissWord('${w.id}')">✕</button>
+          ${dismissed
+            ? `<button class="delete-btn" title="Restore word" onclick="restoreWord('${w.id}')" style="color:#4a8; border-color:#4a8">↩</button>`
+            : `<button class="speak-btn" title="Pronounce" onclick="speak('${w.word}')">♪</button>
+               <button class="delete-btn" title="${banked ? 'Remove from bank' : 'Bank for review'}" onclick="toggleBank('${w.id}')" style="color:${banked ? '#c87800' : ''}; border-color:${banked ? '#c87800' : ''}">★</button>
+               <button class="delete-btn" title="Dismiss — I've learned this" onclick="dismissWord('${w.id}')">✕</button>`
+          }
         </div>
       </div>
       <span class="word-pos ${w.pos}">${posLabel}</span>
