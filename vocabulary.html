@@ -2736,7 +2736,7 @@ function toggleBank(id) {
 }
 
 // ── TEST ENGINE ──
-let testQueue = [], testIndex = 0, testCorrect = 0, testWrong = 0, testCurrentWord = null, testCurrentType = null;
+let testQueue = [], testIndex = 0, testCorrect = 0, testWrong = 0, testCurrentWord = null, testCurrentType = null, testCurrentCorrectSyn = null;
 const overlay = document.getElementById('testOverlay');
 
 let recentIds = JSON.parse(localStorage.getItem('partake_recent') || '[]');
@@ -2794,9 +2794,9 @@ function startTest() {
 function showQuestion() {
   if (testIndex >= testQueue.length) { showSummary(); return; }
   testCurrentWord = testQueue[testIndex];
-  // alternate between mc-definition, mc-word, write-in
-  const types = ['mc-def', 'mc-word', 'write'];
-  testCurrentType = types[testIndex % 3];
+  // GRE-style rotation: definition→word, synonym match, sentence completion, word→definition
+  const types = ['mc-def', 'mc-synonym', 'mc-blank', 'mc-word'];
+  testCurrentType = types[testIndex % 4];
 
   recordSeen(testCurrentWord.id);
   updateProgress();
@@ -2807,39 +2807,42 @@ function showQuestion() {
   const prompt = document.getElementById('testPrompt');
   const mc = document.getElementById('testMcOptions');
   const writeWrap = document.getElementById('testWriteWrap');
-  const writeInput = document.getElementById('testWriteInput');
 
-  writeInput.value = '';
-  writeInput.className = 'write-input';
   mc.style.display = 'none';
   writeWrap.style.display = 'none';
 
-  // reset I don't know button
   let dkBtn = document.getElementById('testDontKnow');
   if (dkBtn) { dkBtn.style.display = 'block'; dkBtn.disabled = false; }
 
   if (testCurrentType === 'mc-def') {
-    label.textContent = 'Definition → Word · choose the correct word';
+    label.textContent = 'Definition → Word · which word matches this definition?';
     prompt.className = 'test-prompt';
     prompt.innerHTML = testCurrentWord.definition;
     mc.style.display = 'grid';
     buildMcOptions('word');
-    if (dkBtn) dkBtn.style.display = 'block';
   } else if (testCurrentType === 'mc-word') {
-    label.textContent = 'Word → Definition · choose the correct definition';
-    // show word + inline speak button
+    label.textContent = 'Word → Definition · which definition is correct?';
     prompt.className = 'test-prompt is-word';
     prompt.innerHTML = `${testCurrentWord.word} <button class="test-speak-inline" onclick="speak('${testCurrentWord.word}')" title="Hear pronunciation">♪</button>`;
     mc.style.display = 'grid';
     buildMcOptions('def');
-    if (dkBtn) dkBtn.style.display = 'block';
-  } else {
-    label.textContent = 'Spell it · type the word from its definition';
+  } else if (testCurrentType === 'mc-synonym') {
+    label.textContent = 'Synonym · which word is closest in meaning?';
+    prompt.className = 'test-prompt is-word';
+    prompt.innerHTML = `${testCurrentWord.word} <button class="test-speak-inline" onclick="speak('${testCurrentWord.word}')" title="Hear pronunciation">♪</button>`;
+    mc.style.display = 'grid';
+    buildMcSynonymOptions();
+  } else if (testCurrentType === 'mc-blank') {
+    label.textContent = 'Sentence completion · choose the word that best fills the blank';
+    const ex = testCurrentWord.example || '';
+    const escaped = testCurrentWord.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const blanked = ex
+      ? ex.replace(new RegExp(escaped + '\\w*', 'gi'), '_______')
+      : testCurrentWord.definition;
     prompt.className = 'test-prompt';
-    prompt.innerHTML = testCurrentWord.definition;
-    writeWrap.style.display = 'flex';
-    writeInput.focus();
-    if (dkBtn) dkBtn.style.display = 'none'; // no skip on write-in, just leave blank
+    prompt.innerHTML = ex ? `<em>${blanked}</em>` : blanked;
+    mc.style.display = 'grid';
+    buildMcOptions('word');
   }
 }
 
@@ -2863,15 +2866,53 @@ function buildMcOptions(type) {
 }
 
 function checkMc(correct, clickedBtn) {
+  const correctText = testCurrentType === 'mc-word' ? testCurrentWord.definition : testCurrentWord.word;
   document.querySelectorAll('.mc-option').forEach(b => {
     b.disabled = true;
     if (b === clickedBtn) b.classList.add(correct ? 'correct' : 'wrong');
-    if (!correct && b.textContent === (testCurrentType === 'mc-def' ? testCurrentWord.word : testCurrentWord.definition)) {
-      b.classList.add('correct');
-    }
+    if (!correct && b.textContent === correctText) b.classList.add('correct');
   });
   if (correct) testCorrect++; else testWrong++;
   showFeedback(correct);
+}
+
+function buildMcSynonymOptions() {
+  const mc = document.getElementById('testMcOptions');
+  mc.innerHTML = '';
+  const mySyns = SYNONYMS[testCurrentWord.id] || [];
+  if (!mySyns.length) { buildMcOptions('def'); return; }
+
+  const correctSyn = mySyns[Math.floor(Math.random() * mySyns.length)];
+  testCurrentCorrectSyn = correctSyn;
+
+  // gather 3 distractors from other words' synonym lists
+  const others = shuffle(allWords().filter(w => w.id !== testCurrentWord.id && (SYNONYMS[w.id] || []).length));
+  const distractors = [];
+  for (const w of others) {
+    const syns = SYNONYMS[w.id];
+    const pick = syns[Math.floor(Math.random() * syns.length)];
+    if (!mySyns.includes(pick) && !distractors.includes(pick)) {
+      distractors.push(pick);
+      if (distractors.length === 3) break;
+    }
+  }
+
+  shuffle([correctSyn, ...distractors]).forEach(syn => {
+    const btn = document.createElement('button');
+    btn.className = 'mc-option';
+    btn.textContent = syn;
+    btn.addEventListener('click', () => {
+      const isCorrect = syn === correctSyn;
+      document.querySelectorAll('.mc-option').forEach(b => {
+        b.disabled = true;
+        if (b === btn) b.classList.add(isCorrect ? 'correct' : 'wrong');
+        if (!isCorrect && b.textContent === correctSyn) b.classList.add('correct');
+      });
+      if (isCorrect) testCorrect++; else testWrong++;
+      showFeedback(isCorrect);
+    });
+    mc.appendChild(btn);
+  });
 }
 
 function checkWrite() {
@@ -2981,11 +3022,14 @@ document.getElementById('testDismissBtn').addEventListener('click', () => {
 });
 
 document.getElementById('testDontKnow').addEventListener('click', () => {
+  const correctText = testCurrentType === 'mc-synonym'
+    ? testCurrentCorrectSyn
+    : testCurrentType === 'mc-word'
+      ? testCurrentWord.definition
+      : testCurrentWord.word;
   document.querySelectorAll('.mc-option').forEach(b => {
     b.disabled = true;
-    if (b.textContent === (testCurrentType === 'mc-def' ? testCurrentWord.word : testCurrentWord.definition)) {
-      b.classList.add('correct');
-    }
+    if (b.textContent === correctText) b.classList.add('correct');
   });
   testWrong++;
   showFeedback(false, true);
