@@ -2077,6 +2077,14 @@ const SEED_WORDS = [
   { id:'xn70', word:'pashmina',        pos:'noun',
     definition:'A fine, luxurious wool from the Himalayan Pashmina goat; a shawl or wrap made from this fiber.',
     example:'The pashmina draped over every chair at the vernissage — cashmere-adjacent, status-confirming — is the room\'s most reliable datum.',
+    source:'Personal lookup' },
+  { id:'xv15', word:'commingle',       pos:'verb',
+    definition:'To mix or blend together; to combine different elements so thoroughly that they become difficult to separate.',
+    example:'The installation commingles archival footage with staged performance until the boundary between document and fiction dissolves entirely.',
+    source:'Personal lookup' },
+  { id:'xa40', word:'flagrant',        pos:'adjective',
+    definition:'Conspicuously and outrageously bad; so obviously wrong that it cannot be overlooked or excused.',
+    example:'The flagrant disregard for copyright became the lawsuit\'s centerpiece — not subtle infringement, but verbatim reproduction.',
     source:'Personal lookup' }
 ];
 
@@ -2342,7 +2350,9 @@ const SYNONYMS = {
   'xn67': ['crush','obsession','passion','fixation','blind love','enchantment','bewitchment','adoration','romantic mania','captivation'],
   'xn68': ['pen name','alias','nom de plume','assumed name','stage name','nom de guerre','false name','anonym','moniker','handle'],
   'xn69': ['margin','periphery','edge','outer limits','extremity','borderland','outliers','radical wing','underground','counterculture'],
-  'xn70': ['cashmere shawl','Himalayan wool','fine wool wrap','luxury fiber shawl','softspun shawl','goat-wool textile','luxury wrap','fine-wool shawl','cashmere-adjacent wrap','artisan shawl']
+  'xn70': ['cashmere shawl','Himalayan wool','fine wool wrap','luxury fiber shawl','softspun shawl','goat-wool textile','luxury wrap','fine-wool shawl','cashmere-adjacent wrap','artisan shawl'],
+  'xv15': ['blend','intermix','merge','fuse','amalgamate','mingle','intermingle','interweave','coalesce','integrate'],
+  'xa40': ['blatant','glaring','egregious','brazen','shameless','outrageous','conspicuous','notorious','rank','undisguised']
 };
 
 const ZH = {
@@ -2609,7 +2619,9 @@ const ZH = {
   'xn67': '迷恋，痴迷（强烈但短暂的激情或崇拜；盲目而不加批判的崇拜）',
   'xn68': '笔名，化名（假名，尤指作家使用的；笔名或别名）',
   'xn69': '边缘，外沿（外边缘或边际；处于社会或文化群体边缘的人）',
-  'xn70': '帕什米纳羊绒（来自喜马拉雅帕什米纳山羊的细腻奢华羊毛；用此纤维制成的披肩或围巾）'
+  'xn70': '帕什米纳羊绒（来自喜马拉雅帕什米纳山羊的细腻奢华羊毛；用此纤维制成的披肩或围巾）',
+  'xv15': '混合，掺杂（将不同元素彻底融合，使之难以区分或分离）',
+  'xa40': '公然的，明目张胆的（明显而不加掩饰地违反规范或道德；严重到无法忽视或宽恕）'
 };
 
 let userWords = JSON.parse(localStorage.getItem('partake_vocab') || '[]');
