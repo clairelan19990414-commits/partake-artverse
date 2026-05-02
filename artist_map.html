@@ -3185,49 +3185,85 @@ function wikiImage(name) {
 }
 
 // Fetch the short description + first-paragraph extract for an artist via
-// Wikipedia's REST summary endpoint. Used to fill in tooltip detail when the
-// local data has only the name.
+// Wikipedia's REST summary endpoint. Falls back to a search query when the
+// direct slug lookup misses (alternate transliteration, disambig, etc.).
 const _summaryCache = {};
-function pageSummary(name) {
-  if (name in _summaryCache) return Promise.resolve(_summaryCache[name]);
-  const slug = encodeURIComponent(name.replace(/ /g, '_'));
+const _resolvedTitleCache = {};
+
+function _summaryFromTitle(title) {
+  const slug = encodeURIComponent(title.replace(/ /g, '_'));
   return fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${slug}`)
     .then(r => r.ok ? r.json() : null)
     .then(d => {
-      if (!d || d.type === 'disambiguation') { _summaryCache[name] = null; return null; }
-      const out = {
+      if (!d || d.type === 'disambiguation') return null;
+      return {
         description: d.description || null,
         extract: d.extract || null,
         thumbnail: d.thumbnail?.source || null,
+        resolvedTitle: d.title || title,
       };
-      _summaryCache[name] = out;
-      return out;
     })
-    .catch(() => { _summaryCache[name] = null; return null; });
+    .catch(() => null);
+}
+
+function _wikiSearchTitle(name) {
+  if (name in _resolvedTitleCache) return Promise.resolve(_resolvedTitleCache[name]);
+  const url = `https://en.wikipedia.org/w/api.php?action=query&format=json&origin=*&list=search&srlimit=1&srsearch=${encodeURIComponent(name + ' artist')}`;
+  return fetch(url)
+    .then(r => r.ok ? r.json() : null)
+    .then(d => {
+      const t = d?.query?.search?.[0]?.title || null;
+      _resolvedTitleCache[name] = t;
+      return t;
+    })
+    .catch(() => { _resolvedTitleCache[name] = null; return null; });
+}
+
+async function pageSummary(name) {
+  if (name in _summaryCache) return _summaryCache[name];
+  let s = await _summaryFromTitle(name);
+  if (!s) {
+    const found = await _wikiSearchTitle(name);
+    if (found && found.toLowerCase() !== name.toLowerCase()) {
+      s = await _summaryFromTitle(found);
+    }
+  }
+  _summaryCache[name] = s;
+  return s;
 }
 
 // Fetch a list of image URLs from an artist's Wikipedia page (works, install
-// shots, etc.) — filtered to real photos, excluding UI icons.
+// shots, etc.) — filtered to real photos, excluding UI icons. Falls back to
+// search when the direct title lookup returns nothing.
 const _pageImgCache = {};
-function pageImages(name) {
-  if (name in _pageImgCache) return Promise.resolve(_pageImgCache[name]);
+async function pageImages(name) {
+  if (name in _pageImgCache) return _pageImgCache[name];
+  let imgs = await _pageImagesByTitle(name);
+  if (!imgs.length) {
+    const found = await _wikiSearchTitle(name);
+    if (found && found.toLowerCase() !== name.toLowerCase()) {
+      imgs = await _pageImagesByTitle(found);
+    }
+  }
+  _pageImgCache[name] = imgs;
+  return imgs;
+}
+function _pageImagesByTitle(name) {
   const title = encodeURIComponent(name.replace(/ /g, '_'));
   const url = `https://en.wikipedia.org/w/api.php?action=query&format=json&origin=*&generator=images&gimlimit=20&prop=imageinfo&iiprop=url&iiurlwidth=480&redirects=1&titles=${title}`;
   return fetch(url)
     .then(r => r.ok ? r.json() : null)
     .then(d => {
-      if (!d) { _pageImgCache[name] = []; return []; }
+      if (!d) return [];
       const pages = d.query?.pages || {};
       const skipRe = /(commons-logo|wikimedia|wiki[-_ ]?icon|edit[-_ ]?icon|file[-_ ]?icon|placeholder|broom|question_?book|symbol|fairuse|wikidata|disambig|ambox|red_pencil|exclamation|question_mark|nuvola|crystal_clear|gnome-)/i;
       const imgRe = /\.(jpe?g|png|webp)$/i;
-      const imgs = Object.values(pages)
+      return Object.values(pages)
         .filter(p => p.title && imgRe.test(p.title) && !skipRe.test(p.title))
         .map(p => p.imageinfo?.[0]?.thumburl || p.imageinfo?.[0]?.url)
         .filter(u => u);
-      _pageImgCache[name] = imgs;
-      return imgs;
     })
-    .catch(() => { _pageImgCache[name] = []; return []; });
+    .catch(() => []);
 }
 
 // Try several Wikipedia slug variants for a work title, falling back to the
