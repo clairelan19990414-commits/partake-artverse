@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Septemics · partake notes</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+<link rel="stylesheet" href="septemics.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <a class="nav-logo" href="index.html">partake</a>
+  <div class="nav-links">
+    <a class="nav-link" href="index.html">home</a>
+    <a class="nav-link" href="master.html">synthesis</a>
+    <a class="nav-link" href="brand_systems.html">brand systems</a>
+    <a class="nav-link" href="language_memory.html">language memory</a>
+    <a class="nav-link" href="platform_selfhood.html">platform selfhood</a>
+    <a class="nav-link" href="visual_taste_place.html">visual taste place</a>
+    <a class="nav-link" href="timeline.html">timeline</a>
+    <a class="nav-link" href="artist_map.html">artist map</a>
+    <a class="nav-link" href="septemics.html">septemics</a>
+  </div>
+</nav>
+
+<header class="home-header">
+  <div class="home-logo">septemics<span style="color:#fff">·</span>assessment</div>
+  <div class="home-tagline">guided test · profile dashboard · scale detail</div>
+</header>
+
+<main class="page-body sept-main">
+  <p id="dataStatus" class="data-status"></p>
+
+  <section id="assessmentBlock" class="assessment-hero">
+    <div class="assessment-hero-head">
+      <div>
+        <div class="section-label">Guided Assessment</div>
+        <div class="assessment-hero-title">Find your current level, then use the dashboard to refine it.</div>
+      </div>
+      <div class="assessment-hero-meta">Core test first · full test optional</div>
+    </div>
+
+    <div class="assessment-hero-grid">
+      <div id="assessmentPanel" class="panel assessment-panel"></div>
+
+      <aside class="summary-card">
+        <div class="summary-title">Overall Profile</div>
+        <div class="summary-value" id="overallValue">--</div>
+        <div class="summary-meta" id="overallMeta">Run the guided test to get your baseline.</div>
+      </aside>
+    </div>
+  </section>
+
+  <section id="view-dashboard" class="dashboard-section">
+    <div class="quick-note">
+      Start with the guided test, then use the dashboard cards to inspect or adjust individual scales. Everything lives on this one page.
+    </div>
+
+    <div class="section-label">Scale Dashboard</div>
+    <div id="dashboardGrid" class="scale-grid"></div>
+  </section>
+
+  <section id="view-detail" class="detail-section">
+    <div class="section-label">Scale Detail</div>
+    <div id="detailPanel" class="panel"></div>
+  </section>
+</main>
+
+<script src="septemics_data.js?v=2"></script>
+<script>
+(function () {
+  const STORAGE_SCORES_KEY = "septemics:scores:v2";
+  const STORAGE_HISTORY_KEY = "septemics:history:v2";
+  const DATA_URL = "septemics_content.json";
+  const DIRECTION_ASC = "asc";
+  const DIRECTION_DESC = "desc";
+  const CORE_SCALE_NAMES = [
+    "The Scale Of Basic Purposes",
+    "The Scale Of Personal Influence",
+    "The Scale Of Choice",
+    "The Scale Of Thought",
+    "The Scale Of Identity",
+    "The Scale Of Evaluation",
+    "The Scale Of Motivation",
+    "The Scale Of Control",
+    "The Scale Of Human Ability",
+    "The Scale Of Memory",
+    "The Scale Of Physical Fitness",
+    "The Scale Of Equanimity"
+  ];
+
+  const state = {
+    scales: [],
+    scores: {},
+    history: {},
+    dataSourceLabel: DATA_URL,
+    selectedScaleName: null,
+    assessmentIndex: 0,
+    assessmentPool: [],
+    assessmentMode: "core",
+    assessmentStarted: false,
+    assessmentSummary: null,
+    assessmentDraft: {},
+    dataError: "",
+    assessmentNote: ""
+  };
+
+  const els = {};
+
+  document.addEventListener("DOMContentLoaded", init);
+
+  async function init() {
+    cacheElements();
+    bindEvents();
+    loadStorage();
+    await loadScales();
+    ensureScoreState();
+    seedAssessmentDraft();
+    render();
+  }
+
+  function cacheElements() {
+    els.dataStatus = document.getElementById("dataStatus");
+    els.overallValue = document.getElementById("overallValue");
+    els.overallMeta = document.getElementById("overallMeta");
+    els.dashboardGrid = document.getElementById("dashboardGrid");
+    els.detailPanel = document.getElementById("detailPanel");
+    els.assessmentPanel = document.getElementById("assessmentPanel");
+    els.assessmentBlock = document.getElementById("assessmentBlock");
+    els.dashboardSection = document.getElementById("view-dashboard");
+    els.detailSection = document.getElementById("view-detail");
+  }
+
+  function bindEvents() {
+    els.dashboardGrid.addEventListener("click", function (event) {
+      const target = event.target.closest("[data-open-scale]");
+      if (!target) return;
+      const scaleName = target.getAttribute("data-open-scale");
+      openScaleDetail(scaleName);
+    });
+
+    els.detailPanel.addEventListener("click", function (event) {
+      if (event.target.matches("[data-back-dashboard]")) {
+        state.selectedScaleName = null;
+        renderDetail();
+        scrollToElement(els.dashboardSection);
+        return;
+      }
+
+      if (event.target.matches("[data-set-level]")) {
+        const levelNumber = Number(event.target.getAttribute("data-set-level"));
+        if (!Number.isFinite(levelNumber)) return;
+        const scale = getScaleByName(state.selectedScaleName);
+        if (!scale) return;
+        setScore(scale.name, levelNumber, { recordHistory: true });
+        renderDashboard();
+        renderSummary();
+        renderDetail();
+      }
+    });
+
+    els.assessmentPanel.addEventListener("change", function (event) {
+      if (!event.target.matches("input[name='assessment-level']")) return;
+      const levelNumber = Number(event.target.value);
+      const scale = getAssessmentScale();
+      if (!scale) return;
+      state.assessmentDraft[scale.name] = levelNumber;
+      state.assessmentNote = "";
+      renderAssessment();
+    });
+
+    document.addEventListener("click", function (event) {
+      const beginButton = event.target.closest("[data-assess-begin]");
+      if (beginButton && els.assessmentPanel.contains(beginButton)) {
+        const mode = beginButton.getAttribute("data-assess-begin") || "core";
+        beginAssessment(mode);
+        return;
+      }
+
+      const backButton = event.target.closest("[data-assess-back]");
+      if (backButton && els.assessmentPanel.contains(backButton)) {
+        if (state.assessmentIndex > 0) {
+          state.assessmentIndex -= 1;
+          state.assessmentNote = "";
+          renderAssessment();
+        }
+        return;
+      }
+
+      const nextButton = event.target.closest("[data-assess-next]");
+      if (nextButton && els.assessmentPanel.contains(nextButton)) {
+        advanceAssessment();
+        return;
+      }
+
+      const finishButton = event.target.closest("[data-assess-finish]");
+      if (finishButton && els.assessmentPanel.contains(finishButton)) {
+        finishAssessment();
+        return;
+      }
+
+      const cancelButton = event.target.closest("[data-assess-cancel]");
+      if (cancelButton && els.assessmentPanel.contains(cancelButton)) {
+        openAssessmentSetup();
+        return;
+      }
+
+      const dashboardButton = event.target.closest("[data-assess-dashboard]");
+      if (dashboardButton && els.assessmentPanel.contains(dashboardButton)) {
+        render();
+        scrollToElement(els.dashboardSection);
+        return;
+      }
+
+      const retakeButton = event.target.closest("[data-assess-retake]");
+      if (retakeButton && els.assessmentPanel.contains(retakeButton)) {
+        openAssessmentSetup({ scroll: true });
+      }
+    });
+  }
+
+  async function loadScales() {
+    const embedded = window.SEPTEMICS_CONTENT;
+    if (embedded && Array.isArray(embedded.scales) && embedded.scales.length) {
+      applyScalePayload(embedded, "built-in");
+      return;
+    }
+
+    try {
+      const response = await fetch(DATA_URL, { cache: "no-store" });
+      if (!response.ok) {
+        throw new Error("Failed to load septemics_content.json");
+      }
+      const payload = await response.json();
+      applyScalePayload(payload, DATA_URL);
+    } catch (error) {
+      state.scales = [];
+      state.dataError = "Could not load built-in scale data. Make sure septemics_data.js is present next to septemics.html.";
+      console.error(error);
+    }
+  }
+
+  function applyScalePayload(payload, sourceLabel) {
+    state.scales = normalizeScales(payload && payload.scales ? payload.scales : []);
+    state.dataSourceLabel = sourceLabel || DATA_URL;
+    state.dataError = "";
+  }
+
+  function normalizeDirectionToken(value) {
+    const token = String(value || "").trim().toLowerCase();
+    if (!token) return null;
+    if (token === "asc" || token === "ascending" || token === "up" || token === "higher-better") {
+      return DIRECTION_ASC;
+    }
+    if (token === "desc" || token === "descending" || token === "down" || token === "lower-better") {
+      return DIRECTION_DESC;
+    }
+    return null;
+  }
+
+  function inferDirectionFromLevels(levels) {
+    if (!levels.length) return DIRECTION_DESC;
+
+    const first = (String(levels[0].label || "") + " " + String(levels[0].description || "")).toLowerCase();
+    const last = (String(levels[levels.length - 1].label || "") + " " + String(levels[levels.length - 1].description || "")).toLowerCase();
+
+    const positiveWords = [
+      "truth", "wisdom", "maturity", "unity", "harmony", "strong", "health", "complete",
+      "equanimity", "calm", "leadership", "transcendence", "clarity", "responsibility"
+    ];
+    const negativeWords = [
+      "subversive", "criminal", "sick", "dying", "insanity", "obsession", "victimization",
+      "chaos", "delusion", "aberration", "weak", "identity", "hostility", "hatred"
+    ];
+
+    function weightedScore(text) {
+      let score = 0;
+      positiveWords.forEach(function (word) {
+        if (text.indexOf(word) !== -1) score += 1;
+      });
+      negativeWords.forEach(function (word) {
+        if (text.indexOf(word) !== -1) score -= 1;
+      });
+      return score;
+    }
+
+    const firstScore = weightedScore(first);
+    const lastScore = weightedScore(last);
+    if (firstScore - lastScore >= 2) return DIRECTION_DESC;
+    if (lastScore - firstScore >= 2) return DIRECTION_ASC;
+    return DIRECTION_DESC;
+  }
+
+  function resolveScaleDirection(rawScale, levels) {
+    const explicit = normalizeDirectionToken(
+      rawScale.direction || rawScale.scoreDirection || rawScale.levelDirection || rawScale.order
+    );
+    if (explicit) return explicit;
+
+    const hintedBest = Number(
+      rawScale.bestLevel || rawScale.best_level || rawScale.idealLevel || rawScale.ideal_level
+    );
+    if (Number.isFinite(hintedBest) && levels.length) {
+      if (hintedBest === levels[0].number) return DIRECTION_DESC;
+      if (hintedBest === levels[levels.length - 1].number) return DIRECTION_ASC;
+    }
+
+    return inferDirectionFromLevels(levels);
+  }
+
+  function directionLabel(scale) {
+    return scale.direction === DIRECTION_ASC
+      ? "Higher levels are stronger on this scale."
+      : "Level I is strongest on this scale.";
+  }
+
+  function scaleQuestion(scale) {
+    return scale.assessmentQuestion || ("Which statement best describes your current pattern for " + scale.name + "?");
+  }
+
+  function cleanAssessmentText(text) {
+    if (!text) return "";
+    text = text.replace(/\.{2,}\s*$/, "").trim();
+    const bookGuidance = text.indexOf("Book guidance:");
+    if (bookGuidance !== -1) return text.slice(bookGuidance + 14).trim();
+    const keyTerm = text.indexOf("Key term guidance:");
+    if (keyTerm !== -1) return text.slice(keyTerm + 18).trim();
+    const bookPlaces = text.indexOf("The book places");
+    if (bookPlaces !== -1) {
+      const colon = text.indexOf(":", bookPlaces + 15);
+      if (colon !== -1) return text.slice(colon + 1).trim();
+    }
+    if (text.indexOf("Use the label as the guide") !== -1) return "";
+    const colonIdx = text.indexOf(": ");
+    if (text.startsWith("Choose this if") && colonIdx !== -1) {
+      return text.slice(colonIdx + 2).trim();
+    }
+    return text;
+  }
+
+  function levelAssessmentText(scale, level) {
+    return cleanAssessmentText(level.assessmentGuideline || level.description || "");
+  }
+
+  function levelDetailText(scale, level) {
+    return levelAssessmentText(scale, level) || level.description;
+  }
+
+  function normalizeScales(rawScales) {
+    if (!Array.isArray(rawScales)) return [];
+
+    return rawScales
+      .map(function (scale, index) {
+        const levels = Array.isArray(scale.levels) ? scale.levels : [];
+        const glossary = Array.isArray(scale.glossary) ? scale.glossary : [];
+
+        const normalizedLevels = levels
+          .map(function (level, i) {
+            const number = Number(level.number);
+            if (!Number.isFinite(number)) return null;
+            return {
+              number: number,
+              label: (level.label || "Level " + number).toString(),
+              description: (level.description || "").toString(),
+              assessmentGuideline: (level.assessmentGuideline || "").toString(),
+              assessmentSource: (level.assessmentSource || "").toString()
+            };
+          })
+          .filter(Boolean)
+          .sort(function (a, b) { return a.number - b.number; });
+
+        const direction = resolveScaleDirection(scale, normalizedLevels);
+
+        return {
+          name: (scale.name || "Scale " + (index + 1)).toString(),
+          assessmentQuestion: (scale.assessmentQuestion || "").toString(),
+          glossary: glossary.map(function (item) {
+            return {
+              term: (item.term || "").toString(),
+              definition: (item.definition || "").toString()
+            };
+          }).filter(function (item) {
+            return item.term || item.definition;
+          }),
+          levels: normalizedLevels,
+          direction: direction
+        };
+      })
+      .filter(function (scale) {
+        return scale.name;
+      });
+  }
+
+  function loadStorage() {
+    try {
+      const rawScores = localStorage.getItem(STORAGE_SCORES_KEY);
+      const rawHistory = localStorage.getItem(STORAGE_HISTORY_KEY);
+      state.scores = rawScores ? JSON.parse(rawScores) : {};
+      state.history = rawHistory ? JSON.parse(rawHistory) : {};
+    } catch (error) {
+      state.scores = {};
+      state.history = {};
+    }
+  }
+
+  function saveStorage() {
+    localStorage.setItem(STORAGE_SCORES_KEY, JSON.stringify(state.scores));
+    localStorage.setItem(STORAGE_HISTORY_KEY, JSON.stringify(state.history));
+  }
+
+  function ensureScoreState() {
+    state.scales.forEach(function (scale) {
+      const levels = scale.levels;
+      if (!levels.length) return;
+
+      const existing = Number(state.scores[scale.name]);
+      if (!Number.isFinite(existing)) {
+        const middleIndex = Math.floor((levels.length - 1) / 2);
+        state.scores[scale.name] = levels[middleIndex].number;
+      } else {
+        state.scores[scale.name] = clampScoreToScale(existing, scale);
+      }
+
+      if (!Array.isArray(state.history[scale.name])) {
+        state.history[scale.name] = [];
+      }
+    });
+
+    saveStorage();
+  }
+
+  function clampScoreToScale(value, scale) {
+    const levels = scale.levels;
+    if (!levels.length) return null;
+    const numbers = levels.map(function (level) { return level.number; });
+
+    if (numbers.indexOf(value) !== -1) {
+      return value;
+    }
+
+    let closest = numbers[0];
+    let smallestDistance = Math.abs(value - closest);
+    numbers.forEach(function (n) {
+      const distance = Math.abs(value - n);
+      if (distance < smallestDistance) {
+        smallestDistance = distance;
+        closest = n;
+      }
+    });
+    return closest;
+  }
+
+  function setScore(scaleName, nextScore, options) {
+    const config = options || { recordHistory: true };
+    const scale = getScaleByName(scaleName);
+    if (!scale || !scale.levels.length) return;
+
+    const clamped = clampScoreToScale(nextScore, scale);
+    const previous = Number(state.scores[scaleName]);
+    state.scores[scaleName] = clamped;
+
+    if (config.recordHistory !== false && previous !== clamped) {
+      if (!Array.isArray(state.history[scaleName])) {
+        state.history[scaleName] = [];
+      }
+      state.history[scaleName].push({
+        date: new Date().toISOString(),
+        score: clamped
+      });
+      state.history[scaleName] = state.history[scaleName].slice(-200);
+    }
+
+    saveStorage();
+  }
+
+  function getScaleByName(scaleName) {
+    return state.scales.find(function (scale) {
+      return scale.name === scaleName;
+    }) || null;
+  }
+
+  function scoreLevelIndex(scale, score) {
+    return scale.levels.findIndex(function (level) {
+      return level.number === score;
+    });
+  }
+
+  function ratioForScore(scale, score) {
+    if (!scale.levels.length) return 0;
+    const idx = scoreLevelIndex(scale, score);
+    if (idx < 0) return 0;
+    if (scale.levels.length === 1) return 1;
+    const ordinalRatio = idx / (scale.levels.length - 1);
+    return scale.direction === DIRECTION_DESC ? (1 - ordinalRatio) : ordinalRatio;
+  }
+
+  function isTopLevelScore(scale, score) {
+    const idx = scoreLevelIndex(scale, score);
+    if (idx < 0) return false;
+    if (scale.direction === DIRECTION_DESC) return idx === 0;
+    return idx === (scale.levels.length - 1);
+  }
+
+  function improvementTarget(scale, score) {
+    if (!scale.levels.length) return null;
+    const idx = scoreLevelIndex(scale, score);
+    if (idx < 0) return null;
+    const nextIndex = scale.direction === DIRECTION_DESC ? (idx - 1) : (idx + 1);
+    if (nextIndex < 0 || nextIndex >= scale.levels.length) return null;
+    return scale.levels[nextIndex];
+  }
+
+  function orderedLevelsForDisplay(scale) {
+    const levels = (scale && Array.isArray(scale.levels)) ? scale.levels.slice() : [];
+    if (!levels.length) return levels;
+    return scale.direction === DIRECTION_DESC ? levels : levels.reverse();
+  }
+
+  function scoreColor(ratio) {
+    if (ratio >= 0.67) return "#2d8c00";
+    if (ratio >= 0.34) return "#a98300";
+    return "#a63b2f";
+  }
+
+  function openScaleDetail(scaleName) {
+    state.selectedScaleName = scaleName;
+    renderDetail();
+    scrollToElement(els.detailSection);
+  }
+
+  function scrollToElement(element) {
+    if (!element || typeof element.scrollIntoView !== "function") return;
+    element.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function availableAssessmentIndices() {
+    const indices = [];
+    state.scales.forEach(function (scale, idx) {
+      if (scale && Array.isArray(scale.levels) && scale.levels.length) {
+        indices.push(idx);
+      }
+    });
+    return indices;
+  }
+
+  function setupAssessmentPool(mode) {
+    const all = availableAssessmentIndices();
+    if (!all.length) {
+      state.assessmentPool = [];
+      state.assessmentMode = mode || "core";
+      return;
+    }
+
+    if (mode === "full") {
+      state.assessmentPool = all;
+      state.assessmentMode = "full";
+      return;
+    }
+
+    const byName = {};
+    all.forEach(function (idx) {
+      byName[state.scales[idx].name] = idx;
+    });
+    const chosen = CORE_SCALE_NAMES
+      .map(function (name) { return byName[name]; })
+      .filter(function (idx) { return Number.isInteger(idx); });
+
+    state.assessmentPool = chosen.length ? chosen : all.slice(0, Math.min(12, all.length));
+    state.assessmentMode = "core";
+  }
+
+  function getAssessmentScales() {
+    return state.assessmentPool
+      .map(function (idx) { return state.scales[idx]; })
+      .filter(Boolean);
+  }
+
+  function getAssessmentScale() {
+    const pool = getAssessmentScales();
+    return pool[state.assessmentIndex] || null;
+  }
+
+  function seedAssessmentDraft() {
+    state.assessmentDraft = {};
+    state.scales.forEach(function (scale) {
+      if (!scale.levels.length) return;
+      state.assessmentDraft[scale.name] = Number(state.scores[scale.name]);
+    });
+  }
+
+  function openAssessmentSetup(options) {
+    seedAssessmentDraft();
+    setupAssessmentPool(state.assessmentMode || "core");
+    state.assessmentStarted = false;
+    state.assessmentSummary = null;
+    state.assessmentIndex = 0;
+    state.assessmentNote = "";
+    renderAssessment();
+    if (options && options.scroll) {
+      scrollToElement(els.assessmentBlock);
+    }
+  }
+
+  function beginAssessment(mode) {
+    seedAssessmentDraft();
+    setupAssessmentPool(mode || "core");
+    state.assessmentStarted = true;
+    state.assessmentSummary = null;
+    state.assessmentIndex = 0;
+    state.assessmentNote = "";
+    renderAssessment();
+    scrollToElement(els.assessmentBlock);
+  }
+
+  function advanceAssessment() {
+    const scale = getAssessmentScale();
+    if (!scale) return;
+
+    const selected = Number(state.assessmentDraft[scale.name]);
+    if (!Number.isFinite(selected)) {
+      state.assessmentNote = "Select a level before continuing.";
+      renderAssessment();
+      return;
+    }
+
+    const total = getAssessmentScales().length;
+    if (state.assessmentIndex >= total - 1) {
+      finishAssessment();
+      return;
+    }
+
+    state.assessmentIndex += 1;
+    state.assessmentNote = "";
+    renderAssessment();
+  }
+
+  function finishAssessment() {
+    const assessed = getAssessmentScales();
+    assessed.forEach(function (scale) {
+      if (!scale.levels.length) return;
+      const selected = Number(state.assessmentDraft[scale.name]);
+      if (Number.isFinite(selected)) {
+        setScore(scale.name, selected, { recordHistory: true });
+      }
+    });
+
+    const scored = assessed.map(function (scale) {
+      const score = Number(state.scores[scale.name]);
+      return {
+        name: scale.name,
+        score: score,
+        ratio: ratioForScore(scale, score),
+        target: improvementTarget(scale, score)
+      };
+    });
+    const priorities = scored.slice().sort(function (a, b) {
+      return a.ratio - b.ratio;
+    }).slice(0, 5);
+    const strengths = scored.slice().sort(function (a, b) {
+      return b.ratio - a.ratio;
+    }).slice(0, 5);
+
+    state.assessmentSummary = {
+      mode: state.assessmentMode,
+      count: scored.length,
+      priorities: priorities,
+      strengths: strengths,
+      finishedAt: new Date().toISOString()
+    };
+    state.assessmentStarted = false;
+    state.assessmentNote = "";
+    render();
+    scrollToElement(els.assessmentBlock);
+  }
+
+  function render() {
+    renderStatus();
+    renderSummary();
+    renderDashboard();
+    renderDetail();
+    renderAssessment();
+  }
+
+  function renderStatus() {
+    if (state.dataError) {
+      els.dataStatus.textContent = state.dataError;
+      els.dataStatus.className = "data-status error";
+    } else {
+      els.dataStatus.textContent = "Data source: " + state.dataSourceLabel + " · Level I strongest by default.";
+      els.dataStatus.className = "data-status";
+    }
+  }
+
+  function hasSavedAssessment() {
+    return state.scales.some(function (scale) {
+      return Array.isArray(state.history[scale.name]) && state.history[scale.name].length > 0;
+    });
+  }
+
+  function renderSummary() {
+    if (!hasSavedAssessment()) {
+      els.overallValue.textContent = "--";
+      els.overallMeta.textContent = state.scales.length
+        ? "No saved profile yet. Complete the guided test above to create your first baseline."
+        : "Add scales to septemics_content.json to begin.";
+      return;
+    }
+
+    const scored = state.scales
+      .filter(function (scale) {
+        return scale.levels.length && Number.isFinite(Number(state.scores[scale.name]));
+      })
+      .map(function (scale) {
+        const score = Number(state.scores[scale.name]);
+        return {
+          level: score,
+          quality: ratioForScore(scale, score)
+        };
+      });
+
+    if (!scored.length) {
+      els.overallValue.textContent = "--";
+      els.overallMeta.textContent = state.scales.length
+        ? "No completed scores yet."
+        : "Add scales to septemics_content.json to begin.";
+      return;
+    }
+
+    const averageLevel = scored.reduce(function (total, item) {
+      return total + item.level;
+    }, 0) / scored.length;
+    const averageQuality = scored.reduce(function (total, item) {
+      return total + item.quality;
+    }, 0) / scored.length;
+
+    els.overallValue.textContent = Math.round(averageQuality * 100) + "%";
+    els.overallMeta.textContent = (
+      scored.length +
+      " scored scales · avg level " +
+      averageLevel.toFixed(2) +
+      " · direction-aware profile"
+    );
+  }
+
+  function renderDashboard() {
+    if (!state.scales.length) {
+      els.dashboardGrid.innerHTML = '<div class="empty-state">No scales available yet. Populate <code>septemics_content.json</code> and refresh.</div>';
+      return;
+    }
+
+    const cards = state.scales.map(function (scale) {
+      const levels = scale.levels;
+      if (!levels.length) {
+        return (
+          '<button class="scale-card" data-open-scale="' + escapeAttr(scale.name) + '">' +
+            '<div class="scale-name">' + escapeHtml(scale.name) + '</div>' +
+            '<div class="scale-score">No levels found.</div>' +
+            '<div class="scale-next">Open to inspect the imported content.</div>' +
+          '</button>'
+        );
+      }
+
+      const score = Number(state.scores[scale.name]);
+      const ratio = ratioForScore(scale, score);
+      const nextLevel = improvementTarget(scale, score);
+      const directionInfo = directionLabel(scale);
+      const topReached = isTopLevelScore(scale, score);
+
+      return (
+        '<button class="scale-card" data-open-scale="' + escapeAttr(scale.name) + '">' +
+          '<div class="scale-name">' + escapeHtml(scale.name) + '</div>' +
+          '<div class="scale-score"><strong>Level ' + score + '</strong> · ' + escapeHtml(directionInfo) + '</div>' +
+          '<div class="score-bar"><div class="score-bar-fill" style="width:' + Math.max(8, ratio * 100) + '%; background:' + scoreColor(ratio) + ';"></div></div>' +
+          '<div class="scale-next">' +
+            (topReached
+              ? 'What to work on: maintain top-level consistency.'
+              : (nextLevel
+                ? ('What to work on: Level ' + nextLevel.number + ' · ' + escapeHtml(nextLevel.label))
+                : 'What to work on: maintain current stability.')) +
+          '</div>' +
+        '</button>'
+      );
+    });
+
+    els.dashboardGrid.innerHTML = cards.join("");
+  }
+
+  function renderDetail() {
+    const scale = getScaleByName(state.selectedScaleName);
+    if (!scale) {
+      els.detailPanel.innerHTML = '<div class="empty-state">Click any dashboard card to inspect that scale, adjust your level, and see the next-level target.</div>';
+      return;
+    }
+
+    if (!scale.levels.length) {
+      els.detailPanel.innerHTML =
+        '<div class="detail-head">' +
+          '<button class="back-btn" data-back-dashboard>Close Detail</button>' +
+          '<h2 class="detail-title">' + escapeHtml(scale.name) + '</h2>' +
+        '</div>' +
+        '<div class="empty-state">This scale has no levels yet.</div>';
+      return;
+    }
+
+    const score = Number(state.scores[scale.name]);
+    const nextLevel = improvementTarget(scale, score);
+    const topReached = isTopLevelScore(scale, score);
+    const levelsForDisplay = orderedLevelsForDisplay(scale);
+
+    const levelsMarkup = levelsForDisplay.map(function (level) {
+      const isCurrent = level.number === score;
+      return (
+        '<div class="level-item ' + (isCurrent ? 'current' : '') + '">' +
+          '<div class="level-line"><strong>Level ' + level.number + '</strong> · ' + escapeHtml(level.label) + '</div>' +
+          '<div class="level-description">' + escapeHtml(levelDetailText(scale, level)) + '</div>' +
+          '<div class="level-actions">' +
+            (isCurrent
+              ? '<span class="level-current-pill">Current Level</span>'
+              : '<button class="level-set-btn" data-set-level="' + level.number + '">Set As My Level</button>') +
+          '</div>' +
+        '</div>'
+      );
+    }).join("");
+
+    const historyList = (state.history[scale.name] || [])
+      .slice()
+      .reverse()
+      .slice(0, 12)
+      .map(function (entry) {
+        return '<li class="history-item">' + formatDate(entry.date) + ' · score ' + entry.score + '</li>';
+      })
+      .join("");
+
+    const glossaryMarkup = scale.glossary.length
+      ? scale.glossary.map(function (item) {
+          return (
+            '<details class="gloss-item">' +
+              '<summary>' + escapeHtml(item.term) + '</summary>' +
+              '<div class="gloss-def">' + escapeHtml(item.definition || 'No definition.') + '</div>' +
+            '</details>'
+          );
+        }).join("")
+      : '<div class="empty-state">No glossary entries for this scale.</div>';
+
+    els.detailPanel.innerHTML =
+      '<div class="detail-head">' +
+        '<button class="back-btn" data-back-dashboard>Close Detail</button>' +
+        '<h2 class="detail-title">' + escapeHtml(scale.name) + '</h2>' +
+      '</div>' +
+      '<div class="direction-hint">' + escapeHtml(directionLabel(scale)) + '</div>' +
+      '<div class="levels-list">' + levelsMarkup + '</div>' +
+      '<div class="work-on">' +
+        '<div class="work-on-title">What to Work On</div>' +
+        '<div class="work-on-body">' +
+          (topReached
+            ? 'You are at the top level for this scale. Focus on consistency and depth in this band.'
+            : (nextLevel
+              ? ('Level ' + nextLevel.number + ' · ' + escapeHtml(nextLevel.label) + ' — ' + escapeHtml(levelAssessmentText(scale, nextLevel)))
+              : 'Maintain current progress and reassess after reflection.')) +
+        '</div>' +
+      '</div>' +
+      '<div class="history-title">Score History</div>' +
+      '<ul class="history-list">' + (historyList || '<li class="history-item">No history entries yet.</li>') + '</ul>' +
+      '<div class="history-title">Glossary</div>' +
+      '<div class="glossary-list">' + glossaryMarkup + '</div>';
+  }
+
+  function renderAssessment() {
+    if (!state.scales.length) {
+      els.assessmentPanel.innerHTML = '<div class="empty-state">No scales available. Add data to <code>septemics_content.json</code>.</div>';
+      return;
+    }
+
+    const allIndices = availableAssessmentIndices();
+    if (!allIndices.length) {
+      els.assessmentPanel.innerHTML = '<div class="empty-state">No scales with levels are currently available.</div>';
+      return;
+    }
+
+    const byName = {};
+    allIndices.forEach(function (idx) {
+      byName[state.scales[idx].name] = idx;
+    });
+    const coreIndices = CORE_SCALE_NAMES
+      .map(function (name) { return byName[name]; })
+      .filter(function (idx) { return Number.isInteger(idx); });
+    const coreCount = coreIndices.length ? coreIndices.length : Math.min(12, allIndices.length);
+
+    if (!state.assessmentStarted && !state.assessmentSummary) {
+      const modeLabel = state.assessmentMode === "full" ? "full-book" : "core";
+      els.assessmentPanel.innerHTML =
+        '<div class="assessment-setup">' +
+          '<div class="assessment-setup-title">Guided Septemics Test</div>' +
+          '<div class="assessment-setup-copy">This works like a personality test: read the statements and pick the one that fits best right now. You can retake anytime.</div>' +
+          '<div class="assessment-mode-note">Recommended path: ' + coreCount + '-scale core test</div>' +
+          '<div class="assessment-setup-actions">' +
+            '<button class="assessment-btn primary assessment-main-action" data-assess-begin="core">Start Guided Test</button>' +
+          '</div>' +
+          '<details class="advanced-test">' +
+            '<summary>Need the full version?</summary>' +
+            '<div class="advanced-test-copy">Use this after the core test if you want every imported scale.</div>' +
+            '<button class="assessment-btn" data-assess-begin="full">Start Full ' + allIndices.length + '-Scale Test</button>' +
+          '</details>' +
+        '</div>';
+      return;
+    }
+
+    if (state.assessmentSummary) {
+      const summary = state.assessmentSummary;
+      const priorities = (summary.priorities || []).map(function (item) {
+        const targetText = item.target
+          ? (' → next target: Level ' + item.target.number + ' · ' + escapeHtml(item.target.label))
+          : ' → maintain top level';
+        return '<li class="assessment-summary-item"><strong>' + escapeHtml(item.name) + '</strong> · Level ' + item.score + targetText + '</li>';
+      }).join("");
+      const strengths = (summary.strengths || []).map(function (item) {
+        return '<li class="assessment-summary-item"><strong>' + escapeHtml(item.name) + '</strong> · Level ' + item.score + '</li>';
+      }).join("");
+
+      els.assessmentPanel.innerHTML =
+        '<div class="assessment-summary">' +
+          '<div class="assessment-summary-title">Assessment Complete</div>' +
+          '<div class="assessment-summary-meta">' +
+            escapeHtml(formatDate(summary.finishedAt)) +
+            ' · ' +
+            summary.count +
+            ' scales · ' +
+            (summary.mode === "full" ? "full-book mode" : "core mode") +
+          '</div>' +
+          '<div class="assessment-summary-block">' +
+            '<div class="assessment-summary-head">Top Priorities</div>' +
+            '<ul class="assessment-summary-list">' + (priorities || '<li class="assessment-summary-item">No priority items.</li>') + '</ul>' +
+          '</div>' +
+          '<div class="assessment-summary-block">' +
+            '<div class="assessment-summary-head">Current Strengths</div>' +
+            '<ul class="assessment-summary-list">' + (strengths || '<li class="assessment-summary-item">No strengths yet.</li>') + '</ul>' +
+          '</div>' +
+          '<div class="assessment-actions">' +
+            '<button class="assessment-btn primary" data-assess-dashboard>Go To Dashboard</button>' +
+            '<button class="assessment-btn" data-assess-retake>Retake Test</button>' +
+          '</div>' +
+        '</div>';
+      return;
+    }
+
+    const pool = getAssessmentScales();
+    const scale = getAssessmentScale();
+    if (!scale) {
+      els.assessmentPanel.innerHTML = '<div class="empty-state">Assessment pool is empty. Start again.</div>';
+      return;
+    }
+
+    const selectedScore = Number(state.assessmentDraft[scale.name]);
+    const levelsForDisplay = orderedLevelsForDisplay(scale);
+
+    const options = levelsForDisplay.map(function (level) {
+      const selected = level.number === selectedScore;
+      return (
+        '<label class="assessment-option ' + (selected ? 'selected' : '') + '">' +
+          '<div class="assessment-option-title">' +
+            '<input type="radio" name="assessment-level" value="' + level.number + '" ' + (selected ? 'checked' : '') + '>' +
+            'Level ' + level.number + ' · ' + escapeHtml(level.label) +
+          '</div>' +
+          '<span class="assessment-option-body">' + escapeHtml(levelAssessmentText(scale, level)) + '</span>' +
+        '</label>'
+      );
+    }).join("");
+
+    const isLast = state.assessmentIndex === pool.length - 1;
+
+    els.assessmentPanel.innerHTML =
+      '<div class="assessment-head">' +
+        '<div class="assessment-scale">' + escapeHtml(scale.name) + '</div>' +
+        '<div class="assessment-progress">Scale ' + (state.assessmentIndex + 1) + ' of ' + pool.length + '</div>' +
+      '</div>' +
+      '<div class="direction-hint assessment-direction">' + escapeHtml(directionLabel(scale)) + '</div>' +
+      '<div class="assessment-question">' + escapeHtml(scaleQuestion(scale)) + '</div>' +
+      '<div class="assessment-instruction">Pick the closest match, not the perfect match. If two feel close, choose the lower/weaker one and refine later.</div>' +
+      '<div class="assessment-options">' + options + '</div>' +
+      '<div class="assessment-actions">' +
+        '<button class="assessment-btn" data-assess-cancel>Cancel</button>' +
+        '<button class="assessment-btn" data-assess-back ' + (state.assessmentIndex === 0 ? 'disabled' : '') + '>Back</button>' +
+        '<button class="assessment-btn primary" data-assess-' + (isLast ? 'finish' : 'next') + '>' + (isLast ? 'Finish Assessment' : 'Next Scale') + '</button>' +
+      '</div>' +
+      (state.assessmentNote ? ('<div class="assessment-note">' + escapeHtml(state.assessmentNote) + '</div>') : '');
+  }
+
+  function formatDate(isoString) {
+    if (!isoString) return "Unknown date";
+    const date = new Date(isoString);
+    if (Number.isNaN(date.getTime())) return isoString;
+    return new Intl.DateTimeFormat(undefined, {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+      hour: "2-digit",
+      minute: "2-digit"
+    }).format(date);
+  }
+
+  function escapeHtml(value) {
+    return String(value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/\"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function escapeAttr(value) {
+    return escapeHtml(value).replace(/\"/g, "&quot;");
+  }
+})();
+</script>
+
+</body>
+</html>

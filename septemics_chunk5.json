@@ -1,0 +1,15 @@
+{
+  "scales": [
+    {
+      "name": "Unsorted OCR Import",
+      "glossary": [],
+      "levels": [
+        {
+          "number": 1,
+          "label": "NO JUSTIFICATION (NEEDED) (Truth)",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

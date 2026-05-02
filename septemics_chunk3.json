@@ -1,0 +1,50 @@
+{
+  "scales": [
+    {
+      "name": "Unsorted OCR Import",
+      "glossary": [],
+      "levels": [
+        {
+          "number": 1,
+          "label": "Get the person to explain his or her situation as fully as possible.",
+          "description": ""
+        },
+        {
+          "number": 2,
+          "label": "6",
+          "description": ""
+        },
+        {
+          "number": 6,
+          "label": "Help him or her to work out a handling that will move him or her up one level. If you have the right level, this is often",
+          "description": ""
+        },
+        {
+          "number": 8,
+          "label": "8",
+          "description": ""
+        },
+        {
+          "number": 9,
+          "label": "0",
+          "description": ""
+        },
+        {
+          "number": 19,
+          "label": "1",
+          "description": ""
+        },
+        {
+          "number": 20,
+          "label": "4",
+          "description": ""
+        },
+        {
+          "number": 28,
+          "label": "9",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

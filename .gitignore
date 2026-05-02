@@ -3,3 +3,4 @@ __pycache__/
 .claude/
 .instagram_pipeline.lock
 transcripts/instagram_cookie_cache.json
+.vercel

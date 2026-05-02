@@ -1,0 +1,1984 @@
+Septemics Clean Vocabulary Export
+
+TERM: Aberration
+DEF: Deviation from what is normal or right; deviation from truth or moral rectitude; mental irregularity or disorder; abnormality.
+SCALES: The Scale Of Aberration
+OCCURRENCES: 1
+
+TERM: Ability
+DEF: Power or capacity to act.
+DEF: Power or capacity to act; competence in an activity; proficiency; talent; skill; aptitude.
+SCALES: The Scale Of Basic Purposes, The Scale Of Human Ability
+OCCURRENCES: 2
+
+TERM: Abnormal
+DEF: Deviating from the norm; not average, typical, or usual; peculiar.
+SCALES: The Scale Of Stopping
+OCCURRENCES: 1
+
+TERM: Absolute
+DEF: Being fully or perfectly as indicated; free from any restriction, limitation, or exception; not comparative or relative.
+SCALES: The Scale Of Memory
+OCCURRENCES: 1
+
+TERM: Abstraction
+DEF: A theoretical or general idea or term; something conceived apart from concrete reality.
+SCALES: The Scale Of Exchange
+OCCURRENCES: 1
+
+TERM: Acceptance
+DEF: The act of taking or receiving something offered; positive response to.
+SCALES: The Scale Of Evaluation
+OCCURRENCES: 1
+
+TERM: Acute
+DEF: Brief and severe; intense; sudden.
+SCALES: The Scale Of Stopping
+OCCURRENCES: 1
+
+TERM: Adolescence
+DEF: The transitional period between puberty and adulthood in human development.
+SCALES: The Scale Of Equanimity
+OCCURRENCES: 1
+
+TERM: Adultness
+DEF: The state of having attained maturity; matureness; full-grownness.
+SCALES: The Scale Of Equanimity
+OCCURRENCES: 1
+
+TERM: Affected
+DEF: Acted upon; influenced; impressed or moved.
+SCALES: The Scale Of Reaction
+OCCURRENCES: 1
+
+TERM: Again
+DEF: if you feel worse after selecting a level, you have probably selected the wrong level. If the situation worsens a selecting a level, you have probably selected the wrong level. If you cannot figure out how to get up to the next higher level, or ! it impossible to do so, you have probably selected the wrong level. When you find the correct level, you will generally feel be you will usually be able to figure out how to move up a level (if it is possible to do so), and you will eventually move up to the r higher level, if you persist. Again, there are a few scales which you may not be able to ascend easily or swiftly, but you will still and do, better just knowing what level you are at, if you spot it correctly. How can one use these scales to help others? The best way to introduce someone to this subject is to use a specific scale to help him or her resolve a specific problem. Th done as follows: 1) Get the person to explain his or her situation as fully as possible. Select the appropriate scale(s) for the situation. If you have studied the scales well, this should be easy, as it is o Have him or her study the entire scale carefully, being certain the reader knows the correct definition of each word. W (s)he is done studying the scale, ask if (s)he has any questions about it, or disagreements with it. If so, clear these usually by clarifying the meanings of relevant words. Help him or her find where (s)he is on the scale. This step alone should bring considerable relief. If it does not, probably have the wrong level, or, less likely, the wrong scale. Time spent on this step is a wise investment. You might "How are you manifesting this level?" Often, this is all one need do, as one will usually have a realization about his or situation, as a result of this step.
+SCALES: The Scale Of Basic Purposes
+OCCURRENCES: 1
+
+TERM: Agreement
+DEF: The state of being in accord; unanimity of opinion; mutual understanding.
+SCALES: The Scale Of Evaluation
+OCCURRENCES: 1
+
+TERM: Align
+DEF: To fall or come into line.
+SCALES: The Scale Of Identity
+OCCURRENCES: 1
+
+TERM: Allegiance
+DEF: Loyalty or devotion to some person, group, cause, or the like.
+SCALES: The Scale Of Identity
+OCCURRENCES: 1
+
+TERM: Aloof
+DEF: 
+SCALES: The Scale Of Personal Influence
+OCCURRENCES: 1
+
+TERM: Amateur
+DEF: A person who engages in an activity for pleasure rather than for financial benefit.
+SCALES: The Scale Of Human Ability
+OCCURRENCES: 1
+
+TERM: Amnesia
+DEF: Complete or partial loss of memory. Paychotic it a major severe form of mental disorder or disease fecting one's total personality.
+SCALES: The Scale Of Memory
+OCCURRENCES: 1
+
+TERM: Angel
+DEF: A celestial attendant or messenger of God or a god; an attendant or guardian spirit.
+SCALES: The Scale Of Spiritual Identity
+OCCURRENCES: 1
+
+TERM: Animal
+DEF: An organism typically differing from a plant in having the ability to move voluntarily, the presence of a nervous system ar greater ability to respond to stimuli, the need for complex organic materials for nourishment, and the delimitation of cells b
+SCALES: The Scale Of Spiritual Identity
+OCCURRENCES: 1
+
+TERM: Animate
+DEF: Alive; possessing life.
+SCALES: The Scale Of Spiritual Identity
+OCCURRENCES: 1
+
+TERM: Another example
+DEF: Governments routinely attempt to enforce participation at Level III on all of their citizens, despite the fact that most of them are not up to it. Do you see how income taxes and conscription are thusly destructive to much of the populace of a Keep in mind that this is a general scale, so advancement from one level up to the next generally takes years, and can only be achieved as a result of life-changing experiences. A psychotherapist or facilitator who can get a client up one level, and stable at the new level, is worth his or her weight in gold. As a person declines in life, (s)he will inevitably descend this scale. As a person advances in life, (s)he will inevitably ascend this scale. This scale provides one of the few foolproof ways to judge a person's overall development and worth. Where are you on this scale? Where are your friends and associates? Does this explain their behavior to you? Can you see their
+SCALES: The Scale Of Government
+OCCURRENCES: 1
+
+TERM: Antagonist
+DEF: A person who fights, struggles or contends against another; adversary; opponent.
+SCALES: The Scale Of Politics
+OCCURRENCES: 1
+
+TERM: Anthropo-centric
+DEF: Having or regarding mankind as the center of all worldly things.
+SCALES: The Scale Of Life Spheres
+OCCURRENCES: 1
+
+TERM: Antipathy
+DEF: A basic or habitual repugnance; aversion.
+SCALES: The Scale Of Permeation
+OCCURRENCES: 1
+
+TERM: Anxious
+DEF: Full of anxiety or worry due to apprehension or anticipation of danger or misfortune. Ascribing (one's acts, opinions, etc.) to causes that seem valid but actually are not the true, possibly unconscious causes; inven
+SCALES: The Scale Of Reaction
+OCCURRENCES: 1
+
+TERM: Apathetic
+DEF: Having or showing little interest or concern; unresponsive; uninterested.
+SCALES: The Scale Of Stopping
+OCCURRENCES: 1
+
+TERM: Artery
+DEF: A blood vessel that conveys blood from the heart to any part of the body.
+SCALES: The Scale Of Justification
+OCCURRENCES: 1
+
+TERM: Artist
+DEF: A person having superior skill or ability or capable of superior workmanship.
+SCALES: The Scale Of Human Ability
+OCCURRENCES: 1
+
+TERM: Arts
+DEF: Activities engaged in the production of objects or activities considered to be beautiful.
+SCALES: The Scale Of Civilization
+OCCURRENCES: 1
+
+TERM: Associate
+DEF: To connect, or bring into relation, as thought, feeling, memory, etc.
+SCALES: The Scale Of Thought
+OCCURRENCES: 1
+
+TERM: Association
+DEF: Connecting or bringing into relation; joining as a companion, partner or ally.
+SCALES: The Scale Of Relationships
+OCCURRENCES: 1
+
+TERM: Atheist
+DEF: A person who denies the existence of God, or gods, or a Deity, or divine beings.
+SCALES: The Scale Of Permeation
+OCCURRENCES: 1
+
+TERM: Athletic
+DEF: Of, like, or befitting one who competes in contests involving physical ability; physically active and strong.
+SCALES: The Scale Of Physical Fitness
+OCCURRENCES: 1
+
+TERM: Attack
+DEF: To set upon forcefully, violently, hostilely, or aggressively; to begin hostilities against; to direct unfavorable criticism against; assault.
+SCALES: The Scale Of Attack
+OCCURRENCES: 1
+
+TERM: Authentic
+DEF: Worthy of acceptance, trust or belief; reliable.
+SCALES: The Scale Of Politics
+OCCURRENCES: 1
+
+TERM: Automaticity
+DEF: A reaction which occurs independent of volition; an involuntary response.
+SCALES: The Scale Of Mental Deletion
+OCCURRENCES: 1
+
+TERM: Avalanche
+DEF: A large mass detached from an even larger mass and falling suddenly downward.
+SCALES: The Scale Of Mental Deletion
+OCCURRENCES: 1
+
+TERM: Average
+DEF: Typical; common; ordinary.
+SCALES: The Scale Of Scholarship
+OCCURRENCES: 1
+
+TERM: Avid
+DEF: Keenly desirous; eager; enthusiastic; ardent.
+SCALES: The Scale Of Scholarship
+OCCURRENCES: 1
+
+TERM: Avidity
+DEF: Eagerness; keen desire; enthusiasm; avidness.
+SCALES: The Scale Of Evaluation
+OCCURRENCES: 1
+
+TERM: Behavior
+DEF: One's actions before or toward others; manner of behaving or acting.
+SCALES: The Scale Of Justification
+OCCURRENCES: 1
+
+TERM: Being
+DEF: Occupying a space or position; existing; occurring
+DEF: Person; something that exists.
+SCALES: The Scale Of Communication, The Scale Of Spiritual Identity
+OCCURRENCES: 2
+
+TERM: Belief
+DEF: An opinion or conviction; acceptance of or confidence in an alleged fact or body of facts true or right without positive knowledge or proof; faith or trust.
+SCALES: The Scale Of Belief
+OCCURRENCES: 1
+
+TERM: Belligerence
+DEF: Warlike nature; aggressive hostility; avidity for conflict.
+SCALES: The Scale Of Attack
+OCCURRENCES: 1
+
+TERM: Bipartisan
+DEF: Of or involving the agreement or cooperation of political parties that usually oppose each other's policies.
+SCALES: The Scale Of Politics
+OCCURRENCES: 1
+
+TERM: Bothered
+DEF: Troubled; pestered; annoyed; disturbed; harassed.
+SCALES: The Scale Of Reaction
+OCCURRENCES: 1
+
+TERM: Bravery
+DEF: Courage; valor; intrepidness; fearlessness; boldness.
+SCALES: The Scale Of Attack
+OCCURRENCES: 1
+
+TERM: Brilliant
+DEF: Having or showing great intelligence or talent; distinguished; illustrious; bright.
+SCALES: The Scale Of Literacy
+OCCURRENCES: 1
+
+TERM: Calmness
+DEF: Tranquility; freedom from or absence of agitation, excitement or passion; serenity.
+SCALES: The Scale Of Equanimity
+OCCURRENCES: 1
+
+TERM: Can
+DEF: To be able to; have the ability, power or skill to.
+SCALES: The Scale Of Sexuality
+OCCURRENCES: 1
+
+TERM: Cash
+DEF: Money in the form of negotiable paper or coin, especially that of a government
+SCALES: The Scale Of Exchange
+OCCURRENCES: 1
+
+TERM: Cause
+DEF: A person or thing that acts, happens, or exists in such a way that some specific thing happens as a result; the producer of an effec
+DEF: The producer of an effect; an agency that creates an effect.
+SCALES: The Scale Of Personal Influence, The Scale Of Spiritual Identity
+OCCURRENCES: 2
+
+TERM: Cautious
+DEF: Manifesting or characterized by alertness and prudence; careful; wary; circumspect.
+SCALES: The Scale Of Government
+OCCURRENCES: 1
+
+TERM: Centrist
+DEF: Someone who has very moderate political views.
+SCALES: The Scale Of Politics
+OCCURRENCES: 1
+
+TERM: Certain
+DEF: Free from doubt or reservation; sure.
+SCALES: The Scale Of Identity
+OCCURRENCES: 1
+
+TERM: Challenge
+DEF: A difficulty in a job or undertaking that is stimulating to one engaged in it
+SCALES: The Scale Of Life Spheres
+OCCURRENCES: 1
+
+TERM: Chaos
+DEF: A state of utter confusion or disorder; any confused, disorderly mass or condition.
+SCALES: The Scale Of Identity
+OCCURRENCES: 1
+
+TERM: Charity
+DEF: Beneficence; benevolence; generosity; kindness.
+SCALES: The Scale Of Motivation
+OCCURRENCES: 1
+
+TERM: Choice
+DEF: The right or opportunity to choose; the act or an instance of choosing; selection.
+SCALES: The Scale Of Choice
+OCCURRENCES: 1
+
+TERM: Chronic
+DEF: Continuing a long time or occurring frequently; having long duration; constant.
+SCALES: The Scale Of Stopping
+OCCURRENCES: 1
+
+TERM: Civilization
+DEF: An advanced state of human activity, in which a high level of culture has been reached.
+SCALES: The Scale Of Civilization
+OCCURRENCES: 1
+
+TERM: Civilized
+DEF: Having an advanced culture or society.
+SCALES: The Scale Of Literacy
+OCCURRENCES: 1
+
+TERM: Clandestine
+DEF: Done in secrecy or concealment, esp. for purposes of subversion or deception; private or surreptitious.
+SCALES: The Scale Of Allegiance
+OCCURRENCES: 1
+
+TERM: Cognoscenti
+DEF: Those who have superior knowledge and understanding of a particular field.
+SCALES: The Scale Of Thought
+OCCURRENCES: 1
+
+TERM: Coin
+DEF: A piece of metal stamped and issued by the authority of a government for use as money.
+SCALES: The Scale Of Exchange
+OCCURRENCES: 1
+
+TERM: Collapsing
+DEF: Falling or caving in; crumbling suddenly; breaking down; suddenly and completely failing.
+SCALES: The Scale Of Survival
+OCCURRENCES: 1
+
+TERM: Collectivism
+DEF: The state of acting as a group; the principle of centralized social and economic control.
+SCALES: The Scale Of Choice
+OCCURRENCES: 1
+
+TERM: Communication
+DEF: The imparting or interchange of thoughts, opinions, or information by speech, writing, etc.; the interchange of particles of any k between any two or more terminals.
+SCALES: The Scale Of Management
+OCCURRENCES: 1
+
+TERM: Compare
+DEF: To examine for the purpose of noting similarities and differences.
+SCALES: The Scale Of Thought
+OCCURRENCES: 1
+
+TERM: Competence
+DEF: Suitableness or sufficiency of skill, knowledge, experience, etc., for some purpose.
+SCALES: The Scale Of Control
+OCCURRENCES: 1
+
+TERM: Complete
+DEF: Thorough; entire; unmodified.
+SCALES: The Scale Of Choice
+OCCURRENCES: 1
+
+TERM: Composure
+DEF: Self-control; presence of mind.i
+SCALES: The Scale Of Communication
+OCCURRENCES: 1
+
+TERM: Comprehension
+DEF: The act or process of grasping with the mind; understanding; ability to grasp ideas or know.
+SCALES: The Scale Of Literacy
+OCCURRENCES: 1
+
+TERM: Compulsion
+DEF: A strong, usually irresistible impulse to perform an act; an obsessive need to achieve some specific end.
+DEF: A very strong, often irresistible, impulse to perform an act that is contrary to one's will.
+SCALES: The Scale Of Control, The Scale Of Permeation
+OCCURRENCES: 2
+
+TERM: Compulsive
+DEF: Governed by an obsessive need to achieve some desired ideal.
+SCALES: The Scale Of Stopping
+OCCURRENCES: 1
+
+TERM: Computation
+DEF: Calculation; determination by calculation; reckoning.
+SCALES: The Scale Of Justification
+OCCURRENCES: 1
+
+TERM: Conceptualism
+DEF: The quality or fact of being interested in or concerned with concepts or ideas.
+SCALES: The Scale Of Civilization
+OCCURRENCES: 1
+
+TERM: Condoning
+DEF: Overlooking, or implied forgiving or pardoning; condonation.
+SCALES: The Scale Of Evaluation
+OCCURRENCES: 1
+
+TERM: Confidence
+DEF: Certitude; assurance; trust.
+SCALES: The Scale Of Belief
+OCCURRENCES: 1
+
+TERM: Conflict
+DEF: A battle or struggle; strife; controversy; quarrel; opposition; fight; contention.
+SCALES: The Scale Of Conflict
+OCCURRENCES: 1
+
+TERM: Conformity
+DEF: Corresponding in form or character; agreement, congruity or accordance.
+SCALES: The Scale Of Basic Purposes
+OCCURRENCES: 1
+
+TERM: Congruence
+DEF: The quality or state of agreeing or corresponding; accordance; agreement.
+SCALES: The Scale Of Identity
+OCCURRENCES: 1
+
+TERM: Conquest
+DEF: The act or conquering.
+SCALES: The Scale Of Basic Purposes
+OCCURRENCES: 1
+
+TERM: Consumer
+DEF: A person who purchases or uses a commodity or service.
+SCALES: The Scale Of Human Ability
+OCCURRENCES: 1
+
+TERM: Contrition
+DEF: Sincere penitence or remorse; sorrow for and detestation of wrongfulness, with a true purpose of amendment.
+SCALES: The Scale Of Identity
+OCCURRENCES: 1
+
+TERM: Control
+DEF: The exercise of restraint, power, or direction over; intentional creation of an effect; command.
+SCALES: The Scale Of Control
+OCCURRENCES: 1
+
+TERM: Conveying
+DEF: Imparting; transfer from one place to another.
+SCALES: The Scale Of Communication
+OCCURRENCES: 1
+
+TERM: Conviction
+DEF: A fixed belief; the state of being convinced.
+SCALES: The Scale Of Memory
+OCCURRENCES: 1
+
+TERM: Counting
+DEF: Checking over to determine the total number; enumeration; reckoning up; computation.
+SCALES: The Scale Of Mental Deletion
+OCCURRENCES: 1
+
+TERM: Courageous
+DEF: Unafraid to face extreme dangers and difficulties; brave; valiant.
+SCALES: The Scale Of Attack
+OCCURRENCES: 1
+
+TERM: Cowardly
+DEF: Lacking courage; contemptibly timid; weakly or basely fearful in the presence of danger.
+SCALES: The Scale Of Attack
+OCCURRENCES: 1
+
+TERM: Create
+DEF: To cause to come into being; to evolve from a person's own thought or imagination.
+SCALES: The Scale Of Thought
+OCCURRENCES: 1
+
+TERM: Creation
+DEF: The act of causing something to come into being; origination; invention; production.
+DEF: The act of producing or causing to exist; the original bringing into existence of something.
+SCALES: The Scale Of Control, The Scale Of Management
+OCCURRENCES: 2
+
+TERM: Credit
+DEF: Confidence in a purchaser's ability and intention to pay later.
+SCALES: The Scale Of Exchange
+OCCURRENCES: 1
+
+TERM: Crime
+DEF: Any serious violation of human laws; any offense, esp. one of a grave character. Cut the Gordian knot, idiom: To solve a problem quickly and boldly.
+SCALES: The Scale Of Basic Purposes
+OCCURRENCES: 1
+
+TERM: Critical
+DEF: Inclined to find fault or judge with severity, often too readily; carping; fault finding.
+SCALES: The Scale Of Reaction
+OCCURRENCES: 1
+
+TERM: Cynicism
+DEF: Disbelief in the sincerity of human motives; the belief that only selfishness motivates human actions and disbelief in or minimization of selfless acts or disinterested points of view.
+SCALES: The Scale Of Belief
+OCCURRENCES: 1
+
+TERM: Deletion
+DEF: Act of deleting; erasure.
+SCALES: The Scale Of Mental Deletion
+OCCURRENCES: 1
+
+TERM: Delusion
+DEF: A fixed, dominating, or persistent false mental conception resistant to reason; a false belief or opinion. form of mental illness, marked by delusions of greatness, wealth, e
+SCALES: The Scale Of Stopping
+OCCURRENCES: 1
+
+TERM: Delusional
+DEF: False; believed in while not conforming to or corresponding to reality or actuality;
+SCALES: The Scale Of Memory
+OCCURRENCES: 1
+
+TERM: Democracy
+DEF: Government by the people; a state in which the supreme power is vested in its citizens and exercised directly by them rather t by elected representatives.
+SCALES: The Scale Of Government
+OCCURRENCES: 1
+
+TERM: Denial
+DEF: Refusal to recognize or acknowledge; disbelief in the existence or reality of a thing.
+SCALES: The Scale Of Memory
+OCCURRENCES: 1
+
+TERM: Deny
+DEF: To state that something is not true; to refuse to recognize or acknowledge; disown.
+SCALES: The Scale Of Thought
+OCCURRENCES: 1
+
+TERM: Desire
+DEF: A longing or craving; a strong feeling that impels to the attainment or possession of something; a wish.
+SCALES: The Scale Of Sexuality
+OCCURRENCES: 1
+
+TERM: Despair
+DEF: Total loss abandonment of hope; hopelessness; despondency.
+SCALES: The Scale Of Justification
+OCCURRENCES: 1
+
+TERM: Destroy
+DEF: To injure beyond repair or renewal; to put an end to; extinguish; to kill.
+SCALES: The Scale Of Basic Purposes
+OCCURRENCES: 1
+
+TERM: Detrimental
+DEF: Damaging; injurious; harmful.
+SCALES: The Scale Of Allegiance
+OCCURRENCES: 1
+
+TERM: Devotion
+DEF: Profound dedication; earnest attachment.
+SCALES: The Scale Of Sexuality
+OCCURRENCES: 1
+
+TERM: Differentiate
+DEF: To perceive the difference in or between; distinguish; to note or observe a difference.
+SCALES: The Scale Of Thought
+OCCURRENCES: 1
+
+TERM: Dilettante
+DEF: A person who takes up an activity or subject merely for amusement; a dabbler.
+SCALES: The Scale Of Human Ability
+OCCURRENCES: 1
+
+TERM: Direction
+DEF: The line along which anything lies, faces, moves, etc., with reference to the point or region toward which it is directed.
+SCALES: The Scale Of Identity
+OCCURRENCES: 1
+
+TERM: Disassociate
+DEF: Dissociate; to severe the association of; disunite; separate; to withdraw from.
+SCALES: The Scale Of Thought
+OCCURRENCES: 1
+
+TERM: Disassociation
+DEF: Disunited; separate; withdrawn from association.
+SCALES: The Scale Of Relationships
+OCCURRENCES: 1
+
+TERM: Disbelief
+DEF: Refusal to believe or to accept as true; denial.
+SCALES: The Scale Of Belief
+OCCURRENCES: 1
+
+TERM: Dislike
+DEF: To regard with displeasure, antipathy, or aversion.
+SCALES: The Scale Of Relationships
+OCCURRENCES: 1
+
+TERM: Disown
+DEF: To refuse to acknowledge as belonging or pertaining to oneself; repudiate.
+SCALES: The Scale Of Control
+OCCURRENCES: 1
+
+TERM: Divine
+DEF: Godlike; of, pertaining to, or proceeding from a deity.
+SCALES: The Scale Of Spiritual Identity
+OCCURRENCES: 1
+
+TERM: Dominance
+DEF: Rule; control; authority; a commanding position; mastery. Gaining victory; overcoming adversity; succeeding by striving or effort.
+SCALES: The Scale Of Conflict
+OCCURRENCES: 1
+
+TERM: Dove
+DEF: Person who is eager for peace; person who advocates a peaceful solution to a conflict.
+SCALES: The Scale Of Politics
+OCCURRENCES: 1
+
+TERM: Duplicate
+DEF: To make a perfect copy of; to make exactly like something else; to recreate.
+SCALES: The Scale Of Thought
+OCCURRENCES: 1
+
+TERM: Duplication
+DEF: The act of copying exactly; correspondence in all respects to something else.
+SCALES: The Scale Of Relationships
+OCCURRENCES: 1
+
+TERM: Duty
+DEF: The binding or obligatory force of something that is morally or legally right; obligation.
+SCALES: The Scale Of Motivation
+OCCURRENCES: 1
+
+TERM: Dysfunctional
+DEF: Malfunctioning; not working properly; seriously impaired.
+SCALES: The Scale Of Physical Fitness
+OCCURRENCES: 1
+
+TERM: Effect
+DEF: Something that is produced by an agency or cause; result; that which is caused.
+SCALES: The Scale Of Spiritual Identity
+OCCURRENCES: 1
+
+TERM: Eidetic
+DEF: Of, pertaining to, or constituting visual imagery retained in the memory and readily reproducible with great accuracy and in g
+SCALES: The Scale Of Memory
+OCCURRENCES: 1
+
+TERM: Embrace
+DEF: To take or receive gladly or eagerly; accept willingly; to include or contain.
+SCALES: The Scale Of Life Spheres
+OCCURRENCES: 1
+
+TERM: Emotional
+DEF: Of, pertaining to, or having to do with an affective state of consciousness, as distinguished from cognitive and volitional state consciousness, which is a subjective response.
+SCALES: The Scale Of Equanimity
+OCCURRENCES: 1
+
+TERM: Empathy
+DEF: Intellectual identification with or vicarious experiencing of the feelings, thoughts, or attitudes of another person.
+SCALES: The Scale Of Permeation
+OCCURRENCES: 1
+
+TERM: Encouragement
+DEF: The act of inspiring with courage, spirit or confidence; the act of emboldening or reassuring.
+DEF: The act of inspiring with courage, spirit, or confidence; reassurance; approval.
+SCALES: The Scale Of Communication, The Scale Of Evaluation
+OCCURRENCES: 2
+
+TERM: Energetic
+DEF: Possessing or exhibiting energy; vigorous.
+SCALES: The Scale Of Physical Fitness
+OCCURRENCES: 1
+
+TERM: Enmity
+DEF: A feeling or condition of hostility; hatred; ill will; animosity; antagonism
+SCALES: The Scale Of Relationships
+OCCURRENCES: 1
+
+TERM: Entrapment
+DEF: The state of being caught in or as in a trap; ensnarement.
+SCALES: The Scale Of Stopping
+OCCURRENCES: 1
+
+TERM: Enumeration
+DEF: Ascertainment of the number of; counting; establishment of the numerousness of.
+SCALES: The Scale Of Mental Deletion
+OCCURRENCES: 1
+
+TERM: Equanimity
+DEF: Composure; equilibrium; even-temperedness; mental balance and stability.
+SCALES: The Scale Of Equanimity
+OCCURRENCES: 1
+
+TERM: Equate
+DEF: To regard, treat, or represent as equivalent; to state the equality of or between.
+SCALES: The Scale Of Thought
+OCCURRENCES: 1
+
+TERM: Equilibrium
+DEF: A state of rest or balance due to the equal action of opposing forces; equal balance between powers, influences, etc.; equalit Being defeated; suffering loss; suffering defeat in a contest, battle, contention, etc.
+SCALES: The Scale Of Conflict
+OCCURRENCES: 1
+
+TERM: Establish
+DEF: To bring into being on a firm or permanent basis; found; institute.
+SCALES: The Scale Of Human Ability
+OCCURRENCES: 1
+
+TERM: Establishment
+DEF: Foundation; institution; formation; the act of bringing into being on a firm or permanent basis; the setting up of an organizat business, corporation, institution, etc.
+SCALES: The Scale Of Management
+OCCURRENCES: 1
+
+TERM: Ethno-Centric
+DEF: Having or regarding one's culture as the center of all worldly things.
+SCALES: The Scale Of Life Spheres
+OCCURRENCES: 1
+
+TERM: etrayal
+DEF: ack of perception of time, space, or identity; a lack of orientatior
+SCALES: The Scale Of Identity
+OCCURRENCES: 1
+
+TERM: Evaluation
+DEF: Determination or setting the value of; appraisal; a judgement as to validity or worth.
+SCALES: The Scale Of Evaluation
+OCCURRENCES: 1
+
+TERM: Exchange
+DEF: To part with for something equivalent; give up (something) for something else.
+DEF: To part with for something equivalent; give up for something else; transfer for recompense.
+SCALES: The Scale Of Exchange, The Scale Of Motivation
+OCCURRENCES: 2
+
+TERM: Expert
+DEF: A person who has special skill or knowledge in some particular field; an authority.
+SCALES: The Scale Of Human Ability
+OCCURRENCES: 1
+
+TERM: Expression
+DEF: Utterance; declaration; statement; assertion; putting into words.
+SCALES: The Scale Of Communication
+OCCURRENCES: 1
+
+TERM: Extremist
+DEF: Supporter of extreme doctrines or practices.
+SCALES: The Scale Of Politics
+OCCURRENCES: 1
+
+TERM: Extroversion
+DEF: The direction of interest outward or to objects outside the self, as toward the external environment.
+SCALES: The Scale Of Identity
+OCCURRENCES: 1
+
+TERM: Facile
+DEF: Appearing neat and comprehensive only by ignoring the true complexities of an issue; superficial.
+SCALES: The Scale Of Scholarship
+OCCURRENCES: 1
+
+TERM: Facilitator
+DEF: A practitioner in the field of human development or psychotherapy who personally and skillfully assists the progress of aspirant, student, or patient.
+SCALES: The Scale Of Belief
+OCCURRENCES: 1
+
+TERM: Faith
+DEF: Belief that is not based on proof; confidence or trust
+SCALES: The Scale Of Belief
+OCCURRENCES: 1
+
+TERM: Falsity
+DEF: Incorrectness; untruthfulness; the quality or condition of being false; erroneousness.
+SCALES: The Scale Of Memory
+OCCURRENCES: 1
+
+TERM: Fame
+DEF: Widespread reputation, especially of a favorable character; renown; public eminence.
+SCALES: The Scale Of Motivation
+OCCURRENCES: 1
+
+TERM: Fear
+DEF: A distressing emotion aroused by an impending pain, danger, evil, etc., or by the illusions of such; anxiety; an attitude tow something which, when experienced, causes the sensation of fright.
+SCALES: The Scale Of Attack
+OCCURRENCES: 1
+
+TERM: Finance
+DEF: The management of revenues; the conducting or transaction of money matters.
+SCALES: The Scale Of Management
+OCCURRENCES: 1
+
+TERM: Fitness
+DEF: Good physical condition or health; vigor; ability.
+SCALES: The Scale Of Physical Fitness
+OCCURRENCES: 1
+
+TERM: Fixed
+DEF: Unchanging or unchanged; predetermined; rigid; definite.
+SCALES: The Scale Of Justification
+OCCURRENCES: 1
+
+TERM: For example
+DEF: Forcing someone to date (Level V) who really needs to focus on self (Level VI).
+SCALES: The Scale Of Government
+OCCURRENCES: 1
+
+TERM: Forgiveness
+DEF: Absolution; granting free pardon for or remission of; cessation of resentment. Looking at; seeing; inspecting.
+SCALES: The Scale Of Justification
+OCCURRENCES: 1
+
+TERM: Forgotten
+DEF: Not remembered; omitted from memory; that has ceased, or failed to be, remembered.
+SCALES: The Scale Of Memory
+OCCURRENCES: 1
+
+TERM: Free
+DEF: Unrestricted; at liberty; independent; unfettered; uncontrolled.
+SCALES: The Scale Of Spiritual Identity
+OCCURRENCES: 1
+
+TERM: Freedom
+DEF: Power of determining one's own action; exemption from external control, interference, etc.
+DEF: The state of being at liberty; exemption from external control; power of determining one's own action; opportunity for the exercise of one's rights, powers, desires, etc.
+SCALES: The Scale Of Choice, The Scale Of Stopping
+OCCURRENCES: 2
+
+TERM: Friendship
+DEF: Friendly feeling or disposition; a feeling of personal attachment to another; association as friends.
+SCALES: The Scale Of Relationships
+OCCURRENCES: 1
+
+TERM: Game
+DEF: An amusement or pastime; a competitive activity involving skill, chance, and/or endurance on the part of two or more parties v play according to a set of rules. Romance, affair, an ardent, passionate, or fervent relationship between sexual partners or aspiring sexual partners.
+SCALES: The Scale Of Sexuality
+OCCURRENCES: 1
+
+TERM: Geneva Convention
+DEF: An international agreement first made in Geneva, Switzerland, in 1864 and followed by many nations, establishing rules for the humane treatment of prisoners of war and of the sick, the wounded, and the dead in battle. Man about town, idiom: A socially active, sophisticated man; playboy.
+SCALES: The Scale Of Allegiance
+OCCURRENCES: 1
+
+TERM: Genius
+DEF: A person of exceptional natural capacity or ability, as shown in creative or original work
+SCALES: The Scale Of Human Ability
+OCCURRENCES: 1
+
+TERM: Ghost
+DEF: A spiritual being; soul; spirit; an incorporeal person.
+SCALES: The Scale Of Spiritual Identity
+OCCURRENCES: 1
+
+TERM: God
+DEF: The Supreme Being; a deity.
+SCALES: The Scale Of Spiritual Identity
+OCCURRENCES: 1
+
+TERM: Government
+DEF: The political control exercised over the actions of the citizens or inhabitants of societies, communities, and states; the system of by which a state, community, etc., is governed.
+SCALES: The Scale Of Government
+OCCURRENCES: 1
+
+TERM: Group-Centric
+DEF: Having or regarding one's group as the center of all worldly things.
+SCALES: The Scale Of Life Spheres
+OCCURRENCES: 1
+
+TERM: Grown-up
+DEF: Having reached maturity; adult; fully grown.
+SCALES: The Scale Of Equanimity
+OCCURRENCES: 1
+
+TERM: Handling
+DEF: The manner of treating or dealing with something; management; treatment.
+SCALES: The Scale Of Communication
+OCCURRENCES: 1
+
+TERM: Harmonic
+DEF: One of a series of vibrations, each of which has a frequency that is an integral multiple of the same basic frequency.
+SCALES: The Scale Of Memory
+OCCURRENCES: 1
+
+TERM: Harmony
+DEF: Agreement; accord; a consistent, orderly, or pleasing arrangement of parts.
+SCALES: The Scale Of Relationships
+OCCURRENCES: 1
+
+TERM: Hatred
+DEF: Intense dislike, aversion, or hostility; animosity; detestation; loathing.
+SCALES: The Scale Of Relationships
+OCCURRENCES: 1
+
+TERM: Have
+DEF: To possess or own; to get, receive, or take; to partake of.
+SCALES: The Scale Of Sexuality
+OCCURRENCES: 1
+
+TERM: Hawk
+DEF: A person who advocates a warlike or military solution to a conflict.
+SCALES: The Scale Of Politics
+OCCURRENCES: 1
+
+TERM: Healthy
+DEF: Possessing or enjoying good health; not sick.
+SCALES: The Scale Of Physical Fitness
+OCCURRENCES: 1
+
+TERM: Heroism
+DEF: Valor; the qualities or attributes of a person of distinguished courage or ability, admired for his brave deeds and noble qualities.
+SCALES: The Scale Of Allegiance
+OCCURRENCES: 1
+
+TERM: Honor
+DEF: A fine sense of, and strict conformity to, what is considered morally right or due.
+SCALES: The Scale Of Exchange
+OCCURRENCES: 1
+
+TERM: Human
+DEF: Of, pertaining to, or characteristic of mankind.
+SCALES: The Scale Of Human Ability
+OCCURRENCES: 1
+
+TERM: Humanity
+DEF: The human race; mankind; all human beings regarded collectively.
+SCALES: The Scale Of Life Spheres
+OCCURRENCES: 1
+
+TERM: Humility
+DEF: The quality or condition of being humble; modest sense of one's own importance, rank, etc.
+SCALES: The Scale Of Basic Purposes
+OCCURRENCES: 1
+
+TERM: Hysteria
+DEF: A psychoneurotic disorder characterized by violent emotional outbreaks, disturbances of sensory and motor functions, and vari abnormal effects due to autosuggestion.
+SCALES: The Scale Of Attack
+OCCURRENCES: 1
+
+TERM: Idea
+DEF: Any conception existing in the mind as a result of understanding or awareness; a thought.
+SCALES: The Scale Of Justification
+OCCURRENCES: 1
+
+TERM: Idee Fixe
+DEF: Fixed idea (French).
+SCALES: The Scale Of Justification
+OCCURRENCES: 1
+
+TERM: Identify
+DEF: To make, represent to be, or regard or treat as the same or identical.
+SCALES: The Scale Of Thought
+OCCURRENCES: 1
+
+TERM: Identity
+DEF: Condition or character as to who a person or what a thing is; whom or what you think you are.
+SCALES: The Scale Of Identity
+OCCURRENCES: 1
+
+TERM: Ignoramus
+DEF: An ignorant person.
+SCALES: The Scale Of Human Ability
+OCCURRENCES: 1
+
+TERM: Ignore
+DEF: To refrain from noticing or recognizing; overlook; disregard.
+SCALES: The Scale Of Thought
+OCCURRENCES: 1
+
+TERM: Immemorial
+DEF: Extending back beyond memory, record, or knowledge.
+SCALES: The Scale Of Allegiance
+OCCURRENCES: 1
+
+TERM: Immunity
+DEF: Insusceptibility or resistance to disease or sickness.
+SCALES: The Scale Of Physical Fitness
+OCCURRENCES: 1
+
+TERM: Impartiality
+DEF: Absence of bias or prejudice; impartialness.
+SCALES: The Scale Of Evaluation
+OCCURRENCES: 1
+
+TERM: Incident
+DEF: An occurrence or event; a distinct piece of action; an episode.
+SCALES: The Scale Of Mental Deletion
+OCCURRENCES: 1
+
+TERM: Indecision
+DEF: Inability to settle something in dispute or doubt.
+SCALES: The Scale Of Identity
+OCCURRENCES: 1
+
+TERM: Indestructible
+DEF: That cannot be injured beyond repair or renewal; that cannot be killed or extinguished.
+SCALES: The Scale Of Physical Fitness
+OCCURRENCES: 1
+
+TERM: Indifference
+DEF: Lack of interest of concern.
+SCALES: The Scale Of Permeation
+OCCURRENCES: 1
+
+TERM: Indifferent
+DEF: Without interest or concern; absence of feeling or interest; unconcerned.
+SCALES: The Scale Of Government
+OCCURRENCES: 1
+
+TERM: Infallibly
+DEF: Unerringly; certainly; reliably.
+SCALES: The Scale Of Communication
+OCCURRENCES: 1
+
+TERM: Infinite
+DEF: Endless; innumerable; inexhaustible; unbounded; unlimited; perfect.
+SCALES: The Scale Of Relationships
+OCCURRENCES: 1
+
+TERM: Infinity
+DEF: That which is immeasurably great, unbounded, unlimited, endless, innumerable, inexhaustible, or infinite.
+SCALES: The Scale Of Spiritual Identity
+OCCURRENCES: 1
+
+TERM: Influence
+DEF: The capacity or power to produce effects on others by intangible or indirect means.
+SCALES: The Scale Of Personal Influence
+OCCURRENCES: 1
+
+TERM: Ingenuousness
+DEF: Freedom from reserve, restraint, or dissimulation; artlessness; innocence; naiveté.
+SCALES: The Scale Of Belief
+OCCURRENCES: 1
+
+TERM: Inhibition
+DEF: A restraining, arresting, or checking an action, impulse, etc.
+SCALES: The Scale Of Control
+OCCURRENCES: 1
+
+TERM: Insane
+DEF: Not of sound mind; mentally deranged; utterly senseless.
+SCALES: The Scale Of Sexuality
+OCCURRENCES: 1
+
+TERM: Inspection
+DEF: Careful examination or scrutiny.
+DEF: The act of looking at or over carefully; a close or critical viewing.
+SCALES: The Scale Of Communication, The Scale Of Mental Deletion
+OCCURRENCES: 2
+
+TERM: Inspiration
+DEF: To give rise to, bring about, or cause; to produce or arouse; to influence or impel.
+SCALES: The Scale Of Thought
+OCCURRENCES: 1
+
+TERM: Intelligence
+DEF: The faculty of understanding; capacity for reasoning; quickness of comprehension; mental capacity om which one cannot extricate oneself; impossible to disengage tro
+SCALES: The Scale Of Scholarship
+OCCURRENCES: 1
+
+TERM: Interaction
+DEF: An acting upon one another; reciprocal action or influence; communication with.
+DEF: Communication or direct involvement with someone or something.
+SCALES: The Scale Of Communication, The Scale Of Management
+OCCURRENCES: 2
+
+TERM: Interest
+DEF: One's feelings or attitudes of concern, involvement, or curiosity, as aroused by something or someone; concern; engagement of one's attention or curiosity; desire to know about.
+SCALES: The Scale Of Scholarship
+OCCURRENCES: 1
+
+TERM: Intrinsic
+DEF: Belonging to a thing by its very nature; innate.
+SCALES: The Scale Of Justification
+OCCURRENCES: 1
+
+TERM: Invincible
+DEF: Incapable of being conquered, defeated, or subdued; impossible to overcome or master.
+SCALES: The Scale Of Stopping
+OCCURRENCES: 1
+
+TERM: Inviting
+DEF: Asking or requesting participation in a kindly, courteous, or complimentary way.
+SCALES: The Scale Of Communication
+OCCURRENCES: 1
+
+TERM: Irresponsibility
+DEF: The inability to respond; the inability to control: the inability to make moral decisions.
+SCALES: The Scale Of Choice
+OCCURRENCES: 1
+
+TERM: Knowledge
+DEF: Clear and certain perception of fact or truth; enlightenment; comprehension; wisdom.
+SCALES: The Scale Of Thought
+OCCURRENCES: 1
+
+TERM: Law
+DEF: Jurisprudence; a system or collection of rules, principles, and regulations.
+SCALES: The Scale Of Civilization
+OCCURRENCES: 1
+
+TERM: Layman
+DEF: A person who is not a member of a specified profession
+SCALES: The Scale Of Human Ability
+OCCURRENCES: 1
+
+TERM: Leader
+DEF: A guiding or directing head, as of an army, political group, etc.
+SCALES: The Scale Of Basic Purposes
+OCCURRENCES: 1
+
+TERM: Leadership
+DEF: Ability to lead. The power of intelligent and dispassionate thought; sound judgement; good sense.
+SCALES: The Scale Of Personal Influence
+OCCURRENCES: 1
+
+TERM: Learn
+DEF: To acquire knowledge of or skill in by study, instruction, or experience; ascertain.
+SCALES: The Scale Of Thought
+OCCURRENCES: 1
+
+TERM: Leave
+DEF: 
+SCALES: The Scale Of Sexuality
+OCCURRENCES: 1
+
+TERM: Libertarian
+DEF: A person or group who advocates liberty, esp. with regard to thought or conduct.
+SCALES: The Scale Of Government
+OCCURRENCES: 1
+
+TERM: Life-Centric
+DEF: Having or regarding living creatures as the center of all worldly things.
+SCALES: The Scale Of Life Spheres
+OCCURRENCES: 1
+
+TERM: Like
+DEF: To take pleasure in; find agreeable or congenial to one's taste; to regard with favor.
+SCALES: The Scale Of Relationships
+OCCURRENCES: 1
+
+TERM: Literacy
+DEF: The quality or state of being literate, esp. the ability to read and write; knowledge of literature and language.
+SCALES: The Scale Of Literacy
+OCCURRENCES: 1
+
+TERM: Literate
+DEF: Able to read and write; educated; knowledgeable.
+SCALES: The Scale Of Literacy
+OCCURRENCES: 1
+
+TERM: Location
+DEF: The act of finding; discovery of place; ascertainment of where something is.
+SCALES: The Scale Of Mental Deletion
+OCCURRENCES: 1
+
+TERM: Logic
+DEF: Reason or sound judgement; a particular method or reasoning or argumentation.
+SCALES: The Scale Of Personal Influence
+OCCURRENCES: 1
+
+TERM: Looking
+DEF: Directing mental regard or attention; viewing; inspecting.
+SCALES: The Scale Of Mental Deletion
+OCCURRENCES: 1
+
+TERM: Lost
+DEF: No longer possessed or retained; no longer to be found; having gone astray; destroyed.
+SCALES: The Scale Of Allegiance
+OCCURRENCES: 1
+
+TERM: Love
+DEF: A profoundly tender, passionate affection; a feeling of warm personal attachment or deep affection; affectionate concern for the well-being of another.
+SCALES: The Scale Of Relationships
+OCCURRENCES: 1
+
+TERM: Magnetism
+DEF: Attractive power or charm. Sphere of Influence, idiom: An area in which one wields power over another or others.
+SCALES: The Scale Of Communication
+OCCURRENCES: 1
+
+TERM: Management
+DEF: Handling; direction; control; administration; the activity of taking charge of or responsibility for an area, activity, gro
+SCALES: The Scale Of Management
+OCCURRENCES: 1
+
+TERM: Mania
+DEF: A form of insanity characterized by great excitement, with or without delusions, and in its acute stage by great violence.
+SCALES: The Scale Of Stopping
+OCCURRENCES: 1
+
+TERM: Market
+DEF: To offer for sale in the world of commerce; to put on the marketplace.
+SCALES: The Scale Of Human Ability
+OCCURRENCES: 1
+
+TERM: Masochist
+DEF: One who receives gratification from suffering, pain, humiliation, deprivation, etc., esp. when inflicted or imposed upon oneself.
+SCALES: The Scale Of Attack
+OCCURRENCES: 1
+
+TERM: Master
+DEF: A person eminently skilled in something; a person with ability or power to use or control.
+SCALES: The Scale Of Human Ability
+OCCURRENCES: 1
+
+TERM: Mastery
+DEF: Power of command or control; command or grasp, as of a subject or activity.
+SCALES: The Scale Of Control
+OCCURRENCES: 1
+
+TERM: Materialist
+DEF: One who pays inordinate attention to, or places emphasis on, material objects, needs, and considerations, with a disinterest in rejection of, spiritual values and phenomena.
+SCALES: The Scale Of Permeation
+OCCURRENCES: 1
+
+TERM: Maturity
+DEF: The state of being fully developed; completeness in growth or development.
+SCALES: The Scale Of Equanimity
+OCCURRENCES: 1
+
+TERM: Maximal
+DEF: Greatest possible; most; highest.
+SCALES: The Scale Of Identity
+OCCURRENCES: 1
+
+TERM: Meditation
+DEF: Continuous thought; reflection; contemplation; the turning or revolving of a subject in the mind.
+SCALES: The Scale Of Belief
+OCCURRENCES: 1
+
+TERM: Memory
+DEF: The mental capacity or faculty of retaining and reviving impressions, or of recalling or recognizing previous experiences;
+SCALES: The Scale Of Memory
+OCCURRENCES: 1
+
+TERM: Mental
+DEF: Of, pertaining to, performed by or existing in that part of a person that thinks, feels and wills.
+SCALES: The Scale Of Mental Deletion
+OCCURRENCES: 1
+
+TERM: Metaphysical
+DEF: Of, pertaining to, or having to do with that branch of philosophy that treats of first principles or the ultimate nature of existe reality, and experience, esp. as developed in self-contained conceptual systems.
+SCALES: The Scale Of Belief
+OCCURRENCES: 1
+
+TERM: Method
+DEF: A settled kind of procedure; means; technique; manner in which a thing is done; system.
+SCALES: The Scale Of Mental Deletion
+OCCURRENCES: 1
+
+TERM: Minimal
+DEF: Least possible; smallest; lowest.
+SCALES: The Scale Of Scholarship
+OCCURRENCES: 1
+
+TERM: Misconception
+DEF: An erroneous conception; mistaken notion; wrong idea. A failure to understand; mistake as to meaning; misapprehension; disagreement.
+SCALES: The Scale Of Aberration
+OCCURRENCES: 1
+
+TERM: Misdeed
+DEF: An immoral or wicked deed; harmful act.
+SCALES: The Scale Of Aberration
+OCCURRENCES: 1
+
+TERM: Moderate
+DEF: 1 person who hold moderate beliefs, especially in politics.
+SCALES: The Scale Of Politics
+OCCURRENCES: 1
+
+TERM: Monogamous
+DEF: Practicing or advocating marriage with only one person at a time; having only one mate.
+SCALES: The Scale Of Allegiance
+OCCURRENCES: 1
+
+TERM: Morals
+DEF: Rules and standards of conduct and practice; generally accepted customs of right living.
+SCALES: The Scale Of Civilization
+OCCURRENCES: 1
+
+TERM: Motivation
+DEF: That which prompts one to act in a certain way or that determines volition.
+SCALES: The Scale Of Motivation
+OCCURRENCES: 1
+
+TERM: Necessary
+DEF: Being essential, indispensable, or requisite.
+SCALES: The Scale Of Choice
+OCCURRENCES: 1
+
+TERM: Need
+DEF: Requirement; necessity; want.
+DEF: Urgent want, as of something requisite.
+SCALES: The Scale Of Attack, The Scale Of Sexuality
+OCCURRENCES: 2
+
+TERM: Neurotic
+DEF: Of, pertaining to, or having an emotional disorder in which feelings of anxiety, obsessional thoughts, compulsive acts, and physical complaints, without objective evidence of disease, in various patterns, dominate the personality.
+SCALES: The Scale Of Attack
+OCCURRENCES: 1
+
+TERM: Neutral
+DEF: Not favoring either side or tendency; of no particular kind; indefinite.
+SCALES: The Scale Of Relationships
+OCCURRENCES: 1
+
+TERM: Neutrality
+DEF: Absence of both positivity and negativity; the state of being neutral; absence of inclination or tendency toward either side dichotomy, choice, conflict, etc.
+SCALES: The Scale Of Evaluation
+OCCURRENCES: 1
+
+TERM: New Agers
+DEF: Adherents of a diverse, late-twentieth century spiritual and philosophical movement which propounds that mankind is enterir new age in which metaphysical, paranormal, psychic, and mystical tendencies, interests, pursuits and activities will flour proliferate, and develop.
+SCALES: The Scale Of Belief
+OCCURRENCES: 1
+
+TERM: Nihilism
+DEF: Total and absolute destructiveness toward the world at large and oneself.
+SCALES: The Scale Of Justification
+OCCURRENCES: 1
+
+TERM: Nihilist
+DEF: One who is extremely skeptical, esp. with regard to value statements or moral judgements; one who totally rejects established 1.
+SCALES: The Scale Of Permeation
+OCCURRENCES: 1
+
+TERM: Normal
+DEF: Conforming to the standard or the common type; regular; natural; approximately average.
+DEF: Conforming to the standard or the common type; usual; not abnormal; regular.
+SCALES: The Scale Of Basic Purposes, The Scale Of Stopping
+OCCURRENCES: 2
+
+TERM: Object
+DEF: Thing; anything that is perceptible and is stable in form.
+SCALES: The Scale Of Spiritual Identity
+OCCURRENCES: 1
+
+TERM: Objective
+DEF: Based on facts; being or belonging to the object of perception or thought.
+SCALES: The Scale Of Justification
+OCCURRENCES: 1
+
+TERM: Obligation
+DEF: That by which one is bound to do something, which arises out of a sense of duty or law.
+SCALES: The Scale Of Motivation
+OCCURRENCES: 1
+
+TERM: Oblivion
+DEF: The state of being forgotten; the state of forgetting or of being mentally withdrawn.
+SCALES: The Scale Of Identity
+OCCURRENCES: 1
+
+TERM: Observing
+DEF: Noticing; seeing; perceiving.
+SCALES: The Scale Of Communication
+OCCURRENCES: 1
+
+TERM: Obsession
+DEF: The domination of one's thoughts or feelings by a persistent idea, image, desire, etc. occupation or obsession; compulsive absorption or involveme
+SCALES: The Scale Of Relationships
+OCCURRENCES: 1
+
+TERM: Overwhelmed
+DEF: Overpowered; crushed; destroyed; overcome completely; covered or buried beneath a mass of something.
+SCALES: The Scale Of Justification
+OCCURRENCES: 1
+
+TERM: Pacifism
+DEF: Opposition to war or violence; nonresistance to aggression; unwillingness or refusal to resist violence or aggression.
+SCALES: The Scale Of Attack
+OCCURRENCES: 1
+
+TERM: Paradox
+DEF: A statement or proposition seemingly self-contradictory or absurd, but in reality expressing a possible truth; anything exhibiting apparently contradictory nature.
+SCALES: The Scale Of Control
+OCCURRENCES: 1
+
+TERM: Partisan
+DEF: A strong supporter of a person, party or cause.
+SCALES: The Scale Of Politics
+OCCURRENCES: 1
+
+TERM: Partisanship
+DEF: Strong loyalty to a party or cause.
+SCALES: The Scale Of Politics
+OCCURRENCES: 1
+
+TERM: Peace
+DEF: A state of harmony among people or groups; freedom from, or cessation of, strife or dissension.
+SCALES: The Scale Of Conflict
+OCCURRENCES: 1
+
+TERM: Perception
+DEF: A single unified awareness derived from sensory processes while a stimulus is present.
+SCALES: The Scale Of Identity
+OCCURRENCES: 1
+
+TERM: Peril
+DEF: Exposure to injury, loss, or destruction; risk; jeopardy; danger.
+SCALES: The Scale Of Survival
+OCCURRENCES: 1
+
+TERM: Permeate
+DEF: To be diffused through; pervade; saturate.
+SCALES: The Scale Of Permeation
+OCCURRENCES: 1
+
+TERM: Persona
+DEF: A role, identity, or character a person assumes.
+SCALES: The Scale Of Spiritual Identity
+OCCURRENCES: 1
+
+TERM: Pervade
+DEF: To extend throughout; spread through every part of.
+SCALES: The Scale Of Permeation
+OCCURRENCES: 1
+
+TERM: Perversion
+DEF: Any of various means of attaining sexual gratification that are widely regarded as being abnormal; a turning away from wha right, good, or proper.
+SCALES: The Scale Of Sexuality
+OCCURRENCES: 1
+
+TERM: Physical
+DEF: Of, pertaining to, or having to do with the body.
+SCALES: The Scale Of Physical Fitness
+OCCURRENCES: 1
+
+TERM: Pleasure
+DEF: Enjoyment or satisfaction derived from what is to one's liking; gratification; delight.
+SCALES: The Scale Of Basic Purposes
+OCCURRENCES: 1
+
+TERM: Poise
+DEF: Self-possession and ease, especially in dealing with difficult situations.
+SCALES: The Scale Of Communication
+OCCURRENCES: 1
+
+TERM: Politics
+DEF: Management of political affairs.
+SCALES: The Scale Of Politics
+OCCURRENCES: 1
+
+TERM: Poor
+DEF: Lacking in capability; not up to expectations.
+SCALES: The Scale Of Scholarship
+OCCURRENCES: 1
+
+TERM: Power
+DEF: Ability to do or act; capability of doing or accomplishing something; strength; might; force.
+SCALES: The Scale Of Permeation
+OCCURRENCES: 1
+
+TERM: Prepubescent
+DEF: | Prior to arriving at the period or age at which a person is first capable of sexual reproduction.
+SCALES: The Scale Of Belief
+OCCURRENCES: 1
+
+TERM: Presence
+DEF: The state of being in the specified time or place; attendance; close proximity.
+SCALES: The Scale Of Communication
+OCCURRENCES: 1
+
+TERM: Pretend
+DEF: Feign; to cause or attempt to cause (what is not so) to seem so; to appear falsely, so as to deceive.
+SCALES: The Scale Of Scholarship
+OCCURRENCES: 1
+
+TERM: Processing
+DEF: A systematic series of actions directed to the end of improving a recipient's ability, awareness, happiness, etc.
+SCALES: The Scale Of Allegiance
+OCCURRENCES: 1
+
+TERM: Professional
+DEF: A person who works at an occupation that requires extensive education or special skill.
+SCALES: The Scale Of Human Ability
+OCCURRENCES: 1
+
+TERM: Promotion
+DEF: Encouragement, advancement, or dissemination of the benefits or advantages of.
+SCALES: The Scale Of Management
+OCCURRENCES: 1
+
+TERM: Protagonist
+DEF: Person who takes a leading part; active supporter.
+SCALES: The Scale Of Politics
+OCCURRENCES: 1
+
+TERM: Protesting
+DEF: Expressing objection, disapproval, or dissent; remonstrating; complaining.
+SCALES: The Scale Of Reaction
+OCCURRENCES: 1
+
+TERM: Purpose
+DEF: An intended or desired result; aim; goal; end.
+SCALES: The Scale Of Motivation
+OCCURRENCES: 1
+
+TERM: Radical
+DEF: A person who favors extreme changes or reforms, especially in politics.
+SCALES: The Scale Of Politics
+OCCURRENCES: 1
+
+TERM: Rational
+DEF: In accord with reason; reasonable; sensible; sane; lucid; in full possession of one's reason.
+SCALES: The Scale Of Aberration
+OCCURRENCES: 1
+
+TERM: Re-experience
+DEF: To experience again; the process of observing, encountering, or undergoing as before.
+SCALES: The Scale Of Mental Deletion
+OCCURRENCES: 1
+
+TERM: Reaction
+DEF: A reverse movement or tendency; action in response to some influence, event, etc.; an action in opposition, as against some forc impetus; a response to a stimulus. Arminated, elected to impatience or angry feeling: vexed: gallec
+SCALES: The Scale Of Reaction
+OCCURRENCES: 1
+
+TERM: Reality
+DEF: Something that exists independently of ideas concerning it; thing.
+SCALES: The Scale Of Justification
+OCCURRENCES: 1
+
+TERM: Reason
+DEF: The mental powers concerned with forming conclusions, judgements, or inferences.
+SCALES: The Scale Of Civilization
+OCCURRENCES: 1
+
+TERM: Record
+DEF: A document that provides information for reference; the impression made by one's past.
+SCALES: The Scale Of Exchange
+OCCURRENCES: 1
+
+TERM: Recounting
+DEF: A relation or narration in detail; description; telling about.
+SCALES: The Scale Of Mental Deletion
+OCCURRENCES: 1
+
+TERM: Regret
+DEF: A sense of sorrow about what one did in the past, usually wrongs committed or errors made.
+SCALES: The Scale Of Allegiance
+OCCURRENCES: 1
+
+TERM: Reject
+DEF: To refuse to have, take, act upon, etc.; to refuse to accept.
+SCALES: The Scale Of Thought
+OCCURRENCES: 1
+
+TERM: Religion
+DEF: A specific and institutionalized set of beliefs and practices generally agreed upon by a number of persons or sects.
+SCALES: The Scale Of Civilization
+OCCURRENCES: 1
+
+TERM: Remorse
+DEF: Qualms of conscience, a sense of guilt, and repentance for sins committed, wrongs done, or duty not performed.
+SCALES: The Scale Of Allegiance
+OCCURRENCES: 1
+
+TERM: Repression
+DEF: The rejection from consciousness of painful or disagreeable ideas, memories, feelings, or impulses.
+SCALES: The Scale Of Memory
+OCCURRENCES: 1
+
+TERM: Republic
+DEF: A state in which the supreme power rests in the body of citizens entitled to vote and is exercised by representatives chosen by th and the head of government is elected.
+SCALES: The Scale Of Government
+OCCURRENCES: 1
+
+TERM: Response
+DEF: An answer or reply; a rejoinder.
+SCALES: The Scale Of Communication
+OCCURRENCES: 1
+
+TERM: Responsibility
+DEF: Ability to respond or cause; ability to discharge obligations; accountability.
+SCALES: The Scale Of Motivation
+OCCURRENCES: 1
+
+TERM: Restraint
+DEF: The act of holding back or under control; a keeping in check; repression.
+SCALES: The Scale Of Aberration
+OCCURRENCES: 1
+
+TERM: Retirement
+DEF: Removal or withdrawal from service, business, activity, or office.
+SCALES: The Scale Of Survival
+OCCURRENCES: 1
+
+TERM: Robotism
+DEF: The state of acting and responding in a mechanical, routine manner, like an automaton.
+SCALES: The Scale Of Choice
+OCCURRENCES: 1
+
+TERM: Saint
+DEF: A person of great holiness, virtue, or benevolence.
+SCALES: The Scale Of Basic Purposes
+OCCURRENCES: 1
+
+TERM: Sales
+DEF: Of, pertaining to, or engaged in selling; the activity of offering for sale, causing to be accepted, or inducing to buy.
+SCALES: The Scale Of Management
+OCCURRENCES: 1
+
+TERM: Sane
+DEF: Having a sound, healthy mind; having or showing reason, sound judgement, or good sense.
+SCALES: The Scale Of Sexuality
+OCCURRENCES: 1
+
+TERM: Scholar
+DEF: A student; pupil; a learned or erudite person.
+SCALES: The Scale Of Scholarship
+OCCURRENCES: 1
+
+TERM: Scholarship
+DEF: The qualities, skills, and attainments of a scholar.
+SCALES: The Scale Of Scholarship
+OCCURRENCES: 1
+
+TERM: Scylla and Charybdis
+DEF: Two huge rocks in the Strait of Messina off the south coast of Italy, between which mariners of antiquity perilously sought to navigate without becoming shipwrecked on either; two equally perilous alternatives, neither of which can be passed without encountering and probably falling victim to the other.
+SCALES: The Scale Of Belief
+OCCURRENCES: 1
+
+TERM: Secret
+DEF: Something that is kept from the knowledge of others, or kept hidden or concealed.
+SCALES: The Scale Of Aberration
+OCCURRENCES: 1
+
+TERM: Secured
+DEF: Freed from or not exposed to danger; ensured; freed from care or concern. Obtaining; getting; acquiring; attaining; winning. Gaining Ground, idiom: Making progress; advancing: gaining approval or acceptance. Breaking even, idiom: Finishing a transaction, game, etc., with no loss or gain in money, prestige, etc.
+SCALES: The Scale Of Survival
+OCCURRENCES: 1
+
+TERM: Security
+DEF: Freedom from care, apprehension, doubt, or insecurity.
+SCALES: The Scale Of Equanimity
+OCCURRENCES: 1
+
+TERM: Self-sacrifice
+DEF: The surrender, giving up, or destruction of one's interests, desires, pleasures, etc., as for duty or the good of another. Incorrect; not proper or usual; bad; immoral; false; mistaken.
+SCALES: The Scale Of Allegiance
+OCCURRENCES: 1
+
+TERM: Selfishness
+DEF: The state of being devoted to or caring for oneself, concern with one's own interests.
+SCALES: The Scale Of Choice
+OCCURRENCES: 1
+
+TERM: Septemics
+DEF: Hierarchies of Human Phenomena: Analysis, Prediction and Management of Human Affairs You're viewing the eBook edition. A preview of the Hardcover edition is currently not available. Add to Bag (eBook - $9.99) nook for Web Introduction to Septemics
+SCALES: The Scale Of Basic Purposes
+OCCURRENCES: 1
+
+TERM: Sex
+DEF: The instinct or attraction drawing males and females toward one another, esp. with reference to their reproductive functions; sexual
+SCALES: The Scale Of Sexuality
+OCCURRENCES: 1
+
+TERM: Sexuality
+DEF: Recognition of, emphasis upon, or involvement in sexual activity.
+SCALES: The Scale Of Sexuality
+OCCURRENCES: 1
+
+TERM: Sick
+DEF: Afflicted with ill health or disease; ill; ailing.
+SCALES: The Scale Of Physical Fitness
+OCCURRENCES: 1
+
+TERM: Similar
+DEF: Having likeness or resemblance; corresponding in some aspect.
+SCALES: The Scale Of Mental Deletion
+OCCURRENCES: 1
+
+TERM: Skepticism
+DEF: Doubt; unbelief; the questioning of the truth, authenticity, or validity of something purporting to be factual.
+SCALES: The Scale Of Belief
+OCCURRENCES: 1
+
+TERM: Social
+DEF: Living or disposed to live in companionship with others or in a community.
+SCALES: The Scale Of Basic Purposes
+OCCURRENCES: 1
+
+TERM: Social science
+DEF: A science or field of study dealing with an aspect of society or forms of social activity.
+SCALES: The Scale Of Civilization
+OCCURRENCES: 1
+
+TERM: Socialism
+DEF: A theory or system of social organization that advocates the ownership and control of industry, capital, land, etc. by the commu as a whole.
+SCALES: The Scale Of Government
+OCCURRENCES: 1
+
+TERM: Sphere
+DEF: A place or environment within which a person or thing exists; a field of something specified.
+SCALES: The Scale Of Life Spheres
+OCCURRENCES: 1
+
+TERM: Spirit
+DEF: The incorporeal part of a human being; a soul; an incorporeal or spiritual being.
+SCALES: The Scale Of Spiritual Identity
+OCCURRENCES: 1
+
+TERM: Spiritual
+DEF: Of or pertaining to the spirit as the seat of the moral or religious nature.
+DEF: Of or pertaining to the spirit or its concerns as distinguished from worldly concerns.
+SCALES: The Scale Of Basic Purposes, The Scale Of Spiritual Identity
+OCCURRENCES: 2
+
+TERM: Spirituality
+DEF: The quality or fact of being interested in or concerned with metaphysical or divine matters.
+SCALES: The Scale Of Civilization
+OCCURRENCES: 1
+
+TERM: Sporadic
+DEF: Appearing in scattered or isolated instances; occasional.
+SCALES: The Scale Of Memory
+OCCURRENCES: 1
+
+TERM: Stability
+DEF: Firmness in position; continuance without change; resistance to change; reliability.
+SCALES: The Scale Of Survival
+OCCURRENCES: 1
+
+TERM: Stalemate
+DEF: Any position or situation in which no action can be taken; deadlock.
+SCALES: The Scale Of Conflict
+OCCURRENCES: 1
+
+TERM: State
+DEF: The condition of a person or thing with respect to circumstances, qualities, etc.
+SCALES: The Scale Of Attack
+OCCURRENCES: 1
+
+TERM: Status
+DEF: The position of an individual in relation to another or others; the standing of a person.
+SCALES: The Scale Of Motivation
+OCCURRENCES: 1
+
+TERM: Stop
+DEF: To cease from, leave off, or discontinue; to cause to cease; put an end to; to interrupt, arrest or check; to cut off, intercept, or withhold; to restrain, hinder, or prevent.
+SCALES: The Scale Of Stopping
+OCCURRENCES: 1
+
+TERM: Strong
+DEF: Physically vigorous and robust; able to exert great bodily power.
+SCALES: The Scale Of Physical Fitness
+OCCURRENCES: 1
+
+TERM: Student
+DEF: A person formally engaged in learning; any person who studies, investigates, or carefully examines a subject; a pupil.
+SCALES: The Scale Of Scholarship
+OCCURRENCES: 1
+
+TERM: Subjugated
+DEF: Brought under complete control or subjection; conquered; mastered; overpowered.
+SCALES: The Scale Of Justification
+OCCURRENCES: 1
+
+TERM: Sublimation
+DEF: Diversion of the energy of an impulse from its immediate goal to a higher one.
+SCALES: The Scale Of Sexuality
+OCCURRENCES: 1
+
+TERM: Subvert
+DEF: To cause the downfall, ruin or destruction of; to overthrow.
+SCALES: The Scale Of Basic Purposes
+OCCURRENCES: 1
+
+TERM: Succeed
+DEF: To happen or terminate according to desire; have the desired result; to thrive or prosper.
+SCALES: The Scale Of Life Spheres
+OCCURRENCES: 1
+
+TERM: Success
+DEF: The favorable or prosperous termination of attempts or endeavors.
+DEF: The favorable or prosperous termination of attempts or endeavors; the attainment of a favorable position or condition.
+SCALES: The Scale Of Conflict, The Scale Of Permeation
+OCCURRENCES: 2
+
+TERM: Successful
+DEF: Achieving or having achieved a favorable termination of attempts or endeavors.
+SCALES: The Scale Of Stopping
+OCCURRENCES: 1
+
+TERM: Succumb
+DEF: To give way to superior force; yield.
+SCALES: The Scale Of Permeation
+OCCURRENCES: 1
+
+TERM: Succumbing
+DEF: Yielding; giving way; failing.
+SCALES: The Scale Of Physical Fitness
+OCCURRENCES: 1
+
+TERM: Suffer
+DEF: To undergo, be subjected to, or endure pain, distress, injury or anything unpleasant.
+SCALES: The Scale Of Basic Purposes
+OCCURRENCES: 1
+
+TERM: Suicidal
+DEF: Tending or leading to destruction of one's own interests or prospects, or the intentional taking of one's own life.
+SCALES: The Scale Of Attack
+OCCURRENCES: 1
+
+TERM: Superhuman
+DEF: Exceeding ordinary human power, achievement, experience, limitations, etc.
+SCALES: The Scale Of Physical Fitness
+OCCURRENCES: 1
+
+TERM: Suppressive
+DEF: Holding down or tending to hold down; seeking to abolish, do away with, or stop.
+SCALES: The Scale Of Stopping
+OCCURRENCES: 1
+
+TERM: Survival
+DEF: The act or fact of remaining alive or continuing in existence; endurance.
+SCALES: The Scale Of Physical Fitness
+OCCURRENCES: 1
+
+TERM: Survive
+DEF: To remain alive; continue to live; to remain or continue in existence or use,
+SCALES: The Scale Of Survival
+OCCURRENCES: 1
+
+TERM: Suspicion
+DEF: The belief that one has detected possibilities of something unreliable, unfavorable, dangerous, or menacing.
+SCALES: The Scale Of Aberration
+OCCURRENCES: 1
+
+TERM: Take
+DEF: Receive and accept willingly.
+SCALES: The Scale Of Sexuality
+OCCURRENCES: 1
+
+TERM: Talent
+DEF: \ special natural ability or aptitude; ability
+SCALES: The Scale Of Scholarship
+OCCURRENCES: 1
+
+TERM: Telepathy
+DEF: Communication between minds by some means other than sensory perception.
+SCALES: The Scale Of Personal Influence
+OCCURRENCES: 1
+
+TERM: Tepid
+DEF: Lukewarm; showing little enthusiasm.
+SCALES: The Scale Of Politics
+OCCURRENCES: 1
+
+TERM: Termination
+DEF: Bringing to an end; putting an end to; conclusion; cessation. Recognizing the truth, existence, or fact of; expressing appreciation; showing recognition.
+SCALES: The Scale Of Communication
+OCCURRENCES: 1
+
+TERM: There
+DEF: In or at that place; at that point in an activity.
+SCALES: The Scale Of Communication
+OCCURRENCES: 1
+
+TERM: Thought
+DEF: Mental activity; idea or notion; the capacity or faculty of thinking, reasoning, or imagining.
+SCALES: The Scale Of Thought
+OCCURRENCES: 1
+
+TERM: Tolerance
+DEF: Forbearance; a fair and objective attitude toward opinions and practices that differ from one's own.
+SCALES: The Scale Of Control
+OCCURRENCES: 1
+
+TERM: Transcend
+DEF: To rise above or go beyond the limits of; overpass; exceed.
+SCALES: The Scale Of Basic Purposes
+OCCURRENCES: 1
+
+TERM: Transfer
+DEF: Convey or remove from one place, person, etc., to another; cause to pass to another.
+SCALES: The Scale Of Exchange
+OCCURRENCES: 1
+
+TERM: Transgression
+DEF: Violation or breaking of a law, rule, moral code, or command; sin.
+SCALES: The Scale Of Aberration
+OCCURRENCES: 1
+
+TERM: Trust
+DEF: Belief in and reliance on the integrity, strength, ability, surety, etc., of a person or thing.
+SCALES: The Scale Of Government
+OCCURRENCES: 1
+
+TERM: Truth
+DEF: Conformity with fact or reality; verity; actuality; accuracy; ideal or fundamental reality, apart from and transcending perceived
+DEF: True or actual state of a matter; actuality; verity; conformity with fact; veracity.
+SCALES: The Scale Of Justification, The Scale Of Memory
+OCCURRENCES: 2
+
+TERM: Unable
+DEF: Lacking the necessary power, competence, etc. to accomplish some specified act.
+SCALES: The Scale Of Permeation
+OCCURRENCES: 1
+
+TERM: Unanimity
+DEF: A consensus or undivided opinion; complete accord; unanimousness.
+SCALES: The Scale Of Evaluation
+OCCURRENCES: 1
+
+TERM: Understanding
+DEF: The mental process of a person who comprehends; comprehension; intelligence; a state of cooperative or mutually tolerant relations
+SCALES: The Scale Of Relationships
+OCCURRENCES: 1
+
+TERM: Unhealthy
+DEF: Not in a state of good health; sickly; frail.
+SCALES: The Scale Of Physical Fitness
+OCCURRENCES: 1
+
+TERM: Unique
+DEF: Existing as the only one or as the sole example; having no like or equal; incomparable.
+SCALES: The Scale Of Human Ability
+OCCURRENCES: 1
+
+TERM: Unity
+DEF: The state of being a complete or harmonious combination of elements; oneness.
+SCALES: The Scale Of Relationships
+OCCURRENCES: 1
+
+TERM: Vendetta
+DEF: Any prolonged and bitter feud, rivalry, contention, etc.
+SCALES: The Scale Of Permeation
+OCCURRENCES: 1
+
+TERM: Vibrant
+DEF: Pulsating with great vigor and energy.
+SCALES: The Scale Of Physical Fitness
+OCCURRENCES: 1
+
+TERM: Victorious
+DEF: Which achieved a success or triumph over an enemy; which achieved the decisive defeat of an opponent in a contest of any kind
+SCALES: The Scale Of Conflict
+OCCURRENCES: 1
+
+TERM: Viewpoint
+DEF: An attitude of mind, or the circumstances of an individual that conduce to such an attitude.
+SCALES: The Scale Of Choice
+OCCURRENCES: 1
+
+TERM: Virtuoso
+DEF: A person who has special knowledge or skill; a proponent of great merit or excellence.
+SCALES: The Scale Of Human Ability
+OCCURRENCES: 1
+
+TERM: War
+DEF: Any fighting or struggle; strife; conflict.
+SCALES: The Scale Of Politics
+OCCURRENCES: 1
+
+TERM: Weak
+DEF: Not strong; lacking in vigor or ability; fragile; liable to yield under moderate strain.
+SCALES: The Scale Of Physical Fitness
+OCCURRENCES: 1
+
+TERM: Wealth
+DEF: Anything that has value.
+SCALES: The Scale Of Basic Purposes
+OCCURRENCES: 1
+
+TERM: Well
+DEF: In a good or satisfactory manner; in a careful or thorough manner.
+SCALES: The Scale Of Scholarship
+OCCURRENCES: 1
+
+TERM: Will
+DEF: The act or process of using or asserting one's choice; volition. Che special quality that gives an individual intuence or authority over large numbers of people.
+DEF: Volition; intention; the act or process of using or asserting one's choice. Making up one's mind; determining; concluding; resolving.
+SCALES: The Scale Of Mental Deletion, The Scale Of Personal Influence
+OCCURRENCES: 2
+
+TERM: Willing
+DEF: Disposed or consenting; inclined.
+DEF: Disposed or consenting; inclined; cheerfully consenting or ready.
+SCALES: The Scale Of Permeation, The Scale Of Scholarship
+OCCURRENCES: 2
+
+TERM: Wily-Nilly
+DEF: Willing or unwilling.
+SCALES: The Scale Of Allegiance
+OCCURRENCES: 1
+
+TERM: Wisdom
+DEF: Knowledge of what is true or right, coupled with good judgement; sagacity.
+SCALES: The Scale Of Equanimity
+OCCURRENCES: 1
+
+TERM: Word
+DEF: Warrant, assurance, or promise; pledge.
+SCALES: The Scale Of Exchange
+OCCURRENCES: 1
+
+TERM: Worried
+DEF: Feeling uneasy or anxious; troubled; feeling anxiety, apprehension, or concern.
+SCALES: The Scale Of Reaction
+OCCURRENCES: 1
+

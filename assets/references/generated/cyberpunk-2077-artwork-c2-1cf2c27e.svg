@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-label="Cyberpunk 2077">
+  <rect width="640" height="480" fill="#d0d0d0"/>
+  <rect x="18" y="18" width="604" height="444" fill="#d8d8d8" stroke="#b7b7b7" stroke-width="2"/>
+  <rect x="18" y="18" width="9" height="444" fill="#2d8c00"/>
+  <rect x="38" y="38" width="104" height="44" fill="#151515"/>
+  <text x="90" y="67" text-anchor="middle" fill="#2d8c00" font-family="JetBrains Mono, Menlo, monospace" font-size="20" font-weight="700">C2</text>
+  <text x="158" y="64" fill="#777" font-family="JetBrains Mono, Menlo, monospace" font-size="18" letter-spacing="4">ARTWORK</text>
+  <text fill="#151515" font-family="JetBrains Mono, Menlo, monospace" font-size="28" font-weight="700"><tspan x="38" y="112">Cyberpunk 2077</tspan></text>
+  <line x1="38" y1="394" x2="602" y2="394" stroke="#b8b8b8" stroke-width="2"/>
+  <text x="38" y="430" fill="#6a6a6a" font-family="Inter, Arial, sans-serif" font-size="20">reference card · locally generated</text>
+</svg>
