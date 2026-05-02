@@ -795,6 +795,10 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
       <div class="filter-chips" id="chips-nat"></div>
     </div>
     <div class="filter-group">
+      <div class="filter-group-label">Medium</div>
+      <div class="filter-chips" id="chips-medium"></div>
+    </div>
+    <div class="filter-group">
       <div class="filter-group-label">Theme</div>
       <div class="filter-chips" id="chips-theme"></div>
     </div>
@@ -2941,9 +2945,12 @@ const GEN_DEFS = [
 const THEME_LABELS = {
   painting:'Painting', sculpture:'Sculpture', photography:'Photography', video:'Video & Film',
   performance:'Performance', installation:'Installation', conceptual:'Conceptual',
-  identity:'Identity & Race', feminism:'Feminism', political:'Political', pop:'Pop & Consumer',
-  memory:'Memory & History', body:'Body & Material',
+  identity:'Identity & Race', feminism:'Feminism & Gender', political:'Political & Social',
+  pop:'Pop & Consumer', memory:'Memory & History', body:'Body & Materiality',
 };
+// Medium = how the work is made. Theme = what the work is about.
+const MEDIUM_TAGS = new Set(['painting','sculpture','photography','video','performance','installation','conceptual']);
+const THEME_TAGS  = new Set(['identity','feminism','political','pop','memory','body']);
 
 function computeGeneration(datesStr) {
   const m = datesStr.match(/(?:b\.\s*|^)(\d{4})/);
@@ -2970,17 +2977,18 @@ const MUSEUM_BY_ID = {};
 MUSEUMS.forEach(m => MUSEUM_BY_ID[m.id] = m);
 
 // ── Filter state ────────────────────────────────────────────
-const filterState = { gen:new Set(), nat:new Set(), theme:new Set() };
+const filterState = { gen:new Set(), nat:new Set(), medium:new Set(), theme:new Set() };
 
 function isArtistMatched(a) {
-  if (filterState.gen.size === 0 && filterState.nat.size === 0 && filterState.theme.size === 0) return null;
-  const genOK   = filterState.gen.size === 0   || (a.gen && filterState.gen.has(a.gen));
-  const natOK   = filterState.nat.size === 0   || filterState.nat.has(a.nat);
-  const themeOK = filterState.theme.size === 0 || a.themes.some(t => filterState.theme.has(t));
-  return genOK && natOK && themeOK;
+  if (!anyFilterActive()) return null;
+  const genOK    = filterState.gen.size === 0    || (a.gen && filterState.gen.has(a.gen));
+  const natOK    = filterState.nat.size === 0    || filterState.nat.has(a.nat);
+  const mediumOK = filterState.medium.size === 0 || a.themes.some(t => filterState.medium.has(t));
+  const themeOK  = filterState.theme.size === 0  || a.themes.some(t => filterState.theme.has(t));
+  return genOK && natOK && mediumOK && themeOK;
 }
 function anyFilterActive() {
-  return filterState.gen.size + filterState.nat.size + filterState.theme.size > 0;
+  return filterState.gen.size + filterState.nat.size + filterState.medium.size + filterState.theme.size > 0;
 }
 
 // ── Filter rendering ────────────────────────────────────────
@@ -3001,9 +3009,16 @@ function renderFilters() {
     .map(([nat,n]) => `<button class="filter-chip" data-group="nat" data-val="${nat}">${nat} <span class="count">${n}</span></button>`)
     .join('');
 
-  // Themes
-  const themeCounts = {};
-  ARTISTS.forEach(a => a.themes.forEach(t => { themeCounts[t] = (themeCounts[t]||0) + 1; }));
+  // Medium and Theme — separate buckets
+  const mediumCounts = {}, themeCounts = {};
+  ARTISTS.forEach(a => a.themes.forEach(t => {
+    if (MEDIUM_TAGS.has(t)) mediumCounts[t] = (mediumCounts[t]||0) + 1;
+    else if (THEME_TAGS.has(t)) themeCounts[t] = (themeCounts[t]||0) + 1;
+  }));
+  const sortedMediums = Object.entries(mediumCounts).sort((a,b) => b[1]-a[1]);
+  document.getElementById('chips-medium').innerHTML = sortedMediums
+    .map(([t,n]) => `<button class="filter-chip" data-group="medium" data-val="${t}">${THEME_LABELS[t]||t} <span class="count">${n}</span></button>`)
+    .join('');
   const sortedThemes = Object.entries(themeCounts).sort((a,b) => b[1]-a[1]);
   document.getElementById('chips-theme').innerHTML = sortedThemes
     .map(([t,n]) => `<button class="filter-chip" data-group="theme" data-val="${t}">${THEME_LABELS[t]||t} <span class="count">${n}</span></button>`)
@@ -3021,7 +3036,8 @@ function renderFilters() {
   });
 
   document.getElementById('filter-reset').addEventListener('click', () => {
-    filterState.gen.clear(); filterState.nat.clear(); filterState.theme.clear();
+    filterState.gen.clear(); filterState.nat.clear();
+    filterState.medium.clear(); filterState.theme.clear();
     document.querySelectorAll('.filter-chip.active').forEach(c => c.classList.remove('active'));
     applyFilters();
   });
