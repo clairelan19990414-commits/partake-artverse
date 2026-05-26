@@ -1,7 +1,7 @@
 {
   "target_total": 857,
   "phase": 2,
-  "cycle_count": 7,
+  "cycle_count": 8,
   "completed": [
     "a146",
     "a176",
@@ -358,7 +358,57 @@
     "a335",
     "a604",
     "a430",
-    "a828"
+    "a828",
+    "a326",
+    "a431",
+    "a712",
+    "a115",
+    "a541",
+    "a546",
+    "a122",
+    "a89",
+    "a543",
+    "a744",
+    "a727",
+    "a768",
+    "a736",
+    "a453",
+    "a643",
+    "a517",
+    "a100",
+    "a701",
+    "a472",
+    "a365",
+    "a343",
+    "a59",
+    "a198",
+    "a403",
+    "a101",
+    "a521",
+    "a847",
+    "a796",
+    "a108",
+    "a612",
+    "a619",
+    "a427",
+    "a85",
+    "a789",
+    "a651",
+    "a745",
+    "a23",
+    "a189",
+    "a624",
+    "a90",
+    "a362",
+    "a629",
+    "a232",
+    "a750",
+    "a816",
+    "a415",
+    "a598",
+    "a544",
+    "a640",
+    "a49"
   ],
   "red_chip_ids": [
     "a1",
@@ -502,406 +552,6 @@
     "a985"
   ],
   "queue": [
-    {
-      "id": "a326",
-      "name": "Arlene Shechet",
-      "dates": "b. 1951",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a431",
-      "name": "Arman",
-      "dates": "1928–2005",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a712",
-      "name": "Arnulf Rainer",
-      "dates": "b. 1929",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a115",
-      "name": "Arshile Gorky",
-      "dates": "1904–1948",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a541",
-      "name": "Arthur Jafa",
-      "dates": "b. 1960",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a546",
-      "name": "Astrid Klein",
-      "dates": "b. 1951",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a122",
-      "name": "August Sander",
-      "dates": "1876–1964",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a89",
-      "name": "Avery Singer",
-      "dates": "b. 1987",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a543",
-      "name": "Axel Kasseböhmer",
-      "dates": "1952–2018",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a744",
-      "name": "Aya Takano",
-      "dates": "b. 1976",
-      "gallery": "g10",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a727",
-      "name": "Banks Violette",
-      "dates": "b. 1973",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a768",
-      "name": "Barry McGee",
-      "dates": "b. 1966",
-      "gallery": "g10",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a736",
-      "name": "Bernar Venet",
-      "dates": "b. 1941",
-      "gallery": "g10",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a453",
-      "name": "Bernard Frize",
-      "dates": "b. 1954",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a643",
-      "name": "Bernard Piffaretti",
-      "dates": "b. 1955",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a517",
-      "name": "Bernd & Hilla Becher",
-      "dates": "b. 1931",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a100",
-      "name": "Bharti Kher",
-      "dates": "b. 1969",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a701",
-      "name": "Bjarne Melgaard",
-      "dates": "b. 1967",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a472",
-      "name": "Boris Mikhailov",
-      "dates": "b. 1938",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a365",
-      "name": "Bram Bogart",
-      "dates": "1921–2012",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a343",
-      "name": "Brent Wadden",
-      "dates": "b. 1979",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a59",
-      "name": "Brice Marden",
-      "dates": "1938–2023",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a198",
-      "name": "Bridget Riley",
-      "dates": "b. 1931",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a403",
-      "name": "Bruce Nauman",
-      "dates": "b. 1941",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a101",
-      "name": "Camille Henrot",
-      "dates": "b. 1978",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a521",
-      "name": "Cao Fei",
-      "dates": "b. 1978",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a847",
-      "name": "Carl Andre",
-      "dates": "1935–2024",
-      "gallery": "g12",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a796",
-      "name": "Carlos Garaicoa",
-      "dates": "b. 1967",
-      "gallery": "g11",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a108",
-      "name": "Carolee Schneemann",
-      "dates": "1939–2019",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a612",
-      "name": "Ceal Floyer",
-      "dates": "b. 1968",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a619",
-      "name": "Channa Horwitz",
-      "dates": "1932–2013",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a427",
-      "name": "Chantal Akerman",
-      "dates": "1950–2015",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a85",
-      "name": "Charles Gaines",
-      "dates": "b. 1944",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a789",
-      "name": "Chen Zhen",
-      "dates": "1955–2000",
-      "gallery": "g11",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a651",
-      "name": "Cheyney Thompson",
-      "dates": "b. 1975",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a745",
-      "name": "Chiho Aoshima",
-      "dates": "b. 1974",
-      "gallery": "g10",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a23",
-      "name": "Chris Burden",
-      "dates": "1946–2015",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a189",
-      "name": "Chris Ofili",
-      "dates": "b. 1968",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a624",
-      "name": "Christian Jankowski",
-      "dates": "b. 1968",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a90",
-      "name": "Christina Quarles",
-      "dates": "b. 1985",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a362",
-      "name": "Christine Ay Tjoe",
-      "dates": "b. 1973",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a629",
-      "name": "Christopher Le Brun",
-      "dates": "b. 1951",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a232",
-      "name": "Chuck Close",
-      "dates": "1940–2021",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a750",
-      "name": "Chung Chang-Sup",
-      "dates": "1927–2011",
-      "gallery": "g10",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a816",
-      "name": "Cildo Meireles",
-      "dates": "b. 1948",
-      "gallery": "g11",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a415",
-      "name": "Cinga Samson",
-      "dates": "b. 1986",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a598",
-      "name": "Cory Arcangel",
-      "dates": "b. 1978",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a544",
-      "name": "Craig Kauffman",
-      "dates": "1932–2010",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a640",
-      "name": "Dalton Paula",
-      "dates": "b. 1982",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a49",
-      "name": "Dan Colen",
-      "dates": "b. 1979",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
     {
       "id": "a123",
       "name": "Dan Graham",
