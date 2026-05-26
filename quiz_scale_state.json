@@ -1,7 +1,7 @@
 {
   "target_total": 857,
   "phase": 2,
-  "cycle_count": 6,
+  "cycle_count": 7,
   "completed": [
     "a146",
     "a176",
@@ -308,7 +308,57 @@
     "a507",
     "a25",
     "a10",
-    "a194"
+    "a194",
+    "a160",
+    "a461",
+    "a741",
+    "a210",
+    "a734",
+    "a173",
+    "a186",
+    "a870",
+    "a775",
+    "a253",
+    "a32",
+    "a462",
+    "a382",
+    "a208",
+    "a41",
+    "a578",
+    "a266",
+    "a660",
+    "a357",
+    "a187",
+    "a275",
+    "a520",
+    "a106",
+    "a121",
+    "a491",
+    "a112",
+    "a662",
+    "a459",
+    "a681",
+    "a87",
+    "a464",
+    "a470",
+    "a571",
+    "a452",
+    "a575",
+    "a723",
+    "a590",
+    "a113",
+    "a350",
+    "a92",
+    "a109",
+    "a539",
+    "a140",
+    "a114",
+    "a487",
+    "a554",
+    "a335",
+    "a604",
+    "a430",
+    "a828"
   ],
   "red_chip_ids": [
     "a1",
@@ -452,406 +502,6 @@
     "a985"
   ],
   "queue": [
-    {
-      "id": "a160",
-      "name": "William Eggleston",
-      "dates": "b. 1939",
-      "gallery": "g3",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a461",
-      "name": "William Kentridge",
-      "dates": "b. 1955",
-      "gallery": "g6",
-      "nworks": 3,
-      "red_chip": true
-    },
-    {
-      "id": "a741",
-      "name": "Wim Delvoye",
-      "dates": "b. 1965",
-      "gallery": "g10",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a210",
-      "name": "Wolfgang Tillmans",
-      "dates": "b. 1968",
-      "gallery": "g3",
-      "nworks": 4,
-      "red_chip": true
-    },
-    {
-      "id": "a734",
-      "name": "Yan Pei-Ming",
-      "dates": "b. 1960",
-      "gallery": "g9",
-      "nworks": 3,
-      "red_chip": true
-    },
-    {
-      "id": "a173",
-      "name": "Yayoi Kusama",
-      "dates": "b. 1929",
-      "gallery": "g3",
-      "nworks": 3,
-      "red_chip": true
-    },
-    {
-      "id": "a186",
-      "name": "Yoshitomo Nara",
-      "dates": "b. 1959",
-      "gallery": "g3",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a870",
-      "name": "Aaron Garber-Maikovska",
-      "dates": "b. 1978",
-      "gallery": "g12",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a775",
-      "name": "Adel Abdessemed",
-      "dates": "b. 1971",
-      "gallery": "g11",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a253",
-      "name": "Adolph Gottlieb",
-      "dates": "1903–1974",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a32",
-      "name": "Adriana Varejão",
-      "dates": "b. 1964",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a462",
-      "name": "Agnieszka Kurant",
-      "dates": "b. 1978",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a382",
-      "name": "Al Held",
-      "dates": "1928–2005",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a208",
-      "name": "Al Taylor",
-      "dates": "1948–1999",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a41",
-      "name": "Alberto Giacometti",
-      "dates": "1901–1966",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a578",
-      "name": "Alexandre Singh",
-      "dates": "b. 1980",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a266",
-      "name": "Alfred Jensen",
-      "dates": "1903–1981",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a660",
-      "name": "Ali Banisadr",
-      "dates": "b. 1976",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a357",
-      "name": "Alia Ahmad",
-      "dates": "b. 1996",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a187",
-      "name": "Alice Neel",
-      "dates": "1900–1984",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a275",
-      "name": "Alicja Kwade",
-      "dates": "b. 1979",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a520",
-      "name": "Alighiero Boetti",
-      "dates": "1940–1994",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a106",
-      "name": "Alina Szapocznikow",
-      "dates": "1926–1973",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a121",
-      "name": "Allan Kaprow",
-      "dates": "1927–2006",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a491",
-      "name": "Allan Sekula",
-      "dates": "1951–2013",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a112",
-      "name": "Allison Katz",
-      "dates": "b. 1980",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a662",
-      "name": "Alvaro Barrington",
-      "dates": "b. 1983",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a459",
-      "name": "Amar Kanwar",
-      "dates": "b. 1964",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a681",
-      "name": "Amos Gitaï",
-      "dates": "b. 1950",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a87",
-      "name": "Amy Sherald",
-      "dates": "b. 1973",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a464",
-      "name": "An-My Lê",
-      "dates": "b. 1960",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a470",
-      "name": "Ana Mendieta",
-      "dates": "1948–1985",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a571",
-      "name": "Analia Saban",
-      "dates": "b. 1980",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a452",
-      "name": "Andrea Fraser",
-      "dates": "b. 1965",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a575",
-      "name": "Andreas Schulze",
-      "dates": "b. 1955",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a723",
-      "name": "Andreas Slominski",
-      "dates": "b. 1959",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a590",
-      "name": "Andro Wekua",
-      "dates": "b. 1977",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a113",
-      "name": "Angel Otero",
-      "dates": "b. 1981",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a350",
-      "name": "Anicka Yi",
-      "dates": "b. 1971",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a92",
-      "name": "Anj Smith",
-      "dates": "b. 1978",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a109",
-      "name": "Anna Maria Maiolino",
-      "dates": "b. 1942",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a539",
-      "name": "Anne Imhof",
-      "dates": "b. 1978",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a140",
-      "name": "Anni Albers",
-      "dates": "1899–1994",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a114",
-      "name": "Annie Leibovitz",
-      "dates": "b. 1949",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a487",
-      "name": "Anri Sala",
-      "dates": "b. 1974",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a554",
-      "name": "Anthony McCall",
-      "dates": "b. 1946",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a335",
-      "name": "Antoni Tàpies",
-      "dates": "1923–2012",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a604",
-      "name": "Antonio Calderara",
-      "dates": "1903–1978",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a430",
-      "name": "Arakawa",
-      "dates": "1936–2010",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a828",
-      "name": "Arcangelo Sassolino",
-      "dates": "b. 1967",
-      "gallery": "g11",
-      "nworks": 0,
-      "red_chip": false
-    },
     {
       "id": "a326",
       "name": "Arlene Shechet",
