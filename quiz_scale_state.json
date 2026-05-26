@@ -1,7 +1,7 @@
 {
   "target_total": 857,
   "phase": 2,
-  "cycle_count": 8,
+  "cycle_count": 9,
   "completed": [
     "a146",
     "a176",
@@ -408,7 +408,57 @@
     "a598",
     "a544",
     "a640",
-    "a49"
+    "a49",
+    "a123",
+    "a599",
+    "a421",
+    "a394",
+    "a440",
+    "a714",
+    "a983",
+    "a438",
+    "a358",
+    "a937",
+    "a360",
+    "a228",
+    "a251",
+    "a380",
+    "a550",
+    "a287",
+    "a553",
+    "a559",
+    "a572",
+    "a124",
+    "a473",
+    "a52",
+    "a609",
+    "a209",
+    "a906",
+    "a76",
+    "a610",
+    "a943",
+    "a217",
+    "a24",
+    "a77",
+    "a482",
+    "a447",
+    "a125",
+    "a426",
+    "a605",
+    "a192",
+    "a359",
+    "a60",
+    "a245",
+    "a726",
+    "a271",
+    "a748",
+    "a423",
+    "a368",
+    "a494",
+    "a706",
+    "a119",
+    "a165",
+    "a111"
   ],
   "red_chip_ids": [
     "a1",
@@ -552,406 +602,6 @@
     "a985"
   ],
   "queue": [
-    {
-      "id": "a123",
-      "name": "Dan Graham",
-      "dates": "1942–2022",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a599",
-      "name": "Dana Awartani",
-      "dates": "b. 1987",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a421",
-      "name": "Danh Vo",
-      "dates": "b. 1975",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a394",
-      "name": "Danica Lundy",
-      "dates": "b. 1991",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a440",
-      "name": "Daniel Boyd",
-      "dates": "b. 1982",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a714",
-      "name": "Daniel Richter",
-      "dates": "b. 1962",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a983",
-      "name": "Daniel Sinsel",
-      "dates": "b. 1976",
-      "gallery": "g13",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a438",
-      "name": "Dara Birnbaum",
-      "dates": "b. 1946",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a358",
-      "name": "Darren Almond",
-      "dates": "b. 1971",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a937",
-      "name": "Darren Bader",
-      "dates": "b. 1978",
-      "gallery": "g13",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a360",
-      "name": "David Altmejd",
-      "dates": "b. 1974",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a228",
-      "name": "David Byrne",
-      "dates": "b. 1952",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a251",
-      "name": "David Goldblatt",
-      "dates": "1930–2018",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a380",
-      "name": "David Hammons",
-      "dates": "b. 1943",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a550",
-      "name": "David Lamelas",
-      "dates": "b. 1946",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a287",
-      "name": "David Lynch",
-      "dates": "1946–2025",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a553",
-      "name": "David Maljkovic",
-      "dates": "b. 1973",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a559",
-      "name": "David Ostrowski",
-      "dates": "b. 1981",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a572",
-      "name": "David Salle",
-      "dates": "b. 1952",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a124",
-      "name": "David Smith",
-      "dates": "1906–1965",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a473",
-      "name": "Delcy Morelos",
-      "dates": "b. 1967",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a52",
-      "name": "Derrick Adams",
-      "dates": "b. 1970",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a609",
-      "name": "Dexter Dalwood",
-      "dates": "b. 1960",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a209",
-      "name": "Diana Thater",
-      "dates": "b. 1962",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a906",
-      "name": "Diego Perrone",
-      "dates": "b. 1970",
-      "gallery": "g12",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a76",
-      "name": "Dieter Roth",
-      "dates": "1930–1998",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a610",
-      "name": "Ding Yi",
-      "dates": "b. 1962",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a943",
-      "name": "Don Brown",
-      "dates": "b. 1962",
-      "gallery": "g13",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a217",
-      "name": "Doug Wheeler",
-      "dates": "b. 1939",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a24",
-      "name": "Douglas Gordon",
-      "dates": "b. 1966",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a77",
-      "name": "Ed Clark",
-      "dates": "1926–2019",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a482",
-      "name": "Edi Rama",
-      "dates": "b. 1964",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a447",
-      "name": "Edith Dekyndt",
-      "dates": "b. 1960",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a125",
-      "name": "Eduardo Chillida",
-      "dates": "1924–2002",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a426",
-      "name": "Eija-Liisa Ahtila",
-      "dates": "b. 1959",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a605",
-      "name": "Elaine Cameron-Weir",
-      "dates": "b. 1985",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a192",
-      "name": "Elizabeth Peyton",
-      "dates": "b. 1965",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a359",
-      "name": "Ellen Altfest",
-      "dates": "b. 1970",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a60",
-      "name": "Ellen Gallagher",
-      "dates": "b. 1965",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a245",
-      "name": "Elmgreen & Dragset",
-      "dates": "b. 1961",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a726",
-      "name": "Emilio Vedova",
-      "dates": "1919–2006",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a271",
-      "name": "Emily Kam Kngwarray",
-      "dates": "1910–1996",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a748",
-      "name": "Emma Webster",
-      "dates": "b. 1989",
-      "gallery": "g10",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a423",
-      "name": "Emmi Whitehorse",
-      "dates": "b. 1957",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a368",
-      "name": "Enrico David",
-      "dates": "b. 1966",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a494",
-      "name": "Ettore Spalletti",
-      "dates": "1940–2019",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a706",
-      "name": "Eva Helene Pade",
-      "dates": "b. 1996",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a119",
-      "name": "Fausto Melotti",
-      "dates": "1901–1986",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a165",
-      "name": "Felix Gonzalez-Torres",
-      "dates": "1957–1996",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a111",
-      "name": "Firelei Báez",
-      "dates": "b. 1981",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
     {
       "id": "a392",
       "name": "Firenze Lai",
