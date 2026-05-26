@@ -1,7 +1,7 @@
 {
   "target_total": 857,
   "phase": 2,
-  "cycle_count": 10,
+  "cycle_count": 11,
   "completed": [
     "a146",
     "a176",
@@ -508,7 +508,57 @@
     "a965",
     "a37",
     "a69",
-    "a410"
+    "a410",
+    "a616",
+    "a579",
+    "a395",
+    "a127",
+    "a416",
+    "a688",
+    "a391",
+    "a711",
+    "a312",
+    "a128",
+    "a404",
+    "a742",
+    "a642",
+    "a78",
+    "a54",
+    "a443",
+    "a485",
+    "a215",
+    "a700",
+    "a75",
+    "a557",
+    "a668",
+    "a763",
+    "a422",
+    "a878",
+    "a759",
+    "a752",
+    "a412",
+    "a33",
+    "a961",
+    "a62",
+    "a334",
+    "a225",
+    "a182",
+    "a724",
+    "a644",
+    "a151",
+    "a324",
+    "a595",
+    "a519",
+    "a628",
+    "a179",
+    "a589",
+    "a346",
+    "a565",
+    "a954",
+    "a694",
+    "a967",
+    "a635",
+    "a793"
   ],
   "red_chip_ids": [
     "a1",
@@ -652,406 +702,6 @@
     "a985"
   ],
   "queue": [
-    {
-      "id": "a616",
-      "name": "Hugh Hayden",
-      "dates": "b. 1983",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a579",
-      "name": "Hyun-Sook Song",
-      "dates": "b. 1952",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a395",
-      "name": "Ibrahim Mahama",
-      "dates": "b. 1987",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a127",
-      "name": "Ida Applebroog",
-      "dates": "1929–2023",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a416",
-      "name": "Ilana Savdie",
-      "dates": "b. 1986",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a688",
-      "name": "Ilya & Emilia Kabakov",
-      "dates": "b. 1933",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a391",
-      "name": "Imi Knoebel",
-      "dates": "b. 1940",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a711",
-      "name": "Imran Qureshi",
-      "dates": "b. 1972",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a312",
-      "name": "Irving Penn",
-      "dates": "1917–2009",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a128",
-      "name": "Isa Genzken",
-      "dates": "b. 1948",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a404",
-      "name": "Isamu Noguchi",
-      "dates": "1904–1988",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a742",
-      "name": "Izumi Kato",
-      "dates": "b. 1969",
-      "gallery": "g10",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a642",
-      "name": "Jack Pierson",
-      "dates": "b. 1960",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a78",
-      "name": "Jack Whitten",
-      "dates": "1939–2018",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a54",
-      "name": "Jadé Fadojutimi",
-      "dates": "b. 1993",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a443",
-      "name": "James Coleman",
-      "dates": "b. 1941",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a485",
-      "name": "James Rosenquist",
-      "dates": "1933–2017",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a215",
-      "name": "James Welling",
-      "dates": "b. 1951",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a700",
-      "name": "Jason Martin",
-      "dates": "b. 1970",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a75",
-      "name": "Jason Rhoades",
-      "dates": "1965–2006",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a557",
-      "name": "Jean-Luc Mylayne",
-      "dates": "b. 1946",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a668",
-      "name": "Jean-Marc Bustamante",
-      "dates": "b. 1952",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a763",
-      "name": "Jean-Philippe Delhomme",
-      "dates": "b. 1959",
-      "gallery": "g10",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a422",
-      "name": "Jeff Wall",
-      "dates": "b. 1946",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a878",
-      "name": "Jennifer Guidi",
-      "dates": "b. 1972",
-      "gallery": "g12",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a759",
-      "name": "Jens Fänge",
-      "dates": "b. 1965",
-      "gallery": "g10",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a752",
-      "name": "Jesper Just",
-      "dates": "b. 1974",
-      "gallery": "g10",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a412",
-      "name": "Jessica Rankin",
-      "dates": "b. 1971",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a33",
-      "name": "Jia Aili",
-      "dates": "b. 1979",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a961",
-      "name": "Jim Lambie",
-      "dates": "b. 1964",
-      "gallery": "g13",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a62",
-      "name": "Jim Shaw",
-      "dates": "b. 1952",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a334",
-      "name": "Jiro Takamatsu",
-      "dates": "1936–1998",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a225",
-      "name": "Jo Baer",
-      "dates": "b. 1929",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a182",
-      "name": "Joan Mitchell",
-      "dates": "1925–1992",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a724",
-      "name": "Joan Snyder",
-      "dates": "b. 1940",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a644",
-      "name": "Joanna Pousette-Dart",
-      "dates": "b. 1947",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a151",
-      "name": "Joe Bradley",
-      "dates": "b. 1975",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a324",
-      "name": "Joel Shapiro",
-      "dates": "b. 1941",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a595",
-      "name": "John Akomfrah",
-      "dates": "b. 1957",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a519",
-      "name": "John Bock",
-      "dates": "b. 1965",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a628",
-      "name": "John Latham",
-      "dates": "1921–2006",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a179",
-      "name": "John McCracken",
-      "dates": "1934–2011",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a589",
-      "name": "John Waters",
-      "dates": "b. 1946",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a346",
-      "name": "John Wesley",
-      "dates": "1928–2022",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a565",
-      "name": "Jon Rafman",
-      "dates": "b. 1981",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a954",
-      "name": "Jonathan Horowitz",
-      "dates": "b. 1966",
-      "gallery": "g13",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a694",
-      "name": "Jonathan Lasker",
-      "dates": "b. 1948",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a967",
-      "name": "Jonathan Lyndon Chase",
-      "dates": "b. 1989",
-      "gallery": "g13",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a635",
-      "name": "Jonathan Monk",
-      "dates": "b. 1969",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a793",
-      "name": "Jonathas de Andrade",
-      "dates": "b. 1982",
-      "gallery": "g11",
-      "nworks": 0,
-      "red_chip": false
-    },
     {
       "id": "a510",
       "name": "Jongsuk Yoon",
