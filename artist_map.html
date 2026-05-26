@@ -743,6 +743,457 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
   transition: color 0.15s, border-color 0.15s;
 }
 .dp-link:hover { color: #8a6928; border-color: #8a6928; }
+
+/* ── Quiz ──────────────────────────────────────────────────── */
+.quiz-section { margin-top: 72px; }
+.quiz-intro {
+  max-width: 720px;
+  margin: 0 auto 28px;
+  text-align: center;
+}
+.quiz-intro h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.2rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  margin: 0 0 10px;
+  color: #1a1a1a;
+}
+.quiz-intro p {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.84rem;
+  line-height: 1.6;
+  color: #666;
+  margin: 0 auto 20px;
+  max-width: 540px;
+}
+.quiz-start-btn {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  background: #1a1a1a;
+  color: #f8f5ee;
+  border: none;
+  padding: 14px 26px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.quiz-start-btn:hover { background: #2d8c00; }
+
+.quiz-frame {
+  background: #fff;
+  border: 1px solid #d4cdc0;
+  padding: 44px 52px 36px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+@media (max-width: 760px) {
+  .quiz-frame { padding: 28px 22px; }
+  .kc-head { flex-direction: column; gap: 14px; }
+  .kc-portrait { width: 80px; height: 80px; }
+  .kc-name { font-size: 1.9rem; }
+}
+.quiz-frame[hidden] { display: none; }
+
+.quiz-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e8e2d4;
+  margin-bottom: 24px;
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #888;
+}
+.quiz-progress span.current { color: #2d8c00; font-weight: 600; }
+.quiz-tag { color: #8b1f4d; }
+
+.quiz-prompt {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.65rem;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0 0 26px;
+  color: #1a1a1a;
+}
+.quiz-prompt .artist-emph {
+  border-bottom: 1px dotted #c8a96e;
+  padding-bottom: 1px;
+}
+
+.quiz-artwork-wrap {
+  margin: 0 0 22px;
+  background: #faf7f0;
+  border: 1px solid #e8e2d4;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 280px;
+  max-height: 460px;
+  overflow: hidden;
+}
+.quiz-artwork-wrap img {
+  max-width: 100%;
+  max-height: 460px;
+  object-fit: contain;
+  display: block;
+}
+.quiz-artwork-caption {
+  font-family: var(--mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #999;
+  margin: -16px 0 22px;
+  text-align: right;
+}
+
+.quiz-options {
+  display: grid;
+  gap: 10px;
+}
+.quiz-option {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  text-align: left;
+  background: #fff;
+  border: 1px solid #d4cdc0;
+  padding: 16px 18px;
+  cursor: pointer;
+  color: #1a1a1a;
+  transition: border-color 0.12s, background 0.12s, transform 0.08s;
+}
+.quiz-option:hover:not(:disabled) { transform: translateX(2px); }
+.quiz-option:hover:not(:disabled) {
+  border-color: #1a1a1a;
+  background: #faf7f0;
+}
+.quiz-option.selected {
+  border-color: #1a1a1a;
+  background: #f0ebe0;
+}
+.quiz-option.correct {
+  border-color: #2d8c00;
+  background: #e8f3e0;
+  color: #1c5a00;
+}
+.quiz-option.incorrect {
+  border-color: #8b1f4d;
+  background: #f8e8ee;
+  color: #8b1f4d;
+}
+.quiz-option:disabled { cursor: default; }
+.quiz-option.message-opt { font-size: 0.78rem; line-height: 1.55; }
+
+.quiz-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid #e8e2d4;
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.quiz-feedback { color: #777; }
+.quiz-feedback.correct { color: #2d8c00; }
+.quiz-feedback.incorrect { color: #8b1f4d; }
+.quiz-next {
+  background: #1a1a1a;
+  color: #f8f5ee;
+  border: none;
+  padding: 12px 22px;
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.quiz-next:hover { background: #2d8c00; }
+.quiz-next[disabled] { opacity: 0.3; cursor: not-allowed; }
+
+/* Result screen */
+.quiz-result-score {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 4.6rem;
+  font-weight: 300;
+  color: #2d8c00;
+  letter-spacing: -0.02em;
+  text-align: center;
+  line-height: 1;
+  margin: 18px 0 6px;
+}
+.quiz-result-score .denom { color: #c8a96e; font-size: 2.6rem; }
+.quiz-result-label {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 32px;
+}
+.quiz-review-row {
+  display: grid;
+  grid-template-columns: 24px 1fr auto;
+  gap: 10px;
+  padding: 10px 0;
+  border-top: 1px solid #f0ebe0;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+}
+.quiz-review-row .rv-check { color: #2d8c00; font-weight: 600; }
+.quiz-review-row .rv-x { color: #8b1f4d; font-weight: 600; }
+.quiz-review-row .rv-correct { color: #2d8c00; font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.1em; }
+.quiz-review-row .rv-wrong { color: #999; font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.1em; text-decoration: line-through; }
+.quiz-review-row .rv-type {
+  font-family: var(--mono);
+  font-size: 0.56rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #999;
+  white-space: nowrap;
+}
+.quiz-restart {
+  display: block;
+  margin: 28px auto 0;
+}
+
+/* ── Knowledge Card (editorial layout) ── */
+.kc {
+  margin-top: 36px;
+  padding-top: 36px;
+  border-top: 1px solid #1a1a1a;
+  animation: kc-fade 0.4s ease-out;
+}
+@keyframes kc-fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+.kc-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+.kc-portrait {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #faf7f0;
+  border: 1px solid #e8e2d4;
+  flex-shrink: 0;
+}
+.kc-portrait.no-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  font-style: italic;
+  color: #c8a96e;
+  background: #faf7f0;
+}
+.kc-meta { flex: 1; min-width: 0; padding-top: 4px; }
+.kc-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  color: #1a1a1a;
+  margin: 0 0 6px;
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.kc-pron-btn {
+  background: transparent;
+  border: none;
+  color: #6a6a6a;
+  font-family: var(--mono);
+  font-size: 0.56rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: color 0.15s;
+}
+.kc-pron-btn:hover { color: #2d8c00; }
+.kc-pron-btn .speaker {
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid currentColor;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.55rem;
+  padding-left: 1px;
+}
+.kc-pron-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1rem;
+  color: #777;
+  margin: 0 0 10px;
+  line-height: 1.3;
+}
+.kc-pron-text .ipa {
+  color: #8b1f4d;
+  margin-left: 10px;
+  font-family: var(--mono);
+  font-style: normal;
+  font-size: 0.74rem;
+  letter-spacing: 0.02em;
+}
+.kc-dates {
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.16em;
+  color: #6a6a6a;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.kc-cohort {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: #777;
+  font-style: italic;
+}
+
+.kc-message {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.04rem;
+  line-height: 1.65;
+  color: #2a2a2a;
+  margin: 0 0 32px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  max-width: 580px;
+}
+.kc-message::first-letter {
+  font-size: 1.7em;
+  float: left;
+  line-height: 0.85;
+  padding: 6px 8px 0 0;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+.kc-section { margin: 28px 0; }
+.kc-section-label {
+  font-family: var(--mono);
+  font-size: 0.56rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.kc-section-label::before {
+  content: '';
+  width: 16px;
+  height: 1px;
+  background: #c8a96e;
+}
+
+/* Uniform works grid — every work equal weight */
+.kc-works-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 18px 16px;
+  margin-bottom: 8px;
+}
+.kc-work-cell {
+  display: flex;
+  flex-direction: column;
+}
+.kc-work-img-wrap {
+  background: #faf7f0;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 1px solid #f0ebe0;
+  margin-bottom: 8px;
+  transition: border-color 0.15s;
+}
+.kc-work-cell:hover .kc-work-img-wrap { border-color: #2d8c00; }
+.kc-work-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.kc-work-cap {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 0.86rem;
+  color: #555;
+  line-height: 1.3;
+  min-height: 1.3em;
+}
+.kc-work-cap.untitled {
+  font-style: normal;
+  font-family: var(--mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #a09484;
+}
+.kc-work-meta {
+  font-family: var(--mono);
+  font-size: 0.56rem;
+  color: #9a9081;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-top: 3px;
+}
+
+.kc-wiki {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.86rem;
+  line-height: 1.7;
+  color: #444;
+  margin: 0;
+  max-width: 620px;
+}
+.kc-wiki.loading { color: #b8b1a4; font-style: italic; }
+
+.kc-footer {
+  margin-top: 32px;
+  padding-top: 18px;
+  border-top: 1px solid #e8e2d4;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 20px;
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #888;
+}
+.kc-footer .gallery-line { color: #1a1a1a; }
+.kc-footer .born-line { font-style: normal; }
 </style>
 </head>
 <body>
@@ -758,6 +1209,7 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
     <a class="nav-link" href="visual_taste_place.html">visual taste place</a>
     <a class="nav-link" href="timeline.html">timeline</a>
     <a class="nav-link active" href="artist_map.html">artist map</a>
+    <a class="nav-link" href="septemics.html">septemics</a>
   </div>
 </nav>
 
@@ -820,6 +1272,30 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
     <div class="rosters-grid" id="rosters-grid"></div>
   </section>
 
+  <!-- ── Quiz ── -->
+  <section class="map-section quiz-section">
+    <div class="map-section-label">Test Yourself</div>
+    <p class="map-section-note">A college-level art history exam drawn from a curated pool of forty mid-tier artists across these thirteen galleries — household names and red-chip speculation excluded by design. Three question formats: primary medium, artist's thesis, and matching an artwork to its maker. Ten questions, one round.</p>
+
+    <div class="quiz-intro" id="quiz-intro">
+      <h2>Whose Practice Is This?</h2>
+      <p>Forty artists. Three question types. No internet help. The pool deliberately excludes red-chip and household-name artists — the test is to recognize the layer just below the auction-record canon.</p>
+      <button class="quiz-start-btn" id="quiz-start">Begin Exam →</button>
+    </div>
+
+    <div class="quiz-frame" id="quiz-frame" hidden>
+      <div class="quiz-head">
+        <div class="quiz-progress">Q <span class="current" id="q-current">1</span>/<span id="q-total">10</span></div>
+        <div class="quiz-tag" id="q-type">Medium</div>
+      </div>
+      <div id="q-body"></div>
+      <div class="quiz-foot">
+        <div class="quiz-feedback" id="q-feedback">Pick an answer below.</div>
+        <button class="quiz-next" id="q-next" disabled>Next →</button>
+      </div>
+    </div>
+  </section>
+
 </div>
 
 <!-- Tooltip -->
@@ -843,7 +1319,7 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
   <div class="dp-close-bar">
     <button class="dp-close-btn" onclick="closePanel()">close ✕</button>
   </div>
-  <div class="dp-img-wrap" id="dp-img-wrap"><img class="dp-img" id="dp-img" alt=""></div>
+  <div class="dp-img-wrap" id="dp-img-wrap"><img class="dp-img" id="dp-img" alt="Selected artist image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="></div>
   <div class="dp-header">
     <div class="dp-tag" id="dp-tag"></div>
     <div class="dp-name" id="dp-name"></div>
@@ -861,6 +1337,8 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
   </div>
 </div>
 
+<script src="quiz_facts.js"></script>
+<script src="quiz_messages.js"></script>
 <script>
 // ── Galleries ────────────────────────────────────────────────
 const GALLERIES = [
@@ -3360,7 +3838,7 @@ function showTip(id, ev) {
     const cell = document.createElement('div');
     cell.className = 'tip-img-cell';
     const img = document.createElement('img');
-    img.alt = '';
+    img.alt = a.name + ' reference image';
     img.onload = () => {
       if (tipToken !== _tipToken) return;
       cell.classList.add('loaded');
@@ -3483,6 +3961,7 @@ function openPanel(id) {
   imgEl.onload = null;
   imgEl.onerror = null;
   imgEl.removeAttribute('src');
+  imgEl.alt = a.name + ' portrait or artwork image';
   const tok = ++_panelToken;
 
   function setHeroFromUrl(url) {
@@ -3495,6 +3974,7 @@ function openPanel(id) {
       if (tok !== _panelToken) return;
       imgWrap.classList.remove('has-img');
       imgEl.removeAttribute('src');
+  imgEl.alt = a.name + ' portrait or artwork image';
     };
     imgEl.src = url;
   }
@@ -3553,7 +4033,7 @@ function openPanel(id) {
       card.className = 'dp-work-card no-img';
       const img = document.createElement('img');
       img.className = 'dp-work-img';
-      img.alt = '';
+      img.alt = (w && w.t ? w.t : a.name) + ' artwork image';
       img.onload = () => {
         if (tok !== _panelToken) return;
         card.classList.remove('no-img');
@@ -3598,6 +4078,411 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closePanel()
 renderFilters();
 renderGrid();
 renderRosters();
+
+// ── Quiz ────────────────────────────────────────────────────
+const QUIZ_POOL_IDS = [
+  'a20', 'a27', 'a57', 'a79', 'a83', 'a146', 'a149', 'a159', 'a176', 'a180', 'a188', 'a191',
+  'a203', 'a206', 'a213', 'a218', 'a221', 'a254', 'a257', 'a270', 'a273', 'a282', 'a284', 'a291',
+  'a295', 'a296', 'a311', 'a313', 'a315', 'a356', 'a364', 'a371', 'a381', 'a384', 'a396', 'a414',
+  'a425', 'a437', 'a439', 'a446', 'a458', 'a460', 'a471', 'a490', 'a501', 'a533', 'a545', 'a567',
+  'a583', 'a584', 'a591', 'a596', 'a602', 'a617', 'a649', 'a732', 'a735', 'a781', 'a784', 'a788',
+  'a792', 'a794', 'a795', 'a803', 'a809', 'a815', 'a821', 'a837', 'a839', 'a841', 'a845', 'a853',
+  'a864', 'a868', 'a873', 'a881', 'a886', 'a889', 'a890', 'a897', 'a904', 'a911', 'a915', 'a927',
+  'a929', 'a946', 'a957', 'a958', 'a959', 'a963', 'a968', 'a979', 'a980', 'a981', 'a984', 'a996'
+];
+
+let QUIZ_IMAGES_DATA = null;
+let QUIZ_PORTRAITS_DATA = null;
+let quizState = null;
+
+function _shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function _pickWrongIds(correctId, n) {
+  return _shuffle(QUIZ_POOL_IDS.filter(id => id !== correctId)).slice(0, n);
+}
+
+function _pickWrongFacts(field, correctId, n) {
+  const pool = QUIZ_POOL_IDS.filter(id =>
+    id !== correctId && QUIZ_FACTS[id] && QUIZ_FACTS[id][field]
+  );
+  // Prefer distractors that are textually different
+  const correctVal = QUIZ_FACTS[correctId][field];
+  const filtered = pool.filter(id => QUIZ_FACTS[id][field] !== correctVal);
+  return _shuffle(filtered).slice(0, n).map(id => QUIZ_FACTS[id][field]);
+}
+
+// Distribution per 10 questions:
+//   2 training, 2 signature, 1 method, 1 thesis-attribution,
+//   1 cohort-attribution, 2 artwork, 1 message-attribution
+const QUIZ_PLAN = [
+  'training','training','signature','signature','method',
+  'thesis-attr','cohort-attr','artwork','artwork','message-attr',
+];
+
+function _generateQuestions(n) {
+  const ids = _shuffle(QUIZ_POOL_IDS).slice(0, n);
+  const plan = _shuffle(QUIZ_PLAN.slice(0, n));
+  const qs = plan.map((type, i) => _buildQuestion(ids[i], type)).filter(Boolean);
+  return qs;
+}
+
+// Forward types (show artist, pick a fact): training, signature, method
+// Reverse types (show a fact, pick artist): thesis-attr, cohort-attr, message-attr
+// Artwork: show image, pick artist
+function _buildQuestion(aid, type) {
+  const facts = QUIZ_FACTS[aid];
+  if (!facts) return null;
+
+  if (type === 'artwork') {
+    const c = QUIZ_IMAGES_DATA?.[aid]?.candidates?.[0];
+    if (!c) return _buildQuestion(aid, 'training'); // fallback
+    const wrong = _pickWrongIds(aid, 3);
+    return {
+      type, aid, correct: aid, options: _shuffle([aid, ...wrong]),
+      image: c.image, workTitle: c.title, workYear: c.year, workSource: c.source,
+    };
+  }
+
+  if (type === 'training') {
+    const correct = facts.training;
+    const wrong = _pickWrongFacts('training', aid, 3);
+    return { type, aid, correct, options: _shuffle([correct, ...wrong]) };
+  }
+
+  if (type === 'signature') {
+    const correct = facts.signature;
+    const wrong = _pickWrongFacts('signature', aid, 3);
+    return { type, aid, correct, options: _shuffle([correct, ...wrong]) };
+  }
+
+  if (type === 'method') {
+    const correct = facts.method;
+    const wrong = _pickWrongFacts('method', aid, 3);
+    return { type, aid, correct, options: _shuffle([correct, ...wrong]) };
+  }
+
+  if (type === 'thesis-attr') {
+    // Show thesis statement, pick artist
+    const wrong = _pickWrongIds(aid, 3);
+    return { type, aid, correct: aid, options: _shuffle([aid, ...wrong]), prompt_text: facts.thesis };
+  }
+
+  if (type === 'cohort-attr') {
+    const wrong = _pickWrongIds(aid, 3);
+    return { type, aid, correct: aid, options: _shuffle([aid, ...wrong]), prompt_text: facts.cohort };
+  }
+
+  if (type === 'message-attr') {
+    const wrong = _pickWrongIds(aid, 3);
+    const msg = QUIZ_MESSAGES[aid]?.message || facts.thesis;
+    return { type, aid, correct: aid, options: _shuffle([aid, ...wrong]), prompt_text: msg };
+  }
+
+  return null;
+}
+
+async function _loadQuizData() {
+  if (QUIZ_IMAGES_DATA == null) {
+    try {
+      QUIZ_IMAGES_DATA = await (await fetch('quiz_images.json', { cache: 'no-store' })).json();
+    } catch (e) { QUIZ_IMAGES_DATA = {}; console.warn('quiz_images.json missing', e); }
+  }
+  if (QUIZ_PORTRAITS_DATA == null) {
+    try {
+      QUIZ_PORTRAITS_DATA = await (await fetch('quiz_portraits.json', { cache: 'no-store' })).json();
+    } catch (e) { QUIZ_PORTRAITS_DATA = {}; console.warn('quiz_portraits.json missing', e); }
+  }
+}
+
+async function startQuiz() {
+  document.getElementById('quiz-intro').style.display = 'none';
+  document.getElementById('quiz-frame').hidden = false;
+  document.getElementById('q-next').style.display = '';
+  await _loadQuizData();
+  quizState = { questions: _generateQuestions(10), idx: 0, answers: [] };
+  _renderQuestion();
+  document.getElementById('quiz-frame').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+const QUIZ_TYPE_LABELS = {
+  training: 'Training', signature: 'Signature Project', method: 'Method',
+  'thesis-attr': 'Thesis', 'cohort-attr': 'Cohort',
+  'message-attr': 'Practice', artwork: 'Artwork',
+};
+
+function _artistById(aid) { return ARTIST_BY_ID[aid]; }
+
+function _renderQuestion() {
+  const q = quizState.questions[quizState.idx];
+  document.getElementById('q-current').textContent = quizState.idx + 1;
+  document.getElementById('q-total').textContent = quizState.questions.length;
+  document.getElementById('q-type').textContent = QUIZ_TYPE_LABELS[q.type] || q.type;
+  document.getElementById('q-feedback').textContent = 'Pick an answer below.';
+  document.getElementById('q-feedback').className = 'quiz-feedback';
+  const nextBtn = document.getElementById('q-next');
+  nextBtn.disabled = true;
+  nextBtn.textContent = (quizState.idx === quizState.questions.length - 1) ? 'See result →' : 'Next →';
+
+  const body = document.getElementById('q-body');
+  const artist = _artistById(q.aid);
+  if (!artist) { body.innerHTML = '<p>Missing data.</p>'; return; }
+
+  let promptHtml = '', optsHtml = '';
+  const nameSpan = `<span class="artist-emph">${artist.name}</span>`;
+
+  if (q.type === 'training') {
+    promptHtml = `<p class="quiz-prompt">Where did ${nameSpan} receive their formative training?</p>`;
+    optsHtml = q.options.map((opt, i) =>
+      `<button class="quiz-option message-opt" data-i="${i}">${opt}</button>`).join('');
+  }
+  else if (q.type === 'signature') {
+    promptHtml = `<p class="quiz-prompt">Which series, project, or named work is most associated with ${nameSpan}?</p>`;
+    optsHtml = q.options.map((opt, i) =>
+      `<button class="quiz-option message-opt" data-i="${i}">${opt}</button>`).join('');
+  }
+  else if (q.type === 'method') {
+    promptHtml = `<p class="quiz-prompt">Which working method defines ${nameSpan}'s practice?</p>`;
+    optsHtml = q.options.map((opt, i) =>
+      `<button class="quiz-option message-opt" data-i="${i}">${opt}</button>`).join('');
+  }
+  else if (q.type === 'thesis-attr') {
+    promptHtml = `<p class="quiz-prompt">Whose practice argues this?</p>
+      <div class="kc-message" style="margin-bottom:18px;">${q.prompt_text}</div>`;
+    optsHtml = q.options.map((opt, i) =>
+      `<button class="quiz-option" data-i="${i}">${_artistById(opt)?.name || opt}</button>`).join('');
+  }
+  else if (q.type === 'cohort-attr') {
+    promptHtml = `<p class="quiz-prompt">Which artist's career fits this description?</p>
+      <div class="kc-message" style="margin-bottom:18px;">${q.prompt_text}</div>`;
+    optsHtml = q.options.map((opt, i) =>
+      `<button class="quiz-option" data-i="${i}">${_artistById(opt)?.name || opt}</button>`).join('');
+  }
+  else if (q.type === 'message-attr') {
+    promptHtml = `<p class="quiz-prompt">Whose three-sentence practice statement is this?</p>
+      <div class="kc-message" style="margin-bottom:18px;">${q.prompt_text}</div>`;
+    optsHtml = q.options.map((opt, i) =>
+      `<button class="quiz-option" data-i="${i}">${_artistById(opt)?.name || opt}</button>`).join('');
+  }
+  else if (q.type === 'artwork') {
+    const cap = [q.workTitle, q.workYear].filter(Boolean).join(' · ');
+    promptHtml = `<p class="quiz-prompt">Whose work is this?</p>
+      <div class="quiz-artwork-wrap"><img src="${q.image}" alt="Artwork"></div>
+      <div class="quiz-artwork-caption">${cap}${q.workSource ? ' · ' + q.workSource : ''}</div>`;
+    optsHtml = q.options.map((opt, i) =>
+      `<button class="quiz-option" data-i="${i}">${_artistById(opt)?.name || opt}</button>`).join('');
+  }
+  body.innerHTML = promptHtml + '<div class="quiz-options" id="quiz-opts">' + optsHtml + '</div>';
+
+  Array.from(document.querySelectorAll('#quiz-opts .quiz-option')).forEach((btn, i) => {
+    btn.addEventListener('click', () => _selectAnswer(i));
+  });
+}
+
+function _selectAnswer(i) {
+  const q = quizState.questions[quizState.idx];
+  if (q.answered != null) return;
+  const opts = document.querySelectorAll('#quiz-opts .quiz-option');
+  const chosen = q.options[i];
+  let correctIdx = -1;
+  q.options.forEach((opt, idx) => { if (opt === q.correct) correctIdx = idx; });
+  const isCorrect = chosen === q.correct;
+
+  opts.forEach((btn, idx) => {
+    btn.disabled = true;
+    if (idx === correctIdx) btn.classList.add('correct');
+    if (idx === i && !isCorrect) btn.classList.add('incorrect');
+  });
+
+  q.answered = i;
+  q.chosen = chosen;
+  q.isCorrect = isCorrect;
+  quizState.answers.push({ aid: q.aid, type: q.type, correct: isCorrect, chosen, expected: q.correct });
+
+  const fb = document.getElementById('q-feedback');
+  fb.textContent = isCorrect ? 'Correct.' : 'Incorrect.';
+  fb.className = 'quiz-feedback ' + (isCorrect ? 'correct' : 'incorrect');
+  document.getElementById('q-next').disabled = false;
+
+  _renderKnowledgeCard(q.aid);
+}
+
+function _renderKnowledgeCard(aid) {
+  const artist = _artistById(aid);
+  const facts = QUIZ_FACTS[aid] || {};
+  const portraitObj = (QUIZ_PORTRAITS_DATA || {})[aid] || {};
+  const portraitUrl = portraitObj.url;
+  const candidates = ((QUIZ_IMAGES_DATA || {})[aid] || {}).candidates || [];
+  const gallery = GALLERY_BY_ID[artist.gallery]?.name || '';
+  const message = (window.QUIZ_MESSAGES?.[aid] || {}).message || '';
+
+  const pron = facts.pron || {};
+  const pronBtnHtml = pron.lang
+    ? `<button class="kc-pron-btn" id="kc-pron-${aid}" type="button" title="Hear in ${pron.lang}">
+         <span class="speaker">▶</span> Hear it
+       </button>` : '';
+  const pronTextHtml = (pron.written || pron.ipa)
+    ? `<div class="kc-pron-text">${pron.written || ''}${pron.ipa ? `<span class="ipa">${pron.ipa}</span>` : ''}</div>`
+    : '';
+
+  const portraitHtml = portraitUrl
+    ? `<img class="kc-portrait" src="${portraitUrl}" alt="${artist.name} portrait" onerror="this.outerHTML='<div class=&quot;kc-portrait no-img&quot;>${artist.name.charAt(0)}</div>'">`
+    : `<div class="kc-portrait no-img">${artist.name.charAt(0)}</div>`;
+
+  // Uniform works grid — each work equal weight
+  const works = candidates.slice(0, 6);
+  const isUntitled = (t) => !t || /^untitled(\s|$)|^untitled work$|^selected work/i.test(t.trim()) || /^[a-f0-9]{6,}$/i.test(t.trim()) || /^a\d{5,}$/i.test(t.trim());
+  const worksHtml = works.length ? `
+    <div class="kc-section">
+      <div class="kc-section-label">Prominent Works</div>
+      <div class="kc-works-grid">${
+        works.map(c => {
+          const untitled = isUntitled(c.title);
+          const capClass = untitled ? 'kc-work-cap untitled' : 'kc-work-cap';
+          const capText = untitled ? 'Untitled' : c.title;
+          const meta = [c.year, c.source].filter(Boolean).join(' · ');
+          return `
+            <div class="kc-work-cell">
+              <div class="kc-work-img-wrap">
+                <img class="kc-work-img" src="${c.image}" alt="${c.title || 'Work'}" loading="lazy" onerror="this.parentElement.parentElement.style.display='none'">
+              </div>
+              <div class="${capClass}">${capText}</div>
+              ${meta ? `<div class="kc-work-meta">${meta}</div>` : ''}
+            </div>`;
+        }).join('')
+      }</div>
+    </div>` : '';
+
+  const html = `
+    <div class="kc" id="kc-${aid}">
+      <div class="kc-head">
+        ${portraitHtml}
+        <div class="kc-meta">
+          <h3 class="kc-name">
+            ${artist.name}
+            ${pronBtnHtml}
+          </h3>
+          ${pronTextHtml}
+          <div class="kc-dates">${facts.born || artist.dates || ''}</div>
+          ${facts.cohort ? `<div class="kc-cohort">${facts.cohort}</div>` : ''}
+        </div>
+      </div>
+      ${message ? `<p class="kc-message">${message}</p>` : ''}
+      ${worksHtml}
+      <div class="kc-section">
+        <div class="kc-section-label">Wider Reading</div>
+        <p class="kc-wiki loading" id="kc-wiki-${aid}">Loading from Wikipedia…</p>
+      </div>
+      <div class="kc-footer">
+        <span class="gallery-line">${gallery || ''}</span>
+        <span class="born-line">${facts.based ? `Based in ${facts.based}` : ''}</span>
+      </div>
+    </div>`;
+  document.getElementById('q-body').insertAdjacentHTML('beforeend', html);
+
+  if (pron.lang) {
+    const btn = document.getElementById(`kc-pron-${aid}`);
+    if (btn) btn.addEventListener('click', () => _speakName(artist.name, pron.lang));
+  }
+
+  // Lazy-fetch Wikipedia summary via existing pageSummary() in the file
+  const wikiEl = document.getElementById(`kc-wiki-${aid}`);
+  if (typeof pageSummary === 'function') {
+    pageSummary(artist.name).then(s => {
+      if (!s) {
+        wikiEl.textContent = 'No Wikipedia summary found.';
+        wikiEl.classList.remove('loading');
+        return;
+      }
+      wikiEl.textContent = s.extract || s.description || '(no summary)';
+      wikiEl.classList.remove('loading');
+    });
+  } else {
+    wikiEl.textContent = '';
+    wikiEl.classList.remove('loading');
+  }
+}
+
+function _speakName(name, lang) {
+  if (!('speechSynthesis' in window)) {
+    alert('Your browser does not support speech synthesis.');
+    return;
+  }
+  try {
+    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(name);
+    u.lang = lang;
+    u.rate = 0.85;
+    u.pitch = 1.0;
+    const voices = window.speechSynthesis.getVoices();
+    const v = voices.find(v => v.lang === lang) ||
+              voices.find(v => v.lang.startsWith(lang.split('-')[0]));
+    if (v) u.voice = v;
+    window.speechSynthesis.speak(u);
+  } catch (e) { console.warn('TTS failed', e); }
+}
+
+function _nextQuestion() {
+  if (quizState.idx < quizState.questions.length - 1) {
+    quizState.idx += 1;
+    _renderQuestion();
+  } else {
+    _renderResult();
+  }
+}
+
+function _renderResult() {
+  const total = quizState.questions.length;
+  const score = quizState.answers.filter(a => a.correct).length;
+  document.getElementById('q-current').textContent = total;
+  document.getElementById('q-type').textContent = 'Result';
+  document.getElementById('q-feedback').textContent = '';
+  document.getElementById('q-next').style.display = 'none';
+
+  const grade = _grade(score, total);
+  const rowsHtml = quizState.answers.map(a => {
+    const artist = _artistById(a.aid);
+    return `<div class="quiz-review-row">
+      <div class="${a.correct ? 'rv-check' : 'rv-x'}">${a.correct ? '✓' : '✗'}</div>
+      <div>
+        <div><strong>${artist?.name || a.aid}</strong> <span class="rv-type">${QUIZ_TYPE_LABELS[a.type] || a.type}</span></div>
+      </div>
+      <div></div>
+    </div>`;
+  }).join('');
+
+  document.getElementById('q-body').innerHTML = `
+    <div class="quiz-result-score">${score}<span class="denom">/${total}</span></div>
+    <div class="quiz-result-label">${grade}</div>
+    <div>${rowsHtml}</div>
+    <button class="quiz-start-btn quiz-restart" id="quiz-restart">Start Over →</button>
+  `;
+  document.getElementById('quiz-restart').addEventListener('click', _restart);
+}
+
+function _grade(score, total) {
+  const p = score / total;
+  if (p === 1) return 'Perfect. PhD oral defense.';
+  if (p >= 0.9) return 'Senior thesis level.';
+  if (p >= 0.7) return 'Strong undergraduate.';
+  if (p >= 0.5) return 'College sophomore territory.';
+  if (p >= 0.3) return 'Freshman survey.';
+  return 'Pre-syllabus — try the rosters above first.';
+}
+
+function _restart() { startQuiz(); }
+
+document.getElementById('quiz-start').addEventListener('click', startQuiz);
+document.getElementById('q-next').addEventListener('click', _nextQuestion);
+
+// Warm up voice list on browsers that load it asynchronously
+if ('speechSynthesis' in window) { window.speechSynthesis.getVoices(); }
 </script>
 </body>
 </html>
