@@ -1,7 +1,7 @@
 {
   "target_total": 857,
   "phase": 2,
-  "cycle_count": 13,
+  "cycle_count": 14,
   "completed": [
     "a146",
     "a176",
@@ -658,7 +658,57 @@
     "a130",
     "a898",
     "a854",
-    "a716"
+    "a716",
+    "a145",
+    "a58",
+    "a449",
+    "a561",
+    "a321",
+    "a150",
+    "a934",
+    "a333",
+    "a405",
+    "a661",
+    "a104",
+    "a552",
+    "a819",
+    "a131",
+    "a743",
+    "a433",
+    "a536",
+    "a175",
+    "a241",
+    "a50",
+    "a832",
+    "a195",
+    "a705",
+    "a132",
+    "a88",
+    "a498",
+    "a790",
+    "a269",
+    "a562",
+    "a153",
+    "a585",
+    "a728",
+    "a597",
+    "a515",
+    "a664",
+    "a623",
+    "a636",
+    "a560",
+    "a40",
+    "a740",
+    "a133",
+    "a704",
+    "a170",
+    "a74",
+    "a492",
+    "a309",
+    "a647",
+    "a530",
+    "a625",
+    "a156"
   ],
   "red_chip_ids": [
     "a1",
@@ -802,406 +852,6 @@
     "a985"
   ],
   "queue": [
-    {
-      "id": "a145",
-      "name": "Michael Armitage",
-      "dates": "b. 1984",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a58",
-      "name": "Michael Heizer",
-      "dates": "b. 1944",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a449",
-      "name": "Michaela Eichwald",
-      "dates": "b. 1967",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a561",
-      "name": "Michail Pirgelis",
-      "dates": "b. 1976",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a321",
-      "name": "Michal Rovner",
-      "dates": "b. 1957",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a150",
-      "name": "Michaël Borremans",
-      "dates": "b. 1963",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a934",
-      "name": "Michele Abeles",
-      "dates": "b. 1977",
-      "gallery": "g13",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a333",
-      "name": "Mika Tajima",
-      "dates": "b. 1975",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a405",
-      "name": "Minoru Nomata",
-      "dates": "b. 1955",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a661",
-      "name": "Miquel Barceló",
-      "dates": "b. 1957",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a104",
-      "name": "Mira Schendel",
-      "dates": "1919–1988",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a552",
-      "name": "Mire Lee",
-      "dates": "b. 1988",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a819",
-      "name": "Moataz Nasr",
-      "dates": "b. 1961",
-      "gallery": "g11",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a131",
-      "name": "Monika Sosnowska",
-      "dates": "b. 1972",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a743",
-      "name": "Mr.",
-      "dates": "b. 1969",
-      "gallery": "g10",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a433",
-      "name": "Nairy Baghramian",
-      "dates": "b. 1971",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a536",
-      "name": "Nancy Holt",
-      "dates": "1938–2014",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a175",
-      "name": "Nate Lowman",
-      "dates": "b. 1979",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a241",
-      "name": "Nathalie Du Pasquier",
-      "dates": "b. 1957",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a50",
-      "name": "Nathaniel Mary Quinn",
-      "dates": "b. 1977",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a832",
-      "name": "Nedko Solakov",
-      "dates": "b. 1957",
-      "gallery": "g11",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a195",
-      "name": "Neo Rauch",
-      "dates": "b. 1960",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a705",
-      "name": "Nick Oberthaler",
-      "dates": "b. 1981",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a132",
-      "name": "Nicolas Party",
-      "dates": "b. 1980",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a88",
-      "name": "Nicole Eisenman",
-      "dates": "b. 1965",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a498",
-      "name": "Niele Toroni",
-      "dates": "b. 1937",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a790",
-      "name": "Nikhil Chopra",
-      "dates": "b. 1974",
-      "gallery": "g11",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a269",
-      "name": "Nina Katchadourian",
-      "dates": "b. 1968",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a562",
-      "name": "Nina Pohl",
-      "dates": "b. 1968",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a153",
-      "name": "Noah Davis",
-      "dates": "1983–2015",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a585",
-      "name": "Nora Turato",
-      "dates": "b. 1991",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a728",
-      "name": "Not Vital",
-      "dates": "b. 1948",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a597",
-      "name": "Olga de Amaral",
-      "dates": "b. 1932",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a515",
-      "name": "Oliver Bak",
-      "dates": "b. 1992",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a664",
-      "name": "Oliver Beer",
-      "dates": "b. 1985",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a623",
-      "name": "Oliver Lee Jackson",
-      "dates": "b. 1935",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a636",
-      "name": "Otobong Nkanga",
-      "dates": "b. 1974",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a560",
-      "name": "Otto Piene",
-      "dates": "1928–2014",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a40",
-      "name": "Pablo Picasso",
-      "dates": "1881–1973",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a740",
-      "name": "Paola Pivi",
-      "dates": "b. 1971",
-      "gallery": "g10",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a133",
-      "name": "Pat Steir",
-      "dates": "b. 1938",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a704",
-      "name": "Patrick Neu",
-      "dates": "b. 1963",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a170",
-      "name": "Paul Klee",
-      "dates": "1879–1940",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a74",
-      "name": "Paul McCarthy",
-      "dates": "b. 1945",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a492",
-      "name": "Paul Sietsema",
-      "dates": "b. 1968",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a309",
-      "name": "Paulina Olowska",
-      "dates": "b. 1976",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a647",
-      "name": "Pedro Reyes",
-      "dates": "b. 1972",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a530",
-      "name": "Peter Fischli & David Weiss",
-      "dates": "b. 1952",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a625",
-      "name": "Peter Joseph",
-      "dates": "1929–2020",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a156",
-      "name": "Philip-Lorca diCorcia",
-      "dates": "b. 1951",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
     {
       "id": "a93",
       "name": "Phyllida Barlow",
