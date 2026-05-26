@@ -1,7 +1,7 @@
 {
   "target_total": 857,
   "phase": 2,
-  "cycle_count": 4,
+  "cycle_count": 5,
   "completed": [
     "a146",
     "a176",
@@ -208,7 +208,57 @@
     "a306",
     "a827",
     "a444",
-    "a265"
+    "a265",
+    "a21",
+    "a932",
+    "a993",
+    "a349",
+    "a925",
+    "a912",
+    "a907",
+    "a931",
+    "a352",
+    "a956",
+    "a500",
+    "a249",
+    "a292",
+    "a593",
+    "a14",
+    "a690",
+    "a43",
+    "a297",
+    "a9",
+    "a45",
+    "a626",
+    "a53",
+    "a5",
+    "a377",
+    "a258",
+    "a171",
+    "a783",
+    "a16",
+    "a576",
+    "a478",
+    "a2",
+    "a1",
+    "a161",
+    "a773",
+    "a259",
+    "a144",
+    "a542",
+    "a846",
+    "a7",
+    "a72",
+    "a747",
+    "a15",
+    "a96",
+    "a197",
+    "a375",
+    "a183",
+    "a38",
+    "a86",
+    "a637",
+    "a267"
   ],
   "red_chip_ids": [
     "a1",
@@ -352,406 +402,6 @@
     "a985"
   ],
   "queue": [
-    {
-      "id": "a21",
-      "name": "Walton Ford",
-      "dates": "b. 1960",
-      "gallery": "g1",
-      "nworks": 2,
-      "red_chip": false
-    },
-    {
-      "id": "a932",
-      "name": "Wang Yuyang",
-      "dates": "b. 1979",
-      "gallery": "g12",
-      "nworks": 1,
-      "red_chip": false
-    },
-    {
-      "id": "a993",
-      "name": "William N. Copley",
-      "dates": "1919–1996",
-      "gallery": "g13",
-      "nworks": 2,
-      "red_chip": false
-    },
-    {
-      "id": "a349",
-      "name": "Xiao Yu",
-      "dates": "b. 1965",
-      "gallery": "g4",
-      "nworks": 2,
-      "red_chip": false
-    },
-    {
-      "id": "a925",
-      "name": "Xiyao Wang",
-      "dates": "b. 1992",
-      "gallery": "g12",
-      "nworks": 1,
-      "red_chip": false
-    },
-    {
-      "id": "a912",
-      "name": "Xue Ruozhe",
-      "dates": "b. 1989",
-      "gallery": "g12",
-      "nworks": 1,
-      "red_chip": false
-    },
-    {
-      "id": "a907",
-      "name": "Yan Ping",
-      "dates": "b. 1956",
-      "gallery": "g12",
-      "nworks": 1,
-      "red_chip": false
-    },
-    {
-      "id": "a931",
-      "name": "Yeesookyung",
-      "dates": "b. 1963",
-      "gallery": "g12",
-      "nworks": 1,
-      "red_chip": false
-    },
-    {
-      "id": "a352",
-      "name": "Yoo Youngkuk",
-      "dates": "1916–2002",
-      "gallery": "g4",
-      "nworks": 2,
-      "red_chip": false
-    },
-    {
-      "id": "a956",
-      "name": "Yu Ji",
-      "dates": "b. 1985",
-      "gallery": "g13",
-      "nworks": 2,
-      "red_chip": false
-    },
-    {
-      "id": "a500",
-      "name": "Álvaro Urbano",
-      "dates": "b. 1983",
-      "gallery": "g6",
-      "nworks": 3,
-      "red_chip": false
-    },
-    {
-      "id": "a249",
-      "name": "Adrian Ghenie",
-      "dates": "b. 1977",
-      "gallery": "g4",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a292",
-      "name": "Agnes Martin",
-      "dates": "1912–2004",
-      "gallery": "g4",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a593",
-      "name": "Ai Weiwei",
-      "dates": "b. 1957",
-      "gallery": "g8",
-      "nworks": 4,
-      "red_chip": true
-    },
-    {
-      "id": "a14",
-      "name": "Albert Oehlen",
-      "dates": "b. 1954",
-      "gallery": "g1",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a690",
-      "name": "Alex Katz",
-      "dates": "b. 1927",
-      "gallery": "g9",
-      "nworks": 4,
-      "red_chip": true
-    },
-    {
-      "id": "a43",
-      "name": "Alexander Calder",
-      "dates": "1898–1976",
-      "gallery": "g1",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a297",
-      "name": "Amedeo Modigliani",
-      "dates": "1884–1920",
-      "gallery": "g4",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a9",
-      "name": "Andreas Gursky",
-      "dates": "b. 1955",
-      "gallery": "g1",
-      "nworks": 4,
-      "red_chip": true
-    },
-    {
-      "id": "a45",
-      "name": "Andy Warhol",
-      "dates": "1928–1987",
-      "gallery": "g1",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a626",
-      "name": "Anish Kapoor",
-      "dates": "b. 1954",
-      "gallery": "g8",
-      "nworks": 3,
-      "red_chip": true
-    },
-    {
-      "id": "a53",
-      "name": "Anna Weyant",
-      "dates": "b. 1995",
-      "gallery": "g1",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a5",
-      "name": "Anselm Kiefer",
-      "dates": "b. 1945",
-      "gallery": "g1",
-      "nworks": 3,
-      "red_chip": true
-    },
-    {
-      "id": "a377",
-      "name": "Antony Gormley",
-      "dates": "b. 1950",
-      "gallery": "g5",
-      "nworks": 3,
-      "red_chip": true
-    },
-    {
-      "id": "a258",
-      "name": "Barbara Hepworth",
-      "dates": "1903–1975",
-      "gallery": "g4",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a171",
-      "name": "Barbara Kruger",
-      "dates": "b. 1945",
-      "gallery": "g3",
-      "nworks": 3,
-      "red_chip": true
-    },
-    {
-      "id": "a783",
-      "name": "Cai Guo-Qiang",
-      "dates": "b. 1957",
-      "gallery": "g11",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a16",
-      "name": "Cecily Brown",
-      "dates": "b. 1969",
-      "gallery": "g1",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a576",
-      "name": "Cindy Sherman",
-      "dates": "b. 1954",
-      "gallery": "g7",
-      "nworks": 3,
-      "red_chip": true
-    },
-    {
-      "id": "a478",
-      "name": "Claes Oldenburg",
-      "dates": "1929–2022",
-      "gallery": "g6",
-      "nworks": 3,
-      "red_chip": true
-    },
-    {
-      "id": "a2",
-      "name": "Cy Twombly",
-      "dates": "1928–2011",
-      "gallery": "g1",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a1",
-      "name": "Damien Hirst",
-      "dates": "b. 1965",
-      "gallery": "g1",
-      "nworks": 4,
-      "red_chip": true
-    },
-    {
-      "id": "a161",
-      "name": "Dan Flavin",
-      "dates": "1933–1996",
-      "gallery": "g3",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a773",
-      "name": "Daniel Arsham",
-      "dates": "b. 1980",
-      "gallery": "g10",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a259",
-      "name": "David Hockney",
-      "dates": "b. 1937",
-      "gallery": "g4",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a144",
-      "name": "Diane Arbus",
-      "dates": "1923–1971",
-      "gallery": "g3",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a542",
-      "name": "Donald Judd",
-      "dates": "1928–1994",
-      "gallery": "g7",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a846",
-      "name": "Doug Aitken",
-      "dates": "b. 1968",
-      "gallery": "g12",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a7",
-      "name": "Ed Ruscha",
-      "dates": "b. 1937",
-      "gallery": "g1",
-      "nworks": 3,
-      "red_chip": true
-    },
-    {
-      "id": "a72",
-      "name": "Eva Hesse",
-      "dates": "1936–1970",
-      "gallery": "g2",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a747",
-      "name": "Genesis Belanger",
-      "dates": "b. 1978",
-      "gallery": "g10",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a15",
-      "name": "Georg Baselitz",
-      "dates": "b. 1938",
-      "gallery": "g1",
-      "nworks": 3,
-      "red_chip": true
-    },
-    {
-      "id": "a96",
-      "name": "George Condo",
-      "dates": "b. 1957",
-      "gallery": "g2",
-      "nworks": 3,
-      "red_chip": true
-    },
-    {
-      "id": "a197",
-      "name": "Gerhard Richter",
-      "dates": "b. 1932",
-      "gallery": "g3",
-      "nworks": 4,
-      "red_chip": true
-    },
-    {
-      "id": "a375",
-      "name": "Gilbert & George",
-      "dates": "b. 1942",
-      "gallery": "g5",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a183",
-      "name": "Giorgio Morandi",
-      "dates": "1890–1964",
-      "gallery": "g3",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a38",
-      "name": "Helen Frankenthaler",
-      "dates": "1928–2011",
-      "gallery": "g1",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a86",
-      "name": "Henry Taylor",
-      "dates": "b. 1958",
-      "gallery": "g2",
-      "nworks": 1,
-      "red_chip": true
-    },
-    {
-      "id": "a637",
-      "name": "Hélio Oiticica",
-      "dates": "1937–1980",
-      "gallery": "g8",
-      "nworks": 2,
-      "red_chip": true
-    },
-    {
-      "id": "a267",
-      "name": "JR",
-      "dates": "b. 1983",
-      "gallery": "g4",
-      "nworks": 2,
-      "red_chip": true
-    },
     {
       "id": "a339",
       "name": "James Turrell",
