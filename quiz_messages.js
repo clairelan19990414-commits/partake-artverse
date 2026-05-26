@@ -361,6 +361,39 @@ const QUIZ_MESSAGES = {
     message: "Gelitin is an Austrian collaborative of four — Ali Janka, Wolfgang Gantner, Florian Reither, and Tobias Urban — who have worked together as a single artistic body since 1993 and live across Vienna. Their projects — The B-Thing (an unauthorised balcony built off the World Trade Center, 2000), Hase (a 200-foot pink stuffed rabbit knitted by villagers on an Italian hillside, 2005) — are large-scale, absurd, and often physically risky public interventions performed half-naked. The argument is that contemporary sculpture's residual seriousness is itself the problem — that the collective body, drunk and exhibitionist, is the only honest material left."
   },
 
+  // ── Chunk 2 (still session, before first cron) ──
+
+  a953: { // Georg Herold
+    message: "Herold was born in Jena in 1947 in East Germany, escaped to West Berlin in his twenties, and trained at the Hochschule für bildende Künste Hamburg under Sigmar Polke; he lives in Cologne. His work uses humble or absurd materials — roof battens, bricks, caviar, dry potato — assembled into figures that openly mock the heroic German sculpture lineage he inherited. The argument is that cultural value is a joke history plays on its materials, and the sculptor who pretends otherwise is participating in the lie."
+  },
+  a951: { // Georgia Gardner Gray
+    message: "Gardner Gray was born in Washington, DC in 1988 and lives in Berlin; she trained at Cooper Union and at the Städelschule under Amy Sillman. Her figurative paintings — Commuters (2018), Terrace (2020) — stage social tableaux of contemporary Western life with the theatricality of a stage set and the cruelty of a satirist. She argues that the contemporary group portrait is still a serious painterly subject — provided the painter is willing to render social humiliation with the same precision as classical religious painting once rendered grace."
+  },
+  a876: { // Giorgio Griffa
+    message: "Griffa was born in Turin in 1936, trained as a lawyer, and has worked in his Turin studio since the late 1960s — when he began making the rhythmic, unstretched-canvas paintings he is still making at almost ninety. Loosely associated with Arte Povera and Italian analytical painting, his work consists of repeated marks — dashes, horizontals, ideograms — that stop when the canvas is no longer 'curious about itself.' The argument is that painting is a practice of attention, not of production — and that the unfinished canvas, folded and stored when not exhibited, is the truer object."
+  },
+  a859: { // Giulia Cenci
+    message: "Cenci was born in Cortona, Italy in 1988 and lives between Cortona and Amsterdam, where she trained at the Rijksakademie after the Brera Academy in Milan. Her installations — dry salvages (2022), secondary forest (2021) — assemble cast aluminium, industrial detritus, animal-derived molds, and hybrid creature-forms into landscape-scale environments that read as both archaeological and post-apocalyptic. She argues that contemporary sculpture's true subject is the agricultural-industrial ruin of Italy's countryside — and that the human figure is no longer the most legible body in that landscape."
+  },
+  a268: { // Glenn Kaino
+    message: "Kaino was born in Los Angeles in 1972, lives there still, and trained at UC Irvine and UCSD; he has worked at the seam of conceptual sculpture and explicit political collaboration since the early 2000s. His project Bridge (2014) cast the raised gloved arm of Olympic athlete Tommie Smith into 200 suspended gold-plated sculptures (an act made in direct collaboration with Smith), and In the Light of a Shadow (2021) recast the bullets of Bloody Sunday as a chandelier. He argues that political memory needs material vessels at the right scale — and that contemporary sculpture's most useful task is to be the steady collaborator."
+  },
+  a799: { // Gu Dexin
+    message: "Gu Dexin was born in Beijing in 1962, was largely self-taught, and was one of the foundational figures of the 1985 New Wave Chinese avant-garde alongside Huang Yong Ping and Xu Bing. His installations of rotting fruit, melted plastic, raw meat, and pressed flesh — Plastic Pieces (1983–89), 2009-05-02 (2009) — confronted Chinese state ideology with materials that explicitly refused permanence. He announced his retirement from art on the date that titles his last work — May 2nd 2009 — and has not made art since, an act that itself argues that the artist's most powerful gesture can be to stop."
+  },
+  a869: { // Günther Förg
+    message: "Förg was born in Füssen in 1952, lived between Munich and Areuse, Switzerland, and died in 2013; he trained at the Akademie der Bildenden Künste München under Karl Fred Dahmen. His Grey Paintings (1973 onward), large lead-and-aluminium wall works, architecture photographs of fascist-era Italian buildings, and Spot Paintings (2007) collapse the language of postwar abstract painting into a deliberately uneven, almost careless gesture. He treats the inheritance of European modernist abstraction not as a faith but as a found language — useable, exhaustible, and worth refusing to perfect."
+  },
+  a230: { // Harry Callahan
+    message: "Callahan was born in Detroit in 1912, taught himself photography in the late 1930s, and was hired by László Moholy-Nagy at Chicago's Institute of Design in 1946; he later led the photography department at RISD. His three lifelong subjects — his wife Eleanor (photographed for nearly forty years), Chicago and Cape Cod street scenes, and dense natural-form abstractions — built a body of work that quietly redefined American mid-century photography. He argued that photography's discipline was attention rather than novelty — that the same subject, returned to over decades, was the longest education a photographer could give themselves."
+  },
+  a856: { // Hejum Bä
+    message: "Hejum Bä was born in South Korea in 1987 and trained at Seoul National University before moving to a contemporary international practice. Her abstract canvases work with line, gesture, and the body's relationship to surface in a register that draws equally on East Asian calligraphic tradition and post-painterly Western abstraction. She argues that the line — drawn, painted, or breathed onto a surface — is the most under-credited unit of painting, and that contemporary abstraction's preoccupation with field has obscured what a single mark can still do."
+  },
+  a969: { // Helen Marten
+    message: "Marten was born in Macclesfield, England in 1985 and lives in London; she trained at Central Saint Martins and the Ruskin School at Oxford. Her dense, hybrid installations — Lunar Nibs (2016), Eucalyptus, Let Us In (2016) — combine welded steel, ceramic, screen-printed textile, found object, and dense written text into compositions that refuse to settle into a single interpretive frame. The argument, which won her both the 2016 Turner Prize and the inaugural Hepworth Sculpture Prize in the same year, is that contemporary sculpture's task is to overwhelm the viewer's pattern-matching ability — to be more dense than the museum label can be."
+  },
+
 };
 
 // Expose for the quiz UI

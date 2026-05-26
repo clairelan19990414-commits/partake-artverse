@@ -3204,5 +3204,295 @@
         "url": null
       }
     ]
+  },
+  "a859": {
+    "name": "Giulia Cenci",
+    "dates": "b. 1988",
+    "gallery": "Massimo De Carlo",
+    "candidates": []
+  },
+  "a869": {
+    "name": "Günther Förg",
+    "dates": "1952–2013",
+    "gallery": "Massimo De Carlo",
+    "candidates": [
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Untitled",
+        "year": "1990",
+        "image": "https://www.artic.edu/iiif/2/9c0ac368-7780-4b8c-5ec4-53e7b3bfb23f/full/1200,/0/default.jpg",
+        "credit": "Gift of Thomas and Linda Heagy",
+        "url": "https://www.artic.edu/artworks/220544"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Houses and Windows (Häuser und Fenster)",
+        "year": "1987",
+        "image": "https://www.artic.edu/iiif/2/20d2c4c9-7b68-77e3-c586-b026554a024e/full/1200,/0/default.jpg",
+        "credit": "Gift of Thomas and Linda Heagy",
+        "url": "https://www.artic.edu/artworks/220596"
+      }
+    ]
+  },
+  "a799": {
+    "name": "Gu Dexin",
+    "dates": "b. 1962",
+    "gallery": "Galleria Continua",
+    "candidates": []
+  },
+  "a230": {
+    "name": "Harry Callahan",
+    "dates": "1912–1999",
+    "gallery": "Pace Gallery",
+    "candidates": [
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/108246.11_CALLAHAN_v01.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/_Portrait_Callahan.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/108157.10_CALLAHAN_v01.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/106509_CALLAHAN_v01.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/106586.02_CALLAHAN_v01.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Chicago",
+        "year": "1950",
+        "image": "https://www.artic.edu/iiif/2/4e15cfbc-39f8-f7ea-fb49-a1652df7ea9e/full/1200,/0/default.jpg",
+        "credit": "The Mary and Leigh Block Endowment Fund",
+        "url": "https://www.artic.edu/artworks/100089"
+      }
+    ]
+  },
+  "a856": {
+    "name": "Hejum Bä",
+    "dates": "b. 1987",
+    "gallery": "Massimo De Carlo",
+    "candidates": []
+  },
+  "a268": {
+    "name": "Glenn Kaino",
+    "dates": "b. 1972",
+    "gallery": "Pace Gallery",
+    "candidates": [
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/971112keytAAkxs2sa7L3nB5gSQ71rg.width-360.webp",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/GK-headshot.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/Kaino_inst_20220519_183.width-360.webp",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/KAINO-Shadow.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/907566keyyG0D0J0gdvTehqQNKp5fyA.width-360.webp",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      }
+    ]
+  },
+  "a969": {
+    "name": "Helen Marten",
+    "dates": "b. 1985",
+    "gallery": "Sadie Coles HQ",
+    "candidates": [
+      {
+        "source": "Sadie Coles HQ",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://sadie-coles.transforms.svdcdn.com/production/images/Artists/Helen-Marten/Exhibitions/2025-Bury-Street/Artworks/HQ28-HM21892P_Cow_2025_detail_3.jpeg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1764241150&s=7248724af786ab93a507651cbc400bd1",
+        "credit": "Courtesy Sadie Coles HQ",
+        "url": null
+      },
+      {
+        "source": "Sadie Coles HQ",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://sadie-coles.transforms.svdcdn.com/production/images/Artists/Helen-Marten/HQ28-HM21892P_Cow_2025_banner.jpg?w=425&h=607&auto=compress%2Cformat&fit=crop&dm=1764242838&s=909cd535dff79d7cf9c380c3635498dd",
+        "credit": "Courtesy Sadie Coles HQ",
+        "url": null
+      },
+      {
+        "source": "Sadie Coles HQ",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://sadie-coles.transforms.svdcdn.com/production/images/Artists/Helen-Marten/Exhibitions/2025-Bury-Street/Artworks/HQ28-HM21891P_Women_2025_1.jpeg?w=425&auto=compress%2Cformat&fit=crop&dm=1764241143&s=040ab146b325782103e2806deb59416c",
+        "credit": "Courtesy Sadie Coles HQ",
+        "url": null
+      },
+      {
+        "source": "Sadie Coles HQ",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://sadie-coles.transforms.svdcdn.com/production/images/Artists/Helen-Marten/Exhibitions/2025-Bury-Street/Artworks/HQ28-HM21894P_Men_2025_version_2.jpeg?w=425&auto=compress%2Cformat&fit=crop&dm=1764241168&s=f9ccb963f2efd9b049800ab5e3f37a25",
+        "credit": "Courtesy Sadie Coles HQ",
+        "url": null
+      },
+      {
+        "source": "Sadie Coles HQ",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://sadie-coles.transforms.svdcdn.com/production/images/Artists/Helen-Marten/Artworks/HQ28-HM21509D_Wednesday_Society__pathos_formula__2025.jpeg?w=425&auto=compress%2Cformat&fit=crop&dm=1757511684&s=a0b39492cd41a9cffc31894d88632466",
+        "credit": "Courtesy Sadie Coles HQ",
+        "url": null
+      }
+    ]
+  },
+  "a876": {
+    "name": "Giorgio Griffa",
+    "dates": "b. 1936",
+    "gallery": "Massimo De Carlo",
+    "candidates": []
+  },
+  "a953": {
+    "name": "Georg Herold",
+    "dates": "b. 1947",
+    "gallery": "Sadie Coles HQ",
+    "candidates": [
+      {
+        "source": "Sadie Coles HQ",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://sadie-coles.transforms.svdcdn.com/production/images/Artists/Georg-Herold/Artworks/Georg_Herold__Kunstmuseum_Bonn__21Sept_2017_-_07_Jan_2018_10.jpeg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1761305385&s=6a7d87f873aaba25e05280c8e5cc567c",
+        "credit": "Courtesy Sadie Coles HQ",
+        "url": null
+      },
+      {
+        "source": "Sadie Coles HQ",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://sadie-coles.transforms.svdcdn.com/production/images/Artists/Georg-Herold/Exhibitions/2017-Kunstmuseum-Bonn/Georg_Herold__Kunstmuseum_Bonn__21Sept_2017_-_07_Jan_2018_6-Copy.jpeg?w=425&h=607&auto=compress%2Cformat&fit=crop&crop=focalpoint&fp-x=0.7377&fp-y=0.4959&dm=1761318813&s=c226f104432845f5ad4c2701593a5027",
+        "credit": "Courtesy Sadie Coles HQ",
+        "url": null
+      },
+      {
+        "source": "Sadie Coles HQ",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://sadie-coles.transforms.svdcdn.com/production/images/Artists/Georg-Herold/Artworks/Georg_Herold__Kunstmuseum_Bonn__21Sept_2017_-_07_Jan_2018_12.jpeg?w=425&auto=compress%2Cformat&fit=crop&dm=1761305386&s=42dbc190222889c5d164133ad3a62dc7",
+        "credit": "Courtesy Sadie Coles HQ",
+        "url": null
+      },
+      {
+        "source": "Sadie Coles HQ",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://sadie-coles.transforms.svdcdn.com/production/images/Artists/Georg-Herold/Artworks/GH_works_available_show-Bonn-2.jpg?w=425&auto=compress%2Cformat&fit=crop&dm=1761305386&s=46bce0e196dba46ad846a50b259c4011",
+        "credit": "Courtesy Sadie Coles HQ",
+        "url": null
+      },
+      {
+        "source": "Sadie Coles HQ",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://sadie-coles.transforms.svdcdn.com/production/images/Artists/Georg-Herold/Artworks/Untitled_Georg-Herold_3rd-Summer-Exhibition_Kunst-in-Weidingen_02-29-August-2015_002.jpg?w=425&auto=compress%2Cformat&fit=crop&dm=1761314815&s=766c25db795e74c2772325a69871353b",
+        "credit": "Courtesy Sadie Coles HQ",
+        "url": null
+      }
+    ]
+  },
+  "a951": {
+    "name": "Georgia Gardner Gray",
+    "dates": "b. 1988",
+    "gallery": "Sadie Coles HQ",
+    "candidates": [
+      {
+        "source": "Sadie Coles HQ",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://sadie-coles.transforms.svdcdn.com/production/images/Artists/Georgia-Gardner-Gray/Exhibitions/2024-Davies-Street/Artworks/HQ27-GG20536P_TBD__2024_6.jpeg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1756912896&s=5eb47f4968944f872127528909aaad9c",
+        "credit": "Courtesy Sadie Coles HQ",
+        "url": null
+      },
+      {
+        "source": "Sadie Coles HQ",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://sadie-coles.transforms.svdcdn.com/production/images/Artists/Georgia-Gardner-Gray/Exhibitions/2024-Davies-Street/Artworks/HQ27-GG20536P_TBD__2024_5.jpeg?w=425&h=607&auto=compress%2Cformat&fit=crop&dm=1756912893&s=f9c141f2695ba7a9c641aaeab432eb6a",
+        "credit": "Courtesy Sadie Coles HQ",
+        "url": null
+      },
+      {
+        "source": "Sadie Coles HQ",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://sadie-coles.transforms.svdcdn.com/production/images/Artists/Georgia-Gardner-Gray/Exhibitions/2024-Davies-Street/Artworks/HQ27-GG20538P_Que_viene_el_Coco__Here_Comes_the_Bogeyman___2024_2.jpeg?w=425&h=607&auto=compress%2Cformat&fit=crop&dm=1756912912&s=198c527410c35e118887f2a36ec3efb8",
+        "credit": "Courtesy Sadie Coles HQ",
+        "url": null
+      },
+      {
+        "source": "Sadie Coles HQ",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://sadie-coles.transforms.svdcdn.com/production/images/Artists/Georgia-Gardner-Gray/Exhibitions/2024-Davies-Street/Artworks/HQ27-GG20541P_Interior_Feminine__2024_3.jpeg?w=425&h=607&auto=compress%2Cformat&fit=crop&dm=1756912944&s=881bb38a74149a0ed1c66146416f7d95",
+        "credit": "Courtesy Sadie Coles HQ",
+        "url": null
+      },
+      {
+        "source": "Sadie Coles HQ",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://sadie-coles.transforms.svdcdn.com/production/images/Artists/Georgia-Gardner-Gray/Exhibitions/2024-Davies-Street/Artworks/HQ27-GG20536P_TBD__2024_3.jpeg?w=425&auto=compress%2Cformat&fit=crop&dm=1756912885&s=5ebc39ef428e5b7c1140f24ce1960558",
+        "credit": "Courtesy Sadie Coles HQ",
+        "url": null
+      }
+    ]
   }
 }
