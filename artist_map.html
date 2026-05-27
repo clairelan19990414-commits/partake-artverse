@@ -4529,8 +4529,14 @@ function _renderResult() {
   `;
   document.getElementById('quiz-restart').addEventListener('click', _restart);
   document.getElementById('quiz-restart-top').addEventListener('click', _restart);
-  // Scroll the result back into view so the user lands on score + restart button
-  document.getElementById('quiz-frame').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  // Scroll back to the top of the quiz section so the score + restart are visible.
+  // Drop focus from the last clicked button so the browser doesn't restore its scroll position.
+  if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
+  requestAnimationFrame(() => {
+    const target = document.querySelector('.quiz-section') || document.getElementById('quiz-frame');
+    const y = target.getBoundingClientRect().top + window.pageYOffset - 20;
+    window.scrollTo({ top: y, behavior: 'smooth' });
+  });
 }
 
 function _grade(score, total) {
