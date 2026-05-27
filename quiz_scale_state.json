@@ -1,7 +1,7 @@
 {
   "target_total": 857,
   "phase": 2,
-  "cycle_count": 14,
+  "cycle_count": 15,
   "completed": [
     "a146",
     "a176",
@@ -708,7 +708,57 @@
     "a647",
     "a530",
     "a625",
-    "a156"
+    "a156",
+    "a93",
+    "a63",
+    "a42",
+    "a761",
+    "a755",
+    "a222",
+    "a294",
+    "a826",
+    "a152",
+    "a390",
+    "a11",
+    "a286",
+    "a630",
+    "a154",
+    "a325",
+    "a134",
+    "a556",
+    "a68",
+    "a224",
+    "a445",
+    "a386",
+    "a632",
+    "a316",
+    "a340",
+    "a653",
+    "a66",
+    "a448",
+    "a909",
+    "a529",
+    "a247",
+    "a262",
+    "a263",
+    "a289",
+    "a555",
+    "a301",
+    "a200",
+    "a493",
+    "a582",
+    "a347",
+    "a508",
+    "a293",
+    "a614",
+    "a28",
+    "a98",
+    "a710",
+    "a220",
+    "a606",
+    "a155",
+    "a44",
+    "a147"
   ],
   "red_chip_ids": [
     "a1",
@@ -852,406 +902,6 @@
     "a985"
   ],
   "queue": [
-    {
-      "id": "a93",
-      "name": "Phyllida Barlow",
-      "dates": "1944–2023",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a63",
-      "name": "Piero Golia",
-      "dates": "b. 1974",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a42",
-      "name": "Pierre Bonnard",
-      "dates": "1867–1947",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a761",
-      "name": "Pierre Soulages",
-      "dates": "1919–2022",
-      "gallery": "g10",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a755",
-      "name": "Pieter Vermeersch",
-      "dates": "b. 1973",
-      "gallery": "g10",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a222",
-      "name": "Portia Zvavahera",
-      "dates": "b. 1985",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a294",
-      "name": "Prabhavathi Meppayil",
-      "dates": "b. 1965",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a826",
-      "name": "Qiu Zhijie",
-      "dates": "b. 1969",
-      "gallery": "g11",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a152",
-      "name": "R. Crumb",
-      "dates": "b. 1943",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a390",
-      "name": "Rachel Kneebone",
-      "dates": "b. 1973",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a11",
-      "name": "Rachel Whiteread",
-      "dates": "b. 1963",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a286",
-      "name": "Rafael Lozano-Hemmer",
-      "dates": "b. 1967",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a630",
-      "name": "Ran Li",
-      "dates": "b. 1990",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a154",
-      "name": "Raoul De Keyser",
-      "dates": "1930–2012",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a325",
-      "name": "Raqib Shaw",
-      "dates": "b. 1974",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a134",
-      "name": "Rasheed Araeen",
-      "dates": "b. 1935",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a556",
-      "name": "Reinhard Mucha",
-      "dates": "b. 1950",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a68",
-      "name": "Richard Artschwager",
-      "dates": "1923–2013",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a224",
-      "name": "Richard Avedon",
-      "dates": "1923–2004",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a445",
-      "name": "Richard Deacon",
-      "dates": "b. 1949",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a386",
-      "name": "Richard Hunt",
-      "dates": "1935–2023",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a632",
-      "name": "Richard Long",
-      "dates": "b. 1945",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a316",
-      "name": "Richard Pousette-Dart",
-      "dates": "1916–1992",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a340",
-      "name": "Richard Tuttle",
-      "dates": "b. 1941",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a653",
-      "name": "Richard Wentworth",
-      "dates": "b. 1947",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a66",
-      "name": "Rick Lowe",
-      "dates": "b. 1961",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a448",
-      "name": "Rineke Dijkstra",
-      "dates": "b. 1959",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a909",
-      "name": "Rob Pruitt",
-      "dates": "b. 1964",
-      "gallery": "g12",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a529",
-      "name": "Robert Elfgen",
-      "dates": "b. 1972",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a247",
-      "name": "Robert Frank",
-      "dates": "1924–2019",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a262",
-      "name": "Robert Indiana",
-      "dates": "1928–2018",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a263",
-      "name": "Robert Irwin",
-      "dates": "1928–2023",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a289",
-      "name": "Robert Mangold",
-      "dates": "b. 1937",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a555",
-      "name": "Robert Morris",
-      "dates": "1931–2018",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a301",
-      "name": "Robert Nava",
-      "dates": "b. 1985",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a200",
-      "name": "Robert Ryman",
-      "dates": "1930–2019",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a493",
-      "name": "Robert Smithson",
-      "dates": "1938–1973",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a582",
-      "name": "Robert Therrien",
-      "dates": "1947–2019",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a347",
-      "name": "Robert Whitman",
-      "dates": "b. 1935",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a508",
-      "name": "Robert Wilson",
-      "dates": "b. 1941",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a293",
-      "name": "Roberto Matta",
-      "dates": "1911–2002",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a614",
-      "name": "Rodney Graham",
-      "dates": "1949–2022",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a28",
-      "name": "Roe Ethridge",
-      "dates": "b. 1969",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a98",
-      "name": "Ron Mueck",
-      "dates": "b. 1958",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a710",
-      "name": "Rona Pondick",
-      "dates": "b. 1952",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a220",
-      "name": "Rose Wylie",
-      "dates": "b. 1934",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a606",
-      "name": "Roy Colmer",
-      "dates": "1935–2014",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a155",
-      "name": "Roy DeCarava",
-      "dates": "1919–2009",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a44",
-      "name": "Roy Lichtenstein",
-      "dates": "1923–1997",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a147",
-      "name": "Ruth Asawa",
-      "dates": "1926–2013",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
     {
       "id": "a613",
       "name": "Ryan Gander",

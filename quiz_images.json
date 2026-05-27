@@ -23314,5 +23314,1827 @@
         "url": "https://www.artic.edu/artworks/204308"
       }
     ]
+  },
+  "a909": {
+    "name": "Rob Pruitt",
+    "dates": "b. 1964",
+    "gallery": "Massimo De Carlo",
+    "candidates": []
+  },
+  "a247": {
+    "name": "Robert Frank",
+    "dates": "1924–2019",
+    "gallery": "Pace Gallery",
+    "candidates": [
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/119721_FRANK_v01.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/Frank_portrait.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/118823_FRANK_v01.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/118995.01_FRANK_v01.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/119195.04_FRANK_v01.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Fourth of July, Jay, New York",
+        "year": "1954",
+        "image": "https://www.artic.edu/iiif/2/b6df9e9b-d58e-0ad9-a57e-07d76cec0ccf/full/1200,/0/default.jpg",
+        "credit": "Photography Gallery Fund",
+        "url": "https://www.artic.edu/artworks/87163"
+      }
+    ]
+  },
+  "a93": {
+    "name": "Phyllida Barlow",
+    "dates": "1944–2023",
+    "gallery": "Hauser & Wirth",
+    "candidates": []
+  },
+  "a529": {
+    "name": "Robert Elfgen",
+    "dates": "b. 1972",
+    "gallery": "Sprüth Magers",
+    "candidates": [
+      {
+        "source": "Sprüth Magers",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://spruethmagers.com/files/rel-27910-marina-gm-e1586867091689.jpg",
+        "credit": "Courtesy Sprüth Magers",
+        "url": null
+      },
+      {
+        "source": "Sprüth Magers",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://spruethmagers.com/files/dsc3327.jpeg",
+        "credit": "Courtesy Sprüth Magers",
+        "url": null
+      },
+      {
+        "source": "Sprüth Magers",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://res.cloudinary.com/smimagebank/image/upload/w_2560,c_limit,f_auto,fl_progressive/v1769702743/sprueth_magers_Robert_Elfgen_Antriebswelle_2008_14655.jpg",
+        "credit": "Courtesy Sprüth Magers",
+        "url": null
+      },
+      {
+        "source": "Sprüth Magers",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://res.cloudinary.com/smimagebank/image/upload/w_1024,c_limit,f_auto,fl_progressive/v1769701826/sprueth_magers_Robert_Elfgen_Vespucci_2021_14604.jpg",
+        "credit": "Courtesy Sprüth Magers",
+        "url": null
+      },
+      {
+        "source": "Sprüth Magers",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://res.cloudinary.com/smimagebank/image/upload/w_1024,c_limit,f_auto,fl_progressive/v1769701828/sprueth_magers_Robert_Elfgen_Vespucci_2021_14605.jpg",
+        "credit": "Courtesy Sprüth Magers",
+        "url": null
+      }
+    ]
+  },
+  "a63": {
+    "name": "Piero Golia",
+    "dates": "b. 1974",
+    "gallery": "Gagosian",
+    "candidates": []
+  },
+  "a755": {
+    "name": "Pieter Vermeersch",
+    "dates": "b. 1973",
+    "gallery": "Galerie Perrotin",
+    "candidates": [
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Untitled, from Re-print",
+        "year": "2009",
+        "image": "https://www.artic.edu/iiif/2/b7431c9c-3f7e-ae89-cf59-692c12b50d2f/full/1200,/0/default.jpg",
+        "credit": "Gift of Frans Masereel Centrum and Kunsten en Erfgoed",
+        "url": "https://www.artic.edu/artworks/203820"
+      }
+    ]
+  },
+  "a28": {
+    "name": "Roe Ethridge",
+    "dates": "b. 1969",
+    "gallery": "Gagosian",
+    "candidates": [
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Canada (Watermelon)",
+        "year": "2004",
+        "image": "https://www.artic.edu/iiif/2/412452d7-b743-4900-e517-843b3c1a7b0f/full/1200,/0/default.jpg",
+        "credit": "Gift of Susan and Alex Casdin",
+        "url": "https://www.artic.edu/artworks/190213"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Rick",
+        "year": "2005",
+        "image": "https://www.artic.edu/iiif/2/a817e6b9-2b9b-6105-7c2b-78d7bcde351d/full/1200,/0/default.jpg",
+        "credit": "Purchased with funds provided by Sara Szold, Deborah Lovely, Cleve Carney, Ruth Horwich, Robert and Nancy Mollers, and Steven Zick",
+        "url": "https://www.artic.edu/artworks/190212"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Untitled (Old Pine)",
+        "year": "2005",
+        "image": "https://www.artic.edu/iiif/2/46b322bc-a4d2-8045-96bd-cf3d2848f4a1/full/1200,/0/default.jpg",
+        "credit": "Purchased with funds provided by Sara Szold, Deborah Lovely, Cleve Carney, Ruth Horwich, Robert and Nancy Mollers, and Steven Zick",
+        "url": "https://www.artic.edu/artworks/190216"
+      }
+    ]
+  },
+  "a386": {
+    "name": "Richard Hunt",
+    "dates": "1935–2023",
+    "gallery": "White Cube",
+    "candidates": [
+      {
+        "source": "White Cube",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://white-cube.transforms.svdcdn.com/production/uploads/Headers/Artist-Pages/Richard-Hunt-Years-of-Pilgrimage-1999-high-res.jpg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1748942067&s=acc8904da5921151bfc55a74ba9fbe55",
+        "credit": "Courtesy White Cube",
+        "url": null
+      },
+      {
+        "source": "White Cube",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://white-cube.transforms.svdcdn.com/production/imported-artworks/Richard-Hunt/Hanging-Form/a216998.jpg?w=720&q=80&auto=format&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1779366858&s=30e6eb7f6ad973b32760619d2538bd8c",
+        "credit": "Courtesy White Cube",
+        "url": null
+      },
+      {
+        "source": "White Cube",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://white-cube.transforms.svdcdn.com/production/imported-artworks/Richard-Hunt/Linear-Peregrination/a216458.jpg?w=720&q=80&auto=format&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1779366897&s=f6fdc1491854ed2dca3b0e9f80eb7c5b",
+        "credit": "Courtesy White Cube",
+        "url": null
+      },
+      {
+        "source": "White Cube",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://white-cube.transforms.svdcdn.com/production/imported-artworks/Richard-Hunt/Coil/a217299.jpg?w=720&q=80&auto=format&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1779366850&s=ba3b8f20ee06b472a7876e1693007814",
+        "credit": "Courtesy White Cube",
+        "url": null
+      },
+      {
+        "source": "White Cube",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://white-cube.transforms.svdcdn.com/production/imported-artworks/Richard-Hunt/Opposed-Forms/a216447.jpg?w=720&q=80&auto=format&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1709726501&s=b4058a2dec451811a10b4d86813c8eac",
+        "credit": "Courtesy White Cube",
+        "url": null
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Hero Construction",
+        "year": "1958",
+        "image": "https://www.artic.edu/iiif/2/89bccf95-b886-c169-8ee1-7fd4a9a8df8b/full/1200,/0/default.jpg",
+        "credit": "Gift of Mr. and Mrs. Arnold H. Maremont",
+        "url": "https://www.artic.edu/artworks/8633"
+      }
+    ]
+  },
+  "a632": {
+    "name": "Richard Long",
+    "dates": "b. 1945",
+    "gallery": "Lisson Gallery",
+    "candidates": [
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/16082/LONG200006_INSTA-Cuadra_San_Cristobal_001.jpg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/16081/LONG200006_INSTA-Cuadra_San_Cristobal_004.jpg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/16084/LONG200006_INSTA-Cuadra_San_Cristobal_005.jpg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/16083/LONG200006_INSTA-Cuadra_San_Cristobal_001.jpg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/9281/LONG160005_2.jpg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "2 Ways",
+        "year": "1969",
+        "image": "https://www.artic.edu/iiif/2/6ea1a28b-b96c-9318-ce95-20e847b2e03d/full/1200,/0/default.jpg",
+        "credit": "Adelaide C. Brown Fund Income",
+        "url": "https://www.artic.edu/artworks/36288"
+      }
+    ]
+  },
+  "a555": {
+    "name": "Robert Morris",
+    "dates": "1931–2018",
+    "gallery": "Sprüth Magers",
+    "candidates": [
+      {
+        "source": "Sprüth Magers",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://spruethmagers.com/files/rmo-felt-pieces-pm-cologne-1994-01.jpg",
+        "credit": "Courtesy Sprüth Magers",
+        "url": null
+      },
+      {
+        "source": "Sprüth Magers",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://spruethmagers.com/files/bob-21-3-e1568907949564-scaled-1920x941.jpg",
+        "credit": "Courtesy Sprüth Magers",
+        "url": null
+      },
+      {
+        "source": "Sprüth Magers",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://spruethmagers.com/files/bildschirmfoto-2021-04-08-um-11-47-01-2.png",
+        "credit": "Courtesy Sprüth Magers",
+        "url": null
+      },
+      {
+        "source": "Sprüth Magers",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://res.cloudinary.com/smimagebank/image/upload/w_2560,c_limit,f_auto,fl_progressive/v1586964383/sprueth_magers_Robert_Morris_Installation_view_Sprueth_10977.jpg",
+        "credit": "Courtesy Sprüth Magers",
+        "url": null
+      },
+      {
+        "source": "Sprüth Magers",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://res.cloudinary.com/smimagebank/image/upload/w_1024,c_limit,f_auto,fl_progressive/v1586281341/sprueth_magers_Robert_Morris_Early_Felts_10134.jpg",
+        "credit": "Courtesy Sprüth Magers",
+        "url": null
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Untitled",
+        "year": "1976",
+        "image": "https://www.artic.edu/iiif/2/a2a81c76-8ba2-62b8-b22b-7e58d855cc82/full/1200,/0/default.jpg",
+        "credit": "Gift of Lannan Foundation",
+        "url": "https://www.artic.edu/artworks/146914"
+      }
+    ]
+  },
+  "a220": {
+    "name": "Rose Wylie",
+    "dates": "b. 1934",
+    "gallery": "David Zwirner",
+    "candidates": []
+  },
+  "a44": {
+    "name": "Roy Lichtenstein",
+    "dates": "1923–1997",
+    "gallery": "Gagosian",
+    "candidates": [
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Alka Seltzer",
+        "year": "1966",
+        "image": "https://www.artic.edu/iiif/2/3968921f-222e-37ae-5c53-fafd26a45c7b/full/1200,/0/default.jpg",
+        "credit": "Margaret Fisher Endowment",
+        "url": "https://www.artic.edu/artworks/122054"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Brushstroke with Spatter",
+        "year": "1966",
+        "image": "https://www.artic.edu/iiif/2/f8dbda50-a10b-d0ff-a35c-24c2f9e733f1/full/1200,/0/default.jpg",
+        "credit": "Barbara Neff Smith and Solomon Byron Smith Purchase Fund",
+        "url": "https://www.artic.edu/artworks/24836"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Artist's Studio \"Foot Medication\"",
+        "year": "1974",
+        "image": "https://www.artic.edu/iiif/2/249173c2-0013-4624-211c-3e8fcf335048/full/1200,/0/default.jpg",
+        "credit": "Gift of Edlis Neeson Collection",
+        "url": "https://www.artic.edu/artworks/229363"
+      }
+    ]
+  },
+  "a66": {
+    "name": "Rick Lowe",
+    "dates": "b. 1961",
+    "gallery": "Gagosian",
+    "candidates": []
+  },
+  "a200": {
+    "name": "Robert Ryman",
+    "dates": "1930–2019",
+    "gallery": "David Zwirner",
+    "candidates": [
+      {
+        "source": "Art Institute of Chicago",
+        "title": "The Elliott Room (Charter Series)",
+        "year": "1985/87",
+        "image": "https://www.artic.edu/iiif/2/f3eb62c3-eeb9-ecc5-6ee6-cbe8730055b5/full/1200,/0/default.jpg",
+        "credit": "Gerald S. Elliott Collection",
+        "url": "https://www.artic.edu/artworks/193355"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Drawing with Numbers",
+        "year": "c. 1963",
+        "image": "https://www.artic.edu/iiif/2/ece31da6-7006-971d-81e2-78a48ce97e8c/full/1200,/0/default.jpg",
+        "credit": "Margaret Fisher Endowment",
+        "url": "https://www.artic.edu/artworks/184354"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "The Elliott Room: Charter",
+        "year": "1985 [series 1985/87]",
+        "image": "https://www.artic.edu/iiif/2/607c4ee1-b994-78fd-d48f-d662a6ef42f7/full/1200,/0/default.jpg",
+        "credit": "Gerald S. Elliott Collection",
+        "url": "https://www.artic.edu/artworks/117473"
+      }
+    ]
+  },
+  "a614": {
+    "name": "Rodney Graham",
+    "dates": "1949–2022",
+    "gallery": "Lisson Gallery",
+    "candidates": [
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/16703/GRAR200001_002.jpeg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/16720/GRAR200001_003.jpeg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/16721/GRAR200001_004.jpeg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/16709/GRAR200005_001.jpeg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/16718/GRAR200005_004.jpeg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Torqued Chandelier Release",
+        "year": "2005",
+        "image": "https://www.artic.edu/iiif/2/8a8d3e0b-62b9-e845-488e-9e66e0574f01/full/1200,/0/default.jpg",
+        "credit": "Frederick W. Renshaw Acquisition Fund",
+        "url": "https://www.artic.edu/artworks/185060"
+      }
+    ]
+  },
+  "a224": {
+    "name": "Richard Avedon",
+    "dates": "1923–2004",
+    "gallery": "Pace Gallery",
+    "candidates": [
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/118237.12.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/Avedon.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/118272.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/118371.05.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/James_Kimberlin_drifter_State_Road_18_Hobbs_Ne.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Ronald Fisher, Beekeeper, Davis, California",
+        "year": "May 9, 1981, printed 1985",
+        "image": "https://www.artic.edu/iiif/2/41f9a984-5c5b-bc7d-09d7-9b6fe0f348c9/full/1200,/0/default.jpg",
+        "credit": "Gift of Boardroom, Inc.",
+        "url": "https://www.artic.edu/artworks/120869"
+      }
+    ]
+  },
+  "a316": {
+    "name": "Richard Pousette-Dart",
+    "dates": "1916–1992",
+    "gallery": "Pace Gallery",
+    "candidates": [
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/Icarus_70558.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/Pousette-Dart.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/76382_POUSETTE-DART_v01.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/Presence_Genesis.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/995509key0MlOMftAO6k5dlPcTDoTtw.width-360.webp",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Betty Parsons",
+        "year": "c. 1945",
+        "image": "https://www.artic.edu/iiif/2/87f4cc1b-708e-e3b8-b248-13b3550dc3e2/full/1200,/0/default.jpg",
+        "credit": "Elizabeth F. Cheney Foundation Fund",
+        "url": "https://www.artic.edu/artworks/144608"
+      }
+    ]
+  },
+  "a286": {
+    "name": "Rafael Lozano-Hemmer",
+    "dates": "b. 1967",
+    "gallery": "Pace Gallery",
+    "candidates": [
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/border_tuner_el_paso_ciudad_juarez_2019_ml_1ML.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/border_tuner_el_paso_ciudad_juarez_2019_ml_1M.width-1100.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/rlh_portrait.width-2000.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/atmosphonia_manchester_2019_my_5436.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/solar_equation_led_quebec_2018_il_005.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      }
+    ]
+  },
+  "a42": {
+    "name": "Pierre Bonnard",
+    "dates": "1867–1947",
+    "gallery": "Gagosian",
+    "candidates": [
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Earthly Paradise",
+        "year": "1916–20",
+        "image": "https://www.artic.edu/iiif/2/8b4abeed-c22b-1477-1e76-b303ac1415d1/full/1200,/0/default.jpg",
+        "credit": "Estate of Joanne Toor Cummings; Bette and Neison Harris and Searle Family Trust endowments; through prior gifts of Mrs. Henry C. Woods",
+        "url": "https://www.artic.edu/artworks/144361"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Parallèlement (In Parallel)",
+        "year": "1900",
+        "image": "https://www.artic.edu/iiif/2/e069b748-e858-f978-54f6-dbd829c0a0ef/full/1200,/0/default.jpg",
+        "credit": "John H. Wrenn Memorial Collection",
+        "url": "https://www.artic.edu/artworks/6065"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "The Seine at Vernonnet",
+        "year": "c. 1930",
+        "image": "https://www.artic.edu/iiif/2/6f84b595-943b-b698-6c4d-79a27e4f7ee7/full/1200,/0/default.jpg",
+        "credit": "Clyde M. Carr Fund",
+        "url": "https://www.artic.edu/artworks/111381"
+      }
+    ]
+  },
+  "a340": {
+    "name": "Richard Tuttle",
+    "dates": "b. 1941",
+    "gallery": "Pace Gallery",
+    "candidates": [
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/49079.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/TUTTLE_Portrait_2019_01-HighResolution300dpi_1.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/TUTTLE_Portrait_2019_01-HighResolution300dpi_.width-1100.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/66260.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/69052.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Tenth Cloth Octagonal",
+        "year": "1967",
+        "image": "https://www.artic.edu/iiif/2/f3f8eca8-c86b-7d5b-7e02-b277f63184a7/full/1200,/0/default.jpg",
+        "credit": "Wilson L. Mead Fund",
+        "url": "https://www.artic.edu/artworks/136950"
+      }
+    ]
+  },
+  "a222": {
+    "name": "Portia Zvavahera",
+    "dates": "b. 1985",
+    "gallery": "David Zwirner",
+    "candidates": []
+  },
+  "a152": {
+    "name": "R. Crumb",
+    "dates": "b. 1943",
+    "gallery": "David Zwirner",
+    "candidates": [
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Nukuler Holocaust Kicks",
+        "year": "1978",
+        "image": "https://www.artic.edu/iiif/2/ec46a3a4-e2d0-efca-bfbe-b542270e55ce/full/1200,/0/default.jpg",
+        "credit": "Purchased with funds provided by the Mr. and Mrs. Alan Press Fund",
+        "url": "https://www.artic.edu/artworks/140627"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "The Weirdo Make-Over",
+        "year": "1983",
+        "image": "https://www.artic.edu/iiif/2/13addc32-cc3e-8be3-0f91-bbd0ab26fe3f/full/1200,/0/default.jpg",
+        "credit": "Mr. and Mrs. Alan Press Fund",
+        "url": "https://www.artic.edu/artworks/140691"
+      }
+    ]
+  },
+  "a761": {
+    "name": "Pierre Soulages",
+    "dates": "1919–2022",
+    "gallery": "Galerie Perrotin",
+    "candidates": [
+      {
+        "source": "Art Institute of Chicago",
+        "title": "29 June 1965",
+        "year": "1965",
+        "image": "https://www.artic.edu/iiif/2/40e495e3-73b8-17c3-2c27-9d2e866d7ad1/full/1200,/0/default.jpg",
+        "credit": "Bequest of Solomon B. Smith",
+        "url": "https://www.artic.edu/artworks/65842"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "17 March 1960",
+        "year": "1960",
+        "image": "https://www.artic.edu/iiif/2/c46618a1-bbe9-1194-cf8f-ce596b822713/full/1200,/0/default.jpg",
+        "credit": "Gift of Mary and Leigh Block",
+        "url": "https://www.artic.edu/artworks/24658"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Painting 190 x 222 cm, 5 February, 2012 (Peinture 190 x 222 cm, 5 février 2012)",
+        "year": "2012",
+        "image": "https://www.artic.edu/iiif/2/87f52901-795b-19dd-8215-c5d94ce61d90/full/1200,/0/default.jpg",
+        "credit": "Gift of Pierre Soulages",
+        "url": "https://www.artic.edu/artworks/241158"
+      }
+    ]
+  },
+  "a11": {
+    "name": "Rachel Whiteread",
+    "dates": "b. 1963",
+    "gallery": "Gagosian",
+    "candidates": [
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Untitled (Chimney)",
+        "year": "1994",
+        "image": "https://www.artic.edu/iiif/2/26976856-3d57-911c-f1ea-c2e9ac798187/full/1200,/0/default.jpg",
+        "credit": "Gift of the Irving Stenn, Jr. Family",
+        "url": "https://www.artic.edu/artworks/264790"
+      }
+    ]
+  },
+  "a630": {
+    "name": "Ran Li",
+    "dates": "b. 1990",
+    "gallery": "Lisson Gallery",
+    "candidates": [
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/64427/RANL250021_001web.jpeg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/56839/RANL240014_001.jpg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/45484/RANL240005_001.jpeg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/56837/RANL250004_002.jpeg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/35355/RANL240003_001.jpeg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      }
+    ]
+  },
+  "a448": {
+    "name": "Rineke Dijkstra",
+    "dates": "b. 1959",
+    "gallery": "Marian Goodman",
+    "candidates": [
+      {
+        "source": "Marian Goodman",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://static-assets.artlogic.net/w_720,h_520,c_limit,f_auto,fl_lossy,q_auto,q_auto:good/ws-mariangoodman/usr/images/pages/slideshow_data/1/28356huyghephotocreditalexyudzon_approved-press_1st-floor-installation-41.jpg",
+        "credit": "Courtesy Marian Goodman",
+        "url": null
+      },
+      {
+        "source": "Marian Goodman",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://static-assets.artlogic.net/w_2400,h_1800,c_limit,f_auto,fl_lossy,q_auto/ws-mariangoodman/usr/artists/images/40/12750-image.jpg",
+        "credit": "Courtesy Marian Goodman",
+        "url": null
+      },
+      {
+        "source": "Marian Goodman",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://static-assets.artlogic.net/w_2400,h_1800,c_limit,f_auto,fl_lossy,q_auto/ws-mariangoodman/usr/artists/images/40/dijkstra.jpg",
+        "credit": "Courtesy Marian Goodman",
+        "url": null
+      },
+      {
+        "source": "Marian Goodman",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://static-assets.artlogic.net/w_2400,h_1800,c_limit,f_auto,fl_lossy,q_auto/ws-mariangoodman/usr/artists/images/40/dijkstra4.jpg",
+        "credit": "Courtesy Marian Goodman",
+        "url": null
+      },
+      {
+        "source": "Marian Goodman",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://static-assets.artlogic.net/w_2400,h_1800,c_limit,f_auto,fl_lossy,q_auto/ws-mariangoodman/usr/artists/images/40/dijkstra2.jpg",
+        "credit": "Courtesy Marian Goodman",
+        "url": null
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "\"Dubrovnik, Croatia, July 16, 1996,\" from Beach Portraits",
+        "year": "1996",
+        "image": "https://www.artic.edu/iiif/2/f36baf13-7043-d6a1-e591-4556ce9bea14/full/1200,/0/default.jpg",
+        "credit": "Gift of LaSalle Bank",
+        "url": "https://www.artic.edu/artworks/180805"
+      }
+    ]
+  },
+  "a508": {
+    "name": "Robert Wilson",
+    "dates": "b. 1941",
+    "gallery": "Marian Goodman",
+    "candidates": [
+      {
+        "source": "Art Institute of Chicago",
+        "title": "The Dunes, Indiana",
+        "year": "1963",
+        "image": "https://www.artic.edu/iiif/2/50a5e5a7-28f0-c29c-50d4-7527a036f31b/full/1200,/0/default.jpg",
+        "credit": "Gift of Robert Earl Wilson",
+        "url": "https://www.artic.edu/artworks/18590"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Parzival, a Chair with a Shadow",
+        "year": "designed 1987, made 1990",
+        "image": "https://www.artic.edu/iiif/2/5be35d06-66f0-18e7-6757-afffe5b64bf8/full/1200,/0/default.jpg",
+        "credit": "Raymond W. Garbe Fund in honor of Carl A. Erikson",
+        "url": "https://www.artic.edu/artworks/120528"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Einstein on the Beach, Trial Scene Act 1, Scene 2",
+        "year": "1976",
+        "image": "https://www.artic.edu/iiif/2/0e59aff7-155f-0a39-592e-be1f2781bc5d/full/1200,/0/default.jpg",
+        "credit": "Gift of the estates of Walter Netsch and Dawn Clark Netsch",
+        "url": "https://www.artic.edu/artworks/226306"
+      }
+    ]
+  },
+  "a445": {
+    "name": "Richard Deacon",
+    "dates": "b. 1949",
+    "gallery": "Marian Goodman",
+    "candidates": [
+      {
+        "source": "Marian Goodman",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://static-assets.artlogic.net/w_720,h_520,c_limit,f_auto,fl_lossy,q_auto,q_auto:good/ws-mariangoodman/usr/images/pages/slideshow_data/1/28356huyghephotocreditalexyudzon_approved-press_1st-floor-installation-41.jpg",
+        "credit": "Courtesy Marian Goodman",
+        "url": null
+      },
+      {
+        "source": "Marian Goodman",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://static-assets.artlogic.net/w_2400,h_1800,c_limit,f_auto,fl_lossy,q_auto/ws-mariangoodman/usr/artists/images/38/deacon3.jpg",
+        "credit": "Courtesy Marian Goodman",
+        "url": null
+      },
+      {
+        "source": "Marian Goodman",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://static-assets.artlogic.net/w_2400,h_1800,c_limit,f_auto,fl_lossy,q_auto/ws-mariangoodman/usr/artists/images/38/deacon2.jpg",
+        "credit": "Courtesy Marian Goodman",
+        "url": null
+      },
+      {
+        "source": "Marian Goodman",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://static-assets.artlogic.net/w_2400,h_1800,c_limit,f_auto,fl_lossy,q_auto/ws-mariangoodman/usr/artists/images/38/18174deacon1.jpg",
+        "credit": "Courtesy Marian Goodman",
+        "url": null
+      },
+      {
+        "source": "Marian Goodman",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://static-assets.artlogic.net/w_2400,h_1800,c_limit,f_auto,fl_lossy,q_auto/ws-mariangoodman/usr/artists/images/38/deacon4.jpg",
+        "credit": "Courtesy Marian Goodman",
+        "url": null
+      }
+    ]
+  },
+  "a262": {
+    "name": "Robert Indiana",
+    "dates": "1928–2018",
+    "gallery": "Pace Gallery",
+    "candidates": [
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/1._The_Sweet_Mystery_1960-62_Oil_on_Canvas.width-360.webp",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/5._Robert_Indiana_1968.width-360.webp",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/2._Eat-Die_1962.width-360.webp",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/3._The_Melville_Triptych_1962.width-360.webp",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/4._Love_is_God_1964.width-360.webp",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "South Bend",
+        "year": "1978",
+        "image": "https://www.artic.edu/iiif/2/d5c5309b-db36-c7e5-e72a-7f46dee5996c/full/1200,/0/default.jpg",
+        "credit": "Gift of the Art Center, Inc., South Bend, Indiana",
+        "url": "https://www.artic.edu/artworks/53388"
+      }
+    ]
+  },
+  "a147": {
+    "name": "Ruth Asawa",
+    "dates": "1926–2013",
+    "gallery": "David Zwirner",
+    "candidates": [
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Desert Flower",
+        "year": "1965",
+        "image": "https://www.artic.edu/iiif/2/d8d77bf6-9af5-978f-f8b6-c97b5bce45bb/full/1200,/0/default.jpg",
+        "credit": "Gift of the Irving Stenn, Jr. Family",
+        "url": "https://www.artic.edu/artworks/258736"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Plane Tree Reversal",
+        "year": "1965",
+        "image": "https://www.artic.edu/iiif/2/4e661c9a-5391-028a-4739-e057a074debb/full/1200,/0/default.jpg",
+        "credit": "Margaret Fisher Endowment Fund",
+        "url": "https://www.artic.edu/artworks/258737"
+      }
+    ]
+  },
+  "a154": {
+    "name": "Raoul De Keyser",
+    "dates": "1930–2012",
+    "gallery": "David Zwirner",
+    "candidates": [
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Retour 3",
+        "year": "1999",
+        "image": "https://www.artic.edu/iiif/2/0ef77a81-e898-688f-20bd-913267204305/full/1200,/0/default.jpg",
+        "credit": "Gift of Donna and Howard Stone",
+        "url": "https://www.artic.edu/artworks/201940"
+      }
+    ]
+  },
+  "a289": {
+    "name": "Robert Mangold",
+    "dates": "b. 1937",
+    "gallery": "Pace Gallery",
+    "candidates": [
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/63572_oNJmCGY.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/Mangold.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/34680.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/73161.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/995588keyto8WmOWEJ-XeVkpMRQhYrQ.width-360.webp",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Green/2 Orange X Painting",
+        "year": "1983",
+        "image": "https://www.artic.edu/iiif/2/1dab428f-d63d-5fec-5b9c-ed43b5f7f4d6/full/1200,/0/default.jpg",
+        "credit": "Claire and Gordon Prussian Fund for Contemporary Art; Department of Contemporary Art Discretionary Fund; Frederick W. Renshaw Acquisition Fund; purchased with funds provided by Betty and Edward Harris, Barbara Bluhm-Kaul and Don Kaul, and Judith Neisser; Burt Kaplan Fund; purchased with funds provided by Dorie Sternberg; through prior bequest of Marguerita S. Ritman; Oscar L. Gerber Memorial Endowment; Anstiss and Ronald Krueck Fund for Contemporary Art; William H. Bartles and Emilie L. Wild prize funds",
+        "url": "https://www.artic.edu/artworks/204637"
+      }
+    ]
+  },
+  "a293": {
+    "name": "Roberto Matta",
+    "dates": "1911–2002",
+    "gallery": "Pace Gallery",
+    "candidates": [
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/53613.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/Matta.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/66636.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/68316.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/76166.width-360.webp",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "The Earth Is a Man",
+        "year": "1942",
+        "image": "https://www.artic.edu/iiif/2/da65d795-bcc7-90e6-769e-f431d67a8c2d/full/1200,/0/default.jpg",
+        "credit": "Gift of Mr. and Mrs. Joseph Randall Shapiro (after her death, dedicated to the memory of Jory Shapiro by her husband)",
+        "url": "https://www.artic.edu/artworks/117188"
+      }
+    ]
+  },
+  "a301": {
+    "name": "Robert Nava",
+    "dates": "b. 1985",
+    "gallery": "Pace Gallery",
+    "candidates": [
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/76437.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/Robert-Nava-Matteo_Mobilio-Pace_Gallery.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/885403keyx_S5NK8Yt4PKjRyLy56P-g.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/885391key321e70AsMh-TAIjfT-TxIA.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/885422keyMbELEoZOBNghL284amWOCw.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Learning to Use Fire",
+        "year": "2019",
+        "image": "https://www.artic.edu/iiif/2/524f0498-262e-ee64-d4ac-415209995f2c/full/1200,/0/default.jpg",
+        "credit": "Gift of the Simkins Family",
+        "url": "https://www.artic.edu/artworks/256670"
+      }
+    ]
+  },
+  "a155": {
+    "name": "Roy DeCarava",
+    "dates": "1919–2009",
+    "gallery": "David Zwirner",
+    "candidates": [
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Dancers, New York",
+        "year": "1956, printed 1982",
+        "image": "https://www.artic.edu/iiif/2/94192ff5-ba31-fdc9-609b-aaf9e17b6bef/full/1200,/0/default.jpg",
+        "credit": "Gift of Lucia Woods Lindley and Daniel A. Lindley, Jr.",
+        "url": "https://www.artic.edu/artworks/73903"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Sherry, Susan, Wendy, Laura",
+        "year": "1983",
+        "image": "https://www.artic.edu/iiif/2/4bf34110-990a-322d-1a81-435082c51f3a/full/1200,/0/default.jpg",
+        "credit": "Horace W. Goldsmith Foundation Fund",
+        "url": "https://www.artic.edu/artworks/145308"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Man Lying Down, Subway Steps",
+        "year": "1965",
+        "image": "https://www.artic.edu/iiif/2/0a196a59-4dfe-c295-dee2-ebfbe34fb67a/full/1200,/0/default.jpg",
+        "credit": "Gift of David C. and Sarajean Ruttenberg",
+        "url": "https://www.artic.edu/artworks/73909"
+      }
+    ]
+  },
+  "a390": {
+    "name": "Rachel Kneebone",
+    "dates": "b. 1973",
+    "gallery": "White Cube",
+    "candidates": [
+      {
+        "source": "White Cube",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://white-cube.transforms.svdcdn.com/production/uploads/Exhibitions/Online-Exhibitions/2021/Rachel-Kneebone/rachelkneeboneheader.webp?w=1200&h=630&q=82&auto=format&fit=crop&dm=1715611687&s=cb015d89b74cc14bc8fc79b2dc9421e5",
+        "credit": "Courtesy White Cube",
+        "url": null
+      },
+      {
+        "source": "White Cube",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://white-cube.transforms.svdcdn.com/production/imported-artworks/Rachel-Kneebone/Whirl/a139220.jpg?w=720&q=80&auto=format&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1687716297&s=de29d4f68b1ae2b9899a3700a9f4179f",
+        "credit": "Courtesy White Cube",
+        "url": null
+      },
+      {
+        "source": "White Cube",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://white-cube.transforms.svdcdn.com/production/uploads/Exhibitions/Gallery-Exhibitions/Masons-Yard/2023/Isamu-Noguchi/mary-wigman-by-charlotte-rudolf.webp?w=720&q=80&auto=format&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1715612172&s=2995bc48f9591cd6eeb99ca3e9fc18e0",
+        "credit": "Courtesy White Cube",
+        "url": null
+      },
+      {
+        "source": "White Cube",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://white-cube.transforms.svdcdn.com/production/uploads/Exhibitions/Gallery-Exhibitions/Masons-Yard/2023/Isamu-Noguchi/mary-wigman-troupe-by-charlotte-rudolf.webp?w=720&q=80&auto=format&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1715612172&s=e00e1a4053ad36f0a608d6d3344954cf",
+        "credit": "Courtesy White Cube",
+        "url": null
+      },
+      {
+        "source": "White Cube",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://white-cube.transforms.svdcdn.com/production/imported-artworks/Rachel-Kneebone/Documents-of-the-Instantaneous-II/a139238.jpg?w=720&q=80&auto=format&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1688009815&s=631b314afc6889bf6f45319c0e10584c",
+        "credit": "Courtesy White Cube",
+        "url": null
+      }
+    ]
+  },
+  "a263": {
+    "name": "Robert Irwin",
+    "dates": "1928–2023",
+    "gallery": "Pace Gallery",
+    "candidates": [
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/59581_IRWIN_v04-High_Resolution__300_dpi_.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/Irwin.width-2000.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/73041_3.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/69076_IRWIN_v01.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/IRWIN_inst_2013_v09-High_Resolution__300_dpi_.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Untitled",
+        "year": "1969",
+        "image": "https://www.artic.edu/iiif/2/7eb8c7b3-750c-8769-a1c5-970ac00d796f/full/1200,/0/default.jpg",
+        "credit": "Barbara Neff Smith and Solomon Byron Smith Purchase Fund",
+        "url": "https://www.artic.edu/artworks/31595"
+      }
+    ]
+  },
+  "a606": {
+    "name": "Roy Colmer",
+    "dates": "1935–2014",
+    "gallery": "Lisson Gallery",
+    "candidates": [
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/9819/Roy_Colmer_c._1968-69.jpg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/9986/md_0kWKS4CqMevx.jpg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/15937/COLM760039-3__1_.jpeg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/19818/COLM700002_2.jpeg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/15939/COLM760043-3.jpeg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      }
+    ]
+  },
+  "a68": {
+    "name": "Richard Artschwager",
+    "dates": "1923–2013",
+    "gallery": "Gagosian",
+    "candidates": [
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Table with Pink Tablecloth",
+        "year": "1964",
+        "image": "https://www.artic.edu/iiif/2/5633ea1c-9983-cff2-a5b1-5faf86e42669/full/1200,/0/default.jpg",
+        "credit": "Gift of Lannan Foundation",
+        "url": "https://www.artic.edu/artworks/146901"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Horizon III",
+        "year": "1990",
+        "image": "https://www.artic.edu/iiif/2/afda4b46-88bf-810e-41db-ad4ed1f41b4a/full/1200,/0/default.jpg",
+        "credit": "Gift of Society for Contemporary Art",
+        "url": "https://www.artic.edu/artworks/76624"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Sailors",
+        "year": "1972",
+        "image": "https://www.artic.edu/iiif/2/768ef971-a762-f03a-2bdd-19e72375d2ed/full/1200,/0/default.jpg",
+        "credit": "Mr. and Mrs. Samuel Sax Fund",
+        "url": "https://www.artic.edu/artworks/131416"
+      }
+    ]
+  },
+  "a710": {
+    "name": "Rona Pondick",
+    "dates": "b. 1952",
+    "gallery": "Thaddaeus Ropac",
+    "candidates": [
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Muskrat",
+        "year": "2002-05",
+        "image": "https://www.artic.edu/iiif/2/99d7f01b-3dc4-aff5-0619-11c2a8c18525/full/1200,/0/default.jpg",
+        "credit": "Gift of Ruth and Jake Bloom",
+        "url": "https://www.artic.edu/artworks/266269"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Seat",
+        "year": "1990",
+        "image": "https://www.artic.edu/iiif/2/60098a80-5731-10c2-fac3-febb89e4fad5/full/1200,/0/default.jpg",
+        "credit": "Gift of the Trenk Family",
+        "url": "https://www.artic.edu/artworks/276282"
+      }
+    ]
+  },
+  "a556": {
+    "name": "Reinhard Mucha",
+    "dates": "b. 1950",
+    "gallery": "Sprüth Magers",
+    "candidates": [
+      {
+        "source": "Sprüth Magers",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://spruethmagers.com/files/oderin-untitled-maenner-frauen-full-take-sprueth-magers-london-02-a-gm.jpg",
+        "credit": "Courtesy Sprüth Magers",
+        "url": null
+      },
+      {
+        "source": "Sprüth Magers",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://spruethmagers.com/files/karte15_sonyrx100_2018_okt_20_radtour_zur_halde_dsc2052_d_sw-1920x1459.jpg",
+        "credit": "Courtesy Sprüth Magers",
+        "url": null
+      },
+      {
+        "source": "Sprüth Magers",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://res.cloudinary.com/smimagebank/image/upload/w_2560,c_limit,f_auto,fl_progressive/v1589446927/sprueth_magers_Reinhard_Mucha_Wartesaal_%5B1997%5D_%5B1986_11838.jpg",
+        "credit": "Courtesy Sprüth Magers",
+        "url": null
+      },
+      {
+        "source": "Sprüth Magers",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://res.cloudinary.com/smimagebank/image/upload/w_1024,c_limit,f_auto,fl_progressive/v1589446931/sprueth_magers_Reinhard_Mucha_Wartesaal_%5B1997%5D_%5B1986_11839.jpg",
+        "credit": "Courtesy Sprüth Magers",
+        "url": null
+      },
+      {
+        "source": "Sprüth Magers",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://res.cloudinary.com/smimagebank/image/upload/w_1024,c_limit,f_auto,fl_progressive/v1589446934/sprueth_magers_Reinhard_Mucha_Wartesaal_%5B1997%5D_%5B1986_11840.jpg",
+        "credit": "Courtesy Sprüth Magers",
+        "url": null
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Weimar",
+        "year": "1993",
+        "image": "https://www.artic.edu/iiif/2/57e0c04c-6c9a-3b2c-6a0a-b82305ca841f/full/1200,/0/default.jpg",
+        "credit": "Gift of Society for Contemporary Art",
+        "url": "https://www.artic.edu/artworks/134053"
+      }
+    ]
+  },
+  "a325": {
+    "name": "Raqib Shaw",
+    "dates": "b. 1974",
+    "gallery": "Pace Gallery",
+    "candidates": [
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/69815_J7In5kz.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/SHAW_Portrait.width-2000.width-360.webp",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/69817.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/70858.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/89608.width-360.webp",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      }
+    ]
+  },
+  "a582": {
+    "name": "Robert Therrien",
+    "dates": "1947–2019",
+    "gallery": "Sprüth Magers",
+    "candidates": []
+  },
+  "a826": {
+    "name": "Qiu Zhijie",
+    "dates": "b. 1969",
+    "gallery": "Galleria Continua",
+    "candidates": []
+  },
+  "a653": {
+    "name": "Richard Wentworth",
+    "dates": "b. 1947",
+    "gallery": "Lisson Gallery",
+    "candidates": [
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/8336/WENT150003.jpg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/8345/WENT140002.jpg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/8337/WENT130022.jpg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/1512/WENT130001_1.jpg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      },
+      {
+        "source": "Lisson Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://lisson-art.s3.amazonaws.com/uploads/attachment/image/body/1514/WENT130001_3.jpg",
+        "credit": "Courtesy Lisson Gallery",
+        "url": null
+      }
+    ]
+  },
+  "a134": {
+    "name": "Rasheed Araeen",
+    "dates": "b. 1935",
+    "gallery": "Hauser & Wirth",
+    "candidates": [
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Five Blues (Punj Neelay)",
+        "year": "1970",
+        "image": "https://www.artic.edu/iiif/2/905ce841-ced9-38de-6ee6-a27e02cb308e/full/1200,/0/default.jpg",
+        "credit": "Through prior gift of Norton and Diana Ginsburg; through prior purchase from the Mary and Leigh Block Fund",
+        "url": "https://www.artic.edu/artworks/229950"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "City of Hyderabad",
+        "year": "1963",
+        "image": "https://www.artic.edu/iiif/2/c6a43f11-1152-b28c-e697-cd1e0818b11a/full/1200,/0/default.jpg",
+        "credit": "Wirt D. Walker Trust fund",
+        "url": "https://www.artic.edu/artworks/244933"
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Houses",
+        "year": "1963",
+        "image": "https://www.artic.edu/iiif/2/450edf71-4cbd-50bb-3857-d2eb5e753bfb/full/1200,/0/default.jpg",
+        "credit": "Promised gift of Anu and Arjun Aggarwal",
+        "url": "https://www.artic.edu/artworks/244932"
+      }
+    ]
+  },
+  "a294": {
+    "name": "Prabhavathi Meppayil",
+    "dates": "b. 1965",
+    "gallery": "Pace Gallery",
+    "candidates": [
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/71642.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/MEPPAYIL_Portrait_2019.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/71719.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/64190.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/73289.width-360_4LqO4H5.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      }
+    ]
+  },
+  "a98": {
+    "name": "Ron Mueck",
+    "dates": "b. 1958",
+    "gallery": "Hauser & Wirth",
+    "candidates": [
+      {
+        "source": "Wikimedia Commons",
+        "title": "Ron Mueck Chicken man - Christchurch Art Gallery - 2019",
+        "year": "2019-11-26 15:48:23",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Ron_Mueck_Chicken_man_-_Christchurch_Art_Gallery_-_2019.jpg/1280px-Ron_Mueck_Chicken_man_-_Christchurch_Art_Gallery_-_2019.jpg",
+        "credit": "Ron Mueck",
+        "url": "https://commons.wikimedia.org/wiki/File:Ron_Mueck_Chicken_man_-_Christchurch_Art_Gallery_-_2019.jpg"
+      },
+      {
+        "source": "Wikimedia Commons",
+        "title": "Ron Mueck Chicken man 2019 - Christchurch Art Gallery",
+        "year": "2019-11-26 15:41:22",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Ron_Mueck_Chicken_man_2019_-_Christchurch_Art_Gallery.jpg/1280px-Ron_Mueck_Chicken_man_2019_-_Christchurch_Art_Gallery.jpg",
+        "credit": "Ron Mueck",
+        "url": "https://commons.wikimedia.org/wiki/File:Ron_Mueck_Chicken_man_2019_-_Christchurch_Art_Gallery.jpg"
+      }
+    ]
+  },
+  "a493": {
+    "name": "Robert Smithson",
+    "dates": "1938–1973",
+    "gallery": "Marian Goodman",
+    "candidates": [
+      {
+        "source": "Marian Goodman",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://static-assets.artlogic.net/w_720,h_520,c_limit,f_auto,fl_lossy,q_auto,q_auto:good/ws-mariangoodman/usr/images/pages/slideshow_data/1/28356huyghephotocreditalexyudzon_approved-press_1st-floor-installation-41.jpg",
+        "credit": "Courtesy Marian Goodman",
+        "url": null
+      },
+      {
+        "source": "Marian Goodman",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://static-assets.artlogic.net/w_2400,h_1800,c_limit,f_auto,fl_lossy,q_auto/ws-mariangoodman/usr/artists/images/311/spiral-jetty-1970-1.jpg",
+        "credit": "Courtesy Marian Goodman",
+        "url": null
+      },
+      {
+        "source": "Marian Goodman",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://static-assets.artlogic.net/w_2400,h_1800,c_limit,f_auto,fl_lossy,q_auto/ws-mariangoodman/usr/artists/images/311/broken-circle-1971-.jpg",
+        "credit": "Courtesy Marian Goodman",
+        "url": null
+      },
+      {
+        "source": "Marian Goodman",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://static-assets.artlogic.net/w_2400,h_1800,c_limit,f_auto,fl_lossy,q_auto/ws-mariangoodman/usr/artists/images/311/glue-pour-1969-.jpg",
+        "credit": "Courtesy Marian Goodman",
+        "url": null
+      },
+      {
+        "source": "Marian Goodman",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://static-assets.artlogic.net/w_2400,h_1800,c_limit,f_auto,fl_lossy,q_auto/ws-mariangoodman/usr/artists/images/311/23928-m-image.jpg",
+        "credit": "Courtesy Marian Goodman",
+        "url": null
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Chalk-Mirror Displacement",
+        "year": "1969",
+        "image": "https://www.artic.edu/iiif/2/17c21125-a849-a0dc-5957-b01ff3b8c945/full/1200,/0/default.jpg",
+        "credit": "Through prior gift of Mr. and Mrs. Edward Morris",
+        "url": "https://www.artic.edu/artworks/93345"
+      }
+    ]
+  },
+  "a347": {
+    "name": "Robert Whitman",
+    "dates": "b. 1935",
+    "gallery": "Pace Gallery",
+    "candidates": [
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/WHITMAN_inst_2018_v17-HighResolution300dpi.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/Whitman.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/53867.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/26162.width-360.jpg",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Pace Gallery",
+        "title": "Untitled work",
+        "year": "",
+        "image": "https://www.pacegallery.com/media/images/937415keyY47FJ5A_0Nc6s-NBg4tcWg.width-360.webp",
+        "credit": "Courtesy Pace Gallery",
+        "url": null
+      },
+      {
+        "source": "Art Institute of Chicago",
+        "title": "Untitled, from The New York Collection for Stockholm",
+        "year": "1973",
+        "image": "https://www.artic.edu/iiif/2/646d41de-bc7d-d882-160a-99b7222f2af6/full/1200,/0/default.jpg",
+        "credit": "Gift of Robert Rauschenberg",
+        "url": "https://www.artic.edu/artworks/227644"
+      }
+    ]
   }
 }
