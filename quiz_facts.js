@@ -23,7 +23,7 @@ const QUIZ_FACTS = {
     thesis: 'Landscape is a verb, an event of perception — not a depicted view',
     cohort: 'Brazilian painterly tradition between modernist abstraction and Romantic landscape',
     pron: { written: 'LOO-kahs ah-ROO-dah', ipa: '/ˈlukɐs ɐˈʁudɐ/', lang: 'pt-BR' },
-    wiki: 'Lucas_Arruda_(artist)',
+    wiki: 'Lucas_Arruda',
   },
   a176: { // Victor Man
     born: 'Cluj, Romania, 1974',
@@ -45,7 +45,7 @@ const QUIZ_FACTS = {
     thesis: 'Attention without grasping — a plea for porosity in figurative painting',
     cohort: 'Contemporary Japanese figurative painters (post-Murakami Superflat)',
     pron: { written: 'YOO nee-shee-MOO-rah', ipa: '/jɯ ɲiɕimɯɾa/', lang: 'ja-JP' },
-    wiki: 'Yu_Nishimura',
+    wiki: 'Yukie_Nishimura',
   },
   a206: { // Amy Sillman
     born: 'Detroit, Michigan, 1955',
@@ -179,7 +179,7 @@ const QUIZ_FACTS = {
     thesis: 'Sculpture embodies Eastern European post-Communist abjection without explaining it',
     cohort: 'Post-Communist Eastern European diaspora artists in New York',
     pron: { written: 'AHN-drah oor-SOOT-sah', ipa: '/ˈandra urˈsut͡sa/', lang: 'ro-RO' },
-    wiki: 'Andra_Ursu%C8%9Ba',
+    wiki: 'Andra_Ursuța',
   },
   a501: { // Adrián Villar Rojas
     born: 'Rosario, Argentina, 1980',
@@ -190,7 +190,7 @@ const QUIZ_FACTS = {
     thesis: 'Geology and extinction as medium — sculpture made for a future viewer\'s absence',
     cohort: 'Contemporary Argentine sculpture; Venice Biennale Argentine Pavilion 2011',
     pron: { written: 'ah-dree-AHN bee-YAR ROH-hahs', ipa: '/aˈðɾjan biˈʎaɾ ˈroxas/', lang: 'es-AR' },
-    wiki: 'Adri%C3%A1n_Villar_Rojas',
+    wiki: 'Adrián_Villar_Rojas',
   },
   a794: { // Berlinde De Bruyckere
     born: 'Ghent, Belgium, 1964',
@@ -234,7 +234,7 @@ const QUIZ_FACTS = {
     thesis: 'The romantic European forest is still available for sculpture — if you make it out of trash',
     cohort: 'Contemporary French sculpture; permanent installation at Mobilier National',
     pron: { written: 'EH-vah zhos-PAN', ipa: '/eva ʒɔsˈpɛ̃/', lang: 'fr-FR' },
-    wiki: 'Eva_Jospin',
+    wiki: 'Eva_Respini',
   },
   a853: { // Sanford Biggers
     born: 'Los Angeles, California, 1970',
@@ -269,7 +269,7 @@ const QUIZ_FACTS = {
     thesis: 'Photography as elegy, not record — its claim on the real is an act of mourning',
     cohort: 'Generation that began painting in the Cultural Revolution; moved to photography in the 1990s',
     pron: { written: 'HIGH BWO', ipa: '/xǎi pwó/', lang: 'zh-CN' },
-    wiki: 'Hai_Bo',
+    wiki: 'Hai-boat',
   },
   a273: { // Josef Koudelka
     born: 'Boskovice, Moravia, 1938',
@@ -776,7 +776,7 @@ const QUIZ_FACTS = {
     thesis: 'The modernist house was always a stage; the duo restores the bodies its documentary photograph cropped out',
     cohort: 'Collaborative duo since 2003; Whitney ISP cohort; bridges dance and video art',
     pron: { written: 'GAIR-erd and KEL-ee', ipa: '/ˈɡɛrərd ænd ˈkɛli/', lang: 'en-US' },
-    wiki: 'Gerard_%26_Kelly',
+    wiki: 'Gerard_&_Kelly',
   },
   a911: { // Brian Rochefort
     born: 'Cranston, Rhode Island, 1985',
@@ -831,7 +831,7 @@ const QUIZ_FACTS = {
     thesis: 'Art\'s claim on perception is empirical — uncertainty is the experience, not a defect of it',
     cohort: 'Trained scientist turned artist; post-1990 relational and perceptual art',
     pron: { written: 'KAR-sten HUR-luhr', ipa: '/ˈkaʁstn̩ ˈhœlɐ/', lang: 'de-DE' },
-    wiki: 'Carsten_H%C3%B6ller',
+    wiki: 'Carsten_Höller',
   },
   a425: { // Cecile Abish
     born: 'New York, NY, 1931 (d. 2023)',
@@ -886,7 +886,7 @@ const QUIZ_FACTS = {
     thesis: 'The conventions of photography are the subject — the obedient image is the most political one',
     cohort: 'CalArts conceptual photography lineage from Baldessari; mid-1980s onward',
     pron: { written: 'KRIS-tuh-fer WIL-yams', ipa: '/ˈkrɪstəfər ˈwɪljəmz/', lang: 'en-US' },
-    wiki: 'Christopher_Williams_(artist)',
+    wiki: 'Christopher_Williams_(singer)',
   },
   a957: { // Dada Khanyisa
     born: 'Mthatha, South Africa, 1991',
@@ -930,7 +930,7 @@ const QUIZ_FACTS = {
     thesis: 'The LA atmospheric register holds observational drawing and abstraction at once',
     cohort: 'Early-2000s West Coast painters between watercolour landscape and post-pop abstraction',
     pron: { written: 'DAY-vid KOR-tee', ipa: '/ˈdeɪvɪd ˈkɔrti/', lang: 'en-US' },
-    wiki: 'David_Korty',
+    wiki: 'David_North_(character)',
   },
   a886: { // Dennis Kardon
     born: 'Des Moines, Iowa, 1950',
@@ -974,7 +974,7 @@ const QUIZ_FACTS = {
     thesis: 'The Asian female body has been Western painting\'s decorative subject for three centuries — refuse to flinch',
     cohort: 'Post-2015 Asian diaspora painters reckoning with the museum\'s catalogue',
     pron: { written: 'doh-mee-NEEK FUNG', ipa: '/dɒmɪˈniːk fʌŋ/', lang: 'en-CA' },
-    wiki: 'Dominique_Fung',
+    wiki: 'Dominique_Phinot',
   },
   a889: { // Elad Lassry
     born: 'Tel Aviv, Israel, 1977',
@@ -1131,7 +1131,7 @@ const QUIZ_FACTS = {
     thesis: 'Sculpture\'s true subject is the agricultural-industrial ruin of Italy\'s countryside — the human figure is no longer its most legible body',
     cohort: 'Post-2015 Italian sculpture out of the Rijksakademie; emerged with Quirine Racké and Marwa Arsanios',
     pron: { written: 'JOO-lee-ah CHEN-chee', ipa: '/ˈdʒulja ˈtʃɛntʃi/', lang: 'it-IT' },
-    wiki: 'Giulia_Cenci',
+    wiki: 'Giulia_Centurelli',
   },
   a268: { // Glenn Kaino
     born: 'Los Angeles, California, 1972',
@@ -1164,7 +1164,7 @@ const QUIZ_FACTS = {
     thesis: 'European modernist abstraction is a found language — usable, exhaustible, and worth refusing to perfect',
     cohort: 'Postwar German painting after Polke, Richter, and Kiefer; Munich Academy lineage',
     pron: { written: 'GUYN-tuhr FURG', ipa: '/ˈɡʏntɐ fœʁk/', lang: 'de-DE' },
-    wiki: 'G%C3%BCnther_F%C3%B6rg',
+    wiki: 'Günther_Förg',
   },
   a230: { // Harry Callahan
     born: 'Detroit, Michigan, 1912 (d. 1999)',
@@ -1332,7 +1332,7 @@ const QUIZ_FACTS = {
     thesis: 'The slow surface registers what the cinematic frame, in motion, refused to show — painting decelerates the photographic source',
     cohort: 'Post-Richter German photo-based painting; Berlin generation working in deliberate blur',
     pron: { written: 'yoh-HAH-nes KARS', ipa: '/joˈhanəs kaʁs/', lang: 'de-DE' },
-    wiki: 'Johannes_Kahrs',
+    wiki: 'Johannes_Kahrs_(artist)',
   },
   a849: { // John Armleder
     born: 'Geneva, Switzerland, 1948',
@@ -1354,7 +1354,7 @@ const QUIZ_FACTS = {
     thesis: 'The computer simulation is sculpture\'s most honest medium for energy and ecology — it can run a lifetime and never repeat',
     cohort: 'Contemporary Irish video art; Städelschule generation; long-form simulation pioneer',
     pron: { written: 'JON JEH-rerd', ipa: '/dʒɒn ˈdʒɛrərd/', lang: 'en-IE' },
-    wiki: 'John_Gerrard',
+    wiki: 'John_Gerrard_(artist)',
   },
   a896: { // John McAllister
     born: 'Hattiesburg, Mississippi, 1973',
@@ -1387,7 +1387,7 @@ const QUIZ_FACTS = {
     thesis: 'The poetic image is still available to conceptual art if the artist is willing to slow down',
     cohort: 'Argentine conceptual art post-1990s; Argentine Pavilion Venice Biennale 2005',
     pron: { written: 'HOR-hay MAH-kee', ipa: '/ˈxorxe ˈmaki/', lang: 'es-AR' },
-    wiki: 'Jorge_Macchi',
+    wiki: 'Jorge_Maciel_(singer)',
   },
   a207: { // Josh Smith
     born: 'Okinawa, Japan, 1976 (American military family)',
@@ -1420,7 +1420,7 @@ const QUIZ_FACTS = {
     thesis: 'The next generation of Cuban painting still has serious figurative work to do',
     cohort: 'Post-Special-Period ISA generation; emerging Continua roster',
     pron: { written: 'hoh-SEH meh-SEE-ahs', ipa: '/xoˈse meˈsias/', lang: 'es-CU' },
-    wiki: 'Jos%C3%A9_Mes%C3%ADas',
+    wiki: 'José_Messias',
   },
   a779: { // Juan Araujo
     born: 'Caracas, Venezuela, 1971',
@@ -1541,7 +1541,7 @@ const QUIZ_FACTS = {
     thesis: 'Public space\'s quiet hostility to bodies is legible only when met with returning bodily force — politeness is the city\'s erasure',
     cohort: 'Post-2005 Stockholm-Berlin performance and intervention scene',
     pron: { written: 'KLAH-rah LEE-den', ipa: '/ˈklɑːra ˈliːdən/', lang: 'sv-SE' },
-    wiki: 'Klara_Lid%C3%A9n',
+    wiki: 'Klara_Lidén',
   },
   a290: { // Kylie Manning
     born: 'Anchorage, Alaska, 1983',
@@ -1574,7 +1574,7 @@ const QUIZ_FACTS = {
     thesis: 'The texture of an ordinary day is a humbler available subject — Cantonese popular culture is its proper material vocabulary',
     cohort: 'Hong Kong contemporary art post-Umbrella Revolution; Venice Pavilion 2013',
     pron: { written: 'LEE KIT', ipa: '/li kit/', lang: 'zh-HK' },
-    wiki: 'Lee_Kit',
+    wiki: 'Lee_Krasner',
   },
   a277: { // Lee Kun-Yong
     born: 'Hwanghae Province, Korea (now DPRK), 1942',
@@ -1640,7 +1640,7 @@ const QUIZ_FACTS = {
     thesis: 'China\'s most over-determined craft material — porcelain — is its most under-credited contemporary sculptural medium',
     cohort: 'Post-1990 Chinese contemporary porcelain; Jingdezhen-trained',
     pron: { written: 'LYOO jee-AN-hwah', ipa: '/ljǒu tɕjɛ́nxwà/', lang: 'zh-CN' },
-    wiki: 'Liu_Jianhua',
+    wiki: 'Liu_Tianhua',
   },
   a393: { // Liu Wei
     born: 'Beijing, China, 1972',
@@ -1651,7 +1651,7 @@ const QUIZ_FACTS = {
     thesis: 'The post-1990s Chinese urban condition is too fast to be painted — demolition rubble is its true sculptural material',
     cohort: 'Post-Sense Sensibility generation, China, late 1990s',
     pron: { written: 'LYOO WAY', ipa: '/ljǒu wěi/', lang: 'zh-CN' },
-    wiki: 'Liu_Wei_(b._1972)',
+    wiki: 'Liu_Wei_(artist)',
   },
   a174: { // Liu Ye
     born: 'Beijing, China, 1964',
@@ -1984,7 +1984,7 @@ const QUIZ_FACTS = {
     thesis: 'Colour photography is more honest documentary — it does not pretend the world is morally legible at a glance',
     cohort: '1980s British colour documentary generation alongside Martin Parr; Hasselblad Award 2012',
     pron: { written: 'PAWL GRAY-em', ipa: '/pɔːl ˈɡreɪəm/', lang: 'en-GB' },
-    wiki: 'Paul_Graham_(photographer,_born_1956)',
+    wiki: 'Paul_Graham_(photographer)',
   },
   a337: { // Paul Thek
     born: 'Brooklyn, NY, 1933 (d. 1988 of AIDS)',
@@ -2028,7 +2028,7 @@ const QUIZ_FACTS = {
     thesis: 'Popular culture\'s dirty visual archive is a central register where contemporary politics actually circulates',
     cohort: 'Post-1989 Polish-American artists; Cooper Union generation',
     pron: { written: 'PYOH-ter oo-KLAHN-skee', ipa: '/pjɔtr uˈklaɲski/', lang: 'pl-PL' },
-    wiki: 'Piotr_Uklan%CC%81ski',
+    wiki: 'Piotr_Uklański',
   },
   a82: { // Rashid Johnson
     born: 'Chicago, Illinois, 1977',
@@ -2050,7 +2050,7 @@ const QUIZ_FACTS = {
     thesis: 'Black painting need not choose between Greenbergian abstraction and the Black Arts Movement\'s demand for political legibility',
     cohort: 'Long teaching career at California College of the Arts (Oakland); late-career institutional rediscovery in 2020s',
     pron: { written: 'RAY-mund SAWN-derz', ipa: '/ˈreɪmənd ˈsɔːndərz/', lang: 'en-US' },
-    wiki: 'Raymond_Saunders',
+    wiki: 'Raymond_Saunders_(artist)',
   },
   a276: { // Richard Learoyd
     born: 'Nelson, Lancashire, England, 1966',
@@ -2160,7 +2160,7 @@ const QUIZ_FACTS = {
     thesis: 'Hyperrealism\'s value is in choosing the wrong medium for the right subject — graphite can never become water; the failure is the work',
     cohort: 'Italian hyperrealist drawing; mononym practice as Serse',
     pron: { written: 'SAIR-seh', ipa: '/ˈsɛrse/', lang: 'it-IT' },
-    wiki: 'Serse_Roma',
+    wiki: 'Fred_Sersen',
   },
   a976: { // Seth Price
     born: 'East Jerusalem, 1973 (American parents)',
@@ -2204,7 +2204,7 @@ const QUIZ_FACTS = {
     thesis: 'The paper doily — dismissed by every modernism — has considerable formal sophistication; smuggling punk inside it critiques both',
     cohort: 'Cabinet gallery generation of mid-1990s London',
     pron: { written: 'SY-muhn PERR-i-tuhn', ipa: '/ˈsaɪmən ˈpɛrɪtən/', lang: 'en-GB' },
-    wiki: 'Simon_Periton',
+    wiki: 'Simon_Preston',
   },
   a860: { // Skyler Chen
     born: 'Tainan, Taiwan, 1991',
@@ -2259,7 +2259,7 @@ const QUIZ_FACTS = {
     thesis: 'The natural history museum has been hiding an uncomfortable epistemology — the obvious fake animal is more honest about it',
     cohort: 'Hamburg generation under Polke; alongside Georg Herold and Albert Oehlen',
     pron: { written: 'TOH-mas GROON-feld', ipa: '/ˈtoːmas ˈɡʁyːnfɛlt/', lang: 'de-DE' },
-    wiki: 'Thomas_Gr%C3%BCnfeld',
+    wiki: 'Thomas_Grünfeld',
   },
   a306: { // Thomas Nozkowski
     born: 'Teaneck, New Jersey, 1944 (d. 2019)',
@@ -2328,7 +2328,7 @@ const QUIZ_FACTS = {
     thesis: 'Chinese contemporary sculpture\'s under-credited material is light — the science-engineering register suits the Beijing technocratic generation',
     cohort: 'Post-2000 Chinese new-media sculpture; CAFA-trained',
     pron: { written: 'WAHNG YOO-yahng', ipa: '/wǎŋ jǔjǎŋ/', lang: 'zh-CN' },
-    wiki: 'Wang_Yuyang',
+    wiki: 'Wang_Huangsheng',
   },
   a993: { // William N. Copley
     born: 'New York, NY, 1919 (d. 1996)',
@@ -2394,7 +2394,7 @@ const QUIZ_FACTS = {
     thesis: 'What one tradition calls failure another calls beautiful — the assembled fragment carries cross-cultural meaning the perfect original could not',
     cohort: 'Contemporary Korean ceramics; Living National Treasure discard-tradition collaboration',
     pron: { written: 'YEE soo-KYUNG', ipa: '/iː suˈkjʌŋ/', lang: 'ko-KR' },
-    wiki: 'Yeesookyung',
+    wiki: 'Yee_Soo-kyung',
   },
   a352: { // Yoo Youngkuk
     born: 'Uljin, North Gyeongsang Province, Korea, 1916 (d. 2002)',
@@ -2416,7 +2416,7 @@ const QUIZ_FACTS = {
     thesis: 'Chinese sculpture\'s most urgent subject is the unaccounted labouring female body of the rural-to-urban migration — concrete is its medium',
     cohort: 'Post-2010 Shanghai sculpture; documents undocumented women\'s labour in the city',
     pron: { written: 'YOO JEE', ipa: '/jǔ tɕí/', lang: 'zh-CN' },
-    wiki: 'Yu_Ji_(artist)',
+    wiki: 'Yu_Ji_(painter)',
   },
   a500: { // Álvaro Urbano
     born: 'Madrid, Spain, 1983',
@@ -2427,7 +2427,7 @@ const QUIZ_FACTS = {
     thesis: 'Architectural history is full of erased queer narratives — the artist\'s task is to re-stage the missing scene to make absence legible',
     cohort: 'Post-2010 Spanish-German architecture-to-art generation; Lina Bo Bardi, Eames-House projects',
     pron: { written: 'AHL-vah-roh oor-BAH-noh', ipa: '/ˈalβaɾo uɾˈβano/', lang: 'es-ES' },
-    wiki: '%C3%81lvaro_Urbano',
+    wiki: 'Álvaro_Urbano',
   },
   a249: { // Adrian Ghenie
     born: 'Baia Mare, Romania, 1977',
@@ -2801,7 +2801,7 @@ const QUIZ_FACTS = {
     thesis: 'The artist\'s life is not separable from the artwork — two men in matching tweed walking the same East End streets for decades are the long-term sculpture',
     cohort: 'Saint Martin\'s 1967; have lived and worked together as a single artistic body for over 50 years',
     pron: { written: 'GIL-bert and JORJ', ipa: '/ˈɡɪlbərt ænd dʒɔrdʒ/', lang: 'en-GB' },
-    wiki: 'Gilbert_%26_George',
+    wiki: 'Gilbert_&_George',
   },
   a183: { // Giorgio Morandi
     born: 'Bologna, Italy, 1890 (d. 1964)',
@@ -2845,7 +2845,7 @@ const QUIZ_FACTS = {
     thesis: 'Brazilian Neo-Concrete\'s radical move was to refuse the gallery wall — the body, the favela, the dance, the wearable colour are the medium',
     cohort: 'Brazilian Neo-Concrete generation alongside Lygia Clark, Lygia Pape; Mangueira samba school participant',
     pron: { written: 'EH-lee-oh oh-ee-tee-SEE-kah', ipa: '/ˈɛlju ojtiˈsikɐ/', lang: 'pt-BR' },
-    wiki: 'H%C3%A9lio_Oiticica',
+    wiki: 'Hélio_Oiticica',
   },
   a267: { // JR
     born: 'Paris, France, 1983',
@@ -2991,7 +2991,7 @@ const QUIZ_FACTS = {
     thesis: 'Post-2015 American painters have a usable claim on intricate gestural abstraction the Greenbergian story declared finished',
     cohort: 'Late-2010s LA Yale-MFA abstract painters',
     pron: { written: 'LOR-en KWIN', ipa: '/ˈlɔrən kwɪn/', lang: 'en-US' },
-    wiki: 'Lauren_Quin',
+    wiki: 'Lauren_Raine',
   },
   a278: { // Lee Ufan
     born: 'Haman, Korea, 1936',
@@ -3068,7 +3068,7 @@ const QUIZ_FACTS = {
     thesis: 'The body at the threshold of collapse is the only artistic medium the institution has not yet learned to commodify cleanly',
     cohort: '"Grandmother of performance art"; long Marina/Ulay collaboration (1976–88)',
     pron: { written: 'ah-brah-MO-vich', ipa: '/ˌaˈbraːmovitʃ/', lang: 'sr-RS' },
-    wiki: 'Marina_Abramovi%C4%87',
+    wiki: 'Marina_Abramović',
   },
   a81: { // Mark Bradford
     born: 'Los Angeles, California, 1961',
@@ -3189,7 +3189,7 @@ const QUIZ_FACTS = {
     thesis: 'The English landscape tradition is still available to a young painter — through abstraction rather than topographic record',
     cohort: 'Post-2020 London painters with unusually high-velocity early career; Slade and RCA',
     pron: { written: 'PAM EV-uh-lin', ipa: '/pæm ˈɛvəlɪn/', lang: 'en-GB' },
-    wiki: 'Pam_Evelyn',
+    wiki: 'Pamelyn_Chee',
   },
   a409: { // Park Seo-Bo
     born: 'Yecheon, North Gyeongsang Province, Korea, 1931 (d. 2023)',
@@ -3398,7 +3398,7 @@ const QUIZ_FACTS = {
     thesis: 'Contemporary sculpture\'s medium includes the gallery floor, the slow-burning candle, the exhibition\'s duration',
     cohort: 'Mid-2000s post-Maurizio-Cattelan sculptural-provocateur generation',
     pron: { written: 'oors FISH-er', ipa: '/ʊʁs ˈfɪʃɐ/', lang: 'de-CH' },
-    wiki: 'Urs_Fischer',
+    wiki: 'Urs_Fischer_(artist)',
   },
   a194: { // Walter Price
     born: 'Macon, Georgia, 1989',
@@ -3533,7 +3533,7 @@ const QUIZ_FACTS = {
     thesis: 'Brazilian visual culture\'s foundational decoration (the colonial tile) is also its foundational colonial wound',
     cohort: 'Contemporary Brazilian painting; Parque Lage generation',
     pron: { written: 'ah-dree-AH-nah vah-reh-ZHOWN', ipa: '/adɾiˈɐnɐ vaɾeˈʒɐ̃w/', lang: 'pt-BR' },
-    wiki: 'Adriana_Varej%C3%A3o',
+    wiki: 'Adriana_Varejão',
   },
   a462: { // Agnieszka Kurant
     born: 'Łódź, Poland, 1978',
@@ -3566,7 +3566,7 @@ const QUIZ_FACTS = {
     thesis: 'The studio bench\'s accidental composition is as serious as any monumental statement',
     cohort: 'Worked as Robert Rauschenberg\'s studio assistant in the 1970s; post-Hesse / Nauman / Tuttle quiet strand',
     pron: { written: 'AL TAY-ler', ipa: '/æl ˈteɪlər/', lang: 'en-US' },
-    wiki: 'Al_Taylor_(artist)',
+    wiki: 'Alex_Taylor_(composer)',
   },
   a41: { // Alberto Giacometti
     born: 'Borgonovo, Switzerland, 1901 (d. 1966)',
@@ -3599,7 +3599,7 @@ const QUIZ_FACTS = {
     thesis: 'The New York School had a hidden member working from non-Western numerical systems',
     cohort: 'Post-Abstract Expressionist American painter working with non-Western cosmologies',
     pron: { written: 'AL-fred YEN-sen', ipa: '/ˈælfrɛd ˈjɛnsən/', lang: 'da-DK' },
-    wiki: 'Alfred_Jensen_(painter)',
+    wiki: 'Alfred_Jensen',
   },
   a660: { // Ali Banisadr
     born: 'Tehran, Iran, 1976',
@@ -3621,7 +3621,7 @@ const QUIZ_FACTS = {
     thesis: 'Saudi contemporary painting can work at the seam of calligraphic tradition and large-scale abstraction',
     cohort: 'Post-2020 Saudi contemporary painters; youngest White Cube roster',
     pron: { written: 'AH-lee-uh AH-mahd', ipa: '/ˈɑːlɪə ˈɑːmæd/', lang: 'ar-SA' },
-    wiki: 'Alia_Ahmad',
+    wiki: 'Jalal_Al-e-Ahmad',
   },
   a187: { // Alice Neel
     born: 'Merion Square, Pennsylvania, 1900 (d. 1984)',
@@ -3698,7 +3698,7 @@ const QUIZ_FACTS = {
     thesis: 'The artist\'s mark — the painted A, the gallery logo — is itself a substantive painted subject',
     cohort: 'Post-2010 Canadian-British painters; Columbia MFA generation',
     pron: { written: 'AL-uh-suhn KATZ', ipa: '/ˈæləsən kæts/', lang: 'en-CA' },
-    wiki: 'Allison_Katz',
+    wiki: 'Allison_Hazel_Brugger',
   },
   a662: { // Alvaro Barrington — LOW-CONTEXT
     born: 'Caracas, Venezuela, 1983 (Caribbean family)',
@@ -3731,7 +3731,7 @@ const QUIZ_FACTS = {
     thesis: 'Architectural training gives film a slow structural relation to political subject the photo-journalistic register cannot deliver',
     cohort: 'Son of Bauhaus architect Munio Weinraub; turned to film after being injured in 1973 Yom Kippur War',
     pron: { written: 'AH-mos GHEE-tah-ee', ipa: '/ˈamos ɡiˈtai/', lang: 'he-IL' },
-    wiki: 'Amos_Gita%C3%AF',
+    wiki: 'Amos_Gitaï',
   },
   a87: { // Amy Sherald
     born: 'Columbus, Georgia, 1973',
@@ -3753,7 +3753,7 @@ const QUIZ_FACTS = {
     thesis: 'The Vietnamese-born American photographer is uniquely positioned to document US military global operations',
     cohort: 'Fled Saigon with family during 1975 evacuation; teaches at Bard',
     pron: { written: 'AHN-mee LAY', ipa: '/ɑnmiː leɪ/', lang: 'vi' },
-    wiki: 'An-My_L%C3%AA',
+    wiki: 'An-My_Lê',
   },
   a470: { // Ana Mendieta
     born: 'Havana, Cuba, 1948 (d. 1985 at 36)',
@@ -3797,7 +3797,7 @@ const QUIZ_FACTS = {
     thesis: 'The postwar German painter trained under Beuys had a choice between social-sculpture seriousness and a deliberately funny decorative register',
     cohort: 'Düsseldorf Kunstakademie under Hoehme and Beuys',
     pron: { written: 'ahn-DRAY-as SHULTS-eh', ipa: '/anˈdʁeːas ˈʃʊlt͡sə/', lang: 'de-DE' },
-    wiki: 'Andreas_Schulze',
+    wiki: 'Andreas_Schulze_(artist)',
   },
   a723: { // Andreas Slominski
     born: 'Meppen, Germany, 1959',
@@ -3929,7 +3929,7 @@ const QUIZ_FACTS = {
     thesis: 'The Catalan painter\'s medium is the wall itself — sand, lime, marble dust — a built surface registering political and spiritual mark',
     cohort: 'Co-founded Dau-al-Set (1948); central post-war Catalan painter and anti-Franco voice',
     pron: { written: 'TAH-pee-ess', ipa: '/ˈtapiəs/', lang: 'ca' },
-    wiki: 'Antoni_T%C3%A0pies',
+    wiki: 'Antoni_Tàpies',
   },
   a604: { // Antonio Calderara
     born: 'Abbiategrasso, near Milan, 1903 (d. 1978)',
@@ -3940,7 +3940,7 @@ const QUIZ_FACTS = {
     thesis: 'The lake\'s particular light is the painting\'s subject — regional Italian painter sustained mid-century European abstraction',
     cohort: 'Anticipates Italian Spazialismo; parallel to European hard-edge tradition',
     pron: { written: 'kahl-deh-RAH-rah', ipa: '/kaldeˈrara/', lang: 'it-IT' },
-    wiki: 'Antonio_Calderara',
+    wiki: 'Antonio_Caldara',
   },
   a430: { // Arakawa
     born: 'Nagoya, Japan, 1936 (d. 2010)',
@@ -3987,7 +3987,7 @@ const QUIZ_FACTS = {
     thesis: 'The accumulated identical object is a more rigorous proposition about mass production than the painted soup can',
     cohort: 'Co-founded Nouveau Réalisme 1960 with Yves Klein, Pierre Restany',
     pron: { written: 'ar-MAHN', ipa: '/aʁˈmɑ̃/', lang: 'fr-FR' },
-    wiki: 'Arman',
+    wiki: 'Arman_Tsarukyan',
   },
   a712: { // Arnulf Rainer
     born: 'Baden, Austria, 1929',
@@ -4584,7 +4584,7 @@ const QUIZ_FACTS = {
     thesis: 'The post-1989 German painter\'s central subject is European political condition rendered in heavy allegory',
     cohort: 'Post-Polke / Kippenberger German painting; Hamburg generation under Werner Büttner',
     pron: { written: 'RIKH-ter', ipa: '/ˈʁɪçtɐ/', lang: 'de-DE' },
-    wiki: 'Daniel_Richter_(painter)',
+    wiki: 'Daniel_Richter_(artist)',
   },
   a983: { // Daniel Sinsel
     born: 'Munich, Germany, 1976',
@@ -4595,7 +4595,7 @@ const QUIZ_FACTS = {
     thesis: 'Contemporary painting\'s under-credited speed is the slow-craft register — small queer-classical panel painting is a legitimate position',
     cohort: 'Post-2005 London queer figurative; RCA-trained',
     pron: { written: 'ZIN-zel', ipa: '/ˈzɪnzəl/', lang: 'de-DE' },
-    wiki: 'Daniel_Sinsel',
+    wiki: 'Daniel_Hensel',
   },
   a438: { // Dara Birnbaum
     born: 'New York, NY, 1946',
@@ -4716,7 +4716,7 @@ const QUIZ_FACTS = {
     thesis: 'The post-Oehlen German painter\'s task is to make paintings the institution must work to accept',
     cohort: 'Post-2010 Düsseldorf Academy under Albert Oehlen',
     pron: { written: 'os-TROFF-skee', ipa: '/ɔsˈtʁɔfski/', lang: 'de-DE' },
-    wiki: 'David_Ostrowski_(painter)',
+    wiki: 'David_Ostrowski',
   },
   a572: { // David Salle
     born: 'Norman, Oklahoma, 1952',
@@ -4826,7 +4826,7 @@ const QUIZ_FACTS = {
     thesis: 'The small painted bronze of a single beloved sitter, sustained over decades, is a serious contemporary form',
     cohort: 'Quieter wing of YBA generation; RCA-trained',
     pron: { written: 'DON BROWN', ipa: '/dɒn braʊn/', lang: 'en-GB' },
-    wiki: 'Don_Brown_(artist)',
+    wiki: 'Don_Brown_(children's_author)',
   },
   a217: { // Doug Wheeler
     born: 'Globe, Arizona, 1939',
@@ -4958,7 +4958,7 @@ const QUIZ_FACTS = {
     thesis: 'The gallery\'s under-credited convention is assumed architectural neutrality — the replica Prada, empty swimming pool, boy on the plinth interrogate that',
     cohort: 'Scandinavian collaborative duo since 1995',
     pron: { written: 'ELM-grin and DRAG-set', ipa: '/ˈɛlmɡʁiːn ɔɡ ˈdʁaɡsɛt/', lang: 'da-DK' },
-    wiki: 'Elmgreen_%26_Dragset',
+    wiki: 'Elmgreen_&_Dragset',
   },
   a726: { // Emilio Vedova
     born: 'Venice, Italy, 1919 (d. 2006)',
@@ -4991,7 +4991,7 @@ const QUIZ_FACTS = {
     thesis: 'The contemporary landscape painter cannot pretend plein-air encounter — admit the diorama and the lit theatrical maquette',
     cohort: 'Post-2018 Yale MFA landscape painters',
     pron: { written: 'EM-uh WEB-ster', ipa: '/ˈɛmə ˈwɛbstər/', lang: 'en-US' },
-    wiki: 'Emma_Webster',
+    wiki: 'Emma_Webster_(artist)',
   },
   a423: { // Emmi Whitehorse
     born: 'Crownpoint, New Mexico, 1957 (Navajo)',
@@ -5068,7 +5068,7 @@ const QUIZ_FACTS = {
     thesis: 'The Afro-Caribbean painter works directly on the surface of the colonial document — Caribbean mythology painted on the slave-ship engraving performs the visible correction',
     cohort: 'Emigrated to Miami at 10; post-2010 Caribbean diasporic painting',
     pron: { written: 'FEE-reh-lay BAH-ess', ipa: '/fiɾeˈlej ˈbaes/', lang: 'es-DO' },
-    wiki: 'Firelei_B%C3%A1ez',
+    wiki: 'Firelei_Báez',
   },
 
   // ── Chunk 10 ──
@@ -5115,7 +5115,7 @@ const QUIZ_FACTS = {
     thesis: 'Post-colonial Latin American art\'s most useful medium is the public action that produces nothing visible',
     cohort: 'Moved to Mexico City 1986 for post-earthquake architectural reconstruction; took Belgian-art-world surname Alÿs',
     pron: { written: 'AL-iss', ipa: '/ˈæliːs/', lang: 'nl-BE' },
-    wiki: 'Francis_Al%C3%BFs',
+    wiki: 'Francis_Alÿs',
   },
   a116: { // Francis Picabia
     born: 'Paris, France, 1879 (Cuban-Spanish father, French mother; d. 1953)',
@@ -5214,7 +5214,7 @@ const QUIZ_FACTS = {
     thesis: 'Contemporary sculpture operates as a visual mathematical equation the viewer is invited to solve',
     cohort: 'Post-2010 Guadalajara sculpture',
     pron: { written: 'REE-koh', ipa: '/ˈriko/', lang: 'es-MX' },
-    wiki: 'Gabriel_Rico',
+    wiki: 'Gabriel_Vicéns',
   },
   a756: { // Gabriel de la Mora
     born: 'Colima, Mexico, 1968',
@@ -5225,7 +5225,7 @@ const QUIZ_FACTS = {
     thesis: 'The slow salvage of one specific material is the artist\'s under-credited working condition — the gallery\'s fast-and-large preference is at odds with salvage logic',
     cohort: 'Post-2000 Mexican conceptual-craft generation',
     pron: { written: 'duh lah MOR-ah', ipa: '/de la ˈmoɾa/', lang: 'es-MX' },
-    wiki: 'Gabriel_de_la_Mora',
+    wiki: 'Gabriel_de_la_Corte',
   },
   a563: { // Gala Porras-Kim
     born: 'Bogotá, Colombia, 1984 (Colombian-Korean family)',
@@ -5247,7 +5247,7 @@ const QUIZ_FACTS = {
     thesis: 'Under-credited subject of American documentary is the Black American family across institutional time — gallery installation gives the duration festival cinema denies',
     cohort: 'Post-2015 American documentary cinema; UCLA-trained',
     pron: { written: 'GAH-rit BRAD-lee', ipa: '/ˈɡærɪt ˈbrædli/', lang: 'en-US' },
-    wiki: 'Garrett_Bradley',
+    wiki: 'Garrett_Bradley_(artist)',
   },
   a538: { // Gary Hume
     born: 'Tenterden, Kent, England, 1962',
@@ -5291,7 +5291,7 @@ const QUIZ_FACTS = {
     thesis: 'The moving-image work\'s most useful subject is the slightly-past period whose visual style has become alien',
     cohort: 'Irish video art; post-2000 historical-document restaging generation',
     pron: { written: 'BURN', ipa: '/bɜrn/', lang: 'en-IE' },
-    wiki: 'Gerard_Byrne_(artist)',
+    wiki: 'Gerard_Byrne_(painter)',
   },
   a715: { // Gerwald Rockenschaub
     born: 'Linz, Austria, 1952',
@@ -5313,7 +5313,7 @@ const QUIZ_FACTS = {
     thesis: 'The canonical narrative of European Conceptualism under-credited Eastern European women\'s studio-bound practice — the studio is the conceptual proposition',
     cohort: 'Worked entirely from one Bucharest studio under Romanian communism; international rediscovery in late career',
     pron: { written: 'GEH-tah brah-TES-koo', ipa: '/ˈɡɛta brəˈtɛsku/', lang: 'ro-RO' },
-    wiki: 'Geta_Br%C4%83tescu',
+    wiki: 'Geta_Brătescu',
   },
   a852: { // Gianfranco Baruchello
     born: 'Livorno, Italy, 1924 (d. 2023)',
@@ -5657,7 +5657,7 @@ const QUIZ_FACTS = {
     thesis: 'The contemporary African artist\'s rigorous medium is the actual labour-and-trade material of the post-colonial economy',
     cohort: 'Founded Savannah Centre for Contemporary Art, Red Clay, Nkrumah Volini in Tamale',
     pron: { written: 'EE-brah-HEEM mah-HAH-mah', ipa: '/ˈɪbrəhiːm məˈhɑmə/', lang: 'en-GH' },
-    wiki: 'Ibrahim_Mahama',
+    wiki: 'Ibrahim_Mahama_(artist)',
   },
   a127: { // Ida Applebroog
     born: 'Bronx, New York, 1929 (Polish-Jewish; d. 2023)',
@@ -5712,7 +5712,7 @@ const QUIZ_FACTS = {
     thesis: 'Mughal miniature painting is not closed historical tradition — scaled up to the museum roof, its conventions render contemporary violence at the level of ornament',
     cohort: 'NCA Lahore traditional-miniature-revival generation; teaches at NCA',
     pron: { written: 'IM-ran kuh-RAY-shee', ipa: '/ɪmˈrɑːn kʊˈreɪʃi/', lang: 'ur' },
-    wiki: 'Imran_Qureshi',
+    wiki: 'Iman_Qureshi',
   },
   a312: { // Irving Penn
     born: 'Plainfield, NJ, 1917 (Russian-Jewish parents; d. 2009)',
@@ -5756,7 +5756,7 @@ const QUIZ_FACTS = {
     thesis: 'The Japanese painter\'s under-credited inheritance is the prehistoric clay figure — finger-painting is more honest than brush-with-oil',
     cohort: 'Post-2000 Japanese painters drawing on Jōmon and folk-religious traditions',
     pron: { written: 'EE-zoo-mee KAH-toh', ipa: '/izɯmi kato/', lang: 'ja-JP' },
-    wiki: 'Izumi_Kato',
+    wiki: 'Izumi_Kato_(artist)',
   },
   a642: { // Jack Pierson
     born: 'Plymouth, Massachusetts, 1960 (born Jonathan Pierson)',
@@ -5789,7 +5789,7 @@ const QUIZ_FACTS = {
     thesis: 'Contemporary abstraction is honest when it admits its actual sources — anime, fan culture, young-woman emotional weather',
     cohort: 'Youngest artist in Tate collection at age 26 (2020); Slade and RCA',
     pron: { written: 'JAY-day fah-doh-juh-TEE-mee', ipa: '/ˈdʒeɪdeɪ fədoʊdʒəˈtiːmi/', lang: 'yo' },
-    wiki: 'Jad%C3%A9_Fadojutimi',
+    wiki: 'Jadé_Fadojutimi',
   },
   a443: { // James Coleman
     born: 'Ballaghaderreen, County Roscommon, Ireland, 1941',
@@ -5800,7 +5800,7 @@ const QUIZ_FACTS = {
     thesis: 'The slide projector\'s discrete time-unit (click, held image, click) is a substantively different medium from cinema\'s continuous flow',
     cohort: 'Post-1970s Irish slide-projection art; long teaching at NCA Dublin',
     pron: { written: 'KOLE-man', ipa: '/ˈkoʊlmən/', lang: 'en-IE' },
-    wiki: 'James_Coleman_(artist)',
+    wiki: 'James_Coleman_(Irish_artist)',
   },
   a485: { // James Rosenquist
     born: 'Grand Forks, North Dakota, 1933 (d. 2017)',
@@ -5910,7 +5910,7 @@ const QUIZ_FACTS = {
     thesis: 'Contemporary Scandinavian painting\'s under-credited inheritance is the long Swedish Romantic and modernist-design tradition',
     cohort: 'Post-1990 Swedish figurative painters',
     pron: { written: 'YENS FENG-eh', ipa: '/jɛns ˈfɛŋə/', lang: 'sv-SE' },
-    wiki: 'Jens_F%C3%A4nge',
+    wiki: 'Jens_Hansen_Lundager',
   },
   a752: { // Jesper Just
     born: 'Copenhagen, Denmark, 1974',
@@ -5943,7 +5943,7 @@ const QUIZ_FACTS = {
     thesis: 'The Chinese painter\'s useful subject is the co-existence of Soviet-era industrial ruin and hyper-accelerated reconstruction',
     cohort: 'Post-2000 northeastern Chinese painters; Lu Xun Academy-trained',
     pron: { written: 'jee-AH AH-ee-lee', ipa: '/tɕjáː àːlì/', lang: 'zh-CN' },
-    wiki: 'Jia_Aili',
+    wiki: 'Jia_Ling',
   },
   a961: { // Jim Lambie
     born: 'Glasgow, Scotland, 1964',
@@ -5976,7 +5976,7 @@ const QUIZ_FACTS = {
     thesis: 'Post-war Japanese conceptual art\'s central figure prefigured by decades the contemporary turn toward depicting absence',
     cohort: 'Co-founded Hi-Red Center 1963 with Genpei Akasegawa and Natsuyuki Nakanishi; taught Lee Ufan and Mono-ha generation',
     pron: { written: 'JEE-roh tah-kah-MAH-tsoo', ipa: '/dʑiɾoː takamatsɯ/', lang: 'ja-JP' },
-    wiki: 'Jir%C5%8D_Takamatsu',
+    wiki: 'Jirō_Takamatsu',
   },
   a225: { // Jo Baer
     born: 'Seattle, Washington, 1929 (born Josephine Gail Kleinberg)',
@@ -6265,7 +6265,7 @@ const QUIZ_FACTS = {
     thesis: 'The city wall is itself a long-form abstract painting — reproducing its accumulated condition is more honest about abstraction than pure-studio production',
     cohort: 'Post-2000 graffiti-trained gallery painters of Caribbean diaspora',
     pron: { written: 'hoh-SAY PAR-lah', ipa: '/xoˈse ˈparla/', lang: 'es-CU' },
-    wiki: 'Jos%C3%A9_Parl%C3%A1',
+    wiki: 'José_Parlá',
   },
   a843: { // José Yaque
     born: 'Manzanillo, Cuba, 1985',
@@ -6298,7 +6298,7 @@ const QUIZ_FACTS = {
     thesis: 'Contemporary sculpture\'s under-credited proposition is the gallery as populated social space the viewer enters as outsider',
     cohort: 'Foundational Spanish post-1980 figurative sculpture; Tate Modern Turbine Hall 2001 (his last work)',
     pron: { written: 'HWAHN MOON-yohss', ipa: '/xwan ˈmuɲos/', lang: 'es-ES' },
-    wiki: 'Juan_Mu%C3%B1oz',
+    wiki: 'Juan_Muñoz_(sculptor)',
   },
   a236: { // Jules de Balincourt
     born: 'Paris, France, 1972',
@@ -6529,7 +6529,7 @@ const QUIZ_FACTS = {
     thesis: 'Sculpture\'s medium is the surface treatment that determines how the underlying form can be seen — the pixel-skin is a visual model of digital perception',
     cohort: 'Leads multi-disciplinary studio SANDWICH in Kyoto',
     pron: { written: 'KOH-hay NAH-wah', ipa: '/koheː nawa/', lang: 'ja-JP' },
-    wiki: 'Kohei_Nawa',
+    wiki: 'Kohei_Tanaka_(composer)',
   },
   a548: { // Kraftwerk
     born: 'Founded Düsseldorf 1970 (Ralf Hütter, Florian Schneider; current four-member ensemble)',
@@ -6661,7 +6661,7 @@ const QUIZ_FACTS = {
     thesis: 'Canonical post-war Korean art under-credited the geometric Origin-group generation relative to Dansaekhwa monochrome',
     cohort: 'Founding member of Origin group (with Kwon Young-Woo, Lee Seung-Taek); parallel to slightly later Dansaekhwa',
     pron: { written: 'LEE SUNG JOH', ipa: '/i sɯŋ dʑo/', lang: 'ko-KR' },
-    wiki: 'Lee_Seung-jio',
+    wiki: 'Lee_Seung-hoon_(rapper)',
   },
   a622: { // Leiko Ikemura
     born: 'Tsu, Japan, 1951',
@@ -6727,7 +6727,7 @@ const QUIZ_FACTS = {
     thesis: 'Sculpture\'s under-credited register is the explicitly decorative-and-delicate — beaded composition does chromatic work the monumental tradition cannot host',
     cohort: 'Post-1990 French-Belgian decorative-sculpture generation',
     pron: { written: 'lee-oh-NEL es-TEV', ipa: '/ljɔnɛl ɛsˈtɛv/', lang: 'fr-FR' },
-    wiki: 'Lionel_Est%C3%A8ve',
+    wiki: 'Lionel_Estève',
   },
 
   // ── Chunk 13 ──
@@ -6939,7 +6939,7 @@ const QUIZ_FACTS = {
     thesis: 'Contemporary German painting\'s under-credited inheritance is the WWI prosthetic-body visual record',
     cohort: 'Post-1990 Berlin painters; Berlin-Slade-trained',
     pron: { written: 'MAHG-nuhs PLES-en', ipa: '/ˈmaɡnʊs ˈplɛsən/', lang: 'de-DE' },
-    wiki: 'Magnus_Plessen',
+    wiki: 'Magnus_of_Füssen',
   },
   a143: { // Mamma Andersson
     born: 'Luleå, Sweden, 1962 (born Karin Andersson)',
@@ -7060,7 +7060,7 @@ const QUIZ_FACTS = {
     thesis: 'The Afro-Cuban diasporic artist\'s useful work is the literal material trace of the sugar trade — glass sugar cube, Yoruba ritual photograph, family snapshot construct documents the archive refused to keep',
     cohort: 'Post-1990 Afro-Cuban diasporic generation',
     pron: { written: 'KAHM-pohs PONS', ipa: '/ˈkampos pons/', lang: 'es-CU' },
-    wiki: 'Mar%C3%ADa_Magdalena_Campos-Pons',
+    wiki: 'María_Magdalena_Campos-Pons',
   },
   a477: { // Maria Nordman
     born: 'Görlitz, Saxony, Germany, 1943',
@@ -7225,7 +7225,7 @@ const QUIZ_FACTS = {
     thesis: 'Photography\'s under-credited proposition is the photogram-as-painting and photogram-as-animation-frame — work at the seam of light-sensitive paper, painted glass, cinematic frame',
     cohort: 'Long Harvard teaching; post-2000 photogram-and-animation generation',
     pron: { written: 'SAWN-derz', ipa: '/ˈsɔndərz/', lang: 'en-US' },
-    wiki: 'Matt_Saunders',
+    wiki: 'Matt_Saunders_(artist)',
   },
   a938: { // Matthew Barney
     born: 'San Francisco, 1967',
@@ -7349,7 +7349,7 @@ const QUIZ_FACTS = {
     thesis: 'The Flemish painter\'s under-credited inheritance is the long Belgian Surrealist tradition — small slow figurative painting does art-historical and psychological work together',
     cohort: 'Post-2000 Belgian figurative painters in Magritte-Delvaux-Spilliaert lineage',
     pron: { written: 'BOR-uh-mahns', ipa: '/ˈbɔrəmɑns/', lang: 'nl-BE' },
-    wiki: 'Micha%C3%ABl_Borremans',
+    wiki: 'Michaël_Borremans',
   },
   a934: { // Michele Abeles
     born: 'Northern California, 1977',
@@ -7393,7 +7393,7 @@ const QUIZ_FACTS = {
     thesis: 'The Spanish painter\'s useful subject is the literal Mediterranean-and-West-African material exchange',
     cohort: 'Post-1980 Spanish painting; extended Mali residences since 1988',
     pron: { written: 'mee-KEL bar-suh-LOH', ipa: '/miˈkɛl baɾsəˈlo/', lang: 'ca' },
-    wiki: 'Miquel_Barcel%C3%B3',
+    wiki: 'Miquel_Barceló',
   },
   a104: { // Mira Schendel
     born: 'Zürich, 1919 (born Myrra Dagmar Dub; Czech-Jewish family; d. 1988 São Paulo)',
@@ -7415,7 +7415,7 @@ const QUIZ_FACTS = {
     thesis: 'Sculpture\'s rigorous proposition is the installation whose materials genuinely decay across the run',
     cohort: 'Post-2015 Korean-European sculpture; Städelschule generation',
     pron: { written: 'MEE-reh LEE', ipa: '/miɾe i/', lang: 'ko-KR' },
-    wiki: 'Mire_Lee',
+    wiki: 'Mireille_Darc',
   },
   a819: { // Moataz Nasr
     born: 'Alexandria, Egypt, 1961',
@@ -7602,7 +7602,7 @@ const QUIZ_FACTS = {
     thesis: 'The post-Düsseldorf-School photographer cannot pretend post-production is separable from content',
     cohort: 'Late Düsseldorf School generation',
     pron: { written: 'POHL', ipa: '/poːl/', lang: 'de-DE' },
-    wiki: 'Nina_Pohl',
+    wiki: 'Nina_Paley',
   },
   a153: { // Noah Davis
     born: 'Seattle, 1983 (d. 2015 of rare cancer at 32)',
@@ -7613,7 +7613,7 @@ const QUIZ_FACTS = {
     thesis: 'Post-2010 Black American figurative painting canon (Marshall, Sherald, Wiley) is incomplete without Davis — the Underground Museum is part of the work',
     cohort: 'Founded Underground Museum in LA Arlington Heights 2012 with wife Karon Davis (free-admission community space until 2023 closure)',
     pron: { written: 'NOH-uh DAY-vis', ipa: '/ˈnoʊə ˈdeɪvɪs/', lang: 'en-US' },
-    wiki: 'Noah_Davis_(artist)',
+    wiki: 'Noah_Davis_(painter)',
   },
   a585: { // Nora Turato
     born: 'Zagreb, Croatia, 1991',
@@ -7635,7 +7635,7 @@ const QUIZ_FACTS = {
     thesis: 'The nomadic sculptor has a register the studio-bound artist does not — geographically distributed work the canonical tradition has not been asked to do',
     cohort: 'Took artist name "Not Vital" from Romansh word for "note"',
     pron: { written: 'NOT VEE-tahl', ipa: '/nɔt ˈviːtal/', lang: 'rm' },
-    wiki: 'Not_Vital',
+    wiki: 'Nothin'_at_All',
   },
   a597: { // Olga de Amaral
     born: 'Bogotá, Colombia, 1932',
@@ -7657,7 +7657,7 @@ const QUIZ_FACTS = {
     thesis: 'The young painter has access to the long European Symbolist tradition without irony',
     cohort: 'Post-2018 Danish painting generation',
     pron: { written: 'BAHK', ipa: '/bak/', lang: 'da-DK' },
-    wiki: 'Oliver_Bak',
+    wiki: 'Oliver_Baker',
   },
   a664: { // Oliver Beer
     born: 'Pembury, Kent, England, 1985',
@@ -7668,7 +7668,7 @@ const QUIZ_FACTS = {
     thesis: 'The historical building\'s architectural resonance is itself a kind of inherited musical instrument',
     cohort: 'Post-2010 British sound-and-architecture generation',
     pron: { written: 'BEER', ipa: '/bɪər/', lang: 'en-GB' },
-    wiki: 'Oliver_Beer',
+    wiki: 'Oliver_Beer_(artist)',
   },
   a623: { // Oliver Lee Jackson
     born: 'St Louis, Missouri, 1935',
@@ -7811,7 +7811,7 @@ const QUIZ_FACTS = {
     thesis: 'The long collaborative duo is one of the most under-credited working forms in contemporary art',
     cohort: 'Collaborated 1979 to Weiss\'s death 2012; Fischli now manages estate-continuation',
     pron: { written: 'FISH-lee and VICE', ipa: '/ˈfɪʃli ʊnt vaɪs/', lang: 'de-CH' },
-    wiki: 'Fischli/Weiss',
+    wiki: 'Peter_Fischli_&_David_Weiss',
   },
   a625: { // Peter Joseph
     born: 'London, 1929 (d. 2020)',
@@ -7822,7 +7822,7 @@ const QUIZ_FACTS = {
     thesis: 'Post-war British painting\'s contemplative-chromatic body of work, sustained quietly across four decades, is a serious available contribution',
     cohort: 'Mid-career artist; sustained quiet practice until late-career institutional rediscovery',
     pron: { written: 'PEE-ter JOH-zef', ipa: '/ˈpiːtər ˈdʒoʊzəf/', lang: 'en-GB' },
-    wiki: 'Peter_Joseph_(artist)',
+    wiki: 'Peter_Joseph',
   },
   a156: { // Philip-Lorca diCorcia
     born: 'Hartford, Connecticut, 1951',
@@ -7891,7 +7891,7 @@ const QUIZ_FACTS = {
     thesis: 'Contemporary painting\'s under-credited register is the deliberate calibrated chromatic gradient',
     cohort: 'Post-1990s Belgian painters working with chromatic gradient and architecture',
     pron: { written: 'PEE-ter VER-mearsh', ipa: '/ˈpitər ˈvərmeːrs/', lang: 'nl-BE' },
-    wiki: 'Pieter_Vermeersch',
+    wiki: 'Peter_Vermeersch',
   },
   a222: { // Portia Zvavahera
     born: 'Juru, Zimbabwe, 1985',
@@ -8023,7 +8023,7 @@ const QUIZ_FACTS = {
     thesis: 'Post-war German artist\'s useful subject is the country\'s railway-station network history',
     cohort: 'Düsseldorf Kunstakademie under Klaus Rinke generation',
     pron: { written: 'MOO-khah', ipa: '/ˈmuːxa/', lang: 'de-DE' },
-    wiki: 'Reinhard_Mucha',
+    wiki: 'Michael_Reinhardt',
   },
   a68: { // Richard Artschwager
     born: 'Washington, DC, 1923 (Austrian father, American mother; d. 2013)',
@@ -8221,7 +8221,7 @@ const QUIZ_FACTS = {
     thesis: 'The contemporary painter has access to deliberately unsophisticated visual register canonical narrative refused — smiling shark or flying dinosaur does chromatic and emotional work the sophisticated painting cannot',
     cohort: 'Worked as Manhattan truck driver for years before painting career took off in his thirties',
     pron: { written: 'NAH-vah', ipa: '/ˈnɑːvə/', lang: 'en-US' },
-    wiki: 'Robert_Nava_(artist)',
+    wiki: 'Robert_Duvall',
   },
   a200: { // Robert Ryman
     born: 'Nashville, Tennessee, 1930 (d. 2019)',
@@ -8353,7 +8353,7 @@ const QUIZ_FACTS = {
     thesis: 'Twentieth-century European-American conceptual art under-credited Colmer\'s two parallel bodies — slow institutional rediscovery accelerating since his death',
     cohort: '1970s NY conceptual generation',
     pron: { written: 'KOL-mer', ipa: '/ˈkoʊlmər/', lang: 'en-GB' },
-    wiki: 'Roy_Colmer',
+    wiki: 'Roy_Moller',
   },
   a155: { // Roy DeCarava
     born: 'Harlem, New York, 1919 (d. 2009)',
@@ -8454,7 +8454,7 @@ const QUIZ_FACTS = {
     thesis: 'Kené is not ornament but a notation system — a visual transcription of song, vision, and forest knowledge whose place in the museum is overdue',
     cohort: 'Shipibo-Conibo Center; White Cube',
     pron: { written: 'SAH-rah FLOH-res', ipa: '/ˈsaɾa ˈfloɾes/', lang: 'es-MX' },
-    wiki: 'Sara_Flores',
+    wiki: 'Sara_Lowes',
   },
   // LOW-CONTEXT
   a608: { // Sarah Cunningham
@@ -8466,7 +8466,7 @@ const QUIZ_FACTS = {
     thesis: 'Landscape painting can again be a metaphysical space — a site for the unconscious to register itself — rather than a depiction of any literal place',
     cohort: 'Early-2020s London maximalist painter cohort; Lisson Gallery',
     pron: { written: 'CUN-ning-ham', ipa: '/ˈkʌnɪŋəm/', lang: 'en-GB' },
-    wiki: 'Sarah_Cunningham_(artist)',
+    wiki: 'Sarah_Cunningham_(painter)',
   },
   a402: { // Sarah Morris
     born: 'Sevenoaks, Kent, 1967',
@@ -8477,7 +8477,7 @@ const QUIZ_FACTS = {
     thesis: 'The corporate gloss of the contemporary metropolis can be parsed simultaneously as form and as political diagnosis',
     cohort: '1990s Whitney-ISP generation; Pace/White Cube',
     pron: { written: 'MAW-ris', ipa: '/ˈmɔːrɪs/', lang: 'en-US' },
-    wiki: 'Sarah_Morris_(artist)',
+    wiki: 'Sarah_Morris',
   },
   a26: { // Sarah Sze
     born: 'Boston, 1969',
@@ -8523,7 +8523,6 @@ const QUIZ_FACTS = {
     pron: { written: 'SER-gay YEN-sen', ipa: '/ˈsɛrɡai ˈjɛnsən/', lang: 'da-DK' },
     wiki: 'Sergej_Jensen',
   },
-  // LOW-CONTEXT
   a36: { // Setsuko
     born: 'Tokyo, 1942 (b. Setsuko Ideta; later Setsuko Klossowska de Rola)',
     based: 'Grand Chalet de Rossinière, Switzerland',
@@ -8544,7 +8543,7 @@ const QUIZ_FACTS = {
     thesis: 'The Ming chair and the rabbit are not nostalgic objects but living forms — the literati tradition contains the materials for one of the strangest contemporary practices',
     cohort: 'Chinese post-1989 literati-tradition reconsiderers; White Cube',
     pron: { written: 'shao fan', ipa: '/ʂɑʊ̯⁵¹ fan³⁵/', lang: 'zh-CN' },
-    wiki: 'Shao_Fan',
+    wiki: 'Shao_Fang_Sheng',
   },
   a800: { // Shilpa Gupta
     born: 'Mumbai, 1976',
@@ -8566,7 +8565,7 @@ const QUIZ_FACTS = {
     thesis: 'The ceramic vessel is available to contemporary art if treated not as craft and not as fine-art-using-craft but as a sustained body with its own counts and series',
     cohort: 'David Zwirner roster; married to painter Jonas Wood',
     pron: { written: 'SHEE-oh koo-SAH-kah', ipa: '/ɕio kɯsaka/', lang: 'ja-JP' },
-    wiki: 'Shio_Kusaka',
+    wiki: 'Shin_Kusakawa',
   },
   a620: { // Shirazeh Houshiary
     born: 'Shiraz, Iran, 1955 (left Iran 1973)',
@@ -8753,7 +8752,7 @@ const QUIZ_FACTS = {
     thesis: 'The work is at its most precise where it produces real discomfort; the spectacle of the body and the spectacle of the institution are no longer separable subjects',
     cohort: 'Beijing post-East-Village conceptual generation; Galleria Continua',
     pron: { written: 'soon ywen, pung yoo', ipa: '/swən⁵⁵ ɥɛn³⁵ pʰəŋ³⁵ y³⁵/', lang: 'zh-CN' },
-    wiki: 'Sun_Yuan_and_Peng_Yu',
+    wiki: 'Sun_Yuan_&_Peng_Yu',
   },
   a618: { // Susan Hiller
     born: 'Tallahassee, Florida, 1940 (d. London, 2019)',
@@ -8855,7 +8854,7 @@ const QUIZ_FACTS = {
     thesis: 'Magnetism is a sculptural material of the same dignity as marble; the postwar European sculptor inherits the project of bringing modern physics into the visible field',
     cohort: 'Postwar Paris kinetic and Nouveau Réaliste circles; White Cube',
     pron: { written: 'TAH-kees', ipa: '/ˈtakis/', lang: 'el-GR' },
-    wiki: 'Takis_(artist)',
+    wiki: 'Takis_(sculptor)',
   },
   a239: { // Tara Donovan
     born: 'Flushing, New York, 1969',
@@ -8934,7 +8933,6 @@ const QUIZ_FACTS = {
     pron: { written: 'TAY-ah jor-JAHD-zeh', ipa: '/ˈtea dʒoɾdʒadze/', lang: 'ka-GE' },
     wiki: 'Thea_Djordjadze',
   },
-  // LOW-CONTEXT
   a764: { // Thilo Heinzmann
     born: 'Mainz, Germany, 1969',
     based: 'Berlin',
@@ -8968,7 +8966,6 @@ const QUIZ_FACTS = {
     pron: { written: 'ROOF', ipa: '/ʁʊf/', lang: 'de-DE' },
     wiki: 'Thomas_Ruff',
   },
-  // LOW-CONTEXT
   a574: { // Thomas Scheibitz
     born: 'Radeberg, East Germany, 1968',
     based: 'Berlin',
@@ -9090,7 +9087,7 @@ const QUIZ_FACTS = {
     thesis: 'Erasure is not the opposite of writing but its continuation — the partially-legible word is more accurate than the fully visible one, particularly when the language being worked carries racial and political weight',
     cohort: 'Contemporary conceptual-drawing tradition; Massimo De Carlo',
     pron: { written: 'LOO-iss', ipa: '/ˈluːɪs/', lang: 'en-US' },
-    wiki: 'Tony_Lewis_(artist)',
+    wiki: '',
   },
   a639: { // Tony Oursler
     born: 'New York, 1957',
@@ -9203,7 +9200,7 @@ const QUIZ_FACTS = {
     thesis: 'The painter\'s signature need not be a recurring image but a sustained attention — an exhibition of stylistically diverse paintings, made by a single hand over a focused period, can have its own coherence',
     cohort: 'Early-2020s New York painter scene; Lisson Gallery',
     pron: { written: 'van HAN-ohs', ipa: '/væn ˈhænoʊs/', lang: 'en-US' },
-    wiki: 'Van_Hanos',
+    wiki: 'Burr_Van_Nostrand',
   },
   a29: { // Vera Lutter
     born: 'Kaiserslautern, Germany, 1960',
@@ -9227,7 +9224,6 @@ const QUIZ_FACTS = {
     pron: { written: 'VEH-rah MOLE-nahr', ipa: '/ˈvɛrɒ ˈmolnaːr/', lang: 'hu-HU' },
     wiki: 'Vera_Molnár',
   },
-  // LOW-CONTEXT
   a970: { // Victoria Morton
     born: 'Glasgow, 1971',
     based: 'Glasgow and Italy',
@@ -9239,7 +9235,6 @@ const QUIZ_FACTS = {
     pron: { written: 'MOR-tun', ipa: '/ˈmɔːtən/', lang: 'en-GB' },
     wiki: 'Victoria_Morton',
   },
-  // LOW-CONTEXT
   a407: { // Virginia Overton
     born: 'Nashville, Tennessee, 1971',
     based: 'Brooklyn',
@@ -9271,7 +9266,7 @@ const QUIZ_FACTS = {
     thesis: 'The painting can be a daily accumulating record of time — the colour-field is not a synchronic image but a stack of dated decisions, and the work and the calendar can become one',
     cohort: 'Drawn from traditional Fujianese annual-coffin-painting practice; Pace Gallery',
     pron: { written: 'wahng gwahng-LUH', ipa: '/wɑŋ³⁵ kwɑŋ⁵⁵ lɤ⁵¹/', lang: 'zh-CN' },
-    wiki: 'Wang_Guangle',
+    wiki: 'Wang_Guangyi',
   },
   a39: { // Willem de Kooning
     born: 'Rotterdam, 1904 (stowed away to US 1926; d. East Hampton, 1997)',
@@ -9305,7 +9300,7 @@ const QUIZ_FACTS = {
     thesis: 'The painted symbolic single object — door, tree, eye — is a vehicle for an inward attention that the contemporary culture otherwise rarely sustains',
     cohort: 'Contemporary meditative-figurative painter generation; Pace',
     pron: { written: 'MUNK', ipa: '/mʌŋk/', lang: 'en-GB' },
-    wiki: 'William_Monk_(artist)',
+    wiki: '',
   },
   a693: { // Wolfgang Laib
     born: 'Metzingen, Germany, 1950 (trained as physician — MD 1974 — before art)',
@@ -9318,7 +9313,6 @@ const QUIZ_FACTS = {
     pron: { written: 'LIPE', ipa: '/laɪp/', lang: 'de-DE' },
     wiki: 'Wolfgang_Laib',
   },
-  // LOW-CONTEXT
   a136: { // Wook-kyung Choi
     born: 'Korea, 1940 (d. Seoul, 1985)',
     based: 'Seoul (and US 1963–79)',
@@ -9328,7 +9322,7 @@ const QUIZ_FACTS = {
     thesis: 'The Korean post-war canon has been wrong about the gender of its own avant-garde — the gestural abstract painting Choi made in the 1960s and 1970s belongs alongside the Dansaekhwa monochrome generation that overshadowed her',
     cohort: 'One of the first generation of Korean women to study in the US in the 1960s; Hauser & Wirth (late retrospective)',
     pron: { written: 'WOOK-kyong choy', ipa: '/wukk͈jʌŋ tɕʰwe/', lang: 'ko-KR' },
-    wiki: 'Choi_Wook-kyung',
+    wiki: 'Wook-kyung_Choi',
   },
   a739: { // Xavier Veilhan
     born: 'Lyon, 1963',
@@ -9350,7 +9344,7 @@ const QUIZ_FACTS = {
     thesis: 'The slowly-built large portrait — face attended to until it begins to dissolve back into pure light — is a contemporary form of the icon; the icon, after Modernism, is again available as a working artistic position',
     cohort: 'Contemporary engagement with Sufi mystical practice; Gagosian',
     pron: { written: 'why-zee KAH-mee', ipa: '/waɪ ziː ˈkɑːmi/', lang: 'fa-IR' },
-    wiki: 'Y._Z._Kami',
+    wiki: 'Y.Z._Kami',
   },
   a509: { // Yang Fudong
     born: 'Beijing, 1971',
@@ -9374,7 +9368,6 @@ const QUIZ_FACTS = {
     pron: { written: 'yin shyo-juhn', ipa: '/in⁵⁵ ɕjɤʊ⁵⁵ ʈ͡ʂən⁵⁵/', lang: 'zh-CN' },
     wiki: 'Yin_Xiuzhen',
   },
-  // LOW-CONTEXT
   a786: { // Yoan Capote
     born: 'Pinar del Río, Cuba, 1977',
     based: 'Havana',
@@ -9418,7 +9411,7 @@ const QUIZ_FACTS = {
     thesis: 'The parallel pairing of the individual photograph and the painted scene — the personal and the historical alongside each other — produces a precision about Chinese contemporary lived experience that neither half achieves alone',
     cohort: 'Beijing post-1989 figurative generation; married to Liu Xiaodong; Lisson',
     pron: { written: 'yoo hohng', ipa: '/y³⁵ xʊŋ³⁵/', lang: 'zh-CN' },
-    wiki: 'Yu_Hong_(artist)',
+    wiki: 'Yu_Hong',
   },
   a733: { // Zadie Xa
     born: 'Vancouver, 1983 (Korean immigrant family)',
@@ -9464,7 +9457,6 @@ const QUIZ_FACTS = {
     pron: { written: 'jahng shyaow-gahng', ipa: '/ʈ͡ʂɑŋ⁵⁵ ɕjɑʊ̯²¹⁴ kɑŋ⁵⁵/', lang: 'zh-CN' },
     wiki: 'Zhang_Xiaogang',
   },
-  // LOW-CONTEXT
   a806: { // Zhanna Kadyrova
     born: 'Brovary, Ukraine, 1981',
     based: 'Kyiv and Berazyne (Carpathians)',
@@ -9498,7 +9490,7 @@ const QUIZ_FACTS = {
     thesis: 'The institutional group photograph, the single most common official image of the Chinese twentieth century, is a substantive available subject — to commission, organise, and photograph the group is itself a sculptural act',
     cohort: 'Chinese conceptual-photographic generation; Galleria Continua',
     pron: { written: 'jwahng hway', ipa: '/ʈ͡ʂwɑŋ⁵⁵ xweɪ̯³⁵/', lang: 'zh-CN' },
-    wiki: 'Zhuang_Hui',
+    wiki: '',
   },
   a91: { // Zoe Leonard
     born: 'Liberty, New York, 1961',

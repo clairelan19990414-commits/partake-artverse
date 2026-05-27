@@ -93,6 +93,10 @@ def main():
     all_artists = json.load(open(ARTISTS_FULL))
     source = {a['id']: a for a in all_artists}
     images = json.load(open(IMAGES_JSON)) if IMAGES_JSON.exists() else {}
+    portraits_path = HERE / 'quiz_portraits.json'
+    portraits = json.load(open(portraits_path)) if portraits_path.exists() else {}
+    extracts_path = HERE / 'wiki_extracts.json'
+    extracts = json.load(open(extracts_path)) if extracts_path.exists() else {}
     field_audit = extract_field_completeness(FACTS_JS, list(facts_meta.keys()))
 
     rows = []
@@ -106,27 +110,30 @@ def main():
             'low_context': meta['low_context'],
             'placeholder_bio': src.get('placeholder_bio', False),
             'empty_fields': empty_fields,
-            'has_portrait': bool(img.get('portrait')),
-            'works_count': len(img.get('works', [])),
+            'has_portrait': bool(portraits.get(aid, {}).get('url')),
+            'works_count': len(img.get('candidates', [])),
+            'wiki_ok': extracts.get(aid, {}).get('status') == 'ok',
             'gallery': src.get('gallery', ''),
         })
 
-    # Tier assignment
+    # Tier assignment — perfection means portrait + works + wiki + non-empty + not LOW-CONTEXT
     def tier(r):
         if r['low_context']:
-            return 'A'
+            return 'A'  # thinnest source data, hand-rewrite candidate
         if r['empty_fields']:
-            return 'B'
-        if r['placeholder_bio']:
-            return 'C'
-        if not r['has_portrait'] or r['works_count'] == 0:
-            return 'D'
-        return 'E'
+            return 'B'  # required field empty
+        if not r['has_portrait']:
+            return 'C'  # missing portrait
+        if r['works_count'] < 3:
+            return 'D'  # thin works coverage (< 3 images)
+        if not r['wiki_ok']:
+            return 'E'  # no working Wikipedia extract (card shows blank panel)
+        return 'F'      # complete on every dimension
 
     for r in rows:
         r['tier'] = tier(r)
 
-    tier_counts = {t: sum(1 for r in rows if r['tier'] == t) for t in 'ABCDE'}
+    tier_counts = {t: sum(1 for r in rows if r['tier'] == t) for t in 'ABCDEF'}
 
     lines = [
         '# Quality audit — Partake quiz pool',
@@ -135,46 +142,48 @@ def main():
         '',
         '| Tier | Description | Count |',
         '|------|-------------|-------|',
-        f'| A | LOW-CONTEXT flagged — thinnest source, highest priority for re-write | {tier_counts["A"]} |',
-        f'| B | Required fact field empty (training, signature, etc.) | {tier_counts["B"]} |',
-        f'| C | Source bio was a one-line placeholder (drafted from training knowledge) | {tier_counts["C"]} |',
-        f'| D | Missing portrait or zero works (card degrades visually) | {tier_counts["D"]} |',
-        f'| E | Real source bio + complete facts + media — considered safe | {tier_counts["E"]} |',
+        f'| A | LOW-CONTEXT flagged (thinnest source, hand-rewrite candidate) | {tier_counts["A"]} |',
+        f'| B | Required fact field empty | {tier_counts["B"]} |',
+        f'| C | Missing portrait | {tier_counts["C"]} |',
+        f'| D | < 3 work images | {tier_counts["D"]} |',
+        f'| E | No working Wikipedia extract (card shows blank wiki panel) | {tier_counts["E"]} |',
+        f'| F | Complete on every dimension — safe | {tier_counts["F"]} |',
         '',
         '---',
         '',
     ]
 
     for t, label in [
-        ('A', 'Tier A — LOW-CONTEXT flagged (re-write first)'),
+        ('A', 'Tier A — LOW-CONTEXT flagged (hand-review first)'),
         ('B', 'Tier B — empty required fields'),
-        ('C', 'Tier C — placeholder source bio'),
-        ('D', 'Tier D — missing media'),
+        ('C', 'Tier C — missing portrait'),
+        ('D', 'Tier D — thin works (< 3 images)'),
+        ('E', 'Tier E — no working Wikipedia extract'),
     ]:
         lines.append(f'## {label}')
         lines.append('')
-        lines.append('| ID | Name | Gallery | Empty fields | Portrait | Works |')
-        lines.append('|----|------|---------|--------------|----------|-------|')
+        lines.append('| ID | Name | Gallery | Portrait | Works | Wiki |')
+        lines.append('|----|------|---------|----------|-------|------|')
         subset = [r for r in rows if r['tier'] == t]
         subset.sort(key=lambda r: (r['name'].lower()))
         for r in subset:
             lines.append(
                 f"| {r['id']} | {r['name']} | {r['gallery']} | "
-                f"{', '.join(r['empty_fields']) if r['empty_fields'] else '—'} | "
-                f"{'✓' if r['has_portrait'] else '—'} | {r['works_count']} |"
+                f"{'✓' if r['has_portrait'] else '—'} | {r['works_count']} | "
+                f"{'✓' if r['wiki_ok'] else '—'} |"
             )
         lines.append('')
 
-    lines.append('## Tier E summary')
+    lines.append('## Tier F — complete')
     lines.append('')
-    lines.append(f'**{tier_counts["E"]} artists** considered safe (real source bio, complete facts, has portrait + works).')
+    lines.append(f'**{tier_counts["F"]} artists** are complete on every dimension (portrait + ≥3 works + working Wikipedia extract + complete facts + not LOW-CONTEXT).')
     lines.append('')
 
     OUT_MD.write_text('\n'.join(lines))
     print(f'Wrote {OUT_MD}')
     print()
     print(f'Total: {len(rows)}')
-    for t in 'ABCDE':
+    for t in 'ABCDEF':
         print(f'  Tier {t}: {tier_counts[t]}')
 
 
