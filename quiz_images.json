@@ -431,6 +431,22 @@
         "image": "https://mdc-space.fra1.cdn.digitaloceanspaces.com/prod/_jpg3000/Social_Share_img_2023-03-29-142746_xmxa.jpg",
         "credit": "Courtesy Massimo De Carlo",
         "url": null
+      },
+      {
+        "source": "web.archive.org",
+        "title": "matthew wong: chapter one",
+        "year": "",
+        "image": "https://web.archive.org/web/20200606105901im_/https://cdn.aaa.org.hk/w350/physical_collection/718936A-0CD7-4F94-8EEB-BB4553509.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20200606105901/https://aaa.org.hk/en/collection/search/library/matthew-wong-chapter-one"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://web.archive.org/web/20200606105901im_/https://aaa.org.hk/en/collection/search/library/matthew-wong-chapter-one",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20200606105901/https://aaa.org.hk/en/collection/search/library/matthew-wong-chapter-one"
       }
     ]
   },
@@ -864,6 +880,22 @@
         "image": "https://www.artic.edu/iiif/2/2755633d-095d-a95e-55ac-5edaf81e37c3/full/1200,/0/default.jpg",
         "credit": "Gift of Jane E. Ratcliffe Coakley",
         "url": "https://www.artic.edu/artworks/200177"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://web.archive.org/web/20110704184700im_/https://213.121.208.204/modern/exhibitions/illuminations/images/biggers_hip-hop-ni-sasagu2_th.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20110704184700/https://213.121.208.204/modern/exhibitions/illuminations/artist_sanford.shtm"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://web.archive.org/web/20110704184700im_/https://213.121.208.204/modern/exhibitions/illuminations/images/biggers_hip-hop-ni-sasagu_th.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20110704184700/https://213.121.208.204/modern/exhibitions/illuminations/artist_sanford.shtm"
       }
     ]
   },
@@ -1441,6 +1473,30 @@
         "image": "https://www.galleriacontinua.com/assets/artists_images/786x430/NARI_WARD_SPRING_NOTE_01.jpg",
         "credit": "Courtesy Galleria Continua",
         "url": null
+      },
+      {
+        "source": "www.nariwardstudio.com",
+        "title": "nari ward",
+        "year": "",
+        "image": "https://images.squarespace-cdn.com/content/v1/6765db423659aa3ac3633897/150590ef-caaf-42fb-b33c-e41bf7f799fa/Screenshot+2025-02-06+at+1.24.32+PM+2.jpeg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.nariwardstudio.com/"
+      },
+      {
+        "source": "www.carnegie.org",
+        "title": "nari ward",
+        "year": "",
+        "image": "https://media.carnegie.org/filer_public_thumbnails/filer_public/ee/0b/ee0b7f51-15a7-40f0-97b6-8be0ef7589ef/nari_ward.png__288x288_crop_subsampling-2_upscale.png",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.carnegie.org/awards/honoree/nari-ward/"
+      },
+      {
+        "source": "huntercollegeart.org",
+        "title": "ward_headshot",
+        "year": "",
+        "image": "https://i0.wp.com/huntercollegeart.wpcomstaging.com/wp-content/uploads/2018/01/ward_headshot.jpg?w=224&#038;ssl=1",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://huntercollegeart.org/studio-art-faculty/nari-ward/"
       }
     ]
   },
@@ -1754,7 +1810,32 @@
     "name": "Allora & Calzadilla",
     "dates": "",
     "gallery": "Lisson",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "web.archive.org",
+        "title": "art21 production still",
+        "year": "",
+        "image": "https://web.archive.org/web/20071106100637im_/http://www.pbs.org/art21/artists/alloracalzadilla/img/art21-allora&amp;calzadilla-d.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20071030211812/http://www.pbs.org/art21/artists/alloracalzadilla/index.html"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "allora &amp; calzadilla",
+        "year": "",
+        "image": "https://web.archive.org/web/20071106100637im_/http://www.pbs.org/art21/artists/alloracalzadilla/img/artist-name.gif",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20071030211812/http://www.pbs.org/art21/artists/alloracalzadilla/index.html"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "artwork detail",
+        "year": "",
+        "image": "https://web.archive.org/web/20071106100637im_/http://www.pbs.org/art21/artists/alloracalzadilla/img/A&amp;C-art-ss.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20071030211812/http://www.pbs.org/art21/artists/alloracalzadilla/index.html"
+      }
+    ]
   },
   "a381": {
     "name": "Mona Hatoum",
@@ -2765,13 +2846,63 @@
     "name": "Ferrari Sheppard",
     "dates": "b. 1983",
     "gallery": "Massimo De Carlo",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.museicapitolini.org",
+        "title": "ferrari sheppard. beach beauties. dettaglio",
+        "year": "",
+        "image": "https://www.museicapitolini.org/sites/default/files/f_mostraevento/MIC_1050x546.jpeg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.museicapitolini.org/en/node/1013299"
+      },
+      {
+        "source": "www.museicapitolini.org",
+        "title": "ferrari sheppard beach beauties, 2023 [bellezze al mare] acrilico, carboncino e ",
+        "year": "",
+        "image": "https://www.museicapitolini.org/sites/default/files/styles/large/public/f_immagine/Ferrari%20Sheppard%20-%20Beach%20Beauties%2C%202023_800.jpg?itok=tgB74mCC",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.museicapitolini.org/en/node/1013299"
+      },
+      {
+        "source": "www.museicapitolini.org",
+        "title": "ferrari sheppard race, 2023 acrilico, carboncino e oro 24 carati su tela / acryl",
+        "year": "",
+        "image": "https://www.museicapitolini.org/sites/default/files/styles/large/public/f_immagine/Ferrari%20Sheppard.%20Race%2C%202023_800.jpg?itok=l-c_Ya9M",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.museicapitolini.org/en/node/1013299"
+      }
+    ]
   },
   "a460": {
     "name": "Brennan Gerard & Ryan Kelly",
     "dates": "b. 1978",
     "gallery": "Marian Goodman",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.riotmaterial.com",
+        "title": "gerard &amp; kelly: panorama. an interview with gerard &amp; kelly is at riot ma",
+        "year": "",
+        "image": "https://www.riotmaterial.com/wp-content/uploads/2022/12/26567GerardKelly_Marian-Goodman-11-7-2263955.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.riotmaterial.com/interview-with-gerard-kelly/"
+      },
+      {
+        "source": "www.riotmaterial.com",
+        "title": "gerard &amp; kelly: panorama. an interview with gerard &amp; kelly is at riot ma",
+        "year": "",
+        "image": "https://www.riotmaterial.com/wp-content/uploads/2022/12/26567GerardKelly_Marian-Goodman-11-7-2263912-2_1.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.riotmaterial.com/interview-with-gerard-kelly/"
+      },
+      {
+        "source": "www.riotmaterial.com",
+        "title": "gerard &amp; kelly: panorama. an interview with gerard &amp; kelly is at riot ma",
+        "year": "",
+        "image": "https://www.riotmaterial.com/wp-content/uploads/2022/12/26667GerardKellyLeft_Marian-Goodman-10-31-22-Gerard-and-Kelly63021-2.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.riotmaterial.com/interview-with-gerard-kelly/"
+      }
+    ]
   },
   "a315": {
     "name": "Alejandro Piñeiro Bello",
@@ -2926,13 +3057,31 @@
     "name": "Eric Orr",
     "dates": "1939–1998",
     "gallery": "Marian Goodman",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.huffingtonpost.com",
+        "title": "2011-10-26-eric_orr.jpg",
+        "year": "",
+        "image": "https://images.huffingtonpost.com/2011-10-26-Eric_Orr.JPG",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.huffingtonpost.com/john-seed/eric-orr-and-elizabeth-or_b_1090310.html"
+      }
+    ]
   },
   "a792": {
     "name": "Carlos Cruz-Diez",
     "dates": "1923–2019",
     "gallery": "Galleria Continua",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.coleccioncisneros.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://www-coleccioncisneros-org.s3.amazonaws.com/public/media/publications/conversaciones-book-three_quarter-cruz-diez.png",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.coleccioncisneros.org/publications/carlos-cruz-diez-in-conversation-with-ariel-jimenez-2010-09-01"
+      }
+    ]
   },
   "a845": {
     "name": "Carla Accardi",
@@ -3352,6 +3501,38 @@
         "image": "https://www.artic.edu/iiif/2/b2b50c6d-2e7b-8e19-686a-0b5c19e1755c/full/1200,/0/default.jpg",
         "credit": "Wilson L. Mead Fund; Contemporary Art Discretionary and The Orbit funds",
         "url": "https://www.artic.edu/artworks/196409"
+      },
+      {
+        "source": "www.interviewmagazine.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://www.interviewmagazine.com/wp-content/uploads/2008/11/img-elad-lassry-1_153706906281.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.interviewmagazine.com/art/elad-lassry/"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "image",
+        "year": "",
+        "image": "https://web.archive.org/web/20131230232836im_/http://www.frieze.com/uploads/images/middle/lassry1.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20131230232836/http://www.frieze.com/issue/print_article/on-display/"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "image",
+        "year": "",
+        "image": "https://web.archive.org/web/20131230232836im_/http://www.frieze.com/uploads/images/middle/lassry4.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20131230232836/http://www.frieze.com/issue/print_article/on-display/"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "image",
+        "year": "",
+        "image": "https://web.archive.org/web/20131230232836im_/http://www.frieze.com/uploads/images/middle/lassry3.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20131230232836/http://www.frieze.com/issue/print_article/on-display/"
       }
     ]
   },
@@ -3412,7 +3593,40 @@
     "name": "Giulia Cenci",
     "dates": "b. 1988",
     "gallery": "Massimo De Carlo",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.corriereadriatico.it",
+        "title": "il coraggio di giulia centurelli: fin&igrave; segregata per l'unit&agrave; d'ita",
+        "year": "",
+        "image": "https://statics.cedscdn.it/photos/MED/54/45/3775445_1212_sonar_giulia.jpg?webp",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.corriereadriatico.it/sonar/donna/sonar_donna_storia_giulia_centurelli_segregata_unita_italia-3775445.html"
+      },
+      {
+        "source": "www.habitualtourist.com",
+        "title": "giulia centurelli",
+        "year": "",
+        "image": "https://www.habitualtourist.com/FOTO/com_192/c_1303/giulia-centurelli-ascoli-piceno-citta_1558217429_330px-Centurelli_Autoritratto.webp",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.habitualtourist.com/giulia_centurelli"
+      },
+      {
+        "source": "www.habitualtourist.com",
+        "title": "dettaglio",
+        "year": "",
+        "image": "https://www.habitualtourist.com/thumbs/giulia-centurelli-ascoli-piceno-citta_1558217429_330px-Centurelli_Autoritratto-300.webp",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.habitualtourist.com/giulia_centurelli"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "giulia-centurelli",
+        "year": "",
+        "image": "https://web.archive.org/web/20200713185340im_/https://danielaedintorni.files.wordpress.com/2016/10/giulia-centurelli.jpg?w=227&amp;h=300",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20200713185340/https://danielaedintorni.com/2016/10/31/accadde-oggi-nel-1832-nasce-giulia-centurelli/"
+      }
+    ]
   },
   "a869": {
     "name": "Günther Förg",
@@ -3820,7 +4034,32 @@
     "name": "Lily Stockman",
     "dates": "b. 1982",
     "gallery": "Massimo De Carlo",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "lilystockman.com",
+        "title": "lily stockman",
+        "year": "",
+        "image": "https://images.squarespace-cdn.com/content/v1/54505956e4b06b36eaf86245/376851b8-35f3-4c4d-a8cd-ac3eb808a683/Screen+Shot+2024-02-16+at+11.54.55+AM.png?format=750w",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://lilystockman.com"
+      },
+      {
+        "source": "lilystockman.com",
+        "title": "  top pasture , 2019 oil on linen 14 x 11 inches ",
+        "year": "",
+        "image": "https://images.squarespace-cdn.com/content/v1/54505956e4b06b36eaf86245/1560377679058-31Z1E63EBI6N3LLJS6OQ/Stockman-2019-05-23_006.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://lilystockman.com"
+      },
+      {
+        "source": "lilystockman.com",
+        "title": "  derek jarman’s garden , 2019 oil on linen 14 x 11 inches ",
+        "year": "",
+        "image": "https://images.squarespace-cdn.com/content/v1/54505956e4b06b36eaf86245/1560377203213-ZG4FR12XDCFGVR45293H/Stockman+1-8+002.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://lilystockman.com"
+      }
+    ]
   },
   "a817": {
     "name": "José Mesías",
@@ -3832,7 +4071,16 @@
     "name": "Jorge Macchi",
     "dates": "b. 1963",
     "gallery": "Galleria Continua",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.diarioandino.com.ar",
+        "title": "un humilde recuerdo para jorge maciel",
+        "year": "",
+        "image": "https://diarioandino2.cdn.net.ar/i1700/diarioandino2/images/07/45/74504_3ce59dfd44d58c0d716cc7805d19f9ec8b5c8441a8ff8e151b191c53c1842a38/md.webp",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.diarioandino.com.ar/noticias/2011/09/16/56554-un-humilde-recuerdo-para-jorge-maciel"
+      }
+    ]
   },
   "a174": {
     "name": "Liu Ye",
@@ -3944,7 +4192,48 @@
     "name": "Leila Alaoui",
     "dates": "1982–2016",
     "gallery": "Galleria Continua",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.fondationleilaalaoui.org",
+        "title": "biographie de leila alaoui",
+        "year": "",
+        "image": "https://static.wixstatic.com/media/3acf1d_a4b8a4df913f421cb155bc208ae0fe0c~mv2.jpg/v1/fill/w_147,h_147,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/3acf1d_a4b8a4df913f421cb155bc208ae0fe0c~mv2.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.fondationleilaalaoui.org/"
+      },
+      {
+        "source": "www.theguardian.com",
+        "title": "leila alaoui died after a terrorist incident in ouagadougou, burkina faso.",
+        "year": "",
+        "image": "https://i.guim.co.uk/img/media/fe6ec0ee750f7d16307586c168916f3f70c74f06/0_1006_3543_2126/master/3543.jpg?width=465&amp;dpr=1&amp;s=none&amp;crop=none",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.theguardian.com/artanddesign/2016/jan/22/leila-alaoui"
+      },
+      {
+        "source": "www.theguardian.com",
+        "title": "a photograph of martine kabore by leila alaoui, taken on 13 january in ouagadoug",
+        "year": "",
+        "image": "https://i.guim.co.uk/img/media/c9685ed9d30f8620d32c44b425db52f6f79a5849/0_99_1500_901/master/1500.jpg?width=445&amp;dpr=1&amp;s=none&amp;crop=none",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.theguardian.com/artanddesign/2016/jan/22/leila-alaoui"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "leila alaoui died after a terrorist incident in ouagadougou, burkina faso.",
+        "year": "",
+        "image": "https://web.archive.org/web/20240512014726im_/https://i.guim.co.uk/img/media/fe6ec0ee750f7d16307586c168916f3f70c74f06/0_1006_3543_2126/master/3543.jpg?width=465&amp;dpr=1&amp;s=none",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20240512014726/https://www.theguardian.com/artanddesign/2016/jan/22/leila-alaoui"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "a photograph of martine kabore by leila alaoui, taken on 13 january in ouagadoug",
+        "year": "",
+        "image": "https://web.archive.org/web/20240512014726im_/https://i.guim.co.uk/img/media/c9685ed9d30f8620d32c44b425db52f6f79a5849/0_99_1500_901/master/1500.jpg?width=445&amp;dpr=1&amp;s=none",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20240512014726/https://www.theguardian.com/artanddesign/2016/jan/22/leila-alaoui"
+      }
+    ]
   },
   "a960": {
     "name": "Lucia Laguna",
@@ -4272,6 +4561,14 @@
         "image": "https://www.artic.edu/iiif/2/d0dc5f13-7ac6-eea8-573d-1d000fda31eb/full/1200,/0/default.jpg",
         "credit": "Gift of Mary Jane Jacob and Clayton A. R. H. Lewis in memory of Russell L. Lewis, Jr.",
         "url": "https://www.artic.edu/artworks/251386"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "kounellis",
+        "year": "",
+        "image": "https://web.archive.org/web/20071011071342im_/http://siteimages.guggenheim.org/gpc_artist_name_80.gif",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20071011071342/http://www.guggenheimcollection.org/site/artist_bio_80.html"
       }
     ]
   },
@@ -4291,7 +4588,32 @@
     "name": "Jenna Gribbon",
     "dates": "b. 1978",
     "gallery": "Massimo De Carlo",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.vogue.com",
+        "title": "image may contain portrait head face photography person adult art painting cloth",
+        "year": "",
+        "image": "https://assets.vogue.com/photos/637257a7544f8f0edac3464b/master/w_2560%2Cc_limit/VO1222_JennaGribbon_01.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.vogue.com/article/jenna-gribbon-profile"
+      },
+      {
+        "source": "www.vogue.com",
+        "title": "image may contain art painting adult person portrait face head photography and m",
+        "year": "",
+        "image": "https://assets.vogue.com/photos/637257a73899091f8eb639c5/master/w_1600%2Cc_limit/VO1222_JennaGribbon_02.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.vogue.com/article/jenna-gribbon-profile"
+      },
+      {
+        "source": "www.vogue.com",
+        "title": "image may contain art painting art gallery and modern art",
+        "year": "",
+        "image": "https://assets.vogue.com/photos/6373b352f0216316362c134a/master/w_1600%2Cc_limit/Collezione%2520maramotti_Jenna%2520Gribbon_Mireages_10%2C22_0031.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.vogue.com/article/jenna-gribbon-profile"
+      }
+    ]
   },
   "a902": {
     "name": "Luigi Ontani",
@@ -4586,6 +4908,38 @@
         "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/John_Armleder_Untitled_1984.jpg",
         "credit": "Wikipedia article: John_Armleder",
         "url": "https://en.wikipedia.org/wiki/John_Armleder"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "john armleder. photo by collier schorr",
+        "year": "",
+        "image": "https://web.archive.org/web/20210412184201im_/https://news.artnet.com/app/news-upload/2019/07/Armleder-768x1024.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20210412184201/https://news.artnet.com/art-world/john-armleder-interview-2-1597177"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "jon armleder, passion z (2019).photo by annik wetter, courtesy of david kordansk",
+        "year": "",
+        "image": "https://web.archive.org/web/20210412184201im_/https://news.artnet.com/app/news-upload/2019/07/JAR-19-010-1024x768.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20210412184201/https://news.artnet.com/art-world/john-armleder-interview-2-1597177"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "john armleder, detail of quibble(2018). photo by annik wetter, courtesy of david",
+        "year": "",
+        "image": "https://web.archive.org/web/20210412184201im_/https://news.artnet.com/app/news-upload/2019/07/JAR-19-002j-768x1024.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20210412184201/https://news.artnet.com/art-world/john-armleder-interview-2-1597177"
+      },
+      {
+        "source": "www.hesge.ch",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://www.hesge.ch/head/sites/default/files/styles/colr/public/projet/media/tlkh_johnarmleder_27_04_2016_chead_samuellecocq-5.jpg?itok=OqL2vTHu",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.hesge.ch/head/evenement/2016/talking-heads-john-m-armleder"
       }
     ]
   },
@@ -4656,6 +5010,14 @@
         "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Hungary_pecs_-_vasarely0.jpg",
         "credit": "Wikipedia article: Julio_Le_Parc",
         "url": "https://en.wikipedia.org/wiki/Julio_Le_Parc"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "interview julio le parc",
+        "year": "",
+        "image": "https://web.archive.org/web/20130620230126im_/http://palaisdetokyo.com/sites/default/files/styles/pdt_image_video/public/media-youtube/8k04xaoxT80.jpg?itok=6d6qaQn-",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20130620230126/http://palaisdetokyo.com/en/exhibition/julio-le-parc"
       }
     ]
   },
@@ -5337,6 +5699,14 @@
         "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Piotr_Uklanski_-_Untitled_%28Fist%29.jpg",
         "credit": "Wikipedia article: Piotr_Uklański",
         "url": "https://en.wikipedia.org/wiki/Piotr_Uklan%CC%81ski"
+      },
+      {
+        "source": "www.interviewmagazine.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://www.interviewmagazine.com/wp-content/uploads/2015/03/img-piotr-uklanski-01_123922652433.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.interviewmagazine.com/art/piotr-uklanski-metropolitan-museum-of-art/#_"
       }
     ]
   },
@@ -5513,6 +5883,30 @@
         "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Rita_Ackermann%2C_%22Get_a_Job%2C%22_1993.jpg",
         "credit": "Wikipedia article: Rita_Ackermann",
         "url": "https://en.wikipedia.org/wiki/Rita_Ackermann"
+      },
+      {
+        "source": "www.artnet.com",
+        "title": "rita ackermann&#x27;s elusive quest for truth (or at least cinema vérité)",
+        "year": "",
+        "image": "https://news.artnet.com/cdn-cgi/image/w=106,h=106,format=auto,fit=cover/https://news.artnet.com/app/news-upload/2024/05/ACKERMANN-RITA-2-min-220x220.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.artnet.com/artists/rita-ackermann/"
+      },
+      {
+        "source": "www.artnet.com",
+        "title": "no title, 2018",
+        "year": "",
+        "image": "https://www.artnet.com/WebServices/images/ll3022578llgU7S32CfDrCWQFHPKAD/rita-ackermann-no-title.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.artnet.com/artists/rita-ackermann/"
+      },
+      {
+        "source": "www.artnet.com",
+        "title": "13 takes, 2023",
+        "year": "",
+        "image": "https://www.artnet.com/WebServices/images/ll3022576llgU7S32CfDrCWQFHPKAD/rita-ackermann-13-takes.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.artnet.com/artists/rita-ackermann/"
       }
     ]
   },
@@ -6127,13 +6521,79 @@
     "name": "Monster Chetwynd",
     "dates": "b. 1973",
     "gallery": "Massimo De Carlo",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.theguardian.com",
+        "title": "marvin gaye chetwynd",
+        "year": "",
+        "image": "https://i.guim.co.uk/img/static/sys-images/Arts/Arts_/Pictures/2013/9/25/1380125142111/Marvin-Gaye-Chetwynd-010.jpg?width=465&amp;dpr=1&amp;s=none&amp;crop=none",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.theguardian.com/artanddesign/2013/sep/25/marvin-gaye-chetwynd-spartacus"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "marvin gaye chetwynd",
+        "year": "",
+        "image": "https://web.archive.org/web/20130926161424im_/http://static.guim.co.uk/sys-images/Arts/Arts_/Pictures/2013/9/25/1380125142111/Marvin-Gaye-Chetwynd-010.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20130926161424/http://www.theguardian.com/artanddesign/2013/sep/25/marvin-gaye-chetwynd-spartacus"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://web.archive.org/web/20130926161424im_/http://hits.theguardian.com/b/ss/guardiangu-network/1/H.25.5/96178?ns=guardian&amp;pageName=Culture%3AArt+and+design%3AArt%3AArticle%3Amarvin-gaye-chetwynd-spartacus%3A1971049&amp;ch=Art+and+design&amp;c3=G2&amp;c4=Art+%28visual+arts+only%29%2CArt+and+design%2CCulture&amp;c5=Art%2CNot+commercially+useful&amp;c6=Marvin+Gaye+Chetwynd&amp;c7=2013%2F09%2F25+06%3A23&amp;c8=1971049&amp;c9=Article&amp;c10=Feature&amp;c13=&amp;c19=GUS&amp;c47=US&amp;c64=UK&amp;c65=Why+I+changed+my+name+to+Marvin+Gaye+Chetwynd&amp;c66=Culture&amp;c67=nextgen-compatible&amp;c72=Culture%3AArt+and+design%3AArt&amp;c73=Culture%3AArt+and+design%3AArt&amp;c74=Culture%3AArt+and+design&amp;c75=Culture&amp;h2=GU%2FCulture%2FArt+and+design%2FArt&amp;c2=GUID:(none)",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20130926161424/http://www.theguardian.com/artanddesign/2013/sep/25/marvin-gaye-chetwynd-spartacus"
+      }
+    ]
   },
   "a913": {
     "name": "Peter Schuyff",
     "dates": "b. 1958",
     "gallery": "Massimo De Carlo",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.sorrywereclosed.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "http://www.sorrywereclosed.com/cspdocs/contact/portfolio/frontpict_schuyff.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.sorrywereclosed.com/en/artistes/oeuvres/3/peter-schuyff"
+      },
+      {
+        "source": "www.sorrywereclosed.com",
+        "title": "peter schuyff",
+        "year": "",
+        "image": "http://www.sorrywereclosed.com/cspdocs/artwork/images/peter_schuyff_sorry_we_re_closed_232.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.sorrywereclosed.com/en/artistes/oeuvres/3/peter-schuyff"
+      },
+      {
+        "source": "www.sorrywereclosed.com",
+        "title": "peter schuyff",
+        "year": "",
+        "image": "http://www.sorrywereclosed.com/cspdocs/artwork/images/peter_schuyff_sorry_we_re_closed_233.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.sorrywereclosed.com/en/artistes/oeuvres/3/peter-schuyff"
+      },
+      {
+        "source": "www.artnet.com",
+        "title": "untitled, 2022",
+        "year": "",
+        "image": "https://www.artnet.com/WebServices/images/ll01037lld32JKFgEUECfDrCWQFHPKc89PJ/peter-schuyff-untitled.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.artnet.com/artists/peter-schuyff/"
+      },
+      {
+        "source": "www.artnet.com",
+        "title": "small plato o.j., 2010",
+        "year": "",
+        "image": "https://www.artnet.com/WebServices/images/ll3053331llgT6kR3CfDrCWQFHPKAD/peter-schuyff-small-plato-o.j..jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.artnet.com/artists/peter-schuyff/"
+      }
+    ]
   },
   "a900": {
     "name": "Matt Mullican",
@@ -6450,7 +6910,48 @@
     "name": "Nicole Wittenberg",
     "dates": "b. 1979",
     "gallery": "Massimo De Carlo",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.skarstedt.com",
+        "title": "nicole wittenberg, fede on the beach,&amp;nbsp;2019",
+        "year": "",
+        "image": "https://static-assets.artlogic.net/w_260,h_180,c_limit/exhibit-e/5a7db4e0a09a721a338b4568/070a7cd93a96cd6f0ce4573b79e5af6b.jpeg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.skarstedt.com/exhibitions/in-her-hands"
+      },
+      {
+        "source": "www.skarstedt.com",
+        "title": "nicole wittenberg, patmos 8,&amp;nbsp;2018",
+        "year": "",
+        "image": "https://static-assets.artlogic.net/w_260,h_180,c_limit/exhibit-e/5a7db4e0a09a721a338b4568/bad6364546f04b8621a5da72669e4d42.jpeg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.skarstedt.com/exhibitions/in-her-hands"
+      },
+      {
+        "source": "www.elle.com",
+        "title": "nicole wittenberg's ",
+        "year": "",
+        "image": "https://hips.hearstapps.com/ell.h-cdn.co/assets/17/09/1488477533-red-handed-again-nicole-wittenberg.jpg?resize=980:*",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.elle.com/culture/art-design/a42837/women-painting-male-anatomy/"
+      },
+      {
+        "source": "www.ninajohnson.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://ninajohnson.com/wp-content/uploads/2020/10/nicolewittenberg_pinklight-scaled.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.ninajohnson.com/exhibitions/nicole-wittenberg-sunday-kind-of-love/"
+      },
+      {
+        "source": "www.ninajohnson.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://ninajohnson.com/wp-content/uploads/2020/10/nicolewittenberg_asunnyafternoon.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.ninajohnson.com/exhibitions/nicole-wittenberg-sunday-kind-of-love/"
+      }
+    ]
   },
   "a306": {
     "name": "Thomas Nozkowski",
@@ -7298,7 +7799,24 @@
     "name": "Yan Ping",
     "dates": "b. 1956",
     "gallery": "Massimo De Carlo",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "yanping.artron.net",
+        "title": "二维码图标",
+        "year": "",
+        "image": "https://yanping.artron.net/static/image/common/qr.png",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://yanping.artron.net/"
+      },
+      {
+        "source": "yanping.artron.net",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://yanping.artron.net/static/image/v.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://yanping.artron.net/"
+      }
+    ]
   },
   "a846": {
     "name": "Doug Aitken",
@@ -9003,7 +9521,48 @@
     "name": "Jamian Juliano-Villani",
     "dates": "b. 1987",
     "gallery": "Massimo De Carlo",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "news.artnet.com",
+        "title": "scott teplin's mural at brooklyn school ps130.",
+        "year": "",
+        "image": "https://news.artnet.com/app/news-upload/2015/02/scott-teplin-jamian-juliano-villani-gavin-brown-3.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://news.artnet.com/market/when-is-artist-on-artist-theft-okay-jamian-juliano-villani-and-scott-teplin-duke-it-out-241339"
+      },
+      {
+        "source": "news.artnet.com",
+        "title": "jamian-juliano-villani-scott-teplin-gavin-brown-3",
+        "year": "",
+        "image": "https://news.artnet.com/app/news-upload/2015/02/jamian-juliano-villani-scott-teplin-gavin-brown-3.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://news.artnet.com/market/when-is-artist-on-artist-theft-okay-jamian-juliano-villani-and-scott-teplin-duke-it-out-241339"
+      },
+      {
+        "source": "news.artnet.com",
+        "title": "scott-teplin-jamian-juliano-villani-gavin-brown",
+        "year": "",
+        "image": "https://news.artnet.com/app/news-upload/2015/02/scott-teplin-jamian-juliano-villani-gavin-brown.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://news.artnet.com/market/when-is-artist-on-artist-theft-okay-jamian-juliano-villani-and-scott-teplin-duke-it-out-241339"
+      },
+      {
+        "source": "jonathangriffin.org",
+        "title": "juliano-villani_-in-the-zen-garden-(installed)_-2014_-acrylic-and-airbrush-on-ca",
+        "year": "",
+        "image": "https://jonathangriffin.org/wp-content/uploads/2014/08/juliano-villani_-in-the-zen-garden-installed_-2014_-acrylic-and-airbrush-on-canvas_-36-x-36-in-91-44-x-91-e1408728391271.jpg?w=500&#038;h=510",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://jonathangriffin.org/2014/08/22/jamian-juliano-villani/"
+      },
+      {
+        "source": "jonathangriffin.org",
+        "title": "jamian juliano-villani_nitelite_36x36_jjv101_2",
+        "year": "",
+        "image": "https://jonathangriffin.org/wp-content/uploads/2014/08/jamian-juliano-villani_nitelite_36x36_jjv101_2.jpg?w=500&#038;h=498",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://jonathangriffin.org/2014/08/22/jamian-juliano-villani/"
+      }
+    ]
   },
   "a190": {
     "name": "Palermo",
@@ -10058,6 +10617,14 @@
         "image": "https://upload.wikimedia.org/wikipedia/en/c/cc/Amendment_8%2C_2014%2C_Mark_Bradford_at_SAAM_2023.jpeg",
         "credit": "Wikipedia article: Mark_Bradford",
         "url": "https://en.wikipedia.org/wiki/Mark_Bradford"
+      },
+      {
+        "source": "www.interviewmagazine.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://www.interviewmagazine.com/wp-content/uploads/2017/06/img-mark-bradford_183224391645.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.interviewmagazine.com/art/mark-bradford"
       }
     ]
   },
@@ -10159,6 +10726,14 @@
         "image": "https://upload.wikimedia.org/wikipedia/en/0/0f/Rudolf_Stingel_Untitled_1998_oil_and_enamel_on_paper_41_%C2%BE_x_29_%E2%85%9D_inches.jpg",
         "credit": "Wikipedia article: Rudolf_Stingel",
         "url": "https://en.wikipedia.org/wiki/Rudolf_Stingel"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://web.archive.org/web/20071029231453im_/http://www.mcachicago.org/exhib_images/0705dstingel3.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20071029231453/http://www.mcachicago.org/exhibitions/exh_detail.php?id=55"
       }
     ]
   },
@@ -10957,7 +11532,16 @@
     "name": "Ali Banisadr",
     "dates": "b. 1976",
     "gallery": "Thaddaeus Ropac",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "alibanisadr.com",
+        "title": "ali banisadr",
+        "year": "",
+        "image": "https://s3.amazonaws.com/files.collageplatform.com.prod/application/55f9dfbb6aa72c7039b1c099/e7babc3f550c519cca83a30a63eb0f40.png",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://alibanisadr.com"
+      }
+    ]
   },
   "a275": {
     "name": "Alicja Kwade",
@@ -11104,6 +11688,22 @@
         "image": "https://www.artic.edu/iiif/2/3266a387-09cb-3aae-a194-7263c6be8d3d/full/1200,/0/default.jpg",
         "credit": "Contemporary Art Discretionary Fund",
         "url": "https://www.artic.edu/artworks/239034"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://web.archive.org/web/20160817231101im_/https://www.calarts.edu/sites/default/files/imagecache/image_medium/styled-images/event/2013/08/12/sekula.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20160817231101/https://www.calarts.edu/news/2013-aug-12/allan-sekula-1951-2013"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://web.archive.org/web/20130826040714im_/http://www.artinamericamagazine.com/files/2013/08/12/img-allan-sekula-obit_170121872920.jpg_standalone.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20130826040714/http://www.artinamericamagazine.com/news-opinion/news/2013-08-12/allan-sekula-1951-2013/"
       }
     ]
   },
@@ -12124,13 +12724,47 @@
     "name": "Anj Smith",
     "dates": "b. 1978",
     "gallery": "Hauser & Wirth",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.independent.co.uk",
+        "title": "artist’s cocoon: anj smith in her finsbury park studio in north london",
+        "year": "",
+        "image": "https://static.the-independent.com/s3fs-public/thumbnails/image/2016/03/17/16/5937132.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.independent.co.uk/arts-entertainment/art/features/anj-smith-artist-i-get-through-a-brush-a-day-by-the-end-of-the-day-they-are-knackered-a6936891.html"
+      }
+    ]
   },
   "a662": {
     "name": "Alvaro Barrington",
     "dates": "b. 1983",
     "gallery": "Thaddaeus Ropac",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.studiointernational.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://www.studiointernational.com/images/articles/b/059-barrington-alvaro-2019/barrington_660x565.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.studiointernational.com/index.php/alvaro-barrington-interview-artists-i-steal-from"
+      },
+      {
+        "source": "www.studiointernational.com",
+        "title": "portrait of alvaro barrington. courtesy galerie thaddaeus ropac, london · paris ",
+        "year": "",
+        "image": "https://www.studiointernational.com/images/articles/b/059-barrington-alvaro-2019/smallpix/01-150.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.studiointernational.com/index.php/alvaro-barrington-interview-artists-i-steal-from"
+      },
+      {
+        "source": "www.studiointernational.com",
+        "title": "alvaro barrington, 1968, 2017. oil and yarn on burlap paper in custom frame,  fr",
+        "year": "",
+        "image": "https://www.studiointernational.com/images/articles/b/059-barrington-alvaro-2019/smallpix/09-150.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.studiointernational.com/index.php/alvaro-barrington-interview-artists-i-steal-from"
+      }
+    ]
   },
   "a554": {
     "name": "Anthony McCall",
@@ -12183,7 +12817,16 @@
     "name": "Arcangelo Sassolino",
     "dates": "b. 1967",
     "gallery": "Galleria Continua",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "news.stlpublicradio.org",
+        "title": "arcangelo sassolino contemporary art museum",
+        "year": "",
+        "image": "https://npr.brightspotcdn.com/dims4/default/6e7a2ab/2147483647/strip/true/crop/2362x1619+0+0/resize/880x603!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fkwmu%2Ffiles%2F201601%2Ffigurante.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://news.stlpublicradio.org/post/contemporary-art-museum-offers-first-solo-shows-artists-examine-human-form"
+      }
+    ]
   },
   "a604": {
     "name": "Antonio Calderara",
@@ -12758,6 +13401,22 @@
         "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/CaroleeSchneemann2008.jpg",
         "credit": "Wikipedia article: Carolee_Schneemann",
         "url": "https://en.wikipedia.org/wiki/Carolee_Schneemann"
+      },
+      {
+        "source": "www.artlyst.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://artlyst.com/wp-content/uploads/2025/11/Carolee-Schneemann-dies.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.artlyst.com/news/carolee-schneemann-pioneering-feminist-artist-dies-age-79/"
+      },
+      {
+        "source": "www.artlyst.com",
+        "title": "carolee schneemann meat joy",
+        "year": "",
+        "image": "https://artlyst.com//wp-content/uploads/2019/03/Screen-Shot-2019-03-07-at-08.01.03.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.artlyst.com/news/carolee-schneemann-pioneering-feminist-artist-dies-age-79/"
       }
     ]
   },
@@ -13262,7 +13921,32 @@
     "name": "Chen Zhen",
     "dates": "1955–2000",
     "gallery": "Galleria Continua",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "web.archive.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://web.archive.org/web/20160323181042im_/http://appl-lachaise.net/appl/IMG/jpg/photochen2.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20160323181042/http://appl-lachaise.net/appl/article.php3?id_article=2145"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://web.archive.org/web/20160323181042im_/http://appl-lachaise.net/appl/IMG/jpg/448px_chen_zhen1.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20160323181042/http://appl-lachaise.net/appl/article.php3?id_article=2145"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://web.archive.org/web/20160323181042im_/http://appl-lachaise.net/appl/IMG/jpg/28.Chen_Zhen_final.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20160323181042/http://appl-lachaise.net/appl/article.php3?id_article=2145"
+      }
+    ]
   },
   "a326": {
     "name": "Arlene Shechet",
@@ -13393,7 +14077,48 @@
     "name": "Aya Takano",
     "dates": "b. 1976",
     "gallery": "Galerie Perrotin",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "web.archive.org",
+        "title": "view of the exhibition &quot;to lose is to gain&quot; at galerie perrotin paris ",
+        "year": "",
+        "image": "https://web.archive.org/web/20120822005948im_/http://www.perrotin.com/FM_WEB/vue/vignette/4352_1.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20120822005948/http://www.perrotin.com/artiste-Aya_Takano-15.html"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "&quot;past: at the soshimai in shin-yoshiwara&quot; - aya takano 2011",
+        "year": "",
+        "image": "https://web.archive.org/web/20120822005948im_/http://www.perrotin.com/FM_WEB/oeuvre/vignette/Aya_Takano/aya-takano-21729_1.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20120822005948/http://www.perrotin.com/artiste-Aya_Takano-15.html"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "&quot;the chamber of butterflies&quot; - aya takano 2010",
+        "year": "",
+        "image": "https://web.archive.org/web/20120822005948im_/http://www.perrotin.com/FM_WEB/oeuvre/vignette/Aya_Takano/aya-takano-19758_1.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20120822005948/http://www.perrotin.com/artiste-Aya_Takano-15.html"
+      },
+      {
+        "source": "www.artnet.com",
+        "title": "hot banana fudge (set of 6), 2000",
+        "year": "",
+        "image": "https://www.artnet.com/WebServices/images/ll3082025llgevkR3CfDrCWQFHPKAD/aya-takano-hot-banana-fudge-(set-of-6).jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.artnet.com/artist/424069625/aya-takano.html"
+      },
+      {
+        "source": "www.artnet.com",
+        "title": "earth seen from the moon, 2006",
+        "year": "",
+        "image": "https://www.artnet.com/WebServices/images/ll3055073llgevkR3CfDrCWQFHPKAD/aya-takano-earth-seen-from-the-moon.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.artnet.com/artist/424069625/aya-takano.html"
+      }
+    ]
   },
   "a619": {
     "name": "Channa Horwitz",
@@ -13841,7 +14566,32 @@
     "name": "Barry McGee",
     "dates": "b. 1966",
     "gallery": "Galerie Perrotin",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "art21.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://art21.org/wp-content/uploads/2016/10/McGee-Barry-2013-450x450.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://art21.org/artist/barry-mcgee/"
+      },
+      {
+        "source": "art21.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://art21.org/wp-content/uploads/2016/10/YouTube-Intro_Place_Barry-McGee-Margaret-Kilgallen.00_07_02_16-450x253.jpeg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://art21.org/artist/barry-mcgee/"
+      },
+      {
+        "source": "art21.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://art21.org/wp-content/uploads/2013/04/mcgee-tagging-still-060-450x253.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://art21.org/artist/barry-mcgee/"
+      }
+    ]
   },
   "a49": {
     "name": "Dan Colen",
@@ -13965,6 +14715,46 @@
         "image": "https://www.artic.edu/iiif/2/99c1972a-4c72-3e9c-342a-e42cf44b2583/full/1200,/0/default.jpg",
         "credit": "Gift of Jolie Nahigian and Ivan Moskowitz",
         "url": "https://www.artic.edu/artworks/248748"
+      },
+      {
+        "source": "observer.com",
+        "title": "singer. (photo by celeste cloman for the observer)",
+        "year": "",
+        "image": "https://observer-media.go-vip.net/wp-content/uploads/sites/2/2014/05/mg_9936sml.jpg?w=200",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://observer.com/2014/05/brush-up-avery-singer-on-her-shows-at-frieze-new-york-and-kunsthalle-zurich/"
+      },
+      {
+        "source": "observer.com",
+        "title": "'performance artists' (2013) by singer. (courtesy the artist and kraupa-tuskany ",
+        "year": "",
+        "image": "https://observer-media.go-vip.net/wp-content/uploads/sites/2/2014/05/9_7.jpg?w=300",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://observer.com/2014/05/brush-up-avery-singer-on-her-shows-at-frieze-new-york-and-kunsthalle-zurich/"
+      },
+      {
+        "source": "observer.com",
+        "title": "brush up: avery singer on her shows at frieze new york and kunsthalle zurich",
+        "year": "",
+        "image": "https://observer.com/wp-content/uploads/sites/2/2014/05/mg_9936sml.jpg?quality=80&#038;w=418",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://observer.com/2014/05/brush-up-avery-singer-on-her-shows-at-frieze-new-york-and-kunsthalle-zurich/"
+      },
+      {
+        "source": "www.wmagazine.com",
+        "title": "avery singer, wearing a marni dress, in front of her painting &quot;the edgelord",
+        "year": "",
+        "image": "https://imgix.bustle.com/uploads/image/2021/8/27/be8e24fe-c3bb-4260-800c-38345f3edf60-wm202104aver07_rgb.jpg?w=374&amp;h=492&amp;fit=crop&amp;crop=faces&amp;dpr=2",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.wmagazine.com/culture/avery-singer-artist-interview"
+      },
+      {
+        "source": "www.wmagazine.com",
+        "title": "singer in her brooklyn studio with works in progress. ",
+        "year": "",
+        "image": "https://imgix.bustle.com/uploads/image/2021/8/27/3007c19a-a8a0-4afa-88b3-f60ec489f55b-wm202104aver04_rgb.jpg?w=375&amp;h=258&amp;fit=crop&amp;crop=faces&amp;dpr=2",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.wmagazine.com/culture/avery-singer-artist-interview"
       }
     ]
   },
@@ -14278,6 +15068,38 @@
         "image": "https://www.artic.edu/iiif/2/0f7df569-58bc-e3dc-7f6c-40aa78634e4d/full/1200,/0/default.jpg",
         "credit": "Amanda Taub Veazie Acquisition Fund; Purchased with funds provided by Robin and Sandy Stuart",
         "url": "https://www.artic.edu/artworks/242139"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://web.archive.org/web/20111006131947im_/http://www.morelbooks.com/Boris_Mikhailov_files/Picture%202.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20111006131947/http://www.morelbooks.com/Boris_Mikhailov.html"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://web.archive.org/web/20111006131947im_/http://www.morelbooks.com/Boris_Mikhailov_files/shapeimage_1.png",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20111006131947/http://www.morelbooks.com/Boris_Mikhailov.html"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://web.archive.org/web/20111006131947im_/http://www.morelbooks.com/Boris_Mikhailov_files/shapeimage_2.png",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20111006131947/http://www.morelbooks.com/Boris_Mikhailov.html"
+      },
+      {
+        "source": "www.theguardian.com",
+        "title": "boris mikhailov",
+        "year": "",
+        "image": "https://i.guim.co.uk/img/static/sys-images/Admin/BkFill/Default_image_group/2012/2/15/1329324945090/boris-mikhailov-008.jpg?width=465&amp;dpr=1&amp;s=none&amp;crop=none",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.theguardian.com/artanddesign/2012/feb/15/boris-mikhailov-best-shot-photography"
       }
     ]
   },
@@ -14496,6 +15318,22 @@
         "image": "https://www.artic.edu/iiif/2/4997ac54-fc52-f5d0-4ac3-93a099cc9a0c/full/1200,/0/default.jpg",
         "credit": "Gift of Mel Bochner and Lizbeth Marano",
         "url": "https://www.artic.edu/artworks/226986"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://web.archive.org/web/20081024100804im_/http://www.tate.org.uk/modern/exhibitions/cildomeireles/images/ID_30rt.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20081024100804/http://www.tate.org.uk/modern/exhibitions/cildomeireles/about.shtm"
+      },
+      {
+        "source": "www.theguardian.com",
+        "title": "cildo meireles: mission/mission (how to build cathedrals), tate modern",
+        "year": "",
+        "image": "https://i.guim.co.uk/img/static/sys-images/Arts/Arts_/Pictures/2008/10/10/cil460.jpg?width=465&amp;dpr=1&amp;s=none&amp;crop=none",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.theguardian.com/artanddesign/2008/oct/11/cildo-meireles"
       }
     ]
   },
@@ -15112,7 +15950,32 @@
     "name": "Emma Webster",
     "dates": "b. 1989",
     "gallery": "Galerie Perrotin",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.wmagazine.com",
+        "title": "the artist emma webster standing on a ladder in her studio, smiling at the camer",
+        "year": "",
+        "image": "https://imgix.bustle.com/uploads/image/2022/8/18/2a7a4272-9837-45f7-9e71-e1633ccd00b6-2022-emma-webster-stephanie-noritz-040.jpg?w=414&amp;h=621&amp;fit=crop&amp;crop=focalpoint&amp;dpr=2&amp;fp-x=0.4173&amp;fp-y=0.3698",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.wmagazine.com/culture/emma-webster-artist-paintings-installation-studio-interview-2022"
+      },
+      {
+        "source": "www.wmagazine.com",
+        "title": "emma in her studio in los angeles",
+        "year": "",
+        "image": "https://imgix.bustle.com/uploads/image/2022/8/18/97a30a00-6080-490c-8e6d-d7e441cc199a-2022-emma-webster-stephanie-noritz-036.jpg?w=390&amp;h=260&amp;fit=crop&amp;crop=focalpoint&amp;dpr=2&amp;fp-x=0.6747&amp;fp-y=0.41",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.wmagazine.com/culture/emma-webster-artist-paintings-installation-studio-interview-2022"
+      },
+      {
+        "source": "www.wmagazine.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://imgix.bustle.com/uploads/image/2022/8/22/a182e433-4217-4a9e-bd0c-0829aeea4af7-websteremma_paramount_2022_76x96in_193x244cm_oilonlinen-4000px.jpg?w=375&amp;h=500&amp;fit=crop&amp;crop=faces&amp;dpr=2",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.wmagazine.com/culture/emma-webster-artist-paintings-installation-studio-interview-2022"
+      }
+    ]
   },
   "a610": {
     "name": "Ding Yi",
@@ -16027,6 +16890,14 @@
         "image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Fausto_Melotti%2C_%27Si_redimono_i_campi%27.jpg",
         "credit": "Wikipedia article: Fausto_Melotti",
         "url": "https://en.wikipedia.org/wiki/Fausto_Melotti"
+      },
+      {
+        "source": "www.fondazionefaustomelotti.org",
+        "title": "fondazione fausto melotti",
+        "year": "",
+        "image": "https://www.fondazionefaustomelotti.org/wp-content/themes/fondazionefaustomelotti/img/fondazione-fausto-melotti.png",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.fondazionefaustomelotti.org/en/foundation/"
       }
     ]
   },
@@ -16902,7 +17773,16 @@
     "name": "Hannah Levy",
     "dates": "b. 1991",
     "gallery": "Massimo De Carlo",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "galeriemagazine.com",
+        "title": "two abstract, green chairs with bird-like legs on a concrete floor, resembling m",
+        "year": "",
+        "image": "https://cdn.galeriemagazine.com/wp-content/uploads/2025/04/2.-Hannah-Levy_Untitled-2017-and-Untitled-2017_Courtesy-the-artist-and-mothers-tankstation-Dublin-_-London_webcover.jpg?strip=all&amp;quality=92&amp;webp=92&amp;sharp=1",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://galeriemagazine.com/hannah-levys-sculptures-human/"
+      }
+    ]
   },
   "a116": {
     "name": "Francis Picabia",
@@ -17248,6 +18128,14 @@
         "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Corte-MascaronesyRosas.jpg",
         "credit": "Wikipedia article: Gabriel_de_la_Corte",
         "url": "https://en.wikipedia.org/wiki/Gabriel_de_la_Corte"
+      },
+      {
+        "source": "www.bbc.com",
+        "title": "coleccion de ines carvajal/ gerstenmaier/ jon cazenave a silk ikat evening gown ",
+        "year": "",
+        "image": "https://ichef.bbci.co.uk/images/ic/480xn/p07hpy8z.jpg.webp",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.bbc.com/culture/article/20190724-what-inspired-the-master-of-fashion"
       }
     ]
   },
@@ -17659,6 +18547,14 @@
         "image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Florentina_Holzinger_-_Seaworld_Venice_-_Biennale_di_Venezia_2026_BHO-0024.jpg",
         "credit": "Wikipedia article: Florentina_Holzinger",
         "url": "https://en.wikipedia.org/wiki/Florentina_Holzinger"
+      },
+      {
+        "source": "www.festwochen.at",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://www.festwochen.at/assets/transforms/_527x381_fit_center-center_95_none/Florentina-Holzinger-EO225779-c-Elsa-Okazaki_quer_cut_2362_1575_2023-12-01-121320_ryjn.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.festwochen.at/en/florentina-holzinger"
       }
     ]
   },
@@ -17688,6 +18584,38 @@
         "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Frank_Bowling%2C_Cover_Girl%2C_1966%2C_acrylic%2C_oil%2C_and_silkscreened_ink_on_canvas%2C_149.8_x_101.6_cm._Courtesy_the_artist._Photographed_by_Charlie_Littlewood.jpg",
         "credit": "Wikipedia article: Frank_Bowling",
         "url": "https://en.wikipedia.org/wiki/Frank_Bowling"
+      },
+      {
+        "source": "frankbowling.com",
+        "title": "artist information, discover frank bowling, his artistic journey and accomplishm",
+        "year": "",
+        "image": "https://static-assets.artlogic.net/w_650,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite1474/usr/images/feature_panels/image/items/b5/b570d8c69a0147b5b3e31c9cd97ff12d/fbinhisstudio_bysachabowling.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://frankbowling.com/"
+      },
+      {
+        "source": "frankbowling.com",
+        "title": "works , explore frank bowling's artistic output produced over a long, varied and",
+        "year": "",
+        "image": "https://static-assets.artlogic.net/w_650,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite1474/usr/images/images/filepath/358/september-2025-acrylic-acrylic-gel-on-canvas-with-marouflage.-189.2-x-196.5-x-4.6-cm.-courtesy-the-artist.-photographed-by-anna-arca.png",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://frankbowling.com/"
+      },
+      {
+        "source": "frankbowling.com",
+        "title": "education resources",
+        "year": "",
+        "image": "https://static-assets.artlogic.net/w_650,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite1474/usr/library/images/main/frank-bowling-studio-8-squarecrop.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://frankbowling.com/"
+      },
+      {
+        "source": "www.tate.org.uk",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/bowling_tonys_anvil_1_6SgsKR6.max-500x500.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.tate.org.uk/art/artists/sir-frank-bowling-obe-ra-792"
       }
     ]
   },
@@ -17797,7 +18725,24 @@
     "name": "Hans Josephsohn",
     "dates": "1920–2012",
     "gallery": "Thaddaeus Ropac",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "web.archive.org",
+        "title": "kesselhaus josephsohn",
+        "year": "",
+        "image": "https://web.archive.org/web/20150114120638im_/http://www.sitterwerk.ch/fileadmin/template/bilder/kesselhaus_over.png",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20150114120638/http://www.sitterwerk.ch/en/kesselhaus-josephsohn.html"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "kesselhaus josephsohn",
+        "year": "",
+        "image": "https://web.archive.org/web/20150114120638im_/http://www.sitterwerk.ch/typo3temp/pics/leer_36b0c55235.png",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20150114120638/http://www.sitterwerk.ch/en/kesselhaus-josephsohn.html"
+      }
+    ]
   },
   "a37": {
     "name": "Hiroshi Sugimoto",
@@ -17842,6 +18787,22 @@
         "image": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Geta_Br%C4%83tescu_-_Podr%C3%B3znik_%281970%29.jpg",
         "credit": "Wikipedia article: Geta_Brătescu",
         "url": "https://en.wikipedia.org/wiki/Geta_Br%C4%83tescu"
+      },
+      {
+        "source": "www.tate.org.uk",
+        "title": "geta bratescu callisthetic 1980-81 detail",
+        "year": "",
+        "image": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/getabratescumedeiccallis.width-420_Nx3UAbM.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.tate.org.uk/whats-on/tate-liverpool/exhibition/geta-bratescu"
+      },
+      {
+        "source": "www.tate.org.uk",
+        "title": "geta brătescu in her bucharest studio, february 2015, photographed by stefan sav",
+        "year": "",
+        "image": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/bratescu-1.width-420_5jIzZQ6.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.tate.org.uk/whats-on/tate-liverpool/exhibition/geta-bratescu"
       }
     ]
   },
@@ -18377,7 +19338,40 @@
     "name": "Jason Martin",
     "dates": "b. 1970",
     "gallery": "Thaddaeus Ropac",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "web.archive.org",
+        "title": "jason martin",
+        "year": "",
+        "image": "https://web.archive.org/web/20120418030935im_/http://ropac.net/uploads/images/artist/artist1a9ed6bc5fe564e791e0a618bc6bddcb.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20120418030935/http://ropac.net/artist/jason-martin"
+      },
+      {
+        "source": "www.artnet.com",
+        "title": "mangazaou xvi, 2023",
+        "year": "",
+        "image": "https://www.artnet.com/WebServices/images/ll3051649llgFFfDrCWQFHPKAD/jason-martin-mangazaou-xvi.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.artnet.com/artists/jason-martin-2/"
+      },
+      {
+        "source": "www.artnet.com",
+        "title": "mangazaou xxvi, 2023",
+        "year": "",
+        "image": "https://www.artnet.com/WebServices/images/ll3051647llgFFfDrCWQFHPKAD/jason-martin-mangazaou-xxvi.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.artnet.com/artists/jason-martin-2/"
+      },
+      {
+        "source": "www.artnet.com",
+        "title": "mangazaou ix, 2023",
+        "year": "",
+        "image": "https://www.artnet.com/WebServices/images/ll3051645llgFFfDrCWQFHPKAD/jason-martin-mangazaou-ix.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.artnet.com/artists/jason-martin-2/"
+      }
+    ]
   },
   "a711": {
     "name": "Imran Qureshi",
@@ -18399,6 +19393,14 @@
         "image": "https://www.artic.edu/iiif/2/1eedcd63-b085-275a-b0d2-7263648b99dc/full/1200,/0/default.jpg",
         "credit": "Kate S. Buckingham Fund",
         "url": "https://www.artic.edu/artworks/236822"
+      },
+      {
+        "source": "www.theguardian.com",
+        "title": "iman qureshi.",
+        "year": "",
+        "image": "https://i.guim.co.uk/img/media/7a9ba8e30e45fe9ae7b8e66c0f44c24b3704a8cf/1513_38_1322_1652/master/1322.jpg?width=445&amp;dpr=1&amp;s=none&amp;crop=none",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.theguardian.com/stage/2022/may/02/iman-qureshi-the-ministry-of-lesbian-affairs"
       }
     ]
   },
@@ -18978,7 +19980,16 @@
     "name": "Jesper Just",
     "dates": "b. 1974",
     "gallery": "Galerie Perrotin",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "web.archive.org",
+        "title": "image",
+        "year": "",
+        "image": "https://web.archive.org/web/20081121062653im_/http://www.frieze.com/images/back/jesper.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20081121062653/http://www.frieze.com/issue/review/jesper_just1"
+      }
+    ]
   },
   "a324": {
     "name": "Joel Shapiro",
@@ -19047,6 +20058,38 @@
         "image": "https://upload.wikimedia.org/wikipedia/en/f/fe/Untitled_2004_by_Izumi_Kat%C5%8D.jpg",
         "credit": "Wikipedia article: Izumi_Kato_(artist)",
         "url": "https://en.wikipedia.org/wiki/Izumi_Kato_%28artist%29"
+      },
+      {
+        "source": "izumikato.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://media.cargocollective.com/1/9/319203/headerimg/izumikato250.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://izumikato.com/"
+      },
+      {
+        "source": "izumikato.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://izumikato.com/_gfx/loadingAnim.gif",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://izumikato.com/"
+      },
+      {
+        "source": "izumikato.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://media.cargocollective.com/1/9/319203/headerimg/izumikato250.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://izumikato.com/filter/sculpture/Untitled-2004"
+      },
+      {
+        "source": "izumikato.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://izumikato.com/_gfx/loadingAnim.gif",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://izumikato.com/filter/sculpture/Untitled-2004"
       }
     ]
   },
@@ -19125,6 +20168,14 @@
         "image": "https://upload.wikimedia.org/wikipedia/en/b/b4/Creek_Square%2C_1974%2C_Joan_Snyder_at_NGA_2022.jpg",
         "credit": "Wikipedia article: Joan_Snyder",
         "url": "https://en.wikipedia.org/wiki/Joan_Snyder"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://web.archive.org/web/20160330023314im_/http://www.artinamericamagazine.com/files/2015/09/30/img-snyder_170117685869.jpg_x_325x433_c.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20160330023314/http://www.artinamericamagazine.com/reviews/joan-snyder-2/"
       }
     ]
   },
@@ -19226,7 +20277,40 @@
     "name": "Jonathan Lasker",
     "dates": "b. 1948",
     "gallery": "Thaddaeus Ropac",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.artnet.com",
+        "title": "must-see art guide: madrid",
+        "year": "",
+        "image": "https://news.artnet.com/cdn-cgi/image/w=106,h=106,format=auto,fit=cover/https://news.artnet.com/app/news-upload/2015/01/Galeria-marta-cervera_jonathan-lasker_the-therms-of-progress_2010-220x220.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.artnet.com/artists/jonathan-lasker/"
+      },
+      {
+        "source": "www.artnet.com",
+        "title": "untitled, 2002",
+        "year": "",
+        "image": "https://www.artnet.com/WebServices/images/ll00372lldx2JKFgDVECfDrCWQFHPKcb8OJ/jonathan-lasker-untitled.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.artnet.com/artists/jonathan-lasker/"
+      },
+      {
+        "source": "www.artnet.com",
+        "title": "concerns of consciousness, 1998",
+        "year": "",
+        "image": "https://www.artnet.com/WebServices/images/ll2869649llgVZfDrCWQFHPKAD/jonathan-lasker-concerns-of-consciousness.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.artnet.com/artists/jonathan-lasker/"
+      },
+      {
+        "source": "www.artforum.com",
+        "title": "jonathan lasker, lives of perpetual wonder, 1997, oil on linen, 90 × 120&quot;.",
+        "year": "",
+        "image": "https://www.artforum.com/wp-content/uploads/2022/02/article00_large-3.jpg?w=1000",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.artforum.com/print/reviews/202202/jonathan-lasker-87645"
+      }
+    ]
   },
   "a485": {
     "name": "James Rosenquist",
@@ -20267,6 +21351,14 @@
         "image": "https://www.artic.edu/iiif/2/7c26d080-9b4c-ba08-bf2b-b36440f83d59/full/1200,/0/default.jpg",
         "credit": "Gift of David C. and Sarajean Ruttenberg",
         "url": "https://www.artic.edu/artworks/151217"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://web.archive.org/web/20111128013742im_/http://www.pbs.org/art21/files/imagecache/explore-info-sidebar/images/applebroog-ida.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20111128013742/http://www.pbs.org/art21/artists/ida-applebroog"
       }
     ]
   },
@@ -20553,6 +21645,46 @@
         "image": "https://www.artic.edu/iiif/2/52edf63c-0706-cf5d-c7de-b3a458b60ff4/full/1200,/0/default.jpg",
         "credit": "Promised gift of Rennie Collection",
         "url": "https://www.artic.edu/artworks/260037"
+      },
+      {
+        "source": "art21.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://art21.org/wp-content/uploads/2017/06/casteel-1080x1080-1-450x450.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://art21.org/artist/jordan-casteel/?gclid=CjwKCAiArrrQBRBbEiwAH_6sNJgEDvc4fUQEv35hXHolcf4XsxVOX_jl8YGkuiFj1exCS2BXWyg_QRoCCT8QAvD_BwE"
+      },
+      {
+        "source": "art21.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://art21.org/wp-content/uploads/2017/11/casteel-moment-still-104-1400x788.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://art21.org/artist/jordan-casteel/?gclid=CjwKCAiArrrQBRBbEiwAH_6sNJgEDvc4fUQEv35hXHolcf4XsxVOX_jl8YGkuiFj1exCS2BXWyg_QRoCCT8QAvD_BwE"
+      },
+      {
+        "source": "art21.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://art21.org/wp-content/uploads/2021/02/casteel-community-still-000-104-450x253.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://art21.org/artist/jordan-casteel/?gclid=CjwKCAiArrrQBRBbEiwAH_6sNJgEDvc4fUQEv35hXHolcf4XsxVOX_jl8YGkuiFj1exCS2BXWyg_QRoCCT8QAvD_BwE"
+      },
+      {
+        "source": "www.vogue.com",
+        "title": "image may contain furniture couch human person shelf glasses accessories accesso",
+        "year": "",
+        "image": "https://assets.vogue.com/photos/5c3cee095d08652d53a66b5a/master/w_2560%2Cc_limit/01-jordan-casteel.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.vogue.com/article/jordan-casteel-interview-denver-art-museum"
+      },
+      {
+        "source": "www.vogue.com",
+        "title": "this image may contain art painting modern art drawing and mural",
+        "year": "",
+        "image": "https://assets.vogue.com/photos/5c3cf048d9cce42d4ceee727/master/w_1600%2Cc_limit/02-jordan-casteel.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.vogue.com/article/jordan-casteel-interview-denver-art-museum"
       }
     ]
   },
@@ -20905,7 +22037,16 @@
     "name": "Klara Kristalova",
     "dates": "b. 1967",
     "gallery": "Galerie Perrotin",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "web.archive.org",
+        "title": "image",
+        "year": "",
+        "image": "https://web.archive.org/web/20150924043239im_/http://www.frieze.com/uploads/images/back/klara.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20150924043239/http://www.frieze.com/issue/review/makers_and_modellers/"
+      }
+    ]
   },
   "a236": {
     "name": "Jules de Balincourt",
@@ -21068,6 +22209,38 @@
         "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Kaws_At_This_Time_Hamilton_Princess.jpg",
         "credit": "Wikipedia article: Kaws",
         "url": "https://en.wikipedia.org/wiki/Kaws"
+      },
+      {
+        "source": "kawsone.com",
+        "title": "companionship in the age of loneliness",
+        "year": "",
+        "image": "https://kawsone.com/cdn/shop/files/Preview_22Oct_2048x.jpg?v=1746808879",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://kawsone.com"
+      },
+      {
+        "source": "www.independent.co.uk",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://static.the-independent.com/s3fs-public/thumbnails/image/2016/01/29/15/AN90442841Kaws%20artist%20Brian.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.independent.co.uk/arts-entertainment/art/features/pop-artist-kaws-gigantic-cartoon-sculptures-will-be-taking-over-the-yorkshire-countryside-a6841876.html"
+      },
+      {
+        "source": "www.independent.co.uk",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://static.the-independent.com/s3fs-public/thumbnails/image/2016/01/29/15/AN90442863Kaws%20artist%20Brian.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.independent.co.uk/arts-entertainment/art/features/pop-artist-kaws-gigantic-cartoon-sculptures-will-be-taking-over-the-yorkshire-countryside-a6841876.html"
+      },
+      {
+        "source": "www.independent.co.uk",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://static.the-independent.com/s3fs-public/thumbnails/image/2016/01/29/15/AN90442838Kaws%20artist%20Brian.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.independent.co.uk/arts-entertainment/art/features/pop-artist-kaws-gigantic-cartoon-sculptures-will-be-taking-over-the-yorkshire-countryside-a6841876.html"
       }
     ]
   },
@@ -21672,6 +22845,22 @@
         "image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Fiac2005_Attia.jpg",
         "credit": "Wikimedia Commons",
         "url": "https://commons.wikimedia.org/wiki/File:Fiac2005_Attia.jpg"
+      },
+      {
+        "source": "www.barjeelartfoundation.org",
+        "title": "mixed media and collage, 2006",
+        "year": "",
+        "image": "https://www.barjeelartfoundation.org/wp-content/uploads/2015/08/Kader-Attia-crop-170x170.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.barjeelartfoundation.org/artist/algeria/kader-attia/"
+      },
+      {
+        "source": "www.barjeelartfoundation.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://www.barjeelartfoundation.org/wp-content/uploads/2012/12/kader-attia-demoncracy-crop-170x170.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.barjeelartfoundation.org/artist/algeria/kader-attia/"
       }
     ]
   },
@@ -22248,7 +23437,40 @@
     "name": "Massimo Bartolini",
     "dates": "b. 1962",
     "gallery": "Massimo De Carlo",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.exibart.com",
+        "title": "massimo bartolini padiglione italia",
+        "year": "",
+        "image": "https://www.exibart.com/repository/media/2023/10/massimo-bartolini_Pt2HNt-1-1068x712.png",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.exibart.com/arte-contemporanea/biennale-di-venezia-massimo-bartolini-e-artista-del-padiglione-italia/"
+      },
+      {
+        "source": "www.exibart.com",
+        "title": "massimo bartolini, caudu e fridu, 2018, courtesy the artist and fondazione volum",
+        "year": "",
+        "image": "https://www.exibart.com/repository/media/2023/10/3..jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.exibart.com/arte-contemporanea/biennale-di-venezia-massimo-bartolini-e-artista-del-padiglione-italia/"
+      },
+      {
+        "source": "www.exibart.com",
+        "title": "massimo bartolini, studio matters +1, 2013, installation view, the fruitmarket g",
+        "year": "",
+        "image": "https://www.exibart.com/repository/media/2023/10/7.-768x472.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.exibart.com/arte-contemporanea/biennale-di-venezia-massimo-bartolini-e-artista-del-padiglione-italia/"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "massimo bartolini, 'organi', 2008, installation: iron tubes, wood, fan, 600 x 72",
+        "year": "",
+        "image": "https://web.archive.org/web/20120921013217im_/http://artradarjournal.com/wp-content/uploads/2011/11/18_massimo_bartolini.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20120921013217/http://artradarjournal.com/2011/12/14/how-magic-was-the-yokohama-triennale-2011-highlights-round-up/"
+      }
+    ]
   },
   "a227": {
     "name": "Lynda Benglis",
@@ -22465,7 +23687,40 @@
     "name": "Matthew Day Jackson",
     "dates": "b. 1974",
     "gallery": "Hauser & Wirth",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "web.archive.org",
+        "title": "image for matthew day jackson",
+        "year": "",
+        "image": "https://web.archive.org/web/20160318134548im_/http://cloud.hauserwirth.com/documents/74minbh0jUJ2WhqO5rkcAdolWwqz2rGiHXZpeIYRY07dJU0lc9/medium/mdj_portrait_2014-YgBv6z.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20160318134548/http://www.hauserwirth.com/artists/51/matthew-day-jackson/biography"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "matthew day jackson",
+        "year": "",
+        "image": "https://web.archive.org/web/20121115005946im_/http://www.chinati.org/images/air_04jackson1.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20121115005946/http://chinati.org/programs/matthew-day-jackson"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "matthew day jackson",
+        "year": "",
+        "image": "https://web.archive.org/web/20121115005946im_/http://www.chinati.org/images/air_04jackson2.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20121115005946/http://chinati.org/programs/matthew-day-jackson"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "matthew day jackson",
+        "year": "",
+        "image": "https://web.archive.org/web/20121115005946im_/http://www.chinati.org/images/air_04jackson3.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20121115005946/http://chinati.org/programs/matthew-day-jackson"
+      }
+    ]
   },
   "a260": {
     "name": "Loie Hollowell",
@@ -23225,6 +24480,22 @@
         "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Maria_Bartuszov%C3%A1_-_Bez_tytu%C5%82u_%281987%29.jpg",
         "credit": "Wikipedia article: Mária_Bartuszová",
         "url": "https://en.wikipedia.org/wiki/M%C3%A1ria_Bartuszov%C3%A1"
+      },
+      {
+        "source": "www.theguardian.com",
+        "title": "‘perfection of the form’ … untitled 1985 by maria bartuszová.",
+        "year": "",
+        "image": "https://i.guim.co.uk/img/media/09802f2eaafb1ab105d8a1030a3400ae0381aae3/0_452_8129_4880/master/8129.jpg?width=465&amp;dpr=1&amp;s=none&amp;crop=none",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.theguardian.com/artanddesign/2022/sep/19/maria-bartuszova-an-artist-of-the-fragile-who-was-anything-but"
+      },
+      {
+        "source": "www.theguardian.com",
+        "title": "maria bartuszová … untitled 1972–1974.",
+        "year": "",
+        "image": "https://i.guim.co.uk/img/media/03ada456474b8f9830fe0df5924f5aa3c9133959/0_579_4928_2957/master/4928.jpg?width=445&amp;dpr=1&amp;s=none&amp;crop=none",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.theguardian.com/artanddesign/2022/sep/19/maria-bartuszova-an-artist-of-the-fragile-who-was-anything-but"
       }
     ]
   },
@@ -23295,6 +24566,14 @@
         "image": "https://upload.wikimedia.org/wikipedia/en/8/87/PMA-image.jpeg",
         "credit": "Wikipedia article: Martha_Diamond",
         "url": "https://en.wikipedia.org/wiki/Martha_Diamond"
+      },
+      {
+        "source": "brooklynrail.org",
+        "title": "martha diamond, red cityscape, 1989. oil on linen, 72 x 60 inches. courtesy mage",
+        "year": "",
+        "image": "https://brooklynrail.org/_next/image/?url=https%3A%2F%2Fstudio.brooklynrail.org%2Fassets%2Fbaa8ebd2-bc85-404e-9325-3d83dcf91eb8.jpg&amp;w=3840&amp;q=75",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://brooklynrail.org/2021/02/artseen/Martha-Diamond-1980-1989"
       }
     ]
   },
@@ -23310,6 +24589,14 @@
         "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Markus_Schinwald_MAK_2026_BHO-9726.jpg",
         "credit": "Wikipedia article: Markus_Schinwald",
         "url": "https://en.wikipedia.org/wiki/Markus_Schinwald"
+      },
+      {
+        "source": "www.argosarts.org",
+        "title": "markus schinwald, pieds",
+        "year": "",
+        "image": "http://www.argosarts.org/image_cache/Aa459cf70e13c412eaeaca89377ad940f/ca38db7831e14b7593b512b8fe80b365/ca38db7831e14b7593b512b8fe80b365_205_-1_EXImage_0_pieds.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.argosarts.org/program.jsp?eventid=a459cf70e13c412eaeaca89377ad940f"
       }
     ]
   },
@@ -23325,6 +24612,14 @@
         "image": "https://www.artic.edu/iiif/2/99c77427-0636-8dde-de21-7185120f9f61/full/1200,/0/default.jpg",
         "credit": "Gift of Donna and Howard Stone",
         "url": "https://www.artic.edu/artworks/184189"
+      },
+      {
+        "source": "www.faoufoundation.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://images.squarespace-cdn.com/content/v1/580e819f197aeac3131c4218/6c342c9f-0e40-44b6-87b6-950795838f6b/MarikoMori_press_0018.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.faoufoundation.org/"
       }
     ]
   },
@@ -23607,6 +24902,14 @@
         "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Marcin_Maciejowski_-_Popiersie_kobiety_%281944%29_%282014%29.jpg",
         "credit": "\nMarcin Maciejowski",
         "url": "https://commons.wikimedia.org/wiki/File:Marcin_Maciejowski_-_Popiersie_kobiety_(1944)_(2014).jpg"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "marcin maciejowski",
+        "year": "",
+        "image": "https://web.archive.org/web/20080407064704im_/http://www.raster.art.pl/galeria/artysci/maciejowski/portret_maciejowski.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20080407064704/http://www.raster.art.pl/galeria/artysci/maciejowski/maciejowski.htm"
       }
     ]
   },
@@ -23716,6 +25019,38 @@
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Martin_Creed_56653sAI.jpg/1280px-Martin_Creed_56653sAI.jpg",
         "credit": "Martin Creed",
         "url": "https://commons.wikimedia.org/wiki/File:Martin_Creed_56653sAI.jpg"
+      },
+      {
+        "source": "www.martincreed.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "http://www.martincreed.com/images/uploads/ICA_(Resized).jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.martincreed.com/"
+      },
+      {
+        "source": "www.martincreed.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "http://www.martincreed.com/images/uploads/thumbnail_IMG_0548.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.martincreed.com/"
+      },
+      {
+        "source": "www.martincreed.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "http://www.martincreed.com/images/uploads/work_in_progress.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.martincreed.com/"
+      },
+      {
+        "source": "www.tate.org.uk",
+        "title": "martin creed the lights going on and off",
+        "year": "",
+        "image": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/martin_creed_lights_1.width-420_bM0GrnD.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.tate.org.uk/whats-on/tate-britain/exhibition/turner-prize-2001/turner-prize-2001-artists-martin-creed"
       }
     ]
   },
@@ -23794,6 +25129,22 @@
         "image": "https://www.artic.edu/iiif/2/3afbb845-dbaf-a00a-d651-8cbd2b99df37/full/1200,/0/default.jpg",
         "credit": "Purchased with funds provided by an anonymous donor and the In the Works Fund at The Chicago Community Trust",
         "url": "https://www.artic.edu/artworks/261409"
+      },
+      {
+        "source": "camh.org",
+        "title": "installation view of perspectives 177: mcarthur binion at contemporary arts muse",
+        "year": "",
+        "image": "https://camh.org/wp-content/uploads/2024/09/2012_01_23-047.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://camh.org/exhibitions/perspectives-177-mcarthur-binion#.WLx6vCMrI1J"
+      },
+      {
+        "source": "cranbrookart.edu",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://cranbrookart.edu/wp-content/uploads/2018/12/McArthur-Binion-webpress-300x200.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://cranbrookart.edu/press-room/cranbrook-academy-of-art-presents-distinguished-alumni-award-to-mcarthur-binion/"
       }
     ]
   },
@@ -23848,7 +25199,32 @@
     "name": "Megan Rooney",
     "dates": "b. 1985",
     "gallery": "Thaddaeus Ropac",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.seventeengallery.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://www.seventeengallery.com/wp-content/uploads/2016/05/Animalsonthebed_MeganRooney_Seventeen2016-EXHIB-643x1024.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.seventeengallery.com/exhibitions/megan-rooney-animals-bed/"
+      },
+      {
+        "source": "www.seventeengallery.com",
+        "title": "rooney untitled 2106 fat kid and god 2016",
+        "year": "",
+        "image": "https://www.seventeengallery.com/wp-content/uploads/2016/05/Rooney-Untitled-2106-Fat-Kid-and-God-2016-1024x684.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.seventeengallery.com/exhibitions/megan-rooney-animals-bed/"
+      },
+      {
+        "source": "www.artforum.com",
+        "title": "openings: megan rooney",
+        "year": "",
+        "image": "https://www.artforum.com/wp-content/uploads/2019/09/coversmall00_large.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.artforum.com/print/201908/openings-megan-rooney-80816"
+      }
+    ]
   },
   "a674": {
     "name": "Marcel Duchamp",
@@ -23940,7 +25316,16 @@
     "name": "Lynn Hershman Leeson",
     "dates": "b. 1941",
     "gallery": "Galerie Perrotin",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "kadist.org",
+        "title": "lynn hershman leeson, tania libre, 2016",
+        "year": "",
+        "image": "https://kadist.org/wp-content/uploads/2017/02/IMG_Tania-1-1-WEB.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://kadist.org/work/tania-libre/"
+      }
+    ]
   },
   "a120": {
     "name": "Lucio Fontana",
@@ -24367,7 +25752,32 @@
     "name": "Paola Pivi",
     "dates": "b. 1971",
     "gallery": "Galerie Perrotin",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "paolapivi.com",
+        "title": "home page",
+        "year": "",
+        "image": "https://www.paolapivi.com/wp-content/uploads/2022/04/COVID-JOKES_2-210x300.png",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://paolapivi.com"
+      },
+      {
+        "source": "paolapivi.com",
+        "title": "home page",
+        "year": "",
+        "image": "https://www.paolapivi.com/wp-content/uploads/2023/05/Schenck-High-Line-Art-2022_12_19-DSC_7761-300x200.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://paolapivi.com"
+      },
+      {
+        "source": "paolapivi.com",
+        "title": "home page",
+        "year": "",
+        "image": "https://www.paolapivi.com/wp-content/uploads/2022/04/Paola-Pivi-Phaidon-instagram-images-183x300.png",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://paolapivi.com"
+      }
+    ]
   },
   "a705": {
     "name": "Nick Oberthaler",
@@ -24434,7 +25844,40 @@
     "name": "Nicolas Party",
     "dates": "b. 1980",
     "gallery": "Hauser & Wirth",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "holburne.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://holburne.org/wp-content/uploads/2026/02/Nicolas-Party-Landscape-2025-oil-on-copper-NPS-2320.-Photography-Adam-Reich.-Courtesy-of-the-Artist-and-The-Modern-Institute-scaled-1.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://holburne.org/5-things-you-need-to-know-about-nicolas-party/"
+      },
+      {
+        "source": "thewarehousedallas.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://thewarehousedallas.org/wp-content/uploads/2024/08/party-NPS-2268_crop-723x611.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://thewarehousedallas.org/artists/nicolas-party/"
+      },
+      {
+        "source": "thewarehousedallas.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://thewarehousedallas.org/wp-content/uploads/2024/08/party_red_portrait-723x1001.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://thewarehousedallas.org/artists/nicolas-party/"
+      },
+      {
+        "source": "thewarehousedallas.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://thewarehousedallas.org/wp-content/uploads/2023/08/party_still_life_with_old_vegetable300-723x959.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://thewarehousedallas.org/artists/nicolas-party/"
+      }
+    ]
   },
   "a269": {
     "name": "Nina Katchadourian",
@@ -25033,7 +26476,32 @@
     "name": "Oliver Beer",
     "dates": "b. 1985",
     "gallery": "Thaddaeus Ropac",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.alminerech.com",
+        "title": "oliver beer,                                      resonance painting (he came fr",
+        "year": "",
+        "image": "https://d1bc1xn3hygkq4.cloudfront.net/rimage/ftw_placeholder/image/24719/24d1d513915eb551e1afc458a86af8e8",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.alminerech.com/artists/394-oliver-beer"
+      },
+      {
+        "source": "www.alminerech.com",
+        "title": "oliver beer,                                      resonance painting (atlantic),",
+        "year": "",
+        "image": "https://d1bc1xn3hygkq4.cloudfront.net/rimage/ftw_placeholder/image/24720/8efd84d3a147cce1cfe0a80ebf59919d",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.alminerech.com/artists/394-oliver-beer"
+      },
+      {
+        "source": "www.alminerech.com",
+        "title": "oliver beer,                                      resonance painting (strength o",
+        "year": "",
+        "image": "https://d1bc1xn3hygkq4.cloudfront.net/rimage/ftw_placeholder/image/24721/670717200be28d7f0303dc0ca91273b0",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.alminerech.com/artists/394-oliver-beer"
+      }
+    ]
   },
   "a934": {
     "name": "Michele Abeles",
@@ -25484,7 +26952,16 @@
     "name": "Paul Sietsema",
     "dates": "b. 1968",
     "gallery": "Marian Goodman",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.foundationforcontemporaryarts.org",
+        "title": "a profile portrait of paul sietsema in front of a white background. he wears blu",
+        "year": "",
+        "image": "https://images.prismic.io/fca-website/portrait_Sietsema.jpg?rect&#x3D;23,0,326,372&amp;w&#x3D;280&amp;h&#x3D;320",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.foundationforcontemporaryarts.org/recipients/paul-sietsema"
+      }
+    ]
   },
   "a131": {
     "name": "Monika Sosnowska",
@@ -25748,7 +27225,16 @@
     "name": "Nikhil Chopra",
     "dates": "b. 1974",
     "gallery": "Galleria Continua",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "timesofindia.indiatimes.com",
+        "title": "nikhil to play a commentator in patiala...",
+        "year": "",
+        "image": "https://static.toiimg.com/thumb/msid-6106041,imgsize-1898,width-400,resizemode-4/6106041.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/nikhil-to-play-a-commentator-in-patiala-/articleshow/6106041.cms"
+      }
+    ]
   },
   "a74": {
     "name": "Paul McCarthy",
@@ -26010,6 +27496,14 @@
         "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/%22dock%22_%282014%29_by_Phyllida_Barlow_at_Tate_Britain.jpg",
         "credit": "Wikipedia article: Phyllida_Barlow",
         "url": "https://en.wikipedia.org/wiki/Phyllida_Barlow"
+      },
+      {
+        "source": "www.ucl.ac.uk",
+        "title": "untitled: dog door",
+        "year": "",
+        "image": "http://www.ucl.ac.uk/slade/img/contain/2000/1333/slade/2013/11/18/3205-original-P_Barlow_2-web",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.ucl.ac.uk/slade/events/townsend-lecture-phyllida-barlow"
       }
     ]
   },
@@ -26338,7 +27832,32 @@
     "name": "Rose Wylie",
     "dates": "b. 1934",
     "gallery": "David Zwirner",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "web.archive.org",
+        "title": "anne-katrin purkiss, rose wylie r.a.",
+        "year": "",
+        "image": "https://web.archive.org/web/20240224155902/https://d1inegp6v2yuxm.cloudfront.net/royal-academy/image/upload/c_limit,cs_tinysrgb,dn_72,dpr_auto,f_auto,fl_progressive.keep_iptc,w_350/tdyfpjnd1egmzcfske04.jpeg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20240224155902/https://www.royalacademy.org.uk/art-artists/name/rose-wylie-ra"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "rose wylie ra, two red cherries",
+        "year": "",
+        "image": "https://web.archive.org/web/20240224155902/https://d1inegp6v2yuxm.cloudfront.net/royal-academy/image/upload/c_limit,cs_tinysrgb,dn_72,f_auto,fl_progressive.keep_iptc,w_1200/zlkj1tdm6lf5ndrznguc.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20240224155902/https://www.royalacademy.org.uk/art-artists/name/rose-wylie-ra"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "rose wylie ra, simone de beauvoir (red collar)",
+        "year": "",
+        "image": "https://web.archive.org/web/20240224155902/https://d1inegp6v2yuxm.cloudfront.net/royal-academy/image/upload/c_limit,cs_tinysrgb,dn_72,f_auto,fl_progressive.keep_iptc,w_1200/bqzjv0kakbqdxtikmq1e.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20240224155902/https://www.royalacademy.org.uk/art-artists/name/rose-wylie-ra"
+      }
+    ]
   },
   "a44": {
     "name": "Roy Lichtenstein",
@@ -26759,7 +28278,24 @@
     "name": "Portia Zvavahera",
     "dates": "b. 1985",
     "gallery": "David Zwirner",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.culturetype.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://i0.wp.com/www.culturetype.com/wp-content/uploads/2020/10/PORTIA-ZVAVAHERA-Rising-From-the-Unknown-2019-Installation-view-at-Stevenson-Gallery-scaled.jpg?resize=2560%2C1707&amp;ssl=1",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.culturetype.com/2020/10/24/london-zimbabwean-artist-portia-zvavahera-sets-new-record-at-phillips-evening-auction-titus-kaphar-painting-far-exceeds-estimate/"
+      },
+      {
+        "source": "www.culturetype.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://i0.wp.com/www.culturetype.com/wp-content/uploads/2020/10/Portia-Zvavahera-Arising-from-the-Unknown-2019.jpg?resize=422%2C550&amp;ssl=1",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.culturetype.com/2020/10/24/london-zimbabwean-artist-portia-zvavahera-sets-new-record-at-phillips-evening-auction-titus-kaphar-painting-far-exceeds-estimate/"
+      }
+    ]
   },
   "a152": {
     "name": "R. Crumb",
@@ -27196,6 +28732,22 @@
         "image": "https://www.artic.edu/iiif/2/0ef77a81-e898-688f-20bd-913267204305/full/1200,/0/default.jpg",
         "credit": "Gift of Donna and Howard Stone",
         "url": "https://www.artic.edu/artworks/201940"
+      },
+      {
+        "source": "www.theguardian.com",
+        "title": "de keyser",
+        "year": "",
+        "image": "https://i.guim.co.uk/img/static/sys-images/Arts/Arts_/Pictures/2012/10/14/1350221976017/De-Keyser-010.jpg?width=465&amp;dpr=1&amp;s=none&amp;crop=none",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.theguardian.com/artanddesign/2012/oct/14/raoul-de-keyser"
+      },
+      {
+        "source": "www.theguardian.com",
+        "title": "de keyser portrait",
+        "year": "",
+        "image": "https://i.guim.co.uk/img/static/sys-images/Arts/Arts_/Pictures/2012/10/14/1350222710856/De-Keyser-portrait-010.jpg?width=445&amp;dpr=1&amp;s=none&amp;crop=none",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.theguardian.com/artanddesign/2012/oct/14/raoul-de-keyser"
       }
     ]
   },
@@ -27775,7 +29327,32 @@
     "name": "Qiu Zhijie",
     "dates": "b. 1969",
     "gallery": "Galleria Continua",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "web.archive.org",
+        "title": "qiu zhijie",
+        "year": "",
+        "image": "https://web.archive.org/web/20050214122916im_/http://www.experimenta.org/mesh/mesh17/images/pics/Qiu_NewLife_1992.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20050214122916/http://www.experimenta.org/mesh/mesh17/berghuis.htm"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "qiu zhijie",
+        "year": "",
+        "image": "https://web.archive.org/web/20050214122916im_/http://www.experimenta.org/mesh/mesh17/images/pics/Qiu_Bathroom_1997.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20050214122916/http://www.experimenta.org/mesh/mesh17/berghuis.htm"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "qiu zhijie",
+        "year": "",
+        "image": "https://web.archive.org/web/20050214122916im_/http://www.experimenta.org/mesh/mesh17/images/pics/Qiu_TheWest_2001.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20050214122916/http://www.experimenta.org/mesh/mesh17/berghuis.htm"
+      }
+    ]
   },
   "a653": {
     "name": "Richard Wentworth",
@@ -29353,7 +30930,24 @@
     "name": "Thilo Heinzmann",
     "dates": "b. 1969",
     "gallery": "Galerie Perrotin",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.podcampus.de",
+        "title": "still large vortraghfbk thiloheinzmann02",
+        "year": "",
+        "image": "http://www.podcampus.de/uploads/node/still/5346/still_large_VortragHFBK_ThiloHeinzmann02.png",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.podcampus.de/nodes/wbLMy"
+      },
+      {
+        "source": "www.udk-berlin.de",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://www.udk-berlin.de/fileadmin/_processed_/6/d/csm_Thilo_Heinzmann_3_082550a662.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.udk-berlin.de/personen/detailansicht/person/show/thilo-heinzmann/"
+      }
+    ]
   },
   "a842": {
     "name": "Sislej Xhafa",
@@ -29453,6 +31047,14 @@
         "image": "https://upload.wikimedia.org/wikipedia/en/5/58/Study_for_Stella_Arundel_Castle%2C_1989%2C_Sturtevant_at_NGA_2022.jpg",
         "credit": "Wikipedia article: Elaine_Sturtevant",
         "url": "https://en.wikipedia.org/wiki/Elaine_Sturtevant"
+      },
+      {
+        "source": "web.archive.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://web.archive.org/web/20190203113801im_/http://kunsthallezurich.ch/sites/default/files/styles/large/public/sturtevant.jpg?itok=q4M1W4LE",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://web.archive.org/web/20190203113801/http://kunsthallezurich.ch/en/sturtevant"
       }
     ]
   },
@@ -29631,6 +31233,22 @@
         "image": "https://upload.wikimedia.org/wikipedia/en/b/b6/Stan_douglas_winplaceorshow_2.jpg",
         "credit": "Wikipedia article: Stan_Douglas",
         "url": "https://en.wikipedia.org/wiki/Stan_Douglas"
+      },
+      {
+        "source": "canadianart.ca",
+        "title": "stan douglas, &lt;em&gt;doppelgänger&lt;/em&gt; (installation view), 2019. court",
+        "year": "",
+        "image": "https://canadianart.ca/wp-content/uploads/2020/01/Stan-Douglas_Giardini_4_72-dpi-1024x683.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://canadianart.ca/news/stan-douglas-to-represent-canada-at-the-2021-venice-biennale/"
+      },
+      {
+        "source": "canadianart.ca",
+        "title": "stan douglas. photo: ©evaan kheraj. courtesy the artist, david zwirner, and vict",
+        "year": "",
+        "image": "https://canadianart.ca/wp-content/uploads/2020/01/Stan-Douglas_©EvaanKheraj_72-dpi-768x1097.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://canadianart.ca/news/stan-douglas-to-represent-canada-at-the-2021-venice-biennale/"
       }
     ]
   },
@@ -30152,6 +31770,30 @@
         "image": "https://www.artic.edu/iiif/2/ee09109b-5468-803c-e5e7-355cddae412d/full/1200,/0/default.jpg",
         "credit": "W. L. Mead Fund and Margaret Fisher Endowment",
         "url": "https://www.artic.edu/artworks/180340"
+      },
+      {
+        "source": "hyperallergic.com",
+        "title": "time and transformation in the art of toba khedoori",
+        "year": "",
+        "image": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/size/w1200/hyperallergic-newspack-s3-amazonaws-com/uploads/2022/01/tk_works23-scaled-1.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://hyperallergic.com/705485/time-and-transformation-in-the-art-of-toba-khedoori/"
+      },
+      {
+        "source": "hyperallergic.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2022/01/khedoori_studio-crop-scaled-1.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://hyperallergic.com/705485/time-and-transformation-in-the-art-of-toba-khedoori/"
+      },
+      {
+        "source": "hyperallergic.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/hyperallergic-newspack-s3-amazonaws-com/uploads/2022/01/toba-khedoori_untitled-stick_2005-toba-khedoori_albertina-wien_dauerleihgabe-der-oesterreichischen-ludwig-stiftung-fuer-kunst_jpeg-1-scaled-1.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://hyperallergic.com/705485/time-and-transformation-in-the-art-of-toba-khedoori/"
       }
     ]
   },
@@ -30778,7 +32420,16 @@
     "name": "Zhanna Kadyrova",
     "dates": "b. 1981",
     "gallery": "Galleria Continua",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.berliner-kuenstlerprogramm.de",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://www.berliner-kuenstlerprogramm.de/content/uploads/2026/02/Zhanna-Kadyrova_sm.png",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.berliner-kuenstlerprogramm.de/en/artist/zhanna-kadyrova/"
+      }
+    ]
   },
   "a655": {
     "name": "Yu Hong",
@@ -31451,6 +33102,30 @@
         "image": "https://www.artic.edu/iiif/2/ffeff6d0-876f-207a-33fc-2d877e9110e6/full/1200,/0/default.jpg",
         "credit": "Gift of the Irving Stenn, Jr. Family",
         "url": "https://www.artic.edu/artworks/264767"
+      },
+      {
+        "source": "www.veramolnar.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "http://www.veramolnar.com/blog/wp-content/themes/veramolnar/images/title.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.veramolnar.com/"
+      },
+      {
+        "source": "www.veramolnar.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "http://www.veramolnar.com/blog/wp-content/themes/veramolnar/images/cat_atelier.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.veramolnar.com/"
+      },
+      {
+        "source": "www.veramolnar.com",
+        "title": "Untitled",
+        "year": "",
+        "image": "http://www.veramolnar.com/blog/wp-content/themes/veramolnar/images/img_atelier.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "http://www.veramolnar.com/"
       }
     ]
   },
@@ -31847,7 +33522,16 @@
     "name": "Wook-kyung Choi",
     "dates": "1940–1985",
     "gallery": "Hauser & Wirth",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "www.rair.org",
+        "title": "Untitled",
+        "year": "",
+        "image": "https://images.squarespace-cdn.com/content/v1/593f15c020099eef99034dd8/a53aae49-0f3a-45f5-b2a3-44ff78296c6a/wook-kyung_puma7n.jpg",
+        "credit": "Found via Wikipedia external link",
+        "url": "https://www.rair.org/wook-kyung-choi"
+      }
+    ]
   },
   "a344": {
     "name": "Wang Guangle",

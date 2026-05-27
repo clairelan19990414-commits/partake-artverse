@@ -7,9 +7,9 @@ Total artists: **857**
 | A | LOW-CONTEXT flagged (thinnest source, hand-rewrite candidate) | 15 |
 | B | Required fact field empty | 0 |
 | C | Missing portrait | 136 |
-| D | < 3 work images | 143 |
+| D | < 3 work images | 86 |
 | E | No working Wikipedia extract (card shows blank wiki panel) | 23 |
-| F | Complete on every dimension — safe | 540 |
+| F | Complete on every dimension — safe | 597 |
 
 ---
 
@@ -52,7 +52,7 @@ Total artists: **857**
 | a590 | Andro Wekua | g7 | — | 5 | ✓ |
 | a809 | André Komatsu | g11 | — | 0 | — |
 | a113 | Angel Otero | g2 | — | 0 | ✓ |
-| a92 | Anj Smith | g2 | — | 0 | ✓ |
+| a92 | Anj Smith | g2 | — | 1 | ✓ |
 | a904 | Ariana Papademetropoulos | g12 | — | 0 | — |
 | a927 | Austyn Weiner | g12 | — | 0 | — |
 | a543 | Axel Kasseböhmer — LOW-CONTEXT | g7 | — | 5 | — |
@@ -61,7 +61,7 @@ Total artists: **857**
 | a979 | Borna Sammak | g13 | — | 5 | — |
 | a911 | Brian Rochefort | g12 | — | 0 | — |
 | a619 | Channa Horwitz | g8 | — | 5 | ✓ |
-| a789 | Chen Zhen | g11 | — | 0 | ✓ |
+| a789 | Chen Zhen | g11 | — | 3 | ✓ |
 | a651 | Cheyney Thompson | g8 | — | 5 | — |
 | a881 | Christian Holstad | g12 | — | 1 | ✓ |
 | a984 | Christiana Soulou | g13 | — | 5 | — |
@@ -75,7 +75,7 @@ Total artists: **857**
 | a788 | Elizabet Cerviño | g11 | — | 0 | — |
 | a359 | Ellen Altfest | g5 | — | 5 | ✓ |
 | a180 | Emma McIntyre | g3 | — | 5 | ✓ |
-| a437 | Eric Orr | g6 | — | 0 | ✓ |
+| a437 | Eric Orr | g6 | — | 1 | ✓ |
 | a706 | Eva Helene Pade — LOW-CONTEXT | g9 | — | 0 | — |
 | a803 | Eva Jospin | g11 | — | 1 | — |
 | a897 | France-Lise McGurn | g12 | — | 0 | — |
@@ -87,7 +87,7 @@ Total artists: **857**
 | a823 | Giovanni Ozzola | g11 | — | 0 | — |
 | a799 | Gu Dexin | g11 | — | 0 | — |
 | a683 | Han Bing — LOW-CONTEXT | g9 | — | 0 | — |
-| a891 | Hannah Levy | g12 | — | 0 | ✓ |
+| a891 | Hannah Levy | g12 | — | 1 | ✓ |
 | a633 | Haroon Mirza | g8 | — | 5 | ✓ |
 | a670 | Heemin Chung — LOW-CONTEXT | g9 | — | 0 | — |
 | a856 | Hejum Bä | g12 | — | 0 | — |
@@ -97,7 +97,7 @@ Total artists: **857**
 | a668 | Jean-Marc Bustamante | g9 | — | 0 | ✓ |
 | a848 | Jean-Marie Appriou | g12 | — | 0 | — |
 | a763 | Jean-Philippe Delhomme | g10 | — | 0 | — |
-| a875 | Jenna Gribbon | g12 | — | 0 | ✓ |
+| a875 | Jenna Gribbon | g12 | — | 3 | ✓ |
 | a882 | Jessie Homer French | g12 | — | 0 | — |
 | a151 | Joe Bradley | g3 | — | 5 | ✓ |
 | a885 | Johannes Kahrs | g12 | — | 0 | ✓ |
@@ -147,16 +147,16 @@ Total artists: **857**
 | a175 | Nate Lowman | g3 | — | 5 | ✓ |
 | a832 | Nedko Solakov | g11 | — | 0 | — |
 | a705 | Nick Oberthaler | g9 | — | 0 | — |
-| a132 | Nicolas Party | g2 | — | 0 | ✓ |
+| a132 | Nicolas Party | g2 | — | 4 | ✓ |
 | a515 | Oliver Bak | g7 | — | 5 | — |
 | a623 | Oliver Lee Jackson | g8 | — | 6 | ✓ |
 | a822 | Ornaghi & Prestinari | g11 | — | 0 | — |
 | a797 | Osvaldo González | g11 | — | 0 | — |
 | a923 | Paloma Varga Weisz | g12 | — | 0 | ✓ |
 | a704 | Patrick Neu | g9 | — | 0 | — |
-| a492 | Paul Sietsema | g6 | — | 0 | ✓ |
+| a492 | Paul Sietsema | g6 | — | 1 | ✓ |
 | a910 | Pietro Roccasalva | g12 | — | 0 | — |
-| a826 | Qiu Zhijie | g11 | — | 0 | ✓ |
+| a826 | Qiu Zhijie | g11 | — | 3 | ✓ |
 | a630 | Ran Li — LOW-CONTEXT | g8 | — | 5 | — |
 | a556 | Reinhard Mucha | g7 | — | 6 | — |
 | a909 | Rob Pruitt | g12 | — | 0 | ✓ |
@@ -175,7 +175,7 @@ Total artists: **857**
 | a693 | Wolfgang Laib | g9 | — | 2 | ✓ |
 | a925 | Xiyao Wang | g12 | — | 0 | — |
 | a912 | Xue Ruozhe | g12 | — | 0 | — |
-| a907 | Yan Ping | g12 | — | 0 | ✓ |
+| a907 | Yan Ping | g12 | — | 2 | ✓ |
 | a931 | Yeesookyung | g12 | — | 1 | — |
 | a188 | Yu Nishimura | g3 | — | 6 | ✓ |
 
@@ -186,146 +186,89 @@ Total artists: **857**
 | a870 | Aaron Garber-Maikovska — LOW-CONTEXT | g12 | ✓ | 0 | ✓ |
 | a775 | Adel Abdessemed | g11 | ✓ | 1 | ✓ |
 | a815 | Ahmed Mater | g11 | ✓ | 0 | ✓ |
-| a660 | Ali Banisadr | g9 | ✓ | 0 | ✓ |
-| a491 | Allan Sekula | g6 | ✓ | 1 | ✓ |
+| a660 | Ali Banisadr | g9 | ✓ | 1 | ✓ |
 | a112 | Allison Katz | g2 | ✓ | 0 | — |
-| a596 | Allora & Calzadilla | g8 | ✓ | 0 | ✓ |
-| a662 | Alvaro Barrington — LOW-CONTEXT | g9 | ✓ | 0 | ✓ |
 | a837 | Ana Maria Tavares | g11 | ✓ | 0 | ✓ |
 | a109 | Anna Maria Maiolino | g2 | ✓ | 1 | ✓ |
-| a828 | Arcangelo Sassolino | g11 | ✓ | 0 | ✓ |
+| a828 | Arcangelo Sassolino | g11 | ✓ | 1 | ✓ |
 | a839 | Armando Testa | g11 | ✓ | 0 | ✓ |
-| a89 | Avery Singer | g2 | ✓ | 1 | ✓ |
-| a744 | Aya Takano | g10 | ✓ | 0 | ✓ |
-| a768 | Barry McGee | g10 | ✓ | 0 | ✓ |
 | a794 | Berlinde De Bruyckere | g11 | ✓ | 2 | ✓ |
 | a453 | Bernard Frize | g6 | ✓ | 0 | ✓ |
 | a890 | Bertrand Lavier | g12 | ✓ | 0 | ✓ |
 | a701 | Bjarne Melgaard | g9 | ✓ | 0 | ✓ |
-| a472 | Boris Mikhailov | g6 | ✓ | 2 | ✓ |
-| a460 | Brennan Gerard & Ryan Kelly | g6 | ✓ | 0 | ✓ |
 | a101 | Camille Henrot | g2 | ✓ | 1 | ✓ |
 | a845 | Carla Accardi | g12 | ✓ | 1 | ✓ |
-| a792 | Carlos Cruz-Diez | g11 | ✓ | 0 | ✓ |
-| a108 | Carolee Schneemann | g2 | ✓ | 2 | ✓ |
+| a792 | Carlos Cruz-Diez | g11 | ✓ | 1 | ✓ |
 | a425 | Cecile Abish | g6 | ✓ | 0 | ✓ |
 | a745 | Chiho Aoshima | g10 | ✓ | 1 | ✓ |
 | a90 | Christina Quarles | g2 | ✓ | 2 | ✓ |
 | a750 | Chung Chang-Sup | g10 | ✓ | 0 | ✓ |
-| a816 | Cildo Meireles | g11 | ✓ | 1 | ✓ |
 | a773 | Daniel Arsham | g10 | ✓ | 2 | ✓ |
 | a714 | Daniel Richter | g9 | ✓ | 0 | ✓ |
 | a473 | Delcy Morelos | g6 | ✓ | 0 | ✓ |
 | a906 | Diego Perrone | g12 | ✓ | 0 | ✓ |
-| a889 | Elad Lassry | g12 | ✓ | 2 | ✓ |
 | a726 | Emilio Vedova | g9 | ✓ | 0 | ✓ |
-| a748 | Emma Webster | g10 | ✓ | 0 | ✓ |
-| a119 | Fausto Melotti | g2 | ✓ | 1 | ✓ |
-| a915 | Ferrari Sheppard | g12 | ✓ | 0 | ✓ |
+| a119 | Fausto Melotti | g2 | ✓ | 2 | ✓ |
 | a111 | Firelei Báez | g2 | ✓ | 2 | ✓ |
-| a684 | Florentina Holzinger | g9 | ✓ | 2 | ✓ |
-| a95 | Frank Bowling | g2 | ✓ | 2 | ✓ |
-| a756 | Gabriel de la Mora | g10 | ✓ | 1 | ✓ |
+| a756 | Gabriel de la Mora | g10 | ✓ | 2 | ✓ |
 | a771 | Gabriel Rico | g10 | ✓ | 0 | ✓ |
-| a107 | Geta Brătescu | g2 | ✓ | 1 | ✓ |
 | a852 | Gianfranco Baruchello | g12 | ✓ | 0 | ✓ |
 | a876 | Giorgio Griffa | g12 | ✓ | 0 | ✓ |
-| a859 | Giulia Cenci | g12 | ✓ | 0 | ✓ |
 | a765 | Gregor Hildebrandt | g10 | ✓ | 0 | ✓ |
 | a760 | Hans Hartung | g10 | ✓ | 2 | ✓ |
-| a685 | Hans Josephsohn | g9 | ✓ | 0 | ✓ |
+| a685 | Hans Josephsohn | g9 | ✓ | 2 | ✓ |
 | a677 | Harun Farocki | g9 | ✓ | 0 | ✓ |
-| a127 | Ida Applebroog | g2 | ✓ | 1 | ✓ |
-| a711 | Imran Qureshi | g9 | ✓ | 2 | ✓ |
-| a742 | Izumi Kato | g10 | ✓ | 1 | ✓ |
-| a884 | Jamian Juliano-Villani | g12 | ✓ | 0 | ✓ |
-| a810 | Jannis Kounellis | g11 | ✓ | 2 | ✓ |
-| a700 | Jason Martin | g9 | ✓ | 0 | ✓ |
+| a127 | Ida Applebroog | g2 | ✓ | 2 | ✓ |
 | a75 | Jason Rhoades | g2 | ✓ | 1 | ✓ |
 | a737 | Jean-Michel Othoniel | g10 | ✓ | 0 | ✓ |
 | a878 | Jennifer Guidi | g12 | ✓ | 1 | ✓ |
 | a759 | Jens Fänge | g10 | ✓ | 0 | ✓ |
-| a752 | Jesper Just | g10 | ✓ | 0 | ✓ |
-| a724 | Joan Snyder | g9 | ✓ | 2 | ✓ |
-| a849 | John Armleder | g12 | ✓ | 2 | ✓ |
-| a694 | Jonathan Lasker | g9 | ✓ | 0 | ✓ |
-| a669 | Jordan Casteel | g9 | ✓ | 1 | ✓ |
-| a814 | Jorge Macchi | g11 | ✓ | 0 | ✓ |
+| a752 | Jesper Just | g10 | ✓ | 1 | ✓ |
+| a814 | Jorge Macchi | g11 | ✓ | 1 | ✓ |
 | a779 | Juan Araujo | g11 | ✓ | 0 | ✓ |
-| a812 | Julio Le Parc | g11 | ✓ | 2 | ✓ |
-| a780 | Kader Attia | g11 | ✓ | 1 | ✓ |
-| a774 | KAWS | g10 | ✓ | 1 | ✓ |
-| a754 | Klara Kristalova | g10 | ✓ | 0 | ✓ |
+| a754 | Klara Kristalova | g10 | ✓ | 1 | ✓ |
 | a97 | Larry Bell | g2 | ✓ | 1 | ✓ |
 | a749 | Lee Bae | g10 | ✓ | 0 | ✓ |
 | a887 | Lee Kit | g12 | ✓ | 0 | — |
-| a778 | Leila Alaoui | g11 | ✓ | 0 | ✓ |
 | a766 | Leslie Hewitt | g10 | ✓ | 1 | ✓ |
-| a919 | Lily Stockman | g12 | ✓ | 0 | ✓ |
 | a758 | Lionel Estève | g10 | ✓ | 1 | ✓ |
 | a667 | Lisa Brice | g9 | ✓ | 1 | ✓ |
 | a697 | Liza Lou | g9 | ✓ | 1 | ✓ |
 | a787 | Loris Cecchini | g11 | ✓ | 0 | ✓ |
 | a902 | Luigi Ontani | g12 | ✓ | 0 | ✓ |
-| a767 | Lynn Hershman Leeson | g10 | ✓ | 0 | ✓ |
+| a767 | Lynn Hershman Leeson | g10 | ✓ | 1 | ✓ |
 | a666 | Marc Brandenburg | g9 | ✓ | 2 | ✓ |
-| a698 | Marcin Maciejowski | g9 | ✓ | 2 | ✓ |
-| a55 | Maria Bartuszová | g1 | ✓ | 1 | ✓ |
 | a110 | Maria Magdalena Campos-Pons | g2 | ✓ | 1 | ✓ |
-| a746 | Mariko Mori | g10 | ✓ | 1 | ✓ |
-| a81 | Mark Bradford | g2 | ✓ | 2 | ✓ |
-| a720 | Markus Schinwald | g9 | ✓ | 1 | ✓ |
-| a673 | Martha Diamond | g9 | ✓ | 2 | ✓ |
-| a129 | Martin Creed | g2 | ✓ | 1 | ✓ |
-| a851 | Massimo Bartolini | g12 | ✓ | 0 | ✓ |
-| a130 | Matthew Day Jackson | g2 | ✓ | 0 | ✓ |
-| a929 | Matthew Wong | g12 | ✓ | 1 | ✓ |
-| a854 | McArthur Binion | g12 | ✓ | 2 | ✓ |
-| a716 | Megan Rooney | g9 | ✓ | 0 | ✓ |
+| a746 | Mariko Mori | g10 | ✓ | 2 | ✓ |
+| a720 | Markus Schinwald | g9 | ✓ | 2 | ✓ |
 | a449 | Michaela Eichwald | g6 | ✓ | 1 | ✓ |
 | a903 | Mimmo Paladino | g12 | ✓ | 1 | ✓ |
 | a131 | Monika Sosnowska | g2 | ✓ | 2 | ✓ |
-| a861 | Monster Chetwynd | g12 | ✓ | 0 | ✓ |
-| a841 | Nari Ward | g11 | ✓ | 1 | ✓ |
-| a928 | Nicole Wittenberg | g12 | ✓ | 0 | ✓ |
-| a790 | Nikhil Chopra | g11 | ✓ | 0 | ✓ |
+| a790 | Nikhil Chopra | g11 | ✓ | 1 | ✓ |
 | a728 | Not Vital | g9 | ✓ | 1 | — |
-| a664 | Oliver Beer | g9 | ✓ | 0 | ✓ |
 | a899 | Olivier Mosset | g12 | ✓ | 0 | ✓ |
-| a740 | Paola Pivi | g10 | ✓ | 0 | ✓ |
-| a913 | Peter Schuyff | g12 | ✓ | 0 | ✓ |
-| a93 | Phyllida Barlow | g2 | ✓ | 2 | ✓ |
 | a755 | Pieter Vermeersch | g10 | ✓ | 2 | ✓ |
-| a920 | Piotr Uklański | g12 | ✓ | 1 | ✓ |
-| a222 | Portia Zvavahera | g3 | ✓ | 0 | ✓ |
-| a154 | Raoul De Keyser | g3 | ✓ | 1 | ✓ |
-| a94 | Rita Ackermann | g2 | ✓ | 1 | ✓ |
-| a220 | Rose Wylie | g3 | ✓ | 0 | ✓ |
-| a918 | Rudolf Stingel | g12 | ✓ | 2 | ✓ |
-| a853 | Sanford Biggers | g12 | ✓ | 1 | ✓ |
+| a920 | Piotr Uklański | g12 | ✓ | 2 | ✓ |
+| a222 | Portia Zvavahera | g3 | ✓ | 2 | ✓ |
 | a830 | Serse | g11 | ✓ | 0 | — |
 | a36 | Setsuko | g1 | ✓ | 0 | ✓ |
 | a800 | Shilpa Gupta | g11 | ✓ | 1 | ✓ |
 | a172 | Shio Kusaka | g3 | ✓ | 0 | — |
 | a893 | Spencer Lewis | g12 | ✓ | 1 | ✓ |
-| a157 | Stan Douglas | g3 | ✓ | 2 | ✓ |
 | a862 | Steven Claydon | g12 | ✓ | 0 | ✓ |
 | a205 | Steven Shearer | g3 | ✓ | 0 | ✓ |
-| a725 | Sturtevant | g9 | ✓ | 2 | ✓ |
 | a99 | Subodh Gupta | g2 | ✓ | 0 | ✓ |
 | a836 | Sun Yuan & Peng Yu | g11 | ✓ | 1 | ✓ |
-| a764 | Thilo Heinzmann | g10 | ✓ | 0 | ✓ |
+| a764 | Thilo Heinzmann | g10 | ✓ | 2 | ✓ |
 | a877 | Thomas Grünfeld | g12 | ✓ | 1 | ✓ |
-| a169 | Toba Khedoori | g3 | ✓ | 1 | ✓ |
-| a702 | Vera Molnár | g9 | ✓ | 1 | ✓ |
 | a932 | Wang Yuyang | g12 | ✓ | 0 | ✓ |
 | a741 | Wim Delvoye | g10 | ✓ | 1 | ✓ |
-| a136 | Wook-kyung Choi | g2 | ✓ | 0 | ✓ |
+| a136 | Wook-kyung Choi | g2 | ✓ | 1 | ✓ |
 | a739 | Xavier Veilhan | g10 | ✓ | 0 | ✓ |
 | a734 | Yan Pei-Ming | g9 | ✓ | 0 | ✓ |
 | a786 | Yoan Capote | g11 | ✓ | 0 | ✓ |
 | a733 | Zadie Xa | g9 | ✓ | 0 | ✓ |
-| a806 | Zhanna Kadyrova | g11 | ✓ | 0 | ✓ |
+| a806 | Zhanna Kadyrova | g11 | ✓ | 1 | ✓ |
 
 ## Tier E — no working Wikipedia extract
 
@@ -357,4 +300,4 @@ Total artists: **857**
 
 ## Tier F — complete
 
-**540 artists** are complete on every dimension (portrait + ≥3 works + working Wikipedia extract + complete facts + not LOW-CONTEXT).
+**597 artists** are complete on every dimension (portrait + ≥3 works + working Wikipedia extract + complete facts + not LOW-CONTEXT).
