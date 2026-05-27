@@ -9443,7 +9443,40 @@
     "name": "Pipilotti Rist",
     "dates": "b. 1962",
     "gallery": "Hauser & Wirth",
-    "candidates": []
+    "candidates": [
+      {
+        "source": "Wikimedia Commons",
+        "title": "2025PipilottiRistRotterdam",
+        "year": "",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2025PipilottiRistRotterdam.jpg?width=1200",
+        "credit": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:2025PipilottiRistRotterdam.jpg"
+      },
+      {
+        "source": "Wikimedia Commons",
+        "title": "Das Zimmer",
+        "year": "",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Das_Zimmer.jpg?width=1200",
+        "credit": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Das_Zimmer.jpg"
+      },
+      {
+        "source": "Wikimedia Commons",
+        "title": "Homo Sapiens Sapiens still",
+        "year": "",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Homo_Sapiens_Sapiens_still.jpg?width=1200",
+        "credit": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Homo_Sapiens_Sapiens_still.jpg"
+      },
+      {
+        "source": "Wikimedia Commons",
+        "title": "I'm Not The Girl Who Misses Much still",
+        "year": "",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/I%27m_Not_The_Girl_Who_Misses_Much_still.jpg?width=1200",
+        "credit": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:I'm_Not_The_Girl_Who_Misses_Much_still.jpg"
+      }
+    ]
   },
   "a139": {
     "name": "Njideka Akunyili Crosby",
@@ -24348,6 +24381,38 @@
         "image": "https://www.artic.edu/iiif/2/4e661c9a-5391-028a-4739-e057a074debb/full/1200,/0/default.jpg",
         "credit": "Margaret Fisher Endowment Fund",
         "url": "https://www.artic.edu/artworks/258737"
+      },
+      {
+        "source": "Wikimedia Commons",
+        "title": "David Zwirner Exhibit",
+        "year": "",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/David_Zwirner_Exhibit.jpg?width=1200",
+        "credit": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:David_Zwirner_Exhibit.jpg"
+      },
+      {
+        "source": "Wikimedia Commons",
+        "title": "Ruth Asawa Number 1- 1955, 1954 1 15 18 -whitneymuseum (40528958572)",
+        "year": "",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruth_Asawa_Number_1-_1955%2C_1954_1_15_18_-whitneymuseum_%2840528958572%29.jpg?width=1200",
+        "credit": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Ruth_Asawa_Number_1-_1955,_1954_1_15_18_-whitneymuseum_(40528958572).jpg"
+      },
+      {
+        "source": "Wikimedia Commons",
+        "title": "Ruth Asawa Sculpture at David Zwirner Exhibit",
+        "year": "",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruth_Asawa_Sculpture_at_David_Zwirner_Exhibit.jpg?width=1200",
+        "credit": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Ruth_Asawa_Sculpture_at_David_Zwirner_Exhibit.jpg"
+      },
+      {
+        "source": "Wikimedia Commons",
+        "title": "Ruth Asawa, and Dreaming - Stories from the Collection, San Jose Museum of Art, ",
+        "year": "",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruth_Asawa%2C_and_Dreaming_-_Stories_from_the_Collection%2C_San_Jose_Museum_of_Art%2C_San_Jose_CA_09.jpg?width=1200",
+        "credit": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Ruth_Asawa,_and_Dreaming_-_Stories_from_the_Collection,_San_Jose_Museum_of_Art,_San_Jose_CA_09.jpg"
       }
     ]
   },
