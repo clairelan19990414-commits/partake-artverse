@@ -965,6 +965,12 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
   display: block;
   margin: 28px auto 0;
 }
+.quiz-result-divider {
+  height: 1px;
+  background: #2a2a2a;
+  margin: 32px 0 20px;
+  opacity: 0.4;
+}
 
 /* ── Knowledge Card (editorial layout) ── */
 .kc {
@@ -4516,10 +4522,15 @@ function _renderResult() {
   document.getElementById('q-body').innerHTML = `
     <div class="quiz-result-score">${score}<span class="denom">/${total}</span></div>
     <div class="quiz-result-label">${grade}</div>
+    <button class="quiz-start-btn quiz-restart" id="quiz-restart-top">Take Another Round →</button>
+    <div class="quiz-result-divider"></div>
     <div>${rowsHtml}</div>
-    <button class="quiz-start-btn quiz-restart" id="quiz-restart">Start Over →</button>
+    <button class="quiz-start-btn quiz-restart" id="quiz-restart">Take Another Round →</button>
   `;
   document.getElementById('quiz-restart').addEventListener('click', _restart);
+  document.getElementById('quiz-restart-top').addEventListener('click', _restart);
+  // Scroll the result back into view so the user lands on score + restart button
+  document.getElementById('quiz-frame').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function _grade(score, total) {
