@@ -269,7 +269,7 @@ const QUIZ_FACTS = {
     thesis: 'Photography as elegy, not record — its claim on the real is an act of mourning',
     cohort: 'Generation that began painting in the Cultural Revolution; moved to photography in the 1990s',
     pron: { written: 'HIGH BWO', ipa: '/xǎi pwó/', lang: 'zh-CN' },
-    wiki: 'Hai-boat',
+    wiki: '',
   },
   a273: { // Josef Koudelka
     born: 'Boskovice, Moravia, 1938',
@@ -1420,7 +1420,7 @@ const QUIZ_FACTS = {
     thesis: 'The next generation of Cuban painting still has serious figurative work to do',
     cohort: 'Post-Special-Period ISA generation; emerging Continua roster',
     pron: { written: 'hoh-SEH meh-SEE-ahs', ipa: '/xoˈse meˈsias/', lang: 'es-CU' },
-    wiki: 'José_Messias',
+    wiki: '',
   },
   a779: { // Juan Araujo
     born: 'Caracas, Venezuela, 1971',

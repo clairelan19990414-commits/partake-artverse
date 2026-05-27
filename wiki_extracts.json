@@ -143,11 +143,8 @@
     "slug": "Kl%C3%A1ra_Hosnedlov%C3%A1"
   },
   "a257": {
-    "status": "ok",
-    "slug": "Hai-boat",
-    "title": "Hai (keelboat)",
-    "description": "",
-    "extract": "Hai or Requin is a one-design, sloop-rigged keelboat designed in Finland. It was designed in 1930 by Finnish sailboat designer Gunnar Stenbäck as a cheap racing and cruising yacht suitable for mass production. It remains a popular small yacht in Finland and France."
+    "status": "no_slug",
+    "note": "no Wikipedia article"
   },
   "a273": {
     "status": "ok",
@@ -777,11 +774,8 @@
     "slug": "Jos%C3%A9_Antonio_Su%C3%A1rez_London%CC%83o"
   },
   "a817": {
-    "status": "ok",
-    "slug": "José_Messias",
-    "title": "José Messias",
-    "description": "",
-    "extract": "José Messias da Cunha or simply José Messias was a Brazilian composer, singer, writer, musician, radio broadcaster, host and producer of radio and television, and journalist, music critic and music juror in television talent programs."
+    "status": "no_slug",
+    "note": "no Wikipedia article"
   },
   "a779": {
     "status": "ok",

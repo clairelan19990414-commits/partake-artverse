@@ -6,10 +6,10 @@ Total artists: **857**
 |------|-------------|-------|
 | A | LOW-CONTEXT flagged (thinnest source, hand-rewrite candidate) | 15 |
 | B | Required fact field empty | 0 |
-| C | Missing portrait | 252 |
+| C | Missing portrait | 250 |
 | D | < 3 work images | 103 |
-| E | No working Wikipedia extract (card shows blank wiki panel) | 20 |
-| F | Complete on every dimension — safe | 467 |
+| E | No working Wikipedia extract (card shows blank wiki panel) | 21 |
+| F | Complete on every dimension — safe | 468 |
 
 ---
 
@@ -167,7 +167,7 @@ Total artists: **857**
 | a207 | Josh Smith | g3 | — | 5 | ✓ |
 | a398 | Josiah McElheny | g5 | — | 6 | ✓ |
 | a834 | José Antonio Suárez Londoño | g11 | — | 0 | — |
-| a817 | José Mesías | g11 | — | 0 | ✓ |
+| a817 | José Mesías | g11 | — | 0 | — |
 | a843 | José Yaque | g11 | — | 0 | — |
 | a779 | Juan Araujo | g11 | — | 0 | ✓ |
 | a638 | Julian Opie | g8 | — | 5 | ✓ |
@@ -198,7 +198,6 @@ Total artists: **857**
 | a162 | Louis Fratino | g3 | — | 6 | ✓ |
 | a376 | Louise Giovanelli | g5 | — | 5 | ✓ |
 | a917 | Lu Song | g12 | — | 0 | — |
-| a146 | Lucas Arruda | g3 | — | 6 | ✓ |
 | a960 | Lucia Laguna | g13 | — | 5 | — |
 | a646 | Lucy Raven | g8 | — | 5 | ✓ |
 | a901 | Ludovic Nkoth | g12 | — | 0 | — |
@@ -282,7 +281,6 @@ Total artists: **857**
 | a169 | Toba Khedoori | g3 | — | 1 | ✓ |
 | a138 | Tomma Abts | g3 | — | 3 | ✓ |
 | a874 | Tomoo Gokita | g12 | — | 0 | — |
-| a176 | Victor Man | g3 | — | 6 | ✓ |
 | a970 | Victoria Morton | g13 | — | 5 | ✓ |
 | a160 | William Eggleston | g3 | — | 6 | ✓ |
 | a693 | Wolfgang Laib | g9 | — | 2 | ✓ |
@@ -411,6 +409,7 @@ Total artists: **857**
 | a553 | David Maljkovic | g7 | ✓ | 5 | — |
 | a968 | Diego Marcon | g13 | ✓ | 5 | — |
 | a223 | Gideon Appah | g4 | ✓ | 5 | — |
+| a257 | Hai Bo | g4 | ✓ | 6 | — |
 | a511 | Henni Alftan | g7 | ✓ | 5 | — |
 | a238 | Huong Dodinh | g4 | ✓ | 5 | — |
 | a947 | Isabella Ducrot | g13 | ✓ | 5 | — |
@@ -430,4 +429,4 @@ Total artists: **857**
 
 ## Tier F — complete
 
-**467 artists** are complete on every dimension (portrait + ≥3 works + working Wikipedia extract + complete facts + not LOW-CONTEXT).
+**468 artists** are complete on every dimension (portrait + ≥3 works + working Wikipedia extract + complete facts + not LOW-CONTEXT).
