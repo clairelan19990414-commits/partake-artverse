@@ -1229,6 +1229,30 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
 
 <div class="map-body">
 
+  <!-- ── Quiz (moved to top) ── -->
+  <section class="map-section quiz-section">
+    <div class="map-section-label">Test Yourself</div>
+    <p class="map-section-note">A college-level art history exam drawn from the full roster of 761 non-red-chip artists across these thirteen galleries — household names and auction-record canon excluded by design. Seven question formats: training, signature project, method, thesis-attribution, cohort-attribution, practice-statement-attribution, and matching an artwork to its maker. Ten questions, one round.</p>
+
+    <div class="quiz-intro" id="quiz-intro">
+      <h2>Whose Practice Is This?</h2>
+      <p>761 artists. Seven question types. No internet help. The pool deliberately excludes red-chip and household-name artists — the test is to recognize the layer just below the auction-record canon.</p>
+      <button class="quiz-start-btn" id="quiz-start">Begin Exam →</button>
+    </div>
+
+    <div class="quiz-frame" id="quiz-frame" hidden>
+      <div class="quiz-head">
+        <div class="quiz-progress">Q <span class="current" id="q-current">1</span>/<span id="q-total">10</span></div>
+        <div class="quiz-tag" id="q-type">Medium</div>
+      </div>
+      <div id="q-body"></div>
+      <div class="quiz-foot">
+        <div class="quiz-feedback" id="q-feedback">Pick an answer below.</div>
+        <button class="quiz-next" id="q-next" disabled>Next →</button>
+      </div>
+    </div>
+  </section>
+
   <!-- ── Filter bar ── -->
   <section class="filter-bar" id="filter-bar">
     <div class="filter-bar-head">
@@ -1270,30 +1294,6 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
     <div class="map-section-label">Full Rosters</div>
     <p class="map-section-note">The complete roster at each gallery — click any header to expand. Hover an artist for works and connections; click for the full profile.</p>
     <div class="rosters-grid" id="rosters-grid"></div>
-  </section>
-
-  <!-- ── Quiz ── -->
-  <section class="map-section quiz-section">
-    <div class="map-section-label">Test Yourself</div>
-    <p class="map-section-note">A college-level art history exam drawn from the full roster of 761 non-red-chip artists across these thirteen galleries — household names and auction-record canon excluded by design. Seven question formats: training, signature project, method, thesis-attribution, cohort-attribution, practice-statement-attribution, and matching an artwork to its maker. Ten questions, one round.</p>
-
-    <div class="quiz-intro" id="quiz-intro">
-      <h2>Whose Practice Is This?</h2>
-      <p>761 artists. Seven question types. No internet help. The pool deliberately excludes red-chip and household-name artists — the test is to recognize the layer just below the auction-record canon.</p>
-      <button class="quiz-start-btn" id="quiz-start">Begin Exam →</button>
-    </div>
-
-    <div class="quiz-frame" id="quiz-frame" hidden>
-      <div class="quiz-head">
-        <div class="quiz-progress">Q <span class="current" id="q-current">1</span>/<span id="q-total">10</span></div>
-        <div class="quiz-tag" id="q-type">Medium</div>
-      </div>
-      <div id="q-body"></div>
-      <div class="quiz-foot">
-        <div class="quiz-feedback" id="q-feedback">Pick an answer below.</div>
-        <button class="quiz-next" id="q-next" disabled>Next →</button>
-      </div>
-    </div>
   </section>
 
 </div>
