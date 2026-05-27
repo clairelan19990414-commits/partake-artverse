@@ -1,7 +1,7 @@
 {
   "target_total": 857,
   "phase": 2,
-  "cycle_count": 16,
+  "cycle_count": 17,
   "completed": [
     "a146",
     "a176",
@@ -808,7 +808,58 @@
     "a495",
     "a35",
     "a527",
-    "a764"
+    "a764",
+    "a525",
+    "a199",
+    "a574",
+    "a496",
+    "a244",
+    "a621",
+    "a51",
+    "a169",
+    "a718",
+    "a138",
+    "a874",
+    "a600",
+    "a892",
+    "a639",
+    "a328",
+    "a242",
+    "a310",
+    "a652",
+    "a355",
+    "a978",
+    "a935",
+    "a676",
+    "a615",
+    "a29",
+    "a702",
+    "a970",
+    "a407",
+    "a523",
+    "a344",
+    "a39",
+    "a231",
+    "a299",
+    "a693",
+    "a136",
+    "a739",
+    "a31",
+    "a509",
+    "a351",
+    "a786",
+    "a397",
+    "a226",
+    "a655",
+    "a733",
+    "a34",
+    "a354",
+    "a353",
+    "a806",
+    "a656",
+    "a844",
+    "a91",
+    "a336"
   ],
   "red_chip_ids": [
     "a1",
@@ -951,415 +1002,6 @@
     "a977",
     "a985"
   ],
-  "queue": [
-    {
-      "id": "a525",
-      "name": "Thomas Demand",
-      "dates": "b. 1964",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a199",
-      "name": "Thomas Ruff",
-      "dates": "b. 1958",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a574",
-      "name": "Thomas Scheibitz",
-      "dates": "b. 1968",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a496",
-      "name": "Thomas Struth",
-      "dates": "b. 1954",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a244",
-      "name": "Tim Eitel",
-      "dates": "b. 1975",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a621",
-      "name": "Tishan Hsu",
-      "dates": "b. 1951",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a51",
-      "name": "Titus Kaphar",
-      "dates": "b. 1976",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a169",
-      "name": "Toba Khedoori",
-      "dates": "b. 1964",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a718",
-      "name": "Tom Sachs",
-      "dates": "b. 1966",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a138",
-      "name": "Tomma Abts",
-      "dates": "b. 1967",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a874",
-      "name": "Tomoo Gokita",
-      "dates": "b. 1969",
-      "gallery": "g12",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a600",
-      "name": "Tony Bechara",
-      "dates": "b. 1942",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a892",
-      "name": "Tony Lewis",
-      "dates": "b. 1986",
-      "gallery": "g12",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a639",
-      "name": "Tony Oursler",
-      "dates": "b. 1957",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a328",
-      "name": "Tony Smith",
-      "dates": "1912–1980",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a242",
-      "name": "Torkwase Dyson",
-      "dates": "b. 1973",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a310",
-      "name": "Trevor Paglen",
-      "dates": "b. 1974",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a652",
-      "name": "Tunga",
-      "dates": "1952–2016",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a355",
-      "name": "Tunji Adeniyi-Jones",
-      "dates": "b. 1992",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a978",
-      "name": "Ugo Rondinone",
-      "dates": "b. 1964",
-      "gallery": "g13",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a935",
-      "name": "Uri Aran",
-      "dates": "b. 1977",
-      "gallery": "g13",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a676",
-      "name": "VALIE EXPORT",
-      "dates": "b. 1940",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a615",
-      "name": "Van Hanos",
-      "dates": "b. 1979",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a29",
-      "name": "Vera Lutter",
-      "dates": "b. 1960",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a702",
-      "name": "Vera Molnár",
-      "dates": "1924–2023",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a970",
-      "name": "Victoria Morton",
-      "dates": "b. 1971",
-      "gallery": "g13",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a407",
-      "name": "Virginia Overton",
-      "dates": "b. 1971",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a523",
-      "name": "Walter Dahn",
-      "dates": "b. 1954",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a344",
-      "name": "Wang Guangle",
-      "dates": "b. 1976",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a39",
-      "name": "Willem de Kooning",
-      "dates": "1904–1997",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a231",
-      "name": "William Christenberry",
-      "dates": "1936–2016",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a299",
-      "name": "William Monk",
-      "dates": "b. 1977",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a693",
-      "name": "Wolfgang Laib",
-      "dates": "b. 1950",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a136",
-      "name": "Wook-kyung Choi",
-      "dates": "1940–1985",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a739",
-      "name": "Xavier Veilhan",
-      "dates": "b. 1963",
-      "gallery": "g10",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a31",
-      "name": "Y.Z. Kami",
-      "dates": "b. 1956",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a509",
-      "name": "Yang Fudong",
-      "dates": "b. 1971",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a351",
-      "name": "Yin Xiuzhen",
-      "dates": "b. 1963",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a786",
-      "name": "Yoan Capote",
-      "dates": "b. 1977",
-      "gallery": "g11",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a397",
-      "name": "Yoko Matsumoto",
-      "dates": "b. 1936",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a226",
-      "name": "Yto Barrada",
-      "dates": "b. 1971",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a655",
-      "name": "Yu Hong",
-      "dates": "b. 1966",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a733",
-      "name": "Zadie Xa",
-      "dates": "b. 1983",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a34",
-      "name": "Zeng Fanzhi",
-      "dates": "b. 1964",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a354",
-      "name": "Zhang Huan",
-      "dates": "b. 1965",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a353",
-      "name": "Zhang Xiaogang",
-      "dates": "b. 1958",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a806",
-      "name": "Zhanna Kadyrova",
-      "dates": "b. 1981",
-      "gallery": "g11",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a656",
-      "name": "Zhao Gang",
-      "dates": "b. 1961",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a844",
-      "name": "Zhuang Hui",
-      "dates": "b. 1963",
-      "gallery": "g11",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a91",
-      "name": "Zoe Leonard",
-      "dates": "b. 1961",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a336",
-      "name": "teamLab",
-      "dates": "b. 2001",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    }
-  ],
+  "queue": [],
   "notes": "Phase 2: extended to all unique artists across blue-chip rosters. Total target: 857. Placeholder-bio artists added — Claude must rely on training knowledge or flag uncertainty."
 }
