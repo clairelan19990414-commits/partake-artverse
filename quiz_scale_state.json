@@ -1,7 +1,7 @@
 {
   "target_total": 857,
   "phase": 2,
-  "cycle_count": 15,
+  "cycle_count": 16,
   "completed": [
     "a146",
     "a176",
@@ -758,7 +758,57 @@
     "a606",
     "a155",
     "a44",
-    "a147"
+    "a147",
+    "a613",
+    "a986",
+    "a474",
+    "a818",
+    "a573",
+    "a372",
+    "a608",
+    "a402",
+    "a26",
+    "a331",
+    "a558",
+    "a388",
+    "a36",
+    "a417",
+    "a800",
+    "a172",
+    "a620",
+    "a842",
+    "a279",
+    "a329",
+    "a252",
+    "a118",
+    "a611",
+    "a157",
+    "a67",
+    "a659",
+    "a564",
+    "a577",
+    "a205",
+    "a725",
+    "a99",
+    "a332",
+    "a836",
+    "a618",
+    "a824",
+    "a770",
+    "a163",
+    "a288",
+    "a532",
+    "a420",
+    "a135",
+    "a419",
+    "a239",
+    "a30",
+    "a19",
+    "a634",
+    "a495",
+    "a35",
+    "a527",
+    "a764"
   ],
   "red_chip_ids": [
     "a1",
@@ -902,406 +952,6 @@
     "a985"
   ],
   "queue": [
-    {
-      "id": "a613",
-      "name": "Ryan Gander",
-      "dates": "b. 1976",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a986",
-      "name": "Ryan Sullivan",
-      "dates": "b. 1983",
-      "gallery": "g13",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a474",
-      "name": "Sabine Moritz",
-      "dates": "b. 1969",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a818",
-      "name": "Sabrina Mezzaqui",
-      "dates": "b. 1964",
-      "gallery": "g11",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a573",
-      "name": "Salvo",
-      "dates": "1947–2015",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a372",
-      "name": "Sara Flores",
-      "dates": "b. 1950",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a608",
-      "name": "Sarah Cunningham",
-      "dates": "b. 1993",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a402",
-      "name": "Sarah Morris",
-      "dates": "b. 1967",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a26",
-      "name": "Sarah Sze",
-      "dates": "b. 1969",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a331",
-      "name": "Saul Steinberg",
-      "dates": "1914–1999",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a558",
-      "name": "Senga Nengudi",
-      "dates": "b. 1943",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a388",
-      "name": "Sergej Jensen",
-      "dates": "b. 1973",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a36",
-      "name": "Setsuko",
-      "dates": "b. 1942",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a417",
-      "name": "Shao Fan",
-      "dates": "b. 1964",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a800",
-      "name": "Shilpa Gupta",
-      "dates": "b. 1976",
-      "gallery": "g11",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a172",
-      "name": "Shio Kusaka",
-      "dates": "b. 1972",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a620",
-      "name": "Shirazeh Houshiary",
-      "dates": "b. 1955",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a842",
-      "name": "Sislej Xhafa",
-      "dates": "b. 1970",
-      "gallery": "g11",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a279",
-      "name": "Sol LeWitt",
-      "dates": "1928–2007",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a329",
-      "name": "Song Dong",
-      "dates": "b. 1966",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a252",
-      "name": "Sonia Gomes",
-      "dates": "b. 1948",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a118",
-      "name": "Sophie Taeuber-Arp",
-      "dates": "1889–1943",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a611",
-      "name": "Spencer Finch",
-      "dates": "b. 1962",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a157",
-      "name": "Stan Douglas",
-      "dates": "b. 1960",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a67",
-      "name": "Stanley Whitney",
-      "dates": "b. 1946",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a659",
-      "name": "Stephan Balkenhol",
-      "dates": "b. 1957",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a564",
-      "name": "Stephen Prina",
-      "dates": "b. 1954",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a577",
-      "name": "Stephen Shore",
-      "dates": "b. 1947",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a205",
-      "name": "Steven Shearer",
-      "dates": "b. 1968",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a725",
-      "name": "Sturtevant",
-      "dates": "1924–2014",
-      "gallery": "g9",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a99",
-      "name": "Subodh Gupta",
-      "dates": "b. 1964",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a332",
-      "name": "Sui Jianguo",
-      "dates": "b. 1956",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a836",
-      "name": "Sun Yuan & Peng Yu",
-      "dates": "b. 1972",
-      "gallery": "g11",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a618",
-      "name": "Susan Hiller",
-      "dates": "1940–2019",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a824",
-      "name": "Susana Pilar",
-      "dates": "b. 1984",
-      "gallery": "g11",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a770",
-      "name": "Susumu Kamijo",
-      "dates": "b. 1975",
-      "gallery": "g10",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a163",
-      "name": "Suzan Frecon",
-      "dates": "b. 1941",
-      "gallery": "g3",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a288",
-      "name": "Sylvia Plimack Mangold",
-      "dates": "b. 1938",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a532",
-      "name": "Sylvie Fleury",
-      "dates": "b. 1961",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a420",
-      "name": "TARWUK",
-      "dates": "b. 1982",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a135",
-      "name": "Takesada Matsutani",
-      "dates": "b. 1937",
-      "gallery": "g2",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a419",
-      "name": "Takis",
-      "dates": "1925–2019",
-      "gallery": "g5",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a239",
-      "name": "Tara Donovan",
-      "dates": "b. 1969",
-      "gallery": "g4",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a30",
-      "name": "Taryn Simon",
-      "dates": "b. 1975",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a19",
-      "name": "Tatiana Trouvé",
-      "dates": "b. 1968",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a634",
-      "name": "Tatsuo Miyajima",
-      "dates": "b. 1957",
-      "gallery": "g8",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a495",
-      "name": "Tavares Strachan",
-      "dates": "b. 1979",
-      "gallery": "g6",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a35",
-      "name": "Tetsuya Ishida",
-      "dates": "1973–2005",
-      "gallery": "g1",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a527",
-      "name": "Thea Djordjadze",
-      "dates": "b. 1971",
-      "gallery": "g7",
-      "nworks": 0,
-      "red_chip": false
-    },
-    {
-      "id": "a764",
-      "name": "Thilo Heinzmann",
-      "dates": "b. 1969",
-      "gallery": "g10",
-      "nworks": 0,
-      "red_chip": false
-    },
     {
       "id": "a525",
       "name": "Thomas Demand",
