@@ -3,24 +3,27 @@
 Total messages: 857.
 
 ## Length distribution
-- < 500 chars: 25
-- 500-700:     212
-- 700-900:     359
+- < 500 chars: 27
+- 500-700:     211
+- 700-900:     358
 - 900+ (rich): 261
 
 ## Bottom 60 by length + specificity (top of re-write queue)
 
 | ID | Name | Length | Score | Wiki ext (chars) |
 |----|------|-------:|------:|-----------------:|
-| a670 | Heemin Chung — LOW-CONTEXT | 345 | 3 | — |
+| a670 | Heemin Chung — LOW-CONTEXT | 156 | 3 | — |
+| a706 | Eva Helene Pade — LOW-CONTEXT | 321 | 2 | — |
+| a357 | Alia Ahmad — LOW-CONTEXT | 347 | 1 | 497 |
+| a630 | Ran Li | 408 | 2 | — |
 | a794 | Berlinde De Bruyckere | 432 | 1 | 292 |
-| a706 | Eva Helene Pade — LOW-CONTEXT | 441 | 3 | — |
+| a781 | Barbana Bojadzi | 436 | 2 | — |
 | a384 | Klára Hosnedlová | 445 | 1 | — |
-| a817 | José Mesías | 463 | 2 | 234 |
+| a817 | José Mesías | 463 | 2 | — |
 | a853 | Sanford Biggers | 465 | 1 | 208 |
 | a273 | Josef Koudelka | 475 | 3 | 508 |
 | a213 | Andra Ursuța | 477 | 2 | 318 |
-| a257 | Hai Bo | 482 | 1 | 265 |
+| a257 | Hai Bo | 482 | 1 | — |
 | a221 | Lisa Yuskavage | 485 | 3 | 169 |
 | a191 | Raymond Pettibon | 485 | 6 | 489 |
 | a188 | Yu Nishimura | 489 | 0 | 358 |
@@ -36,15 +39,13 @@ Total messages: 857.
 | a543 | Axel Kasseböhmer — LOW-CONTEXT | 498 | 4 | — |
 | a176 | Victor Man | 498 | 5 | 49 |
 | a490 | Tino Sehgal | 499 | 1 | 204 |
-| a781 | Barbana Bojadzi | 499 | 4 | — |
+| a986 | Ryan Sullivan | 501 | 1 | 33 |
 | a963 | Tau Lewis | 505 | 2 | 334 |
-| a357 | Alia Ahmad — LOW-CONTEXT | 507 | 3 | 497 |
 | a313 | Marina Perez Simão | 508 | 2 | — |
 | a881 | Christian Holstad | 508 | 3 | 148 |
 | a953 | Georg Herold | 510 | 4 | 147 |
 | a315 | Alejandro Piñeiro Bello | 512 | 5 | — |
 | a238 | Huong Dodinh | 513 | 2 | — |
-| a630 | Ran Li | 514 | 2 | — |
 | a785 | Iván Capote | 518 | 5 | — |
 | a917 | Lu Song | 518 | 6 | — |
 | a834 | José Antonio Suárez Londoño | 520 | 2 | — |
@@ -71,7 +72,6 @@ Total messages: 857.
 | a821 | Hans Op de Beeck | 546 | 2 | 133 |
 | a968 | Diego Marcon | 546 | 6 | — |
 | a951 | Georgia Gardner Gray | 546 | 7 | — |
-| a545 | Karen Kilimnik | 547 | 1 | 62 |
 
 ## Rich messages (length >= 900, score >= 6 — at original-50 level)
 212 entries.
