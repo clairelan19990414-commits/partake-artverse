@@ -6,10 +6,10 @@ Total artists: **857**
 |------|-------------|-------|
 | A | LOW-CONTEXT flagged (thinnest source, hand-rewrite candidate) | 15 |
 | B | Required fact field empty | 0 |
-| C | Missing portrait | 323 |
+| C | Missing portrait | 324 |
 | D | < 3 work images | 116 |
 | E | No working Wikipedia extract (card shows blank wiki panel) | 5 |
-| F | Complete on every dimension — safe | 398 |
+| F | Complete on every dimension — safe | 397 |
 
 ---
 
@@ -363,6 +363,7 @@ Total artists: **857**
 | a931 | Yeesookyung | g12 | — | 1 | — |
 | a786 | Yoan Capote | g11 | — | 0 | ✓ |
 | a655 | Yu Hong | g8 | — | 5 | ✓ |
+| a188 | Yu Nishimura | g3 | — | 6 | ✓ |
 | a733 | Zadie Xa | g9 | — | 0 | ✓ |
 | a806 | Zhanna Kadyrova | g11 | — | 0 | ✓ |
 
@@ -499,4 +500,4 @@ Total artists: **857**
 
 ## Tier F — complete
 
-**398 artists** are complete on every dimension (portrait + ≥3 works + working Wikipedia extract + complete facts + not LOW-CONTEXT).
+**397 artists** are complete on every dimension (portrait + ≥3 works + working Wikipedia extract + complete facts + not LOW-CONTEXT).
