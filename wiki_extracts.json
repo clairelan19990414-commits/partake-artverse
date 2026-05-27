@@ -2045,11 +2045,8 @@
     "extract": "Alberto Giacometti was a Swiss sculptor, painter, draftsman and printmaker, who was one of the most important sculptors of the 20th century. His work was particularly influenced by artistic styles such as Cubism and Surrealism. Philosophical questions about the human condition, as well as existential and phenomenological debates played a significant role in his work."
   },
   "a578": {
-    "status": "ok",
-    "slug": "Alexandre_Singh",
-    "title": "Two People Exchanging Saliva",
-    "description": "2024 French short film",
-    "extract": "Two People Exchanging Saliva is a 2024 French-language short drama film written and directed by Natalie Musteata and Alexandre Singh."
+    "status": "no_slug",
+    "note": "no Wikipedia article — slug pointed to wrong subject"
   },
   "a266": {
     "status": "ok",
@@ -4519,11 +4516,8 @@
     "extract": "Olga de Amaral is a Colombian textile and visual artist known for her large-scale abstract works made with fibers and covered in gold and/or silver leaf. She was one of the few artists from South America internationally known for her work in fiber art during the 1960s and 1970s. She lives and works in Bogotá, Colombia."
   },
   "a515": {
-    "status": "ok",
-    "slug": "Oliver_Baker",
-    "title": "Oliver Baker",
-    "description": "British artist (1856–1939)",
-    "extract": "Oliver Baker (1856–1939) was an English painter, etcher, designer and silversmith, best known for his role in the development of the Cymric Silverware line for Liberty & Co."
+    "status": "no_slug",
+    "note": "no Wikipedia article — slug Oliver_Baker was wrong person (1856 silversmith)"
   },
   "a664": {
     "status": "ok",
@@ -5626,10 +5620,7 @@
     "extract": "Zoe Leonard is an American artist who works primarily with photography and sculpture. She has exhibited widely since the late 1980s and her work has been included in a number of seminal exhibitions including Documenta IX and Documenta XII, and the 1993, 1997 and 2014 Whitney biennials. She was awarded a Guggenheim Fellowship in 2020."
   },
   "a336": {
-    "status": "ok",
-    "slug": "TeamLab",
-    "title": "OnlyOffice",
-    "description": "Office suite developed by Ascensio System SIA",
-    "extract": "OnlyOffice is an office suite and collaborative software platform that provides editors for documents, spreadsheets, presentations, and PDFs. The software includes web-based, desktop, and mobile applications designed for document creation, editing, and collaborative work. The desktop client uses the Chromium Embedded Framework."
+    "status": "no_slug",
+    "note": "no Wikipedia article — slug pointed to wrong subject"
   }
 }

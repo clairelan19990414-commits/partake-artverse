@@ -3588,7 +3588,7 @@ const QUIZ_FACTS = {
     thesis: 'The contemporary artist can still be a long-form narrative producer — brief attention is a curatorial convention',
     cohort: 'Post-2005 cross-disciplinary performance artists',
     pron: { written: 'ah-lek-SAHN-druh SING', ipa: '/alɛkˈsɑ̃dʁ siŋ/', lang: 'fr-FR' },
-    wiki: 'Alexandre_Singh',
+    wiki: '',
   },
   a266: { // Alfred Jensen
     born: 'Guatemala City, Guatemala, 1903 (d. 1981, Danish-German-Polish parentage)',
@@ -7657,7 +7657,7 @@ const QUIZ_FACTS = {
     thesis: 'The young painter has access to the long European Symbolist tradition without irony',
     cohort: 'Post-2018 Danish painting generation',
     pron: { written: 'BAHK', ipa: '/bak/', lang: 'da-DK' },
-    wiki: 'Oliver_Baker',
+    wiki: '',
   },
   a664: { // Oliver Beer
     born: 'Pembury, Kent, England, 1985',
@@ -9512,7 +9512,7 @@ const QUIZ_FACTS = {
     thesis: 'The boundary between artwork and viewer must be dissolved — the work happens only when the visitor\'s body is inside it — the digital immersive environment is the contemporary descendant of the traditional Japanese garden as much as of the museum',
     cohort: 'Among the most-attended contemporary art bodies; Pace',
     pron: { written: 'TEEM-lab', ipa: '/ˈtiːm.læb/', lang: 'en-US' },
-    wiki: 'TeamLab',
+    wiki: '',
   },
 
   // portrait field is populated post-fetch
