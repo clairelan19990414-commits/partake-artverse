@@ -4826,7 +4826,7 @@ const QUIZ_FACTS = {
     thesis: 'The small painted bronze of a single beloved sitter, sustained over decades, is a serious contemporary form',
     cohort: 'Quieter wing of YBA generation; RCA-trained',
     pron: { written: 'DON BROWN', ipa: '/dɒn braʊn/', lang: 'en-GB' },
-    wiki: 'Don_Brown_(children's_author)',
+    wiki: '',
   },
   a217: { // Doug Wheeler
     born: 'Globe, Arizona, 1939',
@@ -7635,7 +7635,7 @@ const QUIZ_FACTS = {
     thesis: 'The nomadic sculptor has a register the studio-bound artist does not — geographically distributed work the canonical tradition has not been asked to do',
     cohort: 'Took artist name "Not Vital" from Romansh word for "note"',
     pron: { written: 'NOT VEE-tahl', ipa: '/nɔt ˈviːtal/', lang: 'rm' },
-    wiki: 'Nothin'_at_All',
+    wiki: '',
   },
   a597: { // Olga de Amaral
     born: 'Bogotá, Colombia, 1932',
