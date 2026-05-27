@@ -1,0 +1,66 @@
+{
+  "handle": "kai_rehagen",
+  "source_counts": {
+    "captions": 3,
+    "transcript_clips": 0
+  },
+  "dossiers": [
+    {
+      "id": "DWr1wj3kZEu",
+      "title": "DWr1wj3kZEu",
+      "url": "https://www.instagram.com/reel/DWr1wj3kZEu/",
+      "source_type": "caption",
+      "word_count": 0,
+      "concepts": [
+        "Radical caption minimalism",
+        "Photography as art object",
+        "Silence as aesthetic choice",
+        "Anti-algorithm posting",
+        "Platform refusal"
+      ],
+      "role": "source material",
+      "summary": "Develops Radical caption minimalism, Photography as art object through a source post whose caption/title carries the core example.",
+      "source_excerpt": "",
+      "why_it_matters": "This gives the page primary-source backing for Radical caption minimalism, Photography as art object, Silence as aesthetic choice, turning the concept from a label into an actual clip-level argument.",
+      "tags": []
+    },
+    {
+      "id": "DWXCnbcEc_7",
+      "title": "Some Pictures",
+      "url": "https://www.instagram.com/reel/DWXCnbcEc_7/",
+      "source_type": "caption",
+      "word_count": 2,
+      "concepts": [
+        "Radical caption minimalism",
+        "Photography as art object",
+        "Anti-algorithm posting",
+        "Vernacular titling / deadpan irony",
+        "Platform refusal"
+      ],
+      "role": "source material",
+      "summary": "Develops Radical caption minimalism, Photography as art object through this source: Some Pictures",
+      "source_excerpt": "Some Pictures",
+      "why_it_matters": "This gives the page primary-source backing for Radical caption minimalism, Photography as art object, Anti-algorithm posting, turning the concept from a label into an actual clip-level argument.",
+      "tags": []
+    },
+    {
+      "id": "DWIjbM0lUbD",
+      "title": "💐",
+      "url": "https://www.instagram.com/reel/DWIjbM0lUbD/",
+      "source_type": "caption",
+      "word_count": 0,
+      "concepts": [
+        "Radical caption minimalism",
+        "Silence as aesthetic choice",
+        "Anti-algorithm posting",
+        "Emoji as total caption",
+        "Platform refusal"
+      ],
+      "role": "source material",
+      "summary": "Develops Radical caption minimalism, Silence as aesthetic choice through this source: 💐",
+      "source_excerpt": "💐",
+      "why_it_matters": "This gives the page primary-source backing for Radical caption minimalism, Silence as aesthetic choice, Anti-algorithm posting, turning the concept from a label into an actual clip-level argument.",
+      "tags": []
+    }
+  ]
+}

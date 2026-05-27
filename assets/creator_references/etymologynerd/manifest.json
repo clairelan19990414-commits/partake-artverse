@@ -1,0 +1,98 @@
+[
+  {
+    "key": "algospeak-book",
+    "title": "ALGOSPEAK book cover",
+    "source": "https://www.penguinrandomhouse.com/books/776856/algospeak-by-adam-aleksic/",
+    "file": "assets/creator_references/etymologynerd/algospeak-book.jpg",
+    "ok": true,
+    "status": 200
+  },
+  {
+    "key": "romance-languages-map",
+    "title": "Map of Romance Languages Worldwide",
+    "source": "https://commons.wikimedia.org/wiki/File:Map_of_Romance_Languages_Worldwide.png",
+    "file": "assets/creator_references/etymologynerd/romance-languages-map.png",
+    "ok": false,
+    "status": 429
+  },
+  {
+    "key": "turgot-paris-map",
+    "title": "Turgot map of Paris",
+    "source": "https://commons.wikimedia.org/wiki/File:Turgot_map_of_Paris_-_Norman_B._Leventhal_Map_Center.jpg",
+    "file": "assets/creator_references/etymologynerd/turgot-paris-map.jpg",
+    "ok": false,
+    "status": 429
+  },
+  {
+    "key": "systema-naturae",
+    "title": "Linnaeus Systema Naturae",
+    "source": "https://commons.wikimedia.org/wiki/File:Systema_naturae.jpg",
+    "file": "assets/creator_references/etymologynerd/systema-naturae.jpg",
+    "ok": false,
+    "status": 429
+  },
+  {
+    "key": "rosetta-stone",
+    "title": "Rosetta Stone",
+    "source": "https://commons.wikimedia.org/wiki/File:Rosetta_Stone.JPG",
+    "file": "assets/creator_references/etymologynerd/rosetta-stone.jpg",
+    "ok": true,
+    "status": 200
+  },
+  {
+    "key": "caslon-specimen",
+    "title": "William Caslon type specimen",
+    "source": "https://commons.wikimedia.org/wiki/File:A_Specimen_by_William_Caslon.jpg",
+    "file": "assets/creator_references/etymologynerd/caslon-specimen.jpg",
+    "ok": true,
+    "status": 200
+  },
+  {
+    "key": "goethe-color-wheel",
+    "title": "Goethe color wheel",
+    "source": "https://commons.wikimedia.org/wiki/File:Goethe,_Farbenkreis_zur_Symbolisierung_des_menschlichen_Geistes-_und_Seelenlebens,_1809.jpg",
+    "file": "assets/creator_references/etymologynerd/goethe-color-wheel.jpg",
+    "ok": false,
+    "status": 429
+  },
+  {
+    "key": "brain-anatomy",
+    "title": "Brain anatomy diagram",
+    "source": "https://commons.wikimedia.org/wiki/File:Brain_diagram_fr.svg",
+    "file": "assets/creator_references/etymologynerd/brain-anatomy.svg",
+    "ok": false,
+    "status": 429
+  },
+  {
+    "key": "dollar-banknote",
+    "title": "United States one-dollar bill",
+    "source": "https://commons.wikimedia.org/wiki/File:United_States_one_dollar_bill,_obverse.jpg",
+    "file": "assets/creator_references/etymologynerd/dollar-banknote.jpg",
+    "ok": false,
+    "status": 429
+  },
+  {
+    "key": "influenza-virus",
+    "title": "Influenza virus micrograph",
+    "source": "https://commons.wikimedia.org/wiki/File:Influenza_virus_particles_color.jpg",
+    "file": "assets/creator_references/etymologynerd/influenza-virus.jpg",
+    "ok": false,
+    "status": 404
+  },
+  {
+    "key": "paris-street-sign",
+    "title": "Paris street sign",
+    "source": "https://commons.wikimedia.org/wiki/File:Paris_street_signs_-_Rue_de_Rivoli.jpg",
+    "file": "assets/creator_references/etymologynerd/paris-street-sign.jpg",
+    "ok": false,
+    "status": 404
+  },
+  {
+    "key": "linnaean-taxonomy-tree",
+    "title": "Biological classification diagram",
+    "source": "https://commons.wikimedia.org/wiki/File:Biological_classification_L_Pengo_vflip.svg",
+    "file": "assets/creator_references/etymologynerd/linnaean-taxonomy-tree.svg",
+    "ok": true,
+    "status": 200
+  }
+]

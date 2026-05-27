@@ -1,0 +1,280 @@
+@itsvicchang · detailed transcript
+model: faster-whisper small
+clips: 8
+format: per-clip transcript with segment timestamps; generated from local mp4 files
+
+========================================================================================
+CLIP 01 · DV1tuprEuRH.mp4
+instagram_url: https://www.instagram.com/reel/DV1tuprEuRH/
+duration: 00:00:54.638 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Three AI hacks for getting product shots that actually look good. One, Pinterest taste maxing. Search your product or desired aesthetic on Pinterest. Download the image, then use it as a reference photo for much better results. Two, reverse prompt engineering. If you're looking to recreate a specific aesthetic, instead of trying to guess and describe it yourself, feed the image into AI. Ask it to create a detailed prompt on exactly how to generate an image like this. Then just swap out certain words with your specific product. You'll get way better results. Number three, and this one's my favorite, it, use 3x3 grids. Sometimes AI won't give you the output you're looking for, even when you feed it the best directions. So rather than wasting time on a bunch of renders, ask AI to generate a 3x3 grid. Select the 4K option if it's possible. Now you have 9 different options to choose from, all from a single render. And since it's in 4K, you can zoom in and crop the one you want, and it'll still be in high res. I like to use nano banana too, it's free to use on Gemini so you don't even need to purchase credits.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:01.600] Three AI hacks for getting product shots
+[00:00:01.600 → 00:00:02.720] that actually look good.
+[00:00:03.040 → 00:00:04.860] One, Pinterest taste maxing.
+[00:00:05.180 → 00:00:07.060] Search your product or desired aesthetic on Pinterest.
+[00:00:07.660 → 00:00:09.800] Download the image, then use it as a reference photo
+[00:00:09.800 → 00:00:10.780] for much better results.
+[00:00:11.160 → 00:00:12.720] Two, reverse prompt engineering.
+[00:00:13.220 → 00:00:14.840] If you're looking to recreate a specific aesthetic,
+[00:00:15.020 → 00:00:16.980] instead of trying to guess and describe it yourself,
+[00:00:17.420 → 00:00:18.400] feed the image into AI.
+[00:00:18.900 → 00:00:20.480] Ask it to create a detailed prompt
+[00:00:20.480 → 00:00:22.640] on exactly how to generate an image like this.
+[00:00:22.900 → 00:00:24.460] Then just swap out certain words
+[00:00:24.460 → 00:00:25.480] with your specific product.
+[00:00:25.740 → 00:00:26.740] You'll get way better results.
+[00:00:27.100 → 00:00:28.660] Number three, and this one's my favorite,
+[00:00:28.660 → 00:00:33.460] it, use 3x3 grids. Sometimes AI won't give you the output you're looking for, even when
+[00:00:33.460 → 00:00:37.760] you feed it the best directions. So rather than wasting time on a bunch of renders, ask
+[00:00:37.760 → 00:00:43.260] AI to generate a 3x3 grid. Select the 4K option if it's possible. Now you have 9 different
+[00:00:43.260 → 00:00:47.420] options to choose from, all from a single render. And since it's in 4K, you can
+[00:00:47.420 → 00:00:50.860] zoom in and crop the one you want, and it'll still be in high res. I like to
+[00:00:50.860 → 00:00:53.800] use nano banana too, it's free to use on Gemini so you don't even need to
+[00:00:53.800 → 00:00:54.280] purchase credits.
+
+========================================================================================
+CLIP 02 · DVrZr4xDxI6.mp4
+instagram_url: https://www.instagram.com/reel/DVrZr4xDxI6/
+duration: 00:00:25.613 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+If I were to build a pet brand, this is how I'd do it. People are bawling out on their cats. Searches for cat furniture are up 45%. Here's the problem. Most cat furniture looks like shit. So I designed pet furniture that you're not embarrassed to have in your home. This would be a modular system, shelves, cubbies, hanging beds. Customers can mix and match pieces and design their own setup. This isn't just pet gear, it's cat furniture that doubles as home decor. or follow for more product ideas like this.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:02.500] If I were to build a pet brand, this is how I'd do it.
+[00:00:02.740 → 00:00:04.080] People are bawling out on their cats.
+[00:00:04.460 → 00:00:06.880] Searches for cat furniture are up 45%.
+[00:00:06.880 → 00:00:07.860] Here's the problem.
+[00:00:08.060 → 00:00:09.660] Most cat furniture looks like shit.
+[00:00:10.040 → 00:00:13.100] So I designed pet furniture that you're not embarrassed to have in your home.
+[00:00:13.560 → 00:00:16.780] This would be a modular system, shelves, cubbies, hanging beds.
+[00:00:17.200 → 00:00:19.720] Customers can mix and match pieces and design their own setup.
+[00:00:20.260 → 00:00:23.580] This isn't just pet gear, it's cat furniture that doubles as home decor.
+[00:00:23.580 → 00:00:25.460] or follow for more product ideas like this.
+
+========================================================================================
+CLIP 03 · DVwinlHB5IX.mp4
+instagram_url: https://www.instagram.com/reel/DVwinlHB5IX/
+duration: 00:00:28.771 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+If I were to build a whiskey brand, this is how I do it. A zero-proof Japanese whiskey, because sober curries is taking over, but the people still want their speakeasy vibes. I'd launch with two types. Single malt, great for drinking straight, or on the rocks. And blended, a bit smoother with more malt, perfect for any highball mocktail. For launch, I'd create highball recipes printed onto vinyl records, and a manga that illustrates Chairo's unique distilling process. I'd package them all together and send them as a seed kit to trendy vinyl bars and influencers. If you're looking to start your own brand, follow up with more content like this.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.960] If I were to build a whiskey brand, this is how I do it. A zero-proof Japanese whiskey,
+[00:00:04.140 → 00:00:07.180] because sober curries is taking over, but the people still want their speakeasy vibes.
+[00:00:07.460 → 00:00:11.040] I'd launch with two types. Single malt, great for drinking straight, or on the rocks.
+[00:00:11.300 → 00:00:14.580] And blended, a bit smoother with more malt, perfect for any highball mocktail.
+[00:00:14.920 → 00:00:17.800] For launch, I'd create highball recipes printed onto vinyl records,
+[00:00:18.180 → 00:00:21.140] and a manga that illustrates Chairo's unique distilling process.
+[00:00:21.540 → 00:00:25.300] I'd package them all together and send them as a seed kit to trendy vinyl bars and influencers.
+[00:00:25.860 → 00:00:28.580] If you're looking to start your own brand, follow up with more content like this.
+
+========================================================================================
+CLIP 04 · DVz5xsSjnm4.mp4
+instagram_url: https://www.instagram.com/reel/DVz5xsSjnm4/
+duration: 00:01:06.573 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+What's the point of even creating anything if AI can just do it for you? But here's the thing. AI only works off what already exists. It's basically glorified plagiarism. It's just taking existing ideas and then kind of scrapping them in together and making like minor changes. But like, that's what it is, right? And that's what so much of design is. It's just taking ideas and then just like tweaking a few things. But here's the thing. Like if you really, really want to succeed in like the AI age as a creative, I think it's going to come down to creating new things. and that's what AI can't do. The entire point of AI is that it's using existing models and references and just shifting them around. It can only take preconceived ideas and reiterate them. But what AI can't do is create new aesthetics, like whether it's like future medieval or like fucking, I don't know, like labubus. AI isn't going to come up with completely brand new ideas, and that's what creatives are here to do. And that's like the creative work that I think you need to keep optimizing for. It's like, how can I connect the dots? How can I take two different totally disparate ideas and connect them together in a way that no one else has done before?
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.540] What's the point of even creating anything if AI can just do it for you?
+[00:00:04.020 → 00:00:04.600] But here's the thing.
+[00:00:04.820 → 00:00:07.560] AI only works off what already exists.
+[00:00:07.900 → 00:00:09.960] It's basically glorified plagiarism.
+[00:00:10.120 → 00:00:14.200] It's just taking existing ideas and then kind of scrapping them in together
+[00:00:14.200 → 00:00:15.900] and making like minor changes.
+[00:00:16.120 → 00:00:17.240] But like, that's what it is, right?
+[00:00:17.380 → 00:00:18.840] And that's what so much of design is.
+[00:00:18.920 → 00:00:21.540] It's just taking ideas and then just like tweaking a few things.
+[00:00:22.200 → 00:00:22.680] But here's the thing.
+[00:00:22.780 → 00:00:26.060] Like if you really, really want to succeed in like the AI age as a
+[00:00:26.060 → 00:00:28.680] creative, I think it's going to come down to creating new things.
+[00:00:28.680 → 00:00:33.820] and that's what AI can't do. The entire point of AI is that it's using existing models and
+[00:00:33.820 → 00:00:40.140] references and just shifting them around. It can only take preconceived ideas and reiterate them.
+[00:00:40.560 → 00:00:45.940] But what AI can't do is create new aesthetics, like whether it's like future medieval or like
+[00:00:46.520 → 00:00:53.260] fucking, I don't know, like labubus. AI isn't going to come up with completely brand new ideas,
+[00:00:53.420 → 00:00:56.920] and that's what creatives are here to do. And that's like the creative work that I think
+[00:00:56.920 → 00:00:59.220] you need to keep optimizing for.
+[00:00:59.340 → 00:01:00.540] It's like, how can I connect the dots?
+[00:01:00.700 → 00:01:03.380] How can I take two different totally disparate ideas
+[00:01:03.380 → 00:01:04.540] and connect them together
+[00:01:04.540 → 00:01:05.980] in a way that no one else has done before?
+
+========================================================================================
+CLIP 05 · DW1z_NQD82q.mp4
+instagram_url: https://www.instagram.com/reel/NQD82q/
+duration: 00:01:17.115 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+This is a retail sales tactic that you probably never considered. It's a secret to getting customers to buy more, spend higher amounts, and even make more impulsive buying decisions. It's not the store layout and has nothing to do with sales reps. I'll give you a hint, it's happening to you right now, and you probably don't even realize it. Have you ever noticed that stores like Zara, Uniqlo, and H&M, all have really catchy soundtracks playing in their stores? That's not an accident. Psychologists have found that music has a powerful, direct influence on purchase behavior. In a study published by Front Psychology, customers displayed more impulsive buying behavior when there was uptempo music playing in the background. Faster music essentially guides customers to make quicker purchase decisions, which puts a totally new spin on the term fast fashion. Restaurants can even play fast tempo music to subconsciously encourage guests to eat faster and increase turnover. It works the opposite way as well. Slow tempo music is shown to increase sales by up to 32% through encouraging shoppers to browse for longer. Longer browse times are critical for high consideration, aka more expensive products, but also for stores with huge inventories, like IKEA for example. So the question isn't should we have EDM playing in the background in order to increase sales? It's what kind of pace and mindset do we want our customers to be in as they browse our retail experience? If you're looking to start your own brand or product, follow for more content like this.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.200] This is a retail sales tactic that you probably never considered.
+[00:00:03.420 → 00:00:06.580] It's a secret to getting customers to buy more, spend higher amounts,
+[00:00:06.800 → 00:00:08.700] and even make more impulsive buying decisions.
+[00:00:09.000 → 00:00:11.760] It's not the store layout and has nothing to do with sales reps.
+[00:00:12.000 → 00:00:13.820] I'll give you a hint, it's happening to you right now,
+[00:00:14.000 → 00:00:15.660] and you probably don't even realize it.
+[00:00:15.780 → 00:00:18.900] Have you ever noticed that stores like Zara, Uniqlo, and H&M,
+[00:00:19.260 → 00:00:21.740] all have really catchy soundtracks playing in their stores?
+[00:00:22.080 → 00:00:22.820] That's not an accident.
+[00:00:23.240 → 00:00:25.380] Psychologists have found that music has a powerful,
+[00:00:25.600 → 00:00:27.360] direct influence on purchase behavior.
+[00:00:27.620 → 00:00:29.420] In a study published by Front Psychology,
+[00:00:29.420 → 00:00:32.180] customers displayed more impulsive buying behavior
+[00:00:32.180 → 00:00:34.520] when there was uptempo music playing in the background.
+[00:00:34.840 → 00:00:36.940] Faster music essentially guides customers
+[00:00:36.940 → 00:00:38.600] to make quicker purchase decisions,
+[00:00:38.920 → 00:00:41.680] which puts a totally new spin on the term fast fashion.
+[00:00:42.000 → 00:00:44.020] Restaurants can even play fast tempo music
+[00:00:44.020 → 00:00:46.680] to subconsciously encourage guests to eat faster
+[00:00:46.680 → 00:00:47.900] and increase turnover.
+[00:00:48.140 → 00:00:49.420] It works the opposite way as well.
+[00:00:49.660 → 00:00:53.240] Slow tempo music is shown to increase sales by up to 32%
+[00:00:53.240 → 00:00:55.680] through encouraging shoppers to browse for longer.
+[00:00:56.000 → 00:00:57.460] Longer browse times are critical
+[00:00:57.460 → 00:01:02.260] for high consideration, aka more expensive products, but also for stores with huge inventories,
+[00:01:02.620 → 00:01:03.620] like IKEA for example.
+[00:01:03.880 → 00:01:07.540] So the question isn't should we have EDM playing in the background in order to increase
+[00:01:07.540 → 00:01:07.980] sales?
+[00:01:08.260 → 00:01:12.340] It's what kind of pace and mindset do we want our customers to be in as they browse
+[00:01:12.340 → 00:01:13.360] our retail experience?
+[00:01:13.580 → 00:01:16.620] If you're looking to start your own brand or product, follow for more content like
+[00:01:16.620 → 00:01:16.860] this.
+
+========================================================================================
+CLIP 06 · DWDSyRijhhm.mp4
+instagram_url: https://www.instagram.com/reel/DWDSyRijhhm/
+duration: 00:01:22.130 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Ranking football's most iconic collabs. First off, we have the Off-White X Mercurial Vapor. I don't feel like this design is either the Vapor or Off-White Jesses. It lacks the over-accessorized Off-White feel, and the all-orange color feels a little random to me. Not one of the brand's finest designs, but an interesting collab nonetheless. 3 out of 10. Nike Air Max X Mercurial Vapor. Sick concept and theory, but ultimately, the design felt a little forced. Apparently, Nike went so far as to sacrifice some boot performance just so they could accomplish this design. In fact, Cole Palmer famously swapped out these boots during halftime, 2 out of 10. BAPE X Adidas Predator, perhaps the only instance where I'm okay with putting camel print on a football boot. The boot feels so iconic BAPE, and the print unmistakable. Elite crossover, 9 out of 10. Jordan X Hypervenom, not gonna lie, I was shook when these dropped. Creating a football boot designed after Nike Jordan was a wild concept at the time, essentially creating a new brand of Hypes football. more than the design itself. I think this shoe just represents a pivotal moment in the evolution of football culture. 7 out of 10. Yoji Yamamoto X Tunet Beast Pack. Y3 was so far ahead of its time with this maximalist approach to design. Everything from the boot, the apparel, the steel cage that the boots came in. This is just badass artistry from both Yamamoto and Hayashi. Blurring the line between football and art and staying true to your creative vision. 10 out of 10. What's your favorite boot collab? Did I miss anything?
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:02.040] Ranking football's most iconic collabs.
+[00:00:02.380 → 00:00:04.400] First off, we have the Off-White X Mercurial Vapor.
+[00:00:05.020 → 00:00:07.900] I don't feel like this design is either the Vapor or Off-White Jesses.
+[00:00:08.280 → 00:00:10.320] It lacks the over-accessorized Off-White feel,
+[00:00:10.760 → 00:00:13.020] and the all-orange color feels a little random to me.
+[00:00:13.340 → 00:00:16.160] Not one of the brand's finest designs, but an interesting collab nonetheless.
+[00:00:16.880 → 00:00:17.400] 3 out of 10.
+[00:00:17.640 → 00:00:19.500] Nike Air Max X Mercurial Vapor.
+[00:00:19.700 → 00:00:22.960] Sick concept and theory, but ultimately, the design felt a little forced.
+[00:00:23.280 → 00:00:26.100] Apparently, Nike went so far as to sacrifice some boot performance
+[00:00:26.100 → 00:00:27.860] just so they could accomplish this design.
+[00:00:27.860 → 00:00:31.720] In fact, Cole Palmer famously swapped out these boots during halftime, 2 out of 10.
+[00:00:32.280 → 00:00:36.660] BAPE X Adidas Predator, perhaps the only instance where I'm okay with putting camel print on
+[00:00:36.660 → 00:00:37.260] a football boot.
+[00:00:37.460 → 00:00:40.600] The boot feels so iconic BAPE, and the print unmistakable.
+[00:00:41.000 → 00:00:42.720] Elite crossover, 9 out of 10.
+[00:00:43.440 → 00:00:46.880] Jordan X Hypervenom, not gonna lie, I was shook when these dropped.
+[00:00:47.440 → 00:00:51.920] Creating a football boot designed after Nike Jordan was a wild concept at the time, essentially
+[00:00:51.920 → 00:00:54.160] creating a new brand of Hypes football.
+[00:00:54.160 → 00:00:58.200] more than the design itself. I think this shoe just represents a pivotal moment
+[00:00:58.200 → 00:01:03.300] in the evolution of football culture. 7 out of 10. Yoji Yamamoto X Tunet Beast Pack.
+[00:01:03.760 → 00:01:07.120] Y3 was so far ahead of its time with this maximalist approach to design.
+[00:01:07.500 → 00:01:11.040] Everything from the boot, the apparel, the steel cage that the boots came in.
+[00:01:11.380 → 00:01:15.160] This is just badass artistry from both Yamamoto and Hayashi. Blurring the
+[00:01:15.160 → 00:01:18.200] line between football and art and staying true to your creative vision.
+[00:01:18.700 → 00:01:21.840] 10 out of 10. What's your favorite boot collab? Did I miss anything?
+
+========================================================================================
+CLIP 07 · DWmOGhVDnbe.mp4
+instagram_url: https://www.instagram.com/reel/DWmOGhVDnbe/
+duration: 00:01:00.907 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+If I were to build a dating app, this is how I'd do it. So there's a fundamental issue with dating apps today, and that's the incentive structure. Modern dating apps actually profit more the longer you stay on the app. Finding a partner and getting off the app actually decreases your lifetime value as a customer, which goes against what the app is trying to do. So I'd build a dating app that monetizes off matches, not swipes. You can swipe on literally as many people as you want, but if you match with someone, you have to pay to actually open the conversation. This solves for a couple major pain points. Because you have to pay a small fee for each match, people will be much more intentional about who they match with. And once you do find a match, you're actually going to reach out because you're already financially invested. We won't put any time limits on conversations, but we will limit the number of messages you can exchange before the chat closes. This fixes the third problem, actually going on dates versus just being pen pals. Having people successfully get off the app might decrease lifetime value per customer, but the better customer experience, And my opinion could very well make up for that difference. If you're looking to start your own business, follow for more product ideas like this.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:02.120] If I were to build a dating app, this is how I'd do it.
+[00:00:02.220 → 00:00:05.880] So there's a fundamental issue with dating apps today, and that's the incentive structure.
+[00:00:06.280 → 00:00:09.780] Modern dating apps actually profit more the longer you stay on the app.
+[00:00:09.960 → 00:00:13.880] Finding a partner and getting off the app actually decreases your lifetime value as
+[00:00:13.880 → 00:00:16.600] a customer, which goes against what the app is trying to do.
+[00:00:16.760 → 00:00:20.180] So I'd build a dating app that monetizes off matches, not swipes.
+[00:00:20.460 → 00:00:23.540] You can swipe on literally as many people as you want, but if you match with
+[00:00:23.540 → 00:00:26.080] someone, you have to pay to actually open the conversation.
+[00:00:26.380 → 00:00:28.000] This solves for a couple major pain points.
+[00:00:28.000 → 00:00:31.860] Because you have to pay a small fee for each match, people will be much more intentional
+[00:00:31.860 → 00:00:36.360] about who they match with. And once you do find a match, you're actually going to reach out because
+[00:00:36.360 → 00:00:40.680] you're already financially invested. We won't put any time limits on conversations, but we will
+[00:00:40.680 → 00:00:45.280] limit the number of messages you can exchange before the chat closes. This fixes the third
+[00:00:45.280 → 00:00:50.280] problem, actually going on dates versus just being pen pals. Having people successfully get off
+[00:00:50.280 → 00:00:54.680] the app might decrease lifetime value per customer, but the better customer experience,
+[00:00:54.680 → 00:00:57.120] And my opinion could very well make up for that difference.
+[00:00:57.480 → 00:01:00.740] If you're looking to start your own business, follow for more product ideas like this.
+
+========================================================================================
+CLIP 08 · DXUhdD9Dtj-.mp4
+instagram_url: https://www.instagram.com/reel/DXUhdD9Dtj-/
+duration: 00:02:03.880 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+These two founders are building an anti-unisex brand, and it's quietly crushing the fragrance industry. BoySmells was started by two founders, Matthew Herman and David Keen, as a DIY candle experiment in their kitchen back in 2015. The true genius behind this brand is their creative interpretation of gender in their products. In this breakdown, I'll explain exactly how BoySmells is quietly disrupting the fragrance industry, turning a kitchen concept into a brand doing over half a million dollars a month. The first concept is their groundbreaking idea of gender-full versus gender-neutral. Most brands play it safe with unisex, but boy smells, they went completely the other direction. Their products aren't one sex, they're every sex. The name boy smells is masculine coated while the pink packaging is very clearly feminine. Their scents combine traditionally masculine notes like wood, smoke and musk with more feminine scents like florals and fruits. Even product names like cinder rose play with dual meanings and visual tension. The second idea is something I think is so important for brands today and that's identity led product design. This brand is fundamentally about self-expression via scent. People aren't buying boy smells because of their candles and perfumes smell the best. They're buying what it represents. Boysmiles is essentially saying, we allow consumers to express everything that is you. So the candle isn't just a candle anymore. It's a tool for self-expression. The final principle is the most important, in my opinion, and that's using your brand philosophy as a creative lens. Patagonia is a classic example of this. The brand is rooted in a love for the outdoors and true to that mission, they're known for designing clothes literally designed to last a lifetime, all in an effort to reduce consumption and protect the environment. And this holds true for Boysmiles as well. They're not speaking about inclusivity through social media posts. The brand is literally redefining gender categories with their product design. Most brands achieve unisex by removing gender signals. Boysmiles does the opposite. They layer opposing signals and lean into the contrast. In terms of expansion, I see this strategy working in any category that is highly gendered, sensory, and identity-driven. To me, deodorant is the perfect example of that. Male and female deodorants are heavily rooted in gender, and the sense, packaging and marketing are all heavily guided by binary thinking. Boy smells isn't simply a case study in challenging gender norms. It's actually a reminder of what's possible when brands go in the complete opposite direction of the status quo.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:02.300] These two founders are building an anti-unisex brand,
+[00:00:02.580 → 00:00:04.440] and it's quietly crushing the fragrance industry.
+[00:00:04.560 → 00:00:06.000] BoySmells was started by two founders,
+[00:00:06.360 → 00:00:07.940] Matthew Herman and David Keen,
+[00:00:08.080 → 00:00:10.880] as a DIY candle experiment in their kitchen back in 2015.
+[00:00:11.240 → 00:00:12.760] The true genius behind this brand
+[00:00:12.760 → 00:00:15.160] is their creative interpretation of gender in their products.
+[00:00:15.420 → 00:00:17.660] In this breakdown, I'll explain exactly how BoySmells
+[00:00:17.660 → 00:00:19.720] is quietly disrupting the fragrance industry,
+[00:00:19.880 → 00:00:21.640] turning a kitchen concept into a brand
+[00:00:21.640 → 00:00:23.200] doing over half a million dollars a month.
+[00:00:23.380 → 00:00:25.500] The first concept is their groundbreaking idea
+[00:00:25.500 → 00:00:27.660] of gender-full versus gender-neutral.
+[00:00:27.920 → 00:00:29.700] Most brands play it safe with unisex,
+[00:00:29.700 → 00:00:33.320] but boy smells, they went completely the other direction. Their products aren't one sex,
+[00:00:33.680 → 00:00:37.880] they're every sex. The name boy smells is masculine coated while the pink packaging is
+[00:00:37.880 → 00:00:41.580] very clearly feminine. Their scents combine traditionally masculine notes like wood,
+[00:00:41.840 → 00:00:45.720] smoke and musk with more feminine scents like florals and fruits. Even product names like
+[00:00:45.720 → 00:00:49.880] cinder rose play with dual meanings and visual tension. The second idea is something I think
+[00:00:49.880 → 00:00:54.260] is so important for brands today and that's identity led product design. This brand is
+[00:00:54.260 → 00:00:58.580] fundamentally about self-expression via scent. People aren't buying boy smells because
+[00:00:58.580 → 00:01:00.500] of their candles and perfumes smell the best.
+[00:01:00.720 → 00:01:01.840] They're buying what it represents.
+[00:01:02.160 → 00:01:03.420] Boysmiles is essentially saying,
+[00:01:03.720 → 00:01:06.120] we allow consumers to express everything that is you.
+[00:01:06.320 → 00:01:08.040] So the candle isn't just a candle anymore.
+[00:01:08.240 → 00:01:09.640] It's a tool for self-expression.
+[00:01:09.860 → 00:01:11.720] The final principle is the most important, in my opinion,
+[00:01:11.980 → 00:01:13.460] and that's using your brand philosophy
+[00:01:13.460 → 00:01:14.660] as a creative lens.
+[00:01:15.000 → 00:01:16.620] Patagonia is a classic example of this.
+[00:01:16.760 → 00:01:18.480] The brand is rooted in a love for the outdoors
+[00:01:18.480 → 00:01:19.520] and true to that mission,
+[00:01:19.760 → 00:01:20.840] they're known for designing clothes
+[00:01:20.840 → 00:01:22.560] literally designed to last a lifetime,
+[00:01:22.860 → 00:01:24.460] all in an effort to reduce consumption
+[00:01:24.460 → 00:01:25.440] and protect the environment.
+[00:01:25.640 → 00:01:27.260] And this holds true for Boysmiles as well.
+[00:01:27.260 → 00:01:29.940] They're not speaking about inclusivity through social media posts.
+[00:01:30.140 → 00:01:33.640] The brand is literally redefining gender categories with their product design.
+[00:01:34.100 → 00:01:36.740] Most brands achieve unisex by removing gender signals.
+[00:01:36.860 → 00:01:37.880] Boysmiles does the opposite.
+[00:01:38.160 → 00:01:40.700] They layer opposing signals and lean into the contrast.
+[00:01:41.080 → 00:01:45.440] In terms of expansion, I see this strategy working in any category that is highly gendered,
+[00:01:45.540 → 00:01:46.960] sensory, and identity-driven.
+[00:01:47.140 → 00:01:49.240] To me, deodorant is the perfect example of that.
+[00:01:49.460 → 00:01:53.120] Male and female deodorants are heavily rooted in gender, and the sense, packaging
+[00:01:53.120 → 00:01:55.820] and marketing are all heavily guided by binary thinking.
+[00:01:55.820 → 00:01:59.020] Boy smells isn't simply a case study in challenging gender norms.
+[00:01:59.300 → 00:02:03.680] It's actually a reminder of what's possible when brands go in the complete opposite direction of the status quo.

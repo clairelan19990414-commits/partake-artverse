@@ -1,0 +1,123 @@
+{
+  "Hasan Piker": {
+    "name": "Hasan Piker",
+    "query": "HasanAbi",
+    "wiki_title": "Hasan Piker",
+    "path": "assets/references/wikimedia_auto/hasan-piker.jpg",
+    "source_page": "https://en.wikipedia.org/wiki/Hasan_Piker",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/HasanStLouis-20260501-234558761_%28cropped%29.jpg/960px-HasanStLouis-20260501-234558761_%28cropped%29.jpg",
+    "content_type": "image/jpeg"
+  },
+  "Pop Mart (labubu/boo-boos)": {
+    "name": "Pop Mart (labubu/boo-boos)",
+    "display": "Labubu retail window display",
+    "path": "assets/references/wikimedia_auto/pop-mart-labubu-boo-boos.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Browsing_for_Labubu.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Browsing_for_Labubu.jpg/960px-Browsing_for_Labubu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "content_type": "image/jpeg"
+  },
+  "Labubu": {
+    "name": "Labubu",
+    "display": "Labubu retail window display",
+    "path": "assets/references/wikimedia_auto/labubu.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Browsing_for_Labubu.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Browsing_for_Labubu.jpg/960px-Browsing_for_Labubu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "content_type": "image/jpeg"
+  },
+  "Confucius Institutes": {
+    "name": "Confucius Institutes",
+    "display": "Confucius Institute building",
+    "path": "assets/references/wikimedia_auto/confucius-institutes.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Confucius_Institute_Troy_University.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Confucius_Institute_Troy_University.jpg/960px-Confucius_Institute_Troy_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "content_type": "image/jpeg"
+  },
+  "Block (Jack Dorsey)": {
+    "name": "Block (Jack Dorsey)",
+    "display": "Jack Dorsey portrait",
+    "path": "assets/references/wikimedia_auto/block-jack-dorsey.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Jack_Dorsey_2014_(cropped).jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Jack_Dorsey_2014_%28cropped%29.jpg/960px-Jack_Dorsey_2014_%28cropped%29.jpg",
+    "content_type": "image/jpeg"
+  },
+  "ALGOSPEAK: How Social Media Is Transforming the Future of Language": {
+    "name": "ALGOSPEAK: How Social Media Is Transforming the Future of Language",
+    "display": "Algospeak book cover",
+    "path": "assets/references/wikimedia_auto/algospeak-book-cover.jpg",
+    "source_page": "https://www.penguinrandomhouse.com/books/776856/algospeak-by-adam-aleksic/",
+    "source_url": "https://images3.penguinrandomhouse.com/cover/9780593804070",
+    "content_type": "image/jpeg"
+  },
+  "Alfred A. Knopf (@aaknopf)": {
+    "name": "Alfred A. Knopf (@aaknopf)",
+    "display": "Alfred A. Knopf borzoi mark",
+    "path": "assets/references/wikimedia_auto/alfred-a-knopf-borzoi.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Alfred_A._Knopf_-_Borzoi_logo_-_1926.png",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Alfred_A._Knopf_-_Borzoi_logo_-_1926.png",
+    "content_type": "image/png"
+  },
+  "Romance languages": {
+    "name": "Romance languages",
+    "display": "World map of Romance languages",
+    "path": "assets/references/wikimedia_auto/romance-languages-worldwide.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Map_of_Romance_Languages_Worldwide.png",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Map_of_Romance_Languages_Worldwide.png/960px-Map_of_Romance_Languages_Worldwide.png",
+    "content_type": "image/png"
+  },
+  "Dadaism": {
+    "name": "Dadaism",
+    "display": "Marcel Duchamp Fountain photograph",
+    "path": "assets/references/wikimedia_auto/duchamp-fountain-dada.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Marcel_Duchamp,_1917,_Fountain,_photograph_by_Alfred_Stieglitz.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg/960px-Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg",
+    "content_type": "image/jpeg"
+  },
+  "Surrealism": {
+    "name": "Surrealism",
+    "display": "André Breton portrait, 1924",
+    "path": "assets/references/wikimedia_auto/andre-breton-1924.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Andr%C3%A9_Breton_1924.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Andr%C3%A9_Breton_1924.jpg",
+    "content_type": "image/jpeg"
+  },
+  "Expressionism": {
+    "name": "Expressionism",
+    "display": "Edvard Munch, The Scream",
+    "path": "assets/references/wikimedia_auto/edvard-munch-the-scream.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Edvard-Munch-The-Scream.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Edvard-Munch-The-Scream.jpg",
+    "content_type": "image/jpeg"
+  },
+  "John Kiriakou": {
+    "name": "John Kiriakou",
+    "display": "John Kiriakou portrait",
+    "path": "assets/references/wikimedia_auto/john-kiriakou.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:John_kiriakou_5067742.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_kiriakou_5067742.JPG?width=960",
+    "content_type": "image/jpeg"
+  },
+  "The Bonus Army": {
+    "name": "The Bonus Army",
+    "display": "Bonus Army marchers photograph",
+    "path": "assets/references/wikimedia_auto/bonus-army.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/Category:Bonus_Army",
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_Bonus_Marchers_-_NARA_-_593253.gif?width=960",
+    "content_type": "image/gif"
+  },
+  "Refik Anadol": {
+    "name": "Refik Anadol",
+    "display": "Refik Anadol, Unsupervised installation",
+    "path": "assets/references/wikimedia_auto/refik-anadol-unsupervised.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Unsupervised_by_Refik_Anadol.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Unsupervised_by_Refik_Anadol.jpg/960px-Unsupervised_by_Refik_Anadol.jpg",
+    "content_type": "image/jpeg"
+  },
+  "Holly Herndon": {
+    "name": "Holly Herndon",
+    "display": "Holly Herndon PROTO live performance",
+    "path": "assets/references/wikimedia_auto/holly-herndon-proto-live.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Holly_Herndon_Proto_live,_Bristol.png",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Holly_Herndon_Proto_live%2C_Bristol.png/960px-Holly_Herndon_Proto_live%2C_Bristol.png",
+    "content_type": "image/png"
+  }
+}

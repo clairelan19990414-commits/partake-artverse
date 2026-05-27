@@ -1,0 +1,46 @@
+[
+  {
+    "key": "time-affluence-clock",
+    "title": "Time management",
+    "source": "https://en.wikipedia.org/wiki/Time_management",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Benjamin_Franklin%27s_Schedule_%28cropped%29.jpg",
+    "file": "assets/creator_references/lhuijuni.ldn/time-affluence-clock.jpg",
+    "ok": true
+  },
+  {
+    "key": "city-of-london",
+    "title": "City of London",
+    "source": "https://en.wikipedia.org/wiki/City_of_London",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Bank_junction_-_2020-09-20_%282%29.jpg/1280px-Bank_junction_-_2020-09-20_%282%29.jpg",
+    "file": "assets/creator_references/lhuijuni.ldn/city-of-london.jpg",
+    "ok": true
+  },
+  {
+    "key": "home-ownership",
+    "title": "Owner-occupancy",
+    "source": "https://en.wikipedia.org/wiki/Owner-occupancy",
+    "ok": false,
+    "error": "Error: HTTP 429 https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Housing_Ownership_Types.png/1280px-Housing_Ownership_Types.png"
+  },
+  {
+    "key": "foreign-exchange-market",
+    "title": "Foreign exchange market",
+    "source": "https://en.wikipedia.org/wiki/Foreign_exchange_market",
+    "ok": false,
+    "error": "Error: HTTP 429 https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/US_Dollar_Index_DXY.webp/1280px-US_Dollar_Index_DXY.webp.png"
+  },
+  {
+    "key": "japanese-yen",
+    "title": "Japanese yen",
+    "source": "https://en.wikipedia.org/wiki/Japanese_yen",
+    "ok": false,
+    "error": "Error: HTTP 429 https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/500_yen_bicolor_clad_coin_obverse.jpg/1280px-500_yen_bicolor_clad_coin_obverse.jpg"
+  },
+  {
+    "key": "fitness-centre",
+    "title": "Health club",
+    "source": "https://en.wikipedia.org/wiki/Health_club",
+    "ok": false,
+    "error": "Error: HTTP 429 https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Mann_mit_ausgepr%C3%A4gten_Muskeln_am_Arm.jpg/1280px-Mann_mit_ausgepr%C3%A4gten_Muskeln_am_Arm.jpg"
+  }
+]

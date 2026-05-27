@@ -1,0 +1,209 @@
+@thewaronbeauty · detailed transcript
+model: faster-whisper small
+clips: 6
+format: per-clip transcript with segment timestamps; generated from local mp4 files
+
+========================================================================================
+CLIP 01 · DUbU5bVgQ_h.mp4
+instagram_url: https://www.instagram.com/reel/h/
+duration: 00:03:48.648 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+I've been thinking for a while now about how important seriousness is for our whole society, for our thriving as a people and as a civilization. So I'm going to connect a few things. The grotesque, which is an idea important to seriousness, and John Ruskin's masterpiece The Stones of Venice, Pink Floyd and Chapel Roan's Grammys outfit. Ruskin in this book outlines the rise and fall of Venice in its architecture is intimately tied with morality and faith. He says that the Venetians as a people were really characterized by this solemnity and pensiveness and seriousness as well as spirit of the grotesque. The grotesque in its pure and sort of light form is a fantastic imagination and a creativity that is actually birthed from their seriousness. They then became very wealthy and in that very comfortable. That's when their downfall started. From there, those imaginative grotesqueries that seen in their gothic buildings became a delight in the quote contemplation of bestial vice and the expression of low sarcasm. The spirit of seriousness and grotesqueness is actually still extremely important today and one of the things that really connected this for me was that I've been really listening a lot to Pink Floyd the Wall album and I was struck how solemn and serious the tone of the album is, but also how there's a sense of playful and grotesqueness. The thing is with that album, just like those great gothic cathedrals, is that they approach those topics that they sung about with a lot of solemnity and thought. So while there is just and playful imagination in the wall, there's no levity. So, now on to Chapel Roan. Her dress at the Grammys is really bad grotesque, perfectly exemplifies Ruskin's delineation between the two types. She buoyantly says, giggling because I don't even think this is that outrageous of an outfit. The looks actually so awesome and weird, I recommend just exercising your free will. It's really fun and silly smiley face. Oh, contrary. Just as the Venetians went from a serious and faithful people as well as politically and commercially very successful, and then from there sinking into self-indulgence, apathy, and ruin, so have we in the contemporary West. We, as Ruskin says, sow and laughter the seeds of death. And so instead of our barbarism being translated into stone, it's now translated into fabric. What was once the very brilliant creative grotesqueries of designers like McQueen and Galliano, we have now abandoned all boundaries and limits and have become this, what we see on red carpets all the time. And in music too, the once serious, artistic, and incisive songs of bands like Pink Floyd have become the trite vulgarity of all the songs nominated for Grammy of the Year and are the chart-topping music. How do we fix this? It might be as simple as getting serious again.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:07.560] I've been thinking for a while now about how important seriousness is for our whole society,
+[00:00:07.760 → 00:00:15.180] for our thriving as a people and as a civilization. So I'm going to connect a few things. The grotesque,
+[00:00:15.200 → 00:00:21.780] which is an idea important to seriousness, and John Ruskin's masterpiece The Stones of Venice,
+[00:00:21.780 → 00:00:29.120] Pink Floyd and Chapel Roan's Grammys outfit. Ruskin in this book outlines the
+[00:00:29.120 → 00:00:35.240] rise and fall of Venice in its architecture is intimately tied with
+[00:00:35.240 → 00:00:40.160] morality and faith. He says that the Venetians as a people were really
+[00:00:40.160 → 00:00:48.160] characterized by this solemnity and pensiveness and seriousness as well as
+[00:00:48.160 → 00:00:55.840] spirit of the grotesque. The grotesque in its pure and sort of light form is a
+[00:00:55.840 → 00:01:02.700] fantastic imagination and a creativity that is actually birthed from their
+[00:01:02.700 → 00:01:08.380] seriousness. They then became very wealthy and in that very comfortable. That's
+[00:01:08.380 → 00:01:13.760] when their downfall started. From there, those imaginative grotesqueries that
+[00:01:13.760 → 00:01:20.720] seen in their gothic buildings became a delight in the quote contemplation of
+[00:01:20.720 → 00:01:27.280] bestial vice and the expression of low sarcasm. The spirit of seriousness and
+[00:01:27.280 → 00:01:32.000] grotesqueness is actually still extremely important today and one of the
+[00:01:32.000 → 00:01:35.080] things that really connected this for me was that I've been really listening
+[00:01:35.080 → 00:01:42.500] a lot to Pink Floyd the Wall album and I was struck how solemn and serious the
+[00:01:42.500 → 00:01:49.140] tone of the album is, but also how there's a sense of playful and grotesqueness.
+[00:01:49.600 → 00:01:53.340] The thing is with that album, just like those great gothic cathedrals,
+[00:01:53.680 → 00:02:01.020] is that they approach those topics that they sung about with a lot of solemnity and thought.
+[00:02:01.480 → 00:02:07.340] So while there is just and playful imagination in the wall, there's no levity.
+[00:02:07.340 → 00:02:10.200] So, now on to Chapel Roan.
+[00:02:10.280 → 00:02:17.460] Her dress at the Grammys is really bad grotesque, perfectly exemplifies Ruskin's delineation
+[00:02:17.460 → 00:02:19.120] between the two types.
+[00:02:19.600 → 00:02:25.860] She buoyantly says, giggling because I don't even think this is that outrageous of an outfit.
+[00:02:26.240 → 00:02:32.820] The looks actually so awesome and weird, I recommend just exercising your free will.
+[00:02:33.100 → 00:02:36.200] It's really fun and silly smiley face.
+[00:02:36.200 → 00:02:44.420] Oh, contrary. Just as the Venetians went from a serious and faithful people as well as politically
+[00:02:44.420 → 00:02:50.480] and commercially very successful, and then from there sinking into self-indulgence,
+[00:02:50.680 → 00:02:57.520] apathy, and ruin, so have we in the contemporary West. We, as Ruskin says,
+[00:02:58.160 → 00:03:05.340] sow and laughter the seeds of death. And so instead of our barbarism being translated into
+[00:03:05.340 → 00:03:13.480] stone, it's now translated into fabric. What was once the very brilliant creative grotesqueries
+[00:03:13.480 → 00:03:21.180] of designers like McQueen and Galliano, we have now abandoned all boundaries and limits
+[00:03:21.180 → 00:03:28.700] and have become this, what we see on red carpets all the time. And in music too, the once
+[00:03:28.700 → 00:03:36.160] serious, artistic, and incisive songs of bands like Pink Floyd have become the
+[00:03:36.160 → 00:03:41.780] trite vulgarity of all the songs nominated for Grammy of the Year and are
+[00:03:41.780 → 00:03:46.700] the chart-topping music. How do we fix this? It might be as simple as getting
+[00:03:46.700 → 00:03:48.060] serious again.
+
+========================================================================================
+CLIP 02 · DUg5ndVElMt.mp4
+instagram_url: https://www.instagram.com/reel/DUg5ndVElMt/
+duration: 00:01:54.824 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+I just saw this video of a robot carving this ancient Greek looking column and I looked at this page and it's all these robots carving these classical looking architectural or sculptural pieces and this hit me so badly and I'll tell you why. I just read John Ruskin's Stone's Venice and he explains this perfectly. The nobility, the beauty and the greatness of a building is in large part due to the humans who make it. The imperfection, the nuances, the random inspiration and it is in some cases the lack of skill and the lack of perfection that imbues a building, for example a Gothic cathedral with that nobility. Ruskin even says that the more perfect a building is the less noble because it shows that the man has become not an artist but a machine and so when I see here robots taking the role of a man entirely man is not even given the base job of being a human tool and so to me this is as bad as when we look at people like Jeff Koons and Damien Hirst leaving the execution of their artwork to a massive team of people that's actually one level better than this. A mere aesthetic, a nice classical-looking column, it's something that is actually dead on arrival. If the ancients, the Egyptians, the Romans, the Greeks could do this stuff, we can too. It's not a question of can we do this? It's a question of do we want to.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:05.860] I just saw this video of a robot carving this ancient Greek looking column and I looked
+[00:00:05.860 → 00:00:13.300] at this page and it's all these robots carving these classical looking architectural or sculptural
+[00:00:13.300 → 00:00:18.640] pieces and this hit me so badly and I'll tell you why.
+[00:00:18.840 → 00:00:23.660] I just read John Ruskin's Stone's Venice and he explains this perfectly.
+[00:00:23.660 → 00:00:32.840] The nobility, the beauty and the greatness of a building is in large part due to the humans
+[00:00:33.320 → 00:00:34.340] who make it.
+[00:00:34.860 → 00:00:44.480] The imperfection, the nuances, the random inspiration and it is in some cases the lack
+[00:00:44.480 → 00:00:51.360] of skill and the lack of perfection that imbues a building, for example a Gothic cathedral
+[00:00:51.360 → 00:00:58.460] with that nobility. Ruskin even says that the more perfect a building is the
+[00:00:58.460 → 00:01:05.120] less noble because it shows that the man has become not an artist but a machine
+[00:01:05.120 → 00:01:13.020] and so when I see here robots taking the role of a man entirely man is not
+[00:01:13.020 → 00:01:20.500] even given the base job of being a human tool and so to me this is as bad
+[00:01:20.500 → 00:01:25.900] as when we look at people like Jeff Koons and Damien Hirst leaving the
+[00:01:25.900 → 00:01:31.400] execution of their artwork to a massive team of people that's actually one level
+[00:01:31.400 → 00:01:37.280] better than this. A mere aesthetic, a nice classical-looking column, it's
+[00:01:37.280 → 00:01:43.160] something that is actually dead on arrival. If the ancients, the Egyptians,
+[00:01:43.860 → 00:01:49.840] the Romans, the Greeks could do this stuff, we can too. It's not a question
+[00:01:49.840 → 00:01:54.340] of can we do this? It's a question of do we want to.
+
+========================================================================================
+CLIP 03 · DV2IIejCQnm.mp4
+instagram_url: https://www.instagram.com/reel/DV2IIejCQnm/
+duration: 00:02:29.375 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+I don't think there has been more effective or destructive a tool in the war on beauty than actual war. In Tehran, Golestan Palace, which was the former palace of Iranian royals, and is currently a UNESCO World Heritage Site, was just hit by Israeli airstrikes. So UNESCO said in their statement addressing this airstrike quote cultural property is Protected under international law and the 1954 Hague convention and just this week one of the most Magnificent mosques in the whole entire world, which is located in Isfahan Which is a historic city in Iran and again apologies on pronunciation, but it was also damaged by airstrikes, and this is also a UNESCO World Heritage Site, and this mosque was built over the span of 12 centuries. It is quote, the oldest preserved edifice of its type in Iran, and a prototype for later mosques throughout Central Asia, according to UNESCO. In preparation for this video. I wanted to learn more about this mosque in Isfahan and so I tried to click on this article from the Tehran Times and it would not let me click on it. I just kept getting a 404 error page. I think it was just a tourist type article, you know, here's our amazing mosque in Iran. Could not click on it and so I tried a few different ways. I even googled Tehran Times on Google and it wouldn't let me access the page. There was even confirmed damage at five prehistoric caves and a rock shelter dating back to 63,000 BC. So again, not just Iranian history or Ghazan history or Lebanese history, this is human history being destroyed. I think there's this thing now with so much war division left right these people that people. There's such a tendency to dehumanize and say this side is barbaric and underdeveloped and not civilized when that just could not be further from the truth. These buildings belong to everyone, they belong to me, they belong to you, they belong to the people in the country that they're in, they belong to humankind.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:08.540] I don't think there has been more effective or destructive a tool in the war on beauty
+[00:00:08.540 → 00:00:16.920] than actual war. In Tehran, Golestan Palace, which was the former palace of Iranian royals,
+[00:00:17.240 → 00:00:23.960] and is currently a UNESCO World Heritage Site, was just hit by Israeli airstrikes.
+[00:00:23.960 → 00:00:30.920] So UNESCO said in their statement addressing this airstrike quote cultural property is
+[00:00:31.440 → 00:00:38.640] Protected under international law and the 1954 Hague convention and just this week one of the most
+[00:00:39.320 → 00:00:43.840] Magnificent mosques in the whole entire world, which is located in Isfahan
+[00:00:43.840 → 00:00:47.800] Which is a historic city in Iran and again apologies on
+[00:00:47.800 → 00:00:53.380] pronunciation, but it was also damaged by airstrikes, and this is also a UNESCO
+[00:00:53.380 → 00:01:00.180] World Heritage Site, and this mosque was built over the span of 12 centuries. It
+[00:01:00.180 → 00:01:06.800] is quote, the oldest preserved edifice of its type in Iran, and a prototype for
+[00:01:06.800 → 00:01:12.560] later mosques throughout Central Asia, according to UNESCO. In preparation for
+[00:01:12.560 → 00:01:18.540] this video. I wanted to learn more about this mosque in Isfahan and so I tried to
+[00:01:18.540 → 00:01:22.780] click on this article from the Tehran Times and it would not let me click on
+[00:01:22.780 → 00:01:27.240] it. I just kept getting a 404 error page. I think it was just a tourist type
+[00:01:27.240 → 00:01:31.640] article, you know, here's our amazing mosque in Iran. Could not click on it and
+[00:01:31.640 → 00:01:35.700] so I tried a few different ways. I even googled Tehran Times on Google and it
+[00:01:35.700 → 00:01:41.180] wouldn't let me access the page. There was even confirmed damage at five
+[00:01:41.180 → 00:01:50.780] prehistoric caves and a rock shelter dating back to 63,000 BC. So again, not
+[00:01:50.780 → 00:01:58.720] just Iranian history or Ghazan history or Lebanese history, this is human history
+[00:01:58.720 → 00:02:04.810] being destroyed. I think there's this thing now with so much war division
+[00:02:04.810 → 00:02:10.610] left right these people that people. There's such a tendency to dehumanize
+[00:02:10.610 → 00:02:17.350] and say this side is barbaric and underdeveloped and not civilized when that
+[00:02:17.350 → 00:02:22.490] just could not be further from the truth. These buildings belong to everyone, they
+[00:02:22.490 → 00:02:26.790] belong to me, they belong to you, they belong to the people in the country that
+[00:02:26.790 → 00:02:28.730] they're in, they belong to humankind.
+
+========================================================================================
+CLIP 04 · DVSPp_ckqkZ.mp4
+instagram_url: https://www.instagram.com/reel/ckqkZ/
+duration: 00:02:27.193 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+artwork is literally a sign showing us where our society is headed. In 2024, a painting by a humanoid robot artist sold at Sotheby's for a million dollars. In the research for The War on Ugly, my latest series on The War on Beauty, I've come across some really fascinating quotes. One of them is from English art historian and critic Herbert Reed that said, back in the 50s, traditional forms of painting and sculpture have no function in our streamlined existence, and that if they are to find a place in the civilization of the next half century, the visual arts must affect a compromise with the machine. That prediction is unfortunately becoming a reality, and I that that is by design. I also found this very scary quote from Yuval Harari about what the future is in this robot AI world. He says, given the rise of super intelligent algorithms or artificial intelligence, there is a possibility in our lifetime that hundreds of millions of people will be pushed out of the job market. And in the same way that the industrial revolution in the 19th century created a new massive class of the urban proletariat so in the 21st century we'll see the creation of a new useless class. The interviewer asks, how are you going to spend your life if you're part of this useless class? He says, no one really knows, but then gives a very specific answer. One option if you get support from the government or the state to fulfill your basic needs is that maybe drugs and computer games. We already see now Gucci launching a new AI campaign. Think about how many jobs from makeup artists to models, photographers, the person who owns the set location, stylists, everything are being cut out of a job opportunity. This is not a remote possibility or a conspiracy theory but it's what is happening in front of our eyes. And I think this plan has been in effect for a very long time and we talk about that in the War on Ugly and our latest installment the War on Ugly episode 2.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:09.860] artwork is literally a sign showing us where our society is headed. In 2024, a painting by a
+[00:00:09.860 → 00:00:18.120] humanoid robot artist sold at Sotheby's for a million dollars. In the research for The War on
+[00:00:18.120 → 00:00:24.460] Ugly, my latest series on The War on Beauty, I've come across some really fascinating quotes.
+[00:00:24.460 → 00:00:29.500] One of them is from English art historian and critic Herbert Reed that said,
+[00:00:29.840 → 00:00:34.640] back in the 50s, traditional forms of painting and sculpture have no function
+[00:00:34.640 → 00:00:40.240] in our streamlined existence, and that if they are to find a place in the
+[00:00:40.240 → 00:00:47.620] civilization of the next half century, the visual arts must affect a compromise
+[00:00:47.620 → 00:00:54.180] with the machine. That prediction is unfortunately becoming a reality, and I
+[00:00:54.180 → 00:01:01.020] that that is by design. I also found this very scary quote from Yuval Harari about what the
+[00:01:01.020 → 00:01:09.440] future is in this robot AI world. He says, given the rise of super intelligent algorithms or
+[00:01:09.440 → 00:01:15.440] artificial intelligence, there is a possibility in our lifetime that hundreds of millions of
+[00:01:15.440 → 00:01:21.480] people will be pushed out of the job market. And in the same way that the industrial revolution
+[00:01:21.480 → 00:01:24.460] in the 19th century created a new massive class
+[00:01:24.460 → 00:01:28.600] of the urban proletariat so in the 21st century
+[00:01:28.600 → 00:01:32.600] we'll see the creation of a new useless class.
+[00:01:33.000 → 00:01:33.860] The interviewer asks,
+[00:01:34.080 → 00:01:35.240] how are you going to spend your life
+[00:01:35.240 → 00:01:36.580] if you're part of this useless class?
+[00:01:36.740 → 00:01:38.780] He says, no one really knows,
+[00:01:38.980 → 00:01:40.920] but then gives a very specific answer.
+[00:01:41.460 → 00:01:43.820] One option if you get support from the government
+[00:01:43.820 → 00:01:46.700] or the state to fulfill your basic needs
+[00:01:46.700 → 00:01:50.060] is that maybe drugs and computer games.
+[00:01:50.060 → 00:01:54.240] We already see now Gucci launching a new AI campaign.
+[00:01:54.600 → 00:01:58.240] Think about how many jobs from makeup artists
+[00:01:58.240 → 00:02:01.260] to models, photographers, the person
+[00:02:01.260 → 00:02:04.820] who owns the set location, stylists, everything
+[00:02:04.820 → 00:02:08.540] are being cut out of a job opportunity.
+[00:02:08.860 → 00:02:12.700] This is not a remote possibility or a conspiracy theory
+[00:02:12.700 → 00:02:15.360] but it's what is happening in front of our eyes.
+[00:02:15.740 → 00:02:18.800] And I think this plan has been in effect
+[00:02:18.800 → 00:02:24.080] for a very long time and we talk about that in the War on Ugly and our latest
+[00:02:24.080 → 00:02:26.620] installment the War on Ugly episode 2.
+
+========================================================================================
+CLIP 05 · DWg8J1WDpx1.mp4
+instagram_url: https://www.instagram.com/reel/DWg8J1WDpx1/
+duration: 00:02:03.741 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+I think one of the most depressing trends of our contemporary times is the desacralization of sacred spaces or former religious spaces that have now been turned into pop-up shops, gyms, apartments. I've been seeing this happen so much, but yesterday I saw one of a new balanced pop-up shop in Rome and what was a hospital built by a pope, but it was clearly a church space too with an altar, these incredible frescoes and paintings of the Lord and it was turned into pop-up with breath work and stretching and shoes to buy and there was even in front of the actual altar, a new balance branded altar. What's important about this is that we love the beauty of the past. We love these incredible buildings, paintings, spaces, but not the moral and faith framework that it was birthed out of. That beauty came out of a Christian society. And now in our secular world that is so consumerist, we think, oh, we're not Christian anymore. more, we don't worship anything, we're just neutral. But it's actually not, because human beings are inclined to worship something. And as all of this shows, we, as Thomas Carlyle said, worship the gospel of dilatantism and man-monism. We worship money, we worship success and we worship stuff. That is our new God. And so I think if we, it has to be made clear that if we are ever going to return to the beauty of the past that we so love, the only possible way to get there is to return to what built it, which is faith in Jesus and the Catholic Church.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:07.760] I think one of the most depressing trends of our contemporary times is the desacralization of
+[00:00:07.760 → 00:00:14.740] sacred spaces or former religious spaces that have now been turned into pop-up shops, gyms,
+[00:00:14.940 → 00:00:22.720] apartments. I've been seeing this happen so much, but yesterday I saw one of a new balanced pop-up
+[00:00:22.720 → 00:00:30.880] shop in Rome and what was a hospital built by a pope, but it was clearly a church space too
+[00:00:30.880 → 00:00:39.580] with an altar, these incredible frescoes and paintings of the Lord and it was turned into
+[00:00:39.580 → 00:00:49.000] pop-up with breath work and stretching and shoes to buy and there was even in front of the
+[00:00:49.000 → 00:00:56.100] actual altar, a new balance branded altar. What's important about this is that we love the beauty
+[00:00:56.100 → 00:01:03.580] of the past. We love these incredible buildings, paintings, spaces, but not the moral and faith
+[00:01:03.580 → 00:01:09.460] framework that it was birthed out of. That beauty came out of a Christian society.
+[00:01:09.860 → 00:01:15.560] And now in our secular world that is so consumerist, we think, oh, we're not Christian anymore.
+[00:01:15.560 → 00:01:22.480] more, we don't worship anything, we're just neutral. But it's actually not, because human
+[00:01:22.480 → 00:01:29.320] beings are inclined to worship something. And as all of this shows, we, as Thomas Carlyle
+[00:01:29.320 → 00:01:36.860] said, worship the gospel of dilatantism and man-monism. We worship money, we worship
+[00:01:36.860 → 00:01:45.900] success and we worship stuff. That is our new God. And so I think if we, it has to be made
+[00:01:45.900 → 00:01:52.260] clear that if we are ever going to return to the beauty of the past that we so love,
+[00:01:52.940 → 00:02:00.260] the only possible way to get there is to return to what built it, which is faith in
+[00:02:00.260 → 00:02:02.320] Jesus and the Catholic Church.
+
+========================================================================================
+CLIP 06 · DXDkgxZElpp.mp4
+instagram_url: https://www.instagram.com/reel/DXDkgxZElpp/
+duration: 00:00:58.307 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+the modern suspicion of beauty was really, really cemented in 1908 by Adolf Luce's infamous essay, Ornament and Crime, which basically declared that all architectural and artistic decoration was immoral and against progress. He wrote, the evolution of culture is synonymous with the removal of ornament from utilitarian objects. This is basically the idea of form follows function and it's exactly why everything from street lamps to doorknobs to park benches went from beautiful and well-designed with artistic flourish to sterile and ugly. The philosophy of modernism turned beauty into something shameful and something to be eliminated in the name of honesty, efficiency, and purity.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:07.980] the modern suspicion of beauty was really, really cemented in 1908 by Adolf Luce's infamous
+[00:00:07.980 → 00:00:15.680] essay, Ornament and Crime, which basically declared that all architectural and artistic
+[00:00:15.680 → 00:00:20.460] decoration was immoral and against progress.
+[00:00:21.000 → 00:00:28.840] He wrote, the evolution of culture is synonymous with the removal of ornament from utilitarian
+[00:00:28.840 → 00:00:35.360] objects. This is basically the idea of form follows function and it's exactly
+[00:00:35.360 → 00:00:41.300] why everything from street lamps to doorknobs to park benches went from
+[00:00:41.300 → 00:00:48.160] beautiful and well-designed with artistic flourish to sterile and ugly. The
+[00:00:48.160 → 00:00:52.780] philosophy of modernism turned beauty into something shameful and something
+[00:00:52.780 → 00:00:57.660] to be eliminated in the name of honesty, efficiency, and purity.

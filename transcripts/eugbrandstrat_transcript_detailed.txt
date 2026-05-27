@@ -1,0 +1,274 @@
+@eugbrandstrat · detailed transcript
+model: faster-whisper small
+clips: 7
+format: per-clip transcript with segment timestamps; generated from local mp4 files
+
+========================================================================================
+CLIP 01 · DUCPeMrAB-w.mp4
+instagram_url: https://www.instagram.com/reel/DUCPeMrAB-w/
+duration: 00:01:53.106 · language: en (1.00)
+
+FULL TEXT
+The elevated millennial lifestyle brand is dead. Now for years there was a clear formula to building a millennial brand. Take some ordinary product like razors or mattresses and disrupt the category by turning it into an aspirational lifestyle good. Complete with design-led imagery, a web-native shopping experience and an aspirational but still accessible price point. Just enough to feel better than other plebs for using it but still affordable enough to be treated as an everyday purchase. The problem is in this economy the target consumer for this type of brand narrative is disappearing. These are not luxury brands, they are targeted at the aspirational middle. In a case-shaped economy that is increasingly rewarding only the wealthy, either you are part of this lucky few, in which case you are reaching for true luxury brands. Or you are drowning in ever-increasing rental or mortgage repayments for your shit-box studio apartment, in which case aspirational brands become completely farcical because you can only sell aspiration to a society that believes in the idea of aspiration itself. In this economy, Costco is the new true middle-class brand. Furthermore, this is effectively centrist branding in a world that is growing increasingly polarized. The creed of the millennial lifestyle brand was to look nice but say nothing. Sure, they would incorporate ideas like self-care or community or sustainability, but they weren't genuine commitments. They were aesthetic ideas that confirmed the elevated position of the buyer. And as I discussed with Tony Wang on a previous video on Halshu maximalism, people are increasingly rejecting say nothing for product and brand narratives that live at the extremes. Which is why Gwyneth Paltrow's Goop and Alex Jones Infowars can sell the exact same product of Cordyceps mushrooms as either Sun Potion or Wake Up America. If you're a brand in these categories, you need to accept that there is very little room for new entrants in this elevated middle ground. Either you build up to luxury brand positioning or you drill down to a much more focused niche. Or you can kill your ego and accept a more down marker position where your margins are lower but they're made up for with extra volume. Rip to the millennial brand. We'll be doing a eulogy at Run Club this weekend. You should come. Just brice your nays
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:02.800] The elevated millennial lifestyle brand is dead.
+[00:00:03.320 → 00:00:05.600] Now for years there was a clear formula to building a millennial brand.
+[00:00:05.960 → 00:00:09.860] Take some ordinary product like razors or mattresses and disrupt the category
+[00:00:09.860 → 00:00:12.080] by turning it into an aspirational lifestyle good.
+[00:00:12.200 → 00:00:15.000] Complete with design-led imagery, a web-native shopping experience
+[00:00:15.000 → 00:00:17.480] and an aspirational but still accessible price point.
+[00:00:17.800 → 00:00:19.680] Just enough to feel better than other plebs for using it
+[00:00:19.680 → 00:00:22.340] but still affordable enough to be treated as an everyday purchase.
+[00:00:22.760 → 00:00:26.340] The problem is in this economy the target consumer for this type of brand narrative
+[00:00:26.340 → 00:00:27.140] is disappearing.
+[00:00:27.140 → 00:00:30.700] These are not luxury brands, they are targeted at the aspirational middle.
+[00:00:31.180 → 00:00:35.480] In a case-shaped economy that is increasingly rewarding only the wealthy, either you are
+[00:00:35.480 → 00:00:38.640] part of this lucky few, in which case you are reaching for true luxury brands.
+[00:00:38.920 → 00:00:42.660] Or you are drowning in ever-increasing rental or mortgage repayments for your shit-box
+[00:00:42.660 → 00:00:47.280] studio apartment, in which case aspirational brands become completely farcical because
+[00:00:47.280 → 00:00:51.560] you can only sell aspiration to a society that believes in the idea of aspiration
+[00:00:51.560 → 00:00:52.040] itself.
+[00:00:52.480 → 00:00:55.860] In this economy, Costco is the new true middle-class brand.
+[00:00:55.860 → 00:01:00.060] Furthermore, this is effectively centrist branding in a world that is growing increasingly
+[00:01:00.060 → 00:01:00.800] polarized.
+[00:01:01.100 → 00:01:04.460] The creed of the millennial lifestyle brand was to look nice but say nothing.
+[00:01:04.880 → 00:01:09.200] Sure, they would incorporate ideas like self-care or community or sustainability, but they weren't
+[00:01:09.200 → 00:01:10.060] genuine commitments.
+[00:01:10.480 → 00:01:13.920] They were aesthetic ideas that confirmed the elevated position of the buyer.
+[00:01:14.300 → 00:01:18.380] And as I discussed with Tony Wang on a previous video on Halshu maximalism, people are
+[00:01:18.380 → 00:01:22.520] increasingly rejecting say nothing for product and brand narratives that live at the extremes.
+[00:01:22.520 → 00:01:30.320] Which is why Gwyneth Paltrow's Goop and Alex Jones Infowars can sell the exact same product of Cordyceps mushrooms as either Sun Potion or Wake Up America.
+[00:01:30.900 → 00:01:36.380] If you're a brand in these categories, you need to accept that there is very little room for new entrants in this elevated middle ground.
+[00:01:36.680 → 00:01:41.060] Either you build up to luxury brand positioning or you drill down to a much more focused niche.
+[00:01:41.360 → 00:01:47.000] Or you can kill your ego and accept a more down marker position where your margins are lower but they're made up for with extra volume.
+[00:01:47.000 → 00:01:52.680] Rip to the millennial brand. We'll be doing a eulogy at Run Club this weekend. You should come. Just brice your nays
+
+========================================================================================
+CLIP 02 · DUHZiw-iSzo.mp4
+instagram_url: https://www.instagram.com/reel/DUHZiw-iSzo/
+duration: 00:01:23.849 · language: en (1.00)
+
+FULL TEXT
+What do status symbols look like in 2026 and how have they changed? Let's talk about status after luxury. I made a video recently talking about the decline of the luxury industry's status as a status symbol. Social media has fueled a cultural oversaturation of luxury products. Even if these things are physically scarce, they are culturally ubiquitous. When you can go online and see a million pictures of a Birkin or a Lambo, it loses its mystique. It doesn't really matter what the price is. This is basic. Even the beauty industry, which for so long has been a key status symbol, has been eroded through social media's tendency to homogenize taste and make things look the same. Which is why we got things like Instagram face, carbon copy faces that literally are made for two dimensions instead of three. But what you can see across these examples is that anything visual has become commodified, abundant, effectively flooded into algorithmic wallpaper. Remember that status is derived from things that are inaccessible to the majority of the population. So the new status symbols can't be things that are compressed into the visual realm, they have to be behavioural. And over the next month I'm going to go through what I see as these key behavioural post-luxury status symbols. Each week we'll have a video, a free long-form sub-stack article that expands on these ideas in more depth, a reading list, and a set of reflective questions we'll be posting in the sub-stack subscriber chat to develop your own thinking and perspective on these concepts. Again, all free. This is a really big sweep of content that my team and I have been working on for quite a while, and we're all really excited to learn with you. Hopefully it'll feel a little bit like being back at university, only with less useless group project partners. I'll see you there.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.460] What do status symbols look like in 2026 and how have they changed? Let's talk about status after
+[00:00:04.460 → 00:00:08.600] luxury. I made a video recently talking about the decline of the luxury industry's status
+[00:00:08.600 → 00:00:13.380] as a status symbol. Social media has fueled a cultural oversaturation of luxury products. Even
+[00:00:13.380 → 00:00:17.140] if these things are physically scarce, they are culturally ubiquitous. When you can go online
+[00:00:17.140 → 00:00:20.600] and see a million pictures of a Birkin or a Lambo, it loses its mystique. It doesn't really
+[00:00:20.600 → 00:00:25.360] matter what the price is. This is basic. Even the beauty industry, which for so long has
+[00:00:25.360 → 00:00:29.100] been a key status symbol, has been eroded through social media's tendency to homogenize
+[00:00:29.100 → 00:00:33.060] taste and make things look the same. Which is why we got things like Instagram face,
+[00:00:33.260 → 00:00:36.640] carbon copy faces that literally are made for two dimensions instead of three.
+[00:00:36.940 → 00:00:40.740] But what you can see across these examples is that anything visual has become commodified,
+[00:00:40.980 → 00:00:45.220] abundant, effectively flooded into algorithmic wallpaper. Remember that status is derived from
+[00:00:45.220 → 00:00:49.340] things that are inaccessible to the majority of the population. So the new status symbols
+[00:00:49.340 → 00:00:53.140] can't be things that are compressed into the visual realm, they have to be behavioural.
+[00:00:53.320 → 00:00:56.500] And over the next month I'm going to go through what I see as these key behavioural
+[00:00:56.500 → 00:00:57.640] post-luxury status symbols.
+[00:00:58.040 → 00:00:59.300] Each week we'll have a video,
+[00:00:59.700 → 00:01:01.240] a free long-form sub-stack article
+[00:01:01.240 → 00:01:02.860] that expands on these ideas in more depth,
+[00:01:03.400 → 00:01:05.920] a reading list, and a set of reflective questions
+[00:01:05.920 → 00:01:07.740] we'll be posting in the sub-stack subscriber chat
+[00:01:07.740 → 00:01:09.400] to develop your own thinking and perspective
+[00:01:09.400 → 00:01:10.220] on these concepts.
+[00:01:10.680 → 00:01:11.620] Again, all free.
+[00:01:12.120 → 00:01:13.880] This is a really big sweep of content
+[00:01:13.880 → 00:01:15.140] that my team and I have been working on
+[00:01:15.140 → 00:01:15.660] for quite a while,
+[00:01:15.760 → 00:01:17.520] and we're all really excited to learn with you.
+[00:01:17.880 → 00:01:19.200] Hopefully it'll feel a little bit
+[00:01:19.200 → 00:01:20.300] like being back at university,
+[00:01:20.560 → 00:01:22.500] only with less useless group project partners.
+[00:01:23.060 → 00:01:23.480] I'll see you there.
+
+========================================================================================
+CLIP 03 · DV5fE7HDRd2.mp4
+instagram_url: https://www.instagram.com/reel/DV5fE7HDRd2/
+duration: 00:00:33.879 · language: en (1.00)
+
+FULL TEXT
+We're all perverts in the Lacanian sense in that like we all perform, curate ourselves for other people's pleasure. And I think that in certain environments that's fine, but like we shouldn't be living like that. And that's really where I want to get to in my life. Like I want to get to a level of freedom and autonomy where I can finally like properly live unmediated. It's going to be quite hard given that I'm a content creator, but I think really creating again separation from that persona and the person that has to embody that persona certain times of the day is something that I would define success by.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:05.020] We're all perverts in the Lacanian sense in that like we all perform, curate ourselves
+[00:00:05.020 → 00:00:06.300] for other people's pleasure.
+[00:00:06.500 → 00:00:11.460] And I think that in certain environments that's fine, but like we shouldn't be living like
+[00:00:11.460 → 00:00:11.760] that.
+[00:00:12.440 → 00:00:15.020] And that's really where I want to get to in my life.
+[00:00:15.100 → 00:00:18.800] Like I want to get to a level of freedom and autonomy where I can finally like properly
+[00:00:18.800 → 00:00:19.980] live unmediated.
+[00:00:20.260 → 00:00:24.800] It's going to be quite hard given that I'm a content creator, but I think really
+[00:00:24.800 → 00:00:30.540] creating again separation from that persona and the person that has to embody that persona
+[00:00:30.540 → 00:00:33.840] certain times of the day is something that I would define success by.
+
+========================================================================================
+CLIP 04 · DV92LnVkfWf.mp4
+instagram_url: https://www.instagram.com/reel/DV92LnVkfWf/
+duration: 00:02:38.292 · language: en (1.00)
+
+FULL TEXT
+The reality that we see reported to us increasingly has no relation to the one that most of us are experiencing. Today I want to talk about reality breaks and future's collapse. The French philosophers Guy Debord and Jean Vaudrillard argued that we no longer experience life directly but through its representations. If you think about modern life, we actually experience most of life as content. Wars, elections, economic crises, they reach us primarily as media events, packaged and filtered long before they get anywhere near our actual experience. And creating this pre-packaged and filtered reality has made reality easier to meddle with, until now. Because the gap between represented and lived experience is now so far apart that reality itself is at breaking point. The strategist Jasmine Beena has been cataloging the collapse of these foundational agreements that hold our society together and what happens when they fall apart. Every culture has its mythologies. In the West, and especially with the Protestant mythology of the US, we've always agreed on a few things. Hard work equals reward, justice applies to everybody that breaks the rules, and the market is a reflection of our shared economy. And this collection of agreements has historically propped up our culture. But when AI means any newbie can be a master, crypto means anybody with a lucky bet can be filthy rich overnight, and the tick-tockification of every algorithm in our lives means any no-name brand can win the attention lottery. The relationship between work and reward starts to break down. Meanwhile, the lawlessness of the elite and powerful is being shoved into our faces while everyday people and families are struggling to make ends meet. And the stock market and luxury home prices and luxury goods and high-tier credit cards, they all just keep going up. As this old reality collapses, we go looking for meaning in new places. That's why you see the rise of religiosity and spirituality, why you see the rise of van life and boat life and going off-grid and homesteading, the rise of communes and mom-yumes and co-living, betting platforms like Kalshi and Polymarket, which are exploding. They're always for people to find meaning by either gaming the system or just stepping outside of it entirely. These are opt-outs. People disengaging from the rules of a system that no longer serves them. That means that the things they value change as well. A lot of brands are about to be caught with their pants down as they're selling meaning and realities that people have stopped believing in. How can you sell the kind of aspirational narrative that so many elevated millennial brands seem to occupy if our society no longer believes in aspiration? How could you, as a tech brand, sell security or continuity, when our society is abandoning the belief that technology equals progress? So what a lot of brands really need is a complete audit of the ontological ground that they stand on. The actual foundational beliefs that your brand requires your consumer to hold in order for any of it to make sense. Because if these beliefs are cracking, and a lot of them are, honey, there isn't a campaign in the world that's going to save you.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.460] The reality that we see reported to us increasingly has no relation to the one that most of us are
+[00:00:04.460 → 00:00:07.960] experiencing. Today I want to talk about reality breaks and future's collapse.
+[00:00:08.420 → 00:00:12.440] The French philosophers Guy Debord and Jean Vaudrillard argued that we no longer experience life
+[00:00:12.440 → 00:00:16.980] directly but through its representations. If you think about modern life, we actually experience
+[00:00:16.980 → 00:00:22.440] most of life as content. Wars, elections, economic crises, they reach us primarily as media
+[00:00:22.440 → 00:00:26.400] events, packaged and filtered long before they get anywhere near our actual experience.
+[00:00:26.400 → 00:00:30.900] And creating this pre-packaged and filtered reality has made reality easier to meddle with,
+[00:00:31.140 → 00:00:31.820] until now.
+[00:00:32.140 → 00:00:36.360] Because the gap between represented and lived experience is now so far apart that reality
+[00:00:36.360 → 00:00:37.940] itself is at breaking point.
+[00:00:38.200 → 00:00:42.220] The strategist Jasmine Beena has been cataloging the collapse of these foundational agreements
+[00:00:42.220 → 00:00:45.560] that hold our society together and what happens when they fall apart.
+[00:00:45.900 → 00:00:47.580] Every culture has its mythologies.
+[00:00:47.840 → 00:00:51.660] In the West, and especially with the Protestant mythology of the US, we've always agreed
+[00:00:51.660 → 00:00:52.380] on a few things.
+[00:00:52.380 → 00:00:56.340] Hard work equals reward, justice applies to everybody that breaks the rules, and the
+[00:00:56.340 → 00:00:58.360] market is a reflection of our shared economy.
+[00:00:58.840 → 00:01:01.720] And this collection of agreements has historically propped up our culture.
+[00:01:02.000 → 00:01:06.440] But when AI means any newbie can be a master, crypto means anybody with a lucky bet can
+[00:01:06.440 → 00:01:11.020] be filthy rich overnight, and the tick-tockification of every algorithm in our lives means
+[00:01:11.020 → 00:01:13.440] any no-name brand can win the attention lottery.
+[00:01:13.800 → 00:01:17.200] The relationship between work and reward starts to break down.
+[00:01:17.340 → 00:01:21.420] Meanwhile, the lawlessness of the elite and powerful is being shoved into our faces
+[00:01:21.420 → 00:01:24.420] while everyday people and families are struggling to make ends meet.
+[00:01:24.760 → 00:01:29.600] And the stock market and luxury home prices and luxury goods and high-tier credit cards,
+[00:01:29.740 → 00:01:30.740] they all just keep going up.
+[00:01:30.820 → 00:01:35.200] As this old reality collapses, we go looking for meaning in new places.
+[00:01:35.440 → 00:01:38.200] That's why you see the rise of religiosity and spirituality,
+[00:01:38.680 → 00:01:42.420] why you see the rise of van life and boat life and going off-grid and homesteading,
+[00:01:42.480 → 00:01:44.860] the rise of communes and mom-yumes and co-living,
+[00:01:45.060 → 00:01:48.180] betting platforms like Kalshi and Polymarket, which are exploding.
+[00:01:48.180 → 00:01:52.720] They're always for people to find meaning by either gaming the system or just stepping
+[00:01:52.720 → 00:01:53.940] outside of it entirely.
+[00:01:54.400 → 00:01:55.660] These are opt-outs.
+[00:01:56.100 → 00:01:59.660] People disengaging from the rules of a system that no longer serves them.
+[00:01:59.800 → 00:02:02.760] That means that the things they value change as well.
+[00:02:03.180 → 00:02:06.340] A lot of brands are about to be caught with their pants down as they're selling meaning
+[00:02:06.340 → 00:02:08.400] and realities that people have stopped believing in.
+[00:02:08.600 → 00:02:12.080] How can you sell the kind of aspirational narrative that so many elevated millennial
+[00:02:12.080 → 00:02:15.380] brands seem to occupy if our society no longer believes in aspiration?
+[00:02:15.800 → 00:02:20.700] How could you, as a tech brand, sell security or continuity, when our society is abandoning
+[00:02:20.700 → 00:02:22.720] the belief that technology equals progress?
+[00:02:23.260 → 00:02:26.780] So what a lot of brands really need is a complete audit of the ontological ground that they
+[00:02:26.780 → 00:02:27.260] stand on.
+[00:02:27.500 → 00:02:31.200] The actual foundational beliefs that your brand requires your consumer to hold in order
+[00:02:31.200 → 00:02:32.380] for any of it to make sense.
+[00:02:32.700 → 00:02:36.200] Because if these beliefs are cracking, and a lot of them are, honey, there isn't
+[00:02:36.200 → 00:02:38.020] a campaign in the world that's going to save you.
+
+========================================================================================
+CLIP 05 · DWFkfPQiG5m.mp4
+instagram_url: https://www.instagram.com/reel/DWFkfPQiG5m/
+duration: 00:02:13.539 · language: en (1.00)
+
+FULL TEXT
+Desire is being decentralized and it's the death of celebrity as we know it. Let's talk about how the creator model is eating Hollywood. A few weeks back I was speaking at TikTok Newfronts in Berlin about the fundamental difference between celebrities and creators and how brands need to stop using old playbooks for new contexts. The celebrity is a relic of Hollywood, and Hollywood itself is a relic. Of a time when a very small number of very powerful people who owned all the cultural distribution networks were able to define what was considered desirable. But now, due to decentralized creation and algorithmic distribution, desire itself is democratized. And especially with the advent of interest-based rather than following-based algorithms, historical fame and presence does not guarantee engagement. Celebrities are deliberately designed as empty vessels for Hollywood to overlay their own aims and desires onto, so they actually need Hollywood's desire centralization and distribution networks. Creators are the opposite. They're built to thrive in this decentralized desire model. They have to build their own distribution networks, their own direct relationship with the audience. And in fact, today's most successful celebrities themselves are creators. Look at the Marty Supreme promo campaign where Timothy Chalamet's weird little stunts actually formed the vast majority of the marketing. So many brands want to treat creators like celebrities, which is to say, sock puppets that they can stuff their own creative direction entirely onto. But the creators' most distinctive asset is not their name, image, or likeness. It's their tone of voice, their distinctive content formats, their visual aesthetics, or their editing style. Ignoring all of this so you can use their face, arguably their least distinctive asset, massive waste of money. One of TechHoc's GMs, David Rowland, outlined the modern media problem. In an era of endless content choice, it's not just about reaching as many people as often as possible. All attention has to be earned. And the sentiment was echoed by L'Oreal's EUCMO, Juven Dalczyk, who said that relevance beats visibility. A big mass market campaign that has shallow appeal to a wide variety of people doesn't understand a snowball's chance in hell in the algorithm against content that is designed to specifically appeal to a specific audience. Now unfortunately the task of doing this requires marketers to swap one skill set for another, from ruthlessly controlling every aspect of a campaign, to being able to loosen the reins and orchestrate a consistent message across an increasingly diverse variety of creative outputs. The media and the cultural environment dictates that this is how things need to be done now. And so you've just got to kill your ego honey.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.840] Desire is being decentralized and it's the death of celebrity as we know it. Let's talk about
+[00:00:03.840 → 00:00:08.440] how the creator model is eating Hollywood. A few weeks back I was speaking at TikTok Newfronts
+[00:00:08.440 → 00:00:12.060] in Berlin about the fundamental difference between celebrities and creators and how
+[00:00:12.060 → 00:00:16.420] brands need to stop using old playbooks for new contexts. The celebrity is a relic of Hollywood,
+[00:00:16.600 → 00:00:21.440] and Hollywood itself is a relic. Of a time when a very small number of very powerful people who
+[00:00:21.440 → 00:00:26.080] owned all the cultural distribution networks were able to define what was considered desirable.
+[00:00:26.080 → 00:00:31.540] But now, due to decentralized creation and algorithmic distribution, desire itself is
+[00:00:31.540 → 00:00:32.300] democratized.
+[00:00:32.560 → 00:00:36.920] And especially with the advent of interest-based rather than following-based algorithms, historical
+[00:00:36.920 → 00:00:39.420] fame and presence does not guarantee engagement.
+[00:00:39.800 → 00:00:43.440] Celebrities are deliberately designed as empty vessels for Hollywood to overlay their
+[00:00:43.440 → 00:00:47.680] own aims and desires onto, so they actually need Hollywood's desire centralization
+[00:00:47.680 → 00:00:48.920] and distribution networks.
+[00:00:49.240 → 00:00:50.340] Creators are the opposite.
+[00:00:50.580 → 00:00:52.920] They're built to thrive in this decentralized desire model.
+[00:00:52.920 → 00:00:56.740] They have to build their own distribution networks, their own direct relationship with
+[00:00:56.740 → 00:00:57.180] the audience.
+[00:00:57.580 → 00:01:00.840] And in fact, today's most successful celebrities themselves are creators.
+[00:01:01.320 → 00:01:04.920] Look at the Marty Supreme promo campaign where Timothy Chalamet's weird little stunts actually
+[00:01:04.920 → 00:01:06.600] formed the vast majority of the marketing.
+[00:01:07.020 → 00:01:10.520] So many brands want to treat creators like celebrities, which is to say, sock puppets
+[00:01:10.520 → 00:01:13.020] that they can stuff their own creative direction entirely onto.
+[00:01:13.320 → 00:01:16.820] But the creators' most distinctive asset is not their name, image, or likeness.
+[00:01:17.020 → 00:01:20.160] It's their tone of voice, their distinctive content formats, their visual aesthetics,
+[00:01:20.320 → 00:01:21.300] or their editing style.
+[00:01:21.300 → 00:01:25.540] Ignoring all of this so you can use their face, arguably their least distinctive asset,
+[00:01:25.940 → 00:01:26.980] massive waste of money.
+[00:01:27.320 → 00:01:30.220] One of TechHoc's GMs, David Rowland, outlined the modern media problem.
+[00:01:30.420 → 00:01:34.340] In an era of endless content choice, it's not just about reaching as many people as
+[00:01:34.340 → 00:01:35.120] often as possible.
+[00:01:35.380 → 00:01:37.080] All attention has to be earned.
+[00:01:37.400 → 00:01:41.520] And the sentiment was echoed by L'Oreal's EUCMO, Juven Dalczyk, who said that relevance
+[00:01:41.520 → 00:01:42.460] beats visibility.
+[00:01:42.820 → 00:01:47.220] A big mass market campaign that has shallow appeal to a wide variety of people doesn't
+[00:01:47.220 → 00:01:51.060] understand a snowball's chance in hell in the algorithm against content that is designed
+[00:01:51.060 → 00:01:53.640] to specifically appeal to a specific audience.
+[00:01:54.060 → 00:01:57.920] Now unfortunately the task of doing this requires marketers to swap one skill set for another,
+[00:01:58.260 → 00:02:02.520] from ruthlessly controlling every aspect of a campaign, to being able to loosen the
+[00:02:02.520 → 00:02:06.120] reins and orchestrate a consistent message across an increasingly diverse variety of
+[00:02:06.120 → 00:02:06.820] creative outputs.
+[00:02:07.280 → 00:02:11.120] The media and the cultural environment dictates that this is how things need to be done
+[00:02:11.120 → 00:02:11.380] now.
+[00:02:11.380 → 00:02:13.040] And so you've just got to kill your ego honey.
+
+========================================================================================
+CLIP 06 · DWP3qwQE_4l.mp4
+instagram_url: https://www.instagram.com/reel/4l/
+duration: 00:01:49.484 · language: en (1.00)
+
+FULL TEXT
+Gen Z don't need brands to help them feel seen anymore. They need brands to help them escape. Today I want to talk about youth, brands, and the death of aspiration. For the better part of the last century, the societal role of brands was to function as vehicles for self-expression and aspiration in a world where traditional identity structures were collapsing. Brands were part of the scaffold. You climbed the ladder and you represented that externally through aspirational brand consumption. But you can only sell aspiration to a society that believes in the idea of aspiration itself. Today, nearly half of Gen Z run out of money each month, only a quarter consider themselves financially stable. Only about 28% believe the economy is going to improve next year. Meanwhile, hard work is untethering from reward. The whole economy is starting to feel like a casino. So the role of brands has to shift. It is no longer enough for a brand to see or understand your position as a young person. We are beyond that. What is scarce is progress. Help me get out. Help me escape. Over the next few years, you're going to see young people use brands as tools, partners, and scaffolding, not just symbols of self. Now, you can see this narrative being applied very effectively, if unethically, through the explosion of prediction market brands. But why should these vampires be the only ones to own this narrative? Notion is going beyond the notion of productivity and positioning itself as an all-encompassing personal system. Young people will use to manage careers, side hustles, finances and learning. IBM has just stated it will be tripling entry-level hiring, including software developers and roles that many claim AI will replace. This is deliberate positioning in an era of automation anxiety. Even self expression brands like Depop are really about creating infrastructure for young people to monetize their taste and alleviate financial pressure without having to opt out of culture altogether. Hence the archetype of the Depop girlie, someone who is fashionable but also savvy. In stable errors, brands help signal who you are becoming. Going forward in volatile errors, brands must help you reduce risk, increase optionality and make the next step easier. Get me somewhere or get in the bin.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.200] Gen Z don't need brands to help them feel seen anymore. They need brands to help them escape.
+[00:00:04.700 → 00:00:07.320] Today I want to talk about youth, brands, and the death of aspiration.
+[00:00:07.940 → 00:00:11.720] For the better part of the last century, the societal role of brands was to function as vehicles for
+[00:00:11.720 → 00:00:15.880] self-expression and aspiration in a world where traditional identity structures were collapsing.
+[00:00:16.280 → 00:00:19.940] Brands were part of the scaffold. You climbed the ladder and you represented that externally
+[00:00:19.940 → 00:00:24.620] through aspirational brand consumption. But you can only sell aspiration to a society that
+[00:00:24.620 → 00:00:29.280] believes in the idea of aspiration itself. Today, nearly half of Gen Z run out of money
+[00:00:29.280 → 00:00:32.140] each month, only a quarter consider themselves financially stable.
+[00:00:32.520 → 00:00:35.560] Only about 28% believe the economy is going to improve next year.
+[00:00:35.920 → 00:00:38.040] Meanwhile, hard work is untethering from reward.
+[00:00:38.160 → 00:00:40.140] The whole economy is starting to feel like a casino.
+[00:00:40.580 → 00:00:42.080] So the role of brands has to shift.
+[00:00:42.540 → 00:00:46.240] It is no longer enough for a brand to see or understand your position as a young person.
+[00:00:46.520 → 00:00:47.380] We are beyond that.
+[00:00:47.660 → 00:00:48.900] What is scarce is progress.
+[00:00:49.360 → 00:00:50.180] Help me get out.
+[00:00:50.520 → 00:00:51.500] Help me escape.
+[00:00:51.940 → 00:00:54.840] Over the next few years, you're going to see young people use brands as tools,
+[00:00:55.040 → 00:00:57.220] partners, and scaffolding, not just symbols of self.
+[00:00:57.220 → 00:01:01.160] Now, you can see this narrative being applied very effectively, if unethically, through
+[00:01:01.160 → 00:01:02.980] the explosion of prediction market brands.
+[00:01:03.360 → 00:01:06.260] But why should these vampires be the only ones to own this narrative?
+[00:01:06.620 → 00:01:10.240] Notion is going beyond the notion of productivity and positioning itself as an all-encompassing
+[00:01:10.240 → 00:01:11.040] personal system.
+[00:01:11.280 → 00:01:14.780] Young people will use to manage careers, side hustles, finances and learning.
+[00:01:15.140 → 00:01:18.560] IBM has just stated it will be tripling entry-level hiring, including software
+[00:01:18.560 → 00:01:21.080] developers and roles that many claim AI will replace.
+[00:01:21.560 → 00:01:24.220] This is deliberate positioning in an era of automation anxiety.
+[00:01:24.220 → 00:01:28.380] Even self expression brands like Depop are really about creating infrastructure for young
+[00:01:28.380 → 00:01:32.340] people to monetize their taste and alleviate financial pressure without having to opt out
+[00:01:32.340 → 00:01:33.160] of culture altogether.
+[00:01:33.540 → 00:01:37.280] Hence the archetype of the Depop girlie, someone who is fashionable but also savvy.
+[00:01:37.780 → 00:01:40.140] In stable errors, brands help signal who you are becoming.
+[00:01:40.440 → 00:01:44.500] Going forward in volatile errors, brands must help you reduce risk, increase optionality
+[00:01:44.500 → 00:01:46.480] and make the next step easier.
+[00:01:46.960 → 00:01:49.120] Get me somewhere or get in the bin.
+
+========================================================================================
+CLIP 07 · DXNxs-Riat_.mp4
+instagram_url: https://www.instagram.com/reel//
+duration: 00:00:14.017 · language: en (1.00)
+
+FULL TEXT
+My poor eyes, you just used to
+
+TIMESTAMPED SEGMENTS
+[00:00:00.050 → 00:00:03.830] [possible low-speech/noisy segment: 0.55] My poor eyes, you just used to

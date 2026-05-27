@@ -1,0 +1,3619 @@
+{
+  "handle": "culturalfingerprints",
+  "model": "small",
+  "source_dir": "/Users/cicilan/Desktop/partake_videos/culturalfingerprints",
+  "source_files": [
+    "/Users/cicilan/Desktop/partake_videos/culturalfingerprints/DUa3v5DEcmZ.mp4",
+    "/Users/cicilan/Desktop/partake_videos/culturalfingerprints/DVZwws0EUMK.mp4",
+    "/Users/cicilan/Desktop/partake_videos/culturalfingerprints/DVjAG85kWhW.mp4",
+    "/Users/cicilan/Desktop/partake_videos/culturalfingerprints/DVov7VNk7SD.mp4"
+  ],
+  "clip_count": 4,
+  "clips": [
+    {
+      "file": "DUa3v5DEcmZ.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/culturalfingerprints/DUa3v5DEcmZ.mp4",
+      "duration": 25.752375,
+      "language": "en",
+      "language_probability": 1.0,
+      "text": "I've archived over 200 creative choking signs across New York City. Each one tells the story of its context, and El Gallo Taqueria is no exception. El Gallo means rooster in Spanish. So naturally, rooster people dressed to the nines fill this sign. The taqueria was founded in Gravesend, South Brooklyn, and this choking sign is an ode to not only the name, but also the language and the culture of the Mexican immigrant owners.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.86,
+          "text": "I've archived over 200 creative choking signs across New York City.",
+          "avg_logprob": -0.1513754690552617,
+          "no_speech_prob": 0.0050965892150998116,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.34,
+              "word": "I've",
+              "probability": 0.9671508073806763
+            },
+            {
+              "start": 0.34,
+              "end": 0.94,
+              "word": "archived",
+              "probability": 0.9907183051109314
+            },
+            {
+              "start": 0.94,
+              "end": 1.26,
+              "word": "over",
+              "probability": 0.9844353795051575
+            },
+            {
+              "start": 1.26,
+              "end": 1.98,
+              "word": "200",
+              "probability": 0.9663652777671814
+            },
+            {
+              "start": 1.98,
+              "end": 2.64,
+              "word": "creative",
+              "probability": 0.9877289533615112
+            },
+            {
+              "start": 2.64,
+              "end": 3.14,
+              "word": "choking",
+              "probability": 0.9161502718925476
+            },
+            {
+              "start": 3.14,
+              "end": 3.62,
+              "word": "signs",
+              "probability": 0.9919357299804688
+            },
+            {
+              "start": 3.62,
+              "end": 4.02,
+              "word": "across",
+              "probability": 0.9854979515075684
+            },
+            {
+              "start": 4.02,
+              "end": 4.42,
+              "word": "New",
+              "probability": 0.9733683466911316
+            },
+            {
+              "start": 4.42,
+              "end": 4.58,
+              "word": "York",
+              "probability": 0.9950006604194641
+            },
+            {
+              "start": 4.58,
+              "end": 4.86,
+              "word": "City.",
+              "probability": 0.9633141756057739
+            }
+          ]
+        },
+        {
+          "start": 5.14,
+          "end": 9.86,
+          "text": "Each one tells the story of its context, and El Gallo Taqueria is no exception.",
+          "avg_logprob": -0.1513754690552617,
+          "no_speech_prob": 0.0050965892150998116,
+          "words": [
+            {
+              "start": 5.14,
+              "end": 5.34,
+              "word": "Each",
+              "probability": 0.9931700229644775
+            },
+            {
+              "start": 5.34,
+              "end": 5.62,
+              "word": "one",
+              "probability": 0.9968422651290894
+            },
+            {
+              "start": 5.62,
+              "end": 5.86,
+              "word": "tells",
+              "probability": 0.9949670433998108
+            },
+            {
+              "start": 5.86,
+              "end": 6.06,
+              "word": "the",
+              "probability": 0.9951537847518921
+            },
+            {
+              "start": 6.06,
+              "end": 6.4,
+              "word": "story",
+              "probability": 0.9978697299957275
+            },
+            {
+              "start": 6.4,
+              "end": 6.64,
+              "word": "of",
+              "probability": 0.9980291724205017
+            },
+            {
+              "start": 6.64,
+              "end": 6.78,
+              "word": "its",
+              "probability": 0.9845983982086182
+            },
+            {
+              "start": 6.78,
+              "end": 7.2,
+              "word": "context,",
+              "probability": 0.9670676589012146
+            },
+            {
+              "start": 7.48,
+              "end": 7.54,
+              "word": "and",
+              "probability": 0.9745055437088013
+            },
+            {
+              "start": 7.54,
+              "end": 7.84,
+              "word": "El",
+              "probability": 0.8189235925674438
+            },
+            {
+              "start": 7.84,
+              "end": 8.18,
+              "word": "Gallo",
+              "probability": 0.7935901284217834
+            },
+            {
+              "start": 8.18,
+              "end": 8.74,
+              "word": "Taqueria",
+              "probability": 0.5607396364212036
+            },
+            {
+              "start": 8.74,
+              "end": 9.16,
+              "word": "is",
+              "probability": 0.9754346013069153
+            },
+            {
+              "start": 9.16,
+              "end": 9.42,
+              "word": "no",
+              "probability": 0.9911448359489441
+            },
+            {
+              "start": 9.42,
+              "end": 9.86,
+              "word": "exception.",
+              "probability": 0.9992498755455017
+            }
+          ]
+        },
+        {
+          "start": 10.1,
+          "end": 11.98,
+          "text": "El Gallo means rooster in Spanish.",
+          "avg_logprob": -0.1513754690552617,
+          "no_speech_prob": 0.0050965892150998116,
+          "words": [
+            {
+              "start": 10.1,
+              "end": 10.24,
+              "word": "El",
+              "probability": 0.9506044387817383
+            },
+            {
+              "start": 10.24,
+              "end": 10.72,
+              "word": "Gallo",
+              "probability": 0.9779016971588135
+            },
+            {
+              "start": 10.72,
+              "end": 10.92,
+              "word": "means",
+              "probability": 0.9924335479736328
+            },
+            {
+              "start": 10.92,
+              "end": 11.38,
+              "word": "rooster",
+              "probability": 0.8705269396305084
+            },
+            {
+              "start": 11.38,
+              "end": 11.62,
+              "word": "in",
+              "probability": 0.9831928014755249
+            },
+            {
+              "start": 11.62,
+              "end": 11.98,
+              "word": "Spanish.",
+              "probability": 0.9894407391548157
+            }
+          ]
+        },
+        {
+          "start": 12.42,
+          "end": 15.96,
+          "text": "So naturally, rooster people dressed to the nines fill this sign.",
+          "avg_logprob": -0.1513754690552617,
+          "no_speech_prob": 0.0050965892150998116,
+          "words": [
+            {
+              "start": 12.42,
+              "end": 12.42,
+              "word": "So",
+              "probability": 0.9770612120628357
+            },
+            {
+              "start": 12.42,
+              "end": 12.78,
+              "word": "naturally,",
+              "probability": 0.8058562278747559
+            },
+            {
+              "start": 13.0,
+              "end": 13.28,
+              "word": "rooster",
+              "probability": 0.9601966142654419
+            },
+            {
+              "start": 13.28,
+              "end": 13.66,
+              "word": "people",
+              "probability": 0.9872090816497803
+            },
+            {
+              "start": 13.66,
+              "end": 14.16,
+              "word": "dressed",
+              "probability": 0.8409598469734192
+            },
+            {
+              "start": 14.16,
+              "end": 14.48,
+              "word": "to",
+              "probability": 0.9947589039802551
+            },
+            {
+              "start": 14.48,
+              "end": 14.6,
+              "word": "the",
+              "probability": 0.9961022138595581
+            },
+            {
+              "start": 14.6,
+              "end": 15.14,
+              "word": "nines",
+              "probability": 0.9008879363536835
+            },
+            {
+              "start": 15.14,
+              "end": 15.44,
+              "word": "fill",
+              "probability": 0.8250916600227356
+            },
+            {
+              "start": 15.44,
+              "end": 15.68,
+              "word": "this",
+              "probability": 0.8687461614608765
+            },
+            {
+              "start": 15.68,
+              "end": 15.96,
+              "word": "sign.",
+              "probability": 0.9867936968803406
+            }
+          ]
+        },
+        {
+          "start": 16.24,
+          "end": 20.72,
+          "text": "The taqueria was founded in Gravesend, South Brooklyn, and this choking sign is an ode",
+          "avg_logprob": -0.1513754690552617,
+          "no_speech_prob": 0.0050965892150998116,
+          "words": [
+            {
+              "start": 16.24,
+              "end": 16.3,
+              "word": "The",
+              "probability": 0.9823647141456604
+            },
+            {
+              "start": 16.3,
+              "end": 16.82,
+              "word": "taqueria",
+              "probability": 0.9305371443430582
+            },
+            {
+              "start": 16.82,
+              "end": 16.98,
+              "word": "was",
+              "probability": 0.9973195195198059
+            },
+            {
+              "start": 16.98,
+              "end": 17.32,
+              "word": "founded",
+              "probability": 0.9935067892074585
+            },
+            {
+              "start": 17.32,
+              "end": 17.64,
+              "word": "in",
+              "probability": 0.9989269375801086
+            },
+            {
+              "start": 17.64,
+              "end": 18.22,
+              "word": "Gravesend,",
+              "probability": 0.7828567028045654
+            },
+            {
+              "start": 18.3,
+              "end": 18.48,
+              "word": "South",
+              "probability": 0.8593631386756897
+            },
+            {
+              "start": 18.48,
+              "end": 18.84,
+              "word": "Brooklyn,",
+              "probability": 0.9166259765625
+            },
+            {
+              "start": 19.16,
+              "end": 19.24,
+              "word": "and",
+              "probability": 0.9961227774620056
+            },
+            {
+              "start": 19.24,
+              "end": 19.42,
+              "word": "this",
+              "probability": 0.9974055886268616
+            },
+            {
+              "start": 19.42,
+              "end": 19.72,
+              "word": "choking",
+              "probability": 0.9851709008216858
+            },
+            {
+              "start": 19.72,
+              "end": 20.08,
+              "word": "sign",
+              "probability": 0.9978547692298889
+            },
+            {
+              "start": 20.08,
+              "end": 20.3,
+              "word": "is",
+              "probability": 0.990401566028595
+            },
+            {
+              "start": 20.3,
+              "end": 20.46,
+              "word": "an",
+              "probability": 0.9578456282615662
+            },
+            {
+              "start": 20.46,
+              "end": 20.72,
+              "word": "ode",
+              "probability": 0.9268981218338013
+            }
+          ]
+        },
+        {
+          "start": 20.72,
+          "end": 25.44,
+          "text": "to not only the name, but also the language and the culture of the Mexican immigrant owners.",
+          "avg_logprob": -0.1513754690552617,
+          "no_speech_prob": 0.0050965892150998116,
+          "words": [
+            {
+              "start": 20.72,
+              "end": 20.94,
+              "word": "to",
+              "probability": 0.9794512391090393
+            },
+            {
+              "start": 20.94,
+              "end": 21.12,
+              "word": "not",
+              "probability": 0.980713427066803
+            },
+            {
+              "start": 21.12,
+              "end": 21.4,
+              "word": "only",
+              "probability": 0.9991657733917236
+            },
+            {
+              "start": 21.4,
+              "end": 21.56,
+              "word": "the",
+              "probability": 0.9984155893325806
+            },
+            {
+              "start": 21.56,
+              "end": 21.88,
+              "word": "name,",
+              "probability": 0.9912478923797607
+            },
+            {
+              "start": 21.98,
+              "end": 22.14,
+              "word": "but",
+              "probability": 0.9986304044723511
+            },
+            {
+              "start": 22.14,
+              "end": 22.42,
+              "word": "also",
+              "probability": 0.9975945353507996
+            },
+            {
+              "start": 22.42,
+              "end": 22.62,
+              "word": "the",
+              "probability": 0.9944337010383606
+            },
+            {
+              "start": 22.62,
+              "end": 22.96,
+              "word": "language",
+              "probability": 0.9988722205162048
+            },
+            {
+              "start": 22.96,
+              "end": 23.48,
+              "word": "and",
+              "probability": 0.9668532013893127
+            },
+            {
+              "start": 23.48,
+              "end": 23.62,
+              "word": "the",
+              "probability": 0.9941898584365845
+            },
+            {
+              "start": 23.62,
+              "end": 23.92,
+              "word": "culture",
+              "probability": 0.999254047870636
+            },
+            {
+              "start": 23.92,
+              "end": 24.22,
+              "word": "of",
+              "probability": 0.9941153526306152
+            },
+            {
+              "start": 24.22,
+              "end": 24.34,
+              "word": "the",
+              "probability": 0.9967393279075623
+            },
+            {
+              "start": 24.34,
+              "end": 24.68,
+              "word": "Mexican",
+              "probability": 0.9988719820976257
+            },
+            {
+              "start": 24.68,
+              "end": 25.06,
+              "word": "immigrant",
+              "probability": 0.9968620538711548
+            },
+            {
+              "start": 25.06,
+              "end": 25.44,
+              "word": "owners.",
+              "probability": 0.9974660873413086
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "file": "DVZwws0EUMK.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/culturalfingerprints/DVZwws0EUMK.mp4",
+      "duration": 44.5140625,
+      "language": "en",
+      "language_probability": 1.0,
+      "text": "If I told you that a folktale from Russia, a folktale from Armenia, and a folktale from South Africa all have the same plot, would you believe me? There are not really retellings, but in every single one the same thing happens. A child is born with something magical and someone immediately tries to get rid of them. Russia's Tale of Sarsaltan, the Moonschild, a story of the Zulu and Sotho peoples of South Africa that I just read, and Armenia's Tale of Golden-haired Boy. They all converge on the same storyline. Boke Loris actually have a name for this. It's ATU type 707. The three golden-haired children. To me, this really feels like a broader commentary on how our world treats spirituality and magic. The first instinct is always to shove it or take it away, and that's what you see with those jealous relatives and in-laws in all of these stories taking away this child. But in every story of the child with magical capabilities, always prevails in the end.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 6.74,
+          "text": "If I told you that a folktale from Russia, a folktale from Armenia, and a folktale from South Africa all have the same plot, would you believe me?",
+          "avg_logprob": -0.19081326999834605,
+          "no_speech_prob": 0.02216806635260582,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.18,
+              "word": "If",
+              "probability": 0.7673500776290894
+            },
+            {
+              "start": 0.18,
+              "end": 0.3,
+              "word": "I",
+              "probability": 0.9737850427627563
+            },
+            {
+              "start": 0.3,
+              "end": 0.48,
+              "word": "told",
+              "probability": 0.9934675097465515
+            },
+            {
+              "start": 0.48,
+              "end": 0.66,
+              "word": "you",
+              "probability": 0.993331253528595
+            },
+            {
+              "start": 0.66,
+              "end": 0.82,
+              "word": "that",
+              "probability": 0.9546553492546082
+            },
+            {
+              "start": 0.82,
+              "end": 0.94,
+              "word": "a",
+              "probability": 0.9696803689002991
+            },
+            {
+              "start": 0.94,
+              "end": 1.32,
+              "word": "folktale",
+              "probability": 0.8436130086580912
+            },
+            {
+              "start": 1.32,
+              "end": 1.5,
+              "word": "from",
+              "probability": 0.988121509552002
+            },
+            {
+              "start": 1.5,
+              "end": 1.76,
+              "word": "Russia,",
+              "probability": 0.9873570203781128
+            },
+            {
+              "start": 2.02,
+              "end": 2.06,
+              "word": "a",
+              "probability": 0.9767559766769409
+            },
+            {
+              "start": 2.06,
+              "end": 2.38,
+              "word": "folktale",
+              "probability": 0.9863537152608236
+            },
+            {
+              "start": 2.38,
+              "end": 2.58,
+              "word": "from",
+              "probability": 0.9913745522499084
+            },
+            {
+              "start": 2.58,
+              "end": 2.78,
+              "word": "Armenia,",
+              "probability": 0.9962213039398193
+            },
+            {
+              "start": 3.14,
+              "end": 3.26,
+              "word": "and",
+              "probability": 0.9859004616737366
+            },
+            {
+              "start": 3.26,
+              "end": 3.38,
+              "word": "a",
+              "probability": 0.994492769241333
+            },
+            {
+              "start": 3.38,
+              "end": 3.78,
+              "word": "folktale",
+              "probability": 0.9928088982899984
+            },
+            {
+              "start": 3.78,
+              "end": 3.96,
+              "word": "from",
+              "probability": 0.9942905902862549
+            },
+            {
+              "start": 3.96,
+              "end": 4.12,
+              "word": "South",
+              "probability": 0.9895697832107544
+            },
+            {
+              "start": 4.12,
+              "end": 4.54,
+              "word": "Africa",
+              "probability": 0.992077648639679
+            },
+            {
+              "start": 4.54,
+              "end": 4.88,
+              "word": "all",
+              "probability": 0.9382942914962769
+            },
+            {
+              "start": 4.88,
+              "end": 5.04,
+              "word": "have",
+              "probability": 0.7833080887794495
+            },
+            {
+              "start": 5.04,
+              "end": 5.16,
+              "word": "the",
+              "probability": 0.9959315657615662
+            },
+            {
+              "start": 5.16,
+              "end": 5.34,
+              "word": "same",
+              "probability": 0.9985637068748474
+            },
+            {
+              "start": 5.34,
+              "end": 5.66,
+              "word": "plot,",
+              "probability": 0.9988576173782349
+            },
+            {
+              "start": 6.06,
+              "end": 6.18,
+              "word": "would",
+              "probability": 0.9793201684951782
+            },
+            {
+              "start": 6.18,
+              "end": 6.28,
+              "word": "you",
+              "probability": 0.9977893829345703
+            },
+            {
+              "start": 6.28,
+              "end": 6.52,
+              "word": "believe",
+              "probability": 0.9944057464599609
+            },
+            {
+              "start": 6.52,
+              "end": 6.74,
+              "word": "me?",
+              "probability": 0.9978289008140564
+            }
+          ]
+        },
+        {
+          "start": 6.92,
+          "end": 9.94,
+          "text": "There are not really retellings, but in every single one the same thing happens.",
+          "avg_logprob": -0.19081326999834605,
+          "no_speech_prob": 0.02216806635260582,
+          "words": [
+            {
+              "start": 6.92,
+              "end": 7.04,
+              "word": "There",
+              "probability": 0.6081427335739136
+            },
+            {
+              "start": 7.04,
+              "end": 7.1,
+              "word": "are",
+              "probability": 0.9813504219055176
+            },
+            {
+              "start": 7.1,
+              "end": 7.22,
+              "word": "not",
+              "probability": 0.9775164127349854
+            },
+            {
+              "start": 7.22,
+              "end": 7.44,
+              "word": "really",
+              "probability": 0.9650447368621826
+            },
+            {
+              "start": 7.44,
+              "end": 8.04,
+              "word": "retellings,",
+              "probability": 0.9875404834747314
+            },
+            {
+              "start": 8.08,
+              "end": 8.16,
+              "word": "but",
+              "probability": 0.9956074357032776
+            },
+            {
+              "start": 8.16,
+              "end": 8.26,
+              "word": "in",
+              "probability": 0.9890137314796448
+            },
+            {
+              "start": 8.26,
+              "end": 8.48,
+              "word": "every",
+              "probability": 0.9958016276359558
+            },
+            {
+              "start": 8.48,
+              "end": 8.7,
+              "word": "single",
+              "probability": 0.9903082251548767
+            },
+            {
+              "start": 8.7,
+              "end": 8.9,
+              "word": "one",
+              "probability": 0.997215747833252
+            },
+            {
+              "start": 8.9,
+              "end": 9.06,
+              "word": "the",
+              "probability": 0.7318892478942871
+            },
+            {
+              "start": 9.06,
+              "end": 9.3,
+              "word": "same",
+              "probability": 0.9973303079605103
+            },
+            {
+              "start": 9.3,
+              "end": 9.54,
+              "word": "thing",
+              "probability": 0.9585455656051636
+            },
+            {
+              "start": 9.54,
+              "end": 9.94,
+              "word": "happens.",
+              "probability": 0.9954752326011658
+            }
+          ]
+        },
+        {
+          "start": 10.1,
+          "end": 13.56,
+          "text": "A child is born with something magical and someone immediately tries to get rid of them.",
+          "avg_logprob": -0.19081326999834605,
+          "no_speech_prob": 0.02216806635260582,
+          "words": [
+            {
+              "start": 10.1,
+              "end": 10.18,
+              "word": "A",
+              "probability": 0.9405995011329651
+            },
+            {
+              "start": 10.18,
+              "end": 10.44,
+              "word": "child",
+              "probability": 0.9960118532180786
+            },
+            {
+              "start": 10.44,
+              "end": 10.68,
+              "word": "is",
+              "probability": 0.9878489971160889
+            },
+            {
+              "start": 10.68,
+              "end": 10.88,
+              "word": "born",
+              "probability": 0.9956650137901306
+            },
+            {
+              "start": 10.88,
+              "end": 11.04,
+              "word": "with",
+              "probability": 0.9962722063064575
+            },
+            {
+              "start": 11.04,
+              "end": 11.24,
+              "word": "something",
+              "probability": 0.996955394744873
+            },
+            {
+              "start": 11.24,
+              "end": 11.66,
+              "word": "magical",
+              "probability": 0.9962226152420044
+            },
+            {
+              "start": 11.66,
+              "end": 11.92,
+              "word": "and",
+              "probability": 0.640175461769104
+            },
+            {
+              "start": 11.92,
+              "end": 12.2,
+              "word": "someone",
+              "probability": 0.9948254823684692
+            },
+            {
+              "start": 12.2,
+              "end": 12.58,
+              "word": "immediately",
+              "probability": 0.9874043464660645
+            },
+            {
+              "start": 12.58,
+              "end": 12.96,
+              "word": "tries",
+              "probability": 0.9954996705055237
+            },
+            {
+              "start": 12.96,
+              "end": 13.1,
+              "word": "to",
+              "probability": 0.9983131885528564
+            },
+            {
+              "start": 13.1,
+              "end": 13.2,
+              "word": "get",
+              "probability": 0.9995294809341431
+            },
+            {
+              "start": 13.2,
+              "end": 13.3,
+              "word": "rid",
+              "probability": 0.9999381303787231
+            },
+            {
+              "start": 13.3,
+              "end": 13.4,
+              "word": "of",
+              "probability": 0.9984380602836609
+            },
+            {
+              "start": 13.4,
+              "end": 13.56,
+              "word": "them.",
+              "probability": 0.9893550872802734
+            }
+          ]
+        },
+        {
+          "start": 13.74,
+          "end": 21.36,
+          "text": "Russia's Tale of Sarsaltan, the Moonschild, a story of the Zulu and Sotho peoples of South Africa that I just read, and Armenia's Tale of Golden-haired Boy.",
+          "avg_logprob": -0.19081326999834605,
+          "no_speech_prob": 0.02216806635260582,
+          "words": [
+            {
+              "start": 13.74,
+              "end": 14.14,
+              "word": "Russia's",
+              "probability": 0.9657332897186279
+            },
+            {
+              "start": 14.14,
+              "end": 14.34,
+              "word": "Tale",
+              "probability": 0.3730200231075287
+            },
+            {
+              "start": 14.34,
+              "end": 14.56,
+              "word": "of",
+              "probability": 0.9898146390914917
+            },
+            {
+              "start": 14.56,
+              "end": 15.28,
+              "word": "Sarsaltan,",
+              "probability": 0.7997430488467216
+            },
+            {
+              "start": 15.44,
+              "end": 15.54,
+              "word": "the",
+              "probability": 0.43939274549484253
+            },
+            {
+              "start": 15.54,
+              "end": 16.04,
+              "word": "Moonschild,",
+              "probability": 0.6849996546904246
+            },
+            {
+              "start": 16.24,
+              "end": 16.3,
+              "word": "a",
+              "probability": 0.8384233713150024
+            },
+            {
+              "start": 16.3,
+              "end": 16.48,
+              "word": "story",
+              "probability": 0.986297607421875
+            },
+            {
+              "start": 16.48,
+              "end": 16.7,
+              "word": "of",
+              "probability": 0.9938575625419617
+            },
+            {
+              "start": 16.7,
+              "end": 16.8,
+              "word": "the",
+              "probability": 0.9794045686721802
+            },
+            {
+              "start": 16.8,
+              "end": 17.1,
+              "word": "Zulu",
+              "probability": 0.9525671601295471
+            },
+            {
+              "start": 17.1,
+              "end": 17.34,
+              "word": "and",
+              "probability": 0.9797238111495972
+            },
+            {
+              "start": 17.34,
+              "end": 17.66,
+              "word": "Sotho",
+              "probability": 0.892815887928009
+            },
+            {
+              "start": 17.66,
+              "end": 17.92,
+              "word": "peoples",
+              "probability": 0.9129942059516907
+            },
+            {
+              "start": 17.92,
+              "end": 18.16,
+              "word": "of",
+              "probability": 0.9874897599220276
+            },
+            {
+              "start": 18.16,
+              "end": 18.3,
+              "word": "South",
+              "probability": 0.9949771761894226
+            },
+            {
+              "start": 18.3,
+              "end": 18.64,
+              "word": "Africa",
+              "probability": 0.9971416592597961
+            },
+            {
+              "start": 18.64,
+              "end": 18.82,
+              "word": "that",
+              "probability": 0.9785563945770264
+            },
+            {
+              "start": 18.82,
+              "end": 18.92,
+              "word": "I",
+              "probability": 0.9931291341781616
+            },
+            {
+              "start": 18.92,
+              "end": 19.14,
+              "word": "just",
+              "probability": 0.9887650012969971
+            },
+            {
+              "start": 19.14,
+              "end": 19.38,
+              "word": "read,",
+              "probability": 0.9967079162597656
+            },
+            {
+              "start": 19.48,
+              "end": 19.56,
+              "word": "and",
+              "probability": 0.9922091960906982
+            },
+            {
+              "start": 19.56,
+              "end": 20.1,
+              "word": "Armenia's",
+              "probability": 0.9962877631187439
+            },
+            {
+              "start": 20.1,
+              "end": 20.38,
+              "word": "Tale",
+              "probability": 0.9663256406784058
+            },
+            {
+              "start": 20.38,
+              "end": 20.64,
+              "word": "of",
+              "probability": 0.9972931742668152
+            },
+            {
+              "start": 20.64,
+              "end": 20.86,
+              "word": "Golden",
+              "probability": 0.93707674741745
+            },
+            {
+              "start": 20.86,
+              "end": 21.16,
+              "word": "-haired",
+              "probability": 0.7378013928731283
+            },
+            {
+              "start": 21.16,
+              "end": 21.36,
+              "word": "Boy.",
+              "probability": 0.8308770656585693
+            }
+          ]
+        },
+        {
+          "start": 21.56,
+          "end": 23.54,
+          "text": "They all converge on the same storyline.",
+          "avg_logprob": -0.19081326999834605,
+          "no_speech_prob": 0.02216806635260582,
+          "words": [
+            {
+              "start": 21.56,
+              "end": 21.74,
+              "word": "They",
+              "probability": 0.9899359345436096
+            },
+            {
+              "start": 21.74,
+              "end": 22.06,
+              "word": "all",
+              "probability": 0.9932756423950195
+            },
+            {
+              "start": 22.06,
+              "end": 22.44,
+              "word": "converge",
+              "probability": 0.9973645806312561
+            },
+            {
+              "start": 22.44,
+              "end": 22.7,
+              "word": "on",
+              "probability": 0.9928041100502014
+            },
+            {
+              "start": 22.7,
+              "end": 22.84,
+              "word": "the",
+              "probability": 0.8618842959403992
+            },
+            {
+              "start": 22.84,
+              "end": 23.08,
+              "word": "same",
+              "probability": 0.9956058859825134
+            },
+            {
+              "start": 23.08,
+              "end": 23.54,
+              "word": "storyline.",
+              "probability": 0.9503002166748047
+            }
+          ]
+        },
+        {
+          "start": 23.74,
+          "end": 27.02,
+          "text": "Boke Loris actually have a name for this. It's ATU type 707.",
+          "avg_logprob": -0.19081326999834605,
+          "no_speech_prob": 0.02216806635260582,
+          "words": [
+            {
+              "start": 23.74,
+              "end": 23.86,
+              "word": "Boke",
+              "probability": 0.3653610646724701
+            },
+            {
+              "start": 23.86,
+              "end": 24.24,
+              "word": "Loris",
+              "probability": 0.6227273494005203
+            },
+            {
+              "start": 24.24,
+              "end": 24.6,
+              "word": "actually",
+              "probability": 0.9736888408660889
+            },
+            {
+              "start": 24.6,
+              "end": 24.78,
+              "word": "have",
+              "probability": 0.8678994178771973
+            },
+            {
+              "start": 24.78,
+              "end": 24.86,
+              "word": "a",
+              "probability": 0.9958773851394653
+            },
+            {
+              "start": 24.86,
+              "end": 24.98,
+              "word": "name",
+              "probability": 0.9986718893051147
+            },
+            {
+              "start": 24.98,
+              "end": 25.14,
+              "word": "for",
+              "probability": 0.9979714751243591
+            },
+            {
+              "start": 25.14,
+              "end": 25.34,
+              "word": "this.",
+              "probability": 0.9900550842285156
+            },
+            {
+              "start": 25.46,
+              "end": 25.64,
+              "word": "It's",
+              "probability": 0.9593259394168854
+            },
+            {
+              "start": 25.64,
+              "end": 26.12,
+              "word": "ATU",
+              "probability": 0.7620329856872559
+            },
+            {
+              "start": 26.12,
+              "end": 26.28,
+              "word": "type",
+              "probability": 0.43927186727523804
+            },
+            {
+              "start": 26.28,
+              "end": 27.02,
+              "word": "707.",
+              "probability": 0.9713179469108582
+            }
+          ]
+        },
+        {
+          "start": 27.18,
+          "end": 28.44,
+          "text": "The three golden-haired children.",
+          "avg_logprob": -0.19081326999834605,
+          "no_speech_prob": 0.02216806635260582,
+          "words": [
+            {
+              "start": 27.18,
+              "end": 27.3,
+              "word": "The",
+              "probability": 0.9175415635108948
+            },
+            {
+              "start": 27.3,
+              "end": 27.52,
+              "word": "three",
+              "probability": 0.3697632849216461
+            },
+            {
+              "start": 27.52,
+              "end": 27.84,
+              "word": "golden",
+              "probability": 0.5651215314865112
+            },
+            {
+              "start": 27.84,
+              "end": 28.18,
+              "word": "-haired",
+              "probability": 0.9746779004732767
+            },
+            {
+              "start": 28.18,
+              "end": 28.44,
+              "word": "children.",
+              "probability": 0.996788740158081
+            }
+          ]
+        },
+        {
+          "start": 28.44,
+          "end": 33.14,
+          "text": "To me, this really feels like a broader commentary on how our world treats spirituality and magic.",
+          "avg_logprob": -0.15297353770359454,
+          "no_speech_prob": 0.052030324935913086,
+          "words": [
+            {
+              "start": 28.44,
+              "end": 28.96,
+              "word": "To",
+              "probability": 0.8194529414176941
+            },
+            {
+              "start": 28.96,
+              "end": 29.14,
+              "word": "me,",
+              "probability": 0.9975156784057617
+            },
+            {
+              "start": 29.2,
+              "end": 29.32,
+              "word": "this",
+              "probability": 0.9820255041122437
+            },
+            {
+              "start": 29.32,
+              "end": 29.56,
+              "word": "really",
+              "probability": 0.9541135430335999
+            },
+            {
+              "start": 29.56,
+              "end": 29.8,
+              "word": "feels",
+              "probability": 0.9920443296432495
+            },
+            {
+              "start": 29.8,
+              "end": 30.0,
+              "word": "like",
+              "probability": 0.9934846758842468
+            },
+            {
+              "start": 30.0,
+              "end": 30.1,
+              "word": "a",
+              "probability": 0.9854573607444763
+            },
+            {
+              "start": 30.1,
+              "end": 30.36,
+              "word": "broader",
+              "probability": 0.9956100583076477
+            },
+            {
+              "start": 30.36,
+              "end": 30.92,
+              "word": "commentary",
+              "probability": 0.9917581677436829
+            },
+            {
+              "start": 30.92,
+              "end": 31.2,
+              "word": "on",
+              "probability": 0.9811846613883972
+            },
+            {
+              "start": 31.2,
+              "end": 31.4,
+              "word": "how",
+              "probability": 0.994362473487854
+            },
+            {
+              "start": 31.4,
+              "end": 31.52,
+              "word": "our",
+              "probability": 0.9886934161186218
+            },
+            {
+              "start": 31.52,
+              "end": 31.74,
+              "word": "world",
+              "probability": 0.9950138926506042
+            },
+            {
+              "start": 31.74,
+              "end": 32.0,
+              "word": "treats",
+              "probability": 0.9915549159049988
+            },
+            {
+              "start": 32.0,
+              "end": 32.62,
+              "word": "spirituality",
+              "probability": 0.975255012512207
+            },
+            {
+              "start": 32.62,
+              "end": 32.88,
+              "word": "and",
+              "probability": 0.7426934838294983
+            },
+            {
+              "start": 32.88,
+              "end": 33.14,
+              "word": "magic.",
+              "probability": 0.9942715167999268
+            }
+          ]
+        },
+        {
+          "start": 33.48,
+          "end": 37.46,
+          "text": "The first instinct is always to shove it or take it away, and that's what you see with",
+          "avg_logprob": -0.15297353770359454,
+          "no_speech_prob": 0.052030324935913086,
+          "words": [
+            {
+              "start": 33.48,
+              "end": 33.6,
+              "word": "The",
+              "probability": 0.9704906940460205
+            },
+            {
+              "start": 33.6,
+              "end": 33.8,
+              "word": "first",
+              "probability": 0.9933971166610718
+            },
+            {
+              "start": 33.8,
+              "end": 34.2,
+              "word": "instinct",
+              "probability": 0.9879663586616516
+            },
+            {
+              "start": 34.2,
+              "end": 34.44,
+              "word": "is",
+              "probability": 0.9966296553611755
+            },
+            {
+              "start": 34.44,
+              "end": 34.74,
+              "word": "always",
+              "probability": 0.9412863850593567
+            },
+            {
+              "start": 34.74,
+              "end": 34.98,
+              "word": "to",
+              "probability": 0.9961154460906982
+            },
+            {
+              "start": 34.98,
+              "end": 35.22,
+              "word": "shove",
+              "probability": 0.9749197363853455
+            },
+            {
+              "start": 35.22,
+              "end": 35.36,
+              "word": "it",
+              "probability": 0.9913779497146606
+            },
+            {
+              "start": 35.36,
+              "end": 35.52,
+              "word": "or",
+              "probability": 0.8557379841804504
+            },
+            {
+              "start": 35.52,
+              "end": 35.74,
+              "word": "take",
+              "probability": 0.974232017993927
+            },
+            {
+              "start": 35.74,
+              "end": 35.82,
+              "word": "it",
+              "probability": 0.9986856579780579
+            },
+            {
+              "start": 35.82,
+              "end": 36.04,
+              "word": "away,",
+              "probability": 0.9982287287712097
+            },
+            {
+              "start": 36.34,
+              "end": 36.68,
+              "word": "and",
+              "probability": 0.9744808673858643
+            },
+            {
+              "start": 36.68,
+              "end": 36.86,
+              "word": "that's",
+              "probability": 0.9842765033245087
+            },
+            {
+              "start": 36.86,
+              "end": 36.94,
+              "word": "what",
+              "probability": 0.9934214949607849
+            },
+            {
+              "start": 36.94,
+              "end": 37.06,
+              "word": "you",
+              "probability": 0.9965331554412842
+            },
+            {
+              "start": 37.06,
+              "end": 37.26,
+              "word": "see",
+              "probability": 0.9912352561950684
+            },
+            {
+              "start": 37.26,
+              "end": 37.46,
+              "word": "with",
+              "probability": 0.9845506548881531
+            }
+          ]
+        },
+        {
+          "start": 37.46,
+          "end": 40.78,
+          "text": "those jealous relatives and in-laws in all of these stories taking away this child.",
+          "avg_logprob": -0.15297353770359454,
+          "no_speech_prob": 0.052030324935913086,
+          "words": [
+            {
+              "start": 37.46,
+              "end": 37.62,
+              "word": "those",
+              "probability": 0.900204062461853
+            },
+            {
+              "start": 37.62,
+              "end": 37.9,
+              "word": "jealous",
+              "probability": 0.9989707469940186
+            },
+            {
+              "start": 37.9,
+              "end": 38.36,
+              "word": "relatives",
+              "probability": 0.9948000907897949
+            },
+            {
+              "start": 38.36,
+              "end": 38.56,
+              "word": "and",
+              "probability": 0.960401177406311
+            },
+            {
+              "start": 38.56,
+              "end": 38.72,
+              "word": "in",
+              "probability": 0.9950475692749023
+            },
+            {
+              "start": 38.72,
+              "end": 38.9,
+              "word": "-laws",
+              "probability": 0.9848631620407104
+            },
+            {
+              "start": 38.9,
+              "end": 39.06,
+              "word": "in",
+              "probability": 0.7934494018554688
+            },
+            {
+              "start": 39.06,
+              "end": 39.18,
+              "word": "all",
+              "probability": 0.9868773221969604
+            },
+            {
+              "start": 39.18,
+              "end": 39.28,
+              "word": "of",
+              "probability": 0.8826666474342346
+            },
+            {
+              "start": 39.28,
+              "end": 39.38,
+              "word": "these",
+              "probability": 0.9858776330947876
+            },
+            {
+              "start": 39.38,
+              "end": 39.7,
+              "word": "stories",
+              "probability": 0.9964683055877686
+            },
+            {
+              "start": 39.7,
+              "end": 39.98,
+              "word": "taking",
+              "probability": 0.9629833698272705
+            },
+            {
+              "start": 39.98,
+              "end": 40.28,
+              "word": "away",
+              "probability": 0.9961929321289062
+            },
+            {
+              "start": 40.28,
+              "end": 40.44,
+              "word": "this",
+              "probability": 0.9782330989837646
+            },
+            {
+              "start": 40.44,
+              "end": 40.78,
+              "word": "child.",
+              "probability": 0.9977038502693176
+            }
+          ]
+        },
+        {
+          "start": 40.96,
+          "end": 44.4,
+          "text": "But in every story of the child with magical capabilities, always prevails in the end.",
+          "avg_logprob": -0.15297353770359454,
+          "no_speech_prob": 0.052030324935913086,
+          "words": [
+            {
+              "start": 40.96,
+              "end": 41.06,
+              "word": "But",
+              "probability": 0.9835795760154724
+            },
+            {
+              "start": 41.06,
+              "end": 41.16,
+              "word": "in",
+              "probability": 0.9673453569412231
+            },
+            {
+              "start": 41.16,
+              "end": 41.38,
+              "word": "every",
+              "probability": 0.9939760565757751
+            },
+            {
+              "start": 41.38,
+              "end": 41.7,
+              "word": "story",
+              "probability": 0.9971932768821716
+            },
+            {
+              "start": 41.7,
+              "end": 41.84,
+              "word": "of",
+              "probability": 0.4654060900211334
+            },
+            {
+              "start": 41.84,
+              "end": 41.86,
+              "word": "the",
+              "probability": 0.9755468368530273
+            },
+            {
+              "start": 41.86,
+              "end": 42.12,
+              "word": "child",
+              "probability": 0.9865517616271973
+            },
+            {
+              "start": 42.12,
+              "end": 42.28,
+              "word": "with",
+              "probability": 0.9059597253799438
+            },
+            {
+              "start": 42.28,
+              "end": 42.58,
+              "word": "magical",
+              "probability": 0.9940431714057922
+            },
+            {
+              "start": 42.58,
+              "end": 43.26,
+              "word": "capabilities,",
+              "probability": 0.9953339695930481
+            },
+            {
+              "start": 43.38,
+              "end": 43.6,
+              "word": "always",
+              "probability": 0.8887786269187927
+            },
+            {
+              "start": 43.6,
+              "end": 44.02,
+              "word": "prevails",
+              "probability": 0.9884217381477356
+            },
+            {
+              "start": 44.02,
+              "end": 44.16,
+              "word": "in",
+              "probability": 0.9807308912277222
+            },
+            {
+              "start": 44.16,
+              "end": 44.26,
+              "word": "the",
+              "probability": 0.9989581108093262
+            },
+            {
+              "start": 44.26,
+              "end": 44.4,
+              "word": "end.",
+              "probability": 0.9978055357933044
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "file": "DVjAG85kWhW.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/culturalfingerprints/DVjAG85kWhW.mp4",
+      "duration": 39.4056875,
+      "language": "en",
+      "language_probability": 1.0,
+      "text": "Did you know there is a fairy tale from Iceland, a fairy tale from Italy, and a fairy tale from Poland that all have the same plot? In each one, a ghost or corpse comes back from the dead to reclaim something that has been stolen from them. Poland's the Stolen River, Italy's Sadae'da, and Iceland's the White Cap, which I just read. Why do so many disparate cultures tell the story? Folklorists have a name for this one. It's ATU type 366, also related to variations of the Golden Arm. To me, these feel like stories about justice or karma. What happens when justice hasn't been served in a timely manner? Is retribution or vengeance or revenge always fulfilled even beyond the grave? Do each of our actions always have consequences or reactions? These stories all seem to give an answer.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 5.36,
+          "text": "Did you know there is a fairy tale from Iceland, a fairy tale from Italy, and a fairy tale from Poland that all have the same plot?",
+          "avg_logprob": -0.16244992273457257,
+          "no_speech_prob": 0.007669034879654646,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.1,
+              "word": "Did",
+              "probability": 0.76936936378479
+            },
+            {
+              "start": 0.1,
+              "end": 0.24,
+              "word": "you",
+              "probability": 0.9958629608154297
+            },
+            {
+              "start": 0.24,
+              "end": 0.4,
+              "word": "know",
+              "probability": 0.9965208768844604
+            },
+            {
+              "start": 0.4,
+              "end": 0.58,
+              "word": "there",
+              "probability": 0.8504366874694824
+            },
+            {
+              "start": 0.58,
+              "end": 0.68,
+              "word": "is",
+              "probability": 0.5141989588737488
+            },
+            {
+              "start": 0.68,
+              "end": 0.8,
+              "word": "a",
+              "probability": 0.9816257953643799
+            },
+            {
+              "start": 0.8,
+              "end": 1.04,
+              "word": "fairy",
+              "probability": 0.6637990474700928
+            },
+            {
+              "start": 1.04,
+              "end": 1.22,
+              "word": "tale",
+              "probability": 0.9596075415611267
+            },
+            {
+              "start": 1.22,
+              "end": 1.4,
+              "word": "from",
+              "probability": 0.9856408834457397
+            },
+            {
+              "start": 1.4,
+              "end": 1.64,
+              "word": "Iceland,",
+              "probability": 0.9908480644226074
+            },
+            {
+              "start": 1.92,
+              "end": 1.98,
+              "word": "a",
+              "probability": 0.970634400844574
+            },
+            {
+              "start": 1.98,
+              "end": 2.14,
+              "word": "fairy",
+              "probability": 0.9766044020652771
+            },
+            {
+              "start": 2.14,
+              "end": 2.32,
+              "word": "tale",
+              "probability": 0.9960380792617798
+            },
+            {
+              "start": 2.32,
+              "end": 2.48,
+              "word": "from",
+              "probability": 0.9919226169586182
+            },
+            {
+              "start": 2.48,
+              "end": 2.68,
+              "word": "Italy,",
+              "probability": 0.9938685297966003
+            },
+            {
+              "start": 2.68,
+              "end": 2.94,
+              "word": "and",
+              "probability": 0.9769778251647949
+            },
+            {
+              "start": 2.94,
+              "end": 3.04,
+              "word": "a",
+              "probability": 0.9780359864234924
+            },
+            {
+              "start": 3.04,
+              "end": 3.24,
+              "word": "fairy",
+              "probability": 0.9850569367408752
+            },
+            {
+              "start": 3.24,
+              "end": 3.44,
+              "word": "tale",
+              "probability": 0.9971899390220642
+            },
+            {
+              "start": 3.44,
+              "end": 3.62,
+              "word": "from",
+              "probability": 0.9893280863761902
+            },
+            {
+              "start": 3.62,
+              "end": 3.86,
+              "word": "Poland",
+              "probability": 0.9981246590614319
+            },
+            {
+              "start": 3.86,
+              "end": 4.1,
+              "word": "that",
+              "probability": 0.9774168729782104
+            },
+            {
+              "start": 4.1,
+              "end": 4.4,
+              "word": "all",
+              "probability": 0.980895459651947
+            },
+            {
+              "start": 4.4,
+              "end": 4.6,
+              "word": "have",
+              "probability": 0.9889757633209229
+            },
+            {
+              "start": 4.6,
+              "end": 4.76,
+              "word": "the",
+              "probability": 0.9974023103713989
+            },
+            {
+              "start": 4.76,
+              "end": 5.02,
+              "word": "same",
+              "probability": 0.9967036843299866
+            },
+            {
+              "start": 5.02,
+              "end": 5.36,
+              "word": "plot?",
+              "probability": 0.9975887537002563
+            }
+          ]
+        },
+        {
+          "start": 5.58,
+          "end": 9.98,
+          "text": "In each one, a ghost or corpse comes back from the dead to reclaim something that has been stolen from them.",
+          "avg_logprob": -0.16244992273457257,
+          "no_speech_prob": 0.007669034879654646,
+          "words": [
+            {
+              "start": 5.58,
+              "end": 5.66,
+              "word": "In",
+              "probability": 0.9581862092018127
+            },
+            {
+              "start": 5.66,
+              "end": 5.88,
+              "word": "each",
+              "probability": 0.9984935522079468
+            },
+            {
+              "start": 5.88,
+              "end": 6.08,
+              "word": "one,",
+              "probability": 0.9921368360519409
+            },
+            {
+              "start": 6.18,
+              "end": 6.24,
+              "word": "a",
+              "probability": 0.9900166392326355
+            },
+            {
+              "start": 6.24,
+              "end": 6.48,
+              "word": "ghost",
+              "probability": 0.9853705167770386
+            },
+            {
+              "start": 6.48,
+              "end": 6.66,
+              "word": "or",
+              "probability": 0.9853936433792114
+            },
+            {
+              "start": 6.66,
+              "end": 6.92,
+              "word": "corpse",
+              "probability": 0.974420428276062
+            },
+            {
+              "start": 6.92,
+              "end": 7.1,
+              "word": "comes",
+              "probability": 0.993358314037323
+            },
+            {
+              "start": 7.1,
+              "end": 7.34,
+              "word": "back",
+              "probability": 0.9908385872840881
+            },
+            {
+              "start": 7.34,
+              "end": 7.52,
+              "word": "from",
+              "probability": 0.9916300177574158
+            },
+            {
+              "start": 7.52,
+              "end": 7.62,
+              "word": "the",
+              "probability": 0.993301510810852
+            },
+            {
+              "start": 7.62,
+              "end": 7.82,
+              "word": "dead",
+              "probability": 0.9869497418403625
+            },
+            {
+              "start": 7.82,
+              "end": 8.0,
+              "word": "to",
+              "probability": 0.9922534823417664
+            },
+            {
+              "start": 8.0,
+              "end": 8.36,
+              "word": "reclaim",
+              "probability": 0.987280011177063
+            },
+            {
+              "start": 8.36,
+              "end": 8.78,
+              "word": "something",
+              "probability": 0.995762050151825
+            },
+            {
+              "start": 8.78,
+              "end": 9.0,
+              "word": "that",
+              "probability": 0.9952055215835571
+            },
+            {
+              "start": 9.0,
+              "end": 9.12,
+              "word": "has",
+              "probability": 0.9798073768615723
+            },
+            {
+              "start": 9.12,
+              "end": 9.24,
+              "word": "been",
+              "probability": 0.9980379939079285
+            },
+            {
+              "start": 9.24,
+              "end": 9.54,
+              "word": "stolen",
+              "probability": 0.9985180497169495
+            },
+            {
+              "start": 9.54,
+              "end": 9.78,
+              "word": "from",
+              "probability": 0.9923642873764038
+            },
+            {
+              "start": 9.78,
+              "end": 9.98,
+              "word": "them.",
+              "probability": 0.9976475834846497
+            }
+          ]
+        },
+        {
+          "start": 10.2,
+          "end": 14.86,
+          "text": "Poland's the Stolen River, Italy's Sadae'da, and Iceland's the White Cap, which I just read.",
+          "avg_logprob": -0.16244992273457257,
+          "no_speech_prob": 0.007669034879654646,
+          "words": [
+            {
+              "start": 10.2,
+              "end": 10.6,
+              "word": "Poland's",
+              "probability": 0.780558317899704
+            },
+            {
+              "start": 10.6,
+              "end": 10.74,
+              "word": "the",
+              "probability": 0.7202662825584412
+            },
+            {
+              "start": 10.74,
+              "end": 10.96,
+              "word": "Stolen",
+              "probability": 0.7700196802616119
+            },
+            {
+              "start": 10.96,
+              "end": 11.32,
+              "word": "River,",
+              "probability": 0.985317051410675
+            },
+            {
+              "start": 11.7,
+              "end": 12.12,
+              "word": "Italy's",
+              "probability": 0.9913613796234131
+            },
+            {
+              "start": 12.12,
+              "end": 12.72,
+              "word": "Sadae'da,",
+              "probability": 0.6486134886741638
+            },
+            {
+              "start": 12.88,
+              "end": 13.02,
+              "word": "and",
+              "probability": 0.9931443929672241
+            },
+            {
+              "start": 13.02,
+              "end": 13.62,
+              "word": "Iceland's",
+              "probability": 0.9978182017803192
+            },
+            {
+              "start": 13.62,
+              "end": 13.72,
+              "word": "the",
+              "probability": 0.8017752766609192
+            },
+            {
+              "start": 13.72,
+              "end": 13.86,
+              "word": "White",
+              "probability": 0.7984750270843506
+            },
+            {
+              "start": 13.86,
+              "end": 14.1,
+              "word": "Cap,",
+              "probability": 0.7053375840187073
+            },
+            {
+              "start": 14.32,
+              "end": 14.34,
+              "word": "which",
+              "probability": 0.9920137524604797
+            },
+            {
+              "start": 14.34,
+              "end": 14.44,
+              "word": "I",
+              "probability": 0.993328332901001
+            },
+            {
+              "start": 14.44,
+              "end": 14.66,
+              "word": "just",
+              "probability": 0.9840412139892578
+            },
+            {
+              "start": 14.66,
+              "end": 14.86,
+              "word": "read.",
+              "probability": 0.9985652565956116
+            }
+          ]
+        },
+        {
+          "start": 14.96,
+          "end": 17.12,
+          "text": "Why do so many disparate cultures tell the story?",
+          "avg_logprob": -0.16244992273457257,
+          "no_speech_prob": 0.007669034879654646,
+          "words": [
+            {
+              "start": 14.96,
+              "end": 15.08,
+              "word": "Why",
+              "probability": 0.8265813589096069
+            },
+            {
+              "start": 15.08,
+              "end": 15.22,
+              "word": "do",
+              "probability": 0.9807679057121277
+            },
+            {
+              "start": 15.22,
+              "end": 15.34,
+              "word": "so",
+              "probability": 0.990397572517395
+            },
+            {
+              "start": 15.34,
+              "end": 15.5,
+              "word": "many",
+              "probability": 0.9980377554893494
+            },
+            {
+              "start": 15.5,
+              "end": 16.02,
+              "word": "disparate",
+              "probability": 0.9902099370956421
+            },
+            {
+              "start": 16.02,
+              "end": 16.34,
+              "word": "cultures",
+              "probability": 0.9964134097099304
+            },
+            {
+              "start": 16.34,
+              "end": 16.68,
+              "word": "tell",
+              "probability": 0.9955360889434814
+            },
+            {
+              "start": 16.68,
+              "end": 16.82,
+              "word": "the",
+              "probability": 0.7034792900085449
+            },
+            {
+              "start": 16.82,
+              "end": 17.12,
+              "word": "story?",
+              "probability": 0.9978901743888855
+            }
+          ]
+        },
+        {
+          "start": 17.54,
+          "end": 18.86,
+          "text": "Folklorists have a name for this one.",
+          "avg_logprob": -0.16244992273457257,
+          "no_speech_prob": 0.007669034879654646,
+          "words": [
+            {
+              "start": 17.54,
+              "end": 17.94,
+              "word": "Folklorists",
+              "probability": 0.8461345881223679
+            },
+            {
+              "start": 17.94,
+              "end": 18.08,
+              "word": "have",
+              "probability": 0.9924179315567017
+            },
+            {
+              "start": 18.08,
+              "end": 18.18,
+              "word": "a",
+              "probability": 0.9963234663009644
+            },
+            {
+              "start": 18.18,
+              "end": 18.34,
+              "word": "name",
+              "probability": 0.9988933205604553
+            },
+            {
+              "start": 18.34,
+              "end": 18.5,
+              "word": "for",
+              "probability": 0.9977438449859619
+            },
+            {
+              "start": 18.5,
+              "end": 18.68,
+              "word": "this",
+              "probability": 0.9940500259399414
+            },
+            {
+              "start": 18.68,
+              "end": 18.86,
+              "word": "one.",
+              "probability": 0.9916269779205322
+            }
+          ]
+        },
+        {
+          "start": 19.04,
+          "end": 23.06,
+          "text": "It's ATU type 366, also related to variations of the Golden Arm.",
+          "avg_logprob": -0.16244992273457257,
+          "no_speech_prob": 0.007669034879654646,
+          "words": [
+            {
+              "start": 19.04,
+              "end": 19.2,
+              "word": "It's",
+              "probability": 0.8744225800037384
+            },
+            {
+              "start": 19.2,
+              "end": 19.7,
+              "word": "ATU",
+              "probability": 0.7359428405761719
+            },
+            {
+              "start": 19.7,
+              "end": 19.9,
+              "word": "type",
+              "probability": 0.5839996933937073
+            },
+            {
+              "start": 19.9,
+              "end": 20.7,
+              "word": "366,",
+              "probability": 0.8807949125766754
+            },
+            {
+              "start": 20.86,
+              "end": 21.06,
+              "word": "also",
+              "probability": 0.9920167922973633
+            },
+            {
+              "start": 21.06,
+              "end": 21.42,
+              "word": "related",
+              "probability": 0.9945388436317444
+            },
+            {
+              "start": 21.42,
+              "end": 21.64,
+              "word": "to",
+              "probability": 0.9985463619232178
+            },
+            {
+              "start": 21.64,
+              "end": 21.94,
+              "word": "variations",
+              "probability": 0.9696561694145203
+            },
+            {
+              "start": 21.94,
+              "end": 22.44,
+              "word": "of",
+              "probability": 0.9872184991836548
+            },
+            {
+              "start": 22.44,
+              "end": 22.58,
+              "word": "the",
+              "probability": 0.9849993586540222
+            },
+            {
+              "start": 22.58,
+              "end": 22.78,
+              "word": "Golden",
+              "probability": 0.604349672794342
+            },
+            {
+              "start": 22.78,
+              "end": 23.06,
+              "word": "Arm.",
+              "probability": 0.9651203751564026
+            }
+          ]
+        },
+        {
+          "start": 23.32,
+          "end": 26.02,
+          "text": "To me, these feel like stories about justice or karma.",
+          "avg_logprob": -0.16244992273457257,
+          "no_speech_prob": 0.007669034879654646,
+          "words": [
+            {
+              "start": 23.32,
+              "end": 23.44,
+              "word": "To",
+              "probability": 0.9921053647994995
+            },
+            {
+              "start": 23.44,
+              "end": 23.6,
+              "word": "me,",
+              "probability": 0.9992567896842957
+            },
+            {
+              "start": 23.74,
+              "end": 23.84,
+              "word": "these",
+              "probability": 0.994520902633667
+            },
+            {
+              "start": 23.84,
+              "end": 24.08,
+              "word": "feel",
+              "probability": 0.9933757185935974
+            },
+            {
+              "start": 24.08,
+              "end": 24.26,
+              "word": "like",
+              "probability": 0.9968823194503784
+            },
+            {
+              "start": 24.26,
+              "end": 24.62,
+              "word": "stories",
+              "probability": 0.9931592345237732
+            },
+            {
+              "start": 24.62,
+              "end": 24.92,
+              "word": "about",
+              "probability": 0.9931192398071289
+            },
+            {
+              "start": 24.92,
+              "end": 25.34,
+              "word": "justice",
+              "probability": 0.8459177613258362
+            },
+            {
+              "start": 25.34,
+              "end": 25.72,
+              "word": "or",
+              "probability": 0.9215335249900818
+            },
+            {
+              "start": 25.72,
+              "end": 26.02,
+              "word": "karma.",
+              "probability": 0.9880903959274292
+            }
+          ]
+        },
+        {
+          "start": 26.14,
+          "end": 29.0,
+          "text": "What happens when justice hasn't been served in a timely manner?",
+          "avg_logprob": -0.16244992273457257,
+          "no_speech_prob": 0.007669034879654646,
+          "words": [
+            {
+              "start": 26.14,
+              "end": 26.3,
+              "word": "What",
+              "probability": 0.993452787399292
+            },
+            {
+              "start": 26.3,
+              "end": 26.74,
+              "word": "happens",
+              "probability": 0.9960557222366333
+            },
+            {
+              "start": 26.74,
+              "end": 26.92,
+              "word": "when",
+              "probability": 0.9909967184066772
+            },
+            {
+              "start": 26.92,
+              "end": 27.26,
+              "word": "justice",
+              "probability": 0.969623863697052
+            },
+            {
+              "start": 27.26,
+              "end": 27.72,
+              "word": "hasn't",
+              "probability": 0.9919277131557465
+            },
+            {
+              "start": 27.72,
+              "end": 27.86,
+              "word": "been",
+              "probability": 0.9982537627220154
+            },
+            {
+              "start": 27.86,
+              "end": 28.14,
+              "word": "served",
+              "probability": 0.9982061386108398
+            },
+            {
+              "start": 28.14,
+              "end": 28.34,
+              "word": "in",
+              "probability": 0.9964409470558167
+            },
+            {
+              "start": 28.34,
+              "end": 28.42,
+              "word": "a",
+              "probability": 0.9970157146453857
+            },
+            {
+              "start": 28.42,
+              "end": 28.66,
+              "word": "timely",
+              "probability": 0.9991818070411682
+            },
+            {
+              "start": 28.66,
+              "end": 29.0,
+              "word": "manner?",
+              "probability": 0.9988071918487549
+            }
+          ]
+        },
+        {
+          "start": 29.0,
+          "end": 33.9,
+          "text": "Is retribution or vengeance or revenge always fulfilled even beyond the grave?",
+          "avg_logprob": -0.1794337354055265,
+          "no_speech_prob": 0.011980615556240082,
+          "words": [
+            {
+              "start": 29.0,
+              "end": 29.36,
+              "word": "Is",
+              "probability": 0.8058289289474487
+            },
+            {
+              "start": 29.36,
+              "end": 30.1,
+              "word": "retribution",
+              "probability": 0.960568904876709
+            },
+            {
+              "start": 30.1,
+              "end": 30.48,
+              "word": "or",
+              "probability": 0.6958029270172119
+            },
+            {
+              "start": 30.48,
+              "end": 30.94,
+              "word": "vengeance",
+              "probability": 0.9978663325309753
+            },
+            {
+              "start": 30.94,
+              "end": 31.34,
+              "word": "or",
+              "probability": 0.9605988264083862
+            },
+            {
+              "start": 31.34,
+              "end": 31.72,
+              "word": "revenge",
+              "probability": 0.999403715133667
+            },
+            {
+              "start": 31.72,
+              "end": 32.12,
+              "word": "always",
+              "probability": 0.9932374954223633
+            },
+            {
+              "start": 32.12,
+              "end": 32.68,
+              "word": "fulfilled",
+              "probability": 0.9982403516769409
+            },
+            {
+              "start": 32.68,
+              "end": 33.16,
+              "word": "even",
+              "probability": 0.6665505766868591
+            },
+            {
+              "start": 33.16,
+              "end": 33.54,
+              "word": "beyond",
+              "probability": 0.996773898601532
+            },
+            {
+              "start": 33.54,
+              "end": 33.68,
+              "word": "the",
+              "probability": 0.9949464201927185
+            },
+            {
+              "start": 33.68,
+              "end": 33.9,
+              "word": "grave?",
+              "probability": 0.9979871511459351
+            }
+          ]
+        },
+        {
+          "start": 34.16,
+          "end": 37.16,
+          "text": "Do each of our actions always have consequences or reactions?",
+          "avg_logprob": -0.1794337354055265,
+          "no_speech_prob": 0.011980615556240082,
+          "words": [
+            {
+              "start": 34.16,
+              "end": 34.28,
+              "word": "Do",
+              "probability": 0.9860385060310364
+            },
+            {
+              "start": 34.28,
+              "end": 34.5,
+              "word": "each",
+              "probability": 0.9946199655532837
+            },
+            {
+              "start": 34.5,
+              "end": 34.6,
+              "word": "of",
+              "probability": 0.9971609115600586
+            },
+            {
+              "start": 34.6,
+              "end": 34.72,
+              "word": "our",
+              "probability": 0.9978588223457336
+            },
+            {
+              "start": 34.72,
+              "end": 35.02,
+              "word": "actions",
+              "probability": 0.9993419051170349
+            },
+            {
+              "start": 35.02,
+              "end": 35.48,
+              "word": "always",
+              "probability": 0.9844563007354736
+            },
+            {
+              "start": 35.48,
+              "end": 35.74,
+              "word": "have",
+              "probability": 0.9984188079833984
+            },
+            {
+              "start": 35.74,
+              "end": 36.24,
+              "word": "consequences",
+              "probability": 0.997491717338562
+            },
+            {
+              "start": 36.24,
+              "end": 36.76,
+              "word": "or",
+              "probability": 0.9924046397209167
+            },
+            {
+              "start": 36.76,
+              "end": 37.16,
+              "word": "reactions?",
+              "probability": 0.9938306212425232
+            }
+          ]
+        },
+        {
+          "start": 37.66,
+          "end": 39.18,
+          "text": "These stories all seem to give an answer.",
+          "avg_logprob": -0.1794337354055265,
+          "no_speech_prob": 0.011980615556240082,
+          "words": [
+            {
+              "start": 37.66,
+              "end": 37.8,
+              "word": "These",
+              "probability": 0.9804123640060425
+            },
+            {
+              "start": 37.8,
+              "end": 38.12,
+              "word": "stories",
+              "probability": 0.9983912110328674
+            },
+            {
+              "start": 38.12,
+              "end": 38.42,
+              "word": "all",
+              "probability": 0.9961064457893372
+            },
+            {
+              "start": 38.42,
+              "end": 38.6,
+              "word": "seem",
+              "probability": 0.993436872959137
+            },
+            {
+              "start": 38.6,
+              "end": 38.72,
+              "word": "to",
+              "probability": 0.9977049231529236
+            },
+            {
+              "start": 38.72,
+              "end": 38.84,
+              "word": "give",
+              "probability": 0.9978728294372559
+            },
+            {
+              "start": 38.84,
+              "end": 38.94,
+              "word": "an",
+              "probability": 0.9964814186096191
+            },
+            {
+              "start": 38.94,
+              "end": 39.18,
+              "word": "answer.",
+              "probability": 0.9995518326759338
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "file": "DVov7VNk7SD.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/culturalfingerprints/DVov7VNk7SD.mp4",
+      "duration": 35.179625,
+      "language": "en",
+      "language_probability": 1.0,
+      "text": "For the last few months I've been hunting for unique choking signs in New York City restaurants, documenting everything that they reveal about New York arts and culture. I also share about folklore and similar types of stories that appear in cultures around the world. Both types of work actually aren't that disparate to me and here's why. Urban signage I think ultimately reveals the truths about a city, and fairy tales tell some truths about being human. Talking to sign designers, to business owners about why their sign has the cultural references that it does, ultimately teaches me a little bit more about their corner of New York and all of the New Yorkers in it. And analyzing stories teaches me about different cultures and also their commonalities. I'll be exploring these connections on my page if you want to follow along.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 3.92,
+          "text": "For the last few months I've been hunting for unique choking signs in New York City restaurants,",
+          "avg_logprob": -0.10337798089853355,
+          "no_speech_prob": 0.020221933722496033,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.14,
+              "word": "For",
+              "probability": 0.7074697613716125
+            },
+            {
+              "start": 0.14,
+              "end": 0.24,
+              "word": "the",
+              "probability": 0.9962189793586731
+            },
+            {
+              "start": 0.24,
+              "end": 0.44,
+              "word": "last",
+              "probability": 0.9903867244720459
+            },
+            {
+              "start": 0.44,
+              "end": 0.6,
+              "word": "few",
+              "probability": 0.9934451580047607
+            },
+            {
+              "start": 0.6,
+              "end": 0.86,
+              "word": "months",
+              "probability": 0.9958223104476929
+            },
+            {
+              "start": 0.86,
+              "end": 1.12,
+              "word": "I've",
+              "probability": 0.5766867101192474
+            },
+            {
+              "start": 1.12,
+              "end": 1.22,
+              "word": "been",
+              "probability": 0.9955548644065857
+            },
+            {
+              "start": 1.22,
+              "end": 1.44,
+              "word": "hunting",
+              "probability": 0.9932544827461243
+            },
+            {
+              "start": 1.44,
+              "end": 1.84,
+              "word": "for",
+              "probability": 0.9943599104881287
+            },
+            {
+              "start": 1.84,
+              "end": 2.16,
+              "word": "unique",
+              "probability": 0.9816009998321533
+            },
+            {
+              "start": 2.16,
+              "end": 2.46,
+              "word": "choking",
+              "probability": 0.8431013226509094
+            },
+            {
+              "start": 2.46,
+              "end": 2.8,
+              "word": "signs",
+              "probability": 0.9964261651039124
+            },
+            {
+              "start": 2.8,
+              "end": 3.02,
+              "word": "in",
+              "probability": 0.9832974672317505
+            },
+            {
+              "start": 3.02,
+              "end": 3.16,
+              "word": "New",
+              "probability": 0.9797641038894653
+            },
+            {
+              "start": 3.16,
+              "end": 3.3,
+              "word": "York",
+              "probability": 0.9958677291870117
+            },
+            {
+              "start": 3.3,
+              "end": 3.48,
+              "word": "City",
+              "probability": 0.962135374546051
+            },
+            {
+              "start": 3.48,
+              "end": 3.92,
+              "word": "restaurants,",
+              "probability": 0.9448958039283752
+            }
+          ]
+        },
+        {
+          "start": 4.06,
+          "end": 6.92,
+          "text": "documenting everything that they reveal about New York arts and culture.",
+          "avg_logprob": -0.10337798089853355,
+          "no_speech_prob": 0.020221933722496033,
+          "words": [
+            {
+              "start": 4.06,
+              "end": 4.36,
+              "word": "documenting",
+              "probability": 0.982740044593811
+            },
+            {
+              "start": 4.36,
+              "end": 4.92,
+              "word": "everything",
+              "probability": 0.9926385879516602
+            },
+            {
+              "start": 4.92,
+              "end": 5.2,
+              "word": "that",
+              "probability": 0.6822763085365295
+            },
+            {
+              "start": 5.2,
+              "end": 5.3,
+              "word": "they",
+              "probability": 0.9949158430099487
+            },
+            {
+              "start": 5.3,
+              "end": 5.62,
+              "word": "reveal",
+              "probability": 0.9924065470695496
+            },
+            {
+              "start": 5.62,
+              "end": 5.94,
+              "word": "about",
+              "probability": 0.9961079955101013
+            },
+            {
+              "start": 5.94,
+              "end": 6.12,
+              "word": "New",
+              "probability": 0.9764309525489807
+            },
+            {
+              "start": 6.12,
+              "end": 6.28,
+              "word": "York",
+              "probability": 0.998038113117218
+            },
+            {
+              "start": 6.28,
+              "end": 6.54,
+              "word": "arts",
+              "probability": 0.8142967820167542
+            },
+            {
+              "start": 6.54,
+              "end": 6.66,
+              "word": "and",
+              "probability": 0.9891987442970276
+            },
+            {
+              "start": 6.66,
+              "end": 6.92,
+              "word": "culture.",
+              "probability": 0.9825204014778137
+            }
+          ]
+        },
+        {
+          "start": 7.06,
+          "end": 11.36,
+          "text": "I also share about folklore and similar types of stories that appear in cultures around the world.",
+          "avg_logprob": -0.10337798089853355,
+          "no_speech_prob": 0.020221933722496033,
+          "words": [
+            {
+              "start": 7.06,
+              "end": 7.14,
+              "word": "I",
+              "probability": 0.9899834394454956
+            },
+            {
+              "start": 7.14,
+              "end": 7.44,
+              "word": "also",
+              "probability": 0.9981743097305298
+            },
+            {
+              "start": 7.44,
+              "end": 7.76,
+              "word": "share",
+              "probability": 0.9963635802268982
+            },
+            {
+              "start": 7.76,
+              "end": 8.06,
+              "word": "about",
+              "probability": 0.9656421542167664
+            },
+            {
+              "start": 8.06,
+              "end": 8.46,
+              "word": "folklore",
+              "probability": 0.990279495716095
+            },
+            {
+              "start": 8.46,
+              "end": 8.76,
+              "word": "and",
+              "probability": 0.9402021765708923
+            },
+            {
+              "start": 8.76,
+              "end": 9.02,
+              "word": "similar",
+              "probability": 0.9891470670700073
+            },
+            {
+              "start": 9.02,
+              "end": 9.26,
+              "word": "types",
+              "probability": 0.9818397164344788
+            },
+            {
+              "start": 9.26,
+              "end": 9.4,
+              "word": "of",
+              "probability": 0.9990321397781372
+            },
+            {
+              "start": 9.4,
+              "end": 9.66,
+              "word": "stories",
+              "probability": 0.9963251948356628
+            },
+            {
+              "start": 9.66,
+              "end": 9.86,
+              "word": "that",
+              "probability": 0.9959755539894104
+            },
+            {
+              "start": 9.86,
+              "end": 10.12,
+              "word": "appear",
+              "probability": 0.9880483746528625
+            },
+            {
+              "start": 10.12,
+              "end": 10.38,
+              "word": "in",
+              "probability": 0.9895827770233154
+            },
+            {
+              "start": 10.38,
+              "end": 10.64,
+              "word": "cultures",
+              "probability": 0.9906666874885559
+            },
+            {
+              "start": 10.64,
+              "end": 11.02,
+              "word": "around",
+              "probability": 0.996260404586792
+            },
+            {
+              "start": 11.02,
+              "end": 11.18,
+              "word": "the",
+              "probability": 0.9986026883125305
+            },
+            {
+              "start": 11.18,
+              "end": 11.36,
+              "word": "world.",
+              "probability": 0.9987108707427979
+            }
+          ]
+        },
+        {
+          "start": 11.56,
+          "end": 14.34,
+          "text": "Both types of work actually aren't that disparate to me and here's why.",
+          "avg_logprob": -0.10337798089853355,
+          "no_speech_prob": 0.020221933722496033,
+          "words": [
+            {
+              "start": 11.56,
+              "end": 11.66,
+              "word": "Both",
+              "probability": 0.9921910166740417
+            },
+            {
+              "start": 11.66,
+              "end": 11.9,
+              "word": "types",
+              "probability": 0.9890151619911194
+            },
+            {
+              "start": 11.9,
+              "end": 12.02,
+              "word": "of",
+              "probability": 0.9992408752441406
+            },
+            {
+              "start": 12.02,
+              "end": 12.2,
+              "word": "work",
+              "probability": 0.9911860823631287
+            },
+            {
+              "start": 12.2,
+              "end": 12.56,
+              "word": "actually",
+              "probability": 0.9348213076591492
+            },
+            {
+              "start": 12.56,
+              "end": 12.84,
+              "word": "aren't",
+              "probability": 0.9961865842342377
+            },
+            {
+              "start": 12.84,
+              "end": 12.96,
+              "word": "that",
+              "probability": 0.9888706803321838
+            },
+            {
+              "start": 12.96,
+              "end": 13.4,
+              "word": "disparate",
+              "probability": 0.9823732376098633
+            },
+            {
+              "start": 13.4,
+              "end": 13.54,
+              "word": "to",
+              "probability": 0.9933114051818848
+            },
+            {
+              "start": 13.54,
+              "end": 13.66,
+              "word": "me",
+              "probability": 0.9975752234458923
+            },
+            {
+              "start": 13.66,
+              "end": 13.78,
+              "word": "and",
+              "probability": 0.7171920537948608
+            },
+            {
+              "start": 13.78,
+              "end": 14.08,
+              "word": "here's",
+              "probability": 0.9622046947479248
+            },
+            {
+              "start": 14.08,
+              "end": 14.34,
+              "word": "why.",
+              "probability": 0.9902819395065308
+            }
+          ]
+        },
+        {
+          "start": 14.36,
+          "end": 17.22,
+          "text": "Urban signage I think ultimately reveals the truths about a city,",
+          "avg_logprob": -0.10337798089853355,
+          "no_speech_prob": 0.020221933722496033,
+          "words": [
+            {
+              "start": 14.36,
+              "end": 14.56,
+              "word": "Urban",
+              "probability": 0.9710644483566284
+            },
+            {
+              "start": 14.56,
+              "end": 15.08,
+              "word": "signage",
+              "probability": 0.9766210317611694
+            },
+            {
+              "start": 15.08,
+              "end": 15.2,
+              "word": "I",
+              "probability": 0.8119695782661438
+            },
+            {
+              "start": 15.2,
+              "end": 15.32,
+              "word": "think",
+              "probability": 0.9989014863967896
+            },
+            {
+              "start": 15.32,
+              "end": 15.7,
+              "word": "ultimately",
+              "probability": 0.9936612844467163
+            },
+            {
+              "start": 15.7,
+              "end": 16.22,
+              "word": "reveals",
+              "probability": 0.9950762391090393
+            },
+            {
+              "start": 16.22,
+              "end": 16.42,
+              "word": "the",
+              "probability": 0.9947612881660461
+            },
+            {
+              "start": 16.42,
+              "end": 16.66,
+              "word": "truths",
+              "probability": 0.9507092833518982
+            },
+            {
+              "start": 16.66,
+              "end": 16.94,
+              "word": "about",
+              "probability": 0.993055522441864
+            },
+            {
+              "start": 16.94,
+              "end": 17.08,
+              "word": "a",
+              "probability": 0.9860267639160156
+            },
+            {
+              "start": 17.08,
+              "end": 17.22,
+              "word": "city,",
+              "probability": 0.9963535070419312
+            }
+          ]
+        },
+        {
+          "start": 17.28,
+          "end": 19.28,
+          "text": "and fairy tales tell some truths about being human.",
+          "avg_logprob": -0.10337798089853355,
+          "no_speech_prob": 0.020221933722496033,
+          "words": [
+            {
+              "start": 17.28,
+              "end": 17.42,
+              "word": "and",
+              "probability": 0.9831389784812927
+            },
+            {
+              "start": 17.42,
+              "end": 17.6,
+              "word": "fairy",
+              "probability": 0.7334211468696594
+            },
+            {
+              "start": 17.6,
+              "end": 17.9,
+              "word": "tales",
+              "probability": 0.9946218729019165
+            },
+            {
+              "start": 17.9,
+              "end": 18.12,
+              "word": "tell",
+              "probability": 0.899272084236145
+            },
+            {
+              "start": 18.12,
+              "end": 18.34,
+              "word": "some",
+              "probability": 0.9919330477714539
+            },
+            {
+              "start": 18.34,
+              "end": 18.58,
+              "word": "truths",
+              "probability": 0.9879325032234192
+            },
+            {
+              "start": 18.58,
+              "end": 18.82,
+              "word": "about",
+              "probability": 0.997882068157196
+            },
+            {
+              "start": 18.82,
+              "end": 19.02,
+              "word": "being",
+              "probability": 0.9935279488563538
+            },
+            {
+              "start": 19.02,
+              "end": 19.28,
+              "word": "human.",
+              "probability": 0.9769572019577026
+            }
+          ]
+        },
+        {
+          "start": 19.44,
+          "end": 23.06,
+          "text": "Talking to sign designers, to business owners about why their sign has the cultural",
+          "avg_logprob": -0.10337798089853355,
+          "no_speech_prob": 0.020221933722496033,
+          "words": [
+            {
+              "start": 19.44,
+              "end": 19.62,
+              "word": "Talking",
+              "probability": 0.9841342568397522
+            },
+            {
+              "start": 19.62,
+              "end": 19.92,
+              "word": "to",
+              "probability": 0.9968846440315247
+            },
+            {
+              "start": 19.92,
+              "end": 20.22,
+              "word": "sign",
+              "probability": 0.9869023561477661
+            },
+            {
+              "start": 20.22,
+              "end": 20.66,
+              "word": "designers,",
+              "probability": 0.9862989783287048
+            },
+            {
+              "start": 20.84,
+              "end": 20.84,
+              "word": "to",
+              "probability": 0.9445324540138245
+            },
+            {
+              "start": 20.84,
+              "end": 21.14,
+              "word": "business",
+              "probability": 0.9984017014503479
+            },
+            {
+              "start": 21.14,
+              "end": 21.48,
+              "word": "owners",
+              "probability": 0.9987192153930664
+            },
+            {
+              "start": 21.48,
+              "end": 21.74,
+              "word": "about",
+              "probability": 0.8565962910652161
+            },
+            {
+              "start": 21.74,
+              "end": 22.04,
+              "word": "why",
+              "probability": 0.9922595620155334
+            },
+            {
+              "start": 22.04,
+              "end": 22.16,
+              "word": "their",
+              "probability": 0.9750036597251892
+            },
+            {
+              "start": 22.16,
+              "end": 22.42,
+              "word": "sign",
+              "probability": 0.998356282711029
+            },
+            {
+              "start": 22.42,
+              "end": 22.62,
+              "word": "has",
+              "probability": 0.9982439279556274
+            },
+            {
+              "start": 22.62,
+              "end": 22.78,
+              "word": "the",
+              "probability": 0.9758386015892029
+            },
+            {
+              "start": 22.78,
+              "end": 23.06,
+              "word": "cultural",
+              "probability": 0.9989795088768005
+            }
+          ]
+        },
+        {
+          "start": 23.06,
+          "end": 26.92,
+          "text": "references that it does, ultimately teaches me a little bit more about their corner of New York",
+          "avg_logprob": -0.10337798089853355,
+          "no_speech_prob": 0.020221933722496033,
+          "words": [
+            {
+              "start": 23.06,
+              "end": 23.48,
+              "word": "references",
+              "probability": 0.9819735288619995
+            },
+            {
+              "start": 23.48,
+              "end": 23.72,
+              "word": "that",
+              "probability": 0.9665360450744629
+            },
+            {
+              "start": 23.72,
+              "end": 23.82,
+              "word": "it",
+              "probability": 0.998129665851593
+            },
+            {
+              "start": 23.82,
+              "end": 24.04,
+              "word": "does,",
+              "probability": 0.9873291254043579
+            },
+            {
+              "start": 24.18,
+              "end": 24.44,
+              "word": "ultimately",
+              "probability": 0.9822983741760254
+            },
+            {
+              "start": 24.44,
+              "end": 24.8,
+              "word": "teaches",
+              "probability": 0.9830233454704285
+            },
+            {
+              "start": 24.8,
+              "end": 25.02,
+              "word": "me",
+              "probability": 0.9973069429397583
+            },
+            {
+              "start": 25.02,
+              "end": 25.18,
+              "word": "a",
+              "probability": 0.9945390820503235
+            },
+            {
+              "start": 25.18,
+              "end": 25.32,
+              "word": "little",
+              "probability": 0.9858222603797913
+            },
+            {
+              "start": 25.32,
+              "end": 25.5,
+              "word": "bit",
+              "probability": 0.9662883281707764
+            },
+            {
+              "start": 25.5,
+              "end": 25.68,
+              "word": "more",
+              "probability": 0.9966580867767334
+            },
+            {
+              "start": 25.68,
+              "end": 25.88,
+              "word": "about",
+              "probability": 0.9962210059165955
+            },
+            {
+              "start": 25.88,
+              "end": 26.08,
+              "word": "their",
+              "probability": 0.9930522441864014
+            },
+            {
+              "start": 26.08,
+              "end": 26.38,
+              "word": "corner",
+              "probability": 0.9889683723449707
+            },
+            {
+              "start": 26.38,
+              "end": 26.56,
+              "word": "of",
+              "probability": 0.9934076070785522
+            },
+            {
+              "start": 26.56,
+              "end": 26.64,
+              "word": "New",
+              "probability": 0.9876731038093567
+            },
+            {
+              "start": 26.64,
+              "end": 26.92,
+              "word": "York",
+              "probability": 0.9982239603996277
+            }
+          ]
+        },
+        {
+          "start": 26.92,
+          "end": 30.76,
+          "text": "and all of the New Yorkers in it. And analyzing stories teaches me about different cultures",
+          "avg_logprob": -0.2216616044653223,
+          "no_speech_prob": 0.011072051711380482,
+          "words": [
+            {
+              "start": 26.92,
+              "end": 27.2,
+              "word": "and",
+              "probability": 0.8680148124694824
+            },
+            {
+              "start": 27.2,
+              "end": 27.42,
+              "word": "all",
+              "probability": 0.9209399223327637
+            },
+            {
+              "start": 27.42,
+              "end": 27.52,
+              "word": "of",
+              "probability": 0.9500889778137207
+            },
+            {
+              "start": 27.52,
+              "end": 27.64,
+              "word": "the",
+              "probability": 0.9044504761695862
+            },
+            {
+              "start": 27.64,
+              "end": 27.78,
+              "word": "New",
+              "probability": 0.8668030500411987
+            },
+            {
+              "start": 27.78,
+              "end": 28.06,
+              "word": "Yorkers",
+              "probability": 0.9873695969581604
+            },
+            {
+              "start": 28.06,
+              "end": 28.2,
+              "word": "in",
+              "probability": 0.9298279285430908
+            },
+            {
+              "start": 28.2,
+              "end": 28.26,
+              "word": "it.",
+              "probability": 0.977486252784729
+            },
+            {
+              "start": 28.32,
+              "end": 28.4,
+              "word": "And",
+              "probability": 0.5586264133453369
+            },
+            {
+              "start": 28.4,
+              "end": 28.72,
+              "word": "analyzing",
+              "probability": 0.7490364909172058
+            },
+            {
+              "start": 28.72,
+              "end": 29.26,
+              "word": "stories",
+              "probability": 0.9977287650108337
+            },
+            {
+              "start": 29.26,
+              "end": 29.6,
+              "word": "teaches",
+              "probability": 0.9783709049224854
+            },
+            {
+              "start": 29.6,
+              "end": 29.86,
+              "word": "me",
+              "probability": 0.9966591596603394
+            },
+            {
+              "start": 29.86,
+              "end": 30.12,
+              "word": "about",
+              "probability": 0.9949091076850891
+            },
+            {
+              "start": 30.12,
+              "end": 30.4,
+              "word": "different",
+              "probability": 0.9842910766601562
+            },
+            {
+              "start": 30.4,
+              "end": 30.76,
+              "word": "cultures",
+              "probability": 0.9990911483764648
+            }
+          ]
+        },
+        {
+          "start": 30.76,
+          "end": 34.64,
+          "text": "and also their commonalities. I'll be exploring these connections on my page if you want to follow",
+          "avg_logprob": -0.2216616044653223,
+          "no_speech_prob": 0.011072051711380482,
+          "words": [
+            {
+              "start": 30.76,
+              "end": 31.08,
+              "word": "and",
+              "probability": 0.8933775424957275
+            },
+            {
+              "start": 31.08,
+              "end": 31.34,
+              "word": "also",
+              "probability": 0.98127281665802
+            },
+            {
+              "start": 31.34,
+              "end": 31.52,
+              "word": "their",
+              "probability": 0.9921205043792725
+            },
+            {
+              "start": 31.52,
+              "end": 32.12,
+              "word": "commonalities.",
+              "probability": 0.9953530728816986
+            },
+            {
+              "start": 32.24,
+              "end": 32.38,
+              "word": "I'll",
+              "probability": 0.9886910915374756
+            },
+            {
+              "start": 32.38,
+              "end": 32.42,
+              "word": "be",
+              "probability": 0.9976546168327332
+            },
+            {
+              "start": 32.42,
+              "end": 32.74,
+              "word": "exploring",
+              "probability": 0.997779905796051
+            },
+            {
+              "start": 32.74,
+              "end": 32.94,
+              "word": "these",
+              "probability": 0.9885503649711609
+            },
+            {
+              "start": 32.94,
+              "end": 33.26,
+              "word": "connections",
+              "probability": 0.9940855503082275
+            },
+            {
+              "start": 33.26,
+              "end": 33.52,
+              "word": "on",
+              "probability": 0.9979450106620789
+            },
+            {
+              "start": 33.52,
+              "end": 33.66,
+              "word": "my",
+              "probability": 0.9982796907424927
+            },
+            {
+              "start": 33.66,
+              "end": 33.92,
+              "word": "page",
+              "probability": 0.9933367967605591
+            },
+            {
+              "start": 33.92,
+              "end": 34.14,
+              "word": "if",
+              "probability": 0.9401960968971252
+            },
+            {
+              "start": 34.14,
+              "end": 34.28,
+              "word": "you",
+              "probability": 0.9987748265266418
+            },
+            {
+              "start": 34.28,
+              "end": 34.42,
+              "word": "want",
+              "probability": 0.8369655013084412
+            },
+            {
+              "start": 34.42,
+              "end": 34.48,
+              "word": "to",
+              "probability": 0.9894683957099915
+            },
+            {
+              "start": 34.48,
+              "end": 34.64,
+              "word": "follow",
+              "probability": 0.9983065128326416
+            }
+          ]
+        },
+        {
+          "start": 34.64,
+          "end": 34.92,
+          "text": "along.",
+          "avg_logprob": -0.2216616044653223,
+          "no_speech_prob": 0.011072051711380482,
+          "words": [
+            {
+              "start": 34.64,
+              "end": 34.92,
+              "word": "along.",
+              "probability": 0.5244976282119751
+            }
+          ]
+        }
+      ],
+      "error": null
+    }
+  ]
+}

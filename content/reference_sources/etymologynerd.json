@@ -1,0 +1,87 @@
+{
+  "handle": "etymologynerd",
+  "updated": "2026-05-19",
+  "principle": "Only sourceable reference images that illustrate the referenced object, system, artwork, book, interface, or naming domain. No fake text-card placeholders and no creator portraits.",
+  "references": [
+    {
+      "key": "algospeak-book",
+      "title": "ALGOSPEAK: How Social Media is Transforming the Future of Language",
+      "type": "book cover",
+      "file": "assets/creator_references/etymologynerd/algospeak-cover-real.jpg",
+      "source": "https://www.penguinrandomhouse.com/books/776856/algospeak-by-adam-aleksic/",
+      "used_for": "Platform moderation and algorithmic feedback as a new language-change environment."
+    },
+    {
+      "key": "romance-languages-map",
+      "title": "Map of Romance Languages Worldwide",
+      "type": "linguistic map",
+      "file": "assets/creator_references/etymologynerd/romance-languages-map.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Map_of_Romance_Languages_Worldwide.png",
+      "used_for": "Latin branching into geography, migration, and regional identity."
+    },
+    {
+      "key": "rosetta-stone",
+      "title": "Rosetta Stone",
+      "type": "inscription / translation object",
+      "file": "assets/creator_references/etymologynerd/rosetta-stone.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Rosetta_Stone.JPG",
+      "used_for": "Language as historical recovery: the visible artifact that lets lost systems be read again."
+    },
+    {
+      "key": "linnaean-taxonomy-tree",
+      "title": "Biological classification diagram",
+      "type": "taxonomy diagram",
+      "file": "assets/creator_references/etymologynerd/linnaean-taxonomy-tree.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Biological_classification_L_Pengo_vflip.svg",
+      "used_for": "Scientific names as nested systems rather than isolated vocabulary trivia."
+    },
+    {
+      "key": "caslon-specimen",
+      "title": "William Caslon type specimen",
+      "type": "type specimen",
+      "file": "assets/creator_references/etymologynerd/caslon-specimen.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:A_Specimen_by_William_Caslon.jpg",
+      "used_for": "Typeface names as visual culture, trade history, and print infrastructure."
+    },
+    {
+      "key": "color-wheel",
+      "title": "Color wheel",
+      "type": "color classification system",
+      "file": "assets/creator_references/etymologynerd/color-wheel.png",
+      "source": "https://en.wikipedia.org/wiki/Color_wheel",
+      "used_for": "Color names as a system where perception, categorization, and design meet."
+    },
+    {
+      "key": "duchamp-fountain-dada",
+      "title": "Marcel Duchamp, Fountain",
+      "type": "artwork / art movement reference",
+      "file": "assets/creator_references/etymologynerd/duchamp-fountain-dada.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Duchamp_Fountaine.jpg",
+      "used_for": "Art movement labels as historical arguments, not neutral descriptors."
+    },
+    {
+      "key": "dollar-banknote",
+      "title": "United States dollar notes",
+      "type": "currency object",
+      "file": "assets/creator_references/etymologynerd/united-states-dollar-page.png",
+      "source": "https://en.wikipedia.org/wiki/United_States_dollar",
+      "used_for": "Currency names as state power, trade convention, and cultural memory."
+    },
+    {
+      "key": "influenza-virus",
+      "title": "Influenza virus micrograph",
+      "type": "scientific image",
+      "file": "assets/creator_references/etymologynerd/influenza-page.jpg",
+      "source": "https://en.wikipedia.org/wiki/Influenza",
+      "used_for": "Disease names as public-health language and scientific classification."
+    },
+    {
+      "key": "knopf-borzoi",
+      "title": "Alfred A. Knopf borzoi logo",
+      "type": "publisher mark",
+      "file": "assets/creator_references/etymologynerd/knopf-borzoi.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Alfred_A._Knopf_-_Borzoi_logo_-_1926.png",
+      "used_for": "The book/publisher object around Algospeak, where online language becomes edited print culture."
+    }
+  ]
+}

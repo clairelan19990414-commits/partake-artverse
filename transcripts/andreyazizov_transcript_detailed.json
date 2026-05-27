@@ -1,0 +1,3215 @@
+{
+  "handle": "andreyazizov",
+  "model": "small",
+  "source_dir": "/Users/cicilan/Desktop/partake_videos/andreyazizov",
+  "source_files": [
+    "/Users/cicilan/Desktop/partake_videos/andreyazizov/C692TYhRBz2.mp4",
+    "/Users/cicilan/Desktop/partake_videos/andreyazizov/C692TZPxf5e.mp4",
+    "/Users/cicilan/Desktop/partake_videos/andreyazizov/C692TZVRoMJ.mp4",
+    "/Users/cicilan/Desktop/partake_videos/andreyazizov/C692TZkxUTy.mp4",
+    "/Users/cicilan/Desktop/partake_videos/andreyazizov/C692V31Rlhj.mp4",
+    "/Users/cicilan/Desktop/partake_videos/andreyazizov/C692VyBR954.mp4",
+    "/Users/cicilan/Desktop/partake_videos/andreyazizov/C692WClRLuC.mp4",
+    "/Users/cicilan/Desktop/partake_videos/andreyazizov/C692Wkvx6L1.mp4",
+    "/Users/cicilan/Desktop/partake_videos/andreyazizov/C692bIPRTbf.mp4",
+    "/Users/cicilan/Desktop/partake_videos/andreyazizov/C7654cfxTmM.mp4",
+    "/Users/cicilan/Desktop/partake_videos/andreyazizov/DWrm72igSz3.mp4",
+    "/Users/cicilan/Desktop/partake_videos/andreyazizov/DWrm7mZAcW9.mp4"
+  ],
+  "clip_count": 12,
+  "clips": [
+    {
+      "file": "C692TYhRBz2.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/andreyazizov/C692TYhRBz2.mp4",
+      "duration": 26.21675,
+      "language": "en",
+      "language_probability": 1.0,
+      "mode": "full-word-timestamps",
+      "text": "Snakes, sin, temptation, flowers, growth, fulfillment, oceans, pressure, disruption, fear, anxiety.",
+      "segments": [
+        {
+          "start": 1.33,
+          "end": 21.51,
+          "text": "Snakes, sin, temptation, flowers, growth, fulfillment, oceans, pressure, disruption, fear, anxiety.",
+          "avg_logprob": -0.32573860998337084,
+          "no_speech_prob": 0.03820180147886276,
+          "words": [
+            {
+              "start": 1.33,
+              "end": 2.23,
+              "word": "Snakes,",
+              "probability": 0.8255226016044617
+            },
+            {
+              "start": 2.82,
+              "end": 3.94,
+              "word": "sin,",
+              "probability": 0.8008620738983154
+            },
+            {
+              "start": 5.15,
+              "end": 5.91,
+              "word": "temptation,",
+              "probability": 0.991280734539032
+            },
+            {
+              "start": 7.39,
+              "end": 8.35,
+              "word": "flowers,",
+              "probability": 0.9868692755699158
+            },
+            {
+              "start": 8.99,
+              "end": 9.33,
+              "word": "growth,",
+              "probability": 0.9974672794342041
+            },
+            {
+              "start": 10.03,
+              "end": 10.61,
+              "word": "fulfillment,",
+              "probability": 0.960871160030365
+            },
+            {
+              "start": 11.33,
+              "end": 11.87,
+              "word": "oceans,",
+              "probability": 0.9775195121765137
+            },
+            {
+              "start": 13.56,
+              "end": 14.1,
+              "word": "pressure,",
+              "probability": 0.9953193068504333
+            },
+            {
+              "start": 14.8,
+              "end": 15.36,
+              "word": "disruption,",
+              "probability": 0.9869056344032288
+            },
+            {
+              "start": 19.16,
+              "end": 19.54,
+              "word": "fear,",
+              "probability": 0.995256245136261
+            },
+            {
+              "start": 20.87,
+              "end": 21.51,
+              "word": "anxiety.",
+              "probability": 0.9970001578330994
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "file": "C692TZPxf5e.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/andreyazizov/C692TZPxf5e.mp4",
+      "duration": 12.191875,
+      "language": "en",
+      "language_probability": 1.0,
+      "mode": "full-word-timestamps",
+      "text": "Thank you.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 1.02,
+          "text": "Thank you.",
+          "avg_logprob": -1.0428109765052795,
+          "no_speech_prob": 0.5713843107223511,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.28,
+              "word": "Thank",
+              "probability": 0.003690819488838315
+            },
+            {
+              "start": 0.28,
+              "end": 1.02,
+              "word": "you.",
+              "probability": 0.9214574694633484
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "file": "C692TZVRoMJ.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/andreyazizov/C692TZVRoMJ.mp4",
+      "duration": 14.513875,
+      "language": "en",
+      "language_probability": 1.0,
+      "mode": "full-word-timestamps",
+      "text": "Wake me up before you go to the world",
+      "segments": [
+        {
+          "start": 4.59,
+          "end": 9.12,
+          "text": "Wake me up before you go to the world",
+          "avg_logprob": -0.4419451430439949,
+          "no_speech_prob": 0.5856724977493286,
+          "words": [
+            {
+              "start": 4.59,
+              "end": 5.17,
+              "word": "Wake",
+              "probability": 0.5500704050064087
+            },
+            {
+              "start": 5.17,
+              "end": 5.55,
+              "word": "me",
+              "probability": 0.9800227880477905
+            },
+            {
+              "start": 5.55,
+              "end": 5.97,
+              "word": "up",
+              "probability": 0.9664548635482788
+            },
+            {
+              "start": 6.48,
+              "end": 7.04,
+              "word": "before",
+              "probability": 0.8455190062522888
+            },
+            {
+              "start": 7.04,
+              "end": 7.44,
+              "word": "you",
+              "probability": 0.9709459543228149
+            },
+            {
+              "start": 7.44,
+              "end": 7.84,
+              "word": "go",
+              "probability": 0.9803890585899353
+            },
+            {
+              "start": 7.84,
+              "end": 8.16,
+              "word": "to",
+              "probability": 0.798193633556366
+            },
+            {
+              "start": 8.64,
+              "end": 8.78,
+              "word": "the",
+              "probability": 0.34550046920776367
+            },
+            {
+              "start": 8.78,
+              "end": 9.12,
+              "word": "world",
+              "probability": 0.6756861209869385
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "file": "C692TZkxUTy.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/andreyazizov/C692TZkxUTy.mp4",
+      "duration": 11.4024375,
+      "language": "en",
+      "language_probability": 1.0,
+      "mode": "full-word-timestamps",
+      "text": "eyes and shine I feel like I could be louder",
+      "segments": [
+        {
+          "start": 5.39,
+          "end": 10.79,
+          "text": "eyes and shine I feel like I could be louder",
+          "avg_logprob": -0.5571051560915433,
+          "no_speech_prob": 0.04367358982563019,
+          "words": [
+            {
+              "start": 5.39,
+              "end": 5.75,
+              "word": "eyes",
+              "probability": 0.0398876890540123
+            },
+            {
+              "start": 5.75,
+              "end": 6.01,
+              "word": "and",
+              "probability": 0.9524322748184204
+            },
+            {
+              "start": 6.01,
+              "end": 6.51,
+              "word": "shine",
+              "probability": 0.9372472763061523
+            },
+            {
+              "start": 6.51,
+              "end": 8.07,
+              "word": "I",
+              "probability": 0.36792540550231934
+            },
+            {
+              "start": 9.45,
+              "end": 10.11,
+              "word": "feel",
+              "probability": 0.9856334328651428
+            },
+            {
+              "start": 10.11,
+              "end": 10.23,
+              "word": "like",
+              "probability": 0.9968398809432983
+            },
+            {
+              "start": 10.23,
+              "end": 10.31,
+              "word": "I",
+              "probability": 0.9748621582984924
+            },
+            {
+              "start": 10.31,
+              "end": 10.39,
+              "word": "could",
+              "probability": 0.9028802514076233
+            },
+            {
+              "start": 10.39,
+              "end": 10.51,
+              "word": "be",
+              "probability": 0.9987658262252808
+            },
+            {
+              "start": 10.51,
+              "end": 10.79,
+              "word": "louder",
+              "probability": 0.9961920976638794
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "file": "C692V31Rlhj.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/andreyazizov/C692V31Rlhj.mp4",
+      "duration": 40.009375,
+      "language": "en",
+      "language_probability": 1.0,
+      "mode": "full-word-timestamps",
+      "text": "Twinkle twinkle",
+      "segments": [
+        {
+          "start": 3.09,
+          "end": 5.59,
+          "text": "Twinkle twinkle",
+          "avg_logprob": -0.4112723810332162,
+          "no_speech_prob": 0.2957856357097626,
+          "words": [
+            {
+              "start": 3.09,
+              "end": 4.21,
+              "word": "Twinkle",
+              "probability": 0.8263109028339386
+            },
+            {
+              "start": 4.21,
+              "end": 5.59,
+              "word": "twinkle",
+              "probability": 0.7573383450508118
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "file": "C692VyBR954.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/andreyazizov/C692VyBR954.mp4",
+      "duration": 53.8020625,
+      "language": "en",
+      "language_probability": 1.0,
+      "mode": "full-word-timestamps",
+      "text": "Once upon a time in a land far away, they lived a little queen who wanted a sleigh. She wanted to spend the night on the town. If only she had a suitable gown. It's giving big flop. Her merit, they'd say, help me, oh please. She texted her gaze. They tried a boot, and a shoe, and a look, and a fit. Then the final assemble, they knew this is it. She ate. She cleared. she came here to slay she was no sleeping beauty but she gagged them all day honey that's take this is not no rare writing hood here in Manhattan we have the little diva that could but you couldn't you couldn't see you next year",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.24,
+          "text": "Once upon a time in a land far away,",
+          "avg_logprob": -0.22321591692522538,
+          "no_speech_prob": 0.01815360225737095,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.44,
+              "word": "Once",
+              "probability": 0.5029727816581726
+            },
+            {
+              "start": 0.44,
+              "end": 0.62,
+              "word": "upon",
+              "probability": 0.9760934710502625
+            },
+            {
+              "start": 0.62,
+              "end": 0.76,
+              "word": "a",
+              "probability": 0.9915294647216797
+            },
+            {
+              "start": 0.76,
+              "end": 1.12,
+              "word": "time",
+              "probability": 0.9993979930877686
+            },
+            {
+              "start": 1.12,
+              "end": 1.28,
+              "word": "in",
+              "probability": 0.6490065455436707
+            },
+            {
+              "start": 1.28,
+              "end": 1.42,
+              "word": "a",
+              "probability": 0.7944445013999939
+            },
+            {
+              "start": 1.42,
+              "end": 1.56,
+              "word": "land",
+              "probability": 0.9935723543167114
+            },
+            {
+              "start": 1.56,
+              "end": 1.82,
+              "word": "far",
+              "probability": 0.9969543218612671
+            },
+            {
+              "start": 1.82,
+              "end": 2.24,
+              "word": "away,",
+              "probability": 0.9855272769927979
+            }
+          ]
+        },
+        {
+          "start": 3.01,
+          "end": 5.55,
+          "text": "they lived a little queen who wanted a sleigh.",
+          "avg_logprob": -0.22321591692522538,
+          "no_speech_prob": 0.01815360225737095,
+          "words": [
+            {
+              "start": 3.01,
+              "end": 3.53,
+              "word": "they",
+              "probability": 0.5011048913002014
+            },
+            {
+              "start": 3.53,
+              "end": 3.69,
+              "word": "lived",
+              "probability": 0.6264928579330444
+            },
+            {
+              "start": 3.69,
+              "end": 3.83,
+              "word": "a",
+              "probability": 0.9507295489311218
+            },
+            {
+              "start": 3.83,
+              "end": 3.95,
+              "word": "little",
+              "probability": 0.9960314631462097
+            },
+            {
+              "start": 3.95,
+              "end": 4.35,
+              "word": "queen",
+              "probability": 0.9697244167327881
+            },
+            {
+              "start": 4.35,
+              "end": 4.57,
+              "word": "who",
+              "probability": 0.9689651131629944
+            },
+            {
+              "start": 4.57,
+              "end": 4.85,
+              "word": "wanted",
+              "probability": 0.9909113049507141
+            },
+            {
+              "start": 4.85,
+              "end": 5.11,
+              "word": "a",
+              "probability": 0.8910181522369385
+            },
+            {
+              "start": 5.11,
+              "end": 5.55,
+              "word": "sleigh.",
+              "probability": 0.8587125539779663
+            }
+          ]
+        },
+        {
+          "start": 6.23,
+          "end": 8.11,
+          "text": "She wanted to spend the night on the town.",
+          "avg_logprob": -0.22321591692522538,
+          "no_speech_prob": 0.01815360225737095,
+          "words": [
+            {
+              "start": 6.23,
+              "end": 6.35,
+              "word": "She",
+              "probability": 0.9940422177314758
+            },
+            {
+              "start": 6.35,
+              "end": 6.57,
+              "word": "wanted",
+              "probability": 0.9956527948379517
+            },
+            {
+              "start": 6.57,
+              "end": 6.75,
+              "word": "to",
+              "probability": 0.9908077120780945
+            },
+            {
+              "start": 6.75,
+              "end": 6.91,
+              "word": "spend",
+              "probability": 0.9990317821502686
+            },
+            {
+              "start": 6.91,
+              "end": 7.13,
+              "word": "the",
+              "probability": 0.9606658220291138
+            },
+            {
+              "start": 7.13,
+              "end": 7.35,
+              "word": "night",
+              "probability": 0.9993599057197571
+            },
+            {
+              "start": 7.35,
+              "end": 7.51,
+              "word": "on",
+              "probability": 0.9824543595314026
+            },
+            {
+              "start": 7.51,
+              "end": 7.61,
+              "word": "the",
+              "probability": 0.9851669669151306
+            },
+            {
+              "start": 7.61,
+              "end": 8.11,
+              "word": "town.",
+              "probability": 0.9951091408729553
+            }
+          ]
+        },
+        {
+          "start": 8.61,
+          "end": 11.03,
+          "text": "If only she had a suitable gown.",
+          "avg_logprob": -0.22321591692522538,
+          "no_speech_prob": 0.01815360225737095,
+          "words": [
+            {
+              "start": 8.61,
+              "end": 8.81,
+              "word": "If",
+              "probability": 0.9617570042610168
+            },
+            {
+              "start": 8.81,
+              "end": 9.11,
+              "word": "only",
+              "probability": 0.9987527132034302
+            },
+            {
+              "start": 9.11,
+              "end": 9.39,
+              "word": "she",
+              "probability": 0.9968109726905823
+            },
+            {
+              "start": 9.39,
+              "end": 9.81,
+              "word": "had",
+              "probability": 0.9955161213874817
+            },
+            {
+              "start": 9.81,
+              "end": 10.31,
+              "word": "a",
+              "probability": 0.9879900813102722
+            },
+            {
+              "start": 10.31,
+              "end": 10.61,
+              "word": "suitable",
+              "probability": 0.9977169036865234
+            },
+            {
+              "start": 10.61,
+              "end": 11.03,
+              "word": "gown.",
+              "probability": 0.9123802185058594
+            }
+          ]
+        },
+        {
+          "start": 11.85,
+          "end": 12.85,
+          "text": "It's giving big flop.",
+          "avg_logprob": -0.22321591692522538,
+          "no_speech_prob": 0.01815360225737095,
+          "words": [
+            {
+              "start": 11.85,
+              "end": 12.11,
+              "word": "It's",
+              "probability": 0.8687626719474792
+            },
+            {
+              "start": 12.11,
+              "end": 12.27,
+              "word": "giving",
+              "probability": 0.7287868857383728
+            },
+            {
+              "start": 12.27,
+              "end": 12.49,
+              "word": "big",
+              "probability": 0.937578558921814
+            },
+            {
+              "start": 12.49,
+              "end": 12.85,
+              "word": "flop.",
+              "probability": 0.6813926100730896
+            }
+          ]
+        },
+        {
+          "start": 13.79,
+          "end": 16.55,
+          "text": "Her merit, they'd say, help me, oh please.",
+          "avg_logprob": -0.22321591692522538,
+          "no_speech_prob": 0.01815360225737095,
+          "words": [
+            {
+              "start": 13.79,
+              "end": 14.13,
+              "word": "Her",
+              "probability": 0.9860131144523621
+            },
+            {
+              "start": 14.13,
+              "end": 14.47,
+              "word": "merit,",
+              "probability": 0.2738305628299713
+            },
+            {
+              "start": 14.59,
+              "end": 14.73,
+              "word": "they'd",
+              "probability": 0.9612824618816376
+            },
+            {
+              "start": 14.73,
+              "end": 14.97,
+              "word": "say,",
+              "probability": 0.9980548620223999
+            },
+            {
+              "start": 15.53,
+              "end": 15.77,
+              "word": "help",
+              "probability": 0.16083835065364838
+            },
+            {
+              "start": 15.77,
+              "end": 16.03,
+              "word": "me,",
+              "probability": 0.9983962178230286
+            },
+            {
+              "start": 16.07,
+              "end": 16.19,
+              "word": "oh",
+              "probability": 0.8322122693061829
+            },
+            {
+              "start": 16.19,
+              "end": 16.55,
+              "word": "please.",
+              "probability": 0.8490856885910034
+            }
+          ]
+        },
+        {
+          "start": 17.11,
+          "end": 18.43,
+          "text": "She texted her gaze.",
+          "avg_logprob": -0.22321591692522538,
+          "no_speech_prob": 0.01815360225737095,
+          "words": [
+            {
+              "start": 17.11,
+              "end": 17.33,
+              "word": "She",
+              "probability": 0.9945060610771179
+            },
+            {
+              "start": 17.33,
+              "end": 17.71,
+              "word": "texted",
+              "probability": 0.9643027186393738
+            },
+            {
+              "start": 17.71,
+              "end": 17.99,
+              "word": "her",
+              "probability": 0.9961392283439636
+            },
+            {
+              "start": 17.99,
+              "end": 18.43,
+              "word": "gaze.",
+              "probability": 0.4978514611721039
+            }
+          ]
+        },
+        {
+          "start": 19.15,
+          "end": 22.25,
+          "text": "They tried a boot, and a shoe, and a look, and a fit.",
+          "avg_logprob": -0.22321591692522538,
+          "no_speech_prob": 0.01815360225737095,
+          "words": [
+            {
+              "start": 19.15,
+              "end": 19.21,
+              "word": "They",
+              "probability": 0.9863835573196411
+            },
+            {
+              "start": 19.21,
+              "end": 19.51,
+              "word": "tried",
+              "probability": 0.4642680287361145
+            },
+            {
+              "start": 19.51,
+              "end": 19.73,
+              "word": "a",
+              "probability": 0.8296564817428589
+            },
+            {
+              "start": 19.73,
+              "end": 19.93,
+              "word": "boot,",
+              "probability": 0.6726735830307007
+            },
+            {
+              "start": 20.19,
+              "end": 20.31,
+              "word": "and",
+              "probability": 0.9490227699279785
+            },
+            {
+              "start": 20.31,
+              "end": 20.41,
+              "word": "a",
+              "probability": 0.9845758676528931
+            },
+            {
+              "start": 20.41,
+              "end": 20.69,
+              "word": "shoe,",
+              "probability": 0.9946611523628235
+            },
+            {
+              "start": 20.97,
+              "end": 21.17,
+              "word": "and",
+              "probability": 0.9947940707206726
+            },
+            {
+              "start": 21.17,
+              "end": 21.31,
+              "word": "a",
+              "probability": 0.9896061420440674
+            },
+            {
+              "start": 21.31,
+              "end": 21.47,
+              "word": "look,",
+              "probability": 0.992385745048523
+            },
+            {
+              "start": 21.81,
+              "end": 21.91,
+              "word": "and",
+              "probability": 0.9981856942176819
+            },
+            {
+              "start": 21.91,
+              "end": 22.07,
+              "word": "a",
+              "probability": 0.9951157569885254
+            },
+            {
+              "start": 22.07,
+              "end": 22.25,
+              "word": "fit.",
+              "probability": 0.9911227226257324
+            }
+          ]
+        },
+        {
+          "start": 22.89,
+          "end": 26.19,
+          "text": "Then the final assemble, they knew this is it.",
+          "avg_logprob": -0.22321591692522538,
+          "no_speech_prob": 0.01815360225737095,
+          "words": [
+            {
+              "start": 22.89,
+              "end": 23.13,
+              "word": "Then",
+              "probability": 0.9546777009963989
+            },
+            {
+              "start": 23.13,
+              "end": 23.29,
+              "word": "the",
+              "probability": 0.6486124992370605
+            },
+            {
+              "start": 23.29,
+              "end": 23.61,
+              "word": "final",
+              "probability": 0.9345306754112244
+            },
+            {
+              "start": 23.61,
+              "end": 24.23,
+              "word": "assemble,",
+              "probability": 0.8998574614524841
+            },
+            {
+              "start": 24.61,
+              "end": 24.89,
+              "word": "they",
+              "probability": 0.9949376583099365
+            },
+            {
+              "start": 24.89,
+              "end": 25.21,
+              "word": "knew",
+              "probability": 0.9967923760414124
+            },
+            {
+              "start": 25.21,
+              "end": 25.85,
+              "word": "this",
+              "probability": 0.8926982879638672
+            },
+            {
+              "start": 25.85,
+              "end": 26.01,
+              "word": "is",
+              "probability": 0.9364550709724426
+            },
+            {
+              "start": 26.01,
+              "end": 26.19,
+              "word": "it.",
+              "probability": 0.9982463121414185
+            }
+          ]
+        },
+        {
+          "start": 27.02,
+          "end": 27.64,
+          "text": "She ate.",
+          "avg_logprob": -0.22321591692522538,
+          "no_speech_prob": 0.01815360225737095,
+          "words": [
+            {
+              "start": 27.02,
+              "end": 27.28,
+              "word": "She",
+              "probability": 0.9912386536598206
+            },
+            {
+              "start": 27.28,
+              "end": 27.64,
+              "word": "ate.",
+              "probability": 0.9931488633155823
+            }
+          ]
+        },
+        {
+          "start": 28.04,
+          "end": 28.56,
+          "text": "She cleared.",
+          "avg_logprob": -0.22321591692522538,
+          "no_speech_prob": 0.01815360225737095,
+          "words": [
+            {
+              "start": 28.04,
+              "end": 28.14,
+              "word": "She",
+              "probability": 0.9981850981712341
+            },
+            {
+              "start": 28.14,
+              "end": 28.56,
+              "word": "cleared.",
+              "probability": 0.9777400493621826
+            }
+          ]
+        },
+        {
+          "start": 28.56,
+          "end": 33.78,
+          "text": "she came here to slay she was no sleeping beauty but she gagged them all day",
+          "avg_logprob": -0.34102863741332085,
+          "no_speech_prob": 0.2292144000530243,
+          "words": [
+            {
+              "start": 28.56,
+              "end": 29.16,
+              "word": "she",
+              "probability": 0.08629506081342697
+            },
+            {
+              "start": 29.16,
+              "end": 29.4,
+              "word": "came",
+              "probability": 0.9488928914070129
+            },
+            {
+              "start": 29.4,
+              "end": 29.62,
+              "word": "here",
+              "probability": 0.9624063372612
+            },
+            {
+              "start": 29.62,
+              "end": 29.74,
+              "word": "to",
+              "probability": 0.9825736880302429
+            },
+            {
+              "start": 29.74,
+              "end": 30.16,
+              "word": "slay",
+              "probability": 0.9766401946544647
+            },
+            {
+              "start": 30.16,
+              "end": 30.84,
+              "word": "she",
+              "probability": 0.3262389004230499
+            },
+            {
+              "start": 30.84,
+              "end": 31.0,
+              "word": "was",
+              "probability": 0.9936979413032532
+            },
+            {
+              "start": 31.0,
+              "end": 31.16,
+              "word": "no",
+              "probability": 0.9845630526542664
+            },
+            {
+              "start": 31.16,
+              "end": 31.46,
+              "word": "sleeping",
+              "probability": 0.681088387966156
+            },
+            {
+              "start": 31.46,
+              "end": 31.84,
+              "word": "beauty",
+              "probability": 0.9711306095123291
+            },
+            {
+              "start": 31.84,
+              "end": 32.62,
+              "word": "but",
+              "probability": 0.8032563328742981
+            },
+            {
+              "start": 32.62,
+              "end": 32.8,
+              "word": "she",
+              "probability": 0.9847988486289978
+            },
+            {
+              "start": 32.8,
+              "end": 33.2,
+              "word": "gagged",
+              "probability": 0.9698425829410553
+            },
+            {
+              "start": 33.2,
+              "end": 33.28,
+              "word": "them",
+              "probability": 0.6171613931655884
+            },
+            {
+              "start": 33.28,
+              "end": 33.44,
+              "word": "all",
+              "probability": 0.9142818450927734
+            },
+            {
+              "start": 33.44,
+              "end": 33.78,
+              "word": "day",
+              "probability": 0.9839861392974854
+            }
+          ]
+        },
+        {
+          "start": 34.76,
+          "end": 40.86,
+          "text": "honey that's take this is not no rare writing hood here in Manhattan we have",
+          "avg_logprob": -0.34102863741332085,
+          "no_speech_prob": 0.2292144000530243,
+          "words": [
+            {
+              "start": 34.76,
+              "end": 35.4,
+              "word": "honey",
+              "probability": 0.6756249070167542
+            },
+            {
+              "start": 35.4,
+              "end": 36.04,
+              "word": "that's",
+              "probability": 0.7592795789241791
+            },
+            {
+              "start": 36.04,
+              "end": 36.3,
+              "word": "take",
+              "probability": 0.14468131959438324
+            },
+            {
+              "start": 36.3,
+              "end": 37.74,
+              "word": "this",
+              "probability": 0.7117076516151428
+            },
+            {
+              "start": 37.74,
+              "end": 37.88,
+              "word": "is",
+              "probability": 0.9927583932876587
+            },
+            {
+              "start": 37.88,
+              "end": 38.04,
+              "word": "not",
+              "probability": 0.978471577167511
+            },
+            {
+              "start": 38.04,
+              "end": 38.22,
+              "word": "no",
+              "probability": 0.8049533367156982
+            },
+            {
+              "start": 38.22,
+              "end": 38.38,
+              "word": "rare",
+              "probability": 0.8121305108070374
+            },
+            {
+              "start": 38.38,
+              "end": 38.72,
+              "word": "writing",
+              "probability": 0.39246854186058044
+            },
+            {
+              "start": 38.72,
+              "end": 39.04,
+              "word": "hood",
+              "probability": 0.9447739124298096
+            },
+            {
+              "start": 39.04,
+              "end": 39.66,
+              "word": "here",
+              "probability": 0.9076009392738342
+            },
+            {
+              "start": 39.66,
+              "end": 39.8,
+              "word": "in",
+              "probability": 0.9299838542938232
+            },
+            {
+              "start": 39.8,
+              "end": 40.14,
+              "word": "Manhattan",
+              "probability": 0.8938218951225281
+            },
+            {
+              "start": 40.14,
+              "end": 40.7,
+              "word": "we",
+              "probability": 0.9429309368133545
+            },
+            {
+              "start": 40.7,
+              "end": 40.86,
+              "word": "have",
+              "probability": 0.9859603643417358
+            }
+          ]
+        },
+        {
+          "start": 40.86,
+          "end": 48.79,
+          "text": "the little diva that could but you couldn't you couldn't see you next year",
+          "avg_logprob": -0.34102863741332085,
+          "no_speech_prob": 0.2292144000530243,
+          "words": [
+            {
+              "start": 40.86,
+              "end": 41.0,
+              "word": "the",
+              "probability": 0.954021155834198
+            },
+            {
+              "start": 41.0,
+              "end": 41.32,
+              "word": "little",
+              "probability": 0.8513631820678711
+            },
+            {
+              "start": 41.32,
+              "end": 41.78,
+              "word": "diva",
+              "probability": 0.9498283565044403
+            },
+            {
+              "start": 41.78,
+              "end": 42.08,
+              "word": "that",
+              "probability": 0.9392597675323486
+            },
+            {
+              "start": 42.08,
+              "end": 42.4,
+              "word": "could",
+              "probability": 0.9649043083190918
+            },
+            {
+              "start": 42.4,
+              "end": 43.08,
+              "word": "but",
+              "probability": 0.824687659740448
+            },
+            {
+              "start": 43.08,
+              "end": 43.22,
+              "word": "you",
+              "probability": 0.9607941508293152
+            },
+            {
+              "start": 43.22,
+              "end": 43.92,
+              "word": "couldn't",
+              "probability": 0.9918252527713776
+            },
+            {
+              "start": 43.92,
+              "end": 45.18,
+              "word": "you",
+              "probability": 0.5698537230491638
+            },
+            {
+              "start": 46.85,
+              "end": 47.81,
+              "word": "couldn't",
+              "probability": 0.9895709455013275
+            },
+            {
+              "start": 47.81,
+              "end": 48.13,
+              "word": "see",
+              "probability": 0.8828762173652649
+            },
+            {
+              "start": 48.13,
+              "end": 48.25,
+              "word": "you",
+              "probability": 0.4251331388950348
+            },
+            {
+              "start": 48.25,
+              "end": 48.47,
+              "word": "next",
+              "probability": 0.9873313307762146
+            },
+            {
+              "start": 48.47,
+              "end": 48.79,
+              "word": "year",
+              "probability": 0.9786227941513062
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "file": "C692WClRLuC.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/andreyazizov/C692WClRLuC.mp4",
+      "duration": 26.21675,
+      "language": "en",
+      "language_probability": 1.0,
+      "mode": "full-word-timestamps",
+      "text": "dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 11.83,
+          "text": "dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream",
+          "avg_logprob": -0.07376587020026312,
+          "no_speech_prob": 0.1991097331047058,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.62,
+              "word": "dream,",
+              "probability": 0.3221484422683716
+            },
+            {
+              "start": 0.72,
+              "end": 1.18,
+              "word": "dream,",
+              "probability": 0.9760980606079102
+            },
+            {
+              "start": 1.38,
+              "end": 1.82,
+              "word": "dream,",
+              "probability": 0.9819986820220947
+            },
+            {
+              "start": 2.72,
+              "end": 3.36,
+              "word": "dream,",
+              "probability": 0.9772635102272034
+            },
+            {
+              "start": 5.26,
+              "end": 5.74,
+              "word": "dream,",
+              "probability": 0.9810695648193359
+            },
+            {
+              "start": 5.94,
+              "end": 6.76,
+              "word": "dream,",
+              "probability": 0.9888525009155273
+            },
+            {
+              "start": 7.72,
+              "end": 8.02,
+              "word": "dream,",
+              "probability": 0.9864062666893005
+            },
+            {
+              "start": 11.17,
+              "end": 11.33,
+              "word": "dream,",
+              "probability": 0.9712960720062256
+            },
+            {
+              "start": 11.33,
+              "end": 11.55,
+              "word": "dream,",
+              "probability": 0.95719313621521
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9273382425308228
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.920097291469574
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.930330753326416
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9391178488731384
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9481186866760254
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9521563649177551
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9587498903274536
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.963460385799408
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9672811031341553
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9788358807563782
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.978371798992157
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9799180626869202
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9818001985549927
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9837238788604736
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9857571721076965
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9852637052536011
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.984255313873291
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9879049062728882
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9871489405632019
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9887533187866211
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9898238778114319
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9899671077728271
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.989161491394043
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.990494966506958
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9892141222953796
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9893207550048828
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9881117343902588
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.987859308719635
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9875727891921997
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9889879822731018
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9891378283500671
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9894189834594727
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9904240965843201
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9911290407180786
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9917922019958496
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9922371506690979
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9919650554656982
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9900068044662476
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9899420738220215
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9897878170013428
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9889357686042786
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9889813661575317
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9898646473884583
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9894771575927734
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9913382530212402
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9924134612083435
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9925737380981445
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9918317198753357
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9924622774124146
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9926010966300964
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9930207133293152
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9923241138458252
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9919806718826294
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9924888610839844
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9917747974395752
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.992173433303833
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9917225241661072
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9914923310279846
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9924111366271973
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9921059608459473
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9932354092597961
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9931541681289673
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9929284453392029
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9925123453140259
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9926847219467163
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9921680092811584
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.99226975440979
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9916126728057861
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9911482334136963
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9916480779647827
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9915648698806763
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9936428070068359
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9930111765861511
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9936044812202454
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.99273282289505
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9911518692970276
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9930184483528137
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.993179202079773
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9928687214851379
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9931542873382568
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9934465289115906
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9930275082588196
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9928638339042664
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.992738664150238
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9924675822257996
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9930771589279175
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9924110174179077
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9930782914161682
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9927260875701904
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9932883381843567
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9936475157737732
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9938008189201355
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9939334988594055
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9940243363380432
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9932512640953064
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9929827451705933
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.993386447429657
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9931347370147705
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9933117628097534
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9935530424118042
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9940205216407776
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream,",
+              "probability": 0.9955190420150757
+            },
+            {
+              "start": 11.83,
+              "end": 11.83,
+              "word": "dream",
+              "probability": 0.9948979020118713
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "file": "C692Wkvx6L1.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/andreyazizov/C692Wkvx6L1.mp4",
+      "duration": 10.5200625,
+      "language": "en",
+      "language_probability": 1.0,
+      "mode": "full-word-timestamps",
+      "text": "Wake up! Wake up!",
+      "segments": [
+        {
+          "start": 0.75,
+          "end": 2.33,
+          "text": "Wake up!",
+          "avg_logprob": -0.5606137080626055,
+          "no_speech_prob": 0.04112067446112633,
+          "words": [
+            {
+              "start": 0.75,
+              "end": 1.81,
+              "word": "Wake",
+              "probability": 0.7679409980773926
+            },
+            {
+              "start": 1.81,
+              "end": 2.33,
+              "word": "up!",
+              "probability": 0.9556393623352051
+            }
+          ]
+        },
+        {
+          "start": 2.59,
+          "end": 6.65,
+          "text": "Wake up!",
+          "avg_logprob": -0.5606137080626055,
+          "no_speech_prob": 0.04112067446112633,
+          "words": [
+            {
+              "start": 2.59,
+              "end": 3.99,
+              "word": "Wake",
+              "probability": 0.7694337964057922
+            },
+            {
+              "start": 5.21,
+              "end": 6.65,
+              "word": "up!",
+              "probability": 0.9627010226249695
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "file": "C692bIPRTbf.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/andreyazizov/C692bIPRTbf.mp4",
+      "duration": 60.025,
+      "language": "en",
+      "language_probability": 1.0,
+      "mode": "full-word-timestamps",
+      "text": "The following program has been brought to you by the National Department of Surveillance. Is your lack of sleigh causing a lack of sleep? Or are the girls just not gagging for you like they used to? Do you wish you were that b**ch? Wake up! Introducing Ternaluk, the one-size-fits-all fit for your future. Zendaya, Bag Bunny, J.Lo, and the Hot Crisp invite you to try Ternaluk. With Ternaluk, you'll be reawakened, enlightened, fulfilled with a sense of divine serenity. No more fear, forgetting anxiety, say goodbye to snakes, leave your flopping area behind. How does it work? I literally have no idea. We don't even know what Turn-a-Look is. But you won't be able to look away. Turn-a-Look will have you thirst-trapped and snatched to the gods. You can finally stop being mom and start being mother. Our revolutionary formula of bringing gag-worthy fashion and sickening serves will maximize your slay. I didn't find Turner looked in time and have now lost my ability to",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 3.0,
+          "text": "The following program has been brought to you by the National Department of Surveillance.",
+          "avg_logprob": -0.24812648707422716,
+          "no_speech_prob": 0.3870270848274231,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.14,
+              "word": "The",
+              "probability": 0.7182133793830872
+            },
+            {
+              "start": 0.14,
+              "end": 0.38,
+              "word": "following",
+              "probability": 0.9928641319274902
+            },
+            {
+              "start": 0.38,
+              "end": 0.76,
+              "word": "program",
+              "probability": 0.980381965637207
+            },
+            {
+              "start": 0.76,
+              "end": 0.98,
+              "word": "has",
+              "probability": 0.9709539413452148
+            },
+            {
+              "start": 0.98,
+              "end": 1.12,
+              "word": "been",
+              "probability": 0.9922558069229126
+            },
+            {
+              "start": 1.12,
+              "end": 1.28,
+              "word": "brought",
+              "probability": 0.9939414262771606
+            },
+            {
+              "start": 1.28,
+              "end": 1.4,
+              "word": "to",
+              "probability": 0.9800004959106445
+            },
+            {
+              "start": 1.4,
+              "end": 1.48,
+              "word": "you",
+              "probability": 0.9867479801177979
+            },
+            {
+              "start": 1.48,
+              "end": 1.56,
+              "word": "by",
+              "probability": 0.9946526288986206
+            },
+            {
+              "start": 1.56,
+              "end": 1.64,
+              "word": "the",
+              "probability": 0.9429031014442444
+            },
+            {
+              "start": 1.64,
+              "end": 1.88,
+              "word": "National",
+              "probability": 0.9068813323974609
+            },
+            {
+              "start": 1.88,
+              "end": 2.26,
+              "word": "Department",
+              "probability": 0.9672849774360657
+            },
+            {
+              "start": 2.26,
+              "end": 2.52,
+              "word": "of",
+              "probability": 0.9956146478652954
+            },
+            {
+              "start": 2.52,
+              "end": 3.0,
+              "word": "Surveillance.",
+              "probability": 0.7202653288841248
+            }
+          ]
+        },
+        {
+          "start": 3.48,
+          "end": 5.78,
+          "text": "Is your lack of sleigh causing a lack of sleep?",
+          "avg_logprob": -0.24812648707422716,
+          "no_speech_prob": 0.3870270848274231,
+          "words": [
+            {
+              "start": 3.48,
+              "end": 3.6,
+              "word": "Is",
+              "probability": 0.7886354327201843
+            },
+            {
+              "start": 3.6,
+              "end": 3.76,
+              "word": "your",
+              "probability": 0.983742356300354
+            },
+            {
+              "start": 3.76,
+              "end": 4.0,
+              "word": "lack",
+              "probability": 0.9368056058883667
+            },
+            {
+              "start": 4.0,
+              "end": 4.14,
+              "word": "of",
+              "probability": 0.9225955605506897
+            },
+            {
+              "start": 4.14,
+              "end": 4.5,
+              "word": "sleigh",
+              "probability": 0.7242993712425232
+            },
+            {
+              "start": 4.5,
+              "end": 4.82,
+              "word": "causing",
+              "probability": 0.9718649983406067
+            },
+            {
+              "start": 4.82,
+              "end": 5.06,
+              "word": "a",
+              "probability": 0.7547931671142578
+            },
+            {
+              "start": 5.06,
+              "end": 5.22,
+              "word": "lack",
+              "probability": 0.9986867308616638
+            },
+            {
+              "start": 5.22,
+              "end": 5.42,
+              "word": "of",
+              "probability": 0.997426450252533
+            },
+            {
+              "start": 5.42,
+              "end": 5.78,
+              "word": "sleep?",
+              "probability": 0.9972084164619446
+            }
+          ]
+        },
+        {
+          "start": 5.96,
+          "end": 8.54,
+          "text": "Or are the girls just not gagging for you like they used to?",
+          "avg_logprob": -0.24812648707422716,
+          "no_speech_prob": 0.3870270848274231,
+          "words": [
+            {
+              "start": 5.96,
+              "end": 6.12,
+              "word": "Or",
+              "probability": 0.6119392514228821
+            },
+            {
+              "start": 6.12,
+              "end": 6.18,
+              "word": "are",
+              "probability": 0.5596526861190796
+            },
+            {
+              "start": 6.18,
+              "end": 6.24,
+              "word": "the",
+              "probability": 0.96906977891922
+            },
+            {
+              "start": 6.24,
+              "end": 6.46,
+              "word": "girls",
+              "probability": 0.9953240752220154
+            },
+            {
+              "start": 6.46,
+              "end": 6.7,
+              "word": "just",
+              "probability": 0.965552806854248
+            },
+            {
+              "start": 6.7,
+              "end": 6.88,
+              "word": "not",
+              "probability": 0.9953071475028992
+            },
+            {
+              "start": 6.88,
+              "end": 7.38,
+              "word": "gagging",
+              "probability": 0.9834093153476715
+            },
+            {
+              "start": 7.38,
+              "end": 7.6,
+              "word": "for",
+              "probability": 0.9640524387359619
+            },
+            {
+              "start": 7.6,
+              "end": 7.72,
+              "word": "you",
+              "probability": 0.9895164370536804
+            },
+            {
+              "start": 7.72,
+              "end": 7.84,
+              "word": "like",
+              "probability": 0.981029212474823
+            },
+            {
+              "start": 7.84,
+              "end": 8.02,
+              "word": "they",
+              "probability": 0.9966052770614624
+            },
+            {
+              "start": 8.02,
+              "end": 8.34,
+              "word": "used",
+              "probability": 0.9916037917137146
+            },
+            {
+              "start": 8.34,
+              "end": 8.54,
+              "word": "to?",
+              "probability": 0.9987188577651978
+            }
+          ]
+        },
+        {
+          "start": 9.04,
+          "end": 10.8,
+          "text": "Do you wish you were that b**ch?",
+          "avg_logprob": -0.24812648707422716,
+          "no_speech_prob": 0.3870270848274231,
+          "words": [
+            {
+              "start": 9.04,
+              "end": 9.18,
+              "word": "Do",
+              "probability": 0.9613702297210693
+            },
+            {
+              "start": 9.18,
+              "end": 9.4,
+              "word": "you",
+              "probability": 0.9972763657569885
+            },
+            {
+              "start": 9.4,
+              "end": 9.72,
+              "word": "wish",
+              "probability": 0.9889273643493652
+            },
+            {
+              "start": 9.72,
+              "end": 9.9,
+              "word": "you",
+              "probability": 0.9718842506408691
+            },
+            {
+              "start": 9.9,
+              "end": 10.02,
+              "word": "were",
+              "probability": 0.9752660989761353
+            },
+            {
+              "start": 10.02,
+              "end": 10.24,
+              "word": "that",
+              "probability": 0.9874803423881531
+            },
+            {
+              "start": 10.24,
+              "end": 10.8,
+              "word": "b**ch?",
+              "probability": 0.5040333370367686
+            }
+          ]
+        },
+        {
+          "start": 11.0,
+          "end": 11.7,
+          "text": "Wake up!",
+          "avg_logprob": -0.24812648707422716,
+          "no_speech_prob": 0.3870270848274231,
+          "words": [
+            {
+              "start": 11.0,
+              "end": 11.38,
+              "word": "Wake",
+              "probability": 0.3495555818080902
+            },
+            {
+              "start": 11.38,
+              "end": 11.7,
+              "word": "up!",
+              "probability": 0.9588340520858765
+            }
+          ]
+        },
+        {
+          "start": 12.42,
+          "end": 15.82,
+          "text": "Introducing Ternaluk, the one-size-fits-all fit for your future.",
+          "avg_logprob": -0.24812648707422716,
+          "no_speech_prob": 0.3870270848274231,
+          "words": [
+            {
+              "start": 12.42,
+              "end": 12.9,
+              "word": "Introducing",
+              "probability": 0.9275767207145691
+            },
+            {
+              "start": 12.9,
+              "end": 13.38,
+              "word": "Ternaluk,",
+              "probability": 0.5600409805774689
+            },
+            {
+              "start": 13.66,
+              "end": 13.82,
+              "word": "the",
+              "probability": 0.9265353083610535
+            },
+            {
+              "start": 13.82,
+              "end": 14.0,
+              "word": "one",
+              "probability": 0.9047408699989319
+            },
+            {
+              "start": 14.0,
+              "end": 14.2,
+              "word": "-size",
+              "probability": 0.7278748601675034
+            },
+            {
+              "start": 14.2,
+              "end": 14.44,
+              "word": "-fits",
+              "probability": 0.9774897396564484
+            },
+            {
+              "start": 14.44,
+              "end": 14.7,
+              "word": "-all",
+              "probability": 0.9941428303718567
+            },
+            {
+              "start": 14.7,
+              "end": 14.98,
+              "word": "fit",
+              "probability": 0.9755800366401672
+            },
+            {
+              "start": 14.98,
+              "end": 15.24,
+              "word": "for",
+              "probability": 0.9969037175178528
+            },
+            {
+              "start": 15.24,
+              "end": 15.38,
+              "word": "your",
+              "probability": 0.9945703148841858
+            },
+            {
+              "start": 15.38,
+              "end": 15.82,
+              "word": "future.",
+              "probability": 0.9962161183357239
+            }
+          ]
+        },
+        {
+          "start": 16.38,
+          "end": 22.06,
+          "text": "Zendaya, Bag Bunny, J.Lo, and the Hot Crisp invite you to try Ternaluk.",
+          "avg_logprob": -0.24812648707422716,
+          "no_speech_prob": 0.3870270848274231,
+          "words": [
+            {
+              "start": 16.38,
+              "end": 16.86,
+              "word": "Zendaya,",
+              "probability": 0.969125767548879
+            },
+            {
+              "start": 17.34,
+              "end": 17.52,
+              "word": "Bag",
+              "probability": 0.6629210710525513
+            },
+            {
+              "start": 17.52,
+              "end": 17.8,
+              "word": "Bunny,",
+              "probability": 0.8714258074760437
+            },
+            {
+              "start": 18.22,
+              "end": 18.48,
+              "word": "J",
+              "probability": 0.9831204414367676
+            },
+            {
+              "start": 18.48,
+              "end": 18.68,
+              "word": ".Lo,",
+              "probability": 0.4664405286312103
+            },
+            {
+              "start": 19.12,
+              "end": 19.26,
+              "word": "and",
+              "probability": 0.987302303314209
+            },
+            {
+              "start": 19.26,
+              "end": 19.4,
+              "word": "the",
+              "probability": 0.7890509366989136
+            },
+            {
+              "start": 19.4,
+              "end": 19.62,
+              "word": "Hot",
+              "probability": 0.7378989458084106
+            },
+            {
+              "start": 19.62,
+              "end": 19.88,
+              "word": "Crisp",
+              "probability": 0.25051477551460266
+            },
+            {
+              "start": 19.88,
+              "end": 20.54,
+              "word": "invite",
+              "probability": 0.5220367312431335
+            },
+            {
+              "start": 20.54,
+              "end": 20.88,
+              "word": "you",
+              "probability": 0.9872829914093018
+            },
+            {
+              "start": 20.88,
+              "end": 21.0,
+              "word": "to",
+              "probability": 0.9958598017692566
+            },
+            {
+              "start": 21.0,
+              "end": 21.26,
+              "word": "try",
+              "probability": 0.994449257850647
+            },
+            {
+              "start": 21.26,
+              "end": 22.06,
+              "word": "Ternaluk.",
+              "probability": 0.9911055415868759
+            }
+          ]
+        },
+        {
+          "start": 22.7,
+          "end": 28.72,
+          "text": "With Ternaluk, you'll be reawakened, enlightened, fulfilled with a sense of divine serenity.",
+          "avg_logprob": -0.24812648707422716,
+          "no_speech_prob": 0.3870270848274231,
+          "words": [
+            {
+              "start": 22.7,
+              "end": 23.18,
+              "word": "With",
+              "probability": 0.9909816384315491
+            },
+            {
+              "start": 23.18,
+              "end": 23.66,
+              "word": "Ternaluk,",
+              "probability": 0.9966184198856354
+            },
+            {
+              "start": 23.84,
+              "end": 24.04,
+              "word": "you'll",
+              "probability": 0.9851492941379547
+            },
+            {
+              "start": 24.04,
+              "end": 24.16,
+              "word": "be",
+              "probability": 0.9984444975852966
+            },
+            {
+              "start": 24.16,
+              "end": 24.8,
+              "word": "reawakened,",
+              "probability": 0.9683872759342194
+            },
+            {
+              "start": 25.22,
+              "end": 25.7,
+              "word": "enlightened,",
+              "probability": 0.9628168344497681
+            },
+            {
+              "start": 26.38,
+              "end": 26.72,
+              "word": "fulfilled",
+              "probability": 0.9812275171279907
+            },
+            {
+              "start": 26.72,
+              "end": 27.32,
+              "word": "with",
+              "probability": 0.816031277179718
+            },
+            {
+              "start": 27.32,
+              "end": 27.44,
+              "word": "a",
+              "probability": 0.9633376002311707
+            },
+            {
+              "start": 27.44,
+              "end": 27.64,
+              "word": "sense",
+              "probability": 0.9991796612739563
+            },
+            {
+              "start": 27.64,
+              "end": 27.84,
+              "word": "of",
+              "probability": 0.9994916915893555
+            },
+            {
+              "start": 27.84,
+              "end": 28.12,
+              "word": "divine",
+              "probability": 0.9386904239654541
+            },
+            {
+              "start": 28.12,
+              "end": 28.72,
+              "word": "serenity.",
+              "probability": 0.9914739727973938
+            }
+          ]
+        },
+        {
+          "start": 28.72,
+          "end": 34.78,
+          "text": "No more fear, forgetting anxiety, say goodbye to snakes, leave your flopping area behind.",
+          "avg_logprob": -0.1832033505960673,
+          "no_speech_prob": 0.8287866711616516,
+          "words": [
+            {
+              "start": 28.72,
+              "end": 29.66,
+              "word": "No",
+              "probability": 0.2345322072505951
+            },
+            {
+              "start": 29.66,
+              "end": 29.9,
+              "word": "more",
+              "probability": 0.9737539887428284
+            },
+            {
+              "start": 29.9,
+              "end": 30.18,
+              "word": "fear,",
+              "probability": 0.5305622816085815
+            },
+            {
+              "start": 30.62,
+              "end": 30.92,
+              "word": "forgetting",
+              "probability": 0.7624739408493042
+            },
+            {
+              "start": 30.92,
+              "end": 31.62,
+              "word": "anxiety,",
+              "probability": 0.7972466945648193
+            },
+            {
+              "start": 31.82,
+              "end": 31.98,
+              "word": "say",
+              "probability": 0.7900704145431519
+            },
+            {
+              "start": 31.98,
+              "end": 32.34,
+              "word": "goodbye",
+              "probability": 0.821406900882721
+            },
+            {
+              "start": 32.34,
+              "end": 32.54,
+              "word": "to",
+              "probability": 0.9946067929267883
+            },
+            {
+              "start": 32.54,
+              "end": 32.82,
+              "word": "snakes,",
+              "probability": 0.7944389581680298
+            },
+            {
+              "start": 33.28,
+              "end": 33.46,
+              "word": "leave",
+              "probability": 0.7817801833152771
+            },
+            {
+              "start": 33.46,
+              "end": 33.66,
+              "word": "your",
+              "probability": 0.9707162976264954
+            },
+            {
+              "start": 33.66,
+              "end": 34.12,
+              "word": "flopping",
+              "probability": 0.42428961396217346
+            },
+            {
+              "start": 34.12,
+              "end": 34.32,
+              "word": "area",
+              "probability": 0.10353948920965195
+            },
+            {
+              "start": 34.32,
+              "end": 34.78,
+              "word": "behind.",
+              "probability": 0.964053213596344
+            }
+          ]
+        },
+        {
+          "start": 35.44,
+          "end": 37.72,
+          "text": "How does it work? I literally have no idea.",
+          "avg_logprob": -0.1832033505960673,
+          "no_speech_prob": 0.8287866711616516,
+          "words": [
+            {
+              "start": 35.44,
+              "end": 35.56,
+              "word": "How",
+              "probability": 0.8434012532234192
+            },
+            {
+              "start": 35.56,
+              "end": 35.68,
+              "word": "does",
+              "probability": 0.9919025301933289
+            },
+            {
+              "start": 35.68,
+              "end": 35.8,
+              "word": "it",
+              "probability": 0.9915140867233276
+            },
+            {
+              "start": 35.8,
+              "end": 36.02,
+              "word": "work?",
+              "probability": 0.9978432655334473
+            },
+            {
+              "start": 36.38,
+              "end": 36.54,
+              "word": "I",
+              "probability": 0.994403600692749
+            },
+            {
+              "start": 36.54,
+              "end": 36.84,
+              "word": "literally",
+              "probability": 0.9594225287437439
+            },
+            {
+              "start": 36.84,
+              "end": 37.14,
+              "word": "have",
+              "probability": 0.9978001713752747
+            },
+            {
+              "start": 37.14,
+              "end": 37.38,
+              "word": "no",
+              "probability": 0.9969792366027832
+            },
+            {
+              "start": 37.38,
+              "end": 37.72,
+              "word": "idea.",
+              "probability": 0.9968646168708801
+            }
+          ]
+        },
+        {
+          "start": 37.98,
+          "end": 39.5,
+          "text": "We don't even know what Turn-a-Look is.",
+          "avg_logprob": -0.1832033505960673,
+          "no_speech_prob": 0.8287866711616516,
+          "words": [
+            {
+              "start": 37.98,
+              "end": 38.08,
+              "word": "We",
+              "probability": 0.9012076258659363
+            },
+            {
+              "start": 38.08,
+              "end": 38.26,
+              "word": "don't",
+              "probability": 0.9944041073322296
+            },
+            {
+              "start": 38.26,
+              "end": 38.44,
+              "word": "even",
+              "probability": 0.9900278449058533
+            },
+            {
+              "start": 38.44,
+              "end": 38.64,
+              "word": "know",
+              "probability": 0.9962325692176819
+            },
+            {
+              "start": 38.64,
+              "end": 38.84,
+              "word": "what",
+              "probability": 0.9929718375205994
+            },
+            {
+              "start": 38.84,
+              "end": 39.0,
+              "word": "Turn",
+              "probability": 0.5561473369598389
+            },
+            {
+              "start": 39.0,
+              "end": 39.08,
+              "word": "-a",
+              "probability": 0.31989672780036926
+            },
+            {
+              "start": 39.08,
+              "end": 39.14,
+              "word": "-Look",
+              "probability": 0.8477407097816467
+            },
+            {
+              "start": 39.14,
+              "end": 39.5,
+              "word": "is.",
+              "probability": 0.986778974533081
+            }
+          ]
+        },
+        {
+          "start": 39.74,
+          "end": 41.32,
+          "text": "But you won't be able to look away.",
+          "avg_logprob": -0.1832033505960673,
+          "no_speech_prob": 0.8287866711616516,
+          "words": [
+            {
+              "start": 39.74,
+              "end": 39.9,
+              "word": "But",
+              "probability": 0.9757720828056335
+            },
+            {
+              "start": 39.9,
+              "end": 40.14,
+              "word": "you",
+              "probability": 0.9859744906425476
+            },
+            {
+              "start": 40.14,
+              "end": 40.5,
+              "word": "won't",
+              "probability": 0.993572860956192
+            },
+            {
+              "start": 40.5,
+              "end": 40.64,
+              "word": "be",
+              "probability": 0.9972796440124512
+            },
+            {
+              "start": 40.64,
+              "end": 40.78,
+              "word": "able",
+              "probability": 0.9976370334625244
+            },
+            {
+              "start": 40.78,
+              "end": 40.9,
+              "word": "to",
+              "probability": 0.9981289505958557
+            },
+            {
+              "start": 40.9,
+              "end": 41.04,
+              "word": "look",
+              "probability": 0.9884392619132996
+            },
+            {
+              "start": 41.04,
+              "end": 41.32,
+              "word": "away.",
+              "probability": 0.9970082640647888
+            }
+          ]
+        },
+        {
+          "start": 41.76,
+          "end": 44.44,
+          "text": "Turn-a-Look will have you thirst-trapped and snatched to the gods.",
+          "avg_logprob": -0.1832033505960673,
+          "no_speech_prob": 0.8287866711616516,
+          "words": [
+            {
+              "start": 41.76,
+              "end": 41.94,
+              "word": "Turn",
+              "probability": 0.9377217888832092
+            },
+            {
+              "start": 41.94,
+              "end": 42.06,
+              "word": "-a",
+              "probability": 0.9811579883098602
+            },
+            {
+              "start": 42.06,
+              "end": 42.2,
+              "word": "-Look",
+              "probability": 0.7999083399772644
+            },
+            {
+              "start": 42.2,
+              "end": 42.36,
+              "word": "will",
+              "probability": 0.9933857321739197
+            },
+            {
+              "start": 42.36,
+              "end": 42.56,
+              "word": "have",
+              "probability": 0.9919338226318359
+            },
+            {
+              "start": 42.56,
+              "end": 42.7,
+              "word": "you",
+              "probability": 0.9977591037750244
+            },
+            {
+              "start": 42.7,
+              "end": 42.88,
+              "word": "thirst",
+              "probability": 0.8160408735275269
+            },
+            {
+              "start": 42.88,
+              "end": 43.32,
+              "word": "-trapped",
+              "probability": 0.7983298301696777
+            },
+            {
+              "start": 43.32,
+              "end": 43.46,
+              "word": "and",
+              "probability": 0.9862441420555115
+            },
+            {
+              "start": 43.46,
+              "end": 43.88,
+              "word": "snatched",
+              "probability": 0.9481542408466339
+            },
+            {
+              "start": 43.88,
+              "end": 44.06,
+              "word": "to",
+              "probability": 0.9959635734558105
+            },
+            {
+              "start": 44.06,
+              "end": 44.16,
+              "word": "the",
+              "probability": 0.9965091347694397
+            },
+            {
+              "start": 44.16,
+              "end": 44.44,
+              "word": "gods.",
+              "probability": 0.8318502902984619
+            }
+          ]
+        },
+        {
+          "start": 44.96,
+          "end": 47.4,
+          "text": "You can finally stop being mom and start being mother.",
+          "avg_logprob": -0.1832033505960673,
+          "no_speech_prob": 0.8287866711616516,
+          "words": [
+            {
+              "start": 44.96,
+              "end": 45.04,
+              "word": "You",
+              "probability": 0.9898778796195984
+            },
+            {
+              "start": 45.04,
+              "end": 45.18,
+              "word": "can",
+              "probability": 0.9957970380783081
+            },
+            {
+              "start": 45.18,
+              "end": 45.52,
+              "word": "finally",
+              "probability": 0.9951272010803223
+            },
+            {
+              "start": 45.52,
+              "end": 45.72,
+              "word": "stop",
+              "probability": 0.9949004054069519
+            },
+            {
+              "start": 45.72,
+              "end": 45.98,
+              "word": "being",
+              "probability": 0.9979571104049683
+            },
+            {
+              "start": 45.98,
+              "end": 46.24,
+              "word": "mom",
+              "probability": 0.7125152349472046
+            },
+            {
+              "start": 46.24,
+              "end": 46.64,
+              "word": "and",
+              "probability": 0.8755160570144653
+            },
+            {
+              "start": 46.64,
+              "end": 46.88,
+              "word": "start",
+              "probability": 0.9524238109588623
+            },
+            {
+              "start": 46.88,
+              "end": 47.12,
+              "word": "being",
+              "probability": 0.9984334111213684
+            },
+            {
+              "start": 47.12,
+              "end": 47.4,
+              "word": "mother.",
+              "probability": 0.9656267166137695
+            }
+          ]
+        },
+        {
+          "start": 48.26,
+          "end": 54.72,
+          "text": "Our revolutionary formula of bringing gag-worthy fashion and sickening serves will maximize your slay.",
+          "avg_logprob": -0.1832033505960673,
+          "no_speech_prob": 0.8287866711616516,
+          "words": [
+            {
+              "start": 48.26,
+              "end": 48.5,
+              "word": "Our",
+              "probability": 0.9833125472068787
+            },
+            {
+              "start": 48.5,
+              "end": 49.14,
+              "word": "revolutionary",
+              "probability": 0.9718536138534546
+            },
+            {
+              "start": 49.14,
+              "end": 49.8,
+              "word": "formula",
+              "probability": 0.9977895021438599
+            },
+            {
+              "start": 49.8,
+              "end": 50.06,
+              "word": "of",
+              "probability": 0.9891035556793213
+            },
+            {
+              "start": 50.06,
+              "end": 50.3,
+              "word": "bringing",
+              "probability": 0.9930005073547363
+            },
+            {
+              "start": 50.3,
+              "end": 50.7,
+              "word": "gag",
+              "probability": 0.8825411796569824
+            },
+            {
+              "start": 50.7,
+              "end": 50.98,
+              "word": "-worthy",
+              "probability": 0.9319262504577637
+            },
+            {
+              "start": 50.98,
+              "end": 51.42,
+              "word": "fashion",
+              "probability": 0.9951021671295166
+            },
+            {
+              "start": 51.42,
+              "end": 51.7,
+              "word": "and",
+              "probability": 0.9914426207542419
+            },
+            {
+              "start": 51.7,
+              "end": 52.32,
+              "word": "sickening",
+              "probability": 0.9870256980260214
+            },
+            {
+              "start": 52.32,
+              "end": 52.66,
+              "word": "serves",
+              "probability": 0.8418619632720947
+            },
+            {
+              "start": 52.66,
+              "end": 53.08,
+              "word": "will",
+              "probability": 0.9080520272254944
+            },
+            {
+              "start": 53.08,
+              "end": 53.66,
+              "word": "maximize",
+              "probability": 0.8915553689002991
+            },
+            {
+              "start": 53.66,
+              "end": 54.18,
+              "word": "your",
+              "probability": 0.994428277015686
+            },
+            {
+              "start": 54.18,
+              "end": 54.72,
+              "word": "slay.",
+              "probability": 0.8253606855869293
+            }
+          ]
+        },
+        {
+          "start": 54.72,
+          "end": 59.0,
+          "text": "I didn't find Turner looked in time and have now lost my ability to",
+          "avg_logprob": -0.4318407475948334,
+          "no_speech_prob": 0.35955187678337097,
+          "words": [
+            {
+              "start": 54.72,
+              "end": 55.42,
+              "word": "I",
+              "probability": 0.7387634515762329
+            },
+            {
+              "start": 55.42,
+              "end": 55.72,
+              "word": "didn't",
+              "probability": 0.9705107510089874
+            },
+            {
+              "start": 55.72,
+              "end": 55.88,
+              "word": "find",
+              "probability": 0.9883954524993896
+            },
+            {
+              "start": 55.88,
+              "end": 56.2,
+              "word": "Turner",
+              "probability": 0.6422159075737
+            },
+            {
+              "start": 56.2,
+              "end": 56.52,
+              "word": "looked",
+              "probability": 0.1784338802099228
+            },
+            {
+              "start": 56.52,
+              "end": 56.68,
+              "word": "in",
+              "probability": 0.7662602066993713
+            },
+            {
+              "start": 56.68,
+              "end": 56.96,
+              "word": "time",
+              "probability": 0.9912142753601074
+            },
+            {
+              "start": 56.96,
+              "end": 57.46,
+              "word": "and",
+              "probability": 0.644568681716919
+            },
+            {
+              "start": 57.46,
+              "end": 57.6,
+              "word": "have",
+              "probability": 0.8391250967979431
+            },
+            {
+              "start": 57.6,
+              "end": 57.78,
+              "word": "now",
+              "probability": 0.991144597530365
+            },
+            {
+              "start": 57.78,
+              "end": 58.14,
+              "word": "lost",
+              "probability": 0.9980320334434509
+            },
+            {
+              "start": 58.14,
+              "end": 58.36,
+              "word": "my",
+              "probability": 0.9959164261817932
+            },
+            {
+              "start": 58.36,
+              "end": 58.76,
+              "word": "ability",
+              "probability": 0.4268483817577362
+            },
+            {
+              "start": 58.76,
+              "end": 59.0,
+              "word": "to",
+              "probability": 0.8992992043495178
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "file": "C7654cfxTmM.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/andreyazizov/C7654cfxTmM.mp4",
+      "duration": 19.25075,
+      "language": "en",
+      "language_probability": 1.0,
+      "mode": "full-word-timestamps",
+      "text": "Please, please, please",
+      "segments": [
+        {
+          "start": 5.3,
+          "end": 8.06,
+          "text": "Please, please, please",
+          "avg_logprob": -0.589464582502842,
+          "no_speech_prob": 0.40302151441574097,
+          "words": [
+            {
+              "start": 5.3,
+              "end": 5.66,
+              "word": "Please,",
+              "probability": 0.7407763600349426
+            },
+            {
+              "start": 6.18,
+              "end": 6.82,
+              "word": "please,",
+              "probability": 0.910219669342041
+            },
+            {
+              "start": 6.96,
+              "end": 8.06,
+              "word": "please",
+              "probability": 0.9804360866546631
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "file": "DWrm72igSz3.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/andreyazizov/DWrm72igSz3.mp4",
+      "duration": null,
+      "language": null,
+      "language_probability": null,
+      "mode": "error",
+      "text": "",
+      "segments": [],
+      "error": "tuple index out of range"
+    },
+    {
+      "file": "DWrm7mZAcW9.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/andreyazizov/DWrm7mZAcW9.mp4",
+      "duration": null,
+      "language": null,
+      "language_probability": null,
+      "mode": "error",
+      "text": "",
+      "segments": [],
+      "error": "tuple index out of range"
+    }
+  ]
+}

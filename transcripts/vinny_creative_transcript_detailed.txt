@@ -1,0 +1,122 @@
+@vinny_creative · detailed transcript
+model: faster-whisper small
+clips: 8
+format: per-clip transcript with segment timestamps; generated from local mp4 files
+
+========================================================================================
+CLIP 01 · DW8tfbCjPPQ.mp4
+instagram_url: https://www.instagram.com/reel/DW8tfbCjPPQ/
+duration: 00:00:12.006 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:11.240] Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing.
+
+========================================================================================
+CLIP 02 · DXG6XOnDDw0.mp4
+instagram_url: https://www.instagram.com/reel/DXG6XOnDDw0/
+duration: 00:00:12.285 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Anti-AI, FruitTiger, Aero, Utilitarian, Naive, Pixel Lacing, Girlhood, Techno Geometry, Photo First, Spray, Glamour, Comment, Pin and I'll send you a link to all of these styles on Pinterest.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:06.680] Anti-AI, FruitTiger, Aero, Utilitarian, Naive, Pixel Lacing, Girlhood, Techno Geometry, Photo
+[00:00:06.680 → 00:00:11.140] First, Spray, Glamour, Comment, Pin and I'll send you a link to all of these styles
+[00:00:11.140 → 00:00:11.760] on Pinterest.
+
+========================================================================================
+CLIP 03 · DXZUdV-DrQp.mp4
+instagram_url: https://www.instagram.com/reel/DXZUdV-DrQp/
+duration: 00:00:14.653 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Faces, Corporate Grunge, Gen X Soft Club, Angel Core, Mono Space, Swiss, Urban Void, Clean Girl Brutalism, Aerial Rebirth, Midnight Sun, Comment, Pin, and I will send you a link to all of these styles on Pinterest.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:07.200] Faces, Corporate Grunge, Gen X Soft Club, Angel Core, Mono Space, Swiss, Urban Void, Clean
+[00:00:07.200 → 00:00:12.400] Girl Brutalism, Aerial Rebirth, Midnight Sun, Comment, Pin, and I will send you a link
+[00:00:12.400 → 00:00:14.200] to all of these styles on Pinterest.
+
+========================================================================================
+CLIP 04 · DXb9HeBjMF9.mp4
+instagram_url: https://www.instagram.com/reel/DXb9HeBjMF9/
+duration: 00:00:15.443 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Dreamcorp, Y2K Outline, Deriviera, Utopian Scholastic, Colorspaces, Mudbling, Neewa Y2K, Flower Mists, Pop Art, New Papershick, comment, pin it and I will send you a link to all of the styles on Pinterest.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:05.560] Dreamcorp, Y2K Outline, Deriviera, Utopian Scholastic, Colorspaces,
+[00:00:05.780 → 00:00:11.460] Mudbling, Neewa Y2K, Flower Mists, Pop Art, New Papershick,
+[00:00:11.640 → 00:00:15.020] comment, pin it and I will send you a link to all of the styles on Pinterest.
+
+========================================================================================
+CLIP 05 · DXbwjswjONq.mp4
+instagram_url: https://www.instagram.com/reel/DXbwjswjONq/
+duration: 00:00:12.006 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:11.260] Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing.
+
+========================================================================================
+CLIP 06 · DXeO8kdDCiB.mp4
+instagram_url: https://www.instagram.com/reel/DXeO8kdDCiB/
+duration: 00:00:12.378 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+This one's paid, this one's free.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:02.160] This one's paid, this one's free.
+
+========================================================================================
+CLIP 07 · DXeP9HmDNxI.mp4
+instagram_url: https://www.instagram.com/reel/DXeP9HmDNxI/
+duration: 00:00:26.635 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Have you guys seen those numbers? 86% of designers are going to be replaceable by AI, this is insane. To be honest at first I almost shit myself but then it hit me that there's a type of a designer who will never be replaced by AI and that brought me a little bit of peace to my mind honestly. I've talked all about it in my BBT highlight, go there check it out and don't you worry everything's gonna be alright, but just for one type of a designer.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:07.460] Have you guys seen those numbers? 86% of designers are going to be replaceable by AI, this is insane.
+[00:00:07.700 → 00:00:12.620] To be honest at first I almost shit myself but then it hit me that there's a type of a designer
+[00:00:12.620 → 00:00:18.200] who will never be replaced by AI and that brought me a little bit of peace to my mind honestly.
+[00:00:18.480 → 00:00:24.260] I've talked all about it in my BBT highlight, go there check it out and don't you worry everything's
+[00:00:24.260 → 00:00:26.360] gonna be alright, but just for one type of a designer.
+
+========================================================================================
+CLIP 08 · DXenjphjDV9.mp4
+instagram_url: https://www.instagram.com/reel/DXenjphjDV9/
+duration: 00:00:34.019 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+There's only one type of a designer AI will never replace. Most designers work with their hands and not their heads. Let me explain. Graphic designers just copy Pinterest and move in pictures all the way around. Web designers are moving blocks in framework or webflow. So what do they have in common? There's no thinking. The designers who will survive the next five years in the era of AI will have to think strategically. What's that type of a designer who will survive all of it. Check out my highlight BBD to find out.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.140] There's only one type of a designer AI will never replace.
+[00:00:04.700 → 00:00:08.180] Most designers work with their hands and not their heads.
+[00:00:08.440 → 00:00:09.160] Let me explain.
+[00:00:09.420 → 00:00:11.240] Graphic designers just copy Pinterest
+[00:00:11.240 → 00:00:13.600] and move in pictures all the way around.
+[00:00:13.860 → 00:00:17.240] Web designers are moving blocks in framework or webflow.
+[00:00:17.580 → 00:00:19.060] So what do they have in common?
+[00:00:19.360 → 00:00:20.600] There's no thinking.
+[00:00:20.940 → 00:00:23.440] The designers who will survive the next five years
+[00:00:23.440 → 00:00:26.980] in the era of AI will have to think strategically.
+[00:00:27.540 → 00:00:29.340] What's that type of a designer
+[00:00:29.340 → 00:00:31.260] who will survive all of it.
+[00:00:31.440 → 00:00:33.840] Check out my highlight BBD to find out.

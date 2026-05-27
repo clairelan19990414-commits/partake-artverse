@@ -1,0 +1,291 @@
+@eyes_of_apoorva · detailed transcript
+model: faster-whisper small
+clips: 8
+format: per-clip transcript with segment timestamps; generated from local mp4 files
+
+========================================================================================
+CLIP 01 · DUdOAdVkhqv.mp4
+instagram_url: https://www.instagram.com/reel/DUdOAdVkhqv/
+duration: 00:01:19.576 · language: en (1.00)
+
+FULL TEXT
+Take a look at these photos and have a guess on what makes them special. Don't you think they look a lot like old Renaissance paintings? This cultural phenomenon is called accidental baroque. It is when photos unintentionally mimic classical paintings through dramatic lighting, religious or symbolic undertones, layered compositions, and a strong sense of visual storytelling. If you want to click photos like these, you need two things. Number one, let there be light. These images usually have one dominant light source. Could be a window, a street lamp or a phone torch. Use the shadows to your advantage and let them bring a sense of depth to the composition. 2. Drama and Stillness These photos are not your 5th grade class photograph where everyone is standing in an order. For these photos, you need chaos, you need imperfections, candidness of the highest degree, you must capture the drama frozen in time. I feel there is something quite profound in realizing that the gestures, narratives and tensions that you and me face every day are something that have appeared in art and literature for literally centuries. At their core, all these accidental baroque images share a certain weight. We recognize these images instantly not because you've seen the exact movement before but because the visual language is already edged into our collective memory. We have encountered it again and again in films and theater and just as often in everyday life. I like talking about art, culture, movies and everything in between and nothing captures the idea of accidental baroque better than this Linda Barry comic that I'm going to leave you with.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:02.940] Take a look at these photos and have a guess on what makes them special.
+[00:00:03.980 → 00:00:06.200] Don't you think they look a lot like old Renaissance paintings?
+[00:00:06.680 → 00:00:08.960] This cultural phenomenon is called accidental baroque.
+[00:00:09.080 → 00:00:11.240] It is when photos unintentionally mimic classical paintings
+[00:00:11.240 → 00:00:14.100] through dramatic lighting, religious or symbolic undertones,
+[00:00:14.320 → 00:00:16.820] layered compositions, and a strong sense of visual storytelling.
+[00:00:17.100 → 00:00:19.340] If you want to click photos like these, you need two things.
+[00:00:19.520 → 00:00:20.940] Number one, let there be light.
+[00:00:21.160 → 00:00:23.620] These images usually have one dominant light source.
+[00:00:23.800 → 00:00:26.340] Could be a window, a street lamp or a phone torch.
+[00:00:26.700 → 00:00:29.060] Use the shadows to your advantage and let them bring
+[00:00:29.060 → 00:00:30.840] [possible low-speech/noisy segment: 0.54] a sense of depth to the composition.
+[00:00:31.180 → 00:00:31.540] [possible low-speech/noisy segment: 0.54] 2.
+[00:00:31.920 → 00:00:35.060] [possible low-speech/noisy segment: 0.54] Drama and Stillness These photos are not your 5th grade class
+[00:00:35.060 → 00:00:37.060] [possible low-speech/noisy segment: 0.54] photograph where everyone is standing in an order.
+[00:00:37.300 → 00:00:41.980] [possible low-speech/noisy segment: 0.54] For these photos, you need chaos, you need imperfections, candidness of the highest degree,
+[00:00:42.080 → 00:00:44.400] [possible low-speech/noisy segment: 0.54] you must capture the drama frozen in time.
+[00:00:44.520 → 00:00:48.320] [possible low-speech/noisy segment: 0.54] I feel there is something quite profound in realizing that the gestures, narratives
+[00:00:48.320 → 00:00:51.780] [possible low-speech/noisy segment: 0.54] and tensions that you and me face every day are something that have appeared in
+[00:00:51.780 → 00:00:53.560] [possible low-speech/noisy segment: 0.54] art and literature for literally centuries.
+[00:00:53.920 → 00:00:57.680] [possible low-speech/noisy segment: 0.54] At their core, all these accidental baroque images share a certain weight.
+[00:00:57.680 → 00:01:02.500] We recognize these images instantly not because you've seen the exact movement before but because
+[00:01:02.500 → 00:01:07.040] the visual language is already edged into our collective memory. We have encountered it again
+[00:01:07.040 → 00:01:11.780] and again in films and theater and just as often in everyday life. I like talking about art,
+[00:01:11.940 → 00:01:16.220] culture, movies and everything in between and nothing captures the idea of accidental baroque
+[00:01:16.220 → 00:01:18.720] better than this Linda Barry comic that I'm going to leave you with.
+
+========================================================================================
+CLIP 02 · DV87eLYkt8k.mp4
+instagram_url: https://www.instagram.com/reel/DV87eLYkt8k/
+duration: 00:01:29.282 · language: en (1.00)
+
+FULL TEXT
+There's a reason so many anime characters look like pale, sad, blonde princesses. They all are inspired by one real person with an extremely messed up life. Welcome to episode 4 of Why Things Look The Way They Look. In 1971, Italian director Lucchino Visconti was casting for his film Death in Venice. He finally found a 15-year-old Swedish boy with no parents who was being raised by his grandmother. The boy walks into the audition and Visconti tells him to strip to his underwear in front of her room full of hurdles. He praises the boy's body in languages the boy does not even understand. The boy ends up getting the role and at the Cannes premiere, Visconti introduces him to the world press, Bjorn Anderson, the most beautiful boy in the world. That sentence which was meant to sell a movie ended up stealing Bjorn's life. When Bjorn landed in Tokyo in 1971, his fans mobbed the airport. It was kind of like the Beatles landing in America except Bjorn was a traumatized 16-year-old in a foreign country with no one to call his own. Handlers put him on a relentless schedule, TV shows, pop songs, commercials, reportedly even giving him pills to keep up And while all this was happening, Manga artists were watching this boy with his pale skin, his curls, his enormous sad eyes and they made him their template. His face became a visual code for a certain kind of tragic, beautiful, unreachable masculinity and it got copied and copied and copied. Bjorn died last year in October 2025, he was 70 years old. In interviews near the end of his life he said Visconti was a cultural predator. He said the films screwed up his life quite decently and he wished he had never gone to that audition. His face is still used in manga, still in anime, still being loved by millions of people who have no idea there was a real person behind the art style and the pain he went through.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.580] There's a reason so many anime characters look like pale, sad, blonde princesses.
+[00:00:03.580 → 00:00:06.740] They all are inspired by one real person with an extremely messed up life.
+[00:00:06.820 → 00:00:09.160] Welcome to episode 4 of Why Things Look The Way They Look.
+[00:00:09.240 → 00:00:13.380] In 1971, Italian director Lucchino Visconti was casting for his film Death in Venice.
+[00:00:13.580 → 00:00:18.080] He finally found a 15-year-old Swedish boy with no parents who was being raised by his grandmother.
+[00:00:18.240 → 00:00:23.640] The boy walks into the audition and Visconti tells him to strip to his underwear in front of her room full of hurdles.
+[00:00:23.880 → 00:00:27.220] He praises the boy's body in languages the boy does not even understand.
+[00:00:27.220 → 00:00:31.180] The boy ends up getting the role and at the Cannes premiere, Visconti introduces him to the
+[00:00:31.180 → 00:00:35.980] world press, Bjorn Anderson, the most beautiful boy in the world. That sentence which was meant to
+[00:00:35.980 → 00:00:40.940] sell a movie ended up stealing Bjorn's life. When Bjorn landed in Tokyo in 1971, his fans mobbed
+[00:00:40.940 → 00:00:44.920] the airport. It was kind of like the Beatles landing in America except Bjorn was a traumatized
+[00:00:44.920 → 00:00:49.040] 16-year-old in a foreign country with no one to call his own. Handlers put him on a relentless
+[00:00:49.040 → 00:00:53.780] schedule, TV shows, pop songs, commercials, reportedly even giving him pills to keep up
+[00:00:53.780 → 00:00:58.100] And while all this was happening, Manga artists were watching this boy with his pale skin,
+[00:00:58.380 → 00:01:01.260] his curls, his enormous sad eyes and they made him their template.
+[00:01:01.400 → 00:01:06.640] His face became a visual code for a certain kind of tragic, beautiful, unreachable masculinity
+[00:01:06.640 → 00:01:09.320] and it got copied and copied and copied.
+[00:01:09.460 → 00:01:12.860] Bjorn died last year in October 2025, he was 70 years old.
+[00:01:12.940 → 00:01:16.280] In interviews near the end of his life he said Visconti was a cultural predator.
+[00:01:16.520 → 00:01:20.220] He said the films screwed up his life quite decently and he wished he had never gone
+[00:01:20.220 → 00:01:20.860] to that audition.
+[00:01:20.860 → 00:01:25.640] His face is still used in manga, still in anime, still being loved by millions of people
+[00:01:25.640 → 00:01:29.260] who have no idea there was a real person behind the art style and the pain he went through.
+
+========================================================================================
+CLIP 03 · DVTQ9RLkmNV.mp4
+instagram_url: https://www.instagram.com/reel/DVTQ9RLkmNV/
+duration: 00:01:29.932 · language: en (1.00)
+
+FULL TEXT
+Why does every picture of Hindu gods look kind of the same? I always assumed that's just how gods look. Obviously, that's not the case. For most of history, every region had their own version. Thanjur painting from Tamil Nadu, gold foil, jewel tones, flat instead of three-dimensional, Rajput miniatures from the North, intricate, detailed, totally different energy. There was no single correct image of a deity. Each community had its own visual language. Then one man blew that up. Rajaravi Verma late 1800s. He took European oil painting techniques and applied them directly to Indian theology. Suddenly, Gods had realistic faces, soft skin, depth. He made the divine look like someone you could actually picture standing in front of you. This decision echoed for the next 100 years. Here's where it gets interesting. 1953, Chennai. A man named Jagannath Khanna starts a small design house, barely a thousand square feet. That company, JB Khanna and Co. now prints over 50 million religious posters a year. They have an archive of 40,000 designs. The owners have said publicly, you can't get Krishna's skin tone wrong. So they used precision color matching to make sure every single print is consistent. But what made people trust these friends or everything else was that they were not just selling a poster. They added UV coating, thermal lamination, and then gold zarian glitter, they specifically on their deities, jewelry, their crown, their ornament. When you think about it, for centuries certain people couldn't even enter temple sanctums, cast, class, access, it was all gate kept. An easily accessible poster quietly dismantled some of that. Anyone could bring the divine home, no permission needed. One company shaped how a billion people think what God looks like. And now every time I walk past one of these posters, I can't stop wondering what What else had just accepted as the way things are?
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:02.700] Why does every picture of Hindu gods look kind of the same?
+[00:00:02.900 → 00:00:04.800] I always assumed that's just how gods look.
+[00:00:04.980 → 00:00:06.080] Obviously, that's not the case.
+[00:00:06.320 → 00:00:08.500] For most of history, every region had their own version.
+[00:00:08.620 → 00:00:11.460] Thanjur painting from Tamil Nadu, gold foil, jewel tones,
+[00:00:11.640 → 00:00:14.280] flat instead of three-dimensional, Rajput miniatures from the North,
+[00:00:14.400 → 00:00:16.500] intricate, detailed, totally different energy.
+[00:00:16.660 → 00:00:18.660] There was no single correct image of a deity.
+[00:00:19.040 → 00:00:20.900] Each community had its own visual language.
+[00:00:21.080 → 00:00:22.580] Then one man blew that up.
+[00:00:22.800 → 00:00:24.680] Rajaravi Verma late 1800s.
+[00:00:24.680 → 00:00:26.320] He took European oil painting techniques
+[00:00:26.320 → 00:00:28.280] and applied them directly to Indian theology.
+[00:00:28.280 → 00:00:31.560] Suddenly, Gods had realistic faces, soft skin, depth.
+[00:00:31.760 → 00:00:35.300] He made the divine look like someone you could actually picture standing in front of you.
+[00:00:35.440 → 00:00:37.360] This decision echoed for the next 100 years.
+[00:00:37.560 → 00:00:38.660] Here's where it gets interesting.
+[00:00:38.880 → 00:00:40.140] 1953, Chennai.
+[00:00:40.360 → 00:00:44.320] A man named Jagannath Khanna starts a small design house, barely a thousand square feet.
+[00:00:44.420 → 00:00:48.820] That company, JB Khanna and Co. now prints over 50 million religious posters a year.
+[00:00:48.920 → 00:00:50.800] They have an archive of 40,000 designs.
+[00:00:50.920 → 00:00:53.840] The owners have said publicly, you can't get Krishna's skin tone wrong.
+[00:00:53.980 → 00:00:57.520] So they used precision color matching to make sure every single print is consistent.
+[00:00:57.520 → 00:01:01.120] But what made people trust these friends or everything else was that they were not just
+[00:01:01.120 → 00:01:01.760] selling a poster.
+[00:01:01.940 → 00:01:06.200] They added UV coating, thermal lamination, and then gold zarian glitter, they specifically
+[00:01:06.200 → 00:01:08.680] on their deities, jewelry, their crown, their ornament.
+[00:01:08.840 → 00:01:12.880] When you think about it, for centuries certain people couldn't even enter temple sanctums,
+[00:01:13.060 → 00:01:15.340] cast, class, access, it was all gate kept.
+[00:01:15.480 → 00:01:18.460] An easily accessible poster quietly dismantled some of that.
+[00:01:18.540 → 00:01:20.820] Anyone could bring the divine home, no permission needed.
+[00:01:20.940 → 00:01:23.900] One company shaped how a billion people think what God looks like.
+[00:01:23.960 → 00:01:27.500] And now every time I walk past one of these posters, I can't stop wondering what
+[00:01:27.500 → 00:01:29.660] What else had just accepted as the way things are?
+
+========================================================================================
+CLIP 04 · DW_j15QCRk0.mp4
+instagram_url: https://www.instagram.com/reel/j15QCRk0/
+duration: 00:01:34.019 · language: en (1.00)
+
+FULL TEXT
+There's a reason why people of colour did not look good in old photos until chocolate fixed the problem. Welcome to episode 11 of Why Things Look The Way They Look. Let me tell you what a woman named Shirley worked at Kodak in the 1950s. She was white, had fair skin, wore a white dress with white pearls and Kodak photographed her, printed the photo and sent it to every single photo lab in the world as a reference for what a correct human face looks like. What that meant in practice was that every lab technician before running your family's photos would first print Shirley and they would adjust their machines until her skin look perfect, until her dress was the right white, until her face matched the reference. And then they would run your photos through that same calibration. So if your skin didn't look like Shirley's, the machine was tuned against you. Black families across the country were spending a lot of money on formal portraits and getting back prints where you couldn't tell one person's skin from another and the details just melted into the shadow. People complained for years but to no avail. But then in the 1970s, chocolate companies called. They said, hey, your film cannot differentiate between dark chocolate and milk chocolate in our ads. So obviously the emulsions got better and the dynamic range was improved. and as a side effect, darker human skin tones started reproducing more faithfully on film. It wasn't until the mid-90s that Kodak finally introduced a new multiracial, surely referenced card with a white woman, an Asian woman, and a black woman side by side, redefining what normal actually meant. But I keep thinking about the families who saved up for studio portrait and paid for something that was supposed to last, only to get back a photo where you could see the idea of a person but not the actual person. And nobody told them why. He just took it and looked at your photos and thought, maybe we didn't smile right, Maybe the lighting was off, maybe the camera just doesn't really capture us. Imagine internalizing that as a child, that the camera cannot see you. The worst part is that the technology existed to fix it, and the fix came, it just came for the chocolate first.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.380] There's a reason why people of colour did not look good in old photos until chocolate
+[00:00:03.380 → 00:00:04.080] fixed the problem.
+[00:00:04.160 → 00:00:06.240] Welcome to episode 11 of Why Things Look The Way They Look.
+[00:00:06.300 → 00:00:09.840] Let me tell you what a woman named Shirley worked at Kodak in the 1950s.
+[00:00:09.900 → 00:00:13.780] She was white, had fair skin, wore a white dress with white pearls and Kodak photographed
+[00:00:13.780 → 00:00:17.860] her, printed the photo and sent it to every single photo lab in the world as a reference
+[00:00:17.860 → 00:00:19.580] for what a correct human face looks like.
+[00:00:19.640 → 00:00:23.400] What that meant in practice was that every lab technician before running your family's
+[00:00:23.400 → 00:00:26.780] photos would first print Shirley and they would adjust their machines until her skin
+[00:00:26.780 → 00:00:30.180] look perfect, until her dress was the right white, until her face matched the reference.
+[00:00:30.400 → 00:00:32.900] And then they would run your photos through that same calibration.
+[00:00:33.160 → 00:00:36.220] So if your skin didn't look like Shirley's, the machine was tuned against you.
+[00:00:36.300 → 00:00:39.880] Black families across the country were spending a lot of money on formal portraits and getting
+[00:00:39.880 → 00:00:43.380] back prints where you couldn't tell one person's skin from another and the details just
+[00:00:43.380 → 00:00:44.300] melted into the shadow.
+[00:00:44.420 → 00:00:46.480] People complained for years but to no avail.
+[00:00:46.600 → 00:00:48.980] But then in the 1970s, chocolate companies called.
+[00:00:49.120 → 00:00:52.420] They said, hey, your film cannot differentiate between dark chocolate and milk chocolate
+[00:00:52.420 → 00:00:52.900] in our ads.
+[00:00:53.120 → 00:00:55.840] So obviously the emulsions got better and the dynamic range was improved.
+[00:00:55.840 → 00:00:59.620] and as a side effect, darker human skin tones started reproducing more faithfully on film.
+[00:00:59.720 → 00:01:03.560] It wasn't until the mid-90s that Kodak finally introduced a new multiracial,
+[00:01:03.560 → 00:01:07.320] surely referenced card with a white woman, an Asian woman, and a black woman side by side,
+[00:01:07.400 → 00:01:11.120] redefining what normal actually meant. But I keep thinking about the families who saved up
+[00:01:11.120 → 00:01:15.040] for studio portrait and paid for something that was supposed to last, only to get back a photo
+[00:01:15.040 → 00:01:19.080] where you could see the idea of a person but not the actual person. And nobody told them
+[00:01:19.080 → 00:01:22.880] why. He just took it and looked at your photos and thought, maybe we didn't smile right,
+[00:01:22.880 → 00:01:25.860] Maybe the lighting was off, maybe the camera just doesn't really capture us.
+[00:01:25.940 → 00:01:29.080] Imagine internalizing that as a child, that the camera cannot see you.
+[00:01:29.120 → 00:01:31.600] The worst part is that the technology existed to fix it,
+[00:01:31.720 → 00:01:33.780] and the fix came, it just came for the chocolate first.
+
+========================================================================================
+CLIP 05 · DWlr4IgiYFc.mp4
+instagram_url: https://www.instagram.com/reel/DWlr4IgiYFc/
+duration: --:--:--.--- · language: unknown (0.00)
+ERROR: tuple index out of range
+
+========================================================================================
+CLIP 06 · DWoT1FdCdv8.mp4
+instagram_url: https://www.instagram.com/reel/DWoT1FdCdv8/
+duration: 00:01:27.239 · language: en (1.00)
+
+FULL TEXT
+Why is Mexico always yellow in films and shows? When I was a kid I just assumed that's what Mexico looks like. Obviously it doesn't. Welcome to episode 9 of Why Things Look The Way They Look. That yellow doesn't just mean hot. In every film that uses it, it comes packaged with chaos, danger, poverty. Meanwhile, Phoenix, an actual desert city, never gets a treatment. Nobody puts a yellow filter on Vegas either. The filter isn't really about heat, it's about how the filmmakers wanted to feel about the place. In the year 2000, the movie director Steven Soderbergh was directing traffic. He was juggling three storylines and needed a quick way to tell your brain somewhere else now without the title card. For the Mexico scenes, he shot through tobacco filters, changed the shutter speed, printed on different film stops. The result was a harsh, blown-out yellow. The film won four Oscars. So cinematographers studied it and then obviously everyone copied it. 20 years later, any film that wants to say Mexico just cranks the grey-yellow. Throw the filter around, nobody's going to notice. Russia gets the opposite version. Blue-steel grey skies, icy apartments, drain colour, villain standing in what looks like permanent winter, even in summer. But you need to understand something. These films were getting made during specific movements. The war on drugs, the cold war hangover, the border debate. The yellow filter on Mexico didn't appear in a vacuum. It showed up right when American media needed audiences to associate Mexico with danger. The blue filter on Russia peaked when Hollywood needed a villain and the Soviet Union handed them one. Colour grading isn't just an aesthetic choice. When it consistently makes one country look diseased and the other look sinister, across hundreds of films over decades, it starts doing the work of propaganda without ever being called out. So next time a movie cuts somewhere in the colour shift, stop for a second and ask yourself, did the place change or did someone just decide how you should feel about it.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:01.960] Why is Mexico always yellow in films and shows?
+[00:00:02.240 → 00:00:04.520] When I was a kid I just assumed that's what Mexico looks like.
+[00:00:04.740 → 00:00:05.720] Obviously it doesn't.
+[00:00:05.820 → 00:00:08.000] Welcome to episode 9 of Why Things Look The Way They Look.
+[00:00:08.160 → 00:00:09.460] That yellow doesn't just mean hot.
+[00:00:09.680 → 00:00:12.400] In every film that uses it, it comes packaged with chaos,
+[00:00:12.660 → 00:00:13.480] danger, poverty.
+[00:00:13.740 → 00:00:15.400] Meanwhile, Phoenix, an actual desert city,
+[00:00:15.560 → 00:00:16.300] never gets a treatment.
+[00:00:16.460 → 00:00:17.940] Nobody puts a yellow filter on Vegas either.
+[00:00:18.120 → 00:00:19.540] The filter isn't really about heat,
+[00:00:19.740 → 00:00:21.740] it's about how the filmmakers wanted to feel
+[00:00:21.740 → 00:00:22.280] about the place.
+[00:00:22.420 → 00:00:24.820] In the year 2000, the movie director Steven Soderbergh
+[00:00:24.820 → 00:00:25.640] was directing traffic.
+[00:00:25.820 → 00:00:27.120] He was juggling three storylines
+[00:00:27.120 → 00:00:28.560] and needed a quick way to tell your brain
+[00:00:28.560 → 00:00:32.800] [possible low-speech/noisy segment: 0.55] somewhere else now without the title card. For the Mexico scenes, he shot through tobacco filters,
+[00:00:32.960 → 00:00:36.860] [possible low-speech/noisy segment: 0.55] changed the shutter speed, printed on different film stops. The result was a harsh, blown-out yellow.
+[00:00:37.100 → 00:00:41.440] [possible low-speech/noisy segment: 0.55] The film won four Oscars. So cinematographers studied it and then obviously everyone copied it.
+[00:00:41.460 → 00:00:44.760] [possible low-speech/noisy segment: 0.55] 20 years later, any film that wants to say Mexico just cranks the grey-yellow.
+[00:00:44.900 → 00:00:48.160] [possible low-speech/noisy segment: 0.55] Throw the filter around, nobody's going to notice. Russia gets the opposite version.
+[00:00:48.460 → 00:00:52.620] [possible low-speech/noisy segment: 0.55] Blue-steel grey skies, icy apartments, drain colour, villain standing in what looks like
+[00:00:52.620 → 00:00:56.120] [possible low-speech/noisy segment: 0.55] permanent winter, even in summer. But you need to understand something. These films were
+[00:00:56.120 → 00:00:59.740] [possible low-speech/noisy segment: 0.84] getting made during specific movements. The war on drugs, the cold war hangover, the border
+[00:00:59.740 → 00:01:03.120] [possible low-speech/noisy segment: 0.84] debate. The yellow filter on Mexico didn't appear in a vacuum. It showed up right when
+[00:01:03.120 → 00:01:06.920] [possible low-speech/noisy segment: 0.84] American media needed audiences to associate Mexico with danger. The blue filter on Russia
+[00:01:06.920 → 00:01:10.360] [possible low-speech/noisy segment: 0.84] peaked when Hollywood needed a villain and the Soviet Union handed them one. Colour
+[00:01:10.360 → 00:01:13.980] [possible low-speech/noisy segment: 0.84] grading isn't just an aesthetic choice. When it consistently makes one country look
+[00:01:13.980 → 00:01:18.040] [possible low-speech/noisy segment: 0.84] diseased and the other look sinister, across hundreds of films over decades, it starts
+[00:01:18.040 → 00:01:21.700] [possible low-speech/noisy segment: 0.84] doing the work of propaganda without ever being called out. So next time a movie
+[00:01:21.700 → 00:01:24.820] [possible low-speech/noisy segment: 0.84] cuts somewhere in the colour shift, stop for a second and ask yourself, did the
+[00:01:24.820 → 00:01:27.200] place change or did someone just decide how you should feel about it.
+
+========================================================================================
+CLIP 07 · DXMaVMykbdX.mp4
+instagram_url: https://www.instagram.com/reel/DXMaVMykbdX/
+duration: 00:01:31.186 · language: en (1.00)
+
+FULL TEXT
+Why is pink considered a girly color in blue is for boys? Welcome to episode 12 of Why Things Look The Way They Look. For most of history, babies just wore white because you could boil and bleach white clothes, making them easier to keep clean and safe for the babies. And honestly, nobody cared enough about broadcasting a baby's gender to a stranger on the street. Basic colors started showing up in baby clothes in 1800s, but they were not gendered. Pink and blue were just baby colors. They came together as a set without any rules. As a matter of fact, a major trade publication literally recommended pink for boys and blue for girls because pink was seen as a stronger color closer to red, which meant power and boldness, whereas blue was considered a delicate. After World War II, millions of women who had spent the war years working in factories and running lodges, stakes were told to go back home. And men who fought in wars and faced severe hardships were told to come back to work. Children's clothing became a way to rehearse these theoretical roles from birth. I couldn't find out exactly where this switch happened, but a generation of children was color coded to create a divide and confirm the gender roles that parents were being pushed back into. And then came the ultrasound. Before ultrasound, you didn't know the gender of your baby until they arrived, which meant the market for gendered baby products had a hard ceiling. You could only buy neutral colors and weight, but the moment ultrasound became standard, retailers figured out they could sell you a color-coded nursery, a color-coded baby shark, a color-coded wardrobe before the baby even arrived. And if you're having a daughter after having a son, you're not going to reuse your son's blue wardrobe. You will buy a new pink one. Study after study shows that products marketed to women and girls, including children's clothing, toys, personal care products, hygiene products cost measurably more than functionally identical products in blue or neutral packaging. And 81 has a term for it called the pink tax. Can you believe we have normalized paying a premium to be visually coded as male or female and it starts long before we are even born?
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:02.300] Why is pink considered a girly color in blue is for boys?
+[00:00:02.500 → 00:00:04.420] Welcome to episode 12 of Why Things Look The Way They Look.
+[00:00:04.500 → 00:00:06.360] For most of history, babies just wore white
+[00:00:06.360 → 00:00:08.180] because you could boil and bleach white clothes,
+[00:00:08.400 → 00:00:10.360] making them easier to keep clean and safe for the babies.
+[00:00:10.520 → 00:00:11.720] And honestly, nobody cared enough
+[00:00:11.720 → 00:00:13.180] about broadcasting a baby's gender
+[00:00:13.180 → 00:00:14.160] to a stranger on the street.
+[00:00:14.220 → 00:00:16.620] Basic colors started showing up in baby clothes in 1800s,
+[00:00:16.620 → 00:00:17.480] but they were not gendered.
+[00:00:17.500 → 00:00:18.860] Pink and blue were just baby colors.
+[00:00:19.020 → 00:00:20.740] They came together as a set without any rules.
+[00:00:20.980 → 00:00:21.740] As a matter of fact,
+[00:00:21.860 → 00:00:24.040] a major trade publication literally recommended pink
+[00:00:24.040 → 00:00:25.120] for boys and blue for girls
+[00:00:25.120 → 00:00:27.420] because pink was seen as a stronger color closer to red,
+[00:00:27.480 → 00:00:28.740] which meant power and boldness,
+[00:00:28.740 → 00:00:30.140] whereas blue was considered a delicate.
+[00:00:30.260 → 00:00:33.200] After World War II, millions of women who had spent the war years working in factories
+[00:00:33.200 → 00:00:35.380] and running lodges, stakes were told to go back home.
+[00:00:35.460 → 00:00:38.660] And men who fought in wars and faced severe hardships were told to come back to work.
+[00:00:38.740 → 00:00:42.020] Children's clothing became a way to rehearse these theoretical roles from birth.
+[00:00:42.100 → 00:00:45.220] I couldn't find out exactly where this switch happened, but a generation of children
+[00:00:45.220 → 00:00:48.860] was color coded to create a divide and confirm the gender roles that parents were being
+[00:00:48.860 → 00:00:49.540] pushed back into.
+[00:00:49.600 → 00:00:50.580] And then came the ultrasound.
+[00:00:50.980 → 00:00:53.900] Before ultrasound, you didn't know the gender of your baby until they arrived,
+[00:00:53.960 → 00:00:56.780] which meant the market for gendered baby products had a hard ceiling.
+[00:00:56.780 → 00:01:00.560] You could only buy neutral colors and weight, but the moment ultrasound became standard,
+[00:01:00.800 → 00:01:04.640] retailers figured out they could sell you a color-coded nursery, a color-coded baby shark,
+[00:01:04.880 → 00:01:08.800] a color-coded wardrobe before the baby even arrived. And if you're having a daughter after
+[00:01:08.800 → 00:01:12.440] having a son, you're not going to reuse your son's blue wardrobe. You will buy a new pink one.
+[00:01:12.620 → 00:01:16.640] Study after study shows that products marketed to women and girls, including children's clothing,
+[00:01:17.020 → 00:01:21.500] toys, personal care products, hygiene products cost measurably more than functionally identical
+[00:01:21.500 → 00:01:25.200] products in blue or neutral packaging. And 81 has a term for it called the pink tax.
+[00:01:25.200 → 00:01:31.020] Can you believe we have normalized paying a premium to be visually coded as male or female and it starts long before we are even born?
+
+========================================================================================
+CLIP 08 · DXWrl2bCQtH.mp4
+instagram_url: https://www.instagram.com/reel/DXWrl2bCQtH/
+duration: 00:01:22.688 · language: en (1.00)
+
+FULL TEXT
+Our generation has this weird fantasy of ending the world and I think post-apocalypse stories are the reason why. Think about it, every time global tensions spike, we make memes. The end of the world doesn't feel like a nightmare anymore. It feels like something happens in episode 1 and then the real story begins. Now welcome to episode 4 of Anatomy of a Story. See, most stories have this issue. If the world is already built and functioning, the audience knows you're not going to blow it up. So when a villain says, I will destroy everything, the audience just calls the writer's block. Post-apocalypse stories, skip all of that. The world is already gone and there is nothing left to protect. Now the story can actually get real, because the question isn't will the hero save the world, the question is what kind of person are you when there is no world left to save. Every type of apocalypse is built around a specific message. Zombie stories, the message is almost always humans are the real monster. Nuclear apocalypse, the message is just please for the love of god don't let this happen. Robot uprising, maybe don't build something smarter than you and then treat it badly. They are all warning labels disguised as entertainment. The reason you keep coming back to these stories isn't the destruction but the fantasy of the research. No bureaucracy, no algorithms, no performance reviews, no student loans, your entire complicated and burnout-inducing life gets stripped down to the basics and weirdly that feels freeing. That is why we meme about World War 3. We don't actually want it, but we have consumed so much apocalypse fiction that some part of our brain has just started associating civilizational collapse with relief and a fresh start. The apocalypse feels less exhausting than a 9-5. And the fact that we are already joking about it, that might be the most post-apocalyptic thing of it all.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.620] Our generation has this weird fantasy of ending the world and I think post-apocalypse stories
+[00:00:03.620 → 00:00:04.380] are the reason why.
+[00:00:04.480 → 00:00:07.360] Think about it, every time global tensions spike, we make memes.
+[00:00:07.500 → 00:00:09.520] The end of the world doesn't feel like a nightmare anymore.
+[00:00:09.660 → 00:00:12.980] It feels like something happens in episode 1 and then the real story begins.
+[00:00:13.160 → 00:00:15.120] Now welcome to episode 4 of Anatomy of a Story.
+[00:00:15.360 → 00:00:16.860] See, most stories have this issue.
+[00:00:17.040 → 00:00:20.260] If the world is already built and functioning, the audience knows you're not going to
+[00:00:20.260 → 00:00:20.680] blow it up.
+[00:00:20.740 → 00:00:24.560] So when a villain says, I will destroy everything, the audience just calls the writer's block.
+[00:00:24.620 → 00:00:26.500] Post-apocalypse stories, skip all of that.
+[00:00:26.560 → 00:00:28.720] The world is already gone and there is nothing left to protect.
+[00:00:28.720 → 00:00:32.560] Now the story can actually get real, because the question isn't will the hero save the world,
+[00:00:32.720 → 00:00:35.740] the question is what kind of person are you when there is no world left to save.
+[00:00:35.840 → 00:00:38.580] Every type of apocalypse is built around a specific message.
+[00:00:38.800 → 00:00:42.140] Zombie stories, the message is almost always humans are the real monster.
+[00:00:42.260 → 00:00:45.980] Nuclear apocalypse, the message is just please for the love of god don't let this happen.
+[00:00:46.100 → 00:00:49.140] Robot uprising, maybe don't build something smarter than you and then treat it badly.
+[00:00:49.300 → 00:00:51.680] They are all warning labels disguised as entertainment.
+[00:00:51.840 → 00:00:55.780] The reason you keep coming back to these stories isn't the destruction but the fantasy
+[00:00:55.780 → 00:01:00.420] of the research. No bureaucracy, no algorithms, no performance reviews, no student loans,
+[00:01:00.560 → 00:01:04.480] your entire complicated and burnout-inducing life gets stripped down to the basics and
+[00:01:04.480 → 00:01:07.940] weirdly that feels freeing. That is why we meme about World War 3.
+[00:01:08.060 → 00:01:11.340] We don't actually want it, but we have consumed so much apocalypse fiction that
+[00:01:11.340 → 00:01:14.640] some part of our brain has just started associating civilizational collapse
+[00:01:14.640 → 00:01:18.260] with relief and a fresh start. The apocalypse feels less exhausting than a 9-5.
+[00:01:18.400 → 00:01:21.980] And the fact that we are already joking about it, that might be the most post-apocalyptic
+[00:01:21.980 → 00:01:22.660] thing of it all.

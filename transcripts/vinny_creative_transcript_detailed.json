@@ -1,0 +1,2316 @@
+{
+  "handle": "vinny_creative",
+  "model": "small",
+  "source_dir": "/Users/cicilan/Desktop/partake_videos/vinny_creative",
+  "source_files": [
+    "/Users/cicilan/Desktop/partake_videos/vinny_creative/DW8tfbCjPPQ.mp4",
+    "/Users/cicilan/Desktop/partake_videos/vinny_creative/DXG6XOnDDw0.mp4",
+    "/Users/cicilan/Desktop/partake_videos/vinny_creative/DXZUdV-DrQp.mp4",
+    "/Users/cicilan/Desktop/partake_videos/vinny_creative/DXb9HeBjMF9.mp4",
+    "/Users/cicilan/Desktop/partake_videos/vinny_creative/DXbwjswjONq.mp4",
+    "/Users/cicilan/Desktop/partake_videos/vinny_creative/DXeO8kdDCiB.mp4",
+    "/Users/cicilan/Desktop/partake_videos/vinny_creative/DXeP9HmDNxI.mp4",
+    "/Users/cicilan/Desktop/partake_videos/vinny_creative/DXenjphjDV9.mp4"
+  ],
+  "clip_count": 8,
+  "clips": [
+    {
+      "file": "DW8tfbCjPPQ.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/vinny_creative/DW8tfbCjPPQ.mp4",
+      "duration": 12.006125,
+      "language": "en",
+      "language_probability": 1.0,
+      "mode": "full-word-timestamps",
+      "text": "Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 11.24,
+          "text": "Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing.",
+          "avg_logprob": -0.21831594813953747,
+          "no_speech_prob": 0.391579806804657,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.34,
+              "word": "Bad.",
+              "probability": 0.1820068210363388
+            },
+            {
+              "start": 0.54,
+              "end": 0.84,
+              "word": "Good.",
+              "probability": 0.9695203304290771
+            },
+            {
+              "start": 1.3,
+              "end": 1.76,
+              "word": "Amazing.",
+              "probability": 0.9855947494506836
+            },
+            {
+              "start": 2.34,
+              "end": 2.62,
+              "word": "Bad.",
+              "probability": 0.8492711782455444
+            },
+            {
+              "start": 2.84,
+              "end": 3.14,
+              "word": "Good.",
+              "probability": 0.993094801902771
+            },
+            {
+              "start": 3.44,
+              "end": 3.84,
+              "word": "Amazing.",
+              "probability": 0.9954426288604736
+            },
+            {
+              "start": 4.52,
+              "end": 4.76,
+              "word": "Bad.",
+              "probability": 0.9312713146209717
+            },
+            {
+              "start": 5.08,
+              "end": 5.38,
+              "word": "Good.",
+              "probability": 0.9915103912353516
+            },
+            {
+              "start": 5.86,
+              "end": 6.3,
+              "word": "Amazing.",
+              "probability": 0.9929966330528259
+            },
+            {
+              "start": 7.0,
+              "end": 7.28,
+              "word": "Bad.",
+              "probability": 0.979087233543396
+            },
+            {
+              "start": 7.52,
+              "end": 7.92,
+              "word": "Good.",
+              "probability": 0.9960182309150696
+            },
+            {
+              "start": 8.24,
+              "end": 8.8,
+              "word": "Amazing.",
+              "probability": 0.9967769980430603
+            },
+            {
+              "start": 9.58,
+              "end": 9.9,
+              "word": "Bad.",
+              "probability": 0.9924190044403076
+            },
+            {
+              "start": 10.12,
+              "end": 10.52,
+              "word": "Good.",
+              "probability": 0.996547520160675
+            },
+            {
+              "start": 10.78,
+              "end": 11.24,
+              "word": "Amazing.",
+              "probability": 0.9962387084960938
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "file": "DXG6XOnDDw0.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/vinny_creative/DXG6XOnDDw0.mp4",
+      "duration": 12.28475,
+      "language": "en",
+      "language_probability": 1.0,
+      "mode": "full-word-timestamps",
+      "text": "Anti-AI, FruitTiger, Aero, Utilitarian, Naive, Pixel Lacing, Girlhood, Techno Geometry, Photo First, Spray, Glamour, Comment, Pin and I'll send you a link to all of these styles on Pinterest.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 6.68,
+          "text": "Anti-AI, FruitTiger, Aero, Utilitarian, Naive, Pixel Lacing, Girlhood, Techno Geometry, Photo",
+          "avg_logprob": -0.31158875685471754,
+          "no_speech_prob": 0.03608226031064987,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.32,
+              "word": "Anti",
+              "probability": 0.3854307532310486
+            },
+            {
+              "start": 0.32,
+              "end": 0.78,
+              "word": "-AI,",
+              "probability": 0.6638890206813812
+            },
+            {
+              "start": 0.98,
+              "end": 1.52,
+              "word": "FruitTiger,",
+              "probability": 0.5329916973908743
+            },
+            {
+              "start": 1.64,
+              "end": 2.06,
+              "word": "Aero,",
+              "probability": 0.8049765527248383
+            },
+            {
+              "start": 2.14,
+              "end": 2.9,
+              "word": "Utilitarian,",
+              "probability": 0.9625647664070129
+            },
+            {
+              "start": 3.06,
+              "end": 3.58,
+              "word": "Naive,",
+              "probability": 0.8089480400085449
+            },
+            {
+              "start": 3.72,
+              "end": 3.98,
+              "word": "Pixel",
+              "probability": 0.8368864059448242
+            },
+            {
+              "start": 3.98,
+              "end": 4.52,
+              "word": "Lacing,",
+              "probability": 0.8034552335739136
+            },
+            {
+              "start": 4.72,
+              "end": 5.2,
+              "word": "Girlhood,",
+              "probability": 0.8410703837871552
+            },
+            {
+              "start": 5.34,
+              "end": 5.72,
+              "word": "Techno",
+              "probability": 0.7160415053367615
+            },
+            {
+              "start": 5.72,
+              "end": 6.24,
+              "word": "Geometry,",
+              "probability": 0.8993897140026093
+            },
+            {
+              "start": 6.52,
+              "end": 6.68,
+              "word": "Photo",
+              "probability": 0.8913520574569702
+            }
+          ]
+        },
+        {
+          "start": 6.68,
+          "end": 11.14,
+          "text": "First, Spray, Glamour, Comment, Pin and I'll send you a link to all of these styles",
+          "avg_logprob": -0.31158875685471754,
+          "no_speech_prob": 0.03608226031064987,
+          "words": [
+            {
+              "start": 6.68,
+              "end": 7.12,
+              "word": "First,",
+              "probability": 0.7318578362464905
+            },
+            {
+              "start": 7.44,
+              "end": 7.9,
+              "word": "Spray,",
+              "probability": 0.972499281167984
+            },
+            {
+              "start": 8.02,
+              "end": 8.52,
+              "word": "Glamour,",
+              "probability": 0.9618297616640726
+            },
+            {
+              "start": 8.62,
+              "end": 8.8,
+              "word": "Comment,",
+              "probability": 0.5374100208282471
+            },
+            {
+              "start": 9.04,
+              "end": 9.18,
+              "word": "Pin",
+              "probability": 0.8657655119895935
+            },
+            {
+              "start": 9.18,
+              "end": 9.38,
+              "word": "and",
+              "probability": 0.5046207308769226
+            },
+            {
+              "start": 9.38,
+              "end": 9.54,
+              "word": "I'll",
+              "probability": 0.9590696692466736
+            },
+            {
+              "start": 9.54,
+              "end": 9.76,
+              "word": "send",
+              "probability": 0.9742497801780701
+            },
+            {
+              "start": 9.76,
+              "end": 9.94,
+              "word": "you",
+              "probability": 0.5812678933143616
+            },
+            {
+              "start": 9.94,
+              "end": 10.0,
+              "word": "a",
+              "probability": 0.988416850566864
+            },
+            {
+              "start": 10.0,
+              "end": 10.16,
+              "word": "link",
+              "probability": 0.9943453073501587
+            },
+            {
+              "start": 10.16,
+              "end": 10.34,
+              "word": "to",
+              "probability": 0.9886445999145508
+            },
+            {
+              "start": 10.34,
+              "end": 10.56,
+              "word": "all",
+              "probability": 0.9937868118286133
+            },
+            {
+              "start": 10.56,
+              "end": 10.68,
+              "word": "of",
+              "probability": 0.907311737537384
+            },
+            {
+              "start": 10.68,
+              "end": 10.84,
+              "word": "these",
+              "probability": 0.8615279197692871
+            },
+            {
+              "start": 10.84,
+              "end": 11.14,
+              "word": "styles",
+              "probability": 0.916603147983551
+            }
+          ]
+        },
+        {
+          "start": 11.14,
+          "end": 11.76,
+          "text": "on Pinterest.",
+          "avg_logprob": -0.31158875685471754,
+          "no_speech_prob": 0.03608226031064987,
+          "words": [
+            {
+              "start": 11.14,
+              "end": 11.48,
+              "word": "on",
+              "probability": 0.9727616310119629
+            },
+            {
+              "start": 11.48,
+              "end": 11.76,
+              "word": "Pinterest.",
+              "probability": 0.9908389449119568
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "file": "DXZUdV-DrQp.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/vinny_creative/DXZUdV-DrQp.mp4",
+      "duration": 14.6531875,
+      "language": "en",
+      "language_probability": 1.0,
+      "mode": "full-word-timestamps",
+      "text": "Faces, Corporate Grunge, Gen X Soft Club, Angel Core, Mono Space, Swiss, Urban Void, Clean Girl Brutalism, Aerial Rebirth, Midnight Sun, Comment, Pin, and I will send you a link to all of these styles on Pinterest.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 7.2,
+          "text": "Faces, Corporate Grunge, Gen X Soft Club, Angel Core, Mono Space, Swiss, Urban Void, Clean",
+          "avg_logprob": -0.26403748244047165,
+          "no_speech_prob": 0.08071765303611755,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.64,
+              "word": "Faces,",
+              "probability": 0.7534810304641724
+            },
+            {
+              "start": 0.8,
+              "end": 1.34,
+              "word": "Corporate",
+              "probability": 0.6408760398626328
+            },
+            {
+              "start": 1.34,
+              "end": 1.94,
+              "word": "Grunge,",
+              "probability": 0.7649620771408081
+            },
+            {
+              "start": 2.1,
+              "end": 2.28,
+              "word": "Gen",
+              "probability": 0.6829631328582764
+            },
+            {
+              "start": 2.28,
+              "end": 2.66,
+              "word": "X",
+              "probability": 0.7061536312103271
+            },
+            {
+              "start": 2.66,
+              "end": 3.0,
+              "word": "Soft",
+              "probability": 0.8757761716842651
+            },
+            {
+              "start": 3.0,
+              "end": 3.38,
+              "word": "Club,",
+              "probability": 0.6067161560058594
+            },
+            {
+              "start": 3.5,
+              "end": 3.78,
+              "word": "Angel",
+              "probability": 0.9815380573272705
+            },
+            {
+              "start": 3.78,
+              "end": 4.22,
+              "word": "Core,",
+              "probability": 0.736824631690979
+            },
+            {
+              "start": 4.44,
+              "end": 4.88,
+              "word": "Mono",
+              "probability": 0.7208516150712967
+            },
+            {
+              "start": 4.88,
+              "end": 5.12,
+              "word": "Space,",
+              "probability": 0.5294339656829834
+            },
+            {
+              "start": 5.48,
+              "end": 5.72,
+              "word": "Swiss,",
+              "probability": 0.9065290093421936
+            },
+            {
+              "start": 6.12,
+              "end": 6.36,
+              "word": "Urban",
+              "probability": 0.9877969622612
+            },
+            {
+              "start": 6.36,
+              "end": 6.94,
+              "word": "Void,",
+              "probability": 0.6359106749296188
+            },
+            {
+              "start": 7.02,
+              "end": 7.2,
+              "word": "Clean",
+              "probability": 0.9580267667770386
+            }
+          ]
+        },
+        {
+          "start": 7.2,
+          "end": 12.4,
+          "text": "Girl Brutalism, Aerial Rebirth, Midnight Sun, Comment, Pin, and I will send you a link",
+          "avg_logprob": -0.26403748244047165,
+          "no_speech_prob": 0.08071765303611755,
+          "words": [
+            {
+              "start": 7.2,
+              "end": 7.52,
+              "word": "Girl",
+              "probability": 0.8881720900535583
+            },
+            {
+              "start": 7.52,
+              "end": 8.34,
+              "word": "Brutalism,",
+              "probability": 0.9528906345367432
+            },
+            {
+              "start": 8.5,
+              "end": 8.88,
+              "word": "Aerial",
+              "probability": 0.8592890799045563
+            },
+            {
+              "start": 8.88,
+              "end": 9.36,
+              "word": "Rebirth,",
+              "probability": 0.9265462458133698
+            },
+            {
+              "start": 9.64,
+              "end": 10.06,
+              "word": "Midnight",
+              "probability": 0.9850823283195496
+            },
+            {
+              "start": 10.06,
+              "end": 10.48,
+              "word": "Sun,",
+              "probability": 0.7214240431785583
+            },
+            {
+              "start": 10.7,
+              "end": 10.88,
+              "word": "Comment,",
+              "probability": 0.7066056728363037
+            },
+            {
+              "start": 11.08,
+              "end": 11.34,
+              "word": "Pin,",
+              "probability": 0.6857526898384094
+            },
+            {
+              "start": 11.52,
+              "end": 11.58,
+              "word": "and",
+              "probability": 0.8487994074821472
+            },
+            {
+              "start": 11.58,
+              "end": 11.68,
+              "word": "I",
+              "probability": 0.9796613454818726
+            },
+            {
+              "start": 11.68,
+              "end": 11.76,
+              "word": "will",
+              "probability": 0.7906439900398254
+            },
+            {
+              "start": 11.76,
+              "end": 11.98,
+              "word": "send",
+              "probability": 0.9923156499862671
+            },
+            {
+              "start": 11.98,
+              "end": 12.12,
+              "word": "you",
+              "probability": 0.9912439584732056
+            },
+            {
+              "start": 12.12,
+              "end": 12.18,
+              "word": "a",
+              "probability": 0.9958826303482056
+            },
+            {
+              "start": 12.18,
+              "end": 12.4,
+              "word": "link",
+              "probability": 0.9977411031723022
+            }
+          ]
+        },
+        {
+          "start": 12.4,
+          "end": 14.2,
+          "text": "to all of these styles on Pinterest.",
+          "avg_logprob": -0.26403748244047165,
+          "no_speech_prob": 0.08071765303611755,
+          "words": [
+            {
+              "start": 12.4,
+              "end": 12.64,
+              "word": "to",
+              "probability": 0.9938130378723145
+            },
+            {
+              "start": 12.64,
+              "end": 12.92,
+              "word": "all",
+              "probability": 0.9934970140457153
+            },
+            {
+              "start": 12.92,
+              "end": 13.04,
+              "word": "of",
+              "probability": 0.7346369624137878
+            },
+            {
+              "start": 13.04,
+              "end": 13.22,
+              "word": "these",
+              "probability": 0.7774017453193665
+            },
+            {
+              "start": 13.22,
+              "end": 13.54,
+              "word": "styles",
+              "probability": 0.9604687094688416
+            },
+            {
+              "start": 13.54,
+              "end": 13.92,
+              "word": "on",
+              "probability": 0.9755865335464478
+            },
+            {
+              "start": 13.92,
+              "end": 14.2,
+              "word": "Pinterest.",
+              "probability": 0.9884827733039856
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "file": "DXb9HeBjMF9.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/vinny_creative/DXb9HeBjMF9.mp4",
+      "duration": 15.4426875,
+      "language": "en",
+      "language_probability": 1.0,
+      "mode": "full-word-timestamps",
+      "text": "Dreamcorp, Y2K Outline, Deriviera, Utopian Scholastic, Colorspaces, Mudbling, Neewa Y2K, Flower Mists, Pop Art, New Papershick, comment, pin it and I will send you a link to all of the styles on Pinterest.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 5.56,
+          "text": "Dreamcorp, Y2K Outline, Deriviera, Utopian Scholastic, Colorspaces,",
+          "avg_logprob": -0.4004218839619258,
+          "no_speech_prob": 0.029846131801605225,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.74,
+              "word": "Dreamcorp,",
+              "probability": 0.5158519645531973
+            },
+            {
+              "start": 0.86,
+              "end": 1.38,
+              "word": "Y2K",
+              "probability": 0.9447429974873861
+            },
+            {
+              "start": 1.38,
+              "end": 2.02,
+              "word": "Outline,",
+              "probability": 0.9422185122966766
+            },
+            {
+              "start": 2.22,
+              "end": 2.92,
+              "word": "Deriviera,",
+              "probability": 0.677203486363093
+            },
+            {
+              "start": 3.16,
+              "end": 3.7,
+              "word": "Utopian",
+              "probability": 0.5614100843667984
+            },
+            {
+              "start": 3.7,
+              "end": 4.52,
+              "word": "Scholastic,",
+              "probability": 0.7763996422290802
+            },
+            {
+              "start": 4.7,
+              "end": 5.56,
+              "word": "Colorspaces,",
+              "probability": 0.9097415059804916
+            }
+          ]
+        },
+        {
+          "start": 5.78,
+          "end": 11.46,
+          "text": "Mudbling, Neewa Y2K, Flower Mists, Pop Art, New Papershick,",
+          "avg_logprob": -0.4004218839619258,
+          "no_speech_prob": 0.029846131801605225,
+          "words": [
+            {
+              "start": 5.78,
+              "end": 6.42,
+              "word": "Mudbling,",
+              "probability": 0.3754790499806404
+            },
+            {
+              "start": 6.72,
+              "end": 7.14,
+              "word": "Neewa",
+              "probability": 0.39448478321234387
+            },
+            {
+              "start": 7.14,
+              "end": 7.9,
+              "word": "Y2K,",
+              "probability": 0.9409176309903463
+            },
+            {
+              "start": 8.1,
+              "end": 8.5,
+              "word": "Flower",
+              "probability": 0.963209867477417
+            },
+            {
+              "start": 8.5,
+              "end": 9.12,
+              "word": "Mists,",
+              "probability": 0.4953778088092804
+            },
+            {
+              "start": 9.28,
+              "end": 9.44,
+              "word": "Pop",
+              "probability": 0.7823466062545776
+            },
+            {
+              "start": 9.44,
+              "end": 9.9,
+              "word": "Art,",
+              "probability": 0.8633097410202026
+            },
+            {
+              "start": 10.14,
+              "end": 10.34,
+              "word": "New",
+              "probability": 0.9901607036590576
+            },
+            {
+              "start": 10.34,
+              "end": 11.46,
+              "word": "Papershick,",
+              "probability": 0.6266729645431042
+            }
+          ]
+        },
+        {
+          "start": 11.64,
+          "end": 15.02,
+          "text": "comment, pin it and I will send you a link to all of the styles on Pinterest.",
+          "avg_logprob": -0.4004218839619258,
+          "no_speech_prob": 0.029846131801605225,
+          "words": [
+            {
+              "start": 11.64,
+              "end": 11.86,
+              "word": "comment,",
+              "probability": 0.12869474291801453
+            },
+            {
+              "start": 12.14,
+              "end": 12.32,
+              "word": "pin",
+              "probability": 0.5362438559532166
+            },
+            {
+              "start": 12.32,
+              "end": 12.44,
+              "word": "it",
+              "probability": 0.7138317823410034
+            },
+            {
+              "start": 12.44,
+              "end": 12.52,
+              "word": "and",
+              "probability": 0.6430215835571289
+            },
+            {
+              "start": 12.52,
+              "end": 12.6,
+              "word": "I",
+              "probability": 0.8660043478012085
+            },
+            {
+              "start": 12.6,
+              "end": 12.66,
+              "word": "will",
+              "probability": 0.8324373960494995
+            },
+            {
+              "start": 12.66,
+              "end": 12.88,
+              "word": "send",
+              "probability": 0.9757988452911377
+            },
+            {
+              "start": 12.88,
+              "end": 13.06,
+              "word": "you",
+              "probability": 0.5127049684524536
+            },
+            {
+              "start": 13.06,
+              "end": 13.12,
+              "word": "a",
+              "probability": 0.9830436110496521
+            },
+            {
+              "start": 13.12,
+              "end": 13.3,
+              "word": "link",
+              "probability": 0.9987429976463318
+            },
+            {
+              "start": 13.3,
+              "end": 13.48,
+              "word": "to",
+              "probability": 0.9869986176490784
+            },
+            {
+              "start": 13.48,
+              "end": 13.74,
+              "word": "all",
+              "probability": 0.9912505149841309
+            },
+            {
+              "start": 13.74,
+              "end": 13.88,
+              "word": "of",
+              "probability": 0.8284571766853333
+            },
+            {
+              "start": 13.88,
+              "end": 13.98,
+              "word": "the",
+              "probability": 0.9511038064956665
+            },
+            {
+              "start": 13.98,
+              "end": 14.3,
+              "word": "styles",
+              "probability": 0.969037652015686
+            },
+            {
+              "start": 14.3,
+              "end": 14.68,
+              "word": "on",
+              "probability": 0.9368995428085327
+            },
+            {
+              "start": 14.68,
+              "end": 15.02,
+              "word": "Pinterest.",
+              "probability": 0.8794915676116943
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "file": "DXbwjswjONq.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/vinny_creative/DXbwjswjONq.mp4",
+      "duration": 12.006125,
+      "language": "en",
+      "language_probability": 1.0,
+      "mode": "full-word-timestamps",
+      "text": "Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 11.26,
+          "text": "Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing. Bad. Good. Amazing.",
+          "avg_logprob": -0.20881267027421432,
+          "no_speech_prob": 0.3482171595096588,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.34,
+              "word": "Bad.",
+              "probability": 0.2735011577606201
+            },
+            {
+              "start": 0.54,
+              "end": 0.84,
+              "word": "Good.",
+              "probability": 0.9658915996551514
+            },
+            {
+              "start": 1.3,
+              "end": 1.76,
+              "word": "Amazing.",
+              "probability": 0.9890602827072144
+            },
+            {
+              "start": 2.34,
+              "end": 2.6,
+              "word": "Bad.",
+              "probability": 0.8505288362503052
+            },
+            {
+              "start": 2.84,
+              "end": 3.12,
+              "word": "Good.",
+              "probability": 0.9914932250976562
+            },
+            {
+              "start": 3.42,
+              "end": 3.82,
+              "word": "Amazing.",
+              "probability": 0.9957528114318848
+            },
+            {
+              "start": 4.52,
+              "end": 4.74,
+              "word": "Bad.",
+              "probability": 0.9513031244277954
+            },
+            {
+              "start": 5.08,
+              "end": 5.42,
+              "word": "Good.",
+              "probability": 0.9838882684707642
+            },
+            {
+              "start": 5.82,
+              "end": 6.3,
+              "word": "Amazing.",
+              "probability": 0.9923068881034851
+            },
+            {
+              "start": 7.0,
+              "end": 7.28,
+              "word": "Bad.",
+              "probability": 0.9729413390159607
+            },
+            {
+              "start": 7.52,
+              "end": 7.9,
+              "word": "Good.",
+              "probability": 0.9932036399841309
+            },
+            {
+              "start": 8.26,
+              "end": 8.8,
+              "word": "Amazing.",
+              "probability": 0.9968920350074768
+            },
+            {
+              "start": 9.56,
+              "end": 9.9,
+              "word": "Bad.",
+              "probability": 0.9927424192428589
+            },
+            {
+              "start": 10.12,
+              "end": 10.52,
+              "word": "Good.",
+              "probability": 0.9965253472328186
+            },
+            {
+              "start": 10.78,
+              "end": 11.26,
+              "word": "Amazing.",
+              "probability": 0.9968146681785583
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "file": "DXeO8kdDCiB.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/vinny_creative/DXeO8kdDCiB.mp4",
+      "duration": 12.377625,
+      "language": "en",
+      "language_probability": 1.0,
+      "mode": "full-word-timestamps",
+      "text": "This one's paid, this one's free.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.16,
+          "text": "This one's paid, this one's free.",
+          "avg_logprob": -0.3509179995610164,
+          "no_speech_prob": 0.16763977706432343,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.26,
+              "word": "This",
+              "probability": 0.7253953218460083
+            },
+            {
+              "start": 0.26,
+              "end": 0.52,
+              "word": "one's",
+              "probability": 0.9025486409664154
+            },
+            {
+              "start": 0.52,
+              "end": 0.86,
+              "word": "paid,",
+              "probability": 0.9429555535316467
+            },
+            {
+              "start": 1.14,
+              "end": 1.44,
+              "word": "this",
+              "probability": 0.9325140118598938
+            },
+            {
+              "start": 1.44,
+              "end": 1.78,
+              "word": "one's",
+              "probability": 0.9957371056079865
+            },
+            {
+              "start": 1.78,
+              "end": 2.16,
+              "word": "free.",
+              "probability": 0.9973245859146118
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "file": "DXeP9HmDNxI.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/vinny_creative/DXeP9HmDNxI.mp4",
+      "duration": 26.6346875,
+      "language": "en",
+      "language_probability": 1.0,
+      "mode": "full-word-timestamps",
+      "text": "Have you guys seen those numbers? 86% of designers are going to be replaceable by AI, this is insane. To be honest at first I almost shit myself but then it hit me that there's a type of a designer who will never be replaced by AI and that brought me a little bit of peace to my mind honestly. I've talked all about it in my BBT highlight, go there check it out and don't you worry everything's gonna be alright, but just for one type of a designer.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 7.46,
+          "text": "Have you guys seen those numbers? 86% of designers are going to be replaceable by AI, this is insane.",
+          "avg_logprob": -0.17339228698522738,
+          "no_speech_prob": 0.018162868916988373,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.22,
+              "word": "Have",
+              "probability": 0.7243692278862
+            },
+            {
+              "start": 0.22,
+              "end": 0.38,
+              "word": "you",
+              "probability": 0.9983707070350647
+            },
+            {
+              "start": 0.38,
+              "end": 0.56,
+              "word": "guys",
+              "probability": 0.9851295948028564
+            },
+            {
+              "start": 0.56,
+              "end": 0.86,
+              "word": "seen",
+              "probability": 0.9921292066574097
+            },
+            {
+              "start": 0.86,
+              "end": 1.06,
+              "word": "those",
+              "probability": 0.9706054329872131
+            },
+            {
+              "start": 1.06,
+              "end": 1.48,
+              "word": "numbers?",
+              "probability": 0.9945987462997437
+            },
+            {
+              "start": 2.02,
+              "end": 2.5,
+              "word": "86",
+              "probability": 0.9449750781059265
+            },
+            {
+              "start": 2.5,
+              "end": 3.04,
+              "word": "%",
+              "probability": 0.8611884713172913
+            },
+            {
+              "start": 3.04,
+              "end": 3.24,
+              "word": "of",
+              "probability": 0.98600172996521
+            },
+            {
+              "start": 3.24,
+              "end": 3.64,
+              "word": "designers",
+              "probability": 0.973373293876648
+            },
+            {
+              "start": 3.64,
+              "end": 4.0,
+              "word": "are",
+              "probability": 0.9875932335853577
+            },
+            {
+              "start": 4.0,
+              "end": 4.28,
+              "word": "going",
+              "probability": 0.9867369532585144
+            },
+            {
+              "start": 4.28,
+              "end": 4.46,
+              "word": "to",
+              "probability": 0.9978273510932922
+            },
+            {
+              "start": 4.46,
+              "end": 4.58,
+              "word": "be",
+              "probability": 0.9671874046325684
+            },
+            {
+              "start": 4.58,
+              "end": 5.14,
+              "word": "replaceable",
+              "probability": 0.9453289806842804
+            },
+            {
+              "start": 5.14,
+              "end": 5.44,
+              "word": "by",
+              "probability": 0.9881866574287415
+            },
+            {
+              "start": 5.44,
+              "end": 5.82,
+              "word": "AI,",
+              "probability": 0.931938648223877
+            },
+            {
+              "start": 6.46,
+              "end": 6.66,
+              "word": "this",
+              "probability": 0.9544288516044617
+            },
+            {
+              "start": 6.66,
+              "end": 6.8,
+              "word": "is",
+              "probability": 0.9975937008857727
+            },
+            {
+              "start": 6.8,
+              "end": 7.46,
+              "word": "insane.",
+              "probability": 0.9708243608474731
+            }
+          ]
+        },
+        {
+          "start": 7.7,
+          "end": 12.62,
+          "text": "To be honest at first I almost shit myself but then it hit me that there's a type of a designer",
+          "avg_logprob": -0.17339228698522738,
+          "no_speech_prob": 0.018162868916988373,
+          "words": [
+            {
+              "start": 7.7,
+              "end": 7.76,
+              "word": "To",
+              "probability": 0.9727981686592102
+            },
+            {
+              "start": 7.76,
+              "end": 7.92,
+              "word": "be",
+              "probability": 0.9986066222190857
+            },
+            {
+              "start": 7.92,
+              "end": 8.14,
+              "word": "honest",
+              "probability": 0.9968984127044678
+            },
+            {
+              "start": 8.14,
+              "end": 8.4,
+              "word": "at",
+              "probability": 0.35817456245422363
+            },
+            {
+              "start": 8.4,
+              "end": 8.72,
+              "word": "first",
+              "probability": 0.9695684313774109
+            },
+            {
+              "start": 8.72,
+              "end": 9.02,
+              "word": "I",
+              "probability": 0.8145192265510559
+            },
+            {
+              "start": 9.02,
+              "end": 9.24,
+              "word": "almost",
+              "probability": 0.98973149061203
+            },
+            {
+              "start": 9.24,
+              "end": 9.54,
+              "word": "shit",
+              "probability": 0.5364658236503601
+            },
+            {
+              "start": 9.54,
+              "end": 10.08,
+              "word": "myself",
+              "probability": 0.9871345162391663
+            },
+            {
+              "start": 10.08,
+              "end": 10.32,
+              "word": "but",
+              "probability": 0.19910584390163422
+            },
+            {
+              "start": 10.32,
+              "end": 10.46,
+              "word": "then",
+              "probability": 0.9821546077728271
+            },
+            {
+              "start": 10.46,
+              "end": 10.56,
+              "word": "it",
+              "probability": 0.9929325580596924
+            },
+            {
+              "start": 10.56,
+              "end": 10.78,
+              "word": "hit",
+              "probability": 0.9900705218315125
+            },
+            {
+              "start": 10.78,
+              "end": 11.0,
+              "word": "me",
+              "probability": 0.997386634349823
+            },
+            {
+              "start": 11.0,
+              "end": 11.46,
+              "word": "that",
+              "probability": 0.8941745162010193
+            },
+            {
+              "start": 11.46,
+              "end": 11.66,
+              "word": "there's",
+              "probability": 0.9269337356090546
+            },
+            {
+              "start": 11.66,
+              "end": 11.76,
+              "word": "a",
+              "probability": 0.9469686150550842
+            },
+            {
+              "start": 11.76,
+              "end": 12.0,
+              "word": "type",
+              "probability": 0.9929901361465454
+            },
+            {
+              "start": 12.0,
+              "end": 12.14,
+              "word": "of",
+              "probability": 0.9953721165657043
+            },
+            {
+              "start": 12.14,
+              "end": 12.26,
+              "word": "a",
+              "probability": 0.8872923851013184
+            },
+            {
+              "start": 12.26,
+              "end": 12.62,
+              "word": "designer",
+              "probability": 0.9947634935379028
+            }
+          ]
+        },
+        {
+          "start": 12.62,
+          "end": 18.2,
+          "text": "who will never be replaced by AI and that brought me a little bit of peace to my mind honestly.",
+          "avg_logprob": -0.17339228698522738,
+          "no_speech_prob": 0.018162868916988373,
+          "words": [
+            {
+              "start": 12.62,
+              "end": 13.1,
+              "word": "who",
+              "probability": 0.9628823399543762
+            },
+            {
+              "start": 13.1,
+              "end": 13.34,
+              "word": "will",
+              "probability": 0.9911584258079529
+            },
+            {
+              "start": 13.34,
+              "end": 13.8,
+              "word": "never",
+              "probability": 0.9380152225494385
+            },
+            {
+              "start": 13.8,
+              "end": 14.12,
+              "word": "be",
+              "probability": 0.992885172367096
+            },
+            {
+              "start": 14.12,
+              "end": 14.52,
+              "word": "replaced",
+              "probability": 0.9386377930641174
+            },
+            {
+              "start": 14.52,
+              "end": 14.8,
+              "word": "by",
+              "probability": 0.9957697987556458
+            },
+            {
+              "start": 14.8,
+              "end": 15.24,
+              "word": "AI",
+              "probability": 0.9727839827537537
+            },
+            {
+              "start": 15.24,
+              "end": 15.66,
+              "word": "and",
+              "probability": 0.7655488848686218
+            },
+            {
+              "start": 15.66,
+              "end": 15.84,
+              "word": "that",
+              "probability": 0.989271879196167
+            },
+            {
+              "start": 15.84,
+              "end": 16.06,
+              "word": "brought",
+              "probability": 0.9965895414352417
+            },
+            {
+              "start": 16.06,
+              "end": 16.26,
+              "word": "me",
+              "probability": 0.980409562587738
+            },
+            {
+              "start": 16.26,
+              "end": 16.34,
+              "word": "a",
+              "probability": 0.9918890595436096
+            },
+            {
+              "start": 16.34,
+              "end": 16.5,
+              "word": "little",
+              "probability": 0.968848705291748
+            },
+            {
+              "start": 16.5,
+              "end": 16.64,
+              "word": "bit",
+              "probability": 0.965563178062439
+            },
+            {
+              "start": 16.64,
+              "end": 16.78,
+              "word": "of",
+              "probability": 0.9937281608581543
+            },
+            {
+              "start": 16.78,
+              "end": 17.06,
+              "word": "peace",
+              "probability": 0.9732697606086731
+            },
+            {
+              "start": 17.06,
+              "end": 17.28,
+              "word": "to",
+              "probability": 0.9829102158546448
+            },
+            {
+              "start": 17.28,
+              "end": 17.44,
+              "word": "my",
+              "probability": 0.9963514804840088
+            },
+            {
+              "start": 17.44,
+              "end": 17.78,
+              "word": "mind",
+              "probability": 0.9994932413101196
+            },
+            {
+              "start": 17.78,
+              "end": 18.2,
+              "word": "honestly.",
+              "probability": 0.7922275066375732
+            }
+          ]
+        },
+        {
+          "start": 18.48,
+          "end": 24.26,
+          "text": "I've talked all about it in my BBT highlight, go there check it out and don't you worry everything's",
+          "avg_logprob": -0.17339228698522738,
+          "no_speech_prob": 0.018162868916988373,
+          "words": [
+            {
+              "start": 18.48,
+              "end": 18.62,
+              "word": "I've",
+              "probability": 0.9873958826065063
+            },
+            {
+              "start": 18.62,
+              "end": 18.82,
+              "word": "talked",
+              "probability": 0.9889050722122192
+            },
+            {
+              "start": 18.82,
+              "end": 19.18,
+              "word": "all",
+              "probability": 0.9874544143676758
+            },
+            {
+              "start": 19.18,
+              "end": 19.4,
+              "word": "about",
+              "probability": 0.9984914064407349
+            },
+            {
+              "start": 19.4,
+              "end": 19.76,
+              "word": "it",
+              "probability": 0.9883223176002502
+            },
+            {
+              "start": 19.76,
+              "end": 20.04,
+              "word": "in",
+              "probability": 0.9858158826828003
+            },
+            {
+              "start": 20.04,
+              "end": 20.18,
+              "word": "my",
+              "probability": 0.9970787763595581
+            },
+            {
+              "start": 20.18,
+              "end": 20.62,
+              "word": "BBT",
+              "probability": 0.9120354354381561
+            },
+            {
+              "start": 20.62,
+              "end": 20.98,
+              "word": "highlight,",
+              "probability": 0.8184459209442139
+            },
+            {
+              "start": 21.46,
+              "end": 21.66,
+              "word": "go",
+              "probability": 0.9723408222198486
+            },
+            {
+              "start": 21.66,
+              "end": 21.94,
+              "word": "there",
+              "probability": 0.9941338896751404
+            },
+            {
+              "start": 21.94,
+              "end": 22.18,
+              "word": "check",
+              "probability": 0.5124863386154175
+            },
+            {
+              "start": 22.18,
+              "end": 22.4,
+              "word": "it",
+              "probability": 0.9987351298332214
+            },
+            {
+              "start": 22.4,
+              "end": 22.62,
+              "word": "out",
+              "probability": 0.9968926906585693
+            },
+            {
+              "start": 22.62,
+              "end": 22.9,
+              "word": "and",
+              "probability": 0.9431838393211365
+            },
+            {
+              "start": 22.9,
+              "end": 23.22,
+              "word": "don't",
+              "probability": 0.993053674697876
+            },
+            {
+              "start": 23.22,
+              "end": 23.38,
+              "word": "you",
+              "probability": 0.9819046854972839
+            },
+            {
+              "start": 23.38,
+              "end": 23.64,
+              "word": "worry",
+              "probability": 0.9989224672317505
+            },
+            {
+              "start": 23.64,
+              "end": 24.26,
+              "word": "everything's",
+              "probability": 0.7715517580509186
+            }
+          ]
+        },
+        {
+          "start": 24.26,
+          "end": 26.36,
+          "text": "gonna be alright, but just for one type of a designer.",
+          "avg_logprob": -0.29374449513852596,
+          "no_speech_prob": 0.009809209033846855,
+          "words": [
+            {
+              "start": 24.26,
+              "end": 24.4,
+              "word": "gonna",
+              "probability": 0.4471517503261566
+            },
+            {
+              "start": 24.4,
+              "end": 24.56,
+              "word": "be",
+              "probability": 0.9777922630310059
+            },
+            {
+              "start": 24.56,
+              "end": 24.8,
+              "word": "alright,",
+              "probability": 0.9654299020767212
+            },
+            {
+              "start": 25.02,
+              "end": 25.1,
+              "word": "but",
+              "probability": 0.9672921299934387
+            },
+            {
+              "start": 25.1,
+              "end": 25.3,
+              "word": "just",
+              "probability": 0.9845501780509949
+            },
+            {
+              "start": 25.3,
+              "end": 25.48,
+              "word": "for",
+              "probability": 0.9759075045585632
+            },
+            {
+              "start": 25.48,
+              "end": 25.68,
+              "word": "one",
+              "probability": 0.967535138130188
+            },
+            {
+              "start": 25.68,
+              "end": 25.86,
+              "word": "type",
+              "probability": 0.9865017533302307
+            },
+            {
+              "start": 25.86,
+              "end": 26.02,
+              "word": "of",
+              "probability": 0.9956533908843994
+            },
+            {
+              "start": 26.02,
+              "end": 26.1,
+              "word": "a",
+              "probability": 0.6008613109588623
+            },
+            {
+              "start": 26.1,
+              "end": 26.36,
+              "word": "designer.",
+              "probability": 0.9876673221588135
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "file": "DXenjphjDV9.mp4",
+      "path": "/Users/cicilan/Desktop/partake_videos/vinny_creative/DXenjphjDV9.mp4",
+      "duration": 34.018625,
+      "language": "en",
+      "language_probability": 1.0,
+      "mode": "full-word-timestamps",
+      "text": "There's only one type of a designer AI will never replace. Most designers work with their hands and not their heads. Let me explain. Graphic designers just copy Pinterest and move in pictures all the way around. Web designers are moving blocks in framework or webflow. So what do they have in common? There's no thinking. The designers who will survive the next five years in the era of AI will have to think strategically. What's that type of a designer who will survive all of it. Check out my highlight BBD to find out.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.14,
+          "text": "There's only one type of a designer AI will never replace.",
+          "avg_logprob": -0.1332675426945848,
+          "no_speech_prob": 0.0013206928269937634,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.24,
+              "word": "There's",
+              "probability": 0.7520928084850311
+            },
+            {
+              "start": 0.24,
+              "end": 0.6,
+              "word": "only",
+              "probability": 0.9843653440475464
+            },
+            {
+              "start": 0.6,
+              "end": 1.0,
+              "word": "one",
+              "probability": 0.9699666500091553
+            },
+            {
+              "start": 1.0,
+              "end": 1.36,
+              "word": "type",
+              "probability": 0.9903455376625061
+            },
+            {
+              "start": 1.36,
+              "end": 1.58,
+              "word": "of",
+              "probability": 0.9970813393592834
+            },
+            {
+              "start": 1.58,
+              "end": 1.7,
+              "word": "a",
+              "probability": 0.846121609210968
+            },
+            {
+              "start": 1.7,
+              "end": 2.2,
+              "word": "designer",
+              "probability": 0.9832828044891357
+            },
+            {
+              "start": 2.2,
+              "end": 2.76,
+              "word": "AI",
+              "probability": 0.5321463346481323
+            },
+            {
+              "start": 2.76,
+              "end": 3.14,
+              "word": "will",
+              "probability": 0.9897890686988831
+            },
+            {
+              "start": 3.14,
+              "end": 3.5,
+              "word": "never",
+              "probability": 0.9774982929229736
+            },
+            {
+              "start": 3.5,
+              "end": 4.14,
+              "word": "replace.",
+              "probability": 0.9918056726455688
+            }
+          ]
+        },
+        {
+          "start": 4.7,
+          "end": 8.18,
+          "text": "Most designers work with their hands and not their heads.",
+          "avg_logprob": -0.1332675426945848,
+          "no_speech_prob": 0.0013206928269937634,
+          "words": [
+            {
+              "start": 4.7,
+              "end": 4.94,
+              "word": "Most",
+              "probability": 0.911371648311615
+            },
+            {
+              "start": 4.94,
+              "end": 5.36,
+              "word": "designers",
+              "probability": 0.985458493232727
+            },
+            {
+              "start": 5.36,
+              "end": 5.74,
+              "word": "work",
+              "probability": 0.38740551471710205
+            },
+            {
+              "start": 5.74,
+              "end": 6.0,
+              "word": "with",
+              "probability": 0.988308310508728
+            },
+            {
+              "start": 6.0,
+              "end": 6.22,
+              "word": "their",
+              "probability": 0.9930309653282166
+            },
+            {
+              "start": 6.22,
+              "end": 6.84,
+              "word": "hands",
+              "probability": 0.9825531244277954
+            },
+            {
+              "start": 6.84,
+              "end": 7.26,
+              "word": "and",
+              "probability": 0.7995906472206116
+            },
+            {
+              "start": 7.26,
+              "end": 7.44,
+              "word": "not",
+              "probability": 0.9795476198196411
+            },
+            {
+              "start": 7.44,
+              "end": 7.7,
+              "word": "their",
+              "probability": 0.9811182618141174
+            },
+            {
+              "start": 7.7,
+              "end": 8.18,
+              "word": "heads.",
+              "probability": 0.971935510635376
+            }
+          ]
+        },
+        {
+          "start": 8.44,
+          "end": 9.16,
+          "text": "Let me explain.",
+          "avg_logprob": -0.1332675426945848,
+          "no_speech_prob": 0.0013206928269937634,
+          "words": [
+            {
+              "start": 8.44,
+              "end": 8.62,
+              "word": "Let",
+              "probability": 0.9497655034065247
+            },
+            {
+              "start": 8.62,
+              "end": 8.74,
+              "word": "me",
+              "probability": 0.9986315369606018
+            },
+            {
+              "start": 8.74,
+              "end": 9.16,
+              "word": "explain.",
+              "probability": 0.9985218644142151
+            }
+          ]
+        },
+        {
+          "start": 9.42,
+          "end": 11.24,
+          "text": "Graphic designers just copy Pinterest",
+          "avg_logprob": -0.1332675426945848,
+          "no_speech_prob": 0.0013206928269937634,
+          "words": [
+            {
+              "start": 9.42,
+              "end": 9.74,
+              "word": "Graphic",
+              "probability": 0.9758551716804504
+            },
+            {
+              "start": 9.74,
+              "end": 10.12,
+              "word": "designers",
+              "probability": 0.9519125819206238
+            },
+            {
+              "start": 10.12,
+              "end": 10.42,
+              "word": "just",
+              "probability": 0.9843839406967163
+            },
+            {
+              "start": 10.42,
+              "end": 10.78,
+              "word": "copy",
+              "probability": 0.9523453116416931
+            },
+            {
+              "start": 10.78,
+              "end": 11.24,
+              "word": "Pinterest",
+              "probability": 0.8955416083335876
+            }
+          ]
+        },
+        {
+          "start": 11.24,
+          "end": 13.6,
+          "text": "and move in pictures all the way around.",
+          "avg_logprob": -0.1332675426945848,
+          "no_speech_prob": 0.0013206928269937634,
+          "words": [
+            {
+              "start": 11.24,
+              "end": 11.82,
+              "word": "and",
+              "probability": 0.9574438333511353
+            },
+            {
+              "start": 11.82,
+              "end": 12.08,
+              "word": "move",
+              "probability": 0.5064316391944885
+            },
+            {
+              "start": 12.08,
+              "end": 12.24,
+              "word": "in",
+              "probability": 0.7686440348625183
+            },
+            {
+              "start": 12.24,
+              "end": 12.54,
+              "word": "pictures",
+              "probability": 0.9943760633468628
+            },
+            {
+              "start": 12.54,
+              "end": 12.92,
+              "word": "all",
+              "probability": 0.9929172992706299
+            },
+            {
+              "start": 12.92,
+              "end": 13.04,
+              "word": "the",
+              "probability": 0.9967582821846008
+            },
+            {
+              "start": 13.04,
+              "end": 13.24,
+              "word": "way",
+              "probability": 0.998264491558075
+            },
+            {
+              "start": 13.24,
+              "end": 13.6,
+              "word": "around.",
+              "probability": 0.9942232966423035
+            }
+          ]
+        },
+        {
+          "start": 13.86,
+          "end": 17.24,
+          "text": "Web designers are moving blocks in framework or webflow.",
+          "avg_logprob": -0.1332675426945848,
+          "no_speech_prob": 0.0013206928269937634,
+          "words": [
+            {
+              "start": 13.86,
+              "end": 13.98,
+              "word": "Web",
+              "probability": 0.9854375123977661
+            },
+            {
+              "start": 13.98,
+              "end": 14.46,
+              "word": "designers",
+              "probability": 0.971587061882019
+            },
+            {
+              "start": 14.46,
+              "end": 14.82,
+              "word": "are",
+              "probability": 0.9847956895828247
+            },
+            {
+              "start": 14.82,
+              "end": 15.12,
+              "word": "moving",
+              "probability": 0.9932892918586731
+            },
+            {
+              "start": 15.12,
+              "end": 15.64,
+              "word": "blocks",
+              "probability": 0.9828478097915649
+            },
+            {
+              "start": 15.64,
+              "end": 15.82,
+              "word": "in",
+              "probability": 0.9775089025497437
+            },
+            {
+              "start": 15.82,
+              "end": 16.26,
+              "word": "framework",
+              "probability": 0.13708378374576569
+            },
+            {
+              "start": 16.26,
+              "end": 16.6,
+              "word": "or",
+              "probability": 0.9672068357467651
+            },
+            {
+              "start": 16.6,
+              "end": 17.24,
+              "word": "webflow.",
+              "probability": 0.636509507894516
+            }
+          ]
+        },
+        {
+          "start": 17.58,
+          "end": 19.06,
+          "text": "So what do they have in common?",
+          "avg_logprob": -0.1332675426945848,
+          "no_speech_prob": 0.0013206928269937634,
+          "words": [
+            {
+              "start": 17.58,
+              "end": 17.74,
+              "word": "So",
+              "probability": 0.9808127284049988
+            },
+            {
+              "start": 17.74,
+              "end": 18.0,
+              "word": "what",
+              "probability": 0.9122657179832458
+            },
+            {
+              "start": 18.0,
+              "end": 18.18,
+              "word": "do",
+              "probability": 0.9958718419075012
+            },
+            {
+              "start": 18.18,
+              "end": 18.32,
+              "word": "they",
+              "probability": 0.9986361861228943
+            },
+            {
+              "start": 18.32,
+              "end": 18.62,
+              "word": "have",
+              "probability": 0.9983286261558533
+            },
+            {
+              "start": 18.62,
+              "end": 18.74,
+              "word": "in",
+              "probability": 0.9862316250801086
+            },
+            {
+              "start": 18.74,
+              "end": 19.06,
+              "word": "common?",
+              "probability": 0.9991955161094666
+            }
+          ]
+        },
+        {
+          "start": 19.36,
+          "end": 20.6,
+          "text": "There's no thinking.",
+          "avg_logprob": -0.1332675426945848,
+          "no_speech_prob": 0.0013206928269937634,
+          "words": [
+            {
+              "start": 19.36,
+              "end": 19.62,
+              "word": "There's",
+              "probability": 0.8617202639579773
+            },
+            {
+              "start": 19.62,
+              "end": 19.94,
+              "word": "no",
+              "probability": 0.9945458173751831
+            },
+            {
+              "start": 19.94,
+              "end": 20.6,
+              "word": "thinking.",
+              "probability": 0.8787024617195129
+            }
+          ]
+        },
+        {
+          "start": 20.94,
+          "end": 23.44,
+          "text": "The designers who will survive the next five years",
+          "avg_logprob": -0.1332675426945848,
+          "no_speech_prob": 0.0013206928269937634,
+          "words": [
+            {
+              "start": 20.94,
+              "end": 21.02,
+              "word": "The",
+              "probability": 0.98127281665802
+            },
+            {
+              "start": 21.02,
+              "end": 21.42,
+              "word": "designers",
+              "probability": 0.9889549016952515
+            },
+            {
+              "start": 21.42,
+              "end": 21.66,
+              "word": "who",
+              "probability": 0.9759579300880432
+            },
+            {
+              "start": 21.66,
+              "end": 21.78,
+              "word": "will",
+              "probability": 0.9928590059280396
+            },
+            {
+              "start": 21.78,
+              "end": 22.26,
+              "word": "survive",
+              "probability": 0.9962514042854309
+            },
+            {
+              "start": 22.26,
+              "end": 22.54,
+              "word": "the",
+              "probability": 0.9880501627922058
+            },
+            {
+              "start": 22.54,
+              "end": 22.78,
+              "word": "next",
+              "probability": 0.9993170499801636
+            },
+            {
+              "start": 22.78,
+              "end": 23.08,
+              "word": "five",
+              "probability": 0.77427077293396
+            },
+            {
+              "start": 23.08,
+              "end": 23.44,
+              "word": "years",
+              "probability": 0.9977003931999207
+            }
+          ]
+        },
+        {
+          "start": 23.44,
+          "end": 26.98,
+          "text": "in the era of AI will have to think strategically.",
+          "avg_logprob": -0.1332675426945848,
+          "no_speech_prob": 0.0013206928269937634,
+          "words": [
+            {
+              "start": 23.44,
+              "end": 23.66,
+              "word": "in",
+              "probability": 0.9879618287086487
+            },
+            {
+              "start": 23.66,
+              "end": 23.76,
+              "word": "the",
+              "probability": 0.9966928958892822
+            },
+            {
+              "start": 23.76,
+              "end": 24.04,
+              "word": "era",
+              "probability": 0.9771690964698792
+            },
+            {
+              "start": 24.04,
+              "end": 24.24,
+              "word": "of",
+              "probability": 0.9972719550132751
+            },
+            {
+              "start": 24.24,
+              "end": 24.58,
+              "word": "AI",
+              "probability": 0.97906094789505
+            },
+            {
+              "start": 24.58,
+              "end": 25.28,
+              "word": "will",
+              "probability": 0.8323856592178345
+            },
+            {
+              "start": 25.28,
+              "end": 25.66,
+              "word": "have",
+              "probability": 0.9974834322929382
+            },
+            {
+              "start": 25.66,
+              "end": 25.9,
+              "word": "to",
+              "probability": 0.9932262301445007
+            },
+            {
+              "start": 25.9,
+              "end": 26.3,
+              "word": "think",
+              "probability": 0.9981046915054321
+            },
+            {
+              "start": 26.3,
+              "end": 26.98,
+              "word": "strategically.",
+              "probability": 0.9863860607147217
+            }
+          ]
+        },
+        {
+          "start": 27.54,
+          "end": 29.34,
+          "text": "What's that type of a designer",
+          "avg_logprob": -0.1332675426945848,
+          "no_speech_prob": 0.0013206928269937634,
+          "words": [
+            {
+              "start": 27.54,
+              "end": 27.9,
+              "word": "What's",
+              "probability": 0.9865232706069946
+            },
+            {
+              "start": 27.9,
+              "end": 28.18,
+              "word": "that",
+              "probability": 0.99024897813797
+            },
+            {
+              "start": 28.18,
+              "end": 28.64,
+              "word": "type",
+              "probability": 0.9918224215507507
+            },
+            {
+              "start": 28.64,
+              "end": 28.8,
+              "word": "of",
+              "probability": 0.9989822506904602
+            },
+            {
+              "start": 28.8,
+              "end": 28.92,
+              "word": "a",
+              "probability": 0.9869918823242188
+            },
+            {
+              "start": 28.92,
+              "end": 29.34,
+              "word": "designer",
+              "probability": 0.9948232173919678
+            }
+          ]
+        },
+        {
+          "start": 29.34,
+          "end": 31.26,
+          "text": "who will survive all of it.",
+          "avg_logprob": -0.2903642722151496,
+          "no_speech_prob": 0.04604358226060867,
+          "words": [
+            {
+              "start": 29.34,
+              "end": 29.84,
+              "word": "who",
+              "probability": 0.6558640003204346
+            },
+            {
+              "start": 29.84,
+              "end": 30.08,
+              "word": "will",
+              "probability": 0.9764587879180908
+            },
+            {
+              "start": 30.08,
+              "end": 30.48,
+              "word": "survive",
+              "probability": 0.9846068620681763
+            },
+            {
+              "start": 30.48,
+              "end": 30.88,
+              "word": "all",
+              "probability": 0.9740464687347412
+            },
+            {
+              "start": 30.88,
+              "end": 31.08,
+              "word": "of",
+              "probability": 0.9891707301139832
+            },
+            {
+              "start": 31.08,
+              "end": 31.26,
+              "word": "it.",
+              "probability": 0.9678196907043457
+            }
+          ]
+        },
+        {
+          "start": 31.44,
+          "end": 33.84,
+          "text": "Check out my highlight BBD to find out.",
+          "avg_logprob": -0.2903642722151496,
+          "no_speech_prob": 0.04604358226060867,
+          "words": [
+            {
+              "start": 31.44,
+              "end": 31.52,
+              "word": "Check",
+              "probability": 0.9494401216506958
+            },
+            {
+              "start": 31.52,
+              "end": 31.76,
+              "word": "out",
+              "probability": 0.9890574812889099
+            },
+            {
+              "start": 31.76,
+              "end": 32.0,
+              "word": "my",
+              "probability": 0.989568293094635
+            },
+            {
+              "start": 32.0,
+              "end": 32.34,
+              "word": "highlight",
+              "probability": 0.8177210092544556
+            },
+            {
+              "start": 32.34,
+              "end": 33.04,
+              "word": "BBD",
+              "probability": 0.8205034732818604
+            },
+            {
+              "start": 33.04,
+              "end": 33.24,
+              "word": "to",
+              "probability": 0.9797691106796265
+            },
+            {
+              "start": 33.24,
+              "end": 33.52,
+              "word": "find",
+              "probability": 0.9960336089134216
+            },
+            {
+              "start": 33.52,
+              "end": 33.84,
+              "word": "out.",
+              "probability": 0.9982250332832336
+            }
+          ]
+        }
+      ],
+      "error": null
+    }
+  ]
+}

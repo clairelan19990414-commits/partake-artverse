@@ -1,0 +1,341 @@
+@kaburbank · detailed transcript
+model: faster-whisper small
+clips: 7
+format: per-clip transcript with segment timestamps; generated from local mp4 files
+
+========================================================================================
+CLIP 01 · DNQ8BOEpaRO.mp4
+instagram_url: https://www.instagram.com/reel/DNQ8BOEpaRO/
+duration: 00:10:20.276 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Do you ever feel like you're being watched is not something we say because it's a warm and fuzzy feeling. It's a chilling one. Dance like no one's watching means you dance more freely. Maybe because we're less free while we're being watched. Mass surveillance could be the future in America always being watched, always being assessed. Maybe it feels like they want to keep us in line. So how did the wealthiest suburb in the United States become the front line of the fight against mass surveillance? This is the story of how Flock, a $7.5 billion surveillance company, has a proven playbook to secure local government contracts behind closed doors. Our story starts in Skarsdale Village, New York, in Westchester County where average annual household income is $569,000 a year and a typical home value is $1.4 million. I'm from the Tri-State area and my dad's a contractor. When I told him I was going to Skarsdale, he said, they don't even let you truck soil out of Skarsdale if you're doing work there. You cannot take soil or rock out, it's against the law. And I looked it up and it's true. You need a permit to take dirt and rocks out of Scarsdale because they ship such expensive stuff in. This might be the only place in the world where residents' dirt is more protected than their data. I spoke to Scarsdale residents about how something like this could have happened. Scarsdale is a very highly educated community. Maybe 5,500 households, maybe 18,000 people, very, very deliberative, very, very thoughtful community. We will debate pickleball courts, we'll debate the municipal pool, we will debate the renovations to the public library. We are still debating what to do with a parking facility in the village center. There is nothing that we won't debate, but we didn't even have a chance to debate But ever since the village board of trustees voted on April 8th without public notice to to adopt a $2.1 million contract with Flock, public discussion has revolved around mass surveillance. Okay, we have a busy mayor's comments this evening. Why was no effort ever made to engage with the community? I'm appalled by the lack of response. The system that Scarsdale wishes to implement is extremely dangerous. It is a system that seldom, if ever, provides any crime reduction or improvement in the quality of life. This board voted in secret on April 8th. Voting on the contract was not a part of the agenda. Mayor Justin Arrest moved to have a vote on the contract right there during the meeting. I do need to entertain a motion to amend the agenda for this evening for two reasons. One is to add a resolution regarding the authorization to execute an agreement with Flock Group Inc. for public safety technology. The entire process took 37 seconds total. Is there a motion? So moved. Is there a second? Second. Thank you all in favor. Great. Thank you. At the next public meeting on April 22nd, Scarsdale residents showed up and started to speak their mind about a contract that had already been inked. When announcing the contract to install 172 Flock cameras across Norfolk, the police chief Mark Talbot said his office wanted to create, quote, a nice curtain of technology that would make it, quote, difficult to drive anywhere of any distance without running into a camera somewhere, unquote. Lee Schmidt, one of the plaintiffs in the case, said four of the cameras had fenced in his neighborhood. He was outraged by the loss of privacy, said Michael Soyfer, an attorney at the Institute the justice who's representing him. He noticed that he basically couldn't leave his neighborhood without one of the cameras picking it up. That's Josh Frankel. He's how I found out about this story. He said, what's going on here is crazy. The village board has voted to adopt this massive mass surveillance contract without giving any public notice. And that did sound crazy, but I didn't know just how crazy it was. Flock apparently seems to be fond of installing cameras without permits for which they were cited and apparently have been banned in two states. Westchester County has laws limiting cooperation, but ICE has accessed a trove of data that holds license plate readers. We are looking into it. We want to get more information ourselves about what exactly happened because that That couldn't happen here Let's talk a little bit about personally how this technology works at the June 10th meeting the last meeting you said The system is extremely dangerous because of two properties Firstly, it is non-specific. It is not actively targeted only at lawbreakers but passively gathers data on Everyone whether they're suspected of an infraction or not creating a set of law enforcement records on everyone who lives in or even passes through Scarstale. Secondly, it is persistent. Because the records are kept for several weeks at the very least, they allow retroactive surveillance. Not only does the technology track citizens through space, it tracks them through time. What does that mean? Yes, so think of how police used to do surveillance. You have to have a suspicion of someone and they go get a warrant for a cup or even not, they might follow somebody on the street. But it starts with a suspicion and then there has to be action taken to follow that person going forward. That is traditional. That is a check upon power because you have to articulate a suspicion. You have that surveillance and when you feel it's not worth it, you stop. That's not what's happening here. We have a surveillance system that is just there and anytime you come across a suspicion, I don't like what he said at this meeting. What has he been doing for the past 30 days? What has he been doing for the past 90 days? You can actually go and into the database and look for stuff to see if you can tag that person with a crime. Police officers know if you follow someone in a car for a couple of miles, the likelihood is you'll be able to pull them over for something. What we're doing here is we're creating that database so that we can always do that for anyone. That you're constantly tracking people's movements. You have that system in place so that you don't need to articulate the suspicion before you're gathering data on someone before you're actually trying to tag someone with wrong doing. When you have that system there, all someone has to do is say, I don't like that person, and then you've got that surveillance already established. 40% of our crime, 40% is identity theft. How mass surveillance is going to do anything to solve our identity theft problem is beyond me vehicular theft is almost is next to nothing burglaries are next to nothing larceny is arguably not a crime that this is going to prevent in any event because it's really a crime of opportunity so so the crimes that you would expect this to aid with we don't have the property crime a few years ago, they had to send out a notice to the population, stop leaving your key fobs in your cars because that's why they get stolen. Really? I mean, and for this, we want to sacrifice a tremendous amount of privacy and our freedom. On the night of the vote, April 8th, very few residents showed up to the public meetings. Attendance at the board meetings varies. It fluctuates depending on what the agenda is. The agenda that evening they had been the board had been in a quote unquote executive session that was billed as public safety equipment. The resolution that they introduced that night and then voted on with flock safety was also billed as public safety equipment. I don't think that anybody who looked at the agenda in advance would have thought that public safety equipment involved, live cameras, license plate readers, drone technology, basically a mass surveillance system. So maybe you're thinking public safety equipment is a traffic light, a crosswalk, a yield sign, something along those lines, but not mass surveillance.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.600] Do you ever feel like you're being watched is not something we say because it's a warm
+[00:00:04.600 → 00:00:05.940] and fuzzy feeling.
+[00:00:06.260 → 00:00:07.000] It's a chilling one.
+[00:00:07.640 → 00:00:11.040] Dance like no one's watching means you dance more freely.
+[00:00:11.580 → 00:00:15.040] Maybe because we're less free while we're being watched.
+[00:00:15.660 → 00:00:19.980] Mass surveillance could be the future in America always being watched, always being assessed.
+[00:00:20.620 → 00:00:24.540] Maybe it feels like they want to keep us in line.
+[00:00:34.500 → 00:00:40.720] So how did the wealthiest suburb in the United States become the front line of the fight
+[00:00:40.720 → 00:00:41.980] against mass surveillance?
+[00:00:43.820 → 00:00:51.560] This is the story of how Flock, a $7.5 billion surveillance company, has a proven playbook
+[00:00:51.560 → 00:00:56.060] to secure local government contracts behind closed doors.
+[00:00:56.060 → 00:01:02.440] Our story starts in Skarsdale Village, New York, in Westchester County where average annual
+[00:01:02.440 → 00:01:10.580] household income is $569,000 a year and a typical home value is $1.4 million.
+[00:01:11.780 → 00:01:15.080] I'm from the Tri-State area and my dad's a contractor.
+[00:01:15.520 → 00:01:19.740] When I told him I was going to Skarsdale, he said, they don't even let you truck
+[00:01:19.740 → 00:01:22.300] soil out of Skarsdale if you're doing work there.
+[00:01:22.420 → 00:01:25.440] You cannot take soil or rock out, it's against the law.
+[00:01:25.440 → 00:01:32.780] And I looked it up and it's true. You need a permit to take dirt and rocks out of
+[00:01:32.780 → 00:01:37.940] Scarsdale because they ship such expensive stuff in. This might be the
+[00:01:37.940 → 00:01:41.840] only place in the world where residents' dirt is more protected than their data.
+[00:01:43.440 → 00:01:47.240] I spoke to Scarsdale residents about how something like this could have
+[00:01:47.240 → 00:01:54.400] happened. Scarsdale is a very highly educated community. Maybe 5,500
+[00:01:54.400 → 00:02:03.380] households, maybe 18,000 people, very, very deliberative, very, very thoughtful community.
+[00:02:04.340 → 00:02:10.480] We will debate pickleball courts, we'll debate the municipal pool, we will debate the renovations
+[00:02:10.480 → 00:02:17.240] to the public library. We are still debating what to do with a parking facility in the
+[00:02:17.240 → 00:02:24.270] village center. There is nothing that we won't debate, but we didn't even have a chance to debate
+[00:02:45.890 → 00:02:53.330] But ever since the village board of trustees voted on April 8th without public notice to
+[00:02:53.330 → 00:02:56.770] to adopt a $2.1 million contract with Flock,
+[00:02:57.230 → 00:03:00.150] public discussion has revolved around mass surveillance.
+[00:03:01.090 → 00:03:05.370] Okay, we have a busy mayor's comments this evening.
+[00:03:05.870 → 00:03:09.370] Why was no effort ever made to engage with the community?
+[00:03:09.650 → 00:03:12.630] I'm appalled by the lack of response.
+[00:03:13.210 → 00:03:14.990] The system that Scarsdale wishes to implement
+[00:03:14.990 → 00:03:16.430] is extremely dangerous.
+[00:03:16.870 → 00:03:18.610] It is a system that seldom, if ever,
+[00:03:19.010 → 00:03:20.670] provides any crime reduction
+[00:03:20.670 → 00:03:23.250] or improvement in the quality of life.
+[00:03:23.410 → 00:03:28.390] This board voted in secret on April 8th.
+[00:03:28.390 → 00:03:31.070] Voting on the contract was not a part of the agenda.
+[00:03:31.510 → 00:03:34.390] Mayor Justin Arrest moved to have a vote
+[00:03:34.390 → 00:03:36.850] on the contract right there during the meeting.
+[00:03:37.130 → 00:03:40.270] I do need to entertain a motion to amend the agenda
+[00:03:40.270 → 00:03:42.290] for this evening for two reasons.
+[00:03:42.390 → 00:03:45.270] One is to add a resolution regarding
+[00:03:45.270 → 00:03:47.570] the authorization to execute an agreement
+[00:03:47.570 → 00:03:53.270] with Flock Group Inc. for public safety technology. The entire process took 37 seconds total.
+[00:03:53.650 → 00:03:58.590] Is there a motion? So moved. Is there a second? Second. Thank you all in favor. Great. Thank you.
+[00:03:58.670 → 00:04:03.430] At the next public meeting on April 22nd, Scarsdale residents showed up and started to speak
+[00:04:03.430 → 00:04:08.270] their mind about a contract that had already been inked. When announcing the contract to
+[00:04:08.270 → 00:04:15.110] install 172 Flock cameras across Norfolk, the police chief Mark Talbot said his office wanted
+[00:04:15.110 → 00:04:21.970] to create, quote, a nice curtain of technology that would make it, quote, difficult to drive
+[00:04:21.970 → 00:04:28.110] anywhere of any distance without running into a camera somewhere, unquote. Lee Schmidt,
+[00:04:28.290 → 00:04:33.430] one of the plaintiffs in the case, said four of the cameras had fenced in his neighborhood.
+[00:04:33.990 → 00:04:39.350] He was outraged by the loss of privacy, said Michael Soyfer, an attorney at the Institute
+[00:04:39.350 → 00:04:45.320] the justice who's representing him. He noticed that he basically couldn't leave his neighborhood
+[00:04:45.320 → 00:04:51.060] without one of the cameras picking it up. That's Josh Frankel. He's how I found out about this story.
+[00:04:51.680 → 00:04:55.860] He said, what's going on here is crazy. The village board has voted to adopt this
+[00:04:55.860 → 00:05:02.580] massive mass surveillance contract without giving any public notice. And that did sound crazy,
+[00:05:02.580 → 00:05:04.980] but I didn't know just how crazy it was.
+[00:05:05.320 → 00:05:14.110] Flock apparently seems to be fond of installing cameras without permits for which they were
+[00:05:14.110 → 00:05:16.770] cited and apparently have been banned in two states.
+[00:05:17.470 → 00:05:23.410] Westchester County has laws limiting cooperation, but ICE has accessed a trove of data that
+[00:05:23.410 → 00:05:25.150] holds license plate readers.
+[00:05:25.930 → 00:05:27.110] We are looking into it.
+[00:05:27.570 → 00:05:31.330] We want to get more information ourselves about what exactly happened because that
+[00:05:31.330 → 00:05:32.630] That couldn't happen here
+[00:05:33.870 → 00:05:40.050] Let's talk a little bit about personally how this technology works at the June 10th meeting the last meeting you said
+[00:05:40.050 → 00:05:43.630] The system is extremely dangerous because of two properties
+[00:05:44.410 → 00:05:50.250] Firstly, it is non-specific. It is not actively targeted only at lawbreakers
+[00:05:50.250 → 00:05:52.790] but passively gathers data on
+[00:05:53.310 → 00:05:56.330] Everyone whether they're suspected of an infraction or not
+[00:05:56.330 → 00:06:01.370] creating a set of law enforcement records on everyone who lives in or even
+[00:06:01.370 → 00:06:06.960] passes through Scarstale. Secondly, it is persistent. Because the records are kept
+[00:06:06.960 → 00:06:11.760] for several weeks at the very least, they allow retroactive surveillance. Not
+[00:06:11.760 → 00:06:16.660] only does the technology track citizens through space, it tracks them through
+[00:06:16.660 → 00:06:21.960] time. What does that mean? Yes, so think of how police used to do
+[00:06:21.960 → 00:06:25.660] surveillance. You have to have a suspicion of someone and they go get
+[00:06:25.660 → 00:06:30.680] a warrant for a cup or even not, they might follow somebody on the street. But it starts
+[00:06:30.680 → 00:06:37.220] with a suspicion and then there has to be action taken to follow that person going forward.
+[00:06:39.570 → 00:06:55.590] That is traditional. That is a check upon power because you have to articulate a suspicion. You
+[00:06:55.590 → 00:07:01.870] have that surveillance and when you feel it's not worth it, you stop. That's not
+[00:07:01.870 → 00:07:06.640] what's happening here. We have a surveillance system that is just there
+[00:07:07.030 → 00:07:13.390] and anytime you come across a suspicion, I don't like what he said at this
+[00:07:13.390 → 00:07:17.570] meeting. What has he been doing for the past 30 days? What has he been doing for
+[00:07:17.570 → 00:07:22.610] the past 90 days? You can actually go and into the database and look for
+[00:07:22.610 → 00:07:27.170] stuff to see if you can tag that person with a crime.
+[00:07:29.610 → 00:07:34.910] Police officers know if you follow someone in a car for a couple of miles, the likelihood
+[00:07:34.910 → 00:07:37.030] is you'll be able to pull them over for something.
+[00:07:37.940 → 00:07:42.560] What we're doing here is we're creating that database so that we can always do that for
+[00:07:42.560 → 00:07:43.080] anyone.
+[00:07:43.480 → 00:07:46.580] That you're constantly tracking people's movements.
+[00:07:47.580 → 00:07:53.080] You have that system in place so that you don't need to articulate the suspicion
+[00:07:53.080 → 00:07:58.880] before you're gathering data on someone before you're actually trying to tag someone with wrong
+[00:07:58.880 → 00:08:03.840] doing. When you have that system there, all someone has to do is say, I don't like that person,
+[00:08:03.940 → 00:08:12.280] and then you've got that surveillance already established. 40% of our crime, 40% is identity
+[00:08:12.280 → 00:08:20.990] theft. How mass surveillance is going to do anything to solve our identity theft problem
+[00:08:20.990 → 00:08:29.470] is beyond me vehicular theft is almost is next to nothing burglaries are next to
+[00:08:29.470 → 00:08:36.890] nothing larceny is arguably not a crime that this is going to prevent in any
+[00:08:36.890 → 00:08:42.890] event because it's really a crime of opportunity so so the crimes that you
+[00:08:42.890 → 00:08:51.040] would expect this to aid with we don't have the property crime a few years
+[00:08:51.040 → 00:08:57.880] ago, they had to send out a notice to the population, stop leaving your key fobs in
+[00:08:57.880 → 00:09:03.700] your cars because that's why they get stolen. Really? I mean, and for this, we
+[00:09:03.700 → 00:09:07.260] want to sacrifice a tremendous amount of privacy and our freedom.
+[00:09:10.950 → 00:09:14.270] On the night of the vote, April 8th, very few residents showed up to the
+[00:09:14.270 → 00:09:14.910] public meetings.
+[00:09:15.010 → 00:09:20.390] Attendance at the board meetings varies. It fluctuates depending on what the
+[00:09:20.390 → 00:09:26.990] agenda is. The agenda that evening they had been the board had been in a quote
+[00:09:26.990 → 00:09:34.530] unquote executive session that was billed as public safety equipment. The
+[00:09:34.530 → 00:09:38.750] resolution that they introduced that night and then voted on with flock
+[00:09:38.750 → 00:09:44.130] safety was also billed as public safety equipment. I don't think that
+[00:09:44.130 → 00:09:48.810] anybody who looked at the agenda in advance would have thought that public
+[00:09:48.810 → 00:09:56.510] safety equipment involved, live cameras, license plate readers, drone technology, basically
+[00:09:56.850 → 00:09:58.590] a mass surveillance system.
+[00:09:59.780 → 00:10:08.450] So maybe you're thinking public safety equipment is a traffic light, a crosswalk, a yield
+[00:10:08.450 → 00:10:12.330] sign, something along those lines, but not mass surveillance.
+
+========================================================================================
+CLIP 02 · DV_w9K2gv1p.mp4
+instagram_url: https://www.instagram.com/reel/w9K2gv1p/
+duration: 00:02:22.700 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Let's talk about the people in the Trump administration that might stand to financially benefit from the war in Iran. This is Stephen Feinberg, the deputy secretary of defense. He's a billionaire, and the former CEO of Kerberus Capital Management. He divested his stake, but gave it to his adult children in an irrevocable trust, which is a legal but ethically questionable move. He is overseeing the $151 billion Golden Dome project. This is a planetary missile defense system, and they've already granted awards for four of the firms that Kerberus either owns or is a majority investor in. This is Mark Berkowitz, the assistant secretary of defense for space policy. He lives in the revolving door. He served in Clinton's defense department, then as a vice president of strategy at Lockheed Martin for about 20 years. Lockheed has received $740 billion of defense contracts since 2008. He still owns about five million in stock. This is Benjamin Coleman, a McKinsey consultant who became the COO at at Kubit Capital, a defense-focused investment firm. Because those exist. In 2023, he was the CEO at Farcast, which is a telecommunications company that Lockheed Martin invested $2 million in. This is Kirsten Davies, Chief Information Officer for the DOD, a long-time private sector consultant having advised the defense contractor, Talon Cybersecurity, and a board member of Clarity, an Israeli cybersecurity firm connected to the IDF. Mark Anderson came to the Department of Defense after a 22-year stint at Ernst & Young, A massive accounting firm that has won $2.28 billion in defense department contracts. He was also a partner at a venture capital firm called Iron Gate Group, which has invested in firms with millions of dollars in active government contracts. Anthony Tata is a longtime consultant that is now at the DOD. Since 2023, he has worked with a number of DOD contractors. Eldridge Covey is an interesting one, whose grandfather was the director of the CIA. He's worked as a consultant for Telemus Group, which has been awarded at least $20 million in defense contracts, but he advised in wargaming and defense forecast. We can keep going. Here's Joseph Jewel. A personics consultant for Toyon Research, Toyon has won nearly $471 million in defense contracts. And just by comparison, the people fighting the wars, active military recruits in the United States, 62% come from families that are below median income in the United States. So I don't know, I kind of feel like these guys have different priorities than maybe you or I do when it comes to deciding to take military action.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.460] Let's talk about the people in the Trump administration that might stand to financially
+[00:00:03.460 → 00:00:05.460] benefit from the war in Iran.
+[00:00:05.640 → 00:00:08.420] This is Stephen Feinberg, the deputy secretary of defense.
+[00:00:08.660 → 00:00:11.520] He's a billionaire, and the former CEO of Kerberus Capital Management.
+[00:00:11.680 → 00:00:17.140] He divested his stake, but gave it to his adult children in an irrevocable trust, which
+[00:00:17.140 → 00:00:19.420] is a legal but ethically questionable move.
+[00:00:19.640 → 00:00:23.940] He is overseeing the $151 billion Golden Dome project.
+[00:00:24.200 → 00:00:27.840] This is a planetary missile defense system, and they've already granted awards
+[00:00:27.840 → 00:00:32.120] for four of the firms that Kerberus either owns or is a majority investor in.
+[00:00:32.180 → 00:00:35.360] This is Mark Berkowitz, the assistant secretary of defense for space policy.
+[00:00:35.540 → 00:00:39.140] He lives in the revolving door. He served in Clinton's defense department,
+[00:00:39.300 → 00:00:42.660] then as a vice president of strategy at Lockheed Martin for about 20 years.
+[00:00:42.800 → 00:00:47.480] Lockheed has received $740 billion of defense contracts since 2008.
+[00:00:47.660 → 00:00:49.940] He still owns about five million in stock.
+[00:00:50.180 → 00:00:53.540] This is Benjamin Coleman, a McKinsey consultant who became the COO at
+[00:00:53.540 → 00:00:56.180] at Kubit Capital, a defense-focused investment firm.
+[00:00:56.360 → 00:00:57.160] Because those exist.
+[00:00:57.460 → 00:00:59.760] In 2023, he was the CEO at Farcast,
+[00:00:59.900 → 00:01:01.400] which is a telecommunications company
+[00:01:01.400 → 00:01:03.620] that Lockheed Martin invested $2 million in.
+[00:01:03.780 → 00:01:04.760] This is Kirsten Davies,
+[00:01:04.920 → 00:01:06.680] Chief Information Officer for the DOD,
+[00:01:06.880 → 00:01:08.960] a long-time private sector consultant
+[00:01:08.960 → 00:01:10.960] having advised the defense contractor,
+[00:01:11.180 → 00:01:14.340] Talon Cybersecurity, and a board member of Clarity,
+[00:01:14.560 → 00:01:17.320] an Israeli cybersecurity firm connected to the IDF.
+[00:01:17.400 → 00:01:19.300] Mark Anderson came to the Department of Defense
+[00:01:19.300 → 00:01:21.920] after a 22-year stint at Ernst & Young,
+[00:01:21.920 → 00:01:27.140] A massive accounting firm that has won $2.28 billion in defense department contracts.
+[00:01:27.420 → 00:01:30.900] He was also a partner at a venture capital firm called Iron Gate Group,
+[00:01:31.100 → 00:01:35.000] which has invested in firms with millions of dollars in active government contracts.
+[00:01:35.220 → 00:01:39.180] Anthony Tata is a longtime consultant that is now at the DOD.
+[00:01:39.340 → 00:01:42.960] Since 2023, he has worked with a number of DOD contractors.
+[00:01:43.280 → 00:01:48.240] Eldridge Covey is an interesting one, whose grandfather was the director of the CIA.
+[00:01:48.240 → 00:01:52.760] He's worked as a consultant for Telemus Group, which has been awarded at least $20 million
+[00:01:52.760 → 00:01:57.600] in defense contracts, but he advised in wargaming and defense forecast.
+[00:01:57.920 → 00:01:58.600] We can keep going.
+[00:01:58.800 → 00:01:59.560] Here's Joseph Jewel.
+[00:01:59.660 → 00:02:05.580] A personics consultant for Toyon Research, Toyon has won nearly $471 million in defense
+[00:02:05.580 → 00:02:06.060] contracts.
+[00:02:06.180 → 00:02:10.280] And just by comparison, the people fighting the wars, active military recruits in the
+[00:02:10.280 → 00:02:16.000] United States, 62% come from families that are below median income in the United
+[00:02:16.000 → 00:02:16.500] States.
+[00:02:16.500 → 00:02:20.040] So I don't know, I kind of feel like these guys have different priorities than maybe you or I do
+[00:02:20.040 → 00:02:22.460] when it comes to deciding to take military action.
+
+========================================================================================
+CLIP 03 · DVjwP6SlKuy.mp4
+instagram_url: https://www.instagram.com/reel/DVjwP6SlKuy/
+duration: 00:00:43.771 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Consular Affairs, Office of Overseas Citizen Services, serving U.S. citizens abroad. If you are calling about the crisis in the Middle East, please press 1. If not, press 2. Please do not rely on the U.S. government for assisted departure or evacuation at this time. There are currently no United States evacuation points. Please continue to check the embassy's website for updated information. In the event of ongoing military action, Americans should shelter in place until it is safe to move about freely. Please enroll in the Smart Travelers Enrollment Program or STEP at step.state.gov. This is a free service to allow U.S.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:05.520] Consular Affairs, Office of Overseas Citizen Services, serving U.S. citizens abroad.
+[00:00:06.510 → 00:00:11.870] If you are calling about the crisis in the Middle East, please press 1. If not, press 2.
+[00:00:13.060 → 00:00:18.300] Please do not rely on the U.S. government for assisted departure or evacuation at this time.
+[00:00:18.820 → 00:00:21.960] There are currently no United States evacuation points.
+[00:00:22.690 → 00:00:26.710] Please continue to check the embassy's website for updated information.
+[00:00:26.710 → 00:00:33.810] [possible low-speech/noisy segment: 0.59] In the event of ongoing military action, Americans should shelter in place until it is safe to move about freely.
+[00:00:34.530 → 00:00:41.250] [possible low-speech/noisy segment: 0.59] Please enroll in the Smart Travelers Enrollment Program or STEP at step.state.gov.
+[00:00:41.890 → 00:00:43.750] [possible low-speech/noisy segment: 0.59] This is a free service to allow U.S.
+
+========================================================================================
+CLIP 04 · DVzShFyj5Ox.mp4
+instagram_url: https://www.instagram.com/reel/DVzShFyj5Ox/
+duration: --:--:--.--- · language: unknown (0.00)
+transcription_mode: error
+ERROR: clip is 01:43:40.566; queued for separate long-video transcription
+
+========================================================================================
+CLIP 05 · DWAPgfKCRlD.mp4
+instagram_url: https://www.instagram.com/reel/DWAPgfKCRlD/
+duration: 00:02:28.261 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Luther Burbank, during the Irish potato famine, created a disease-resistant potato. This is a russet Burbank tomato. Potato. Of course, much of the violence in Ireland was done at the hands of and exacerbated by the British. But one of the problems was the blight, the disease that plagued the potatoes. So happy St. Patrick's Day from my great, great, great uncle or something. He believed everyone should have food. What a guy. This is my only familial claim to fame. People think Burbank, California is named after him. It's not. It's like some dentist. We have to use the Irish butter too, obviously. I'm not fucking around. I do think there's something beautiful about using your skills and abilities to resist empire. I love that there's like a little bit of that revolutionary blood running through me. And Frida Kahlo heard about that and was like, wow, based. And then she made a painting of him. He also successfully created a bunch of new fruits and vegetables. What's crazy is I went to an agricultural high school. My parents didn't go to college. I didn't think I was gonna go. So I went to an agricultural vocational school. Luther would have been proud. I did not know about those roots when I enrolled. And I went there with my Irish American friend, Sassy, who said I need to mash these potatoes today. So that's what we're doing. One of my cousins enrolled in a horticulture class and the professor like fangirled over him because the dudes in my family look like him a lot. The Burbank genes are strong, which is interesting because he was kind of a eugenicist. He was accepted to the eugenic society because he talked about people the same way he talked about breeding plants and then he pissed off the eugenicist because he says he thinks that we create the best people if all of the races end up crossbreeding and he said it will temporarily bring out all the worst and best traits simultaneously but eventually after years of living and natural selection and all that will have the most superior race and so the racist eugenicist didn't like him at all anymore. He also believed things were hereditary so like if you were a criminal and you're raised in a just environment you become a just person. So the eugenicist didn't like that either. I don't think he should have tried to apply plant breeding logic to people. He kind of used eugenics against the eugenicist but he never patented anything he came up with. He only got patents post-humously and they went to his widow. So we have no family money. But at least we have these great potatoes. Happy St. Patrick's Day. Love you, bye.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:02.380] Luther Burbank, during the Irish potato famine,
+[00:00:02.540 → 00:00:05.060] created a disease-resistant potato.
+[00:00:05.400 → 00:00:08.060] This is a russet Burbank tomato.
+[00:00:09.520 → 00:00:10.000] Potato.
+[00:00:10.760 → 00:00:13.210] Of course, much of the violence in Ireland
+[00:00:13.210 → 00:00:16.550] was done at the hands of and exacerbated by the British.
+[00:00:16.790 → 00:00:18.610] But one of the problems was the blight,
+[00:00:18.870 → 00:00:20.470] the disease that plagued the potatoes.
+[00:00:20.690 → 00:00:21.850] So happy St. Patrick's Day
+[00:00:21.850 → 00:00:24.010] from my great, great, great uncle or something.
+[00:00:24.150 → 00:00:25.370] He believed everyone should have food.
+[00:00:25.730 → 00:00:26.130] What a guy.
+[00:00:26.310 → 00:00:28.670] This is my only familial claim to fame.
+[00:00:28.670 → 00:00:32.830] People think Burbank, California is named after him. It's not. It's like some dentist.
+[00:00:33.250 → 00:00:37.070] We have to use the Irish butter too, obviously. I'm not fucking around.
+[00:00:37.370 → 00:00:42.550] I do think there's something beautiful about using your skills and abilities to resist empire.
+[00:00:42.830 → 00:00:48.290] I love that there's like a little bit of that revolutionary blood running through me.
+[00:00:48.530 → 00:00:52.330] And Frida Kahlo heard about that and was like, wow, based. And then she made a painting of him.
+[00:00:52.530 → 00:00:55.650] He also successfully created a bunch of new fruits and vegetables.
+[00:00:55.650 → 00:00:59.190] What's crazy is I went to an agricultural high school.
+[00:00:59.370 → 00:01:00.510] My parents didn't go to college.
+[00:01:00.790 → 00:01:01.990] I didn't think I was gonna go.
+[00:01:02.150 → 00:01:04.010] So I went to an agricultural vocational school.
+[00:01:04.270 → 00:01:05.170] Luther would have been proud.
+[00:01:05.330 → 00:01:07.830] I did not know about those roots when I enrolled.
+[00:01:08.070 → 00:01:10.730] And I went there with my Irish American friend, Sassy,
+[00:01:10.970 → 00:01:13.490] who said I need to mash these potatoes today.
+[00:01:13.670 → 00:01:15.090] So that's what we're doing.
+[00:01:15.370 → 00:01:18.710] One of my cousins enrolled in a horticulture class
+[00:01:18.710 → 00:01:20.910] and the professor like fangirled over him
+[00:01:20.910 → 00:01:23.550] because the dudes in my family look like him a lot.
+[00:01:24.030 → 00:01:25.250] The Burbank genes are strong,
+[00:01:25.250 → 00:01:31.230] which is interesting because he was kind of a eugenicist. He was accepted to the eugenic society
+[00:01:31.230 → 00:01:35.430] because he talked about people the same way he talked about breeding plants and then he
+[00:01:35.430 → 00:01:41.810] pissed off the eugenicist because he says he thinks that we create the best people if all
+[00:01:41.810 → 00:01:46.550] of the races end up crossbreeding and he said it will temporarily bring out all the worst
+[00:01:46.550 → 00:01:52.730] and best traits simultaneously but eventually after years of living and natural selection
+[00:01:52.730 → 00:01:58.390] and all that will have the most superior race and so the racist eugenicist didn't like him at all
+[00:01:58.390 → 00:02:03.990] anymore. He also believed things were hereditary so like if you were a criminal and you're raised
+[00:02:03.990 → 00:02:09.270] in a just environment you become a just person. So the eugenicist didn't like that either. I don't
+[00:02:09.270 → 00:02:14.330] think he should have tried to apply plant breeding logic to people. He kind of used eugenics
+[00:02:14.330 → 00:02:19.110] against the eugenicist but he never patented anything he came up with. He only got patents
+[00:02:19.110 → 00:02:24.330] post-humously and they went to his widow. So we have no family money. But at least
+[00:02:24.330 → 00:02:27.930] we have these great potatoes. Happy St. Patrick's Day. Love you, bye.
+
+========================================================================================
+CLIP 06 · DWHK8qVgIgD.mp4
+instagram_url: https://www.instagram.com/reel/DWHK8qVgIgD/
+duration: 00:01:23.198 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+There's no government for the small group of elites to run, they just do their own thing. People love using the term oligarchy. You can have an oligarchy within a state. I don't think we have a global oligarchy because these are groups that are sometimes in competition with each other. It's not one small group of people and they're not elected. There's no form of global governance. So I think it's useful. They come together when they can form more power and they have mutual interests and sometimes they have people within the state that are state leaders join their syndicates so I think that's useful yeah. We deal with existing terms to define problems that we see. Right now we look at what's going on and we go well this is an oligarchy but in the back of our mind we all know I'm turning into Tucker we all know that's not right there's a part of you that knows that there's like it's not perfectly an oligarchy and we tell ourselves like a story like we're watching transitionary oligarchy. No, it's a different thing. There can be an oligarchy, but that works. oligarchy is they control the government, right? And this supersedes that is what you're saying. It bypasses the state. Yeah, it's, it's, there was never a global governance. And I think I thought maybe one day we have global democracy, like there's no government for the small group of elites to run. They just do their own thing. And that makes it scary, but all
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:06.080] There's no government for the small group of elites to run, they just do their own thing.
+[00:00:06.540 → 00:00:11.600] People love using the term oligarchy. You can have an oligarchy within a state.
+[00:00:11.840 → 00:00:17.020] I don't think we have a global oligarchy because these are groups that are sometimes
+[00:00:17.020 → 00:00:21.340] in competition with each other. It's not one small group of people and they're not elected.
+[00:00:21.480 → 00:00:25.160] There's no form of global governance. So I think it's useful. They come together
+[00:00:25.160 → 00:00:30.860] when they can form more power and they have mutual interests and sometimes they
+[00:00:30.860 → 00:00:34.900] have people within the state that are state leaders join their syndicates so
+[00:00:34.900 → 00:00:40.200] I think that's useful yeah. We deal with existing terms to define problems that
+[00:00:40.200 → 00:00:44.900] we see. Right now we look at what's going on and we go well this is an oligarchy
+[00:00:44.900 → 00:00:47.740] but in the back of our mind we all know I'm turning into Tucker we all know
+[00:00:47.740 → 00:00:50.680] that's not right there's a part of you that knows that there's like it's
+[00:00:50.680 → 00:00:54.820] not perfectly an oligarchy and we tell ourselves like a story like we're
+[00:00:54.820 → 00:00:59.080] watching transitionary oligarchy. No, it's a different thing. There can be an oligarchy,
+[00:00:59.280 → 00:01:04.460] but that works. oligarchy is they control the government, right? And this supersedes that
+[00:01:04.460 → 00:01:06.060] is what you're saying. It bypasses the state.
+[00:01:06.660 → 00:01:11.700] Yeah, it's, it's, there was never a global governance. And I think I thought maybe one
+[00:01:11.700 → 00:01:17.440] day we have global democracy, like there's no government for the small group of elites
+[00:01:17.440 → 00:01:23.160] to run. They just do their own thing. And that makes it scary, but all
+
+========================================================================================
+CLIP 07 · DXfNBZ5CcQt.mp4
+instagram_url: https://www.instagram.com/reel/DXfNBZ5CcQt/
+duration: 00:02:02.765 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+This is an email from the CEO of Flock, Garrett Langley, apologizing for what the company was defending publicly. And he said, sorry, and apologized multiple times for Flock employees accessing the cameras of a children's gymnastics studio in Dunwoody, Georgia. Flock's PR team even went so far as to say my reporting on this, which was based on FOIA requests by Jason Hooniar were false accusations. When in private, the CEO of Flock called the same actions, poor judgment, a lack of thoughtfulness, and a poor choice. It also seems from this paragraph that the MJCC never explicitly consented to be a part of their live feed cameras being viewed by flock employees for sales demos, that the city consented to it, but it doesn't seem like the MJCC did. I got this email from a Dunwoody parent whose kids went to the preschool at the community center and they got it by a FOIA request. It became public record because, Langley, the CEO of Flock, forwarded it to the mayor the morning of April 13th, and he even says as we discussed, so that suggests they had some kind of phone call or meeting, and that's the same day, the morning of the evening city council meeting where, including the mayor, they voted unanimously to extend their contract with Flock. At the meeting, we were assured everything was above board and Flock wasn't going to do it again, but there was no public apology. In fact, the opposite, even the attorney general of Georgia was like Bob Carter, who viewed the gymnastics children's camera, is such a good dude, great for law enforcement. While in private, his choices are called poor and lacking thoughtfulness by the Flock CEO. So this huge departure between Flock's comments in public versus private is pretty shocking. Maybe I should call Garrett Langley for an apology, for calling my reporting false. And just so you know buddy when you put your cell phone in an email sent to a public official it becomes public record I'm gonna keep reporting on flock because it keeps being interesting. All right. Love you. Bye
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:02.840] This is an email from the CEO of Flock, Garrett Langley,
+[00:00:03.040 → 00:00:06.460] apologizing for what the company was defending publicly.
+[00:00:06.760 → 00:00:09.100] And he said, sorry, and apologized multiple times
+[00:00:09.100 → 00:00:11.580] for Flock employees accessing the cameras
+[00:00:11.580 → 00:00:15.200] of a children's gymnastics studio in Dunwoody, Georgia.
+[00:00:15.560 → 00:00:17.820] Flock's PR team even went so far
+[00:00:17.820 → 00:00:19.500] as to say my reporting on this,
+[00:00:19.600 → 00:00:22.100] which was based on FOIA requests by Jason Hooniar
+[00:00:22.100 → 00:00:23.740] were false accusations.
+[00:00:24.360 → 00:00:28.040] When in private, the CEO of Flock called the same actions,
+[00:00:28.040 → 00:00:33.160] poor judgment, a lack of thoughtfulness, and a poor choice. It also seems from
+[00:00:33.160 → 00:00:38.060] this paragraph that the MJCC never explicitly consented to be a part of
+[00:00:38.060 → 00:00:43.080] their live feed cameras being viewed by flock employees for sales demos, that
+[00:00:43.080 → 00:00:48.560] the city consented to it, but it doesn't seem like the MJCC did. I got this
+[00:00:48.560 → 00:00:53.320] email from a Dunwoody parent whose kids went to the preschool at the
+[00:00:53.320 → 00:00:57.120] community center and they got it by a FOIA request. It became public
+[00:00:57.120 → 00:01:04.060] record because, Langley, the CEO of Flock, forwarded it to the mayor the morning of April 13th,
+[00:01:04.080 → 00:01:08.940] and he even says as we discussed, so that suggests they had some kind of phone call or meeting,
+[00:01:09.520 → 00:01:14.580] and that's the same day, the morning of the evening city council meeting where,
+[00:01:14.620 → 00:01:19.860] including the mayor, they voted unanimously to extend their contract with Flock. At the meeting,
+[00:01:20.000 → 00:01:23.720] we were assured everything was above board and Flock wasn't going to do it again,
+[00:01:23.720 → 00:01:26.080] but there was no public apology.
+[00:01:26.480 → 00:01:28.780] In fact, the opposite, even the attorney general
+[00:01:28.780 → 00:01:30.400] of Georgia was like Bob Carter,
+[00:01:30.640 → 00:01:32.620] who viewed the gymnastics children's camera,
+[00:01:33.100 → 00:01:35.200] is such a good dude, great for law enforcement.
+[00:01:35.580 → 00:01:38.240] While in private, his choices are called poor
+[00:01:38.240 → 00:01:40.200] and lacking thoughtfulness by the Flock CEO.
+[00:01:40.580 → 00:01:42.960] So this huge departure between Flock's comments
+[00:01:42.960 → 00:01:46.800] in public versus private is pretty shocking.
+[00:01:47.100 → 00:01:49.800] Maybe I should call Garrett Langley for an apology,
+[00:01:50.240 → 00:01:52.040] for calling my reporting false.
+[00:01:52.040 → 00:01:58.040] And just so you know buddy when you put your cell phone in an email sent to a public official it becomes public record
+[00:01:58.040 → 00:02:02.460] I'm gonna keep reporting on flock because it keeps being interesting. All right. Love you. Bye

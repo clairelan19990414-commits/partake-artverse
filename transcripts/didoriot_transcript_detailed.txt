@@ -1,0 +1,336 @@
+@didoriot · detailed transcript
+model: faster-whisper small
+clips: 7
+format: per-clip transcript with segment timestamps; generated from local mp4 files
+
+========================================================================================
+CLIP 01 · DRU2xzpiS4w.mp4
+instagram_url: https://www.instagram.com/reel/DRU2xzpiS4w/
+duration: 00:01:52.827 · language: en (1.00)
+
+FULL TEXT
+I think this one's mostly gonna annoy people, so buckle up. In October, the fashion brand Coperni released their C Plus Carewear lineup of pre and probiotic athleisure. And the idea around the lineup is that the fabric of the clothes themselves contain active microcultures like a pre or probiotic supplement that act as like a wearable skincare. This is a new technology that's been patented by the brand and why I think it's interesting is because it doesn't matter if it works or not. This is a 250 Canadian dollar 100% polyester bodysuit. On first glance, it doesn't look like anything different than a regular black bodysuit. People only know it's the pre or probiotic black bodysuit if you tell them which you have to because you bought the prebiotic black bodysuit. This is a wider trend I think of like conversation piece products like this full metal jacket by brand Volbeck which is made of 11 kilometers of copper wire and is antibacterial and antiviral. People commented this when I talked about the acne jeans a couple videos ago. I agree it's not new for brands to release like viral marketing product. This is a long history like think of pet rocks that were being sold to people in the in the 1970s. But I think there's something different about the C plus care wear line in the jacket in comparison to things like the Supreme Brick. The brick is ironic and tongue in cheek and the punch line is pretty clear. Versus this is very earnest. It at least like claims to be a wellness product. I think it's a result of like the gooped gift-guidification of products. Goop obviously massive company, like very influential and taken seriously in its own right. There's also a very curated element of the absurd about Goop. like the candle and like the eggs that go in you or something like this I think is all an inside joke. Gwyneth Paltrow is getting this for free and then she's going to tell you to buy it and she's going to turn around to her rich friends and be like can you believe they bought the prebiotic bodysuit? I'm telling you that's what this is about. It always comes back to there's too much content online so we buy these products to virtue signal to an increasingly niche audience who understands what these things are and what they say about us.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:02.320] I think this one's mostly gonna annoy people, so buckle up.
+[00:00:02.460 → 00:00:07.900] In October, the fashion brand Coperni released their C Plus Carewear lineup of pre and probiotic
+[00:00:07.900 → 00:00:11.900] athleisure. And the idea around the lineup is that the fabric of the clothes themselves contain
+[00:00:11.900 → 00:00:16.800] active microcultures like a pre or probiotic supplement that act as like a wearable skincare.
+[00:00:17.020 → 00:00:20.720] This is a new technology that's been patented by the brand and why I think it's interesting
+[00:00:20.720 → 00:00:25.860] is because it doesn't matter if it works or not. This is a 250 Canadian dollar 100% polyester
+[00:00:25.860 → 00:00:28.860] bodysuit. On first glance, it doesn't look like anything different than a regular black
+[00:00:28.860 → 00:00:33.440] bodysuit. People only know it's the pre or probiotic black bodysuit if you tell them which you have to
+[00:00:33.440 → 00:00:37.960] because you bought the prebiotic black bodysuit. This is a wider trend I think of like conversation
+[00:00:37.960 → 00:00:43.380] piece products like this full metal jacket by brand Volbeck which is made of 11 kilometers of
+[00:00:43.380 → 00:00:47.820] copper wire and is antibacterial and antiviral. People commented this when I talked about the
+[00:00:47.820 → 00:00:52.800] acne jeans a couple videos ago. I agree it's not new for brands to release like viral marketing
+[00:00:52.800 → 00:00:56.400] product. This is a long history like think of pet rocks that were being sold to people in the
+[00:00:56.400 → 00:00:57.100] in the 1970s.
+[00:00:57.120 → 00:00:58.280] But I think there's something different
+[00:00:58.280 → 00:01:00.940] about the C plus care wear line in the jacket
+[00:01:00.940 → 00:01:02.820] in comparison to things like the Supreme Brick.
+[00:01:02.940 → 00:01:04.780] The brick is ironic and tongue in cheek
+[00:01:04.780 → 00:01:06.920] and the punch line is pretty clear.
+[00:01:07.000 → 00:01:08.360] Versus this is very earnest.
+[00:01:08.600 → 00:01:11.220] It at least like claims to be a wellness product.
+[00:01:11.340 → 00:01:13.020] I think it's a result of like the gooped
+[00:01:13.020 → 00:01:14.900] gift-guidification of products.
+[00:01:15.260 → 00:01:16.940] Goop obviously massive company,
+[00:01:17.280 → 00:01:20.420] like very influential and taken seriously in its own right.
+[00:01:20.600 → 00:01:22.940] There's also a very curated element
+[00:01:22.940 → 00:01:24.580] of the absurd about Goop.
+[00:01:24.580 → 00:01:30.780] like the candle and like the eggs that go in you or something like this I think is all an inside
+[00:01:30.780 → 00:01:35.800] joke. Gwyneth Paltrow is getting this for free and then she's going to tell you to buy it and she's
+[00:01:35.800 → 00:01:39.480] going to turn around to her rich friends and be like can you believe they bought the prebiotic
+[00:01:39.480 → 00:01:44.500] bodysuit? I'm telling you that's what this is about. It always comes back to there's too
+[00:01:44.500 → 00:01:48.820] much content online so we buy these products to virtue signal to an increasingly niche
+[00:01:48.820 → 00:01:52.460] audience who understands what these things are and what they say about us.
+
+========================================================================================
+CLIP 02 · DSQefheCSD4.mp4
+instagram_url: https://www.instagram.com/reel/DSQefheCSD4/
+duration: 00:01:34.716 · language: en (1.00)
+
+FULL TEXT
+One of the biggest questions that I have for 2026 is are these kids gonna be all right? My favorite accounts on TikTok is Casey Lewis. She's a Gen Alpha trend forecaster. Every year she watches thousands of like teen girl what I want for Christmas videos and then compiles a list of what the most asked for Christmas items are and it's always like cosmetics and clothing but this year there are adult wellness products on the list like the aura ring, hatch alarm clock, ball of wrist weights and red light skincare masks. And queen of questionable marketing tactics, Shay Mitchell has a new line of children's skincare out called Rene and it's already sold out everywhere online. It's not a coincidence that at the same time that these companies are starting to overstep the unspoken boundaries of marketing to kids, that Australia's under 16 social media ban comes into effect. And I feel like a lot of people by now have seen the clip of Renee Brown on Diary of a CEO where she talks about the shock of like being in the same room as a lot of these tech CEOs and she talks about the anecdote of like why Steve Jobs didn't let his own kids use iPads and it's because they know that the nuclear fucking bomb that they've released into society is literally poison for children's brains. Going back to this clip, she speaks about how she believes that as a result of the advancements of AI and technology, there will be a thinking class that emerges of people who are paid to use their critical and cognitive thinking abilities. And I'm telling you that even if this doesn't turn out to be true, they at least believe attention span to be the differentiator between future success and failure. And it's almost like when towards the end of the 20th century, there was a way larger focus on EQ versus IQ and the new like measure of success was no longer cognitive ability. it was emotional regulation. That could be the future of a potential thinking class are those who are able to manage their own attention spans and take advantage of people who no longer can.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.980] One of the biggest questions that I have for 2026 is are these kids gonna be all right?
+[00:00:04.080 → 00:00:07.920] My favorite accounts on TikTok is Casey Lewis. She's a Gen Alpha trend forecaster.
+[00:00:08.180 → 00:00:11.540] Every year she watches thousands of like teen girl what I want for Christmas videos
+[00:00:11.540 → 00:00:14.580] and then compiles a list of what the most asked for Christmas items are
+[00:00:14.580 → 00:00:18.460] and it's always like cosmetics and clothing but this year there are adult wellness products
+[00:00:18.460 → 00:00:23.060] on the list like the aura ring, hatch alarm clock, ball of wrist weights and red light
+[00:00:23.060 → 00:00:26.600] skincare masks. And queen of questionable marketing tactics, Shay Mitchell has a
+[00:00:26.600 → 00:00:30.100] new line of children's skincare out called Rene and it's already sold out everywhere
+[00:00:30.100 → 00:00:30.500] online.
+[00:00:30.620 → 00:00:33.780] It's not a coincidence that at the same time that these companies are starting to overstep
+[00:00:33.780 → 00:00:38.640] the unspoken boundaries of marketing to kids, that Australia's under 16 social media
+[00:00:38.640 → 00:00:39.540] ban comes into effect.
+[00:00:39.680 → 00:00:42.520] And I feel like a lot of people by now have seen the clip of Renee Brown on Diary of
+[00:00:42.520 → 00:00:45.880] a CEO where she talks about the shock of like being in the same room as a lot of
+[00:00:45.880 → 00:00:49.140] these tech CEOs and she talks about the anecdote of like why Steve Jobs didn't
+[00:00:49.140 → 00:00:52.920] let his own kids use iPads and it's because they know that the nuclear fucking bomb
+[00:00:52.920 → 00:00:55.780] that they've released into society is literally poison for children's brains.
+[00:00:55.780 → 00:01:00.480] Going back to this clip, she speaks about how she believes that as a result of the advancements of AI and technology,
+[00:01:00.840 → 00:01:06.340] there will be a thinking class that emerges of people who are paid to use their critical and cognitive thinking abilities.
+[00:01:06.560 → 00:01:09.060] And I'm telling you that even if this doesn't turn out to be true,
+[00:01:09.380 → 00:01:15.080] they at least believe attention span to be the differentiator between future success and failure.
+[00:01:15.260 → 00:01:17.360] And it's almost like when towards the end of the 20th century,
+[00:01:17.360 → 00:01:23.860] there was a way larger focus on EQ versus IQ and the new like measure of success was no longer cognitive ability.
+[00:01:23.860 → 00:01:28.640] it was emotional regulation. That could be the future of a potential thinking
+[00:01:28.640 → 00:01:32.920] class are those who are able to manage their own attention spans and take
+[00:01:32.920 → 00:01:34.400] advantage of people who no longer can.
+
+========================================================================================
+CLIP 03 · DTlGB7EEX9p.mp4
+instagram_url: https://www.instagram.com/reel/DTlGB7EEX9p/
+duration: 00:02:02.765 · language: en (1.00)
+
+FULL TEXT
+hey so it actually only has to make sense to me for me to do it. this was a comment made by a young woman named Tamera on tiktok a couple weeks ago that went viral. she made a video talking about her new year's resolutions and when she was asked to clarify in the comments she was simply like no. people were obsessed with this phrase they were like printing it on t-shirts and on tote bags and i think that this caps off a year in which people online were really obsessed with the idea of free will and agency. for background millennials had adulting like this was the phrase and the idea that like got us off our butts and like doing laundry and filling out job applications. Gen Z instead has you can just do things. I think the origin of the phrase comes from that Lady Gaga meme where she's like, people can do hard things. Now it's literally everywhere. It's usually in the context of a video being like, I wasn't going to do this, but then I remembered you can just do things. And so I did it. I think it's like a response to the kind of like freeze that young people can feel after seeing so many different options online of like what they could be when they grow up. I also think it's why I'm seeing a lot of references to the Sylvia Plath fig tree analogy. The fig tree analogy is scene from the bell jar where the character sits underneath a fig tree and she imagines all of the branches of her life as like different paths that she could have taken like one fig is a mother, one fig is a doctor, one fig is a writer. People are posting their own versions of their fig trees online. When you just do things you get the mean compliment of like excellent use of free will. And there's a whole content sub-genre of free will activities that are like kind of weird oddball things to do but that are like completely legal and mostly harmless and like do not come from me and I can't believe I'm saying this sentence but I really think that like the Gen Z excellent use of free will is like the millennial equivalent of that's so random. And I also think it's why creators like Ashby have blown up because she's literally just in her room doing like live streams doing crazy things and people are like oh that's an excellent use of free will just like being weird in your house not hurting anyone. And usually I have to end my videos on like here's a solution or like some sort of comfort on like a big problem online. But I don't have to do that today because I actually don't think that this is a bad thing. So I think it's interesting like what things motivated us as millennials to like get moving into adulthood versus the kinds of things that are motivating the younger generations now.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.040] hey so it actually only has to make sense to me for me to do it. this was a comment made by
+[00:00:04.040 → 00:00:08.120] a young woman named Tamera on tiktok a couple weeks ago that went viral. she made a video talking
+[00:00:08.120 → 00:00:12.360] about her new year's resolutions and when she was asked to clarify in the comments she was simply like
+[00:00:12.360 → 00:00:15.780] no. people were obsessed with this phrase they were like printing it on t-shirts and on
+[00:00:15.780 → 00:00:20.060] tote bags and i think that this caps off a year in which people online were really obsessed
+[00:00:20.060 → 00:00:25.020] with the idea of free will and agency. for background millennials had adulting like this
+[00:00:25.020 → 00:00:28.880] was the phrase and the idea that like got us off our butts and like doing laundry and
+[00:00:28.880 → 00:00:33.380] filling out job applications. Gen Z instead has you can just do things. I think the origin
+[00:00:33.380 → 00:00:37.080] of the phrase comes from that Lady Gaga meme where she's like, people can do hard things.
+[00:00:37.260 → 00:00:41.320] Now it's literally everywhere. It's usually in the context of a video being like, I wasn't going
+[00:00:41.320 → 00:00:45.800] to do this, but then I remembered you can just do things. And so I did it. I think it's like a
+[00:00:45.800 → 00:00:50.240] response to the kind of like freeze that young people can feel after seeing so many different
+[00:00:50.240 → 00:00:54.080] options online of like what they could be when they grow up. I also think it's why I'm
+[00:00:54.080 → 00:00:58.380] seeing a lot of references to the Sylvia Plath fig tree analogy. The fig tree analogy is
+[00:00:58.380 → 00:01:01.840] scene from the bell jar where the character sits underneath a fig tree and she imagines all of the
+[00:01:01.840 → 00:01:05.860] branches of her life as like different paths that she could have taken like one fig is a mother,
+[00:01:06.080 → 00:01:10.820] one fig is a doctor, one fig is a writer. People are posting their own versions of their fig trees
+[00:01:10.820 → 00:01:15.100] online. When you just do things you get the mean compliment of like excellent use of free will.
+[00:01:15.240 → 00:01:20.000] And there's a whole content sub-genre of free will activities that are like kind of weird
+[00:01:20.000 → 00:01:24.580] oddball things to do but that are like completely legal and mostly harmless and like do not
+[00:01:24.580 → 00:01:27.260] come from me and I can't believe I'm saying this sentence but I really think that like
+[00:01:27.260 → 00:01:32.740] the Gen Z excellent use of free will is like the millennial equivalent of that's so random.
+[00:01:32.740 → 00:01:36.980] And I also think it's why creators like Ashby have blown up because she's literally just
+[00:01:36.980 → 00:01:40.440] in her room doing like live streams doing crazy things and people are like oh that's
+[00:01:40.440 → 00:01:44.760] an excellent use of free will just like being weird in your house not hurting anyone.
+[00:01:44.860 → 00:01:48.020] And usually I have to end my videos on like here's a solution or like some sort of
+[00:01:48.020 → 00:01:50.460] comfort on like a big problem online.
+[00:01:50.620 → 00:01:53.380] But I don't have to do that today because I actually don't think that this is a bad
+[00:01:53.380 → 00:01:53.620] thing.
+[00:01:53.620 → 00:01:57.980] So I think it's interesting like what things motivated us as millennials to like get moving
+[00:01:57.980 → 00:02:02.480] into adulthood versus the kinds of things that are motivating the younger generations now.
+
+========================================================================================
+CLIP 04 · DU1e1q7iVMb.mp4
+instagram_url: https://www.instagram.com/reel/DU1e1q7iVMb/
+duration: 00:01:55.103 · language: en (1.00)
+
+FULL TEXT
+having a boyfriend embarrassing? not if he works for you. feel free to disagree with me about this in the comments but i'm going to trace the origins of the instagram boyfriend back to the early seasons of real housewives. the og real housewives were obviously cast because they were married to men who were independently wealthy. a lot of the time the fame and the earning potential that they accumulated while being on the show greatly exceeded that of their husband's original status because these shows were largely made by women for women a lot of the men took a background role to their wives and when they did and it was really weird. you can see this dynamic really playing out on screen in a lot of different relationships on secret lives of Mormon wives. The husbands are basically having to grapple with like having to reevaluate their role in the family because they're no longer anywhere near the primary earner. You know who else makes ass loads of money? Influencers. A lot of influencers who are in existing relationships will release content of their boyfriends at a very specific cadence because they understand that the majority of the audience doesn't want to see content that features their boyfriend. This video goes viral this week and it's a woman saying that if any girl that she follows gets pregnant or gets engaged she's unfollowing them. So it's where you get content like this of guys flexing their Instagram boyfriend skills to show that they're contributing. I also think this goes along with the performative male trend but that's a whole other video. And it's not even, it's having a boyfriend embarrassing, it's having a husband embarrassing. Danielle Bernstein breaks it off with her fiance. Nobody cares. You know why? Because she made bank off that engagement. Halle Kate gets engaged. Everybody's like, isn't that that guy who said he doesn't like you? Not having a wedding. This creator made a great video that went viral a few weeks ago where she says the ultimate status isn't having something, it's having something and being bored with it. This video blew my freaking mind. It's an influencer walking around a hotel room. She's on a brand trip and she's like flexing all the free stuff she got. She says, ladies you don't need a Look at that ring, be fucking so for real. If it was having a boyfriend embarrassing, no, it's still a status symbol. It always has been a status symbol for women. The only thing that's embarrassing is publicly needing or wanting a man. And we've seen what happens when you publicly and openly want a man. I think it's interesting that like the only way to show up correctly with a boyfriend online is by this like complete gender role reversal. And I also think it's interesting that like the way that we're decentering men in 2026 is by putting them behind the camera.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.300] having a boyfriend embarrassing? not if he works for you. feel free to disagree with me about this
+[00:00:04.300 → 00:00:07.520] in the comments but i'm going to trace the origins of the instagram boyfriend back to the early
+[00:00:07.520 → 00:00:11.480] seasons of real housewives. the og real housewives were obviously cast because they were married to
+[00:00:11.480 → 00:00:14.580] men who were independently wealthy. a lot of the time the fame and the earning potential that
+[00:00:14.580 → 00:00:18.740] they accumulated while being on the show greatly exceeded that of their husband's original status
+[00:00:18.740 → 00:00:22.200] because these shows were largely made by women for women a lot of the men took a background
+[00:00:22.200 → 00:00:25.040] role to their wives and when they did and it was really weird. you can see this dynamic
+[00:00:25.040 → 00:00:28.500] really playing out on screen in a lot of different relationships on secret lives of
+[00:00:28.500 → 00:00:31.560] Mormon wives. The husbands are basically having to grapple with like having to
+[00:00:31.560 → 00:00:34.980] reevaluate their role in the family because they're no longer anywhere near
+[00:00:34.980 → 00:00:38.780] the primary earner. You know who else makes ass loads of money? Influencers. A
+[00:00:38.780 → 00:00:41.920] lot of influencers who are in existing relationships will release content of
+[00:00:41.920 → 00:00:44.520] their boyfriends at a very specific cadence because they understand that the
+[00:00:44.520 → 00:00:46.900] majority of the audience doesn't want to see content that features their
+[00:00:46.900 → 00:00:49.380] boyfriend. This video goes viral this week and it's a woman saying that if
+[00:00:49.380 → 00:00:52.000] any girl that she follows gets pregnant or gets engaged she's unfollowing
+[00:00:52.000 → 00:00:54.220] them. So it's where you get content like this of guys flexing their
+[00:00:54.220 → 00:00:56.840] Instagram boyfriend skills to show that they're contributing. I also think
+[00:00:56.840 → 00:01:00.180] this goes along with the performative male trend but that's a whole other video. And it's not even,
+[00:01:00.340 → 00:01:03.780] it's having a boyfriend embarrassing, it's having a husband embarrassing. Danielle Bernstein breaks it
+[00:01:03.780 → 00:01:07.720] off with her fiance. Nobody cares. You know why? Because she made bank off that engagement. Halle
+[00:01:07.720 → 00:01:11.140] Kate gets engaged. Everybody's like, isn't that that guy who said he doesn't like you? Not having
+[00:01:11.140 → 00:01:14.240] a wedding. This creator made a great video that went viral a few weeks ago where she says the
+[00:01:14.240 → 00:01:18.060] ultimate status isn't having something, it's having something and being bored with it. This
+[00:01:18.060 → 00:01:21.980] video blew my freaking mind. It's an influencer walking around a hotel room. She's on a brand
+[00:01:21.980 → 00:01:26.320] trip and she's like flexing all the free stuff she got. She says, ladies you don't need a
+[00:01:28.240 → 00:01:31.020] Look at that ring, be fucking so for real.
+[00:01:31.140 → 00:01:32.700] If it was having a boyfriend embarrassing, no,
+[00:01:33.000 → 00:01:34.060] it's still a status symbol.
+[00:01:34.240 → 00:01:36.000] It always has been a status symbol for women.
+[00:01:36.360 → 00:01:37.280] The only thing that's embarrassing
+[00:01:37.280 → 00:01:39.080] is publicly needing or wanting a man.
+[00:01:39.160 → 00:01:41.320] And we've seen what happens when you publicly
+[00:01:41.320 → 00:01:42.940] and openly want a man.
+[00:01:43.120 → 00:01:44.500] I think it's interesting that like the only way
+[00:01:44.500 → 00:01:46.320] to show up correctly with a boyfriend online
+[00:01:46.320 → 00:01:48.880] is by this like complete gender role reversal.
+[00:01:49.140 → 00:01:50.640] And I also think it's interesting that like
+[00:01:50.640 → 00:01:53.120] the way that we're decentering men in 2026
+[00:01:53.120 → 00:01:54.760] is by putting them behind the camera.
+
+========================================================================================
+CLIP 05 · DUJDVG0jgcq.mp4
+instagram_url: https://www.instagram.com/reel/DUJDVG0jgcq/
+duration: 00:02:08.152 · language: en (1.00)
+
+FULL TEXT
+Okay, I have a theory, but we have a lot to cover so I gotta go fast. The 2000s were the golden age in film and TV of career-driven female protagonists. A lot of these women were writers or worked at magazines. Print media is gone. These jobs don't really exist anymore. If they ever really existed like this in the first place, like, how could Carrie Ford all of this on a writer's salary? We don't know. A big moment that marks the end of, like, dream girl job writing for a big company is the team Vogue layoffs. This, I think, for a lot of people was the nail in the coffin moment of, like, cultural authority no longer sits with cultural institutions. It sits with influencers and content creators. And as a side note, I think proof of this is that the Hannah Horvath character and girls wanted to be a writer and the characters in I Love L.A. want to be content creators and get brand deals. The dream job has always been creative. It gave you cool status and it allowed you freedom and independence. And I truly believe that like the new cool girl dream job is sub-stack newsletter writer a la Emily Sandberg. You can make bank off a sub-stack newsletter. You can be fashionable, smart, also immune to layoffs. Corporate jobs are disappearing, Gen Z is having trouble getting into the workforce because all of the like junior data analyst jobs have been automated. To highlight the severity of the situation, the junior role that I started in six years ago has been semi-automated already. At the same time, traditional values among women are rising, girl boss culture has failed, everybody's opting out of the hustle for like a slower lifestyle. Something I'm seeing everywhere is like, I want free time to work on my hobbies. Like, I want free time to pursue all of my different interests. Also seeing way more job postings and employment creators talk about the value of generalists. people who know how to do a little bit of this, a little bit of that because there's just not as many resources to go around now to hire everybody who's specialized in their fields. Like obviously, I'm talking about like corporate creative jobs here. If you're a nurse, you're still going to have specialized skills. Also, obviously, mass job reductions is bad. We're in this position because of reckless decisions made by a small group of people who are bluffing the country and letting everybody on the bottom monks fight it out amongst each other for the remaining jobs. I also think that there's a bit of a silver lining because people are like, well, if I can do everything right and still fail, if I have to fight for a seat at the I'm going to fight for something I actually want to do. I saw a girl on TikTok this week who left her corporate job to pursue her passion of making content about hermit crabs. That's fucking sick. Now is the time more than ever if you have a passion to go for it, to give it your all. Follow all of your hobbies, follow all of your interests, do what makes you unique and special because that cannot and will not be replicated by AI.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:02.280] Okay, I have a theory, but we have a lot to cover so I gotta go fast.
+[00:00:02.480 → 00:00:06.320] The 2000s were the golden age in film and TV of career-driven female protagonists.
+[00:00:06.360 → 00:00:08.320] A lot of these women were writers or worked at magazines.
+[00:00:08.520 → 00:00:09.120] Print media is gone.
+[00:00:09.440 → 00:00:10.640] These jobs don't really exist anymore.
+[00:00:10.820 → 00:00:12.760] If they ever really existed like this in the first place, like,
+[00:00:12.860 → 00:00:14.660] how could Carrie Ford all of this on a writer's salary?
+[00:00:14.900 → 00:00:15.280] We don't know.
+[00:00:15.320 → 00:00:19.340] A big moment that marks the end of, like, dream girl job writing for a big company is the team Vogue layoffs.
+[00:00:19.440 → 00:00:21.940] This, I think, for a lot of people was the nail in the coffin moment of, like,
+[00:00:22.080 → 00:00:24.520] cultural authority no longer sits with cultural institutions.
+[00:00:24.740 → 00:00:26.300] It sits with influencers and content creators.
+[00:00:26.300 → 00:00:30.120] And as a side note, I think proof of this is that the Hannah Horvath character and girls
+[00:00:30.120 → 00:00:33.860] wanted to be a writer and the characters in I Love L.A. want to be content creators and
+[00:00:33.860 → 00:00:34.440] get brand deals.
+[00:00:34.660 → 00:00:36.580] The dream job has always been creative.
+[00:00:37.140 → 00:00:40.480] It gave you cool status and it allowed you freedom and independence.
+[00:00:40.660 → 00:00:45.480] And I truly believe that like the new cool girl dream job is sub-stack newsletter writer
+[00:00:45.480 → 00:00:46.680] a la Emily Sandberg.
+[00:00:46.860 → 00:00:49.060] You can make bank off a sub-stack newsletter.
+[00:00:49.340 → 00:00:53.260] You can be fashionable, smart, also immune to layoffs.
+[00:00:53.260 → 00:00:59.380] Corporate jobs are disappearing, Gen Z is having trouble getting into the workforce because all of the like junior data analyst jobs have been automated.
+[00:00:59.520 → 00:01:04.720] To highlight the severity of the situation, the junior role that I started in six years ago has been semi-automated already.
+[00:01:04.960 → 00:01:11.260] At the same time, traditional values among women are rising, girl boss culture has failed, everybody's opting out of the hustle for like a slower lifestyle.
+[00:01:11.480 → 00:01:14.080] Something I'm seeing everywhere is like, I want free time to work on my hobbies.
+[00:01:14.300 → 00:01:16.980] Like, I want free time to pursue all of my different interests.
+[00:01:17.140 → 00:01:21.380] Also seeing way more job postings and employment creators talk about the value of generalists.
+[00:01:21.380 → 00:01:24.280] people who know how to do a little bit of this, a little bit of that because there's just not as
+[00:01:24.280 → 00:01:27.960] many resources to go around now to hire everybody who's specialized in their fields. Like obviously,
+[00:01:28.040 → 00:01:31.280] I'm talking about like corporate creative jobs here. If you're a nurse, you're still going to
+[00:01:31.280 → 00:01:35.840] have specialized skills. Also, obviously, mass job reductions is bad. We're in this position
+[00:01:35.840 → 00:01:39.680] because of reckless decisions made by a small group of people who are bluffing the country
+[00:01:39.680 → 00:01:42.680] and letting everybody on the bottom monks fight it out amongst each other for the
+[00:01:42.680 → 00:01:45.640] remaining jobs. I also think that there's a bit of a silver lining because people are like,
+[00:01:45.720 → 00:01:48.680] well, if I can do everything right and still fail, if I have to fight for a seat at the
+[00:01:48.680 → 00:01:50.480] I'm going to fight for something I actually want to do.
+[00:01:50.600 → 00:01:52.560] I saw a girl on TikTok this week who left her corporate job
+[00:01:52.560 → 00:01:55.020] to pursue her passion of making content about hermit crabs.
+[00:01:55.440 → 00:01:56.620] That's fucking sick.
+[00:01:56.960 → 00:01:58.020] Now is the time more than ever
+[00:01:58.020 → 00:02:00.900] if you have a passion to go for it, to give it your all.
+[00:02:01.100 → 00:02:02.940] Follow all of your hobbies, follow all of your interests,
+[00:02:03.140 → 00:02:04.500] do what makes you unique and special
+[00:02:04.500 → 00:02:07.860] because that cannot and will not be replicated by AI.
+
+========================================================================================
+CLIP 06 · DWHfsAcCWqI.mp4
+instagram_url: https://www.instagram.com/reel/DWHfsAcCWqI/
+duration: 00:02:58.911 · language: en (1.00)
+
+FULL TEXT
+Why is there so much content about how to be somebody else? As famous as she was before, Hulu's recent series Love Story has elevated Carolyn Bissette Kennedy to a new level of popularity, and it risks blurring the line between her as a real-life person and her as an aesthetic commodity. In 2025, the World Health Organization found that teenage girls report the highest levels of loneliness compared to any other demographic. In 2024, monitoring the future found that one in four U.S. eighth graders spend seven hours a day or more on social media. Across the world, girls are more online more often than boys. While it's not true that 100% of a teen's socialization comes from social media, for kids spending nearly the equivalent of a full-time job online, it comes pretty close. This of course includes gendered socialization and for girls, there's a long historical precedent of this being formalized into content. In the 18th and 19th centuries, there was a boom in the publication of etiquette materials and finishing schools. The middle class was emerging, literacy rates were rising and girls were being excluded from the formal education that was being offered to boys as an opportunity for social mobility. Social mobility for girls took the form of marriage and social status. As a result, instruction on gendered performance was for the first time widely and actively transmitted in a formal educational curriculum. This thesis connects COVID era media habits to the rise of the hashtag stay at home girlfriend and hashtag that girl trends. Both romanticize domesticity and self-improvement, and necessary for both of these is isolation. Moving in silence or disappearing for the glow up are common themes within this type of content. The less time you spend with friends, the more time you have to make your bed, drink your green juice and try to be perfect. But perfection can never be achieved. Performing femininity is endless and it requires an endless amount of data. This data is provided by aspirational influencers who sell you product and who position themselves as gender authorities or mentors to their audience. Guides, lists, tutorials on how to be a certain type of girl are everywhere and every so often a certain type of girl captures the attention of everyone all at once. This girl right now is Carolyn Bissette Kennedy. But how does the public choose who gets to be an IT girl? To quote Serena Shahidi's recent TikTok, you kind of have to be a woman on the edge. The show touches on this, but at the height of her fame, Carolyn Bissette Kennedy was struggling in her relationship, having public domestic disputes and was being hounded by the paparazzi. By all accounts, she was really going through it, and it makes her effortless, mysterious demeanor all the more captivating. But here's the contradiction. This content turns the messy, feminine original personalities of these women into gendered templates. And it ends up diluting the essence that made them so fascinating to begin with. It's worth noting that often the women who become the standard were the ones that resisted the template in the first place. You can't follow a tutorial on how to seem like you've never followed a tutorial. Gendered etiquette curriculums have told women for centuries that their social survival depended on them performing femininity correctly. The medium has changed, the message has not, and it's making girls feel lonely than ever. The question I want to ask you is, what would it look like if you stopped being understandable to everybody else and became understandable only to yourself? What if femininity looked different for everybody who experienced it? They don't want you to know what that feels like because they can never settle it back to you.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.140] Why is there so much content about how to be somebody else?
+[00:00:03.360 → 00:00:06.560] As famous as she was before, Hulu's recent series Love Story has elevated
+[00:00:06.560 → 00:00:09.140] Carolyn Bissette Kennedy to a new level of popularity,
+[00:00:09.420 → 00:00:12.080] and it risks blurring the line between her as a real-life person
+[00:00:12.080 → 00:00:13.640] and her as an aesthetic commodity.
+[00:00:13.880 → 00:00:17.520] In 2025, the World Health Organization found that teenage girls report the highest
+[00:00:17.520 → 00:00:20.040] levels of loneliness compared to any other demographic.
+[00:00:20.380 → 00:00:24.240] In 2024, monitoring the future found that one in four U.S. eighth graders
+[00:00:24.240 → 00:00:27.040] spend seven hours a day or more on social media.
+[00:00:27.040 → 00:00:30.660] Across the world, girls are more online more often than boys.
+[00:00:30.820 → 00:00:33.340] While it's not true that 100% of a teen's socialization
+[00:00:33.340 → 00:00:34.440] comes from social media,
+[00:00:34.800 → 00:00:36.260] for kids spending nearly the equivalent
+[00:00:36.260 → 00:00:38.740] of a full-time job online, it comes pretty close.
+[00:00:38.960 → 00:00:40.880] This of course includes gendered socialization
+[00:00:40.880 → 00:00:42.980] and for girls, there's a long historical precedent
+[00:00:42.980 → 00:00:44.900] of this being formalized into content.
+[00:00:45.120 → 00:00:46.340] In the 18th and 19th centuries,
+[00:00:46.440 → 00:00:47.700] there was a boom in the publication
+[00:00:47.700 → 00:00:49.900] of etiquette materials and finishing schools.
+[00:00:50.140 → 00:00:51.140] The middle class was emerging,
+[00:00:51.340 → 00:00:52.380] literacy rates were rising
+[00:00:52.380 → 00:00:54.680] and girls were being excluded from the formal education
+[00:00:54.680 → 00:00:55.900] that was being offered to boys
+[00:00:55.900 → 00:01:00.200] as an opportunity for social mobility. Social mobility for girls took the form of marriage
+[00:01:00.200 → 00:01:04.620] and social status. As a result, instruction on gendered performance was for the first time
+[00:01:04.620 → 00:01:09.420] widely and actively transmitted in a formal educational curriculum. This thesis connects
+[00:01:09.420 → 00:01:13.380] COVID era media habits to the rise of the hashtag stay at home girlfriend and hashtag
+[00:01:13.380 → 00:01:18.260] that girl trends. Both romanticize domesticity and self-improvement, and necessary for both
+[00:01:18.260 → 00:01:22.820] of these is isolation. Moving in silence or disappearing for the glow up are common themes
+[00:01:22.820 → 00:01:26.420] within this type of content. The less time you spend with friends, the more time you have to make
+[00:01:26.420 → 00:01:30.540] your bed, drink your green juice and try to be perfect. But perfection can never be achieved.
+[00:01:31.060 → 00:01:35.640] Performing femininity is endless and it requires an endless amount of data. This data is provided by
+[00:01:35.640 → 00:01:40.120] aspirational influencers who sell you product and who position themselves as gender authorities
+[00:01:40.120 → 00:01:45.260] or mentors to their audience. Guides, lists, tutorials on how to be a certain type of girl
+[00:01:45.260 → 00:01:49.880] are everywhere and every so often a certain type of girl captures the attention of everyone
+[00:01:49.880 → 00:01:55.020] all at once. This girl right now is Carolyn Bissette Kennedy. But how does the public choose who gets
+[00:01:55.020 → 00:01:59.760] to be an IT girl? To quote Serena Shahidi's recent TikTok, you kind of have to be a woman on the
+[00:01:59.760 → 00:02:03.700] edge. The show touches on this, but at the height of her fame, Carolyn Bissette Kennedy was struggling
+[00:02:03.700 → 00:02:08.120] in her relationship, having public domestic disputes and was being hounded by the paparazzi.
+[00:02:08.380 → 00:02:11.920] By all accounts, she was really going through it, and it makes her effortless, mysterious
+[00:02:11.920 → 00:02:16.200] demeanor all the more captivating. But here's the contradiction. This content turns the messy,
+[00:02:16.200 → 00:02:19.760] feminine original personalities of these women into gendered templates.
+[00:02:20.080 → 00:02:23.080] And it ends up diluting the essence that made them so fascinating to begin with.
+[00:02:23.160 → 00:02:26.660] It's worth noting that often the women who become the standard were the ones that resisted the
+[00:02:26.660 → 00:02:30.280] template in the first place. You can't follow a tutorial on how to seem like you've never
+[00:02:30.280 → 00:02:34.060] followed a tutorial. Gendered etiquette curriculums have told women for centuries
+[00:02:34.060 → 00:02:37.880] that their social survival depended on them performing femininity correctly.
+[00:02:38.180 → 00:02:42.060] The medium has changed, the message has not, and it's making girls feel lonely
+[00:02:42.060 → 00:02:46.140] than ever. The question I want to ask you is, what would it look like if you stopped being
+[00:02:46.140 → 00:02:50.940] understandable to everybody else and became understandable only to yourself? What if femininity
+[00:02:50.940 → 00:02:54.920] looked different for everybody who experienced it? They don't want you to know what that feels like
+[00:02:54.920 → 00:02:56.600] because they can never settle it back to you.
+
+========================================================================================
+CLIP 07 · DXPI238jjV4.mp4
+instagram_url: https://www.instagram.com/reel/DXPI238jjV4/
+duration: 00:01:30.768 · language: en (1.00)
+
+FULL TEXT
+Okay, I have a theory. We have a lot to cover, so I gotta go fast. Brands fly out influencers every year to make content for them at Coachella. This year, Starbucks flew out a bunch of influencers and because Starbucks is a boy-cotted company, these influencers received a bunch of backlash on TikTok and Snark subreddits. If you don't know what a Snark subreddit is, congratulations, I'm really happy for you. Also, this past weekend, influencer Alina Tabor was caught posting about herself in Snark subreddits and it went kind of viral. This awesome video by Brea Gallardo McNeil goes into detail about how influencers use Snark subreddits as tools, not only to vet if something that they said is skewing positive or negative, but also just to get followers, because hate follows, hate comments are still engagement. That this is a microcosm of a larger trend in marketing that leaves people confused sometimes, which is why brands make things that they know people are going to hate. There were so many AI generated ads in the Super Bowl this year, despite only 18% of consumers viewing AI ads positively. So obviously they're doing it to spark conversation that's clear, but a lot of companies never adopt this marketing strategy. So why do the ones who use it use it? If you're a huge multinational corporation with a product that's palatable to a large audience like coffee or soda, the game becomes how much free marketing can we get in conversation outside of what we're already paying for. For example, Coca-Cola spends so much on traditional advertising outside of the Super Bowl that for that one event, they're open to experimenting with some negative conversation that they know will arise from the use of AI. Not to like beat this dead horse, but this did exactly what it was trying to do. Clarified and crystallized their core group of consumers by pitting them against literally everybody else. All to say, these marketing tactics are a great reason to put your dollars into smaller and mid-sized companies that aren't willing to bet against your values in order to sell their product to a wider audience.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:00.680] Okay, I have a theory.
+[00:00:00.820 → 00:00:02.140] We have a lot to cover, so I gotta go fast.
+[00:00:02.280 → 00:00:03.740] Brands fly out influencers every year
+[00:00:03.740 → 00:00:04.980] to make content for them at Coachella.
+[00:00:05.120 → 00:00:07.080] This year, Starbucks flew out a bunch of influencers
+[00:00:07.080 → 00:00:08.920] and because Starbucks is a boy-cotted company,
+[00:00:09.180 → 00:00:10.820] these influencers received a bunch of backlash
+[00:00:10.820 → 00:00:13.260] on TikTok and Snark subreddits.
+[00:00:13.360 → 00:00:14.760] If you don't know what a Snark subreddit is,
+[00:00:14.920 → 00:00:16.560] congratulations, I'm really happy for you.
+[00:00:16.600 → 00:00:18.460] Also, this past weekend, influencer Alina Tabor
+[00:00:18.460 → 00:00:20.800] was caught posting about herself in Snark subreddits
+[00:00:20.800 → 00:00:21.560] and it went kind of viral.
+[00:00:21.700 → 00:00:23.500] This awesome video by Brea Gallardo McNeil
+[00:00:23.500 → 00:00:25.120] goes into detail about how influencers
+[00:00:25.120 → 00:00:27.020] use Snark subreddits as tools,
+[00:00:27.240 → 00:00:29.320] not only to vet if something that they said
+[00:00:29.320 → 00:00:33.760] is skewing positive or negative, but also just to get followers, because hate follows,
+[00:00:34.080 → 00:00:38.120] hate comments are still engagement. That this is a microcosm of a larger trend in marketing that
+[00:00:38.120 → 00:00:41.740] leaves people confused sometimes, which is why brands make things that they know people are
+[00:00:41.740 → 00:00:45.860] going to hate. There were so many AI generated ads in the Super Bowl this year, despite only 18%
+[00:00:45.860 → 00:00:49.620] of consumers viewing AI ads positively. So obviously they're doing it to spark conversation
+[00:00:49.620 → 00:00:53.720] that's clear, but a lot of companies never adopt this marketing strategy. So why do the
+[00:00:53.720 → 00:00:57.680] ones who use it use it? If you're a huge multinational corporation with a product
+[00:00:57.680 → 00:01:01.840] that's palatable to a large audience like coffee or soda, the game becomes how much free
+[00:01:01.840 → 00:01:05.180] marketing can we get in conversation outside of what we're already paying for.
+[00:01:05.300 → 00:01:09.220] For example, Coca-Cola spends so much on traditional advertising outside of the Super Bowl that
+[00:01:09.220 → 00:01:12.880] for that one event, they're open to experimenting with some negative conversation that they
+[00:01:12.880 → 00:01:14.300] know will arise from the use of AI.
+[00:01:14.540 → 00:01:17.360] Not to like beat this dead horse, but this did exactly what it was trying to do.
+[00:01:17.540 → 00:01:21.620] Clarified and crystallized their core group of consumers by pitting them against literally
+[00:01:21.620 → 00:01:22.300] everybody else.
+[00:01:22.420 → 00:01:25.480] All to say, these marketing tactics are a great reason to put your dollars into
+[00:01:25.480 → 00:01:28.960] smaller and mid-sized companies that aren't willing to bet against your values in order
+[00:01:28.960 → 00:01:30.520] to sell their product to a wider audience.

@@ -1,0 +1,62 @@
+[
+  {
+    "key": "color-wheel",
+    "title": "Color wheel",
+    "source": "https://en.wikipedia.org/wiki/Color_wheel",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Linear_RGB_color_wheel.png",
+    "file": "assets/creator_references/etymologynerd/color-wheel.png",
+    "ok": true
+  },
+  {
+    "key": "systema-naturae-page",
+    "title": "Systema Naturae",
+    "source": "https://en.wikipedia.org/wiki/Systema_Naturae",
+    "ok": false,
+    "error": "Error: HTTP 429 https://upload.wikimedia.org/wikipedia/commons/a/ae/Linnaeus1758-title-page.jpg"
+  },
+  {
+    "key": "turgot-map-page",
+    "title": "Turgot map of Paris",
+    "source": "https://en.wikipedia.org/wiki/Turgot_map_of_Paris",
+    "ok": false,
+    "error": "Error: HTTP 429 https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Turgot_map_of_Paris_-_Norman_B._Leventhal_Map_Center.jpg/1280px-Turgot_map_of_Paris_-_Norman_B._Leventhal_Map_Center.jpg"
+  },
+  {
+    "key": "human-brain-page",
+    "title": "Human brain",
+    "source": "https://en.wikipedia.org/wiki/Human_brain",
+    "ok": false,
+    "error": "Error: HTTP 429 https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Brain_autopsy_lateral_view.jpg/1280px-Brain_autopsy_lateral_view.jpg"
+  },
+  {
+    "key": "united-states-dollar-page",
+    "title": "United States dollar",
+    "source": "https://en.wikipedia.org/wiki/United_States_dollar",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/USDnotesNew.png/1280px-USDnotesNew.png",
+    "file": "assets/creator_references/etymologynerd/united-states-dollar-page.png",
+    "ok": true
+  },
+  {
+    "key": "influenza-page",
+    "title": "Influenza",
+    "source": "https://en.wikipedia.org/wiki/Influenza",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/EM_of_influenza_virus.jpg",
+    "file": "assets/creator_references/etymologynerd/influenza-page.jpg",
+    "ok": true
+  },
+  {
+    "key": "futurism-page",
+    "title": "Futurism",
+    "source": "https://en.wikipedia.org/wiki/Futurism",
+    "ok": false,
+    "error": "Error: HTTP 429 https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Gino_Severini%2C_1912%2C_Dynamic_Hieroglyphic_of_the_Bal_Tabarin%2C_oil_on_canvas_with_sequins%2C_161.6_x_156.2_cm_%2863.6_x_61.5_in.%29%2C_Museum_of_Modern_Art%2C_New_York.jpg/1280px-Gino_Severini%2C_1912%2C_Dynamic_Hieroglyphic_of_the_Bal_Tabarin%2C_oil_on_canvas_with_sequins%2C_161.6_x_156.2_cm_%2863.6_x_61.5_in.%29%2C_Museum_of_Modern_Art%2C_New_York.jpg"
+  },
+  {
+    "key": "montreal-map-page",
+    "title": "Montreal",
+    "source": "https://en.wikipedia.org/wiki/Montreal",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Mtl_from_mont_royal_%28cropped%29.jpg/1280px-Mtl_from_mont_royal_%28cropped%29.jpg",
+    "file": "assets/creator_references/etymologynerd/montreal-map-page.jpg",
+    "ok": true
+  }
+]

@@ -1,0 +1,167 @@
+@andreyazizov · detailed transcript
+model: faster-whisper small
+clips: 12
+format: per-clip transcript with segment timestamps; generated from local mp4 files
+
+========================================================================================
+CLIP 01 · C692TYhRBz2.mp4
+instagram_url: https://www.instagram.com/reel/C692TYhRBz2/
+duration: 00:00:26.217 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Snakes, sin, temptation, flowers, growth, fulfillment, oceans, pressure, disruption, fear, anxiety.
+
+TIMESTAMPED SEGMENTS
+[00:00:01.330 → 00:00:21.510] Snakes, sin, temptation, flowers, growth, fulfillment, oceans, pressure, disruption, fear, anxiety.
+
+========================================================================================
+CLIP 02 · C692TZPxf5e.mp4
+instagram_url: https://www.instagram.com/reel/C692TZPxf5e/
+duration: 00:00:12.192 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Thank you.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:01.020] [possible low-speech/noisy segment: 0.57] Thank you.
+
+========================================================================================
+CLIP 03 · C692TZVRoMJ.mp4
+instagram_url: https://www.instagram.com/reel/C692TZVRoMJ/
+duration: 00:00:14.514 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Wake me up before you go to the world
+
+TIMESTAMPED SEGMENTS
+[00:00:04.590 → 00:00:09.120] [possible low-speech/noisy segment: 0.59] Wake me up before you go to the world
+
+========================================================================================
+CLIP 04 · C692TZkxUTy.mp4
+instagram_url: https://www.instagram.com/reel/C692TZkxUTy/
+duration: 00:00:11.402 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+eyes and shine I feel like I could be louder
+
+TIMESTAMPED SEGMENTS
+[00:00:05.390 → 00:00:10.790] eyes and shine I feel like I could be louder
+
+========================================================================================
+CLIP 05 · C692V31Rlhj.mp4
+instagram_url: https://www.instagram.com/reel/C692V31Rlhj/
+duration: 00:00:40.009 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Twinkle twinkle
+
+TIMESTAMPED SEGMENTS
+[00:00:03.090 → 00:00:05.590] Twinkle twinkle
+
+========================================================================================
+CLIP 06 · C692VyBR954.mp4
+instagram_url: https://www.instagram.com/reel/C692VyBR954/
+duration: 00:00:53.802 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Once upon a time in a land far away, they lived a little queen who wanted a sleigh. She wanted to spend the night on the town. If only she had a suitable gown. It's giving big flop. Her merit, they'd say, help me, oh please. She texted her gaze. They tried a boot, and a shoe, and a look, and a fit. Then the final assemble, they knew this is it. She ate. She cleared. she came here to slay she was no sleeping beauty but she gagged them all day honey that's take this is not no rare writing hood here in Manhattan we have the little diva that could but you couldn't you couldn't see you next year
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:02.240] Once upon a time in a land far away,
+[00:00:03.010 → 00:00:05.550] they lived a little queen who wanted a sleigh.
+[00:00:06.230 → 00:00:08.110] She wanted to spend the night on the town.
+[00:00:08.610 → 00:00:11.030] If only she had a suitable gown.
+[00:00:11.850 → 00:00:12.850] It's giving big flop.
+[00:00:13.790 → 00:00:16.550] Her merit, they'd say, help me, oh please.
+[00:00:17.110 → 00:00:18.430] She texted her gaze.
+[00:00:19.150 → 00:00:22.250] They tried a boot, and a shoe, and a look, and a fit.
+[00:00:22.890 → 00:00:26.190] Then the final assemble, they knew this is it.
+[00:00:27.020 → 00:00:27.640] She ate.
+[00:00:28.040 → 00:00:28.560] She cleared.
+[00:00:28.560 → 00:00:33.780] she came here to slay she was no sleeping beauty but she gagged them all day
+[00:00:34.760 → 00:00:40.860] honey that's take this is not no rare writing hood here in Manhattan we have
+[00:00:40.860 → 00:00:48.790] the little diva that could but you couldn't you couldn't see you next year
+
+========================================================================================
+CLIP 07 · C692WClRLuC.mp4
+instagram_url: https://www.instagram.com/reel/C692WClRLuC/
+duration: 00:00:26.217 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:11.830] dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream, dream
+
+========================================================================================
+CLIP 08 · C692Wkvx6L1.mp4
+instagram_url: https://www.instagram.com/reel/C692Wkvx6L1/
+duration: 00:00:10.520 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Wake up! Wake up!
+
+TIMESTAMPED SEGMENTS
+[00:00:00.750 → 00:00:02.330] Wake up!
+[00:00:02.590 → 00:00:06.650] Wake up!
+
+========================================================================================
+CLIP 09 · C692bIPRTbf.mp4
+instagram_url: https://www.instagram.com/reel/C692bIPRTbf/
+duration: 00:01:00.025 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+The following program has been brought to you by the National Department of Surveillance. Is your lack of sleigh causing a lack of sleep? Or are the girls just not gagging for you like they used to? Do you wish you were that b**ch? Wake up! Introducing Ternaluk, the one-size-fits-all fit for your future. Zendaya, Bag Bunny, J.Lo, and the Hot Crisp invite you to try Ternaluk. With Ternaluk, you'll be reawakened, enlightened, fulfilled with a sense of divine serenity. No more fear, forgetting anxiety, say goodbye to snakes, leave your flopping area behind. How does it work? I literally have no idea. We don't even know what Turn-a-Look is. But you won't be able to look away. Turn-a-Look will have you thirst-trapped and snatched to the gods. You can finally stop being mom and start being mother. Our revolutionary formula of bringing gag-worthy fashion and sickening serves will maximize your slay. I didn't find Turner looked in time and have now lost my ability to
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.000] The following program has been brought to you by the National Department of Surveillance.
+[00:00:03.480 → 00:00:05.780] Is your lack of sleigh causing a lack of sleep?
+[00:00:05.960 → 00:00:08.540] Or are the girls just not gagging for you like they used to?
+[00:00:09.040 → 00:00:10.800] Do you wish you were that b**ch?
+[00:00:11.000 → 00:00:11.700] Wake up!
+[00:00:12.420 → 00:00:15.820] Introducing Ternaluk, the one-size-fits-all fit for your future.
+[00:00:16.380 → 00:00:22.060] Zendaya, Bag Bunny, J.Lo, and the Hot Crisp invite you to try Ternaluk.
+[00:00:22.700 → 00:00:28.720] With Ternaluk, you'll be reawakened, enlightened, fulfilled with a sense of divine serenity.
+[00:00:28.720 → 00:00:34.780] [possible low-speech/noisy segment: 0.83] No more fear, forgetting anxiety, say goodbye to snakes, leave your flopping area behind.
+[00:00:35.440 → 00:00:37.720] [possible low-speech/noisy segment: 0.83] How does it work? I literally have no idea.
+[00:00:37.980 → 00:00:39.500] [possible low-speech/noisy segment: 0.83] We don't even know what Turn-a-Look is.
+[00:00:39.740 → 00:00:41.320] [possible low-speech/noisy segment: 0.83] But you won't be able to look away.
+[00:00:41.760 → 00:00:44.440] [possible low-speech/noisy segment: 0.83] Turn-a-Look will have you thirst-trapped and snatched to the gods.
+[00:00:44.960 → 00:00:47.400] [possible low-speech/noisy segment: 0.83] You can finally stop being mom and start being mother.
+[00:00:48.260 → 00:00:54.720] [possible low-speech/noisy segment: 0.83] Our revolutionary formula of bringing gag-worthy fashion and sickening serves will maximize your slay.
+[00:00:54.720 → 00:00:59.000] I didn't find Turner looked in time and have now lost my ability to
+
+========================================================================================
+CLIP 10 · C7654cfxTmM.mp4
+instagram_url: https://www.instagram.com/reel/C7654cfxTmM/
+duration: 00:00:19.251 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Please, please, please
+
+TIMESTAMPED SEGMENTS
+[00:00:05.300 → 00:00:08.060] Please, please, please
+
+========================================================================================
+CLIP 11 · DWrm72igSz3.mp4
+instagram_url: https://www.instagram.com/reel/DWrm72igSz3/
+duration: --:--:--.--- · language: unknown (0.00)
+transcription_mode: error
+ERROR: tuple index out of range
+
+========================================================================================
+CLIP 12 · DWrm7mZAcW9.mp4
+instagram_url: https://www.instagram.com/reel/DWrm7mZAcW9/
+duration: --:--:--.--- · language: unknown (0.00)
+transcription_mode: error
+ERROR: tuple index out of range

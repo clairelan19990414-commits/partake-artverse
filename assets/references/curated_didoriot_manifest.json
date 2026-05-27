@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "coachella",
+    "title": "Coachella Valley Music and Arts Festival",
+    "path": "assets/references/curated_didoriot/coachella.jpg",
+    "source": "https://en.wikipedia.org/wiki/Coachella",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Coachella18W1-18_%2842058161311%29.jpg/3840px-Coachella18W1-18_%2842058161311%29.jpg",
+    "description": "Annual music and arts festival in Indio, California"
+  },
+  {
+    "slug": "shay-mitchell",
+    "title": "Shay Mitchell",
+    "path": "assets/references/curated_didoriot/shay-mitchell.jpg",
+    "source": "https://en.wikipedia.org/wiki/Shay_Mitchell",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/commons/6/68/Shay_Mitchell_Headshot_TheCollectiveYou_%28cropped%29.jpg",
+    "description": "Canadian actress (born 1987)"
+  },
+  {
+    "slug": "steve-jobs",
+    "title": "Steve Jobs",
+    "path": "assets/references/curated_didoriot/steve-jobs.jpg",
+    "source": "https://en.wikipedia.org/wiki/Steve_Jobs",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/commons/5/51/Steve_Jobs_Headshot_2010_%28cropped_4%29.jpg",
+    "description": "American businessman and inventor (1955–2011)"
+  }
+]

@@ -1,0 +1,96 @@
+@bjornd.al · detailed transcript
+model: faster-whisper small
+clips: 2
+format: per-clip transcript with segment timestamps; generated from local mp4 files
+
+========================================================================================
+CLIP 01 · DXJvS6tAh1Y.mp4
+instagram_url: https://www.instagram.com/reel/DXJvS6tAh1Y/
+duration: 00:02:40.449 · language: en (1.00)
+
+FULL TEXT
+In 1836, accused of practicing Egyptian black magic, the only person who knew how to petrify human bodies and other organic materials was compelled to destroy his research upon his sudden illness and death at age 43. To this day, we still have not figured out how he did it. This is Gialamo Sigato, an Italian naturalist, cartographer, and Egyptologist who was perhaps obsessed with preserving organic materials, to the point where he could preserve materials extremely well with no loss in texture or color. In fact, he even made a table out of cross sections of human organs that he used to show off to people and shock his guests. Born in a Carthusian monastery, really in his career, he had an opportunity to join some expeditions to Egypt, where he learned of ancient Egyptian mummification, which in part involved removing all moisture from the object. That inspired him to later work on his own preservation methods, even though they weren't too related on a technical level compared with the Egyptian way of mummification. He was on some real advanced stuff, well at least one of his three ways that he was preserving stuff was. The other two, using chalk and vascular injections, were also used at that time, but he was also better at those two methods than everyone else. The third method is the one we haven't figured out yet that involves petrification. We know what materials he was using at the time because other people were using the same materials, but that's about it. With that said, Sigata was known about in the medical field in his time, and he was visited by Henry Wilde and Valentine Mott, who both documented their experiences with him. Which, by the way, included Sigata literally throwing human organs onto the floor to demonstrate how well-preserved he had made them. But when asked about his petrification process, Sigata was a bit cagey and a little reluctant to immediately divulge his process. Mott even invited him to the United States with a generous financial offer, citing how important his work could be to medicine. But Segato was also in crippling debt and Mott couldn't figure out a way to get him out of the country. That combined with Segato having a lot of haters in the church accusing him of things and his sudden death following Mott's departure back to the United States led to no documentation about his preservation process. All we have to go on is writing from Mott where Sugato said he had hoped that some other person would go to where he went to learn the method from the people that he learned it from. But Sugato never expanded on that as far as I could tell. He died of a lung infection at age 43 with only some of his specimens surviving. Have a great day and goodbye.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:06.260] In 1836, accused of practicing Egyptian black magic, the only person who knew how to petrify
+[00:00:06.260 → 00:00:11.820] human bodies and other organic materials was compelled to destroy his research upon his
+[00:00:11.820 → 00:00:17.460] sudden illness and death at age 43. To this day, we still have not figured out how he did it.
+[00:00:17.620 → 00:00:24.040] This is Gialamo Sigato, an Italian naturalist, cartographer, and Egyptologist who was perhaps
+[00:00:24.040 → 00:00:28.380] obsessed with preserving organic materials, to the point where he could preserve materials
+[00:00:28.380 → 00:00:34.660] extremely well with no loss in texture or color. In fact, he even made a table out of cross sections
+[00:00:34.660 → 00:00:40.820] of human organs that he used to show off to people and shock his guests. Born in a Carthusian
+[00:00:40.820 → 00:00:45.600] monastery, really in his career, he had an opportunity to join some expeditions to Egypt,
+[00:00:45.760 → 00:00:50.880] where he learned of ancient Egyptian mummification, which in part involved removing all moisture
+[00:00:50.880 → 00:00:55.980] from the object. That inspired him to later work on his own preservation methods,
+[00:00:55.980 → 00:01:00.200] even though they weren't too related on a technical level compared with the Egyptian
+[00:01:00.200 → 00:01:06.480] way of mummification. He was on some real advanced stuff, well at least one of his three ways that
+[00:01:06.480 → 00:01:14.180] he was preserving stuff was. The other two, using chalk and vascular injections, were also used
+[00:01:14.180 → 00:01:18.980] at that time, but he was also better at those two methods than everyone else. The third method
+[00:01:18.980 → 00:01:23.020] is the one we haven't figured out yet that involves petrification. We know what materials
+[00:01:23.020 → 00:01:27.560] he was using at the time because other people were using the same materials, but that's about it.
+[00:01:27.780 → 00:01:33.020] With that said, Sigata was known about in the medical field in his time, and he was visited by
+[00:01:33.020 → 00:01:38.560] Henry Wilde and Valentine Mott, who both documented their experiences with him. Which, by the way,
+[00:01:38.720 → 00:01:44.100] included Sigata literally throwing human organs onto the floor to demonstrate how well-preserved
+[00:01:44.100 → 00:01:49.120] he had made them. But when asked about his petrification process, Sigata was a bit cagey
+[00:01:49.120 → 00:01:52.700] and a little reluctant to immediately divulge his process.
+[00:01:53.200 → 00:01:54.880] Mott even invited him to the United States
+[00:01:54.880 → 00:01:57.020] with a generous financial offer,
+[00:01:57.380 → 00:02:00.340] citing how important his work could be to medicine.
+[00:02:00.780 → 00:02:02.820] But Segato was also in crippling debt
+[00:02:02.820 → 00:02:04.660] and Mott couldn't figure out a way
+[00:02:04.660 → 00:02:06.020] to get him out of the country.
+[00:02:06.360 → 00:02:08.600] That combined with Segato having a lot of haters
+[00:02:08.600 → 00:02:10.360] in the church accusing him of things
+[00:02:10.360 → 00:02:13.140] and his sudden death following Mott's departure
+[00:02:13.140 → 00:02:16.680] back to the United States led to no documentation
+[00:02:16.680 → 00:02:21.860] about his preservation process. All we have to go on is writing from Mott where
+[00:02:21.860 → 00:02:26.340] Sugato said he had hoped that some other person would go to where he went to
+[00:02:26.340 → 00:02:30.060] learn the method from the people that he learned it from. But Sugato never
+[00:02:30.060 → 00:02:34.880] expanded on that as far as I could tell. He died of a lung infection at age
+[00:02:34.880 → 00:02:39.740] 43 with only some of his specimens surviving. Have a great day and goodbye.
+
+========================================================================================
+CLIP 02 · DXbw4BUj2N2.mp4
+instagram_url: https://www.instagram.com/reel/DXbw4BUj2N2/
+duration: 00:02:49.324 · language: en (1.00)
+
+FULL TEXT
+Did you know that the guy who wrote God Bless America and White Christmas Putting on the Ritz, There's No Business Like Show Business, and a bunch of other iconic songs for that matter was born in Siberia, immigrated to the United States from Belarus by way of Belgium, served in the U.S. Army during the First World War where he wrote and performed music and shows to improve troupe morale, who wrote around 1500 songs before he died at age 101, could only play piano in the key of F-sharp? Let's talk about Irving Berlin. in. After getting out of the cage he was placed in with his siblings on Ellis Island, he realized later that before immigrating, his family had basically been living in abject poverty, with his only memory of his pre-U.S. life being one where he watched his house burn down, putting it together that his parents moved to escape the pogroms. When his father died when he was 13 in true early 1900s New York City fashion, he became a paper boy to support his family, which was better than what his older brother was doing, working in a sweatshop, then he did what all paper boys do in true New York City fashion, want to become a singer just like his father, which now that I'm thinking about it is maybe where the paper boy with stars in his eyes trope came from in the first place, given that Berlin later wrote tons of show tunes. So anyway, and this is just so wild to me. He spends time singing for people in bars and whatnot, develops good taste, finds what I'm going to call an agent, and starts writing lyrics for songs, but not the music yet, which he doesn't start doing until he submits some song lyrics and the publishing company sends him a letter back and says like, Hey, we got your song. It's great. But where's the music? And he had what can only be described as an Oh, moment. And rather than lose out on the money from the gig, wrote the music and submitted it. And then he was fully locked in writing both the music and lyrics. And one year later wrote a song, Alexander's regtime band that sparked a whole dance craze. He was basically unstoppable even through World War I when he wrote God Bless America based on his love of his new home, which he later revised for the 20th anniversary of Armistice Day and the whole World War II thing. So anyway, again, through all of this he can only play piano in the key of F-sharp, which is most of the black keys with a couple of the white keys peppered in, but now had enough money and certainly enough clout to custom order pianos, which he did, which led him to owning two pianos with levers on them, allowing him to transpose music into different keys without having to play any differently. And he also had a person who could notate everything for him. He was a freaking machine. I mean, he tried to retire at age 74, but was drawn back into the game until he finally retired at age 78. And he stopped completely denying all public appearances and opportunities just chilling and still got a good 20 years of retirement before dying at age 101. There's so much more to say, but I'm out of time.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.120] Did you know that the guy who wrote God Bless America and White Christmas Putting on the Ritz,
+[00:00:04.260 → 00:00:08.460] There's No Business Like Show Business, and a bunch of other iconic songs for that matter
+[00:00:08.460 → 00:00:13.320] was born in Siberia, immigrated to the United States from Belarus by way of Belgium,
+[00:00:13.720 → 00:00:18.220] served in the U.S. Army during the First World War where he wrote and performed music and shows
+[00:00:18.220 → 00:00:23.000] to improve troupe morale, who wrote around 1500 songs before he died at age 101,
+[00:00:23.620 → 00:00:27.760] could only play piano in the key of F-sharp? Let's talk about Irving Berlin.
+[00:00:27.760 → 00:00:31.920] in. After getting out of the cage he was placed in with his siblings on Ellis Island,
+[00:00:32.280 → 00:00:36.400] he realized later that before immigrating, his family had basically been living in abject
+[00:00:36.400 → 00:00:40.940] poverty, with his only memory of his pre-U.S. life being one where he watched his house
+[00:00:40.940 → 00:00:45.280] burn down, putting it together that his parents moved to escape the pogroms. When
+[00:00:45.280 → 00:00:50.500] his father died when he was 13 in true early 1900s New York City fashion, he became
+[00:00:50.500 → 00:00:54.220] a paper boy to support his family, which was better than what his older brother
+[00:00:54.220 → 00:00:58.960] was doing, working in a sweatshop, then he did what all paper boys do in true New York
+[00:00:58.960 → 00:01:03.580] City fashion, want to become a singer just like his father, which now that I'm thinking
+[00:01:03.580 → 00:01:07.800] about it is maybe where the paper boy with stars in his eyes trope came from in the
+[00:01:07.800 → 00:01:10.600] first place, given that Berlin later wrote tons of show tunes.
+[00:01:10.940 → 00:01:12.840] So anyway, and this is just so wild to me.
+[00:01:12.920 → 00:01:16.620] He spends time singing for people in bars and whatnot, develops good taste, finds
+[00:01:16.620 → 00:01:20.180] what I'm going to call an agent, and starts writing lyrics for songs, but not
+[00:01:20.180 → 00:01:24.920] the music yet, which he doesn't start doing until he submits some song lyrics and the publishing
+[00:01:24.920 → 00:01:31.440] company sends him a letter back and says like, Hey, we got your song. It's great. But where's
+[00:01:31.440 → 00:01:37.540] the music? And he had what can only be described as an Oh, moment. And rather than lose out on
+[00:01:37.540 → 00:01:42.460] the money from the gig, wrote the music and submitted it. And then he was fully locked
+[00:01:42.460 → 00:01:47.340] in writing both the music and lyrics. And one year later wrote a song, Alexander's
+[00:01:47.340 → 00:01:53.040] regtime band that sparked a whole dance craze. He was basically unstoppable even through World War
+[00:01:53.040 → 00:01:58.260] I when he wrote God Bless America based on his love of his new home, which he later revised
+[00:01:58.260 → 00:02:04.740] for the 20th anniversary of Armistice Day and the whole World War II thing. So anyway, again,
+[00:02:04.860 → 00:02:10.040] through all of this he can only play piano in the key of F-sharp, which is most of the black
+[00:02:10.040 → 00:02:14.120] keys with a couple of the white keys peppered in, but now had enough money and certainly
+[00:02:14.120 → 00:02:19.340] enough clout to custom order pianos, which he did, which led him to owning two pianos
+[00:02:19.340 → 00:02:24.060] with levers on them, allowing him to transpose music into different keys without having to
+[00:02:24.060 → 00:02:28.920] play any differently. And he also had a person who could notate everything for him. He was
+[00:02:28.920 → 00:02:34.100] a freaking machine. I mean, he tried to retire at age 74, but was drawn back into
+[00:02:34.100 → 00:02:39.820] the game until he finally retired at age 78. And he stopped completely denying all
+[00:02:39.820 → 00:02:44.980] public appearances and opportunities just chilling and still got a good 20 years of retirement
+[00:02:44.980 → 00:02:49.080] before dying at age 101. There's so much more to say, but I'm out of time.

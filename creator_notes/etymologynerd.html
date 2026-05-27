@@ -5,9 +5,310 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>@etymologynerd · creator notes · partake</title>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../shared.css?v=creator-notes-guided-8">
+<link rel="stylesheet" href="../shared.css?v=creator-notes-guided-11">
+<style>
+  .etymo-page {
+    --etymo-ink: #1d1d1b;
+    --etymo-paper: #eeede8;
+    --etymo-card: rgba(255,255,255,0.48);
+    --etymo-green: #3f8a2f;
+    --etymo-line: rgba(29,29,27,0.16);
+  }
+  .etymo-page .page-header {
+    border-bottom: 1px solid var(--etymo-line);
+    background:
+      radial-gradient(circle at 12% 20%, rgba(63,138,47,0.13), transparent 26%),
+      linear-gradient(135deg, rgba(255,255,255,0.56), rgba(232,231,224,0.72));
+  }
+  .etymo-hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+    gap: 28px;
+    align-items: start;
+  }
+  .etymo-thesis {
+    max-width: 860px;
+  }
+  .etymo-thesis .header-subject {
+    max-width: 820px;
+  }
+  .etymo-meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 18px;
+  }
+  .etymo-pill {
+    border: 1px solid var(--etymo-line);
+    background: rgba(255,255,255,0.52);
+    padding: 7px 10px;
+    font-family: var(--mono);
+    font-size: 0.64rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-2);
+  }
+  .hero-atlas {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+  .hero-atlas a,
+  .inline-figure a,
+  .visual-card a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .hero-atlas figure,
+  .inline-figure,
+  .visual-card {
+    margin: 0;
+    border: 1px solid var(--etymo-line);
+    background: var(--etymo-card);
+    overflow: hidden;
+  }
+  .hero-atlas img,
+  .inline-figure img,
+  .visual-card img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    filter: saturate(0.88) contrast(1.02);
+  }
+  .hero-atlas figcaption,
+  .inline-figure figcaption,
+  .visual-card figcaption {
+    padding: 10px 12px;
+    font-size: 0.74rem;
+    line-height: 1.45;
+    color: var(--text-2);
+    border-top: 1px solid var(--etymo-line);
+  }
+  .hero-atlas strong,
+  .inline-figure strong,
+  .visual-card strong {
+    display: block;
+    font-family: var(--mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--etymo-ink);
+    margin-bottom: 4px;
+  }
+  .etymo-roadmap {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 8px;
+    margin-top: 34px;
+  }
+  .etymo-roadmap a {
+    display: block;
+    min-height: 118px;
+    padding: 13px;
+    border: 1px solid var(--etymo-line);
+    background: rgba(255,255,255,0.42);
+    color: inherit;
+    text-decoration: none;
+  }
+  .etymo-roadmap span {
+    display: block;
+    font-family: var(--mono);
+    font-size: 0.62rem;
+    color: var(--etymo-green);
+    letter-spacing: 0.12em;
+    margin-bottom: 14px;
+  }
+  .etymo-roadmap strong {
+    display: block;
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    line-height: 1.35;
+  }
+  .etymo-roadmap em {
+    display: block;
+    margin-top: 8px;
+    font-style: normal;
+    font-size: 0.72rem;
+    color: var(--text-2);
+    line-height: 1.42;
+  }
+  .argument-section {
+    margin: 54px 0;
+  }
+  .argument-panel {
+    display: grid;
+    grid-template-columns: minmax(0, 0.95fr) minmax(340px, 1.05fr);
+    gap: 22px;
+    align-items: stretch;
+    border: 1px solid var(--etymo-line);
+    background: rgba(255,255,255,0.38);
+  }
+  .argument-panel.reverse {
+    grid-template-columns: minmax(340px, 1.05fr) minmax(0, 0.95fr);
+  }
+  .argument-copy {
+    padding: 24px;
+  }
+  .argument-kicker,
+  .mini-kicker {
+    font-family: var(--mono);
+    font-size: 0.64rem;
+    letter-spacing: 0.12em;
+    color: var(--etymo-green);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .argument-copy h2 {
+    margin: 0 0 14px;
+    font-family: var(--mono);
+    font-size: clamp(1.35rem, 2.4vw, 2.1rem);
+    line-height: 1.1;
+  }
+  .argument-copy p {
+    color: var(--text-2);
+    line-height: 1.72;
+    margin: 0 0 14px;
+  }
+  .argument-list {
+    display: grid;
+    gap: 10px;
+    margin-top: 18px;
+  }
+  .argument-list a,
+  .source-card a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .argument-list a {
+    display: block;
+    padding: 12px;
+    border-left: 3px solid var(--etymo-green);
+    background: rgba(255,255,255,0.45);
+  }
+  .argument-list strong {
+    display: block;
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    margin-bottom: 4px;
+  }
+  .argument-list span {
+    font-size: 0.75rem;
+    color: var(--text-2);
+    line-height: 1.45;
+  }
+  .argument-visuals {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    padding: 10px;
+  }
+  .argument-visuals.single {
+    grid-template-columns: 1fr;
+  }
+  .argument-visuals.single .inline-figure img {
+    aspect-ratio: 16 / 10;
+  }
+  .concept-weave {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .concept-weave article {
+    border: 1px solid var(--etymo-line);
+    background: var(--etymo-card);
+    padding: 16px;
+  }
+  .concept-weave h3 {
+    margin: 0 0 9px;
+    font-family: var(--mono);
+    font-size: 0.92rem;
+    line-height: 1.3;
+  }
+  .concept-weave p {
+    margin: 0 0 12px;
+    color: var(--text-2);
+    line-height: 1.58;
+    font-size: 0.82rem;
+  }
+  .concept-weave small {
+    font-family: var(--mono);
+    color: var(--text-3);
+    letter-spacing: 0.06em;
+  }
+  .source-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
+  }
+  .source-card {
+    border: 1px solid var(--etymo-line);
+    background: rgba(255,255,255,0.42);
+    padding: 14px;
+  }
+  .source-card h3 {
+    margin: 0 0 10px;
+    font-family: var(--mono);
+    font-size: 0.86rem;
+    line-height: 1.35;
+  }
+  .source-card p {
+    margin: 0;
+    font-size: 0.74rem;
+    color: var(--text-2);
+    line-height: 1.52;
+  }
+  .source-card .mini-kicker {
+    margin-bottom: 8px;
+  }
+  .visual-atlas-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 10px;
+  }
+  .visual-card img {
+    aspect-ratio: 1 / 1;
+  }
+  .visual-card figcaption {
+    min-height: 132px;
+  }
+  .quote-grid-compact {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .quote-grid-compact .quote-item {
+    margin: 0;
+  }
+  @media (max-width: 980px) {
+    .etymo-hero-grid,
+    .argument-panel,
+    .argument-panel.reverse {
+      grid-template-columns: 1fr;
+    }
+    .etymo-roadmap,
+    .concept-weave,
+    .source-grid,
+    .visual-atlas-grid,
+    .quote-grid-compact {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  @media (max-width: 640px) {
+    .hero-atlas,
+    .argument-visuals,
+    .etymo-roadmap,
+    .concept-weave,
+    .source-grid,
+    .visual-atlas-grid,
+    .quote-grid-compact {
+      grid-template-columns: 1fr;
+    }
+    .argument-copy { padding: 18px; }
+  }
+</style>
 </head>
-<body class="creator-note-page guided-note-page">
+<body class="creator-note-page guided-note-page etymo-page">
 <nav class="site-nav">
   <a class="nav-logo" href="../index.html">partake</a>
   <div class="nav-links">
@@ -17,265 +318,186 @@
     <a class="nav-link" href="../language_memory.html">language memory</a>
     <a class="nav-link" href="../platform_selfhood.html">platform selfhood</a>
     <a class="nav-link" href="../visual_taste_place.html">visual taste place</a>
+    <a class="nav-link" href="../timeline.html">timeline</a>
+    <a class="nav-link" href="../artist_map.html">artist map</a>
+    <a class="nav-link" href="../septemics.html">septemics</a>
   </div>
 </nav>
 <header class="page-header creator-hero guided-hero">
-  <div class="creator-hero-layout">
-    <div class="creator-hero-main">
+  <div class="etymo-hero-grid">
+    <div class="etymo-thesis">
       <div class="header-eyebrow">INSTAGRAM SOURCE NOTES · <a href="../language_memory.html">LANGUAGE MEMORY</a></div>
       <h1 class="header-title">@etymologynerd</h1>
-      <p class="header-subject">@etymologynerd creates infographic-based content that traces the word origins of everyday objects, places, and concepts — showing how language acts as a compressed archive of human history, culture, and migration. The creator&#x27;s thesis is that etymology is universally accessible and endlessly surprising: virtually any domain (food, geography, science, music) reveals hidden linguistic patterns once you look. Most recently, this framework has been extended into a book arguing that social media algorithms are the newest force reshaping how language evolves.</p>
-      <div class="header-meta"><span>7 concepts</span><span>5 references</span><span>4 positions</span></div>
+      <p class="header-subject">This page reads @etymologynerd as a visual linguistics practice: everyday names become small archaeological sites. Across place names, colors, typefaces, diseases, currencies, scientific labels, and platform slang, the creator keeps showing that language is not a dictionary sitting still. It is a map of trade, settlement, classification, taste, institutional power, and now algorithmic pressure.</p>
+      <div class="etymo-meta-row">
+        <span class="etymo-pill">40 harvested captions</span>
+        <span class="etymo-pill">8 core source posts</span>
+        <span class="etymo-pill">10 real visual references</span>
+        <span class="etymo-pill">no fake image cards</span>
+      </div>
     </div>
-    <aside class="roadmap-panel" aria-label="Reading road map">
-      <div class="roadmap-eyebrow">read this page as</div>
-      <h2>Road map</h2>
-      <p>Follow the argument through four linked ideas. Each step pairs a concept with a source reference and one strong position.</p>
-      <div class="roadmap-list"><a class="roadmap-step" href="#step-1">
-          <span class="roadmap-number">01</span>
-          <span><strong>Etymology as hidden history</strong><em>Words function as compressed records of cultural exchange, human migration, and…</em></span>
-        </a><a class="roadmap-step" href="#step-2">
-          <span class="roadmap-number">02</span>
-          <span><strong>Toponym patterns</strong><em>Place names encode layers of colonial, indigenous, and immigrant history, making…</em></span>
-        </a><a class="roadmap-step" href="#step-3">
-          <span class="roadmap-number">03</span>
-          <span><strong>Scientific naming conventions</strong><em>Taxonomy, anatomy, medicine, and geology follow systematic Latin and Greek…</em></span>
-        </a><a class="roadmap-step" href="#step-4">
-          <span class="roadmap-number">04</span>
-          <span><strong>Algospeak</strong><em>Platform content moderation and recommendation algorithms now actively drive…</em></span>
-        </a></div>
-    </aside>
-    <div class="inline-ref-strip inline-ref-strip--textual"><a class="inline-ref-chip inline-ref-chip--context" href="https://www.google.com/search?q=ALGOSPEAK%3A+How+Social+Media+is+Transforming+the+Future+of+Language"><span class="inline-ref-text-mark">context</span><span>ALGOSPEAK: How Social Media is Transforming the Future of Language</span></a><a class="inline-ref-chip inline-ref-chip--context" href="https://www.google.com/search?q=Alfred+A.+Knopf"><span class="inline-ref-text-mark">context</span><span>Alfred A. Knopf (@aaknopf)</span></a><a class="inline-ref-chip inline-ref-chip--context" href="https://www.google.com/search?q=Tyler+Comrie"><span class="inline-ref-text-mark">context</span><span>Tyler Comrie</span></a><a class="inline-ref-chip inline-ref-chip--context" href="https://www.google.com/search?q=Romance+languages"><span class="inline-ref-text-mark">context</span><span>Romance languages</span></a></div>
+    <div class="hero-atlas" aria-label="Opening visual references">
+      <figure><a href="https://www.penguinrandomhouse.com/books/776856/algospeak-by-adam-aleksic/" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/algospeak-cover-real.jpg" alt="Algospeak book cover"></a><figcaption><strong>Algorithmic language</strong> Online moderation becomes a new environment for word formation.</figcaption></figure>
+      <figure><a href="https://commons.wikimedia.org/wiki/File:Map_of_Romance_Languages_Worldwide.png" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/romance-languages-map.png" alt="Map of Romance languages worldwide"></a><figcaption><strong>Language as geography</strong> Romance languages make Latin visible as migration, empire, and locality.</figcaption></figure>
+      <figure><a href="https://commons.wikimedia.org/wiki/File:A_Specimen_by_William_Caslon.jpg" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/caslon-specimen.jpg" alt="William Caslon type specimen"></a><figcaption><strong>Names in print culture</strong> Typefaces are named artifacts, not neutral delivery systems.</figcaption></figure>
+      <figure><a href="https://commons.wikimedia.org/wiki/File:Biological_classification_L_Pengo_vflip.svg" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/linnaean-taxonomy-tree.png" alt="Biological classification diagram"></a><figcaption><strong>Scientific naming</strong> Latin and Greek survive because classification needs stable structure.</figcaption></figure>
+    </div>
   </div>
+  <nav class="etymo-roadmap" aria-label="Page roadmap">
+    <a href="#platform"><span>01</span><strong>Platform language</strong><em>Algospeak turns moderation into a linguistic force.</em></a>
+    <a href="#maps"><span>02</span><strong>Names as maps</strong><em>Place names expose settlement, power, and borrowed memory.</em></a>
+    <a href="#systems"><span>03</span><strong>Systems of classification</strong><em>Science names the world by nesting it into order.</em></a>
+    <a href="#culture"><span>04</span><strong>Cultural labels</strong><em>Fonts, colors, currencies, and movements encode social taste.</em></a>
+    <a href="#atlas"><span>05</span><strong>Reference atlas</strong><em>Every image links back to a real source object.</em></a>
+  </nav>
 </header>
 <main class="page-body creator-note-body guided-note-body">
-  <section id="guided-route" class="guided-route-section">
-    <div class="section-label">Guided Route</div>
-    <div class="story-flow"><article class="story-step" id="step-1">
-        <div class="story-marker"><span>01</span></div>
-        <div class="story-copy">
-          <div class="story-kicker">CAnIRdiA5Ow, CaCjk4ZuriT, B99HGTKAZA7</div>
-          <h2>Etymology as hidden history</h2>
-          <p>Words function as compressed records of cultural exchange, human migration, and historical discovery, making linguistics a form of archaeology.</p>
-          <a class="story-reference story-reference--context" href="https://www.google.com/search?q=ALGOSPEAK%3A+How+Social+Media+is+Transforming+the+Future+of+Language">
-            <span class="story-reference-context-mark">book</span>
-            <span class="story-ref-label">book</span>
-            <strong>ALGOSPEAK: How Social Media is Transforming the Future of Language</strong>
-            <em>via DDHqAcvOF0x</em>
-          </a>
-          <blockquote>Algorithms are now an active linguistic force: platform moderation produces vocabulary (&#x27;unalive&#x27;, &#x27;skibidi&#x27;, &#x27;cottagecore&#x27;) the same way trade routes and conquest once did.</blockquote>
-          
+  <section id="platform" class="argument-section">
+    <div class="section-label">01 · Platform Language</div>
+    <div class="argument-panel">
+      <div class="argument-copy">
+        <div class="argument-kicker">DDHqAcvOF0x · book announcement</div>
+        <h2>The algorithm is now part of etymology.</h2>
+        <p>The strongest update to the older etymology account is <em>Algospeak</em>: vocabulary no longer changes only through migration, conquest, commerce, or subculture. Platform moderation and recommendation systems create pressure fields where users invent terms, soften forbidden words, and package identity into searchable labels.</p>
+        <p>That makes the creator's book announcement more than self-promotion. It reframes the whole account: the same curiosity used to explain Latin roots or neighborhood names is now aimed at TikTok, filters, virality, and the way social media teaches people to speak around machines.</p>
+        <div class="argument-list">
+          <a href="https://www.instagram.com/reel/DDHqAcvOF0x/" target="_blank" rel="noopener"><strong>Source clip</strong><span>Book-cover announcement naming examples including unalive, skibidi, cottagecore, and algospeak.</span></a>
+          <a href="https://www.penguinrandomhouse.com/books/776856/algospeak-by-adam-aleksic/" target="_blank" rel="noopener"><strong>Reference object</strong><span>The social-media account becomes a print argument about language change under platforms.</span></a>
         </div>
-      </article><article class="story-step" id="step-2">
-        <div class="story-marker"><span>02</span></div>
-        <div class="story-copy">
-          <div class="story-kicker">CaCjk4ZuriT, CAnIRdiA5Ow</div>
-          <h2>Toponym patterns</h2>
-          <p>Place names encode layers of colonial, indigenous, and immigrant history, making geography a readable map of power and settlement.</p>
-          <a class="story-reference story-reference--context" href="https://www.google.com/search?q=Alfred+A.+Knopf">
-            <span class="story-reference-context-mark">publisher</span>
-            <span class="story-ref-label">publisher</span>
-            <strong>Alfred A. Knopf (@aaknopf)</strong>
-            <em>via DDHqAcvOF0x</em>
-          </a>
-          <blockquote>Etymology is universally accessible — any domain reveals hidden linguistic patterns once you apply the same lens.</blockquote>
-          
-        </div>
-      </article><article class="story-step" id="step-3">
-        <div class="story-marker"><span>03</span></div>
-        <div class="story-copy">
-          <div class="story-kicker">CcaawemOJ1p, B99HGTKAZA7</div>
-          <h2>Scientific naming conventions</h2>
-          <p>Taxonomy, anatomy, medicine, and geology follow systematic Latin and Greek construction rules that preserve the logic of early scientific thought.</p>
-          <a class="story-reference story-reference--context" href="https://www.google.com/search?q=Tyler+Comrie">
-            <span class="story-reference-context-mark">person</span>
-            <span class="story-ref-label">person</span>
-            <strong>Tyler Comrie</strong>
-            <em>via DDHqAcvOF0x</em>
-          </a>
-          <blockquote>Words carry compressed cultural records: to know a word&#x27;s origin is to recover a piece of history that written records may have lost.</blockquote>
-          
-        </div>
-      </article><article class="story-step" id="step-4">
-        <div class="story-marker"><span>04</span></div>
-        <div class="story-copy">
-          <div class="story-kicker">DDHqAcvOF0x</div>
-          <h2>Algospeak</h2>
-          <p>Platform content moderation and recommendation algorithms now actively drive vocabulary formation, producing terms like &#x27;unalive&#x27; as users adapt language to evade filters.</p>
-          <a class="story-reference story-reference--context" href="https://www.google.com/search?q=Romance+languages">
-            <span class="story-reference-context-mark">movement</span>
-            <span class="story-ref-label">movement</span>
-            <strong>Romance languages</strong>
-            <em>via CAnIRdiA5Ow</em>
-          </a>
-          <blockquote>Visual presentation (infographics, maps) is not just a delivery format but an argument — it demonstrates that etymology has spatial and systemic logic, not just trivia value.</blockquote>
-          
-        </div>
-      </article></div>
-  </section>
-  <section id="source-corpus" class="source-corpus-section">
-    <div class="section-label">Evidence Trail</div>
-    <div class="source-corpus-intro">
-      <p>This is the source texture behind the notes: a curated path through the harvested captions so the page reads less like an abstract summary and more like a map of what @etymologynerd actually kept returning to.</p>
-      <div class="corpus-meta"><span>40 harvested posts</span><span>12 source cards</span><span>language evidence</span></div>
+      </div>
+      <div class="argument-visuals">
+        <figure class="inline-figure"><a href="https://www.penguinrandomhouse.com/books/776856/algospeak-by-adam-aleksic/" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/algospeak-cover-real.jpg" alt="Algospeak book cover"></a><figcaption><strong>ALGOSPEAK</strong>The cover is useful here because it marks the shift from etymology as trivia to etymology as platform theory.</figcaption></figure>
+        <figure class="inline-figure"><a href="https://commons.wikimedia.org/wiki/File:Alfred_A._Knopf_-_Borzoi_logo_-_1926.png" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/knopf-borzoi.png" alt="Alfred A. Knopf borzoi logo"></a><figcaption><strong>Knopf borzoi</strong>The publisher mark turns the Instagram feed into a book object, with social slang entering literary infrastructure.</figcaption></figure>
+      </div>
     </div>
-    <div class="corpus-grid"><a class="corpus-card" href="https://www.instagram.com/reel/CpNUk7WOY3Z/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 01 · CpNUk7WOY3Z</div>
-          <h3>How colors got their names!</h3>
-          <p>A source post from the harvested caption set that helps show the creator&#x27;s recurring terrain.</p>
-          <span class="corpus-role">language evidence</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/CnjvvCGoSm5/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 02 · CnjvvCGoSm5</div>
-          <h3>How the suburbs and boroughs of Montreal got their names!!</h3>
-          <p>A source post from the harvested caption set that helps show the creator&#x27;s recurring terrain.</p>
-          <span class="corpus-role">language evidence</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/CixPzn8OsCQ/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 03 · CixPzn8OsCQ</div>
-          <h3>How Baltimore&#x27;s neighborhoods got their names!</h3>
-          <p>A source post from the harvested caption set that helps show the creator&#x27;s recurring terrain.</p>
-          <span class="corpus-role">language evidence</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/CcDMVDgO48o/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 04 · CcDMVDgO48o</div>
-          <h3>How species of fish got their names!</h3>
-          <p>A source post from the harvested caption set that helps show the creator&#x27;s recurring terrain.</p>
-          <span class="corpus-role">language evidence</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/CTvh0N4Ah7o/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 05 · CTvh0N4Ah7o</div>
-          <h3>How Singapore&#x27;s districts got their names!</h3>
-          <p>A source post from the harvested caption set that helps show the creator&#x27;s recurring terrain.</p>
-          <span class="corpus-role">language evidence</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/CRgpE72ADEi/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 06 · CRgpE72ADEi</div>
-          <h3>How typefaces got their names!</h3>
-          <p>A source post from the harvested caption set that helps show the creator&#x27;s recurring terrain.</p>
-          <span class="corpus-role">language evidence</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/CPx3luegPNt/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 07 · CPx3luegPNt</div>
-          <h3>How art movements got their names.</h3>
-          <p>A source post from the harvested caption set that helps show the creator&#x27;s recurring terrain.</p>
-          <span class="corpus-role">language evidence</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/CMZwE_Jg40x/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 08 · CMZwE_Jg40x</div>
-          <h3>How cities and towns in the Dallas-Fort Worth are got their names!</h3>
-          <p>A source post from the harvested caption set that helps show the creator&#x27;s recurring terrain.</p>
-          <span class="corpus-role">language evidence</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/CCbCIcyAJ_H/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 09 · CCbCIcyAJ_H</div>
-          <h3>How different types of cocktails got their names!</h3>
-          <p>A source post from the harvested caption set that helps show the creator&#x27;s recurring terrain.</p>
-          <span class="corpus-role">language evidence</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/CAnIRdiA5Ow/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 10 · CAnIRdiA5Ow</div>
-          <h3>How the Romance languages developed from Latin.</h3>
-          <p>A source post from the harvested caption set that helps show the creator&#x27;s recurring terrain.</p>
-          <span class="corpus-role">language evidence</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/CAaRfFtAtWK/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 11 · CAaRfFtAtWK</div>
-          <h3>Finished up a project that&#x27;s personally significant to me - how the cities and towns in Ne</h3>
-          <p>Finished up a project that&#x27;s personally significant to me - how the cities and towns in New York&#x27;s Capital region got their names!</p>
-          <span class="corpus-role">language evidence</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/B_lRIfPgyXX/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 12 · B_lRIfPgyXX</div>
-          <h3>How Melbourne&#x27;s suburbs got their names</h3>
-          <p>A source post from the harvested caption set that helps show the creator&#x27;s recurring terrain.</p>
-          <span class="corpus-role">language evidence</span>
-        </a></div>
   </section>
-  <section id="concepts">
+
+  <section id="maps" class="argument-section">
+    <div class="section-label">02 · Names As Maps</div>
+    <div class="argument-panel reverse">
+      <div class="argument-visuals single">
+        <figure class="inline-figure"><a href="https://commons.wikimedia.org/wiki/File:Map_of_Romance_Languages_Worldwide.png" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/romance-languages-map.png" alt="Map of Romance languages worldwide"></a><figcaption><strong>Romance languages</strong>This map makes the creator's core move visible: a word family is also a spatial history of conquest, settlement, contact, and drift.</figcaption></figure>
+      </div>
+      <div class="argument-copy">
+        <div class="argument-kicker">CAnIRdiA5Ow · CaCjk4ZuriT · city-name series</div>
+        <h2>Toponyms are not labels pasted onto geography. They are historical layers.</h2>
+        <p>The city and neighborhood posts are the backbone of the account: Paris, Montreal, Baltimore, Singapore, Dallas-Fort Worth, Melbourne, Atlanta, Austin, Denver, Washington D.C., San Diego, the Bay Area, and New York's Capital Region all become readable through names.</p>
+        <p>This is where the page should not just say "place names encode history." It should show the mechanism: indigenous languages, colonial renaming, immigrant settlement, saint names, topography, commerce, and civic myth all survive as ordinary map text.</p>
+        <div class="argument-list">
+          <a href="https://www.instagram.com/reel/CAnIRdiA5Ow/" target="_blank" rel="noopener"><strong>Romance languages from Latin</strong><span>Language family as map: a single root system spreads into regional identities.</span></a>
+          <a href="https://www.instagram.com/reel/CaCjk4ZuriT/" target="_blank" rel="noopener"><strong>Paris hidden etymologies</strong><span>The city becomes a palimpsest of saints, trades, districts, roads, and older settlements.</span></a>
+          <a href="https://www.instagram.com/reel/CnjvvCGoSm5/" target="_blank" rel="noopener"><strong>Montreal suburbs and boroughs</strong><span>Urban naming as colonial, French, Indigenous, and civic memory compacted into address labels.</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="systems" class="argument-section">
+    <div class="section-label">03 · Systems Of Classification</div>
+    <div class="argument-panel">
+      <div class="argument-copy">
+        <div class="argument-kicker">CcaawemOJ1p · B99HGTKAZA7 · CcDMVDgO48o</div>
+        <h2>Scientific names are memory systems for experts.</h2>
+        <p>The science posts are not merely "fun facts." Brain anatomy, infectious diseases, fish species, amino acids, geology, trees, flowers, birds, insects, butterflies, moths, and storms all depend on naming conventions that stabilize expertise across time and language.</p>
+        <p>Latin and Greek matter here because they provide a reusable construction kit: prefixes, roots, suffixes, eponyms, metaphors, locations, and visible traits become portable signs. The account works because it translates those expert systems back into ordinary curiosity.</p>
+        <div class="argument-list">
+          <a href="https://www.instagram.com/reel/CcaawemOJ1p/" target="_blank" rel="noopener"><strong>Brain parts</strong><span>Anatomical names show how metaphor and classical roots organize the body.</span></a>
+          <a href="https://www.instagram.com/reel/B99HGTKAZA7/" target="_blank" rel="noopener"><strong>Infectious diseases</strong><span>Disease names carry geography, symptoms, animals, discoverers, and scientific assumptions.</span></a>
+          <a href="https://www.instagram.com/reel/CcDMVDgO48o/" target="_blank" rel="noopener"><strong>Fish species</strong><span>Taxonomy turns living things into a grammatical hierarchy.</span></a>
+        </div>
+      </div>
+      <div class="argument-visuals">
+        <figure class="inline-figure"><a href="https://commons.wikimedia.org/wiki/File:Biological_classification_L_Pengo_vflip.svg" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/linnaean-taxonomy-tree.png" alt="Biological classification diagram"></a><figcaption><strong>Taxonomy tree</strong>The visual form matters: names are nested, not scattered.</figcaption></figure>
+        <figure class="inline-figure"><a href="https://en.wikipedia.org/wiki/Influenza" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/influenza-page.jpg" alt="Influenza virus micrograph"></a><figcaption><strong>Influenza</strong>Disease language turns invisible processes into public categories people can repeat.</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="culture" class="argument-section">
+    <div class="section-label">04 · Cultural Labels</div>
+    <div class="argument-panel reverse">
+      <div class="argument-visuals">
+        <figure class="inline-figure"><a href="https://commons.wikimedia.org/wiki/File:A_Specimen_by_William_Caslon.jpg" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/caslon-specimen.jpg" alt="William Caslon type specimen"></a><figcaption><strong>Caslon specimen</strong>Typeface names are trade history, authorship, and visual taste compressed into a font menu.</figcaption></figure>
+        <figure class="inline-figure"><a href="https://en.wikipedia.org/wiki/Color_wheel" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/color-wheel.png" alt="Color wheel"></a><figcaption><strong>Color wheel</strong>Color names show how perception becomes a shared classification system.</figcaption></figure>
+        <figure class="inline-figure"><a href="https://commons.wikimedia.org/wiki/File:Duchamp_Fountaine.jpg" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/duchamp-fountain-dada.jpg" alt="Marcel Duchamp Fountain"></a><figcaption><strong>Dada / Fountain</strong>Art movement names often begin as arguments, insults, manifestos, or counter-identities.</figcaption></figure>
+        <figure class="inline-figure"><a href="https://en.wikipedia.org/wiki/United_States_dollar" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/united-states-dollar-page.png" alt="United States dollar notes"></a><figcaption><strong>Currency names</strong>Money names carry state authority, trade convention, and inherited symbols.</figcaption></figure>
+      </div>
+      <div class="argument-copy">
+        <div class="argument-kicker">CRgpE72ADEi · CPx3luegPNt · Ctob1J5g7l3 · CpNUk7WOY3Z</div>
+        <h2>The account treats culture as a naming machine.</h2>
+        <p>The best cultural posts are not just about word origins; they show how domains make themselves legible. Typefaces need names so visual style can circulate. Art movements need names so a sensibility can become historical. Currencies need names so value can become official. Colors need names so perception can become communicable.</p>
+        <p>This is the broadest version of the creator's thesis: once you know how to ask where a name came from, every field becomes a museum of decisions that people stopped noticing.</p>
+        <div class="argument-list">
+          <a href="https://www.instagram.com/reel/CRgpE72ADEi/" target="_blank" rel="noopener"><strong>Typefaces</strong><span>Design history becomes searchable through names.</span></a>
+          <a href="https://www.instagram.com/reel/CPx3luegPNt/" target="_blank" rel="noopener"><strong>Art movements</strong><span>Labels become art-historical handles for complex social and aesthetic fights.</span></a>
+          <a href="https://www.instagram.com/reel/Ctob1J5g7l3/" target="_blank" rel="noopener"><strong>Currencies</strong><span>Economic terms preserve empire, trade routes, metals, and political authority.</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="concepts" class="argument-section">
     <div class="section-label">Concept Library</div>
-    <div class="note-cards-grid"><article class="note-card compact-note" id="concept-etymology-as-hidden-history">
-          <div class="note-card-kicker">concept 01 · CAnIRdiA5Ow, CaCjk4ZuriT, B99HGTKAZA7</div>
-          <h3><a href="#concept-etymology-as-hidden-history">Etymology as hidden history</a></h3>
-          <p>Words function as compressed records of cultural exchange, human migration, and historical discovery, making linguistics a form of archaeology.</p>
-        </article><article class="note-card compact-note" id="concept-toponym-patterns">
-          <div class="note-card-kicker">concept 02 · CaCjk4ZuriT, CAnIRdiA5Ow</div>
-          <h3><a href="#concept-toponym-patterns">Toponym patterns</a></h3>
-          <p>Place names encode layers of colonial, indigenous, and immigrant history, making geography a readable map of power and settlement.</p>
-        </article><article class="note-card compact-note" id="concept-scientific-naming-conventions">
-          <div class="note-card-kicker">concept 03 · CcaawemOJ1p, B99HGTKAZA7</div>
-          <h3><a href="#concept-scientific-naming-conventions">Scientific naming conventions</a></h3>
-          <p>Taxonomy, anatomy, medicine, and geology follow systematic Latin and Greek construction rules that preserve the logic of early scientific thought.</p>
-        </article><article class="note-card compact-note" id="concept-algospeak">
-          <div class="note-card-kicker">concept 04 · DDHqAcvOF0x</div>
-          <h3><a href="#concept-algospeak">Algospeak</a></h3>
-          <p>Platform content moderation and recommendation algorithms now actively drive vocabulary formation, producing terms like &#x27;unalive&#x27; as users adapt language to evade filters.</p>
-        </article><article class="note-card compact-note" id="concept-brand-and-cultural-naming">
-          <div class="note-card-kicker">concept 05 · CPx3luegPNt, CRgpE72ADEi, Ctob1J5g7l3</div>
-          <h3><a href="#concept-brand-and-cultural-naming">Brand and cultural naming</a></h3>
-          <p>Artist names, art movement labels, typeface names, and currency terms reflect the values, aesthetics, and power structures of the era that coined them.</p>
-        </article><article class="note-card compact-note" id="concept-cross-domain-universality">
-          <div class="note-card-kicker">concept 06 · CPx3luegPNt, CcaawemOJ1p, Ctob1J5g7l3, CRgpE72ADEi</div>
-          <h3><a href="#concept-cross-domain-universality">Cross-domain universality</a></h3>
-          <p>The same etymological mechanisms — metaphor, borrowing, eponymy — operate identically across unrelated fields, suggesting language change follows deep structural patterns.</p>
-        </article><article class="note-card compact-note" id="concept-visual-spatial-etymology-mapping">
-          <div class="note-card-kicker">concept 07 · CAnIRdiA5Ow, CaCjk4ZuriT, CPx3luegPNt</div>
-          <h3><a href="#concept-visual-spatial-etymology-mapping">Visual/spatial etymology mapping</a></h3>
-          <p>Presenting word origins as infographics and geographic maps makes abstract linguistic history legible and shareable for general audiences.</p>
-        </article></div>
+    <div class="concept-weave">
+      <article id="concept-hidden-history"><h3>Etymology as hidden history</h3><p>Words operate like small archives. A name can preserve migration, trade, religious authority, scientific discovery, colonial contact, or popular misunderstanding long after the original situation has vanished.</p><small>via CAnIRdiA5Ow, CaCjk4ZuriT, B99HGTKAZA7</small></article>
+      <article id="concept-toponymy"><h3>Toponym patterns</h3><p>Place names are especially dense because they sit where language meets property, settlement, power, and belonging. The map becomes a historical text people use every day without reading it as one.</p><small>via CaCjk4ZuriT, CnjvvCGoSm5, CixPzn8OsCQ</small></article>
+      <article id="concept-science"><h3>Scientific naming conventions</h3><p>Expert domains rely on repeatable naming grammars. Latin, Greek, eponyms, morphology, symptoms, geography, and analogy become a toolkit for organizing knowledge across languages.</p><small>via CcaawemOJ1p, B99HGTKAZA7, CcDMVDgO48o</small></article>
+      <article id="concept-algospeak"><h3>Algospeak</h3><p>Platform moderation turns machines into participants in language change. People invent softer or stranger words because filters, recommendation systems, and monetization pressures reward certain expressions and punish others.</p><small>via DDHqAcvOF0x</small></article>
+      <article id="concept-cultural-labels"><h3>Brand and cultural naming</h3><p>Fonts, art movements, currencies, music acts, beer labels, cocktails, colors, and apple varieties all show how names help culture package itself for circulation.</p><small>via CRgpE72ADEi, CPx3luegPNt, Ctob1J5g7l3</small></article>
+      <article id="concept-cross-domain"><h3>Cross-domain universality</h3><p>The account works because the same mechanisms recur everywhere: borrowing, metaphor, eponymy, place reference, material reference, translation drift, and institutional standardization.</p><small>via CPx3luegPNt, CcaawemOJ1p, Ctob1J5g7l3</small></article>
+      <article id="concept-visual-method"><h3>Visual/spatial etymology mapping</h3><p>The infographic format is not just a delivery style. It argues that linguistic history has structure: it can be mapped, grouped, compared, and seen at a glance.</p><small>via CAnIRdiA5Ow, CaCjk4ZuriT, CPx3luegPNt</small></article>
+      <article id="concept-public-pedagogy"><h3>Public pedagogy</h3><p>The creator's recurring format turns linguistics into a portable attention habit. The real lesson is not any single word origin; it is learning to suspect that every ordinary name has a backstory.</p><small>via the full 40-caption corpus</small></article>
+      <article id="concept-name-object"><h3>Name as object label</h3><p>Across food, diseases, fish, storms, neighborhoods, fonts, and currencies, the name acts like an interface: it lets people handle complex histories as if they were simple objects.</p><small>via source corpus</small></article>
+    </div>
   </section>
-  <section id="references">
-    <div class="section-label">Reference Atlas</div>
-    <div class="reference-grid"><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>book</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=ALGOSPEAK%3A+How+Social+Media+is+Transforming+the+Future+of+Language">ALGOSPEAK: How Social Media is Transforming the Future of Language</a></h3>
-            <div class="reference-type">book</div>
-            <p>via DDHqAcvOF0x</p>
-            <p class="reference-context-copy">Used in @etymologynerd to anchor “Algospeak”: Platform content moderation and recommendation algorithms now actively drive vocabulary formation, producing terms like &#x27;unalive&#x27; as users adapt language to evade filters.</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>publisher</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Alfred+A.+Knopf">Alfred A. Knopf (@aaknopf)</a></h3>
-            <div class="reference-type">publisher</div>
-            <p>via DDHqAcvOF0x</p>
-            <p class="reference-context-copy">Used in @etymologynerd to anchor “Algospeak”: Platform content moderation and recommendation algorithms now actively drive vocabulary formation, producing terms like &#x27;unalive&#x27; as users adapt language to evade filters.</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>person</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Tyler+Comrie">Tyler Comrie</a></h3>
-            <div class="reference-type">person</div>
-            <p>via DDHqAcvOF0x</p>
-            <p class="reference-context-copy">Used in @etymologynerd to anchor “Algospeak”: Platform content moderation and recommendation algorithms now actively drive vocabulary formation, producing terms like &#x27;unalive&#x27; as users adapt language to evade filters.</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>movement</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Romance+languages">Romance languages</a></h3>
-            <div class="reference-type">movement</div>
-            <p>via CAnIRdiA5Ow</p>
-            <p class="reference-context-copy">Used in @etymologynerd to anchor “Etymology as hidden history”: Words function as compressed records of cultural exchange, human migration, and historical discovery, making linguistics a form of archaeology.</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>reference system</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Latin">Latin / Greek naming systems</a></h3>
-            <div class="reference-type">reference system</div>
-            <p>via CcaawemOJ1p, B99HGTKAZA7, CPx3luegPNt</p>
-            <p class="reference-context-copy">Used in @etymologynerd to anchor “Etymology as hidden history”: Words function as compressed records of cultural exchange, human migration, and historical discovery, making linguistics a form of archaeology.</p>
-          </div>
-        </article></div>
+
+  <section id="source-trail" class="argument-section">
+    <div class="section-label">Source Trail</div>
+    <div class="source-grid">
+      <article class="source-card"><a href="https://www.instagram.com/reel/DDHqAcvOF0x/" target="_blank" rel="noopener"><div class="mini-kicker">DDHqAcvOF0x</div><h3>Algospeak book cover</h3><p>Turns the feed's etymology habit toward moderation, virality, and the algorithm as a pressure on speech.</p></a></article>
+      <article class="source-card"><a href="https://www.instagram.com/reel/CAnIRdiA5Ow/" target="_blank" rel="noopener"><div class="mini-kicker">CAnIRdiA5Ow</div><h3>Romance languages from Latin</h3><p>Shows language family as geography: branching, contact, and empire in one visual system.</p></a></article>
+      <article class="source-card"><a href="https://www.instagram.com/reel/CaCjk4ZuriT/" target="_blank" rel="noopener"><div class="mini-kicker">CaCjk4ZuriT</div><h3>Paris hidden etymologies</h3><p>Models the city as a readable archive of roads, saints, trades, and older settlements.</p></a></article>
+      <article class="source-card"><a href="https://www.instagram.com/reel/CnjvvCGoSm5/" target="_blank" rel="noopener"><div class="mini-kicker">CnjvvCGoSm5</div><h3>Montreal boroughs</h3><p>Uses urban divisions to show how civic language keeps colonial and local memory in circulation.</p></a></article>
+      <article class="source-card"><a href="https://www.instagram.com/reel/CcaawemOJ1p/" target="_blank" rel="noopener"><div class="mini-kicker">CcaawemOJ1p</div><h3>Brain anatomy</h3><p>Turns scientific terms into metaphors, classical roots, and anatomical orientation cues.</p></a></article>
+      <article class="source-card"><a href="https://www.instagram.com/reel/B99HGTKAZA7/" target="_blank" rel="noopener"><div class="mini-kicker">B99HGTKAZA7</div><h3>Infectious diseases</h3><p>Shows naming as public health memory: symptoms, places, animals, and discoverers become labels.</p></a></article>
+      <article class="source-card"><a href="https://www.instagram.com/reel/CRgpE72ADEi/" target="_blank" rel="noopener"><div class="mini-kicker">CRgpE72ADEi</div><h3>Typeface names</h3><p>Makes visual style historical by linking type names to foundries, people, places, and taste.</p></a></article>
+      <article class="source-card"><a href="https://www.instagram.com/reel/CPx3luegPNt/" target="_blank" rel="noopener"><div class="mini-kicker">CPx3luegPNt</div><h3>Art movement names</h3><p>Frames movements as social labels that turn aesthetic conflict into a history-book category.</p></a></article>
+      <article class="source-card"><a href="https://www.instagram.com/reel/Ctob1J5g7l3/" target="_blank" rel="noopener"><div class="mini-kicker">Ctob1J5g7l3</div><h3>Currency names</h3><p>Connects everyday money words to state power, metals, trade, and inherited standards.</p></a></article>
+      <article class="source-card"><a href="https://www.instagram.com/reel/CpNUk7WOY3Z/" target="_blank" rel="noopener"><div class="mini-kicker">CpNUk7WOY3Z</div><h3>Color names</h3><p>Shows that perception becomes culture only when a community agrees on stable names.</p></a></article>
+      <article class="source-card"><a href="https://www.instagram.com/reel/CcDMVDgO48o/" target="_blank" rel="noopener"><div class="mini-kicker">CcDMVDgO48o</div><h3>Fish species names</h3><p>Uses species naming to show classification as a living grammar.</p></a></article>
+      <article class="source-card"><a href="https://www.instagram.com/reel/CCbCIcyAJ_H/" target="_blank" rel="noopener"><div class="mini-kicker">CCbCIcyAJ_H</div><h3>Cocktail names</h3><p>Food and drink become evidence that etymology reaches into social ritual, not only scholarship.</p></a></article>
+    </div>
   </section>
-  <section id="positions">
+
+  <section id="atlas" class="argument-section">
+    <div class="section-label">Reference Atlas · real images only</div>
+    <div class="visual-atlas-grid">
+      <figure class="visual-card"><a href="https://www.penguinrandomhouse.com/books/776856/algospeak-by-adam-aleksic/" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/algospeak-cover-real.jpg" alt="Algospeak book cover"></a><figcaption><strong>Algospeak</strong>Represents the creator's latest argument: algorithms now actively condition vocabulary.</figcaption></figure>
+      <figure class="visual-card"><a href="https://commons.wikimedia.org/wiki/File:Map_of_Romance_Languages_Worldwide.png" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/romance-languages-map.png" alt="Romance language map"></a><figcaption><strong>Romance map</strong>Language families are spatial histories, not just family-tree abstractions.</figcaption></figure>
+      <figure class="visual-card"><a href="https://commons.wikimedia.org/wiki/File:Rosetta_Stone.JPG" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/rosetta-stone.jpg" alt="Rosetta Stone"></a><figcaption><strong>Rosetta Stone</strong>An emblem of language as recovery: names and scripts can reopen lost worlds.</figcaption></figure>
+      <figure class="visual-card"><a href="https://commons.wikimedia.org/wiki/File:Biological_classification_L_Pengo_vflip.svg" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/linnaean-taxonomy-tree.png" alt="Biological classification"></a><figcaption><strong>Taxonomy</strong>Scientific naming works because the hierarchy itself carries meaning.</figcaption></figure>
+      <figure class="visual-card"><a href="https://commons.wikimedia.org/wiki/File:A_Specimen_by_William_Caslon.jpg" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/caslon-specimen.jpg" alt="Caslon type specimen"></a><figcaption><strong>Caslon</strong>A typeface name stores authorship, craft, and print history in a dropdown label.</figcaption></figure>
+      <figure class="visual-card"><a href="https://en.wikipedia.org/wiki/Color_wheel" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/color-wheel.png" alt="Color wheel"></a><figcaption><strong>Color system</strong>Color words become useful when perception is organized into shared categories.</figcaption></figure>
+      <figure class="visual-card"><a href="https://commons.wikimedia.org/wiki/File:Duchamp_Fountaine.jpg" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/duchamp-fountain-dada.jpg" alt="Duchamp Fountain"></a><figcaption><strong>Dada</strong>Movement names can begin as provocation and then harden into art history.</figcaption></figure>
+      <figure class="visual-card"><a href="https://en.wikipedia.org/wiki/United_States_dollar" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/united-states-dollar-page.png" alt="United States dollar notes"></a><figcaption><strong>Dollar</strong>Currency names show language as state-backed trust and inherited convention.</figcaption></figure>
+      <figure class="visual-card"><a href="https://en.wikipedia.org/wiki/Influenza" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/influenza-page.jpg" alt="Influenza virus"></a><figcaption><strong>Influenza</strong>Disease names translate microscopic processes into public language.</figcaption></figure>
+      <figure class="visual-card"><a href="https://commons.wikimedia.org/wiki/File:Alfred_A._Knopf_-_Borzoi_logo_-_1926.png" target="_blank" rel="noopener"><img src="../assets/creator_references/etymologynerd/knopf-borzoi.png" alt="Knopf borzoi logo"></a><figcaption><strong>Knopf mark</strong>The publisher mark anchors the transition from social feed to edited book culture.</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="positions" class="argument-section">
     <div class="section-label">Positions</div>
-    <div class="quotes-list"><article class="quote-item note-position" id="position-1">
-          <div class="quote-text">Algorithms are now an active linguistic force: platform moderation produces vocabulary (&#x27;unalive&#x27;, &#x27;skibidi&#x27;, &#x27;cottagecore&#x27;) the same way trade routes and conquest once did.</div>
-          
-        </article><article class="quote-item note-position" id="position-2">
-          <div class="quote-text">Etymology is universally accessible — any domain reveals hidden linguistic patterns once you apply the same lens.</div>
-          
-        </article><article class="quote-item note-position" id="position-3">
-          <div class="quote-text">Words carry compressed cultural records: to know a word&#x27;s origin is to recover a piece of history that written records may have lost.</div>
-          
-        </article><article class="quote-item note-position" id="position-4">
-          <div class="quote-text">Visual presentation (infographics, maps) is not just a delivery format but an argument — it demonstrates that etymology has spatial and systemic logic, not just trivia value.</div>
-          
-        </article></div>
+    <div class="quote-grid-compact">
+      <article class="quote-item"><div class="quote-text">Algorithms are now an active linguistic force: platform moderation produces vocabulary the way older systems of power once did.</div></article>
+      <article class="quote-item"><div class="quote-text">Etymology is an access point: any domain becomes legible once you learn to ask how its names were made.</div></article>
+      <article class="quote-item"><div class="quote-text">A word origin is not a footnote. It is often the surviving handle for a larger history people stopped noticing.</div></article>
+      <article class="quote-item"><div class="quote-text">The infographic format is part of the thesis: linguistic history can be mapped, compared, and seen.</div></article>
+    </div>
   </section>
-  <section id="tags">
+
+  <section id="tags" class="argument-section">
     <div class="section-label">Tags</div>
-    <div class="report-tags"><span class="report-tag">etymology</span><span class="report-tag">linguistics</span><span class="report-tag">visual education</span></div>
+    <div class="report-tags"><span class="report-tag">etymology</span><span class="report-tag">linguistics</span><span class="report-tag">visual education</span><span class="report-tag">toponymy</span><span class="report-tag">classification</span><span class="report-tag">algospeak</span></div>
   </section>
 </main>
 <footer class="site-footer">partake · creator notes · <a href="../language_memory.html">back to cluster</a></footer>

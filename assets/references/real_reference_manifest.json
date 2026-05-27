@@ -1,0 +1,94 @@
+{
+  "@being_on_line": {
+    "name": "@being_on_line",
+    "path": "assets/references/real/being-on-line.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/O2_Wireless_Box_V.jpg/960px-O2_Wireless_Box_V.jpg",
+    "source_page": "https://en.wikipedia.org/wiki/Online_and_offline",
+    "source_title": "Online and offline",
+    "content_type": "image/jpeg"
+  },
+  "Adani Group": {
+    "name": "Adani Group",
+    "path": "assets/references/real/adani-group.png",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Adani_logo_2012.svg/960px-Adani_logo_2012.svg.png",
+    "source_page": null,
+    "source_title": null,
+    "content_type": "image/png"
+  },
+  "Air Afrique (Balafon)": {
+    "name": "Air Afrique (Balafon)",
+    "path": "assets/references/real/air-afrique-balafon.png",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Air_Afrique_A310_TU-TAC_CDG_1991-8-4.png/960px-Air_Afrique_A310_TU-TAC_CDG_1991-8-4.png",
+    "source_page": "https://en.wikipedia.org/wiki/Air_Afrique",
+    "source_title": "Air Afrique",
+    "content_type": "image/png"
+  },
+  "Albert Einstein College of Medicine": {
+    "name": "Albert Einstein College of Medicine",
+    "path": "assets/references/real/albert-einstein-college-of-medicine.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Montefiore_Medical_Center_IMG_2268_HLG.jpg/960px-Montefiore_Medical_Center_IMG_2268_HLG.jpg",
+    "source_page": "https://en.wikipedia.org/wiki/Montefiore_Einstein_Medical_Center",
+    "source_title": "Montefiore Einstein Medical Center",
+    "content_type": "image/jpeg"
+  },
+  "Angine de Poitrine": {
+    "name": "Angine de Poitrine",
+    "path": "assets/references/real/angine-de-poitrine.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Angine_de_poitrine_%2820%29.jpg/960px-Angine_de_poitrine_%2820%29.jpg",
+    "source_page": "https://en.wikipedia.org/wiki/Angine_de_Poitrine",
+    "source_title": "Angine de Poitrine",
+    "content_type": "image/jpeg"
+  },
+  "Apple": {
+    "name": "Apple",
+    "path": "assets/references/real/apple.png",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/960px-Apple_logo_black.svg.png",
+    "source_page": null,
+    "source_title": null,
+    "content_type": "image/png"
+  },
+  "Block (Jack Dorsey)": {
+    "name": "Block (Jack Dorsey)",
+    "path": "assets/references/real/block-jack-dorsey.png",
+    "source_url": "https://cdn.sanity.io/images/8m3angk4/production/cd6b375c54acd24b464bd95be052d3dc3f0ebf3b-1920x1080.png?auto=format",
+    "source_page": null,
+    "source_title": null,
+    "content_type": "image/png"
+  },
+  "Goldman Sachs": {
+    "name": "Goldman Sachs",
+    "path": "assets/references/real/goldman-sachs.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/GoldmanSachsHeadquarters.JPG/960px-GoldmanSachsHeadquarters.JPG",
+    "source_page": null,
+    "source_title": null,
+    "content_type": "image/jpeg"
+  },
+  "Hindenburg Research": {
+    "name": "Hindenburg Research",
+    "path": "assets/references/real/hindenburg-research.png",
+    "source_url": "https://hindenburgresearch.com/wp-content/uploads/2019/09/LOGO-H-HR-dark-horiz.png",
+    "source_page": null,
+    "source_title": null,
+    "content_type": "image/png"
+  },
+  "I Show Speed": {
+    "name": "I Show Speed",
+    "path": "assets/references/real/i-show-speed.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/IShowSpeed_at_Chinatown_%28Portrait%29_04.jpg/960px-IShowSpeed_at_Chinatown_%28Portrait%29_04.jpg",
+    "source_page": null,
+    "source_title": null,
+    "content_type": "image/jpeg"
+  },
+  "Balenciaga": {
+    "name": "Balenciaga",
+    "path": "assets/references/real/balenciaga.png",
+    "source_url": "https://www.balenciaga.com/on/demandware.static/Sites-BAL-R-NOAM-Site/-/default/dw7520609f/images/thumbnail-social.png",
+    "content_type": "image/png"
+  },
+  "Pop Mart (labubu/boo-boos)": {
+    "name": "Pop Mart (labubu/boo-boos)",
+    "path": "assets/references/real/pop-mart-labubu-boo-boos.ico",
+    "source_url": "https://cdn-global.popmart.com/favicon.ico",
+    "content_type": "image/x-icon"
+  }
+}

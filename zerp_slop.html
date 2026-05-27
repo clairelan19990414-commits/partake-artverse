@@ -20,6 +20,7 @@
     <a class="nav-link" href="visual_taste_place.html">visual taste place</a>
     <a class="nav-link" href="timeline.html">timeline</a>
     <a class="nav-link" href="artist_map.html">artist map</a>
+    <a class="nav-link" href="septemics.html">septemics</a>
   </div>
 </nav>
 
@@ -90,7 +91,7 @@
 
       <div class="portrait-card">
         <div class="portrait-img-wrap">
-          <img class="portrait-img" data-wiki="Barack_Obama" alt="Barack Obama">
+          <img class="portrait-img" data-wiki="Barack_Obama" alt="Barack Obama" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
           <div class="portrait-placeholder">loading…</div>
         </div>
         <div class="portrait-info">
@@ -103,7 +104,7 @@
 
       <div class="portrait-card">
         <div class="portrait-img-wrap">
-          <img class="portrait-img" data-wiki="Peter_Thiel" alt="Peter Thiel">
+          <img class="portrait-img" data-wiki="Peter_Thiel" alt="Peter Thiel" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
           <div class="portrait-placeholder">loading…</div>
         </div>
         <div class="portrait-info">
@@ -116,7 +117,7 @@
 
       <div class="portrait-card">
         <div class="portrait-img-wrap">
-          <img class="portrait-img" data-wiki="Reid_Hoffman" alt="Reid Hoffman">
+          <img class="portrait-img" data-wiki="Reid_Hoffman" alt="Reid Hoffman" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
           <div class="portrait-placeholder">loading…</div>
         </div>
         <div class="portrait-info">
@@ -129,7 +130,7 @@
 
       <div class="portrait-card">
         <div class="portrait-img-wrap">
-          <img class="portrait-img" data-wiki="Cory_Doctorow" alt="Cory Doctorow">
+          <img class="portrait-img" data-wiki="Cory_Doctorow" alt="Cory Doctorow" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
           <div class="portrait-placeholder">loading…</div>
         </div>
         <div class="portrait-info">
@@ -148,7 +149,7 @@
     <div class="section-label">Books & Works Referenced</div>
     <div class="book-card">
       <div class="book-cover-wrap">
-        <img class="book-cover" data-isbn="9780804139021" alt="Zero to One">
+        <img class="book-cover" data-isbn="9780804139021" alt="Zero to One" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
         <div class="book-cover-placeholder">Zero to One</div>
       </div>
       <div class="book-info">
@@ -249,13 +250,13 @@ async function loadWikiImage(img) {
     const data = await res.json();
     if (data.thumbnail?.source) {
       img.src = data.thumbnail.source;
-      img.onload = () => { img.classList.add('loaded'); img.nextElementSibling.style.display = 'none'; };
+      img.onload = () => { if ((img.currentSrc || img.src || '').startsWith('data:image/gif')) return; img.classList.add('loaded'); if (img.nextElementSibling) img.nextElementSibling.style.display = 'none'; };
     }
   } catch(e) {}
 }
 async function loadBookCover(img) {
   img.src = `https://covers.openlibrary.org/b/isbn/${img.dataset.isbn}-M.jpg?default=false`;
-  img.onload = () => { img.classList.add('loaded'); img.nextElementSibling.style.display = 'none'; };
+  img.onload = () => { if ((img.currentSrc || img.src || '').startsWith('data:image/gif')) return; img.classList.add('loaded'); if (img.nextElementSibling) img.nextElementSibling.style.display = 'none'; };
   img.onerror = () => {};
 }
 document.querySelectorAll('.portrait-img[data-wiki]').forEach(loadWikiImage);

@@ -1,0 +1,202 @@
+@dan_dug_ · detailed transcript
+model: faster-whisper small
+clips: 7
+format: per-clip transcript with segment timestamps; generated from local mp4 files
+
+========================================================================================
+CLIP 01 · DN8OgDzkTmG.mp4
+instagram_url: https://www.instagram.com/reel/DN8OgDzkTmG/
+duration: 00:00:48.879 · language: en (1.00)
+
+FULL TEXT
+five character classes of the Midwest. If you live in the Midwest, odds are you are definitely one of the class number one is the homesteading mom. They're great for overall HP. There's not gonna be a micro plastic in sight unless of course you're at risk for measles. Their weapon of choice is a wildly unpredictable political stance. Who is the sports fan? I'm gonna be honest, most NPCs out here are this. They don't really have a weapon of choice because they don't need to fight because they're just gonna scooch right by ya. Three is the tortured soul. So many layers of irony and self regard. Their weapon of choice is their very very very small podcast number four is the opiate addict You're gonna want to watch your gold coins around this one They have the most exciting side quests though and speaking of gold coins last but not least we have the boomers Weapon of choice are the talking points from a cable news show or some quote from a religious text ripped wildly out of context
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:01.720] five character classes of the Midwest.
+[00:00:02.040 → 00:00:04.620] If you live in the Midwest, odds are you are definitely
+[00:00:04.620 → 00:00:07.260] one of the class number one is the homesteading mom.
+[00:00:07.500 → 00:00:08.700] They're great for overall HP.
+[00:00:09.040 → 00:00:11.120] There's not gonna be a micro plastic in sight
+[00:00:11.120 → 00:00:13.060] unless of course you're at risk for measles.
+[00:00:13.180 → 00:00:14.660] Their weapon of choice is a wildly
+[00:00:14.660 → 00:00:16.140] unpredictable political stance.
+[00:00:16.140 → 00:00:17.640] Who is the sports fan?
+[00:00:17.820 → 00:00:20.140] I'm gonna be honest, most NPCs out here are this.
+[00:00:20.340 → 00:00:21.640] They don't really have a weapon of choice
+[00:00:21.640 → 00:00:22.700] because they don't need to fight
+[00:00:22.700 → 00:00:24.300] because they're just gonna scooch right by ya.
+[00:00:24.340 → 00:00:25.640] Three is the tortured soul.
+[00:00:25.860 → 00:00:27.920] So many layers of irony and self regard.
+[00:00:27.920 → 00:00:33.340] Their weapon of choice is their very very very small podcast number four is the opiate addict
+[00:00:33.340 → 00:00:35.660] You're gonna want to watch your gold coins around this one
+[00:00:35.660 → 00:00:41.300] They have the most exciting side quests though and speaking of gold coins last but not least we have the boomers
+[00:00:41.300 → 00:00:48.460] Weapon of choice are the talking points from a cable news show or some quote from a religious text ripped wildly out of context
+
+========================================================================================
+CLIP 02 · DQFwck1EXfv.mp4
+instagram_url: https://www.instagram.com/reel/DQFwck1EXfv/
+duration: 00:00:54.684 · language: en (1.00)
+
+FULL TEXT
+This is the birth of Venus by Botticelli, and it might not look very metal, but trust me, it is very metal. This is the goddess of love and romantic desire, Venus, also known in the Greek tradition as Aphrodite. On the left is the embodiment of wind, and on the right the embodiment of spring. Her true origin story goes all the way back to Zeus' father, Cronus, when he castrated his own father. He then throws his father's balls into the ocean, and the blood and the white foam mix and produce Venus. Now what I find really interesting is on the left wind is blowing her ashore and on the right spring is eager to have her clothed Which I think is really an effective way to illustrate what being in love feels like on the one hand You're really excited and eager for it to wash ashore on the other you're kind of nervous And you're kind of like don't like all this vulnerability. Let's cover that up She's caught between these two forces her face is placid kind of creepy and vacant but also mesmerizing I think it's a beautiful picture of love
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.060] This is the birth of Venus by Botticelli, and it might not look very metal, but trust
+[00:00:04.060 → 00:00:05.620] me, it is very metal.
+[00:00:05.780 → 00:00:10.260] This is the goddess of love and romantic desire, Venus, also known in the Greek tradition
+[00:00:10.260 → 00:00:11.120] as Aphrodite.
+[00:00:11.240 → 00:00:15.440] On the left is the embodiment of wind, and on the right the embodiment of spring.
+[00:00:15.640 → 00:00:20.580] Her true origin story goes all the way back to Zeus' father, Cronus, when he castrated
+[00:00:20.580 → 00:00:21.420] his own father.
+[00:00:21.620 → 00:00:26.220] He then throws his father's balls into the ocean, and the blood and the white
+[00:00:26.220 → 00:00:28.700] foam mix and produce Venus.
+[00:00:28.700 → 00:00:35.360] Now what I find really interesting is on the left wind is blowing her ashore and on the right spring is eager to have her clothed
+[00:00:35.360 → 00:00:39.680] Which I think is really an effective way to illustrate what being in love feels like on the one hand
+[00:00:39.680 → 00:00:44.020] You're really excited and eager for it to wash ashore on the other you're kind of nervous
+[00:00:44.020 → 00:00:47.060] And you're kind of like don't like all this vulnerability. Let's cover that up
+[00:00:47.060 → 00:00:52.780] She's caught between these two forces her face is placid kind of creepy and vacant but also mesmerizing
+[00:00:52.780 → 00:00:54.400] I think it's a beautiful picture of love
+
+========================================================================================
+CLIP 03 · DRSvW5TETy8.mp4
+instagram_url: https://www.instagram.com/reel/DRSvW5TETy8/
+duration: 00:01:21.109 · language: en (1.00)
+
+FULL TEXT
+I have to talk about this book quietly so the algorithm won't hear. This book will teach you how to get rid of propaganda from your brain. Tip number one, understand your anxieties and how you tick. Oftentimes, propaganda will try to use, instead of falsehoods, highly selective and edited and recontextualized truths to fit specific narratives to play on your anxieties. The more you know about yourself, the harder it will be to manipulate you. Tip number two, watch your consumption of passive media. Take note of all the media that you consume, just sort of passively, maybe without thinking too much about it, instead, pursue creativity. Get your thoughts down on the page, write music, make videos, anything that gets the thoughts out of your brain so that you can really confront and come into contact with what you actually think and you'll be able to distinguish between what is native to you and what was put there against your will. Tip number three, be patient with yourself and others. Rewiring your brain from propaganda and narratives that have been put there can be an uncomfortable process, it can be destabilizing, give yourself time, give others time, and if you feel like you need to be cruel or intolerant to somebody else, just think, is this cruelty or intolerance actually serving me or is it serving the political interests of someone far away with far greater resources than I have? Just food for thought. Anyway, the book is called Propaganda by Jacques Yaloul. Good look out there, everybody.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:02.960] I have to talk about this book quietly so the algorithm won't hear.
+[00:00:03.440 → 00:00:06.600] This book will teach you how to get rid of propaganda from your brain.
+[00:00:06.720 → 00:00:09.500] Tip number one, understand your anxieties and how you tick.
+[00:00:09.700 → 00:00:14.920] Oftentimes, propaganda will try to use, instead of falsehoods, highly selective and
+[00:00:14.920 → 00:00:21.060] edited and recontextualized truths to fit specific narratives to play on your anxieties.
+[00:00:21.380 → 00:00:24.360] The more you know about yourself, the harder it will be to manipulate you.
+[00:00:24.660 → 00:00:27.780] Tip number two, watch your consumption of passive media.
+[00:00:27.780 → 00:00:32.460] Take note of all the media that you consume, just sort of passively, maybe without thinking
+[00:00:32.460 → 00:00:35.240] too much about it, instead, pursue creativity.
+[00:00:35.680 → 00:00:39.520] Get your thoughts down on the page, write music, make videos, anything that gets the
+[00:00:39.520 → 00:00:43.680] thoughts out of your brain so that you can really confront and come into contact with
+[00:00:43.680 → 00:00:47.680] what you actually think and you'll be able to distinguish between what is native to
+[00:00:47.680 → 00:00:49.740] you and what was put there against your will.
+[00:00:49.920 → 00:00:52.340] Tip number three, be patient with yourself and others.
+[00:00:52.620 → 00:00:56.240] Rewiring your brain from propaganda and narratives that have been put there can
+[00:00:56.240 → 00:01:01.720] be an uncomfortable process, it can be destabilizing, give yourself time, give others time, and if
+[00:01:01.720 → 00:01:06.500] you feel like you need to be cruel or intolerant to somebody else, just think, is this cruelty
+[00:01:06.500 → 00:01:10.720] or intolerance actually serving me or is it serving the political interests of someone
+[00:01:10.720 → 00:01:13.920] far away with far greater resources than I have?
+[00:01:14.810 → 00:01:15.490] Just food for thought.
+[00:01:16.070 → 00:01:19.130] Anyway, the book is called Propaganda by Jacques Yaloul.
+[00:01:19.890 → 00:01:20.790] Good look out there, everybody.
+
+========================================================================================
+CLIP 04 · DTTB85Kkb-J.mp4
+instagram_url: https://www.instagram.com/reel/DTTB85Kkb-J/
+duration: 00:00:54.174 · language: en (1.00)
+
+FULL TEXT
+You're in the mood to annoy the boomer in your life. You should tell them that the crusades were actually pretty cool. Some people will claim that the crusades were a product of colonialism or something, but that by and large didn't happen until after the Enlightenment. During the early Middle Ages, the Christian world was kind of a backwater compared to the Umayyad Empire, which had taken root in the Arabian Peninsula after the death of the Prophet Muhammad and was quickly expanding into the Byzantine and the Persian empires, primarily done by military conquests spanning all the way into North Africa, Spain, and Southern France. Just like the Greek and the Roman empires, before it the Umayyad dynasty treated conquered peoples as second-class citizens. By the time the Seljuk Turks took power and conquered Anatolia and severely limited Christian pilgrimage to Jerusalem, Pope Urban's call on 1095 to reclaim the Holy Land was met with widespread enthusiasm. It's not really hard to see why. What can I say, man? History's complicated. If the boomer in your life tries to argue against this position without using facts, just threaten to burn them at the stake.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:01.620] You're in the mood to annoy the boomer in your life.
+[00:00:01.720 → 00:00:03.000] You should tell them that the crusades
+[00:00:03.000 → 00:00:03.920] were actually pretty cool.
+[00:00:03.980 → 00:00:05.420] Some people will claim that the crusades
+[00:00:05.420 → 00:00:07.440] were a product of colonialism or something,
+[00:00:07.520 → 00:00:09.260] but that by and large didn't happen
+[00:00:09.260 → 00:00:10.620] until after the Enlightenment.
+[00:00:10.680 → 00:00:11.600] During the early Middle Ages,
+[00:00:11.780 → 00:00:13.440] the Christian world was kind of a backwater
+[00:00:13.440 → 00:00:15.080] compared to the Umayyad Empire,
+[00:00:15.260 → 00:00:17.240] which had taken root in the Arabian Peninsula
+[00:00:17.240 → 00:00:18.920] after the death of the Prophet Muhammad
+[00:00:18.920 → 00:00:21.240] and was quickly expanding into the Byzantine
+[00:00:21.240 → 00:00:22.560] and the Persian empires,
+[00:00:22.720 → 00:00:24.560] primarily done by military conquests
+[00:00:24.560 → 00:00:25.820] spanning all the way into North Africa,
+[00:00:26.100 → 00:00:27.580] Spain, and Southern France.
+[00:00:27.700 → 00:00:29.180] Just like the Greek and the Roman empires,
+[00:00:29.180 → 00:00:34.160] before it the Umayyad dynasty treated conquered peoples as second-class citizens. By the time
+[00:00:34.160 → 00:00:39.140] the Seljuk Turks took power and conquered Anatolia and severely limited Christian pilgrimage to
+[00:00:39.140 → 00:00:44.200] Jerusalem, Pope Urban's call on 1095 to reclaim the Holy Land was met with widespread enthusiasm.
+[00:00:44.520 → 00:00:48.660] It's not really hard to see why. What can I say, man? History's complicated. If the boomer in
+[00:00:48.660 → 00:00:53.340] your life tries to argue against this position without using facts, just threaten to burn
+[00:00:53.340 → 00:00:53.880] them at the stake.
+
+========================================================================================
+CLIP 05 · DUbMfA6kUTH.mp4
+instagram_url: https://www.instagram.com/reel/DUbMfA6kUTH/
+duration: 00:00:39.777 · language: en (1.00)
+
+FULL TEXT
+This book is about what happens to you when you die. It changed the way that I think about morality and about ethics. For example, it begs the question, is morality just a set of useful fictions that we create to establish social order to make ourselves feel superior to others? Or is it a real spiritual force that holds each of us to account for the good and the bad that we do even after our death? And if that were true, what would that look like in the afterlife? How would that play out? This book has really divided critics, some calling it a modern masterpiece, Others saying that it's not moral enough and some saying that it's actually too moral and prescriptive It does not shy away from contemporary issues and politics. I found it a wonderful read. I'm talking about vigil by George Saunders
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:01.960] This book is about what happens to you when you die.
+[00:00:02.100 → 00:00:04.020] It changed the way that I think about morality
+[00:00:04.020 → 00:00:04.920] and about ethics.
+[00:00:05.320 → 00:00:06.620] For example, it begs the question,
+[00:00:06.860 → 00:00:10.120] is morality just a set of useful fictions that we create
+[00:00:10.120 → 00:00:11.640] to establish social order
+[00:00:11.640 → 00:00:14.060] to make ourselves feel superior to others?
+[00:00:14.260 → 00:00:16.140] Or is it a real spiritual force
+[00:00:16.140 → 00:00:17.940] that holds each of us to account
+[00:00:17.940 → 00:00:20.620] for the good and the bad that we do even after our death?
+[00:00:20.740 → 00:00:21.580] And if that were true,
+[00:00:22.000 → 00:00:23.380] what would that look like in the afterlife?
+[00:00:23.900 → 00:00:24.800] How would that play out?
+[00:00:24.880 → 00:00:26.140] This book has really divided critics,
+[00:00:26.400 → 00:00:27.760] some calling it a modern masterpiece,
+[00:00:27.760 → 00:00:33.040] Others saying that it's not moral enough and some saying that it's actually too moral and prescriptive
+[00:00:33.040 → 00:00:39.660] It does not shy away from contemporary issues and politics. I found it a wonderful read. I'm talking about vigil by George Saunders
+
+========================================================================================
+CLIP 06 · DVRsw-YESps.mp4
+instagram_url: https://www.instagram.com/reel/DVRsw-YESps/
+duration: 00:00:49.251 · language: en (1.00)
+
+FULL TEXT
+There are two types of artists in the world and the internet is filled with battles between these two camps. You either prefer either a Ralph Ellison type or a James Baldwin type and once you see this pattern you cannot unsee it. Ralph Ellison wrote The Invisible Man during segregation in America and remarkably it was not a protest novel. He created a richly textured three dimensional black character on their own terms and refused to flatten the story into an allegory about racism. Meanwhile, James Baldwin sought to directly confront the moral order in America. These novels are permeated with the interior psychological life of black people living under racism. This is very clearly his main preoccupation and theme. So these are the two camps. Some see the purest artistic expression as being free from the issues in society. Others seek to use artistic gifts to further social progress, seeing our moral failings as too serious to ignore. Now below which one you prefer.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.420] There are two types of artists in the world and the internet is filled with battles between
+[00:00:04.420 → 00:00:05.260] these two camps.
+[00:00:05.360 → 00:00:09.680] You either prefer either a Ralph Ellison type or a James Baldwin type and once you
+[00:00:09.680 → 00:00:11.560] see this pattern you cannot unsee it.
+[00:00:11.620 → 00:00:15.900] Ralph Ellison wrote The Invisible Man during segregation in America and remarkably it was
+[00:00:15.900 → 00:00:17.020] not a protest novel.
+[00:00:17.160 → 00:00:21.140] He created a richly textured three dimensional black character on their own terms and refused
+[00:00:21.140 → 00:00:24.000] to flatten the story into an allegory about racism.
+[00:00:24.260 → 00:00:28.480] Meanwhile, James Baldwin sought to directly confront the moral order in America.
+[00:00:28.480 → 00:00:33.140] These novels are permeated with the interior psychological life of black people living under
+[00:00:33.140 → 00:00:33.660] racism.
+[00:00:33.880 → 00:00:36.460] This is very clearly his main preoccupation and theme.
+[00:00:36.660 → 00:00:37.520] So these are the two camps.
+[00:00:37.760 → 00:00:41.840] Some see the purest artistic expression as being free from the issues in society.
+[00:00:42.080 → 00:00:46.480] Others seek to use artistic gifts to further social progress, seeing our moral failings
+[00:00:46.480 → 00:00:47.860] as too serious to ignore.
+[00:00:47.860 → 00:00:49.040] Now below which one you prefer.
+
+========================================================================================
+CLIP 07 · DWAbRltEVU7.mp4
+instagram_url: https://www.instagram.com/reel/DWAbRltEVU7/
+duration: 00:00:39.545 · language: en (1.00)
+
+FULL TEXT
+Have you guys ever wondered why Celtic crosses have that circle on them? This one at Monaster Boys has always been a favorite of mine. This thing is 19 feet tall, making it the tallest sculpture known in the Middle Ages, which is quite a feat given how far out in the boonies this place was at the time. It's made out of sandstone, which does erode pretty easily, but you can still see the intricate stonework. I mean, look at the detail on these monks. You can see where their tunics begin and end. You can even see their like handlebar, mustaches. Honestly, when I look at them, these guys kind of remind me of my uncle Daryl. There are biblical scenes on pretty much every square inch of this thing, except the very bottom, where there's these two cats. Nobody knows why the cats are there. Oh, it's crazy. It's Uncle Daryl's a cat person. Okay, happy St. Patrick's Day, everybody.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.140] Have you guys ever wondered why Celtic crosses have that circle on them?
+[00:00:03.200 → 00:00:05.680] This one at Monaster Boys has always been a favorite of mine.
+[00:00:05.800 → 00:00:10.020] This thing is 19 feet tall, making it the tallest sculpture known in the Middle Ages,
+[00:00:10.280 → 00:00:13.600] which is quite a feat given how far out in the boonies this place was at the time.
+[00:00:13.740 → 00:00:16.260] It's made out of sandstone, which does erode pretty easily,
+[00:00:16.420 → 00:00:18.320] but you can still see the intricate stonework.
+[00:00:18.500 → 00:00:19.880] I mean, look at the detail on these monks.
+[00:00:20.060 → 00:00:21.940] You can see where their tunics begin and end.
+[00:00:22.120 → 00:00:24.980] You can even see their like handlebar, mustaches.
+[00:00:25.300 → 00:00:28.220] Honestly, when I look at them, these guys kind of remind me of my uncle Daryl.
+[00:00:28.220 → 00:00:34.020] There are biblical scenes on pretty much every square inch of this thing, except the very bottom, where there's these two cats.
+[00:00:34.340 → 00:00:35.660] Nobody knows why the cats are there.
+[00:00:35.820 → 00:00:37.480] Oh, it's crazy. It's Uncle Daryl's a cat person.
+[00:00:37.600 → 00:00:39.140] Okay, happy St. Patrick's Day, everybody.

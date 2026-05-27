@@ -1,0 +1,223 @@
+@stylebykvn · detailed transcript
+model: faster-whisper small
+clips: 8
+format: per-clip transcript with segment timestamps; generated from local mp4 files
+
+========================================================================================
+CLIP 01 · DU6Pz60ElvE.mp4
+instagram_url: https://www.instagram.com/reel/DU6Pz60ElvE/
+duration: 00:00:44.282 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+This is what Haiti's Olympics outfit was supposed to look like. So why did the IOC change it, and who's the talented designer behind it all? Hi, I'm Kevin, and I cover the best style around the world. This is Stella John. She's an Italian Haitian designer whose work has been honored by BOF, the United Nations, and Milan Fashion Week. She mixes Italian tailoring with Creole Heritage, and she designed for the Paris Olympics too. This year's pattern featured Toussaint Louverture, who led the only successful slave revolt in history. And the man some say was the only one Napoleon ever feared. And it's all John's way of calling out Haiti's humanitarian crisis. The figure was ultimately removed due to IOC rules, which forbid political statements on clothing. Yet the statement sheik of Stela Jean has a spirit that will never be silenced. So follow along for the next Olympics breakdown.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.000] This is what Haiti's Olympics outfit was supposed to look like.
+[00:00:03.180 → 00:00:06.940] So why did the IOC change it, and who's the talented designer behind it all?
+[00:00:07.080 → 00:00:09.320] Hi, I'm Kevin, and I cover the best style around the world.
+[00:00:09.500 → 00:00:10.420] This is Stella John.
+[00:00:10.700 → 00:00:13.980] She's an Italian Haitian designer whose work has been honored by BOF,
+[00:00:14.160 → 00:00:16.240] the United Nations, and Milan Fashion Week.
+[00:00:16.460 → 00:00:18.780] She mixes Italian tailoring with Creole Heritage,
+[00:00:19.100 → 00:00:20.940] and she designed for the Paris Olympics too.
+[00:00:21.160 → 00:00:23.380] This year's pattern featured Toussaint Louverture,
+[00:00:23.540 → 00:00:26.020] who led the only successful slave revolt in history.
+[00:00:26.340 → 00:00:29.000] And the man some say was the only one Napoleon ever feared.
+[00:00:29.000 → 00:00:32.160] And it's all John's way of calling out Haiti's humanitarian crisis.
+[00:00:32.480 → 00:00:36.900] The figure was ultimately removed due to IOC rules, which forbid political statements on
+[00:00:36.900 → 00:00:37.280] clothing.
+[00:00:37.640 → 00:00:41.600] Yet the statement sheik of Stela Jean has a spirit that will never be silenced.
+[00:00:41.800 → 00:00:44.000] So follow along for the next Olympics breakdown.
+
+========================================================================================
+CLIP 02 · DUmgm5HkbK2.mp4
+instagram_url: https://www.instagram.com/reel/DUmgm5HkbK2/
+duration: 00:01:00.814 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+If heaven's a place on earth, it exists at the fashion museums of Paris, so here's your guide on day four in the city. If you only have time for one, go to the Dior Gallery. It's a breathtaking visual history of the house, told from where it literally began. From the history of the new look in the A-line, to the grandeur of the ballroom at the end, the museum will leave you speechless, so make sure to book in advance. Next head over to its sister museum, the Alaya Foundation, which has a reduced rate for Dior ticket holders. Alaya actually worked for Dior at 21, so you'll see the personal collection of of one of his greatest students. Next we have the decorative arts museum located in the Louvre complex. The current exhibit honors Paul Poiré, who revolutionized early 1900s Parisian haute couture and even recently inspired the Dior menswear collection. For a more textile and crafts focus experience, go to the Palais Galliera, beyond conserving fashion all the way from the 18th century. You'll also see exhibits dedicated to lace, floral appliques, and ornamental accessories. So follow along as we move from fashion history to the modern artisan turning glass into wearable stunning art.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.320] If heaven's a place on earth, it exists at the fashion museums of Paris, so here's
+[00:00:04.320 → 00:00:05.560] your guide on day four in the city.
+[00:00:05.800 → 00:00:08.300] If you only have time for one, go to the Dior Gallery.
+[00:00:08.540 → 00:00:12.340] It's a breathtaking visual history of the house, told from where it literally began.
+[00:00:12.560 → 00:00:16.160] From the history of the new look in the A-line, to the grandeur of the ballroom at the
+[00:00:16.160 → 00:00:19.600] end, the museum will leave you speechless, so make sure to book in advance.
+[00:00:19.980 → 00:00:24.140] Next head over to its sister museum, the Alaya Foundation, which has a reduced rate
+[00:00:24.140 → 00:00:25.320] for Dior ticket holders.
+[00:00:25.600 → 00:00:29.420] Alaya actually worked for Dior at 21, so you'll see the personal collection of
+[00:00:29.420 → 00:00:30.480] of one of his greatest students.
+[00:00:30.740 → 00:00:32.520] Next we have the decorative arts museum
+[00:00:32.520 → 00:00:34.320] located in the Louvre complex.
+[00:00:34.700 → 00:00:36.600] The current exhibit honors Paul Poiré,
+[00:00:36.820 → 00:00:39.860] who revolutionized early 1900s Parisian haute couture
+[00:00:39.860 → 00:00:42.580] and even recently inspired the Dior menswear collection.
+[00:00:42.800 → 00:00:45.180] For a more textile and crafts focus experience,
+[00:00:45.420 → 00:00:46.660] go to the Palais Galliera,
+[00:00:46.900 → 00:00:49.680] beyond conserving fashion all the way from the 18th century.
+[00:00:49.940 → 00:00:52.000] You'll also see exhibits dedicated to lace,
+[00:00:52.380 → 00:00:54.420] floral appliques, and ornamental accessories.
+[00:00:54.820 → 00:00:57.200] So follow along as we move from fashion history
+[00:00:57.200 → 00:00:58.980] to the modern artisan turning glass
+[00:00:58.980 → 00:01:00.480] into wearable stunning art.
+
+========================================================================================
+CLIP 03 · DVFLO3oCXlm.mp4
+instagram_url: https://www.instagram.com/reel/DVFLO3oCXlm/
+duration: 00:01:00.304 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Ise Miyake designed one of the greatest Olympics outfits in history, and it's a much larger story of global politics and liberation. First off, I'm Kevin, and I show you the best style around the world. This was the 1992 Olympics in Barcelona. Lithuania had just gained independence from the USSR, and it was the first time in over 50 years they could compete under their own flag. Miyake was invited by the team doctor to design the outfits which he did completely for free, which he then expanded to his 1993 collection, featuring all the countries that competed at that Olympics, and also releasing his now iconic pleats please line. In fact, Miyake was not the only one to donate to Lithuania's cause. After finding out about the basketball team's financial struggles, the Grateful Dead sent a check to the team, and asked their designer to send this beautiful tie-dye shirt, which was later commemorated by Phoebe on Friends. So 1992 reminds us of the Olympics at its very best, because beyond the medals, when athletes and designers come together, the stage becomes bigger than a sport. It becomes an Olympic statement so follow along for the next Olympics fashion story
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.140] Ise Miyake designed one of the greatest Olympics outfits in history, and it's a much larger
+[00:00:04.140 → 00:00:06.280] story of global politics and liberation.
+[00:00:06.620 → 00:00:09.340] First off, I'm Kevin, and I show you the best style around the world.
+[00:00:09.660 → 00:00:11.860] This was the 1992 Olympics in Barcelona.
+[00:00:12.360 → 00:00:16.200] Lithuania had just gained independence from the USSR, and it was the first time in
+[00:00:16.200 → 00:00:18.840] over 50 years they could compete under their own flag.
+[00:00:19.140 → 00:00:23.100] Miyake was invited by the team doctor to design the outfits which he did completely
+[00:00:23.100 → 00:00:27.800] for free, which he then expanded to his 1993 collection, featuring all the countries
+[00:00:27.800 → 00:00:32.400] that competed at that Olympics, and also releasing his now iconic pleats please line.
+[00:00:32.720 → 00:00:36.040] In fact, Miyake was not the only one to donate to Lithuania's cause.
+[00:00:36.360 → 00:00:40.300] After finding out about the basketball team's financial struggles, the Grateful Dead sent
+[00:00:40.300 → 00:00:44.420] a check to the team, and asked their designer to send this beautiful tie-dye shirt, which
+[00:00:44.420 → 00:00:46.500] was later commemorated by Phoebe on Friends.
+[00:00:46.940 → 00:00:51.700] So 1992 reminds us of the Olympics at its very best, because beyond the medals, when
+[00:00:51.700 → 00:00:55.140] athletes and designers come together, the stage becomes bigger than a sport.
+[00:00:55.140 → 00:00:59.980] It becomes an Olympic statement so follow along for the next Olympics fashion story
+
+========================================================================================
+CLIP 04 · DVe0o2_DfpC.mp4
+instagram_url: https://www.instagram.com/reel/DfpC/
+duration: 00:00:29.282 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+This glassblower is making the coolest jewelry in Paris right now, so let's go check out her line on day 5 in the city. This is Louise and her brand Leone. She's a fine artist with a background in scenography and scientific glassblowing, and she took me behind the scenes to witness the process of making her popular glass rings. She also makes earrings, earcuffs, and bracelets inspired by nature and pop culture. Find Leone online or in select stores across Europe and Asia, and for your guide to the most fashionable neighborhood in Paris follow along for day six.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.260] This glassblower is making the coolest jewelry in Paris right now, so let's go check out
+[00:00:04.260 → 00:00:05.860] her line on day 5 in the city.
+[00:00:06.060 → 00:00:07.840] This is Louise and her brand Leone.
+[00:00:08.040 → 00:00:12.420] She's a fine artist with a background in scenography and scientific glassblowing, and she took
+[00:00:12.420 → 00:00:16.320] me behind the scenes to witness the process of making her popular glass rings.
+[00:00:16.600 → 00:00:21.420] She also makes earrings, earcuffs, and bracelets inspired by nature and pop culture.
+[00:00:21.700 → 00:00:25.580] Find Leone online or in select stores across Europe and Asia, and for your guide
+[00:00:25.580 → 00:00:28.960] to the most fashionable neighborhood in Paris follow along for day six.
+
+========================================================================================
+CLIP 05 · DVwap-eEz_B.mp4
+instagram_url: https://www.instagram.com/reel/B/
+duration: 00:01:13.075 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+In the heart of Paris lies its most stylish neighborhood of Le Marais, so here's your speedrun of the best places to shop there on day 6 in the city. First up is Nike Library, housed in a former bookshop in one of the few Nike concept stores in the world. They carry Nike's most experimental and stylish pieces, as well as designer collabs like with Jacques Mousse. Next we have Courage, your favorite Parisian's favorite brand. Founded in 1961, they specialize in space age chic and they have their own separate episode on my channel, on its incredible story. Next, we have Dover Street Market, the global fashion concept store, a museum by Ray Kawakubo. Inside a brutalist mansion, they mix luxury and emerging brands together like curated art installations. For its darker cousin, head over to Lecleros. Beyond the sharp decor and hidden walls, they were the first to bring the avant-garde Belgian school to Paris, including Dries Van Noten and Anne de Mulemeister. Now for dark jewelry seemingly excavated from another era, visit parts of four. Their cult following includes Rick Owens and Doja Cat, and they've also earned their own episode on my channel. Finally, we have Loopscure, the vintage speakeasy. With rare archival pieces from Yoji to Rick, their friendly staff and fair prices make this the best kept secret in the moray. We'll return to Paris for Hoca Tour Week, so follow along for your front row seat.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.000] In the heart of Paris lies its most stylish neighborhood of Le Marais, so here's your
+[00:00:04.000 → 00:00:07.220] speedrun of the best places to shop there on day 6 in the city.
+[00:00:07.400 → 00:00:12.180] First up is Nike Library, housed in a former bookshop in one of the few Nike concept stores
+[00:00:12.180 → 00:00:12.780] in the world.
+[00:00:12.940 → 00:00:17.440] They carry Nike's most experimental and stylish pieces, as well as designer collabs
+[00:00:17.440 → 00:00:18.380] like with Jacques Mousse.
+[00:00:18.540 → 00:00:21.540] Next we have Courage, your favorite Parisian's favorite brand.
+[00:00:21.720 → 00:00:26.380] Founded in 1961, they specialize in space age chic and they have their own separate
+[00:00:26.380 → 00:00:28.720] episode on my channel, on its incredible story.
+[00:00:28.720 → 00:00:33.940] Next, we have Dover Street Market, the global fashion concept store, a museum by Ray Kawakubo.
+[00:00:34.040 → 00:00:38.240] Inside a brutalist mansion, they mix luxury and emerging brands together like curated
+[00:00:38.240 → 00:00:39.320] art installations.
+[00:00:39.700 → 00:00:41.940] For its darker cousin, head over to Lecleros.
+[00:00:42.120 → 00:00:45.740] Beyond the sharp decor and hidden walls, they were the first to bring the avant-garde
+[00:00:45.740 → 00:00:49.740] Belgian school to Paris, including Dries Van Noten and Anne de Mulemeister.
+[00:00:49.940 → 00:00:54.320] Now for dark jewelry seemingly excavated from another era, visit parts of four.
+[00:00:54.320 → 00:00:58.320] Their cult following includes Rick Owens and Doja Cat, and they've also earned their
+[00:00:58.320 → 00:00:59.720] own episode on my channel.
+[00:00:59.960 → 00:01:02.400] Finally, we have Loopscure, the vintage speakeasy.
+[00:01:02.620 → 00:01:07.080] With rare archival pieces from Yoji to Rick, their friendly staff and fair prices make
+[00:01:07.080 → 00:01:08.860] this the best kept secret in the moray.
+[00:01:09.000 → 00:01:12.720] We'll return to Paris for Hoca Tour Week, so follow along for your front row seat.
+
+========================================================================================
+CLIP 06 · DW6WdHWjSlF.mp4
+instagram_url: https://www.instagram.com/reel/DW6WdHWjSlF/
+duration: 00:00:46.186 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+There is a reason why Mexico City is known for its design culture and its homegrown athletic brands are no exception. Let's check them out on episode 2 of Elevating Your Workout Style. First we have the brand Muri. It was founded by four athlete friends and was likely named after the Rara Muri, an indigenous Mexican tribe whose culture revolves around running. Under the ethos of athletics meets aesthetics, Muri has both running and training gear and they host run clubs throughout the city as well. Next we have its more established cousin, Hermanos Comori. It was actually started by an economist and a designer, and initially was a streetwear brand, but they pivoted after the success of their post-running high collection. Since 2018, they've collabed with big companies like Adidas, and their designs are inspired by Aztec and Mayan culture. I'd love to know what other brands are catching your eyes right now. We'll look at sportswear in Korea and Japan next, so follow along for your front row seat.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.080] There is a reason why Mexico City is known for its design culture and its homegrown athletic
+[00:00:04.080 → 00:00:05.300] brands are no exception.
+[00:00:05.660 → 00:00:08.520] Let's check them out on episode 2 of Elevating Your Workout Style.
+[00:00:08.740 → 00:00:10.020] First we have the brand Muri.
+[00:00:10.260 → 00:00:14.560] It was founded by four athlete friends and was likely named after the Rara Muri, an indigenous
+[00:00:14.560 → 00:00:16.880] Mexican tribe whose culture revolves around running.
+[00:00:17.120 → 00:00:21.060] Under the ethos of athletics meets aesthetics, Muri has both running and training gear
+[00:00:21.060 → 00:00:23.100] and they host run clubs throughout the city as well.
+[00:00:23.220 → 00:00:25.940] Next we have its more established cousin, Hermanos Comori.
+[00:00:25.940 → 00:00:29.920] It was actually started by an economist and a designer, and initially was a streetwear
+[00:00:29.920 → 00:00:33.340] brand, but they pivoted after the success of their post-running high collection.
+[00:00:33.620 → 00:00:37.580] Since 2018, they've collabed with big companies like Adidas, and their designs are inspired
+[00:00:37.580 → 00:00:39.040] by Aztec and Mayan culture.
+[00:00:39.400 → 00:00:41.720] I'd love to know what other brands are catching your eyes right now.
+[00:00:41.920 → 00:00:45.540] We'll look at sportswear in Korea and Japan next, so follow along for your front
+[00:00:45.540 → 00:00:45.960] row seat.
+
+========================================================================================
+CLIP 07 · DWwHY0sDXHN.mp4
+instagram_url: https://www.instagram.com/reel/DWwHY0sDXHN/
+duration: 00:00:40.242 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Nike's main brand isn't cool anymore, but its sub-labels are actually really chic. Let's talk about the creative world of Nike Lab. Welcome to episode one of elevating your workout style. So Nike Lab is the creative umbrella that houses its most experimental and fashion forward lines. These include their GORP Corp brand ACG, founded in the 80s but given a modern refresh, and Nocta which is Drake's line. Their pieces are kind of hit or miss, but some are really stylish for the gym. Nike Lab is also where they house all their designer collabs. There's only eight physical stores in the world, but everything's on their main side too just by searching Nike Lab. So hopefully this gives you a faster way to filter for more stylish Nike. We follow along as we explore running and other fashion fitness subcultures.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.200] Nike's main brand isn't cool anymore, but its sub-labels are actually really chic.
+[00:00:04.520 → 00:00:06.700] Let's talk about the creative world of Nike Lab.
+[00:00:07.040 → 00:00:09.660] Welcome to episode one of elevating your workout style.
+[00:00:10.080 → 00:00:14.820] So Nike Lab is the creative umbrella that houses its most experimental and fashion forward lines.
+[00:00:15.040 → 00:00:19.460] These include their GORP Corp brand ACG, founded in the 80s but given a modern refresh,
+[00:00:19.920 → 00:00:22.920] and Nocta which is Drake's line. Their pieces are kind of hit or miss,
+[00:00:23.060 → 00:00:24.700] but some are really stylish for the gym.
+[00:00:24.920 → 00:00:27.660] Nike Lab is also where they house all their designer collabs.
+[00:00:27.660 → 00:00:31.100] There's only eight physical stores in the world, but everything's on their main side
+[00:00:31.100 → 00:00:32.660] too just by searching Nike Lab.
+[00:00:32.900 → 00:00:36.200] So hopefully this gives you a faster way to filter for more stylish Nike.
+[00:00:36.460 → 00:00:40.020] We follow along as we explore running and other fashion fitness subcultures.
+
+========================================================================================
+CLIP 08 · DXIP-XSgXX7.mp4
+instagram_url: https://www.instagram.com/reel/DXIP-XSgXX7/
+duration: 00:01:02.811 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+What happens when blue isn't just a color but a way of life and a Grammy-winning genre of music? Welcome to episode 11 of Fashion Around the World. These are the Tuaregs, a nomadic people spread across North and West Africa. They're known as the Blue Men of the Sahara, where the self-anointed people of the veil and despite being followers of Islam, it's actually men who cover their faces. As Tuareg culture is metrilineal, meaning inheritance passes through the mother, the main cultural garment is the toggle-moust, which boys receive at 15 in a formal initiation ceremony. The cloth-wrapping style is unique to every Tuareg tribe, and the indigo dye used in their clothing permanently leeches into their skin, signifying beauty and wealth. They're also known for creating the Saharan blues, mixing Middle Eastern and African sounds with Tuareg poetry. One of their most famous groups is Tinariwen, who originally spread their music through blank cassettes before the internet and phones. As Grammy winners who've played Glastonbury and Coachella, they continue to sing about the violence towards and displacement of their people while painting a beautiful new color in the tapestry of resilience. When you look into the Sahara, think of the Tuaregs and let me know where you'd like to go next.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.920] What happens when blue isn't just a color but a way of life and a Grammy-winning genre of music?
+[00:00:05.400 → 00:00:09.180] Welcome to episode 11 of Fashion Around the World. These are the Tuaregs,
+[00:00:09.360 → 00:00:13.520] a nomadic people spread across North and West Africa. They're known as the Blue Men of the
+[00:00:13.520 → 00:00:17.780] Sahara, where the self-anointed people of the veil and despite being followers of Islam,
+[00:00:18.080 → 00:00:21.960] it's actually men who cover their faces. As Tuareg culture is metrilineal,
+[00:00:22.080 → 00:00:25.720] meaning inheritance passes through the mother, the main cultural garment is the
+[00:00:25.720 → 00:00:29.640] toggle-moust, which boys receive at 15 in a formal initiation ceremony.
+[00:00:29.940 → 00:00:34.240] The cloth-wrapping style is unique to every Tuareg tribe, and the indigo dye used in their
+[00:00:34.240 → 00:00:37.620] clothing permanently leeches into their skin, signifying beauty and wealth.
+[00:00:37.920 → 00:00:41.700] They're also known for creating the Saharan blues, mixing Middle Eastern and African
+[00:00:41.700 → 00:00:43.160] sounds with Tuareg poetry.
+[00:00:43.400 → 00:00:46.820] One of their most famous groups is Tinariwen, who originally spread their music through
+[00:00:46.820 → 00:00:48.860] blank cassettes before the internet and phones.
+[00:00:49.180 → 00:00:52.480] As Grammy winners who've played Glastonbury and Coachella, they continue to sing
+[00:00:52.480 → 00:00:56.060] about the violence towards and displacement of their people while painting a beautiful
+[00:00:56.060 → 00:00:58.100] new color in the tapestry of resilience.
+[00:00:58.540 → 00:01:02.020] When you look into the Sahara, think of the Tuaregs and let me know where you'd like
+[00:01:02.020 → 00:01:02.540] to go next.

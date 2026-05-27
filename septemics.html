@@ -21,7 +21,7 @@
     <a class="nav-link" href="visual_taste_place.html">visual taste place</a>
     <a class="nav-link" href="timeline.html">timeline</a>
     <a class="nav-link" href="artist_map.html">artist map</a>
-    <a class="nav-link" href="septemics.html">septemics</a>
+    <a class="nav-link active" href="septemics.html">septemics</a>
   </div>
 </nav>
 
@@ -39,7 +39,7 @@
         <div class="section-label">Guided Assessment</div>
         <div class="assessment-hero-title">Find your current level, then use the dashboard to refine it.</div>
       </div>
-      <div class="assessment-hero-meta">Core test first · full test optional</div>
+      <div class="assessment-hero-meta">35-scale full test · 12-scale quick scan optional</div>
     </div>
 
     <div class="assessment-hero-grid">
@@ -55,7 +55,7 @@
 
   <section id="view-dashboard" class="dashboard-section">
     <div class="quick-note">
-      Start with the guided test, then use the dashboard cards to inspect or adjust individual scales. Everything lives on this one page.
+      Start with the full guided test, then use the dashboard cards to inspect or adjust individual scales. Everything lives on this one page.
     </div>
 
     <div class="section-label">Scale Dashboard</div>
@@ -64,15 +64,16 @@
 
   <section id="view-detail" class="detail-section">
     <div class="section-label">Scale Detail</div>
-    <div id="detailPanel" class="panel"></div>
+    <div id="detailPanel" class="panel"><p class="panel-empty">Select a scale from the dashboard to inspect its levels and guidance.</p></div>
   </section>
 </main>
 
-<script src="septemics_data.js?v=2"></script>
+<script src="septemics_data.js?v=6"></script>
 <script>
 (function () {
   const STORAGE_SCORES_KEY = "septemics:scores:v2";
   const STORAGE_HISTORY_KEY = "septemics:history:v2";
+  const STORAGE_PROGRESS_KEY = "septemics:assessment-progress:v1";
   const DATA_URL = "septemics_content.json";
   const DIRECTION_ASC = "asc";
   const DIRECTION_DESC = "desc";
@@ -99,10 +100,12 @@
     selectedScaleName: null,
     assessmentIndex: 0,
     assessmentPool: [],
-    assessmentMode: "core",
+    assessmentMode: "full",
     assessmentStarted: false,
     assessmentSummary: null,
     assessmentDraft: {},
+    assessmentAnswered: {},
+    savedAssessmentProgress: null,
     dataError: "",
     assessmentNote: ""
   };
@@ -167,7 +170,9 @@
       const scale = getAssessmentScale();
       if (!scale) return;
       state.assessmentDraft[scale.name] = levelNumber;
+      state.assessmentAnswered[scale.name] = true;
       state.assessmentNote = "";
+      saveAssessmentProgress();
       renderAssessment();
     });
 
@@ -184,8 +189,29 @@
         if (state.assessmentIndex > 0) {
           state.assessmentIndex -= 1;
           state.assessmentNote = "";
+          saveAssessmentProgress();
           renderAssessment();
         }
+        return;
+      }
+
+      const saveButton = event.target.closest("[data-assess-save]");
+      if (saveButton && els.assessmentPanel.contains(saveButton)) {
+        markCurrentAssessmentAnswered();
+        saveAssessmentProgress();
+        state.assessmentNote = "Progress saved on this device. You can close the page and resume later.";
+        renderAssessment();
+        return;
+      }
+
+      const pauseButton = event.target.closest("[data-assess-pause]");
+      if (pauseButton && els.assessmentPanel.contains(pauseButton)) {
+        saveAssessmentProgress();
+        state.assessmentStarted = false;
+        state.assessmentSummary = null;
+        state.assessmentNote = "Progress saved. Resume when you are ready.";
+        renderAssessment();
+        scrollToElement(els.assessmentBlock);
         return;
       }
 
@@ -207,6 +233,20 @@
         return;
       }
 
+      const resumeButton = event.target.closest("[data-assess-resume]");
+      if (resumeButton && els.assessmentPanel.contains(resumeButton)) {
+        resumeAssessment();
+        return;
+      }
+
+      const clearButton = event.target.closest("[data-assess-clear-progress]");
+      if (clearButton && els.assessmentPanel.contains(clearButton)) {
+        clearAssessmentProgress();
+        state.assessmentNote = "Saved assessment progress cleared.";
+        openAssessmentSetup({ preserveNote: true });
+        return;
+      }
+
       const dashboardButton = event.target.closest("[data-assess-dashboard]");
       if (dashboardButton && els.assessmentPanel.contains(dashboardButton)) {
         render();
@@ -216,6 +256,7 @@
 
       const retakeButton = event.target.closest("[data-assess-retake]");
       if (retakeButton && els.assessmentPanel.contains(retakeButton)) {
+        clearAssessmentProgress();
         openAssessmentSetup({ scroll: true });
       }
     });
@@ -313,7 +354,7 @@
   function directionLabel(scale) {
     return scale.direction === DIRECTION_ASC
       ? "Higher levels are stronger on this scale."
-      : "Level I is strongest on this scale.";
+      : "Lower numbered levels are stronger; Level I is the top.";
   }
 
   function scaleQuestion(scale) {
@@ -397,17 +438,73 @@
     try {
       const rawScores = localStorage.getItem(STORAGE_SCORES_KEY);
       const rawHistory = localStorage.getItem(STORAGE_HISTORY_KEY);
+      const rawProgress = localStorage.getItem(STORAGE_PROGRESS_KEY);
       state.scores = rawScores ? JSON.parse(rawScores) : {};
       state.history = rawHistory ? JSON.parse(rawHistory) : {};
+      state.savedAssessmentProgress = rawProgress ? JSON.parse(rawProgress) : null;
     } catch (error) {
       state.scores = {};
       state.history = {};
+      state.savedAssessmentProgress = null;
     }
   }
 
   function saveStorage() {
     localStorage.setItem(STORAGE_SCORES_KEY, JSON.stringify(state.scores));
     localStorage.setItem(STORAGE_HISTORY_KEY, JSON.stringify(state.history));
+  }
+
+  function saveAssessmentProgress() {
+    if (!state.assessmentStarted) return;
+    const pool = getAssessmentScales();
+    const progress = {
+      mode: state.assessmentMode || "full",
+      index: state.assessmentIndex || 0,
+      draft: state.assessmentDraft || {},
+      answered: state.assessmentAnswered || {},
+      total: pool.length,
+      updatedAt: new Date().toISOString()
+    };
+    state.savedAssessmentProgress = progress;
+    localStorage.setItem(STORAGE_PROGRESS_KEY, JSON.stringify(progress));
+  }
+
+  function clearAssessmentProgress() {
+    state.savedAssessmentProgress = null;
+    localStorage.removeItem(STORAGE_PROGRESS_KEY);
+  }
+
+  function markCurrentAssessmentAnswered() {
+    const scale = getAssessmentScale();
+    if (!scale) return false;
+    const selected = Number(state.assessmentDraft[scale.name]);
+    if (!Number.isFinite(selected)) return false;
+    state.assessmentAnswered[scale.name] = true;
+    return true;
+  }
+
+  function countAnswered(progress) {
+    const answered = progress && progress.answered ? progress.answered : state.assessmentAnswered;
+    return Object.keys(answered || {}).filter(function (name) {
+      return answered[name] === true;
+    }).length;
+  }
+
+  function validSavedProgress() {
+    const progress = state.savedAssessmentProgress;
+    if (!progress || !progress.draft || !progress.mode) return null;
+    setupAssessmentPool(progress.mode);
+    const pool = getAssessmentScales();
+    if (!pool.length) return null;
+    const boundedIndex = Math.max(0, Math.min(Number(progress.index) || 0, pool.length - 1));
+    return {
+      mode: progress.mode === "core" ? "core" : "full",
+      index: boundedIndex,
+      draft: progress.draft || {},
+      answered: progress.answered || {},
+      total: pool.length,
+      updatedAt: progress.updatedAt || ""
+    };
   }
 
   function ensureScoreState() {
@@ -549,7 +646,7 @@
     const all = availableAssessmentIndices();
     if (!all.length) {
       state.assessmentPool = [];
-      state.assessmentMode = mode || "core";
+      state.assessmentMode = mode || "full";
       return;
     }
 
@@ -584,6 +681,7 @@
 
   function seedAssessmentDraft() {
     state.assessmentDraft = {};
+    state.assessmentAnswered = {};
     state.scales.forEach(function (scale) {
       if (!scale.levels.length) return;
       state.assessmentDraft[scale.name] = Number(state.scores[scale.name]);
@@ -591,12 +689,15 @@
   }
 
   function openAssessmentSetup(options) {
-    seedAssessmentDraft();
-    setupAssessmentPool(state.assessmentMode || "core");
+    const previousNote = options && options.preserveNote ? state.assessmentNote : "";
+    if (!state.savedAssessmentProgress) {
+      seedAssessmentDraft();
+    }
+    setupAssessmentPool(state.assessmentMode || "full");
     state.assessmentStarted = false;
     state.assessmentSummary = null;
     state.assessmentIndex = 0;
-    state.assessmentNote = "";
+    state.assessmentNote = previousNote;
     renderAssessment();
     if (options && options.scroll) {
       scrollToElement(els.assessmentBlock);
@@ -604,12 +705,37 @@
   }
 
   function beginAssessment(mode) {
+    clearAssessmentProgress();
     seedAssessmentDraft();
-    setupAssessmentPool(mode || "core");
+    setupAssessmentPool(mode || "full");
     state.assessmentStarted = true;
     state.assessmentSummary = null;
     state.assessmentIndex = 0;
     state.assessmentNote = "";
+    saveAssessmentProgress();
+    renderAssessment();
+    scrollToElement(els.assessmentBlock);
+  }
+
+  function resumeAssessment() {
+    const progress = validSavedProgress();
+    if (!progress) {
+      state.assessmentNote = "No saved progress was found. Start a new assessment when you are ready.";
+      openAssessmentSetup({ preserveNote: true, scroll: true });
+      return;
+    }
+
+    state.assessmentMode = progress.mode;
+    setupAssessmentPool(progress.mode);
+    seedAssessmentDraft();
+    Object.keys(progress.draft || {}).forEach(function (name) {
+      state.assessmentDraft[name] = Number(progress.draft[name]);
+    });
+    state.assessmentAnswered = progress.answered || {};
+    state.assessmentIndex = progress.index;
+    state.assessmentStarted = true;
+    state.assessmentSummary = null;
+    state.assessmentNote = "Resumed saved progress from " + formatDate(progress.updatedAt) + ".";
     renderAssessment();
     scrollToElement(els.assessmentBlock);
   }
@@ -625,6 +751,7 @@
       return;
     }
 
+    state.assessmentAnswered[scale.name] = true;
     const total = getAssessmentScales().length;
     if (state.assessmentIndex >= total - 1) {
       finishAssessment();
@@ -633,10 +760,12 @@
 
     state.assessmentIndex += 1;
     state.assessmentNote = "";
+    saveAssessmentProgress();
     renderAssessment();
   }
 
   function finishAssessment() {
+    markCurrentAssessmentAnswered();
     const assessed = getAssessmentScales();
     assessed.forEach(function (scale) {
       if (!scale.levels.length) return;
@@ -670,6 +799,8 @@
       finishedAt: new Date().toISOString()
     };
     state.assessmentStarted = false;
+    state.assessmentAnswered = {};
+    clearAssessmentProgress();
     state.assessmentNote = "";
     render();
     scrollToElement(els.assessmentBlock);
@@ -688,7 +819,7 @@
       els.dataStatus.textContent = state.dataError;
       els.dataStatus.className = "data-status error";
     } else {
-      els.dataStatus.textContent = "Data source: " + state.dataSourceLabel + " · Level I strongest by default.";
+      els.dataStatus.textContent = "Data source: " + state.dataSourceLabel + " · cleaned 1-to-7 assessment copy.";
       els.dataStatus.className = "data-status";
     }
   }
@@ -889,20 +1020,36 @@
     const coreCount = coreIndices.length ? coreIndices.length : Math.min(12, allIndices.length);
 
     if (!state.assessmentStarted && !state.assessmentSummary) {
-      const modeLabel = state.assessmentMode === "full" ? "full-book" : "core";
+      const saved = validSavedProgress();
+      const savedMarkup = saved
+        ? (
+          '<div class="saved-progress-card">' +
+            '<div>' +
+              '<div class="saved-progress-title">Saved Assessment Progress</div>' +
+              '<div class="saved-progress-meta">' +
+                countAnswered(saved) + ' of ' + saved.total + ' scales answered · ' +
+                (saved.mode === "full" ? "full test" : "quick scan") +
+                (saved.updatedAt ? (' · saved ' + escapeHtml(formatDate(saved.updatedAt))) : '') +
+              '</div>' +
+            '</div>' +
+            '<div class="saved-progress-actions">' +
+              '<button class="assessment-btn primary" data-assess-resume>Resume</button>' +
+              '<button class="assessment-btn" data-assess-clear-progress>Clear</button>' +
+            '</div>' +
+          '</div>'
+        )
+        : '';
       els.assessmentPanel.innerHTML =
         '<div class="assessment-setup">' +
           '<div class="assessment-setup-title">Guided Septemics Test</div>' +
-          '<div class="assessment-setup-copy">This works like a personality test: read the statements and pick the one that fits best right now. You can retake anytime.</div>' +
-          '<div class="assessment-mode-note">Recommended path: ' + coreCount + '-scale core test</div>' +
+          '<div class="assessment-setup-copy">This works like a personality test: read the statements and pick the one that fits best right now. The complete version now includes all ' + allIndices.length + ' available Septemics scales.</div>' +
+          savedMarkup +
+          '<div class="assessment-mode-note">Recommended path: full ' + allIndices.length + '-scale self-assessment</div>' +
           '<div class="assessment-setup-actions">' +
-            '<button class="assessment-btn primary assessment-main-action" data-assess-begin="core">Start Guided Test</button>' +
+            '<button class="assessment-btn primary assessment-main-action" data-assess-begin="full">Start Full ' + allIndices.length + '-Scale Test</button>' +
+            '<button class="assessment-btn" data-assess-begin="core">Start Quick ' + coreCount + '-Scale Scan</button>' +
           '</div>' +
-          '<details class="advanced-test">' +
-            '<summary>Need the full version?</summary>' +
-            '<div class="advanced-test-copy">Use this after the core test if you want every imported scale.</div>' +
-            '<button class="assessment-btn" data-assess-begin="full">Start Full ' + allIndices.length + '-Scale Test</button>' +
-          '</details>' +
+          '<div class="advanced-test-copy">The quick scan is useful for a fast baseline, but the full test is the real assessment.</div>' +
         '</div>';
       return;
     }
@@ -911,8 +1058,8 @@
       const summary = state.assessmentSummary;
       const priorities = (summary.priorities || []).map(function (item) {
         const targetText = item.target
-          ? (' → next target: Level ' + item.target.number + ' · ' + escapeHtml(item.target.label))
-          : ' → maintain top level';
+          ? (' · next target: Level ' + item.target.number + ' · ' + escapeHtml(item.target.label))
+          : ' · maintain top level';
         return '<li class="assessment-summary-item"><strong>' + escapeHtml(item.name) + '</strong> · Level ' + item.score + targetText + '</li>';
       }).join("");
       const strengths = (summary.strengths || []).map(function (item) {
@@ -954,6 +1101,8 @@
 
     const selectedScore = Number(state.assessmentDraft[scale.name]);
     const levelsForDisplay = orderedLevelsForDisplay(scale);
+    const answeredCount = countAnswered();
+    const progressPercent = pool.length ? Math.round((answeredCount / pool.length) * 100) : 0;
 
     const options = levelsForDisplay.map(function (level) {
       const selected = level.number === selectedScore;
@@ -975,12 +1124,17 @@
         '<div class="assessment-scale">' + escapeHtml(scale.name) + '</div>' +
         '<div class="assessment-progress">Scale ' + (state.assessmentIndex + 1) + ' of ' + pool.length + '</div>' +
       '</div>' +
+      '<div class="assessment-save-strip">' +
+        '<div class="assessment-save-meter"><span style="width:' + Math.max(2, progressPercent) + '%"></span></div>' +
+        '<div class="assessment-save-text">' + answeredCount + ' of ' + pool.length + ' saved on this device</div>' +
+      '</div>' +
       '<div class="direction-hint assessment-direction">' + escapeHtml(directionLabel(scale)) + '</div>' +
       '<div class="assessment-question">' + escapeHtml(scaleQuestion(scale)) + '</div>' +
       '<div class="assessment-instruction">Pick the closest match, not the perfect match. If two feel close, choose the lower/weaker one and refine later.</div>' +
       '<div class="assessment-options">' + options + '</div>' +
       '<div class="assessment-actions">' +
-        '<button class="assessment-btn" data-assess-cancel>Cancel</button>' +
+        '<button class="assessment-btn" data-assess-pause>Save & Exit</button>' +
+        '<button class="assessment-btn" data-assess-save>Save Progress</button>' +
         '<button class="assessment-btn" data-assess-back ' + (state.assessmentIndex === 0 ? 'disabled' : '') + '>Back</button>' +
         '<button class="assessment-btn primary" data-assess-' + (isLast ? 'finish' : 'next') + '>' + (isLast ? 'Finish Assessment' : 'Next Scale') + '</button>' +
       '</div>' +

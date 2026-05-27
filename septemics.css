@@ -497,6 +497,35 @@
   line-height: 1.45;
 }
 
+.assessment-save-strip {
+  margin: 10px 0 12px;
+  padding: 10px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.34);
+}
+
+.assessment-save-meter {
+  height: 6px;
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.assessment-save-meter span {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+}
+
+.assessment-save-text {
+  margin-top: 7px;
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  color: var(--text-3);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .assessment-option {
   display: block;
   border: 1px solid var(--border);
@@ -592,6 +621,38 @@
   flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 12px;
+}
+
+.saved-progress-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  margin: 14px 0;
+  padding: 12px;
+  border: 1px solid var(--accent);
+  background: var(--accent-dim);
+}
+
+.saved-progress-title {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.saved-progress-meta {
+  font-size: 0.72rem;
+  line-height: 1.45;
+  color: var(--text-2);
+}
+
+.saved-progress-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .assessment-main-action {

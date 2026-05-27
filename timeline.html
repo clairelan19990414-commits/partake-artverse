@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
 <title>Timeline &middot; partake</title>
 <style>
 
@@ -60,14 +62,18 @@ body{font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#111;background
 </style>
 </head>
 <body>
-<nav class="p-nav">
-  <a class="p-nav-logo" href="index.html">partake</a>
-  <div class="p-nav-links">
-    <a class="p-nav-link" href="index.html">home</a>
-    <a class="p-nav-link" href="master.html">synthesis</a>
-    <a class="p-nav-link active" href="timeline.html">timeline</a>
-    <a class="p-nav-link" href="artist_map.html">artist map</a>
-    <a class="p-nav-link" href="septemics.html">septemics</a>
+<nav class="site-nav">
+  <a class="nav-logo" href="index.html">partake</a>
+  <div class="nav-links">
+    <a class="nav-link" href="index.html">home</a>
+    <a class="nav-link" href="master.html">synthesis</a>
+    <a class="nav-link" href="brand_systems.html">brand systems</a>
+    <a class="nav-link" href="language_memory.html">language memory</a>
+    <a class="nav-link" href="platform_selfhood.html">platform selfhood</a>
+    <a class="nav-link" href="visual_taste_place.html">visual taste place</a>
+    <a class="nav-link active" href="timeline.html">timeline</a>
+    <a class="nav-link" href="artist_map.html">artist map</a>
+    <a class="nav-link" href="septemics.html">septemics</a>
   </div>
 </nav>
 <div class="p-intro">
@@ -108,6 +114,11 @@ body{font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#111;background
   <span class="nm" data-k="Alain Badiou" style="left:2280px;font-size:9.5px;font-style:normal;font-weight:700;color:#6650a4">Badiou</span>
   <span class="nm" data-k="Nick Land" style="left:2340px;font-size:9.5px;font-style:normal;font-weight:700;color:#6650a4">Nick Land</span>
 </div>
+<!-- Row C: Bataille(1929=1690) Bourdieu(1979=2190) -->
+<div class="lr" style="height:18px">
+  <span class="nm" data-k="Georges Bataille" style="left:1690px;font-size:9.5px;font-style:normal;font-weight:700;color:#6650a4">Bataille</span>
+  <span class="nm" data-k="Pierre Bourdieu" style="left:2190px;font-size:9.5px;font-style:normal;font-weight:700;color:#6650a4">Bourdieu</span>
+</div>
 <!-- Key works row 1: spread to avoid overlap (x=year*10-1760*10) -->
 <div class="lr">
   <span class="nm" data-k="Immanuel Kant" style="left:210px">Critique of Pure Reason (1781)</span>
@@ -132,6 +143,11 @@ body{font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#111;background
   <span class="nm" data-k="Roland Barthes" style="left:1930px">Writing Degree Zero (1953)</span>
   <span class="nm" data-k="Noam Chomsky" style="left:2130px">Syntactic Structures (1957)</span>
   <span class="nm" data-k="Alain Badiou" style="left:2310px">Being &amp; Event (1988)</span>
+</div>
+<!-- Key works row 4 -->
+<div class="lr">
+  <span class="nm" data-k="Georges Bataille" style="left:1690px">Documents / Base Materialism (1929)</span>
+  <span class="nm" data-k="Pierre Bourdieu" style="left:2190px">Distinction (1979)</span>
 </div>
 
 </div></div><!-- end philosophers row -->
@@ -607,7 +623,7 @@ body{font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#111;background
 
 <!-- ═══════════ TOOLTIP ═══════════ -->
 <div id="tt">
-  <img id="tt-img" src="" alt="">
+  <img id="tt-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt="Timeline tooltip reference image">
   <div id="tt-ph"><span>loading&#8230;</span></div>
   <div id="tt-body">
     <div id="tt-name"></div>
@@ -615,11 +631,11 @@ body{font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#111;background
     <div id="tt-dates"></div>
     <div id="tt-desc"></div>
     <div id="tt-links">
-      <a id="tt-wiki" href="#" target="_blank" rel="noopener">Wikipedia &#8599;</a>
+      <a id="tt-wiki" href="https://www.wikipedia.org/" target="_blank" rel="noopener">Wikipedia &#8599;</a>
       <span>&#183;</span>
-      <a id="tt-goog" href="#" target="_blank" rel="noopener">Google &#8599;</a>
+      <a id="tt-goog" href="https://www.google.com/" target="_blank" rel="noopener">Google &#8599;</a>
       <span>&#183;</span>
-      <a id="tt-yt" href="#" target="_blank" rel="noopener">YouTube &#8599;</a>
+      <a id="tt-yt" href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube &#8599;</a>
     </div>
   </div>
 </div>
@@ -636,12 +652,14 @@ const D={
 "Ferdinand de Saussure":{t:"Linguist / Semiotician",bg:"#d8cbf0",tc:"#3C3489",d:"1857\u20131913",desc:"Swiss linguist whose posthumous Course in General Linguistics (1915) founded modern semiotics and structural linguistics. His distinction between signifier and signified became the cornerstone of Structuralism and Poststructuralism.",wiki:"Ferdinand_de_Saussure"},
 "C.G. Jung":{t:"Psychologist",bg:"#d8cbf0",tc:"#3C3489",d:"1875\u20131961",desc:"Swiss psychiatrist who founded analytical psychology. His concepts of the collective unconscious, archetypes, and the shadow (Psychological Types, 1921) influenced Surrealism, Abstract Expressionism, and depth psychology\u2019s impact on modern art.",wiki:"Carl_Jung"},
 "Martin Heidegger":{t:"Philosopher",bg:"#ddd4fa",tc:"#3C3489",d:"1889\u20131976",desc:"German philosopher and founder of fundamental ontology. Being and Time (1927) introduced Dasein and authenticity. His essay The Origin of the Work of Art (1935) argued art reveals truth and opens worlds, deeply influencing poststructuralism and contemporary art theory.",wiki:"Martin_Heidegger"},
+"Georges Bataille":{t:"Philosopher / Writer",bg:"#ddd4fa",tc:"#3C3489",d:"1897\u20131962",desc:"French writer and theorist of transgression, base materialism, eroticism, sacrifice, and the informe. His journal Documents (1929\u201330) and later writings shaped Surrealism\u2019s dissident edge, post-structuralism, abjection, and artists interested in excess, taboo, and the sacred.",wiki:"Georges_Bataille"},
 "Jacques Lacan":{t:"Psychoanalyst / Philosopher",bg:"#ddd4fa",tc:"#3C3489",d:"1901\u20131981",desc:"French psychoanalyst who reread Freud through structural linguistics. \u00c9crits (1966) introduced the mirror stage, the Symbolic/Imaginary/Real triad, and the axiom \u2018the unconscious is structured like a language.\u2019 Enormously influential on film theory, feminist theory, and art criticism.",wiki:"Jacques_Lacan"},
 "L\xe9vi-Strauss":{t:"Anthropologist / Structuralist",bg:"#ddd4fa",tc:"#3C3489",d:"1908\u20132009",desc:"French anthropologist and the leading figure of Structuralism. The Raw and the Cooked (1964) analysed myths through binary oppositions derived from Saussure\u2019s linguistics. His structural method became the model for structuralist art history and criticism.",wiki:"Claude_L\xe9vi-Strauss"},
 "Roland Barthes":{t:"Theorist / Semiotician",bg:"#ddd4fa",tc:"#3C3489",d:"1915\u20131980",desc:"French theorist who applied Saussure\u2019s semiotics to popular culture. Mythologies (1957) exposed bourgeois ideology in everyday signs. His essay \u2018The Death of the Author\u2019 (1967) declared meaning lies with the reader, not the artist\u2014foundational to Conceptual Art.",wiki:"Roland_Barthes"},
 "Michel Foucault":{t:"Philosopher",bg:"#c8b5f0",tc:"#26215C",d:"1926\u20131984",desc:"French philosopher who analyzed how power produces knowledge and subjects. The Order of Things (1966) and Discipline and Punish (1975) transformed art history, queer theory, and institutional critique. He declared \u2018the death of man\u2019 echoing Barthes\u2019s death of the author.",wiki:"Michel_Foucault"},
 "Noam Chomsky":{t:"Linguist / Political Theorist",bg:"#c8b5f0",tc:"#26215C",d:"1928\u2013",desc:"American linguist and political theorist. Syntactic Structures (1957) proposed universal grammar, revolutionizing linguistics and cognitive science. His political writings (Manufacturing Consent, 1988) became central to critical media theory and activist art.",wiki:"Noam_Chomsky"},
 "Jean Baudrillard":{t:"Philosopher",bg:"#c8b5f0",tc:"#26215C",d:"1929\u20132007",desc:"French philosopher of hyperreality and simulation. Simulacra and Simulation (1981) argued postmodern culture produces signs that no longer refer to reality\u2014only to other signs. He directly influenced appropriation art, simulation art, and The Matrix (1999) cited his work.",wiki:"Jean_Baudrillard"},
+"Pierre Bourdieu":{t:"Sociologist / Cultural Theorist",bg:"#c8b5f0",tc:"#26215C",d:"1930\u20132002",desc:"French sociologist whose concepts of cultural capital, habitus, field, and distinction explained taste as a social sorting system. Distinction (1979) became a key framework for art-world sociology, class-coded aesthetics, institutional legitimacy, and cultural gatekeeping.",wiki:"Pierre_Bourdieu"},
 "Alain Badiou":{t:"Philosopher",bg:"#b8a5e0",tc:"#1C1640",d:"1937\u2013",desc:"French philosopher and mathematician. Being and Event (1988) reformulated ontology as mathematics (set theory). He argues art is one of four \u2018truth procedures\u2019 alongside science, love, and politics\u2014engaged with theater, cinema, and contemporary aesthetics.",wiki:"Alain_Badiou"},
 "Nick Land":{t:"Philosopher / Accelerationist",bg:"#b8a5e0",tc:"#1C1640",d:"1962\u2013",desc:"English philosopher. Co-founded the Cybernetic Culture Research Unit (CCRU) at Warwick in the 1990s. His accelerationism argues capitalist-technological processes should be pushed to their limit rather than resisted. Coined \u2018hyperstition.\u2019 Fanged Noumena (2011) collected his writings.",wiki:"Nick_Land"},
 /* ── Media Theorists ── */
@@ -904,6 +922,7 @@ function showTT(el,key){
     if(src){
       ttImg.onload=function(){ttPh.style.display='none';ttImg.style.display='block';positionTT(el);};
       ttImg.onerror=function(){ttPh.querySelector('span').textContent='no image';};
+      ttImg.alt = key + ' reference image';
       ttImg.src=src;
     } else {
       ttPh.querySelector('span').textContent='no image available';
@@ -921,12 +940,14 @@ const RELS={
   "Ferdinand de Saussure":["Roland Barthes","L\xe9vi-Strauss","Conceptual Art"],
   "C.G. Jung":["Surrealism","Abstract Expressionism","Sigmund Freud"],
   "Martin Heidegger":["Conceptual Art","Performance Art"],
+  "Georges Bataille":["Surrealism","Dada","Postmodernism","Outsider Art"],
   "Roland Barthes":["Pop Art","Conceptual Art","Postmodernism","Ferdinand de Saussure"],
   "L\xe9vi-Strauss":["Conceptual Art","Ferdinand de Saussure"],
   "Jacques Lacan":["Surrealism","Video Art","Sigmund Freud"],
   "Michel Foucault":["Conceptual Art","Postmodernism","Contemporary Conceptual Art"],
   "Noam Chomsky":["Conceptual Art"],
   "Jean Baudrillard":["Postmodernism","Internet Art / Cyberculture Art","Pop Art"],
+  "Pierre Bourdieu":["Postmodernism","Conceptual Art","Contemporary Conceptual Art"],
   "Alain Badiou":["Contemporary Conceptual Art"],
   "Nick Land":["Internet Art / Cyberculture Art","Hacking (Exploratory)","Algorithmic Art"],
   "Walter Benjamin":["Postmodernism","Video Art","Dada"],
@@ -940,16 +961,16 @@ const RELS={
   "Expressionism":["Friedrich Nietzsche","Cubism","Dada","Post-Impressionism","Symbolism"],
   "Cubism":["Expressionism","Pablo Picasso","Futurism"],
   "Futurism":["Cubism","Russian Constructivism"],
-  "Dada":["Friedrich Nietzsche","Surrealism","Walter Benjamin"],
+  "Dada":["Friedrich Nietzsche","Surrealism","Walter Benjamin","Georges Bataille"],
   "Russian Constructivism":["Futurism","Conceptual Art"],
-  "Surrealism":["Sigmund Freud","C.G. Jung","Jacques Lacan","Andr\xe9 Breton","Salvador Dal\xed","Abstract Expressionism","Pop Surrealism"],
+  "Surrealism":["Sigmund Freud","C.G. Jung","Jacques Lacan","Georges Bataille","Andr\xe9 Breton","Salvador Dal\xed","Abstract Expressionism","Pop Surrealism"],
   "Abstract Expressionism":["C.G. Jung","Jackson Pollock","Surrealism","Minimalism"],
   "Pop Art":["Jean Baudrillard","Roland Barthes","Andy Warhol","Jasper Johns","Postmodernism"],
   "Minimalism":["Conceptual Art","Frank Stella","Sol LeWitt","Richard Serra","Abstract Expressionism"],
-  "Conceptual Art":["Roland Barthes","Michel Foucault","Ferdinand de Saussure","Joseph Beuys","Sol LeWitt","Minimalism"],
+  "Conceptual Art":["Roland Barthes","Michel Foucault","Ferdinand de Saussure","Pierre Bourdieu","Joseph Beuys","Sol LeWitt","Minimalism"],
   "Performance Art":["Joseph Beuys","Stelarc","Conceptual Art"],
   "Earth Art":["Robert Smithson","Conceptual Art"],
-  "Postmodernism":["Jean Baudrillard","Roland Barthes","Michel Foucault","Pop Art","Internet Art / Cyberculture Art"],
+  "Postmodernism":["Jean Baudrillard","Pierre Bourdieu","Roland Barthes","Michel Foucault","Georges Bataille","Pop Art","Internet Art / Cyberculture Art"],
   "Graffiti":["Lowbrow","Jean-Michel Basquiat"],
   "Lowbrow":["Graffiti","Pop Surrealism","Robert Williams"],
   "Pop Surrealism":["Lowbrow","Mark Ryden","Surrealism"],

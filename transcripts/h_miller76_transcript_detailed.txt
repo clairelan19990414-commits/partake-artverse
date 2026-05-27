@@ -1,0 +1,211 @@
+@h_miller76 · detailed transcript
+model: faster-whisper small
+clips: 4
+format: per-clip transcript with segment timestamps; generated from local mp4 files
+
+========================================================================================
+CLIP 01 · DSk90FGEVVN.mp4
+instagram_url: https://www.instagram.com/reel/DSk90FGEVVN/
+duration: 00:02:47.580 · language: en (1.00)
+
+FULL TEXT
+Time is an attribute of motion. If there was no change, there would be no time. So time exists so things can happen. Things happen and thus time exists. These things? We can just reduce things happening to shit. That's a noun. Things equals shit. Hence the term shit happens. This happening is a verb. This verb we can refer to as fucks. To fuck is a verb. Fuck is like to do. Therefore, what Aristotle is saying here is, shit happens, right? However, in the modern lexicon, when that shit is happening, we simply say this shit fucks. Yeah, this shit fucks. Inversely, if something is happening, if the potential is becoming actuality in a way we don't like, we say fuck that shit. You see? So either shit is fucking or we are fucking the shit. And now this gets me to the point about the law of conservation of fuckery. There is a guaranteed amount of fuckery in the universe that is shit has to fuck, right? That's why time exists for it to do that. Fuckery equals causation. There is energy which makes potential actuality. We are causing things to happen. We are producing effects. Therefore, you are going to encounter fuckery. And now you have the choice. does this shit fuck or fuck this shit right now both of these occur because when you take the fuckery you actually transmute it and you exert it back out the attitude of this shit fucks and fuck this shit are both external you're taking the fuckery and you're moving it outwards right and that's why you have to understand at every encounter of fuckery you are either saying fuck me or fuck you, right? You aren't taking that fuckery and either taking it upon yourself, which is self-defeating, you are disempowering yourself, you are disenfranchising yourself if you say fuck me, versus if you say fuck you, now you're making shit happen. Now the shit is fucking or you're fucking the shit, but you're not the one being fucked. That's why people say go fuck yourself, because to be fucked is a poor state of affairs, or as to fuck others, to be the fucker now shit's happening so yes this is why whenever you encounter fuckery never say fuck me always take the fuck and put it out say this shit fucks or fuck this shit but never say fuck my shit you never want to be fucked so yeah that's what Aristotle was saying
+
+TIMESTAMPED SEGMENTS
+[00:00:00.780 → 00:00:04.940] Time is an attribute of motion. If there was no change, there would be no time.
+[00:00:06.010 → 00:00:12.020] So time exists so things can happen. Things happen and thus time exists.
+[00:00:12.960 → 00:00:13.920] These things?
+[00:00:14.930 → 00:00:22.110] We can just reduce things happening to shit. That's a noun. Things equals shit. Hence the term shit happens.
+[00:00:22.910 → 00:00:25.200] This happening is a verb.
+[00:00:26.110 → 00:00:31.630] This verb we can refer to as fucks. To fuck is a verb. Fuck is like to do.
+[00:00:33.590 → 00:00:39.170] [possible low-speech/noisy segment: 0.50] Therefore, what Aristotle is saying here is, shit happens, right?
+[00:00:39.750 → 00:00:47.630] [possible low-speech/noisy segment: 0.50] However, in the modern lexicon, when that shit is happening, we simply say this shit fucks.
+[00:00:47.820 → 00:00:48.960] [possible low-speech/noisy segment: 0.50] Yeah, this shit fucks.
+[00:00:49.380 → 00:00:56.260] [possible low-speech/noisy segment: 0.50] Inversely, if something is happening, if the potential is becoming actuality in a way we don't like,
+[00:00:56.500 → 00:00:57.760] [possible low-speech/noisy segment: 0.50] we say fuck that shit.
+[00:00:58.600 → 00:00:58.880] [possible low-speech/noisy segment: 0.50] You see?
+[00:01:00.010 → 00:01:03.390] [possible low-speech/noisy segment: 0.55] So either shit is fucking or we are fucking the shit.
+[00:01:04.820 → 00:01:07.580] [possible low-speech/noisy segment: 0.55] And now this gets me to the point about the law of conservation of fuckery.
+[00:01:08.000 → 00:01:12.880] [possible low-speech/noisy segment: 0.55] There is a guaranteed amount of fuckery in the universe that is shit has to fuck, right?
+[00:01:13.000 → 00:01:15.240] [possible low-speech/noisy segment: 0.55] That's why time exists for it to do that.
+[00:01:17.360 → 00:01:18.740] [possible low-speech/noisy segment: 0.55] Fuckery equals causation.
+[00:01:18.960 → 00:01:21.540] [possible low-speech/noisy segment: 0.55] There is energy which makes potential actuality.
+[00:01:21.560 → 00:01:22.740] [possible low-speech/noisy segment: 0.55] We are causing things to happen.
+[00:01:22.820 → 00:01:23.780] [possible low-speech/noisy segment: 0.55] We are producing effects.
+[00:01:24.920 → 00:01:28.500] [possible low-speech/noisy segment: 0.55] Therefore, you are going to encounter fuckery.
+[00:01:29.520 → 00:01:30.760] [possible low-speech/noisy segment: 0.55] And now you have the choice.
+[00:01:30.760 → 00:01:35.620] does this shit fuck or fuck this shit right now both of these occur because
+[00:01:35.620 → 00:01:40.940] when you take the fuckery you actually transmute it and you exert it back out
+[00:01:41.610 → 00:01:46.470] the attitude of this shit fucks and fuck this shit are both external you're
+[00:01:46.470 → 00:01:51.160] taking the fuckery and you're moving it outwards right and that's why you have
+[00:01:51.160 → 00:01:56.250] to understand at every encounter of fuckery you are either saying fuck me
+[00:01:56.250 → 00:02:01.350] [possible low-speech/noisy segment: 0.51] or fuck you, right? You aren't taking that fuckery and either taking it upon
+[00:02:01.350 → 00:02:06.130] [possible low-speech/noisy segment: 0.51] yourself, which is self-defeating, you are disempowering yourself, you are
+[00:02:06.130 → 00:02:10.450] [possible low-speech/noisy segment: 0.51] disenfranchising yourself if you say fuck me, versus if you say fuck you, now
+[00:02:10.450 → 00:02:14.690] [possible low-speech/noisy segment: 0.51] you're making shit happen. Now the shit is fucking or you're fucking the shit,
+[00:02:15.030 → 00:02:18.710] [possible low-speech/noisy segment: 0.51] but you're not the one being fucked. That's why people say go fuck yourself,
+[00:02:19.670 → 00:02:26.990] [possible low-speech/noisy segment: 0.51] because to be fucked is a poor state of affairs, or as to fuck others, to be
+[00:02:26.990 → 00:02:32.960] the fucker now shit's happening so yes this is why whenever you encounter
+[00:02:32.960 → 00:02:39.400] fuckery never say fuck me always take the fuck and put it out say this shit
+[00:02:39.400 → 00:02:44.260] fucks or fuck this shit but never say fuck my shit you never want to be fucked
+[00:02:44.910 → 00:02:46.590] so yeah that's what Aristotle was saying
+
+========================================================================================
+CLIP 02 · DUJVdNBkfXB.mp4
+instagram_url: https://www.instagram.com/reel/DUJVdNBkfXB/
+duration: 00:02:59.979 · language: en (1.00)
+
+FULL TEXT
+I have a confession to make. I love fame, sex, money, power. Fame, sex, money, power are the four fruits of the Calpa-Visca, the wish-fulfilling tree. If you ever see somebody do something bad and thinking like, man, how could this guy do it? Fame, sex, money, power. Fame, sex, money, power. Fame, sex, money, power. It makes the world go round. Fame, sex, money, power. There's a story that a group of children go to planter it and long story short, the child who asks for candy gets a stomach ache. The child who asks for toys only gets boredom. The only child who is not disappointed by the wish-fulfilling tree which gives anything you want is the child in a wheelchair who cannot get to its roots. The purpose of wisdom is to sever yourself from the wish-fulfilling tree. What you want is not what you want. What you want is to not want that want anymore. Desire is a friend that only becomes hungrier the more you satisfy it, which makes you less satisfied. In Dante's Inferno there are three animals that guard the gates of hell. The lion of pride, the leopard of lust, and the she-wolf of greed. I am hungry like a wolf we all are. You know how natives in the tundra kill wolves? They don't even have to hunt them. They dip a knife in blood, let it freeze, dip it back in blood until there's a popsicle of blood and they stick it in the snow. In the middle of the night the wolf comes, licks the blade, licks the blood, until eventually it's just slicing its own tongue off. But it can't tell anymore because its tongue is so numb and all it tastes is blood that eventually the wolf kills itself by bleeding out. Sin begins with the consumption of others but it always ends with the swallowing of your wallowing self. Sin is not sustenance, it's suicide. It is not satisfaction, it is swollen starvation. Your stomach will feel like it is barren and tearing apart at the same time. I mean that's how they're punished, the lustful and the greedy and the avaricious in hell they're in a tumultuous storm that never ends they're eating and they are never satisfied it will leave you exhausted you are better off sucking exhaustion out of a tailpipe that's how you'll feel a stomach full of vapor ahead full of hot air like when you eat spicy chips and eventually you can't even taste anymore because it's so spicy but there's still a bag left so you keep eating the bag but your stomach hurts but there's still a bag left so you keep eating it even though it doesn't make you happy you must have discernment. That's what viveka means from the root meaning to choose or to divide which ultimately becomes the words meaning to conquer or to be sacred. Discernment so you can make a war fortress of your heart so you can fortify your heart. That's what it all says. A man without discernment is like a city with broken walls. You've got to fortify your walls bro. The only way to conquer is to cut yourself from the tree of desire. The only way to be sacred is to sever yourself from the tree of desire. He conquers who conquers himself. I conquer others because I cannot conquer myself. Diogenes said that to Alexander, you know. Desi-
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:01.380] I have a confession to make.
+[00:00:01.900 → 00:00:04.320] I love fame, sex, money, power.
+[00:00:04.920 → 00:00:07.460] Fame, sex, money, power are the four fruits
+[00:00:07.460 → 00:00:09.560] of the Calpa-Visca, the wish-fulfilling tree.
+[00:00:09.980 → 00:00:11.440] If you ever see somebody do something bad
+[00:00:11.440 → 00:00:13.240] and thinking like, man, how could this guy do it?
+[00:00:13.360 → 00:00:14.200] Fame, sex, money, power.
+[00:00:14.620 → 00:00:15.520] Fame, sex, money, power.
+[00:00:15.880 → 00:00:16.660] Fame, sex, money, power.
+[00:00:16.740 → 00:00:17.340] It makes the world go round.
+[00:00:17.480 → 00:00:18.160] Fame, sex, money, power.
+[00:00:18.560 → 00:00:20.540] There's a story that a group of children
+[00:00:20.540 → 00:00:22.700] go to planter it and long story short,
+[00:00:23.080 → 00:00:25.160] the child who asks for candy gets a stomach ache.
+[00:00:25.260 → 00:00:27.280] The child who asks for toys only gets boredom.
+[00:00:27.560 → 00:00:29.300] The only child who is not disappointed
+[00:00:29.300 → 00:00:33.200] [possible low-speech/noisy segment: 0.61] by the wish-fulfilling tree which gives anything you want is the child in a
+[00:00:33.200 → 00:00:39.020] [possible low-speech/noisy segment: 0.61] wheelchair who cannot get to its roots. The purpose of wisdom is to sever
+[00:00:39.020 → 00:00:43.660] [possible low-speech/noisy segment: 0.61] yourself from the wish-fulfilling tree. What you want is not what you want. What
+[00:00:43.660 → 00:00:48.280] [possible low-speech/noisy segment: 0.61] you want is to not want that want anymore. Desire is a friend that only
+[00:00:48.280 → 00:00:52.900] [possible low-speech/noisy segment: 0.61] becomes hungrier the more you satisfy it, which makes you less satisfied. In
+[00:00:52.900 → 00:00:57.160] [possible low-speech/noisy segment: 0.61] Dante's Inferno there are three animals that guard the gates of hell. The
+[00:00:57.160 → 00:01:04.280] lion of pride, the leopard of lust, and the she-wolf of greed. I am hungry like a
+[00:01:04.280 → 00:01:09.210] wolf we all are. You know how natives in the tundra kill wolves? They don't even
+[00:01:09.210 → 00:01:14.250] have to hunt them. They dip a knife in blood, let it freeze, dip it back in blood
+[00:01:14.250 → 00:01:17.170] until there's a popsicle of blood and they stick it in the snow. In the
+[00:01:17.170 → 00:01:20.550] middle of the night the wolf comes, licks the blade, licks the blood,
+[00:01:20.710 → 00:01:23.730] until eventually it's just slicing its own tongue off. But it can't tell
+[00:01:23.730 → 00:01:28.270] anymore because its tongue is so numb and all it tastes is blood that eventually the
+[00:01:28.270 → 00:01:29.950] wolf kills itself by bleeding out.
+[00:01:31.120 → 00:01:35.740] Sin begins with the consumption of others but it always ends with the swallowing of your
+[00:01:35.740 → 00:01:36.680] wallowing self.
+[00:01:37.080 → 00:01:39.000] Sin is not sustenance, it's suicide.
+[00:01:39.500 → 00:01:42.680] It is not satisfaction, it is swollen starvation.
+[00:01:43.080 → 00:01:47.080] Your stomach will feel like it is barren and tearing apart at the same time.
+[00:01:47.420 → 00:01:51.760] I mean that's how they're punished, the lustful and the greedy and the avaricious
+[00:01:51.760 → 00:01:56.320] in hell they're in a tumultuous storm that never ends they're eating and they
+[00:01:56.320 → 00:02:00.140] are never satisfied it will leave you exhausted you are better off sucking
+[00:02:00.140 → 00:02:04.620] exhaustion out of a tailpipe that's how you'll feel a stomach full of vapor ahead
+[00:02:04.620 → 00:02:08.740] full of hot air like when you eat spicy chips and eventually you can't even taste
+[00:02:08.740 → 00:02:11.440] anymore because it's so spicy but there's still a bag left so you keep
+[00:02:11.440 → 00:02:14.180] eating the bag but your stomach hurts but there's still a bag left so you
+[00:02:14.180 → 00:02:19.090] keep eating it even though it doesn't make you happy you must have
+[00:02:19.090 → 00:02:25.270] discernment. That's what viveka means from the root meaning to choose or to divide which ultimately
+[00:02:25.270 → 00:02:32.110] becomes the words meaning to conquer or to be sacred. Discernment so you can make a war fortress of
+[00:02:32.110 → 00:02:37.010] your heart so you can fortify your heart. That's what it all says. A man without discernment is
+[00:02:37.010 → 00:02:43.130] like a city with broken walls. You've got to fortify your walls bro. The only way to conquer
+[00:02:43.130 → 00:02:47.970] is to cut yourself from the tree of desire. The only way to be sacred is to sever yourself
+[00:02:47.970 → 00:02:54.020] from the tree of desire. He conquers who conquers himself. I conquer others
+[00:02:54.020 → 00:02:59.280] because I cannot conquer myself. Diogenes said that to Alexander, you know.
+[00:02:59.660 → 00:02:59.940] Desi-
+
+========================================================================================
+CLIP 03 · DW4iHQKEf09.mp4
+instagram_url: https://www.instagram.com/reel/DW4iHQKEf09/
+duration: 00:02:59.050 · language: en (1.00)
+
+FULL TEXT
+I imagine Theo von's rant is indicative of how most people feel about the state of things. You know, that they feel confused and powerless. A lot of what I'm about to say is from The Forced Passage by Ernst Junger, my copy. Its introduction actually opens with a quote from C.S. Lewis, the screw-tape letters in which a demon is getting advice on how to, you know, break the hearts of people. And basically the advice is that the real end is the destruction of individual souls, for only individuals can be saved or damned." I think a lot of people get confused about how such awful things can happen in broad daylight, but that is the purpose of awful things. It's the Pike syndrome. A power system can't just be powerful. It needs you to learn your own helplessness. That way when the wall does go down, the pike doesn't eat the fish. It's an irony though within democracy as multitudes, as the masses gain power. individual man actually feels more and more powerless. Younger talks about how in elections they don't seek solutions they seek answers. It's a questionnaire. It's an illusion of choice. One begins to recognize that these are all masks of the same power and if anything voting just serves as a form of complicity. It gives the illusion of approval and you understand the actions that actually limit your liberties. In all the wild the fear increases you know It's a sign of the times that everybody is so concerned with consuming the news and that antennas prop up all around like erect hairs on a scared animal. Fear is the mind killer and of course titularly his solution is to enter the forest passage to become a forest rebel. This of course is the individual who's not given to any sort of mass movement. The shepherd with the sling, the virgin with the sword, or the woodsman with the crossbow. You know it's interesting I think a lot of people get really scared but there's There's a great deal of hope, I think. Younger points out that perhaps one in a million might pop out of this as a new kind of mythic figure. This person rediscovers the myth within themselves by entering the forest. And, of course, the first task of the Aristocrat was to slay demons and rid monsters, right? And this is what I think is so interesting. For example, the fall of Troy, the sacred, beautiful city of Ilium. Imagine how many people thought that Troy could not fall. And yet it did. And I imagine there were people in the city. There were Trojans who were dooming and glooming and fearing and they perished. But who else came out of Troy? Hector died for his nation. Achilles became an immortal. Odysseus proved his cunning. Odin came from Troy, the all-father. Aeneas fled and founded Rome. There are people in New York City, in Los Angeles, in London, in Paris, in Tokyo, in Berlin, in Bogota, Columbia, who will be spoken about 2,000 years from now like demigods because they weren't afraid. Because they had a book bag and a strong back and a good pair of broken shoes. In short, the forced passage is where you encounter the self. You face the fear of death. All fear is rooted in the fear of death. And once you beat that, then nothing can intimidate you. And that is when you can finally fight for freedom. Freedom has to be earned by every generation.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.080 → 00:00:05.660] I imagine Theo von's rant is indicative of how most people feel about the state of things.
+[00:00:06.000 → 00:00:08.200] You know, that they feel confused and powerless.
+[00:00:08.900 → 00:00:13.460] A lot of what I'm about to say is from The Forced Passage by Ernst Junger, my copy.
+[00:00:13.760 → 00:00:18.140] Its introduction actually opens with a quote from C.S. Lewis, the screw-tape letters in
+[00:00:18.140 → 00:00:22.740] which a demon is getting advice on how to, you know, break the hearts of people.
+[00:00:23.140 → 00:00:26.960] And basically the advice is that the real end is the destruction of individual souls,
+[00:00:26.960 → 00:00:31.420] for only individuals can be saved or damned." I think a lot of people get
+[00:00:31.420 → 00:00:35.540] confused about how such awful things can happen in broad daylight, but that is the
+[00:00:35.540 → 00:00:40.920] purpose of awful things. It's the Pike syndrome. A power system can't just be
+[00:00:40.920 → 00:00:44.880] powerful. It needs you to learn your own helplessness. That way
+[00:00:44.880 → 00:00:48.540] when the wall does go down, the pike doesn't eat the fish. It's an
+[00:00:48.540 → 00:00:53.060] irony though within democracy as multitudes, as the masses gain power.
+[00:00:53.060 → 00:00:58.100] individual man actually feels more and more powerless. Younger talks about how
+[00:00:58.100 → 00:01:02.560] in elections they don't seek solutions they seek answers. It's a questionnaire.
+[00:01:03.100 → 00:01:07.260] It's an illusion of choice. One begins to recognize that these are all masks of
+[00:01:07.260 → 00:01:13.760] the same power and if anything voting just serves as a form of complicity.
+[00:01:13.960 → 00:01:17.800] It gives the illusion of approval and you understand the actions that
+[00:01:17.800 → 00:01:21.200] actually limit your liberties. In all the wild the fear increases you know
+[00:01:21.200 → 00:01:25.660] It's a sign of the times that everybody is so concerned with consuming the news and that
+[00:01:25.660 → 00:01:30.540] antennas prop up all around like erect hairs on a scared animal.
+[00:01:31.040 → 00:01:36.500] Fear is the mind killer and of course titularly his solution is to enter the forest passage
+[00:01:36.500 → 00:01:38.440] to become a forest rebel.
+[00:01:38.920 → 00:01:42.380] This of course is the individual who's not given to any sort of mass movement.
+[00:01:42.660 → 00:01:46.640] The shepherd with the sling, the virgin with the sword, or the woodsman with
+[00:01:46.640 → 00:01:47.060] the crossbow.
+[00:01:47.440 → 00:01:49.900] You know it's interesting I think a lot of people get really scared but there's
+[00:01:49.900 → 00:01:53.440] There's a great deal of hope, I think. Younger points out that perhaps one in a million might
+[00:01:53.440 → 00:01:57.700] pop out of this as a new kind of mythic figure. This person rediscovers the myth within themselves
+[00:01:57.700 → 00:02:02.620] by entering the forest. And, of course, the first task of the Aristocrat was to slay demons
+[00:02:02.620 → 00:02:06.000] and rid monsters, right? And this is what I think is so interesting. For example,
+[00:02:06.240 → 00:02:11.200] the fall of Troy, the sacred, beautiful city of Ilium. Imagine how many people
+[00:02:11.200 → 00:02:14.980] thought that Troy could not fall. And yet it did. And I imagine there were people
+[00:02:14.980 → 00:02:19.360] [possible low-speech/noisy segment: 0.49] in the city. There were Trojans who were dooming and glooming and fearing and they
+[00:02:19.360 → 00:02:23.380] [possible low-speech/noisy segment: 0.49] perished. But who else came out of Troy? Hector died for his nation. Achilles
+[00:02:23.380 → 00:02:28.300] [possible low-speech/noisy segment: 0.49] became an immortal. Odysseus proved his cunning. Odin came from Troy, the all-father.
+[00:02:28.620 → 00:02:33.080] [possible low-speech/noisy segment: 0.49] Aeneas fled and founded Rome. There are people in New York City, in Los
+[00:02:33.080 → 00:02:38.440] [possible low-speech/noisy segment: 0.49] Angeles, in London, in Paris, in Tokyo, in Berlin, in Bogota, Columbia, who will
+[00:02:38.440 → 00:02:42.800] [possible low-speech/noisy segment: 0.49] be spoken about 2,000 years from now like demigods because they weren't
+[00:02:42.800 → 00:02:47.040] afraid. Because they had a book bag and a strong back and a good pair of broken
+[00:02:47.040 → 00:02:50.620] shoes. In short, the forced passage is where you encounter the self. You face
+[00:02:50.620 → 00:02:53.920] the fear of death. All fear is rooted in the fear of death. And once you beat that,
+[00:02:54.380 → 00:02:56.800] then nothing can intimidate you. And that is when you can finally fight for
+[00:02:56.800 → 00:02:58.680] freedom. Freedom has to be earned by every generation.
+
+========================================================================================
+CLIP 04 · DXFaF3nEVlx.mp4
+instagram_url: https://www.instagram.com/reel/DXFaF3nEVlx/
+duration: 00:02:59.933 · language: en (1.00)
+
+FULL TEXT
+Every bad thing that ever happened to me I begged for before I was born Whenever shit happens as it so often does I like to meditate on the idea of the fravashis of Zoroastrianism A fravashis like a personal spirit and in the boondahish, and there's this idea that when the world was created Ahura Mazda the benevolent God showed the personal spirits what the world would look like without them And of course, without any good stewards to enter the material world, they could see that are to become overrun by Araman and his devas, Araman the evil deceiver one. And so at the dawn of time, Ruh Mazda gives these spirits a choice. He says you can stay here, you can stay in paradise and none will be the wiser or you can enter the material world to wage a war in the battle of good and evil and come back here and share your experience with the generations to keep the fight going on. And so what do the Kravashis do? They choose to enter the material world to fight the destructive spirit and to bring about the final restoration. That is why in the Kravartinyasht it says that we worship the benevolent, strong in the righteous spirits who chose to descend into the struggle. So every time, every red light, every broken bone, every heartbreak, every loss, just remember this, at the dawn of time before the world was born, before you were born, you saw what would happen and you chose it. You chose to be here, knowing full well what would happen to you. And that's what Varsha means. It has that root meaning to choose, which has the double meaning of those who have chosen to be exalted and those who choose to profess the faith and this is what you have to realize being chosen and being cursed you like the exact same thing they feel like a cosmic compulsion even in Gethsemane Christ says you know if this cup is not for me let it pass my hand but let your will be done to be anointed is to be picked for suffering so how do you turn a curse into an anointing? You can't just be chosen. You have to choose the suffering. You have to elect to suffer. You have to love your fate and to love your suffering and in choosing the curse you turn the curse into anointing. You turn the curse into a choice and in choosing you become chosen instead. The Lord chastises those whom He loves and He scourges every son who He receives. The suffering is the anointing. This entire world is a deception meant to make you forget about what you were before you were born. Ahriman's purpose is to make you think that the material world is all the risk so that you forget you have a soul. But I often wonder what name I went by before I got my name, what face I had before I had my face. I wonder about when I die, what will I go by, what will I be known as.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.260] Every bad thing that ever happened to me I begged for before I was born
+[00:00:04.260 → 00:00:12.240] Whenever shit happens as it so often does I like to meditate on the idea of the fravashis of Zoroastrianism
+[00:00:12.240 → 00:00:18.740] A fravashis like a personal spirit and in the boondahish, and there's this idea that when the world was created
+[00:00:18.740 → 00:00:26.040] Ahura Mazda the benevolent God showed the personal spirits what the world would look like without them
+[00:00:26.040 → 00:00:31.560] And of course, without any good stewards to enter the material world, they could see that
+[00:00:31.560 → 00:00:37.020] are to become overrun by Araman and his devas, Araman the evil deceiver one.
+[00:00:37.820 → 00:00:42.120] And so at the dawn of time, Ruh Mazda gives these spirits a choice.
+[00:00:42.620 → 00:00:47.860] He says you can stay here, you can stay in paradise and none will be the wiser or you
+[00:00:47.860 → 00:00:53.740] can enter the material world to wage a war in the battle of good and evil and
+[00:00:53.740 → 00:00:58.360] come back here and share your experience with the generations to keep the fight going on.
+[00:00:58.760 → 00:01:04.920] And so what do the Kravashis do? They choose to enter the material world to fight the destructive
+[00:01:04.920 → 00:01:11.160] spirit and to bring about the final restoration. That is why in the Kravartinyasht it says that we
+[00:01:11.160 → 00:01:17.800] worship the benevolent, strong in the righteous spirits who chose to descend into the struggle.
+[00:01:17.800 → 00:01:24.580] So every time, every red light, every broken bone, every heartbreak, every loss, just remember
+[00:01:24.580 → 00:01:29.580] this, at the dawn of time before the world was born, before you were born, you saw what
+[00:01:29.580 → 00:01:31.340] would happen and you chose it.
+[00:01:31.580 → 00:01:36.840] You chose to be here, knowing full well what would happen to you.
+[00:01:37.340 → 00:01:38.540] And that's what Varsha means.
+[00:01:39.040 → 00:01:43.530] It has that root meaning to choose, which has the double meaning of those who have
+[00:01:43.530 → 00:01:49.330] [possible low-speech/noisy segment: 0.54] chosen to be exalted and those who choose to profess the faith and this is
+[00:01:49.330 → 00:01:54.590] [possible low-speech/noisy segment: 0.54] what you have to realize being chosen and being cursed you like the exact same
+[00:01:54.590 → 00:01:59.650] [possible low-speech/noisy segment: 0.54] thing they feel like a cosmic compulsion even in Gethsemane Christ says you know
+[00:01:59.650 → 00:02:03.870] [possible low-speech/noisy segment: 0.54] if this cup is not for me let it pass my hand but let your will be done to be
+[00:02:03.870 → 00:02:09.850] [possible low-speech/noisy segment: 0.54] anointed is to be picked for suffering so how do you turn a curse into an
+[00:02:09.850 → 00:02:13.990] anointing? You can't just be chosen. You have to choose the suffering. You have to
+[00:02:13.990 → 00:02:19.310] elect to suffer. You have to love your fate and to love your suffering and in
+[00:02:19.310 → 00:02:24.770] choosing the curse you turn the curse into anointing. You turn the curse into a
+[00:02:24.770 → 00:02:29.730] choice and in choosing you become chosen instead. The Lord chastises those
+[00:02:29.730 → 00:02:34.950] whom He loves and He scourges every son who He receives. The suffering is the
+[00:02:34.950 → 00:02:39.770] anointing. This entire world is a deception meant to make you forget about
+[00:02:39.770 → 00:02:41.370] what you were before you were born.
+[00:02:42.090 → 00:02:45.330] Ahriman's purpose is to make you think that the material world is all the risk so that
+[00:02:45.330 → 00:02:46.510] you forget you have a soul.
+[00:02:46.930 → 00:02:51.590] But I often wonder what name I went by before I got my name, what face I had before I had
+[00:02:51.590 → 00:02:52.070] my face.
+[00:02:52.210 → 00:02:58.770] I wonder about when I die, what will I go by, what will I be known as.

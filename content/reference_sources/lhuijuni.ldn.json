@@ -1,0 +1,69 @@
+{
+  "creator": "@lhuijuni.ldn",
+  "principle": "Use real, sourceable reference images only: institutions, brands, objects, places, or documents that clarify the ideas. Avoid fake text-card images and random influencer portraits.",
+  "references": [
+    {
+      "name": "Benjamin Franklin schedule / time management",
+      "file": "assets/creator_references/lhuijuni.ldn/time-affluence-clock.jpg",
+      "source_page": "https://en.wikipedia.org/wiki/Time_management",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Benjamin_Franklin%27s_Schedule_%28cropped%29.jpg",
+      "used_for": "Time affluence as an older discipline of life design, not just productivity culture."
+    },
+    {
+      "name": "City of London",
+      "file": "assets/creator_references/lhuijuni.ldn/city-of-london.jpg",
+      "source_page": "https://en.wikipedia.org/wiki/City_of_London",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Bank_junction_-_2020-09-20_%282%29.jpg/1280px-Bank_junction_-_2020-09-20_%282%29.jpg",
+      "used_for": "High-cost-city finance life, HENRY pressure, and the gap between salary status and lived freedom."
+    },
+    {
+      "name": "Hindenburg Research",
+      "file": "assets/creator_references/lhuijuni.ldn/hindenburg-research.png",
+      "source_page": "https://hindenburgresearch.com/",
+      "image_url": "https://hindenburgresearch.com/wp-content/uploads/2019/09/LOGO-H-HR-dark-horiz.png",
+      "used_for": "Activist short-selling and profit tied to public accusation."
+    },
+    {
+      "name": "Adani Group",
+      "file": "assets/creator_references/lhuijuni.ldn/adani-group.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Adani_2012_logo.png",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Adani_logo_2012.svg/960px-Adani_logo_2012.svg.png",
+      "used_for": "The public target in the Hindenburg/Adani short-selling example."
+    },
+    {
+      "name": "Block, Inc.",
+      "file": "assets/creator_references/lhuijuni.ldn/block-inc.png",
+      "source_page": "https://block.xyz/",
+      "image_url": "https://cdn.sanity.io/images/8m3angk4/production/cd6b375c54acd24b464bd95be052d3dc3f0ebf3b-1920x1080.png?auto=format",
+      "used_for": "Corporate tech-finance as a public object of activist research and reputation risk."
+    },
+    {
+      "name": "Goldman Sachs headquarters",
+      "file": "assets/creator_references/lhuijuni.ldn/goldman-sachs.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:GoldmanSachsHeadquarters.JPG",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/GoldmanSachsHeadquarters.JPG/960px-GoldmanSachsHeadquarters.JPG",
+      "used_for": "Elite finance as cultural shorthand for institutional prestige and extraction."
+    },
+    {
+      "name": "Balenciaga",
+      "file": "assets/creator_references/lhuijuni.ldn/balenciaga.png",
+      "source_page": "https://www.balenciaga.com/",
+      "image_url": "https://www.balenciaga.com/on/demandware.static/Sites-BAL-R-NOAM-Site/-/default/dw7520609f/images/thumbnail-social.png",
+      "used_for": "Luxury branding and late-capitalist absurdity as status language."
+    },
+    {
+      "name": "Labubu / Pop Mart retail display",
+      "file": "assets/creator_references/lhuijuni.ldn/labubu-pop-mart.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Browsing_for_Labubu.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Browsing_for_Labubu.jpg/960px-Browsing_for_Labubu.jpg",
+      "used_for": "Chinese consumer IP as soft-power signal and global attention object."
+    },
+    {
+      "name": "Confucius Institute building",
+      "file": "assets/creator_references/lhuijuni.ldn/confucius-institutes.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Confucius_Institute_Troy_University.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Confucius_Institute_Troy_University.jpg/960px-Confucius_Institute_Troy_University.jpg",
+      "used_for": "Institutional soft power contrasted with the attention-economy spread of consumer culture."
+    }
+  ]
+}

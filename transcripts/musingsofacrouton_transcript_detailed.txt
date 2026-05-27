@@ -1,0 +1,252 @@
+@musingsofacrouton · detailed transcript
+model: faster-whisper small
+clips: 8
+format: per-clip transcript with segment timestamps; generated from local mp4 files
+
+========================================================================================
+CLIP 01 · DI9lMTaPiBK.mp4
+instagram_url: https://www.instagram.com/reel/DI9lMTaPiBK/
+duration: 00:02:51.620 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+These are the political leanings of the victorious cast. Tori, very milk toast liberal. The kind that put hashtag BLM in her bio because she was scared not to. It's 2025 and it's still there. But when the entertainment industry doesn't give her the career that she thinks she deserves, she goes, oh, okay, BLTQ&A community. I see how it is. So I think she becomes a bit more conservative simply out of spite. Not necessarily because she actually holds any of those beliefs or values. Not a huge Trump fan. More in favor of the waspy ruling class Republicans, think the Bushes, Rex, right wing all the way, huge Trump fan. He's gonna pull a semi-Roger Stone and get Trumpito tattooed on his back, in part because he also wants Robbie to be forced to stare at old Donny 24-7. He'll continue making his standard inappropriate jokes like, I'm a puppet being controlled by a mitzvahava. What am I, the mainstream media? Sorry that I can't do his little black scent. Eventually, Robbie just smothers him with a pillow or cuts him off 127-hours style. Kat. She likes whichever politician is the shiniest. I have a feeling that people will discover she's a savant of some sort, like a cuter rain man, and then she'll get scooped up by the CIA, in which case her allegiance won't be to a political party. It'll be to the state. Trina. Her politics are self-interest. Whatever gets her in the right rooms. She'll death drop and do Charlie XCX covers. Get I'm With Her, tattooed on her lower back. Wrong election girl, but also if she hears that there's an opening for a performer at the RNC She's fusing that little make America great hat to her brunette extensions. She'll do whatever it takes to open for kid rock Robbie I think he starts out being kind of left-wing especially because he thinks that's what women in LA want to hear It's the only reason he learned anything about astrology. He might have liked Bernie or whatever But after getting rejected enough times I think he starts becoming a little bit more incel-esque. The ghost of Rex is just whispering in his ear, like the green goblin mask. Beck. He's skated on being a cute, straight guy in the arts, a double minority, really. I'd say he's probably more left waning. He doesn't really strike me as somebody who cares about politics. That is until the homeless population in LA starts interfering with his hot boy runs on the beach. And his response to this is moving to Austin. Andre. I think he becomes more leftist in college. He might even become a hotep god forbid He is fully making an effigy of that mouthy ventriloquist puppet Rex Jade I think she probably Socially has a bit more left-leaning views. She wouldn't really call herself a feminist mainly cuz in her head She's like, I don't even really like women that much. I mean she likes men even less She really would have resonated with this tweet fiscally. Yeah, it's a toss up But she does strike me as becoming a lot more libertarian come tax season, which is understandable.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:02.360] These are the political leanings of the victorious cast.
+[00:00:02.720 → 00:00:04.600] Tori, very milk toast liberal.
+[00:00:04.820 → 00:00:06.820] The kind that put hashtag BLM in her bio
+[00:00:06.820 → 00:00:08.100] because she was scared not to.
+[00:00:08.260 → 00:00:10.160] It's 2025 and it's still there.
+[00:00:10.320 → 00:00:11.500] But when the entertainment industry
+[00:00:11.500 → 00:00:13.780] doesn't give her the career that she thinks she deserves,
+[00:00:14.140 → 00:00:17.140] she goes, oh, okay, BLTQ&A community.
+[00:00:17.540 → 00:00:18.380] I see how it is.
+[00:00:18.520 → 00:00:20.260] So I think she becomes a bit more conservative
+[00:00:20.260 → 00:00:22.040] simply out of spite.
+[00:00:22.420 → 00:00:24.180] Not necessarily because she actually holds
+[00:00:24.180 → 00:00:25.820] any of those beliefs or values.
+[00:00:26.180 → 00:00:27.500] Not a huge Trump fan.
+[00:00:27.500 → 00:00:34.880] More in favor of the waspy ruling class Republicans, think the Bushes, Rex, right wing all the way,
+[00:00:35.220 → 00:00:40.480] huge Trump fan. He's gonna pull a semi-Roger Stone and get Trumpito tattooed on his back,
+[00:00:40.740 → 00:00:46.420] in part because he also wants Robbie to be forced to stare at old Donny 24-7. He'll continue
+[00:00:46.420 → 00:00:52.260] making his standard inappropriate jokes like, I'm a puppet being controlled by a mitzvahava.
+[00:00:52.360 → 00:00:56.880] What am I, the mainstream media? Sorry that I can't do his little black scent.
+[00:00:56.880 → 00:01:02.220] Eventually, Robbie just smothers him with a pillow or cuts him off 127-hours style.
+[00:01:02.480 → 00:01:05.420] Kat. She likes whichever politician is the shiniest.
+[00:01:05.640 → 00:01:08.800] I have a feeling that people will discover she's a savant of some sort,
+[00:01:09.000 → 00:01:12.240] like a cuter rain man, and then she'll get scooped up by the CIA,
+[00:01:12.640 → 00:01:15.060] in which case her allegiance won't be to a political party.
+[00:01:15.320 → 00:01:16.100] It'll be to the state.
+[00:01:16.360 → 00:01:18.480] Trina. Her politics are self-interest.
+[00:01:18.880 → 00:01:21.020] Whatever gets her in the right rooms.
+[00:01:21.280 → 00:01:23.900] She'll death drop and do Charlie XCX covers.
+[00:01:24.280 → 00:01:26.600] Get I'm With Her, tattooed on her lower back.
+[00:01:26.600 → 00:01:31.760] Wrong election girl, but also if she hears that there's an opening for a performer at the RNC
+[00:01:31.760 → 00:01:38.060] She's fusing that little make America great hat to her brunette extensions. She'll do whatever it takes to open for kid rock
+[00:01:38.060 → 00:01:45.160] Robbie I think he starts out being kind of left-wing especially because he thinks that's what women in LA want to hear
+[00:01:45.160 → 00:01:49.240] It's the only reason he learned anything about astrology. He might have liked Bernie or whatever
+[00:01:49.240 → 00:01:51.880] But after getting rejected enough times
+[00:01:51.880 → 00:01:55.440] I think he starts becoming a little bit more incel-esque.
+[00:01:55.760 → 00:01:59.360] The ghost of Rex is just whispering in his ear, like the green goblin mask.
+[00:01:59.600 → 00:01:59.800] Beck.
+[00:02:00.080 → 00:02:05.520] He's skated on being a cute, straight guy in the arts, a double minority, really.
+[00:02:05.740 → 00:02:08.300] I'd say he's probably more left waning.
+[00:02:08.560 → 00:02:11.700] He doesn't really strike me as somebody who cares about politics.
+[00:02:11.960 → 00:02:17.260] That is until the homeless population in LA starts interfering with his hot boy runs on the beach.
+[00:02:17.440 → 00:02:20.460] And his response to this is moving to Austin.
+[00:02:20.720 → 00:02:21.000] Andre.
+[00:02:21.000 → 00:02:26.340] I think he becomes more leftist in college. He might even become a hotep god forbid
+[00:02:26.340 → 00:02:30.680] He is fully making an effigy of that mouthy ventriloquist puppet Rex Jade
+[00:02:30.680 → 00:02:31.700] I think she probably
+[00:02:32.340 → 00:02:37.920] Socially has a bit more left-leaning views. She wouldn't really call herself a feminist mainly cuz in her head
+[00:02:37.920 → 00:02:41.340] She's like, I don't even really like women that much. I mean she likes men even less
+[00:02:41.340 → 00:02:46.120] She really would have resonated with this tweet fiscally. Yeah, it's a toss up
+[00:02:46.120 → 00:02:51.100] But she does strike me as becoming a lot more libertarian come tax season, which is understandable.
+
+========================================================================================
+CLIP 02 · DQH1MESEuYO.mp4
+instagram_url: https://www.instagram.com/reel/DQH1MESEuYO/
+duration: 00:01:06.712 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+I always carry around loose tampons, just in case any menstruators need one. Their hand rolled, and laced, I'm a giver. Before I do this yeager bomb, I just want to do a land acknowledgement real quick. Hey girl, sorry, I didn't mean to assume anything. I came over here because I saw the scars on your arms that you were trying to cover up with your big time rush-long sleeve, and I just wanted to say, I think they're beautiful. I'm gonna have only daughters. Any son of mine is getting sent to an ethical factory to work, making Lana Del Rey Vinyls or labooboos or I don't know whatever dumb crappy women like I mean whatever your valid hyper fixation is queen Plus I took a bunch of those mystery tiger pills that just manifest in 7-eleven after 12 a.m But you need to be a child of divorce to see them Plus the guy at the counter told me that they turn all my wise into X's so it's not gonna be a problem I was thinking about the lack of female CEOs and just made me so mad. Ah Living in this capitalist, sissy, hetero-chromia society is just so exhausting. That's why I'm unemployed. I'm untethered and that's how I fight back. You're picking up the tab, right? That's how much of a feminist I am. Yeah, I'm gonna make sure you pay.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.260] I always carry around loose tampons, just in case any menstruators need one.
+[00:00:04.420 → 00:00:06.420] Their hand rolled, and laced, I'm a giver.
+[00:00:06.560 → 00:00:09.600] Before I do this yeager bomb, I just want to do a land acknowledgement real quick.
+[00:00:09.820 → 00:00:12.160] Hey girl, sorry, I didn't mean to assume anything.
+[00:00:12.380 → 00:00:16.300] I came over here because I saw the scars on your arms that you were trying to cover
+[00:00:16.300 → 00:00:20.040] up with your big time rush-long sleeve, and I just wanted to say, I think they're
+[00:00:20.040 → 00:00:20.420] beautiful.
+[00:00:20.620 → 00:00:22.020] I'm gonna have only daughters.
+[00:00:22.360 → 00:00:26.980] Any son of mine is getting sent to an ethical factory to work, making Lana Del Rey
+[00:00:26.980 → 00:00:34.740] Vinyls or labooboos or I don't know whatever dumb crappy women like I mean whatever your valid hyper fixation is queen
+[00:00:34.740 → 00:00:40.260] Plus I took a bunch of those mystery tiger pills that just manifest in 7-eleven after 12 a.m
+[00:00:40.260 → 00:00:42.620] But you need to be a child of divorce to see them
+[00:00:42.620 → 00:00:47.880] Plus the guy at the counter told me that they turn all my wise into X's so it's not gonna be a problem
+[00:00:47.880 → 00:00:52.560] I was thinking about the lack of female CEOs and just made me so mad. Ah
+[00:00:53.620 → 00:00:58.520] Living in this capitalist, sissy, hetero-chromia society is just so exhausting.
+[00:00:58.800 → 00:01:01.420] That's why I'm unemployed. I'm untethered and that's how I fight back.
+[00:01:01.600 → 00:01:04.640] You're picking up the tab, right? That's how much of a feminist I am.
+[00:01:04.900 → 00:01:06.560] Yeah, I'm gonna make sure you pay.
+
+========================================================================================
+CLIP 03 · DQNBIn7EtNd.mp4
+instagram_url: https://www.instagram.com/reel/DQNBIn7EtNd/
+duration: 00:01:10.846 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Today we are in the town of Ashtray, Adidas, England, to meet one of the fattest families on this cold, sad wet island. These hefty birds filled with pudding, any flavor, need my help, which will come in the form of me bargeing into their tiny brick house that should have never survived the blitz, pointing at the contents of their fridge and sometimes if I'm feeling cheeky, just any random possession of theirs and going, that's Welsh. They respond, you're pointing at my nan. And I say, look babes, If you drop that Boniva muncher now, you're shaving thirteen stone off the family scale. People hate me because I speak the truth. I hate to admit it, but I too was a gelatinous beast myself. I used to bleed Ribena and every day I self-flagellate while staring at a pair of my old trousers large enough to smuggle orphans in. Is that an earthquake? No. Looks like the family's nearby. Going on their daily huffing and puffing walk, which is actually just an excuse to spy on their neighbours, the cheeky perverts. This episode is a bit more colourful as our fat family is Pakistani... Namaste. Looks like their waistlines have assimilated into our culture. I hate to break it to you, Muhammad, but you're a porker now, and that's her arm, mate.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.140] Today we are in the town of Ashtray, Adidas, England,
+[00:00:03.440 → 00:00:05.380] to meet one of the fattest families
+[00:00:05.380 → 00:00:07.860] on this cold, sad wet island.
+[00:00:08.160 → 00:00:09.980] These hefty birds filled with pudding,
+[00:00:10.240 → 00:00:11.840] any flavor, need my help,
+[00:00:12.000 → 00:00:14.380] which will come in the form of me bargeing
+[00:00:14.380 → 00:00:15.860] into their tiny brick house
+[00:00:15.860 → 00:00:17.520] that should have never survived the blitz,
+[00:00:17.740 → 00:00:19.640] pointing at the contents of their fridge
+[00:00:19.640 → 00:00:21.860] and sometimes if I'm feeling cheeky,
+[00:00:21.980 → 00:00:24.040] just any random possession of theirs
+[00:00:24.040 → 00:00:25.180] and going, that's Welsh.
+[00:00:25.660 → 00:00:27.600] They respond, you're pointing at my nan.
+[00:00:27.880 → 00:00:29.280] And I say, look babes,
+[00:00:29.280 → 00:00:34.000] If you drop that Boniva muncher now, you're shaving thirteen stone off the family scale.
+[00:00:34.140 → 00:00:39.940] People hate me because I speak the truth. I hate to admit it, but I too was a gelatinous beast myself.
+[00:00:40.320 → 00:00:45.140] I used to bleed Ribena and every day I self-flagellate while staring at a pair of my old trousers
+[00:00:45.140 → 00:00:47.220] large enough to smuggle orphans in.
+[00:00:47.620 → 00:00:50.940] Is that an earthquake? No. Looks like the family's nearby.
+[00:00:51.400 → 00:00:55.260] Going on their daily huffing and puffing walk, which is actually just an excuse to spy
+[00:00:55.260 → 00:00:57.180] on their neighbours, the cheeky perverts.
+[00:00:57.380 → 00:00:59.320] This episode is a bit more colourful
+[00:00:59.320 → 00:01:02.680] as our fat family is Pakistani...
+[00:01:02.680 → 00:01:03.340] Namaste.
+[00:01:03.600 → 00:01:06.460] Looks like their waistlines have assimilated into our culture.
+[00:01:06.660 → 00:01:07.920] I hate to break it to you, Muhammad,
+[00:01:08.260 → 00:01:09.200] but you're a porker now,
+[00:01:09.520 → 00:01:10.440] and that's her arm, mate.
+
+========================================================================================
+CLIP 04 · DQhXXHQDdCH.mp4
+instagram_url: https://www.instagram.com/reel/DQhXXHQDdCH/
+duration: 00:01:00.489 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Hey, welcome to my house. It's kind of a mess right now. The cleaners are like legally entitled to take a day off or something. It's ridiculous. So over here are the slaves' servants quarters. It's fine, all right, they're like mostly white. I think, I don't know, I don't actually make eye contact with them. They're kind of sad and I'm all about like good vibes only, you know? Yeah, like the German side of my family got really rich in the 1930s. I don't really know why. Every time my mom would get angry at my great-grandma, She'd always say something about like calling up misad and it's gonna be over for you I don't really know what that means though. These are like my favorite pieces of jewelry. I stole this from my mom, but It's fine cuz she like stole my childhood. My grandpa actually like snatched this off of the arm of like Some random Indian woman when they were on vacay and she was like no poor fabler Or I don't know like whatever the Indian version of that is like no a Vishnu or something It's kind of tacky, but I don't know. It's something to put on the dogs
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:01.540] Hey, welcome to my house.
+[00:00:02.120 → 00:00:03.620] It's kind of a mess right now.
+[00:00:04.080 → 00:00:05.640] The cleaners are like legally entitled
+[00:00:05.640 → 00:00:07.440] to take a day off or something.
+[00:00:07.620 → 00:00:08.100] It's ridiculous.
+[00:00:08.640 → 00:00:11.820] So over here are the slaves' servants quarters.
+[00:00:12.740 → 00:00:14.800] It's fine, all right, they're like mostly white.
+[00:00:15.480 → 00:00:16.660] I think, I don't know,
+[00:00:16.680 → 00:00:18.040] I don't actually make eye contact with them.
+[00:00:18.240 → 00:00:18.840] They're kind of sad
+[00:00:18.840 → 00:00:21.220] and I'm all about like good vibes only, you know?
+[00:00:21.480 → 00:00:22.920] Yeah, like the German side of my family
+[00:00:22.920 → 00:00:25.400] got really rich in the 1930s.
+[00:00:25.900 → 00:00:27.040] I don't really know why.
+[00:00:27.420 → 00:00:29.320] Every time my mom would get angry at my great-grandma,
+[00:00:29.320 → 00:00:33.120] She'd always say something about like calling up misad and it's gonna be over for you
+[00:00:33.120 → 00:00:38.880] I don't really know what that means though. These are like my favorite pieces of jewelry. I stole this from my mom, but
+[00:00:39.820 → 00:00:46.160] It's fine cuz she like stole my childhood. My grandpa actually like snatched this off of the arm of like
+[00:00:46.160 → 00:00:50.320] Some random Indian woman when they were on vacay and she was like no poor fabler
+[00:00:50.320 → 00:00:56.040] Or I don't know like whatever the Indian version of that is like no a Vishnu or something
+[00:00:56.040 → 00:00:59.760] It's kind of tacky, but I don't know. It's something to put on the dogs
+
+========================================================================================
+CLIP 05 · DQj6dtPAI6C.mp4
+instagram_url: https://www.instagram.com/reel/DQj6dtPAI6C/
+duration: 00:01:05.644 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Today I'm going to be tackling the cast of Arthur, the famous PBA show about a bunch of little rats. Okay, first up, we have D.W. Arthur's little sister. I'm starting with easily the fan favorite and the character that I resonated with the most. Mainly because I was functionally illiterate the first time I was watching the series when I was, I want to say, five? Now we know that D.W. is, if anything, interested in herself. That's it. She's an ardent capitalist, or at least she will be. I feel like she's industrious, you know what I mean? Like, she'll have an entrepreneurial spirit. cutthroat. So I'm assuming that she's gonna be more on the libertarian side, mainly because she doesn't like red tape, she doesn't like regulations, anything that will get in the way of her working, her factory workers to death. All I'm saying is that once DW learns how to read, it's over for everyone. So DW, definitely libertarian, especially fiscally when she gets her guap up, socially, I think she's indifferent. I think she falls into that camp of like, I literally don't care what any of you people are doing. However, if she sees like a cyclist or someone who just sort of looks vegan, she will run them over with her SUV. But I feel like that's understandable. What's beautiful about this is that they are not real people. They can't sue for slander or libel.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.800] Today I'm going to be tackling the cast of Arthur, the famous PBA show about a bunch of little rats.
+[00:00:05.140 → 00:00:08.740] Okay, first up, we have D.W. Arthur's little sister.
+[00:00:08.900 → 00:00:13.120] I'm starting with easily the fan favorite and the character that I resonated with the most.
+[00:00:13.300 → 00:00:17.980] Mainly because I was functionally illiterate the first time I was watching the series when I was, I want to say, five?
+[00:00:18.360 → 00:00:22.280] Now we know that D.W. is, if anything, interested in herself.
+[00:00:22.680 → 00:00:25.080] That's it. She's an ardent capitalist, or at least she will be.
+[00:00:25.120 → 00:00:27.980] I feel like she's industrious, you know what I mean? Like, she'll have an entrepreneurial spirit.
+[00:00:27.980 → 00:00:33.420] cutthroat. So I'm assuming that she's gonna be more on the libertarian side, mainly because she doesn't like red tape,
+[00:00:33.560 → 00:00:38.780] she doesn't like regulations, anything that will get in the way of her working, her factory workers to death.
+[00:00:39.000 → 00:00:42.100] All I'm saying is that once DW learns how to read, it's over for everyone.
+[00:00:42.320 → 00:00:48.280] So DW, definitely libertarian, especially fiscally when she gets her guap up, socially, I think she's indifferent.
+[00:00:48.560 → 00:00:52.740] I think she falls into that camp of like, I literally don't care what any of you people are doing.
+[00:00:52.880 → 00:00:56.860] However, if she sees like a cyclist or someone who just sort of looks vegan,
+[00:00:56.860 → 00:01:00.120] she will run them over with her SUV. But I feel like that's understandable.
+[00:01:00.340 → 00:01:05.540] What's beautiful about this is that they are not real people. They can't sue for slander or libel.
+
+========================================================================================
+CLIP 06 · DQr7mp5EvDj.mp4
+instagram_url: https://www.instagram.com/reel/DQr7mp5EvDj/
+duration: 00:00:09.684 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+My name is Gemma, and I love potting and a beaver, Jewish holidays, swam, and collecting my dead man's pension payment.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.370 → 00:00:07.430] My name is Gemma, and I love potting and a beaver, Jewish holidays, swam, and collecting my dead man's pension payment.
+
+========================================================================================
+CLIP 07 · DR2pHCNktbX.mp4
+instagram_url: https://www.instagram.com/reel/DR2pHCNktbX/
+duration: 00:00:48.136 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+If I see one more stupid sports betting ad, I swear, I'm gonna sneak into the house of the CEO of DraftKings, and I could easily sneak into, okay, I would just pretend to be the maid. Look at me, they're not gonna ask any questions. You peep these thinning eyebrows, I look like a rehabilitated chola. I'm not a thief, but I will rearrange things. I'm gonna make them start to think that they're going insane. Is that a crime? Yeah, probably. Better yet, I'm gonna stare at them while they sleep. Nose to nose, and then they're gonna wake up and think they're being haunted by a light-skinned ghost. And when I inevitably go to court for this, I'm gonna tell the judge who is going to be an older black woman with a blunt bob It's the only kind of judge I would accept that or like an older southern white man that grew up like, you know Making his own grits and I'll say your honor. I think I have the tism and she'll go everybody has that it's not even special It's practically airborne at this point
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.160] If I see one more stupid sports betting ad,
+[00:00:03.440 → 00:00:04.980] I swear, I'm gonna sneak into the house
+[00:00:04.980 → 00:00:06.480] of the CEO of DraftKings,
+[00:00:06.680 → 00:00:08.180] and I could easily sneak into, okay,
+[00:00:08.260 → 00:00:09.260] I would just pretend to be the maid.
+[00:00:09.480 → 00:00:10.860] Look at me, they're not gonna ask any questions.
+[00:00:11.280 → 00:00:12.700] You peep these thinning eyebrows,
+[00:00:12.960 → 00:00:14.480] I look like a rehabilitated chola.
+[00:00:14.720 → 00:00:17.460] I'm not a thief, but I will rearrange things.
+[00:00:17.660 → 00:00:18.460] I'm gonna make them start to think
+[00:00:18.460 → 00:00:19.120] that they're going insane.
+[00:00:19.420 → 00:00:20.040] Is that a crime?
+[00:00:20.360 → 00:00:20.840] Yeah, probably.
+[00:00:21.200 → 00:00:23.620] Better yet, I'm gonna stare at them while they sleep.
+[00:00:23.820 → 00:00:26.280] Nose to nose, and then they're gonna wake up
+[00:00:26.280 → 00:00:28.220] and think they're being haunted by a light-skinned ghost.
+[00:00:28.220 → 00:00:33.960] And when I inevitably go to court for this, I'm gonna tell the judge who is going to be an older black woman with a blunt bob
+[00:00:33.960 → 00:00:39.500] It's the only kind of judge I would accept that or like an older southern white man that grew up like, you know
+[00:00:39.500 → 00:00:46.120] Making his own grits and I'll say your honor. I think I have the tism and she'll go everybody has that it's not even special
+[00:00:46.120 → 00:00:47.960] It's practically airborne at this point
+
+========================================================================================
+CLIP 08 · DRxRvUwDVqN.mp4
+instagram_url: https://www.instagram.com/reel/DRxRvUwDVqN/
+duration: 00:00:23.895 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+I used to be built like a blood clot, but now thanks to insert experimental substance. My kids no longer play tuba noises when I walk by them. They think they're too old to get given up for adoption. They're about to find out that's not true. And then the actor goes to listen to white jazz with her friends wearing a cardigan. As a convoys reads out a list of absolutely insane side effects. That's what cable TV is at this point, and I said I don't want any part of this.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.420] I used to be built like a blood clot, but now thanks to insert experimental substance.
+[00:00:04.820 → 00:00:07.760] My kids no longer play tuba noises when I walk by them.
+[00:00:07.960 → 00:00:09.820] They think they're too old to get given up for adoption.
+[00:00:10.140 → 00:00:11.560] They're about to find out that's not true.
+[00:00:11.740 → 00:00:16.020] And then the actor goes to listen to white jazz with her friends wearing a cardigan.
+[00:00:16.220 → 00:00:19.620] As a convoys reads out a list of absolutely insane side effects.
+[00:00:19.980 → 00:00:23.660] That's what cable TV is at this point, and I said I don't want any part of this.

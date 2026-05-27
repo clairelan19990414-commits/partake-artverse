@@ -20,6 +20,7 @@
     <a class="nav-link" href="visual_taste_place.html">visual taste place</a>
     <a class="nav-link" href="timeline.html">timeline</a>
     <a class="nav-link" href="artist_map.html">artist map</a>
+    <a class="nav-link" href="septemics.html">septemics</a>
   </div>
 </nav>
 
@@ -140,7 +141,7 @@
 
       <div class="portrait-card">
         <div class="portrait-img-wrap">
-          <img class="portrait-img" data-wiki="Robert_Rauschenberg" alt="Robert Rauschenberg">
+          <img class="portrait-img" data-wiki="Robert_Rauschenberg" alt="Robert Rauschenberg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
           <div class="portrait-placeholder">loading…</div>
         </div>
         <div class="portrait-info">
@@ -153,7 +154,7 @@
 
       <div class="portrait-card">
         <div class="portrait-img-wrap">
-          <img class="portrait-img" data-wiki="Cory_Arcangel" alt="Cory Arcangel">
+          <img class="portrait-img" data-wiki="Cory_Arcangel" alt="Cory Arcangel" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
           <div class="portrait-placeholder">loading…</div>
         </div>
         <div class="portrait-info">
@@ -166,7 +167,7 @@
 
       <div class="portrait-card">
         <div class="portrait-img-wrap">
-          <img class="portrait-img" data-wiki="Ryan_Trecartin" alt="Ryan Trecartin">
+          <img class="portrait-img" data-wiki="Ryan_Trecartin" alt="Ryan Trecartin" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
           <div class="portrait-placeholder">loading…</div>
         </div>
         <div class="portrait-info">
@@ -179,7 +180,7 @@
 
       <div class="portrait-card">
         <div class="portrait-img-wrap">
-          <img class="portrait-img" data-wiki="Amalia_Ulman" alt="Amalia Ulman">
+          <img class="portrait-img" data-wiki="Amalia_Ulman" alt="Amalia Ulman" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
           <div class="portrait-placeholder">loading…</div>
         </div>
         <div class="portrait-info">
@@ -192,7 +193,7 @@
 
       <div class="portrait-card">
         <div class="portrait-img-wrap">
-          <img class="portrait-img" data-wiki="Hito_Steyerl" alt="Hito Steyerl">
+          <img class="portrait-img" data-wiki="Hito_Steyerl" alt="Hito Steyerl" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
           <div class="portrait-placeholder">loading…</div>
         </div>
         <div class="portrait-info">
@@ -205,7 +206,7 @@
 
       <div class="portrait-card">
         <div class="portrait-img-wrap">
-          <img class="portrait-img" data-wiki="Tao_Lin" alt="Tao Lin">
+          <img class="portrait-img" data-wiki="Tao_Lin" alt="Tao Lin" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
           <div class="portrait-placeholder">loading…</div>
         </div>
         <div class="portrait-info">
@@ -218,7 +219,7 @@
 
       <div class="portrait-card">
         <div class="portrait-img-wrap">
-          <img class="portrait-img" data-wiki="Hans_Ulrich_Obrist" alt="Hans Ulrich Obrist">
+          <img class="portrait-img" data-wiki="Hans_Ulrich_Obrist" alt="Hans Ulrich Obrist" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
           <div class="portrait-placeholder">loading…</div>
         </div>
         <div class="portrait-info">
@@ -513,7 +514,7 @@ async function loadWikiImage(img) {
     const data = await res.json();
     if (data.thumbnail?.source) {
       img.src = data.thumbnail.source;
-      img.onload = () => { img.classList.add('loaded'); img.nextElementSibling.style.display = 'none'; };
+      img.onload = () => { if ((img.currentSrc || img.src || '').startsWith('data:image/gif')) return; img.classList.add('loaded'); if (img.nextElementSibling) img.nextElementSibling.style.display = 'none'; };
     }
   } catch(e) {}
 }

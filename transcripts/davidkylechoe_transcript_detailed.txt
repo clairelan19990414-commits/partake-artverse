@@ -1,0 +1,420 @@
+@davidkylechoe · detailed transcript
+model: faster-whisper small
+clips: 8
+format: per-clip transcript with segment timestamps; generated from local mp4 files
+
+========================================================================================
+CLIP 01 · DU11vjUDGww.mp4
+instagram_url: https://www.instagram.com/reel/DU11vjUDGww/
+duration: 00:02:27.007 · language: en (1.00)
+
+FULL TEXT
+This founder will hate that I'm making this video. Welcome to Behind the Brand, which is a series that uncovers the founder principles that become the unfair advantages of outlier businesses. Today, we're talking about Chrome Hearts. Chrome Hearts is a luxury jewelry and lifestyle company worth over a billion dollars with 34 locations worldwide. They've worked with people like the late Virgil Abelo, Cher, and Carl Lagerfeld to sell products ranging from bracelets to $6,000 toilet plungers. How has Chrome Hearts continued to capture the culture in its near four decades of business? It's succeeded because its founders, Richard Stark and Laurie Lynn's convictions and brand principles. Here's their key founder principles. First principle is being strictly anti-fashion. Richard Stark said it best himself, I'm not in the fashion business. I'm related to it, but I don't do what they want me to do, and they don't have to do what I'm doing either. Back then, they just thought I was nuts. This outsider stands as precisely what allows Krum Harts to be so influential. They're not being influenced by a category or an industry's expectations creatively or culturally. They don't need to care about trends. The outsider POV allows them to do new things. The second The main principle is heart-driven, not money-driven. Chrome Hearts has no e-commerce, no marketing, and barely shows their products on social. They literally leave millions of dollars on the table, but they do it intentionally. They wanna do things for the right reasons and for the long run, not just because they can make money from it. Starks says it's best. Hardcore investment bankers couldn't deal with me, no way. Chrome Hearts is heart-driven, not money-driven. I'm not going to make bathroom slippers for hotels in Asia because I can make a fucking fortune. But these two principles are enabled by the second two, which are 150-year vision and being family run. Stark has a vision for Chrome Hearts to become a 150-year-old company. His children and their interest in continuing the legacy are key to that vision. But it's also that long-term vision that allows him to be anti-fashion and a heart-driven brand. They're thinking in decades, not seasons, just like the rest of fashion. Nor are they just maximizing revenue. He says it like this. Chrome Hearts was built to be a 150-year-old company made to do everything in the whole wide world. We just haven't been around long enough to do it all yet. Nothing here's made. Everything is built. The last principle is probably the most overlooked, which is vertical integration. The backbone to all of Chrome Hearts is that it's much like Laura Piana in that it owns its entire manufacturing system. They have factories across the world focused on each part of the craft, woodworking, leatherwork, metalworking, jewelry, apparel, and more. They even have a school to teach the craft filled mostly with friends and family. This top to bottom control over their operation gives them a huge advantage even in uncertain economic time. So I'd love to hear from you. Is Chrome Hearts just overpriced silver or is it actually going to leave a legacy that lasts 150 years? Let me know in the comments below.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:02.400] This founder will hate that I'm making this video.
+[00:00:02.460 → 00:00:03.300] Welcome to Behind the Brand,
+[00:00:03.420 → 00:00:05.720] which is a series that uncovers the founder principles
+[00:00:05.720 → 00:00:08.080] that become the unfair advantages of outlier businesses.
+[00:00:08.320 → 00:00:09.880] Today, we're talking about Chrome Hearts.
+[00:00:10.040 → 00:00:12.360] Chrome Hearts is a luxury jewelry and lifestyle company
+[00:00:12.360 → 00:00:13.700] worth over a billion dollars
+[00:00:13.700 → 00:00:15.440] with 34 locations worldwide.
+[00:00:15.580 → 00:00:17.400] They've worked with people like the late Virgil Abelo,
+[00:00:17.680 → 00:00:18.960] Cher, and Carl Lagerfeld
+[00:00:18.960 → 00:00:20.740] to sell products ranging from bracelets
+[00:00:20.740 → 00:00:22.560] to $6,000 toilet plungers.
+[00:00:22.700 → 00:00:24.920] How has Chrome Hearts continued to capture the culture
+[00:00:24.920 → 00:00:26.560] in its near four decades of business?
+[00:00:26.820 → 00:00:28.000] It's succeeded because its founders,
+[00:00:28.000 → 00:00:32.440] Richard Stark and Laurie Lynn's convictions and brand principles. Here's their key founder
+[00:00:32.440 → 00:00:37.200] principles. First principle is being strictly anti-fashion. Richard Stark said it best himself,
+[00:00:37.400 → 00:00:40.960] I'm not in the fashion business. I'm related to it, but I don't do what they want me to do,
+[00:00:41.000 → 00:00:44.400] and they don't have to do what I'm doing either. Back then, they just thought I was nuts. This
+[00:00:44.400 → 00:00:48.480] outsider stands as precisely what allows Krum Harts to be so influential. They're not being
+[00:00:48.480 → 00:00:52.420] influenced by a category or an industry's expectations creatively or culturally. They
+[00:00:52.420 → 00:00:57.040] don't need to care about trends. The outsider POV allows them to do new things. The second
+[00:00:57.040 → 00:00:59.300] The main principle is heart-driven, not money-driven.
+[00:00:59.420 → 00:01:01.440] Chrome Hearts has no e-commerce, no marketing,
+[00:01:01.600 → 00:01:03.320] and barely shows their products on social.
+[00:01:03.480 → 00:01:05.760] They literally leave millions of dollars on the table,
+[00:01:05.880 → 00:01:06.680] but they do it intentionally.
+[00:01:06.920 → 00:01:08.700] They wanna do things for the right reasons
+[00:01:08.700 → 00:01:09.640] and for the long run,
+[00:01:09.760 → 00:01:11.340] not just because they can make money from it.
+[00:01:11.420 → 00:01:12.020] Starks says it's best.
+[00:01:12.420 → 00:01:14.800] Hardcore investment bankers couldn't deal with me, no way.
+[00:01:14.840 → 00:01:16.880] Chrome Hearts is heart-driven, not money-driven.
+[00:01:16.980 → 00:01:19.500] I'm not going to make bathroom slippers for hotels in Asia
+[00:01:19.500 → 00:01:21.000] because I can make a fucking fortune.
+[00:01:21.140 → 00:01:23.760] But these two principles are enabled by the second two,
+[00:01:23.900 → 00:01:26.740] which are 150-year vision and being family run.
+[00:01:26.740 → 00:01:30.040] Stark has a vision for Chrome Hearts to become a 150-year-old company.
+[00:01:30.200 → 00:01:33.800] His children and their interest in continuing the legacy are key to that vision.
+[00:01:33.940 → 00:01:38.260] But it's also that long-term vision that allows him to be anti-fashion and a heart-driven brand.
+[00:01:38.400 → 00:01:41.620] They're thinking in decades, not seasons, just like the rest of fashion.
+[00:01:41.760 → 00:01:44.060] Nor are they just maximizing revenue. He says it like this.
+[00:01:44.160 → 00:01:48.580] Chrome Hearts was built to be a 150-year-old company made to do everything in the whole
+[00:01:48.580 → 00:01:52.260] wide world. We just haven't been around long enough to do it all yet. Nothing here's
+[00:01:52.260 → 00:01:55.640] made. Everything is built. The last principle is probably the most overlooked,
+[00:01:55.640 → 00:01:57.020] which is vertical integration.
+[00:01:57.200 → 00:01:58.620] The backbone to all of Chrome Hearts
+[00:01:58.620 → 00:02:00.520] is that it's much like Laura Piana
+[00:02:00.520 → 00:02:03.160] in that it owns its entire manufacturing system.
+[00:02:03.260 → 00:02:04.520] They have factories across the world
+[00:02:04.520 → 00:02:06.140] focused on each part of the craft,
+[00:02:06.400 → 00:02:08.640] woodworking, leatherwork, metalworking, jewelry,
+[00:02:08.940 → 00:02:09.640] apparel, and more.
+[00:02:09.700 → 00:02:11.560] They even have a school to teach the craft
+[00:02:11.560 → 00:02:13.260] filled mostly with friends and family.
+[00:02:13.340 → 00:02:15.500] This top to bottom control over their operation
+[00:02:15.500 → 00:02:17.020] gives them a huge advantage
+[00:02:17.020 → 00:02:18.920] even in uncertain economic time.
+[00:02:19.080 → 00:02:20.100] So I'd love to hear from you.
+[00:02:20.200 → 00:02:21.920] Is Chrome Hearts just overpriced silver
+[00:02:21.920 → 00:02:23.960] or is it actually going to leave a legacy
+[00:02:23.960 → 00:02:26.740] that lasts 150 years? Let me know in the comments below.
+
+========================================================================================
+CLIP 02 · DUGvruEiWJT.mp4
+instagram_url: https://www.instagram.com/reel/DUGvruEiWJT/
+duration: 00:02:20.087 · language: en (1.00)
+
+FULL TEXT
+East First West Coffee Edition. Who's gonna win the coffee wars? America's Starbucks or China's Luckin Coffee? Here are the numbers so you can decide. Starbucks has 41,000 stores worldwide. They're still the kingpin. They have 8,000 in China and they make $37 billion a year. They are truly the OG coffee empire. Luckin, on the other hand, has 29,000 stores almost all in China, but they're growing 50% a year. And here's where it gets really interesting. China is the fastest growing coffee market on the planet by far and Luckin is destroying Starbucks in China. They have three times as many stores, 112 monthly customers. They've opened 3,000 locations in the last quarter, which is 33 a day. Starbucks on the other hand, they just sold off 60% of their China business. Their market share went down from 34 to 14% in the last five years. They're not competing in China. They're divesting. But here's the case for Starbucks anyway. They're still a 37 billion dollar company. They have 50 years of brand equity which stands for a lot. They have a new CEO, Brian Nickel, who's the same guy that turned around Chipotle, and they posted their first positive sales growth in seven quarters. They're not really trying to win China anymore. They sold it off so they can focus on markets where they actually win. Now here's the case for Luckin. They sell coffee for a bargain, and $1.40 a cup. Starbucks charges $4 for the same drink. And in a recession, which we may or may not be in, cheap usually wins. Their model is efficient. They don't really have cashiers, a lot of mobile ordering, small pickup stores, and they launched drinks rapidly, 119 in the last year. One of them, the Muay Thai Latte, sold 5.4 million cups in one day. They also survived this scandal, where their stock went down to $1.39 and went back up to $18, dollars. A 13x comeback. They're also opening stores in New York. But here's a wild card. Luckin's US stores are reportedly losing money. Americans don't order coffee the same way Chinese consumers do. And the fraud scandal is definitely not helping. So who would you bet on? The American Starbucks who's playing a little bit of defense? Or the Chinese Luckin that's a disruptor that's already won at home and is coming for the states? Let me know. Are you team Starbucks or are you team Luckin? Drop it in the comments below.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:01.800] East First West Coffee Edition.
+[00:00:02.120 → 00:00:03.800] Who's gonna win the coffee wars?
+[00:00:04.220 → 00:00:07.120] America's Starbucks or China's Luckin Coffee?
+[00:00:07.780 → 00:00:09.340] Here are the numbers so you can decide.
+[00:00:09.620 → 00:00:12.580] Starbucks has 41,000 stores worldwide.
+[00:00:12.760 → 00:00:13.600] They're still the kingpin.
+[00:00:13.940 → 00:00:15.460] They have 8,000 in China
+[00:00:15.460 → 00:00:18.140] and they make $37 billion a year.
+[00:00:18.400 → 00:00:20.200] They are truly the OG coffee empire.
+[00:00:20.620 → 00:00:23.120] Luckin, on the other hand, has 29,000 stores
+[00:00:23.120 → 00:00:26.520] almost all in China, but they're growing 50% a year.
+[00:00:26.880 → 00:00:28.460] And here's where it gets really interesting.
+[00:00:28.460 → 00:00:33.820] China is the fastest growing coffee market on the planet by far and Luckin
+[00:00:33.820 → 00:00:38.380] is destroying Starbucks in China. They have three times as many stores, 112
+[00:00:38.380 → 00:00:42.960] monthly customers. They've opened 3,000 locations in the last quarter, which is
+[00:00:42.960 → 00:00:47.760] 33 a day. Starbucks on the other hand, they just sold off 60% of their China
+[00:00:47.760 → 00:00:52.640] business. Their market share went down from 34 to 14% in the last five
+[00:00:52.640 → 00:00:56.500] years. They're not competing in China. They're divesting. But here's the
+[00:00:56.500 → 00:01:01.720] case for Starbucks anyway. They're still a 37 billion dollar company. They have
+[00:01:01.720 → 00:01:05.800] 50 years of brand equity which stands for a lot. They have a new CEO, Brian
+[00:01:05.800 → 00:01:09.480] Nickel, who's the same guy that turned around Chipotle, and they posted their
+[00:01:09.480 → 00:01:13.160] first positive sales growth in seven quarters. They're not really trying to
+[00:01:13.160 → 00:01:16.900] win China anymore. They sold it off so they can focus on markets where they
+[00:01:16.900 → 00:01:21.300] actually win. Now here's the case for Luckin. They sell coffee for a bargain,
+[00:01:21.300 → 00:01:22.860] and $1.40 a cup.
+[00:01:23.320 → 00:01:26.180] Starbucks charges $4 for the same drink.
+[00:01:26.640 → 00:01:28.820] And in a recession, which we may or may not be in,
+[00:01:29.000 → 00:01:29.860] cheap usually wins.
+[00:01:30.300 → 00:01:31.480] Their model is efficient.
+[00:01:31.660 → 00:01:32.700] They don't really have cashiers,
+[00:01:33.060 → 00:01:35.500] a lot of mobile ordering, small pickup stores,
+[00:01:35.760 → 00:01:39.100] and they launched drinks rapidly, 119 in the last year.
+[00:01:39.400 → 00:01:40.800] One of them, the Muay Thai Latte,
+[00:01:40.880 → 00:01:43.340] sold 5.4 million cups in one day.
+[00:01:43.780 → 00:01:45.420] They also survived this scandal,
+[00:01:45.720 → 00:01:47.940] where their stock went down to $1.39
+[00:01:48.360 → 00:01:50.380] and went back up to $18,
+[00:01:50.380 → 00:01:54.820] dollars. A 13x comeback. They're also opening stores in New York. But here's a
+[00:01:54.820 → 00:02:00.020] wild card. Luckin's US stores are reportedly losing money. Americans don't
+[00:02:00.020 → 00:02:03.520] order coffee the same way Chinese consumers do. And the fraud scandal is
+[00:02:03.520 → 00:02:08.200] definitely not helping. So who would you bet on? The American Starbucks who's
+[00:02:08.200 → 00:02:12.160] playing a little bit of defense? Or the Chinese Luckin that's a disruptor
+[00:02:12.160 → 00:02:15.960] that's already won at home and is coming for the states? Let me know.
+[00:02:15.960 → 00:02:19.840] Are you team Starbucks or are you team Luckin? Drop it in the comments below.
+
+========================================================================================
+CLIP 03 · DVWZGQ6iQv7.mp4
+instagram_url: https://www.instagram.com/reel/DVWZGQ6iQv7/
+duration: 00:01:54.174 · language: en (1.00)
+
+FULL TEXT
+If you're not brand-maxing, you're fucked. Consumers are increasingly bored and jaded. They know they're being resold synthetic plastic slop at 100x markup and they're not buying it anymore. So what is brand-maxing and how do you do it? Brand-maxing at its core is having a point of view and doing a full send on that POV. At the end of the day, it's difficult because to have a point of view means, number one, it won't make sense to most people. Number two, it won't be commercially successful most of the time. Number three, you have to be prolific. you need to be producing an insane quantity of ideas and shots of bat. Here are some companies doing an incredible job at brand maxing. The first is fishing for scale. Fishing for scale is hard to describe. It's a product company that literally is doing whatever the fuck they want. Their bio even says we ain't trying to be like nobody and their products back it up. They're building a truly insane world blending fishing and hunting vignettes with luxury and gorp core influences. They have an insane but strong point of view. Another one is story mfg. They're an independent apparel company focused on sustainability and ethical design. They have a research Instagram page that is fully focused on their process and it draws people into the depth of thinking around their brand. You enter what feels like their studio brain. The third is 99 cakes. 99 cakes is one of my favorite examples of brand maxing. Their canvas is cake and they build worlds through cake. It's deliberate, beautiful, and it definitely won't make sense to most people, but to the people it does, it's amazing. And the final brand-maxer is Fern Fragrances. Fern takes brand-maxing to another stratosphere. Their business model is also interesting. They only drop a single fragrance at a time, and they build out this entire world around each fragrance from short films to ingredient stories. You can't help but be drawn into their brand because they don't hold back. It's not fully legible. It's more a feeling than anything else. So what do you think? Who else is brand-maxing? And can it be done at scale? Let me know in the comments below.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:01.720] If you're not brand-maxing, you're fucked.
+[00:00:02.060 → 00:00:04.580] Consumers are increasingly bored and jaded.
+[00:00:04.720 → 00:00:08.120] They know they're being resold synthetic plastic slop
+[00:00:08.120 → 00:00:10.580] at 100x markup and they're not buying it anymore.
+[00:00:10.760 → 00:00:12.760] So what is brand-maxing and how do you do it?
+[00:00:12.840 → 00:00:16.240] Brand-maxing at its core is having a point of view
+[00:00:16.240 → 00:00:18.660] and doing a full send on that POV.
+[00:00:18.780 → 00:00:20.140] At the end of the day, it's difficult
+[00:00:20.140 → 00:00:21.840] because to have a point of view means,
+[00:00:22.020 → 00:00:24.120] number one, it won't make sense to most people.
+[00:00:24.320 → 00:00:26.440] Number two, it won't be commercially successful
+[00:00:26.440 → 00:00:27.180] most of the time.
+[00:00:27.320 → 00:00:28.840] Number three, you have to be prolific.
+[00:00:28.840 → 00:00:34.240] you need to be producing an insane quantity of ideas and shots of bat. Here are some companies
+[00:00:34.240 → 00:00:39.540] doing an incredible job at brand maxing. The first is fishing for scale. Fishing for scale is hard
+[00:00:39.540 → 00:00:44.300] to describe. It's a product company that literally is doing whatever the fuck they want. Their bio
+[00:00:44.300 → 00:00:48.200] even says we ain't trying to be like nobody and their products back it up. They're building a
+[00:00:48.200 → 00:00:53.220] truly insane world blending fishing and hunting vignettes with luxury and gorp core influences.
+[00:00:53.500 → 00:00:57.980] They have an insane but strong point of view. Another one is story mfg. They're an
+[00:00:57.980 → 00:01:02.520] independent apparel company focused on sustainability and ethical design. They have a
+[00:01:02.520 → 00:01:08.500] research Instagram page that is fully focused on their process and it draws people into the depth
+[00:01:08.500 → 00:01:13.760] of thinking around their brand. You enter what feels like their studio brain. The third is 99
+[00:01:13.760 → 00:01:19.480] cakes. 99 cakes is one of my favorite examples of brand maxing. Their canvas is cake and they
+[00:01:19.480 → 00:01:23.460] build worlds through cake. It's deliberate, beautiful, and it definitely won't make
+[00:01:23.460 → 00:01:26.700] sense to most people, but to the people it does, it's amazing.
+[00:01:26.940 → 00:01:29.640] And the final brand-maxer is Fern Fragrances.
+[00:01:29.940 → 00:01:32.540] Fern takes brand-maxing to another stratosphere.
+[00:01:32.680 → 00:01:34.400] Their business model is also interesting.
+[00:01:34.540 → 00:01:39.300] They only drop a single fragrance at a time, and they build out this entire world around
+[00:01:39.300 → 00:01:42.060] each fragrance from short films to ingredient stories.
+[00:01:42.420 → 00:01:45.760] You can't help but be drawn into their brand because they don't hold back.
+[00:01:45.980 → 00:01:47.100] It's not fully legible.
+[00:01:47.280 → 00:01:48.980] It's more a feeling than anything else.
+[00:01:49.240 → 00:01:49.980] So what do you think?
+[00:01:50.160 → 00:01:51.300] Who else is brand-maxing?
+[00:01:51.440 → 00:01:52.800] And can it be done at scale?
+[00:01:52.800 → 00:01:54.060] Let me know in the comments below.
+
+========================================================================================
+CLIP 04 · DVbB1cyjqpU.mp4
+instagram_url: https://www.instagram.com/reel/DVbB1cyjqpU/
+duration: 00:02:04.855 · language: en (1.00)
+
+FULL TEXT
+Do agents see brand? We're seeing the headlines every day around agents and AI, anthropic and Pentagon AI wars, open claw, Mac mini-maxing and AEO versus GEO. But what's the relationship between agents and branding? In a world where agents will be more and more independent, buying things on behalf of their owners and making decisions in the real world, how does branding come into play when the buyer is a bot and not a human? Obviously, I went to the source and I asked AI, clawed to be specific. And it came back with some really interesting and terrifying answers. Long story short, agents can read brand, but they cannot feel it. I actually gave Claude a scenario where I asked, what would happen if I gave an agent the task to buy me a perfume where it was just a lineup of bottles, the names and different prices, and it had to keep the cost between $300 and $800 with no other information? How would it actually make that decision? It basically said that it cannot see brand, it just is a compression of everything it knows from the quote, residue of millions of humans writing about brands. That the perception of agents is essentially a frozen snapshot of human brand perception. It terrifyingly said that it's a very well-read alien anthropologist. So when an agent is left to make an ambiguous choice, it's defaulting to the weighted average of what humans have historically valued in the category. It picks what most closely maps to consensus good taste, which is probably some safe, well-reviewed, middle-of-the-road legible choice. It's not going to pick the weird, provocative, or new brand. So what does this mean for brands and brand builders? If you want your brand to be chosen by agents, it needs to be more legible, literally more metadata, more semantic clarity. And this is because agents will homogenize taste unless humans actively override agents. And it's because agents default to these consensus signals. They're going to recommend the same well-established, well-documented brands. So brands will need to cut through this agentic averaging. Brand actually becomes even more important. It's just that the form factor and distribution of branding expands beyond just visuals. That is, if you want to speak to the buyers. So I'm curious, what do you guys think is the future of brand building in this agent tech world? Let me know your thoughts in the comments below.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:01.540] Do agents see brand?
+[00:00:01.740 → 00:00:04.520] We're seeing the headlines every day around agents and AI,
+[00:00:04.700 → 00:00:06.600] anthropic and Pentagon AI wars,
+[00:00:06.860 → 00:00:10.100] open claw, Mac mini-maxing and AEO versus GEO.
+[00:00:10.200 → 00:00:12.640] But what's the relationship between agents and branding?
+[00:00:12.860 → 00:00:14.940] In a world where agents will be more and more independent,
+[00:00:15.120 → 00:00:16.840] buying things on behalf of their owners
+[00:00:16.840 → 00:00:18.920] and making decisions in the real world,
+[00:00:19.100 → 00:00:20.920] how does branding come into play
+[00:00:20.920 → 00:00:23.320] when the buyer is a bot and not a human?
+[00:00:23.400 → 00:00:24.180] Obviously, I went to the source
+[00:00:24.180 → 00:00:26.100] and I asked AI, clawed to be specific.
+[00:00:26.340 → 00:00:27.720] And it came back with some really interesting
+[00:00:27.720 → 00:00:29.040] and terrifying answers.
+[00:00:29.040 → 00:00:32.520] Long story short, agents can read brand, but they cannot feel it.
+[00:00:32.600 → 00:00:37.080] I actually gave Claude a scenario where I asked, what would happen if I gave an agent the task
+[00:00:37.080 → 00:00:41.100] to buy me a perfume where it was just a lineup of bottles, the names and different prices,
+[00:00:41.300 → 00:00:45.040] and it had to keep the cost between $300 and $800 with no other information?
+[00:00:45.260 → 00:00:49.360] How would it actually make that decision? It basically said that it cannot see brand,
+[00:00:49.540 → 00:00:52.560] it just is a compression of everything it knows from the quote,
+[00:00:52.840 → 00:00:58.000] residue of millions of humans writing about brands. That the perception of agents is
+[00:00:58.000 → 00:01:01.280] essentially a frozen snapshot of human brand perception.
+[00:01:01.500 → 00:01:05.480] It terrifyingly said that it's a very well-read alien anthropologist.
+[00:01:05.680 → 00:01:09.820] So when an agent is left to make an ambiguous choice, it's defaulting to the weighted average
+[00:01:09.820 → 00:01:12.840] of what humans have historically valued in the category.
+[00:01:13.020 → 00:01:17.880] It picks what most closely maps to consensus good taste, which is probably some safe,
+[00:01:18.100 → 00:01:20.640] well-reviewed, middle-of-the-road legible choice.
+[00:01:20.820 → 00:01:23.840] It's not going to pick the weird, provocative, or new brand.
+[00:01:24.080 → 00:01:25.900] So what does this mean for brands and brand builders?
+[00:01:25.900 → 00:01:31.140] If you want your brand to be chosen by agents, it needs to be more legible, literally more
+[00:01:31.140 → 00:01:33.300] metadata, more semantic clarity.
+[00:01:33.420 → 00:01:39.060] And this is because agents will homogenize taste unless humans actively override agents.
+[00:01:39.300 → 00:01:42.500] And it's because agents default to these consensus signals.
+[00:01:42.700 → 00:01:46.520] They're going to recommend the same well-established, well-documented brands.
+[00:01:46.860 → 00:01:50.440] So brands will need to cut through this agentic averaging.
+[00:01:50.780 → 00:01:52.720] Brand actually becomes even more important.
+[00:01:52.720 → 00:01:56.700] It's just that the form factor and distribution of branding expands beyond just visuals.
+[00:01:57.000 → 00:01:59.100] That is, if you want to speak to the buyers.
+[00:01:59.480 → 00:02:02.860] So I'm curious, what do you guys think is the future of brand building in this agent
+[00:02:02.860 → 00:02:03.280] tech world?
+[00:02:03.500 → 00:02:04.700] Let me know your thoughts in the comments below.
+
+========================================================================================
+CLIP 05 · DVtJaCvt9jj.mp4
+instagram_url: https://www.instagram.com/reel/DVtJaCvt9jj/
+duration: 00:01:26.728 · language: en (1.00)
+
+FULL TEXT
+NPR just dropped the hardest brand campaign this year. Let's talk about why it works from the perspective of 11 year brand strategist who's worked on brand campaigns for Coca-Cola, Netflix, and skin condoms and more. The first reason is that NPR names an enemy without saying who. People need to know which side they're on. They need to know who the bad guy is and who the good guy is. Most humans know that good guys will never silence. Good guys stand up for truth. Good guys don't cover up. NPR digs into these ideas and sets themselves up and their readers as the good guys. Secondly, NPR arms its people with a weapon. The question. In a politically heated moment in time where people are uncertain of what the truth is and can't separate fact from fiction or AI from non-AI while also being told to go do their own research, it's easy to feel helpless. NPR eases that feeling by giving the reader simple tools. Tools we learned in elementary school, the questions of why, how, and who. And lastly, NPR uses its storied brand to its advantage. The team at Mischief know how simple humans are. These visual cues that Americans have seen since they were children are extremely powerful. So why would they go and make something new when they can use something that's been seared into our minds? The red, black, and blue NPR logo. People need heroes right now. NPR is clear on where it stands and who it's for in this campaign and that's exactly why it hits. So congrats to the team at Mischief and to the NPR org. This is exactly the type of campaigns we need, something that actually stands for something and has a point of view.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.280] NPR just dropped the hardest brand campaign this year.
+[00:00:03.440 → 00:00:05.320] Let's talk about why it works from the perspective
+[00:00:05.320 → 00:00:08.100] of 11 year brand strategist who's worked on brand campaigns
+[00:00:08.100 → 00:00:10.440] for Coca-Cola, Netflix, and skin condoms and more.
+[00:00:10.600 → 00:00:13.460] The first reason is that NPR names an enemy
+[00:00:13.460 → 00:00:14.600] without saying who.
+[00:00:14.760 → 00:00:16.420] People need to know which side they're on.
+[00:00:16.440 → 00:00:17.900] They need to know who the bad guy is
+[00:00:17.900 → 00:00:18.860] and who the good guy is.
+[00:00:18.940 → 00:00:21.020] Most humans know that good guys will never silence.
+[00:00:21.380 → 00:00:22.500] Good guys stand up for truth.
+[00:00:22.720 → 00:00:23.960] Good guys don't cover up.
+[00:00:24.100 → 00:00:27.080] NPR digs into these ideas and sets themselves up
+[00:00:27.080 → 00:00:28.940] and their readers as the good guys.
+[00:00:28.940 → 00:00:31.920] Secondly, NPR arms its people with a weapon.
+[00:00:32.200 → 00:00:32.680] The question.
+[00:00:32.920 → 00:00:37.260] In a politically heated moment in time where people are uncertain of what the truth is and
+[00:00:37.260 → 00:00:42.140] can't separate fact from fiction or AI from non-AI while also being told to go do their
+[00:00:42.140 → 00:00:44.480] own research, it's easy to feel helpless.
+[00:00:44.760 → 00:00:48.760] NPR eases that feeling by giving the reader simple tools.
+[00:00:49.100 → 00:00:53.460] Tools we learned in elementary school, the questions of why, how, and who.
+[00:00:53.620 → 00:00:56.580] And lastly, NPR uses its storied brand to its advantage.
+[00:00:56.580 → 00:00:59.500] The team at Mischief know how simple humans are.
+[00:00:59.620 → 00:01:03.520] These visual cues that Americans have seen since they were children are extremely powerful.
+[00:01:03.720 → 00:01:06.540] So why would they go and make something new when they can use something that's been
+[00:01:06.540 → 00:01:07.800] seared into our minds?
+[00:01:08.020 → 00:01:10.100] The red, black, and blue NPR logo.
+[00:01:10.340 → 00:01:11.720] People need heroes right now.
+[00:01:11.880 → 00:01:17.040] NPR is clear on where it stands and who it's for in this campaign and that's exactly
+[00:01:17.040 → 00:01:18.000] why it hits.
+[00:01:18.200 → 00:01:20.900] So congrats to the team at Mischief and to the NPR org.
+[00:01:21.000 → 00:01:25.200] This is exactly the type of campaigns we need, something that actually stands for
+[00:01:25.200 → 00:01:26.660] something and has a point of view.
+
+========================================================================================
+CLIP 06 · DW6XsWwjqE8.mp4
+instagram_url: https://www.instagram.com/reel/DW6XsWwjqE8/
+duration: 00:02:03.323 · language: en (1.00)
+
+FULL TEXT
+Project Hail Mary is brand world building at its best. Project Hail Mary is said to be one of the most iconic movies of this decade as the second highest grossing film of this year at over $400 million. It's part sci-fi, part adventure, and full brotherhood. While many people are talking about all the amazing parts of the movie from the cinematography to the characters, what really stood out to me was the intention around the world building. In brand world building, everything is a choice. And often the choice comes down to should we do this the easy way or should we do this the most difficult way possibly imagined and there's really no in between. Project Hail Mary picked the most difficult path in almost every decision and it resulted in this incredibly rich world and we have to start with Rocky. When designing Rocky for the movie they could have easily gone with CG which is how most movies are made. Instead they chose to go with the physical approach with the help of Master Puppeteer James Ortiz. When creating Rocky's body the director and team considered the storytelling of every little detail. From Rocky having a mission patch carved into his arm or a ruler tattooed onto his arm because he's an engineer. They created stories for these details that almost nobody would see. Cinematographer Greg Frazier talks about how he wanted every shot for the crew to be quote at the edge of failure. They didn't take the safe route from anything and they wanted to make everything as analog as possible. They proved this with both the set design and the cinematography. One of the most iconic scenes is when they approached the sun. They filmed that by literally building a chicken wire cage and manipulating light with filters and camera instead of relying on visual effects. And it created the most stunning scene in the movie. One of the most talked about elements of the movie is Grace's Fox sweater. While we know that the sweater was hand knit for this movie, the costume designer talks about all the details and the great lengths they went to recreate the original design, which is actually publicly available. They thought through every detail. I think brands can learn a lot from this movie. The way to create fandom and real love obviously starts with story, but it also requires a depth and also choosing the most difficult path forward. So let me know what you think about Project Hail Mary in the comments below, and how would you approach brand worldbuilding being inspired by Project Hail Mary?
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.060] Project Hail Mary is brand world building at its best.
+[00:00:03.380 → 00:00:05.740] Project Hail Mary is said to be one of the most iconic movies
+[00:00:05.740 → 00:00:08.160] of this decade as the second highest grossing film
+[00:00:08.160 → 00:00:09.720] of this year at over $400 million.
+[00:00:10.180 → 00:00:13.080] It's part sci-fi, part adventure, and full brotherhood.
+[00:00:13.200 → 00:00:15.240] While many people are talking about all the amazing parts
+[00:00:15.240 → 00:00:17.340] of the movie from the cinematography to the characters,
+[00:00:17.520 → 00:00:19.440] what really stood out to me was the intention
+[00:00:19.940 → 00:00:20.920] around the world building.
+[00:00:21.060 → 00:00:23.260] In brand world building, everything is a choice.
+[00:00:23.520 → 00:00:24.980] And often the choice comes down to
+[00:00:24.980 → 00:00:26.300] should we do this the easy way
+[00:00:26.300 → 00:00:28.660] or should we do this the most difficult way
+[00:00:28.660 → 00:00:31.280] possibly imagined and there's really no in between.
+[00:00:31.560 → 00:00:36.020] Project Hail Mary picked the most difficult path in almost every decision and it resulted
+[00:00:36.020 → 00:00:39.300] in this incredibly rich world and we have to start with Rocky.
+[00:00:39.480 → 00:00:43.020] When designing Rocky for the movie they could have easily gone with CG which is how most
+[00:00:43.020 → 00:00:43.680] movies are made.
+[00:00:43.800 → 00:00:47.280] Instead they chose to go with the physical approach with the help of Master Puppeteer
+[00:00:47.280 → 00:00:47.940] James Ortiz.
+[00:00:48.120 → 00:00:51.860] When creating Rocky's body the director and team considered the storytelling of
+[00:00:51.860 → 00:00:53.320] every little detail.
+[00:00:53.520 → 00:00:57.820] From Rocky having a mission patch carved into his arm or a ruler tattooed onto
+[00:00:57.820 → 00:01:02.880] his arm because he's an engineer. They created stories for these details that almost nobody
+[00:01:02.880 → 00:01:07.780] would see. Cinematographer Greg Frazier talks about how he wanted every shot for the crew
+[00:01:07.780 → 00:01:12.640] to be quote at the edge of failure. They didn't take the safe route from anything and they
+[00:01:12.640 → 00:01:17.120] wanted to make everything as analog as possible. They proved this with both the set design
+[00:01:17.120 → 00:01:21.280] and the cinematography. One of the most iconic scenes is when they approached the sun. They
+[00:01:21.280 → 00:01:26.160] filmed that by literally building a chicken wire cage and manipulating light with filters
+[00:01:26.160 → 00:01:28.880] and camera instead of relying on visual effects.
+[00:01:29.080 → 00:01:31.920] And it created the most stunning scene in the movie.
+[00:01:32.040 → 00:01:33.960] One of the most talked about elements of the movie
+[00:01:33.960 → 00:01:35.600] is Grace's Fox sweater.
+[00:01:35.780 → 00:01:37.600] While we know that the sweater was hand knit
+[00:01:37.600 → 00:01:39.360] for this movie, the costume designer talks
+[00:01:39.360 → 00:01:41.800] about all the details and the great lengths they went
+[00:01:41.800 → 00:01:43.660] to recreate the original design,
+[00:01:43.720 → 00:01:45.200] which is actually publicly available.
+[00:01:45.360 → 00:01:47.180] They thought through every detail.
+[00:01:47.340 → 00:01:48.960] I think brands can learn a lot from this movie.
+[00:01:49.120 → 00:01:51.200] The way to create fandom and real love
+[00:01:51.200 → 00:01:52.460] obviously starts with story,
+[00:01:52.580 → 00:01:54.260] but it also requires a depth
+[00:01:54.260 → 00:01:56.960] and also choosing the most difficult path forward.
+[00:01:57.160 → 00:01:59.520] So let me know what you think about Project Hail Mary in the comments below,
+[00:01:59.740 → 00:02:03.300] and how would you approach brand worldbuilding being inspired by Project Hail Mary?
+
+========================================================================================
+CLIP 07 · DWq6XTQDink.mp4
+instagram_url: https://www.instagram.com/reel/DWq6XTQDink/
+duration: 00:02:22.038 · language: en (1.00)
+
+FULL TEXT
+This restaurant makes more money per store than any chain in America, and yet they refuse to grow any faster. We're talking about Dintai Fung. Dintai Fung has 180 locations in 13 countries. It's family owned, 3 generations deep, and has never taken outside money. In each US location averages $27 million in annual revenue, nearly double the next closest chain, which is a fine dining steakhouse. How has Dintai Fung managed to build such an outlier business while intentionally growing slowly? It's breaking out because of the generational founder principles and brand strategies that have created Dintifung's success. Here are those principles. The first principle is that quality is the only growth strategy. Dintifung doesn't rely on marketing or expansion or investor money. It relies on its dumplings. Every single dumpling has to meet these exact specs. Dose skin weighs 5 grams, the filling is 16 grams, and each dumpling must have exactly 18 folds. If a dumpling breaks, it goes into the trash. and also they pay way more than their competitors for ingredients. Their buying principle is quality first price second. They make 10 million dumplings a month and yet every single one is folded by hand and they refuse to use robots. Their current CEO Aaron Yang says machines would mean sacrificing the quality. In fact training a chef takes three to six months just to learn how to fold. It took the CEO a year. The second principle is grow slow or don't grow at all. The second generation CEO gets investor letters every week asking to open new locations around the world and he turns almost all of them down. He says he finds his own success very scary. This story says it all. In the 90s, Japan's biggest department store kept asking to partner, and Yang kept saying no. Finally, he told them, send your people to Taiwan to train for a whole year, then we'll talk. And they did it. The current CEOs put it simply, we're just unwilling to expand too fast when we're compromising quality. They could be at 100 US locations tomorrow, but they'd rather keep their standards at their 16 locations. Principle three is that transparency is the brand. The glass fronted open kitchen is emblematic of Dintifung and it's not a gimmick. It's the whole brand. For those of us that understand the level of attention to detail required for each dumpling, they realize they're being given literal proof. For everyone else, it's entertaining and serves as a quality indicator. The cues plus the window into the kitchen is extremely powerful marketing. So what do you guys think? Can Dintifung keep this level of quality as they continue to expand across the world and in the U.S., or is there a ceiling to how far slow growth can take you? Let me know in the comments below.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.820] This restaurant makes more money per store than any chain in America, and yet they refuse
+[00:00:04.820 → 00:00:05.880] to grow any faster.
+[00:00:06.160 → 00:00:07.340] We're talking about Dintai Fung.
+[00:00:07.560 → 00:00:10.340] Dintai Fung has 180 locations in 13 countries.
+[00:00:10.540 → 00:00:14.040] It's family owned, 3 generations deep, and has never taken outside money.
+[00:00:14.200 → 00:00:19.400] In each US location averages $27 million in annual revenue, nearly double the next
+[00:00:19.400 → 00:00:21.600] closest chain, which is a fine dining steakhouse.
+[00:00:21.920 → 00:00:25.900] How has Dintai Fung managed to build such an outlier business while intentionally
+[00:00:25.900 → 00:00:26.680] growing slowly?
+[00:00:26.680 → 00:00:30.860] It's breaking out because of the generational founder principles and brand strategies that
+[00:00:30.860 → 00:00:32.420] have created Dintifung's success.
+[00:00:32.820 → 00:00:33.580] Here are those principles.
+[00:00:33.940 → 00:00:37.300] The first principle is that quality is the only growth strategy.
+[00:00:37.520 → 00:00:40.660] Dintifung doesn't rely on marketing or expansion or investor money.
+[00:00:40.780 → 00:00:42.140] It relies on its dumplings.
+[00:00:42.780 → 00:00:45.440] Every single dumpling has to meet these exact specs.
+[00:00:46.040 → 00:00:50.760] Dose skin weighs 5 grams, the filling is 16 grams, and each dumpling must have exactly
+[00:00:50.760 → 00:00:51.580] 18 folds.
+[00:00:51.900 → 00:00:53.520] If a dumpling breaks, it goes into the trash.
+[00:00:53.520 → 00:00:58.440] and also they pay way more than their competitors for ingredients. Their buying principle is quality
+[00:00:58.440 → 00:01:03.320] first price second. They make 10 million dumplings a month and yet every single one is folded by
+[00:01:03.320 → 00:01:08.620] hand and they refuse to use robots. Their current CEO Aaron Yang says machines would mean sacrificing
+[00:01:08.620 → 00:01:13.680] the quality. In fact training a chef takes three to six months just to learn how to fold. It took
+[00:01:13.680 → 00:01:18.300] the CEO a year. The second principle is grow slow or don't grow at all. The second generation
+[00:01:18.300 → 00:01:23.200] CEO gets investor letters every week asking to open new locations around the world and he turns
+[00:01:23.200 → 00:01:27.680] almost all of them down. He says he finds his own success very scary. This story says it all.
+[00:01:27.820 → 00:01:32.740] In the 90s, Japan's biggest department store kept asking to partner, and Yang kept saying no.
+[00:01:32.940 → 00:01:36.360] Finally, he told them, send your people to Taiwan to train for a whole year,
+[00:01:36.600 → 00:01:41.020] then we'll talk. And they did it. The current CEOs put it simply, we're just unwilling to
+[00:01:41.020 → 00:01:46.040] expand too fast when we're compromising quality. They could be at 100 US locations tomorrow,
+[00:01:46.220 → 00:01:49.400] but they'd rather keep their standards at their 16 locations.
+[00:01:49.400 → 00:01:52.320] Principle three is that transparency is the brand.
+[00:01:52.560 → 00:01:56.860] The glass fronted open kitchen is emblematic of Dintifung and it's not a gimmick.
+[00:01:56.960 → 00:01:57.780] It's the whole brand.
+[00:01:57.940 → 00:02:01.580] For those of us that understand the level of attention to detail required for each dumpling,
+[00:02:01.880 → 00:02:03.680] they realize they're being given literal proof.
+[00:02:03.840 → 00:02:06.640] For everyone else, it's entertaining and serves as a quality indicator.
+[00:02:06.860 → 00:02:11.060] The cues plus the window into the kitchen is extremely powerful marketing.
+[00:02:11.260 → 00:02:12.120] So what do you guys think?
+[00:02:12.260 → 00:02:16.080] Can Dintifung keep this level of quality as they continue to expand across the
+[00:02:16.080 → 00:02:20.740] world and in the U.S., or is there a ceiling to how far slow growth can take you?
+[00:02:21.020 → 00:02:21.920] Let me know in the comments below.
+
+========================================================================================
+CLIP 08 · DXeai-RDrxF.mp4
+instagram_url: https://www.instagram.com/reel/DXeai-RDrxF/
+duration: 00:01:32.626 · language: en (1.00)
+
+FULL TEXT
+We need to bring back in-flight magazines. Before airplane Wi-Fi, the only source of entertainment for most of us were in-flight magazines. Some of you may remember SkyMall, which was like this catalog, could browse and shop products from. Almost every airline had a magazine. In fact, there are hundreds of them. I actually made a free archive of all the airline magazines. If you want that, comment SkyMall below and I'll send it to you. In a world where people are craving analog, thoughtful, non-AI, non-synthetic products, and with the growing resurgence of print magazines with 55% of Gen Z reported buying or reading a physical magazine the past year, plus major titles relaunching in print such as Nylon, Sports Illustrated, and Vice. I think it's time airlines brought them back. And I'm talking to you, Delta. Let's take a look back at some of the most interesting in-flight magazines from the past. Air Afrique had Balafon. It was focused on African history, literature, and art. And it was so beloved that in 2023, a modern revival magazine called Air Afrique was launched, backed by Bottega Veneta, Pharrell, and Louis Vuitton. Spain's budget airline, Voiling, had Ling, which was full of illustration and local stories. They even won a DNA-D pencil in 2008 for magazine cover design. Air Canada's magazine En route transcended the airline magazine category when they created Canada's most influential restaurant rating program called Canada's Best New Restaurants and became an authority on Canadian cuisine. Imagine boarding your next flight to see people put down their phones, open a magazine and get lost in a real story. I think it could do really amazing things for the world. Let me know what you think in the comments below. Do you think airlines should bring back magazines or is there something else you'd rather see?
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:02.120] We need to bring back in-flight magazines.
+[00:00:02.420 → 00:00:05.000] Before airplane Wi-Fi, the only source of entertainment
+[00:00:05.000 → 00:00:06.760] for most of us were in-flight magazines.
+[00:00:07.060 → 00:00:08.680] Some of you may remember SkyMall,
+[00:00:08.800 → 00:00:09.760] which was like this catalog,
+[00:00:09.980 → 00:00:11.660] could browse and shop products from.
+[00:00:11.820 → 00:00:13.860] Almost every airline had a magazine.
+[00:00:14.140 → 00:00:15.180] In fact, there are hundreds of them.
+[00:00:15.260 → 00:00:16.680] I actually made a free archive
+[00:00:16.680 → 00:00:18.040] of all the airline magazines.
+[00:00:18.240 → 00:00:20.420] If you want that, comment SkyMall below
+[00:00:20.420 → 00:00:21.460] and I'll send it to you.
+[00:00:21.560 → 00:00:23.440] In a world where people are craving analog,
+[00:00:23.740 → 00:00:26.100] thoughtful, non-AI, non-synthetic products,
+[00:00:26.340 → 00:00:28.380] and with the growing resurgence of print magazines
+[00:00:28.380 → 00:00:33.580] with 55% of Gen Z reported buying or reading a physical magazine the past year, plus major
+[00:00:33.580 → 00:00:38.640] titles relaunching in print such as Nylon, Sports Illustrated, and Vice. I think it's time airlines
+[00:00:38.640 → 00:00:42.360] brought them back. And I'm talking to you, Delta. Let's take a look back at some of the most
+[00:00:42.360 → 00:00:47.660] interesting in-flight magazines from the past. Air Afrique had Balafon. It was focused on
+[00:00:47.660 → 00:00:52.740] African history, literature, and art. And it was so beloved that in 2023, a modern revival
+[00:00:52.740 → 00:00:57.800] magazine called Air Afrique was launched, backed by Bottega Veneta, Pharrell, and Louis Vuitton.
+[00:00:58.040 → 00:01:02.880] Spain's budget airline, Voiling, had Ling, which was full of illustration and local stories. They
+[00:01:02.880 → 00:01:08.460] even won a DNA-D pencil in 2008 for magazine cover design. Air Canada's magazine En route
+[00:01:08.460 → 00:01:12.980] transcended the airline magazine category when they created Canada's most influential
+[00:01:12.980 → 00:01:17.680] restaurant rating program called Canada's Best New Restaurants and became an authority
+[00:01:17.680 → 00:01:21.920] on Canadian cuisine. Imagine boarding your next flight to see people put down their phones,
+[00:01:21.920 → 00:01:25.080] open a magazine and get lost in a real story.
+[00:01:25.300 → 00:01:27.480] I think it could do really amazing things for the world.
+[00:01:27.640 → 00:01:28.860] Let me know what you think in the comments below.
+[00:01:29.120 → 00:01:30.900] Do you think airlines should bring back magazines
+[00:01:30.900 → 00:01:32.560] or is there something else you'd rather see?

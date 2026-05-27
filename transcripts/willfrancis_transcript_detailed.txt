@@ -1,0 +1,335 @@
+@willfrancis · detailed transcript
+model: faster-whisper small
+clips: 8
+format: per-clip transcript with segment timestamps; generated from local mp4 files
+
+========================================================================================
+CLIP 01 · DPrQumhAR0M.mp4
+instagram_url: https://www.instagram.com/reel/DPrQumhAR0M/
+duration: 00:00:36.619 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+I just built my own Sora 2 powered video generator for free using Bolt and an API key and I didn't touch a line of code. I can create as many Sora 2 videos as I like in my own little private app and I also notice that they don't have watermarks when you do it through the API. So just go to Bolt.new, use the prompt that I've put in the description of this video and grab yourself an API key. Now for now you'll have to get that from foul.ai but when OpenAI opens up direct access you'll be able to just go and grab it directly in your OpenAI account. To be honest the cost is the same either way and then just give that to Bolt and it can finish building a wrap and you can get making videos.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:06.020] I just built my own Sora 2 powered video generator for free using Bolt and an API key and I didn't
+[00:00:06.020 → 00:00:11.500] touch a line of code. I can create as many Sora 2 videos as I like in my own little private app
+[00:00:11.500 → 00:00:14.640] and I also notice that they don't have watermarks when you do it through the API.
+[00:00:15.140 → 00:00:19.160] So just go to Bolt.new, use the prompt that I've put in the description of this video
+[00:00:19.160 → 00:00:24.440] and grab yourself an API key. Now for now you'll have to get that from foul.ai but when
+[00:00:24.440 → 00:00:29.100] OpenAI opens up direct access you'll be able to just go and grab it directly in your OpenAI
+[00:00:29.100 → 00:00:33.200] account. To be honest the cost is the same either way and then just give that to
+[00:00:33.200 → 00:00:36.340] Bolt and it can finish building a wrap and you can get making videos.
+
+========================================================================================
+CLIP 02 · DQKCHUIDMnz.mp4
+instagram_url: https://www.instagram.com/reel/DQKCHUIDMnz/
+duration: 00:01:28.075 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+AI browsers are really easy to hack, it turns out. This research from Brave shows that you can hack an AI browser just by hiding text on a web page. This is called prompt injection, a technique where people hide commands to the AI inside text that it is reading in an article, a blog post, something like that. Anyway, the team at Brave found that perplexity's Comet browser could be tricked if a screenshot contained nearly invisible instructions like pale blue text on a yellow background, impossible for a human to see, but the AI's OCR, Optical Character Recognition System, reads the text in the image and treats it like a command. And so then that command might tell it to go browsing other websites or sending data to hackers or even accessing private accounts like bank accounts, email accounts, all without you realizing. So these unseeable prompt injections, they break the normal security rule in all browsers which keeps websites separate from each other, okay? So your normal browser enforces what's called the same origin policy, meaning that one website can't reach into another and get data. For obvious reasons, you don't want Gmail to be able to access your bank account or something like that. You want all those things nice and separate, but when an AI agent is running the browser and doing the browser for you, that rule doesn't apply. It can go between websites and move data between websites if the AI is logged in to your private accounts in that browser. Think carefully before giving it access to your passwords and your high value accounts.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.060] AI browsers are really easy to hack, it turns out.
+[00:00:03.180 → 00:00:05.820] This research from Brave shows that you can hack an AI browser
+[00:00:05.820 → 00:00:07.820] just by hiding text on a web page.
+[00:00:08.200 → 00:00:09.560] This is called prompt injection,
+[00:00:10.000 → 00:00:12.740] a technique where people hide commands to the AI
+[00:00:12.740 → 00:00:15.980] inside text that it is reading in an article,
+[00:00:16.140 → 00:00:17.440] a blog post, something like that.
+[00:00:17.540 → 00:00:18.840] Anyway, the team at Brave found
+[00:00:18.840 → 00:00:21.140] that perplexity's Comet browser could be tricked
+[00:00:21.140 → 00:00:24.140] if a screenshot contained nearly invisible instructions
+[00:00:24.140 → 00:00:26.460] like pale blue text on a yellow background,
+[00:00:26.840 → 00:00:28.340] impossible for a human to see,
+[00:00:28.340 → 00:00:31.780] but the AI's OCR, Optical Character Recognition System,
+[00:00:32.220 → 00:00:34.680] reads the text in the image and treats it like a command.
+[00:00:35.220 → 00:00:38.480] And so then that command might tell it to go browsing other websites
+[00:00:38.480 → 00:00:42.580] or sending data to hackers or even accessing private accounts
+[00:00:42.580 → 00:00:45.440] like bank accounts, email accounts, all without you realizing.
+[00:00:45.720 → 00:00:48.080] So these unseeable prompt injections,
+[00:00:48.220 → 00:00:51.080] they break the normal security rule in all browsers
+[00:00:51.080 → 00:00:54.440] which keeps websites separate from each other, okay?
+[00:00:54.740 → 00:00:57.260] So your normal browser enforces what's called
+[00:00:57.260 → 00:01:03.020] the same origin policy, meaning that one website can't reach into another and get data.
+[00:01:03.480 → 00:01:08.100] For obvious reasons, you don't want Gmail to be able to access your bank account or something
+[00:01:08.100 → 00:01:08.540] like that.
+[00:01:08.640 → 00:01:12.780] You want all those things nice and separate, but when an AI agent is running the browser
+[00:01:12.780 → 00:01:15.500] and doing the browser for you, that rule doesn't apply.
+[00:01:15.880 → 00:01:20.680] It can go between websites and move data between websites if the AI is logged in
+[00:01:20.680 → 00:01:22.640] to your private accounts in that browser.
+[00:01:22.640 → 00:01:27.460] Think carefully before giving it access to your passwords and your high value accounts.
+
+========================================================================================
+CLIP 03 · DU_XMyDDqiM.mp4
+instagram_url: https://www.instagram.com/reel/XMyDDqiM/
+duration: 00:02:04.948 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+The most powerful AI agent on the web is Maddus, and it's had a lot of upgrades since it went wildly viral last year. So I thought it was worth checking in on because it's got quite a few new features. It's been acquired by Meta, actually. So unlike things like OpenClaw, which is going really viral right now, this is much safer, agentic AI. It doesn't need to have unlimited access to all your data to work for you. It just works in a nice, self-contained web app. So here are five things that I think it's best at. By the way, you can try any of this out for free and I've got three invite codes to give away each one will give you a month Of pro worth a hundred dollars each which minus have kindly given me to give to you So comment agent in the comments and I will pick three random winners exactly seven days after this video goes live So let's look at those five things firstly integrations You can connect it to everything from the core office apps like these ones to lots of the biggest apps across your whole tech stack And that includes zappia and make which means you can also then connect it to really anything Then there's the office stuff like documents presentation spreadsheets check out those buttons below the chat box That's where you can activate those agents and bear in mind that includes task scheduling So anything that we talk about in this video can all be put on a schedule And I do think that in some way starts to replace some of the other AI automation tools But we'll talk about that again in another video thirdly design like images websites branding videos again Check out those buttons below the chat box to activate those I think the reason why Manus is so good at this stuff is it just really thinks through and plans the job before it actually Executes it and produces the visual for you. Fourthly is browser control letting it take over chrome and use the web for you Now I know that might sound a bit scary to some people But remember that this is all under your control You can see exactly what's happening and as with using the internet in general you exercise the usual caution But this is much safer than using something like open claw and lastly is just being able to set it Multifunction tasks all in one job like you don't have to worry really about which bit does what just tell man us What you actually want to achieve and again? It's very good at that pre-planning the project management basically and just getting stuff done
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:06.300] The most powerful AI agent on the web is Maddus, and it's had a lot of upgrades since it went wildly viral last year.
+[00:00:06.760 → 00:00:11.180] So I thought it was worth checking in on because it's got quite a few new features. It's been acquired by Meta, actually.
+[00:00:11.600 → 00:00:17.720] So unlike things like OpenClaw, which is going really viral right now, this is much safer, agentic AI.
+[00:00:18.140 → 00:00:23.760] It doesn't need to have unlimited access to all your data to work for you. It just works in a nice, self-contained web app.
+[00:00:24.060 → 00:00:26.020] So here are five things that I think it's best at.
+[00:00:26.020 → 00:00:31.960] By the way, you can try any of this out for free and I've got three invite codes to give away each one will give you a month
+[00:00:31.960 → 00:00:36.140] Of pro worth a hundred dollars each which minus have kindly given me to give to you
+[00:00:36.140 → 00:00:42.780] So comment agent in the comments and I will pick three random winners exactly seven days after this video goes live
+[00:00:42.780 → 00:00:45.600] So let's look at those five things firstly integrations
+[00:00:45.600 → 00:00:51.480] You can connect it to everything from the core office apps like these ones to lots of the biggest apps across your whole tech stack
+[00:00:51.480 → 00:00:56.040] And that includes zappia and make which means you can also then connect it to really anything
+[00:00:56.040 → 00:01:01.140] Then there's the office stuff like documents presentation spreadsheets check out those buttons below the chat box
+[00:01:01.140 → 00:01:05.200] That's where you can activate those agents and bear in mind that includes task scheduling
+[00:01:05.200 → 00:01:08.880] So anything that we talk about in this video can all be put on a schedule
+[00:01:08.880 → 00:01:13.540] And I do think that in some way starts to replace some of the other AI automation tools
+[00:01:13.540 → 00:01:20.540] But we'll talk about that again in another video thirdly design like images websites branding videos again
+[00:01:20.540 → 00:01:23.540] Check out those buttons below the chat box to activate those
+[00:01:23.540 → 00:01:29.120] I think the reason why Manus is so good at this stuff is it just really thinks through and plans the job before it actually
+[00:01:29.120 → 00:01:35.340] Executes it and produces the visual for you. Fourthly is browser control letting it take over chrome and use the web for you
+[00:01:35.340 → 00:01:37.520] Now I know that might sound a bit scary to some people
+[00:01:37.520 → 00:01:39.640] But remember that this is all under your control
+[00:01:39.640 → 00:01:44.680] You can see exactly what's happening and as with using the internet in general you exercise the usual caution
+[00:01:44.680 → 00:01:50.500] But this is much safer than using something like open claw and lastly is just being able to set it
+[00:01:51.080 → 00:01:57.460] Multifunction tasks all in one job like you don't have to worry really about which bit does what just tell man us
+[00:01:57.460 → 00:01:59.680] What you actually want to achieve and again?
+[00:01:59.800 → 00:02:04.760] It's very good at that pre-planning the project management basically and just getting stuff done
+
+========================================================================================
+CLIP 04 · DVZb9Z1CF8p.mp4
+instagram_url: https://www.instagram.com/reel/DVZb9Z1CF8p/
+duration: 00:02:56.450 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Why has OpenAI managed to strike a deal with the Pentagon and Anthropic failed? Why are people moving from chat GPT to Claude? Let me quickly explain. So Anthropic, the company behind Claude, will not allow their contract with the US Department of War to include the usage of their AI for fully autonomous weapons or mass surveillance of Americans. OpenAI claimed to have the same values and red lines and yet they struck a deal. Anthropic's argument is that the law hasn't caught up with AI. And that's why I find this story really interesting. It's not just about companies standing up for their values or being bullied by governments. I think the most interesting point that Anthropics CEO made was about the slowness of law of Congress and its inability to catch up with where the technology is at today. His point is that you can't rely on what's currently lawful to govern a technology that's getting more powerful by the day. It's getting twice as powerful every few months. In fact, the only people who can make good decisions on what it is and is not capable of, Whether or not it can be trusted to completely autonomously fire weapons are the people who built it and currently Anthropic is saying it's not capable of doing that reliably and to use it for that would be reckless and therefore They're just not going to allow it on the surveillance issue I don't know if you know this but right now the US government can legally buy your location data your browsing history Your social media posts all of it off the shelf from the tech companies. No warrant needed That's already happening. But what AI does is just take it to a whole new level. It can take all that scattered data Stitch it into a complete live picture of your life automatically at Population scale right and Anthropics position was just because it's technically legal today Doesn't mean to say we should build the tool that supercharges it without revisiting the legality of that after Anthropics refused to agree to their AI being used for all lawful purposes, as demanded by the Pentagon, Trump ordered federal agencies to stop using their services, and the Secretary of War labelled them a supply chain risk. Open AI then quickly secured what seems to be a very similar deal. But really, the difference is that Open AI agreed to the all lawful purposes language that Anthropics specifically refused in their contract. But Open AI then layered on their own protection separately, so cloud-only deployment, meaning the AI models physically can't be loaded onto weapons in the field, and they've got to use the cloud-based version hosted and run by OpenAI so that they can keep their own safety systems built in, which the Pentagon can't override. Plus, OpenAI engineers are going to be physically stationed at the Pentagon to keep our own things. Sounds great, similar principles, but it's a totally different approach. And Anthropic wanted the protections written into the contract, whereas OpenAI trust the technical setup and existing law to protect those red lines. But that comes with obvious problems, because if the law changes, or if the technical setup changes or the administration and their approach changes, what falls into all lawful purposes could also change.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.440] Why has OpenAI managed to strike a deal with the Pentagon and Anthropic failed?
+[00:00:03.720 → 00:00:07.020] Why are people moving from chat GPT to Claude? Let me quickly explain.
+[00:00:07.500 → 00:00:12.360] So Anthropic, the company behind Claude, will not allow their contract with the US Department of War
+[00:00:12.360 → 00:00:17.260] to include the usage of their AI for fully autonomous weapons or mass surveillance of Americans.
+[00:00:17.960 → 00:00:22.180] OpenAI claimed to have the same values and red lines and yet they struck a deal.
+[00:00:22.620 → 00:00:25.620] Anthropic's argument is that the law hasn't caught up with AI.
+[00:00:25.620 → 00:00:32.580] And that's why I find this story really interesting. It's not just about companies standing up for their values or being bullied by governments.
+[00:00:33.080 → 00:00:42.260] I think the most interesting point that Anthropics CEO made was about the slowness of law of Congress and its inability to catch up with where the technology is at today.
+[00:00:42.480 → 00:00:47.320] His point is that you can't rely on what's currently lawful to govern a technology that's getting more powerful by the day.
+[00:00:47.400 → 00:00:54.120] It's getting twice as powerful every few months. In fact, the only people who can make good decisions on what it is and is not capable of,
+[00:00:54.120 → 00:01:00.140] Whether or not it can be trusted to completely autonomously fire weapons are the people who built it and currently
+[00:01:00.140 → 00:01:05.320] Anthropic is saying it's not capable of doing that reliably and to use it for that would be reckless and therefore
+[00:01:05.320 → 00:01:07.600] They're just not going to allow it on the surveillance issue
+[00:01:07.600 → 00:01:14.100] I don't know if you know this but right now the US government can legally buy your location data your browsing history
+[00:01:14.100 → 00:01:19.100] Your social media posts all of it off the shelf from the tech companies. No warrant needed
+[00:01:19.100 → 00:01:25.460] That's already happening. But what AI does is just take it to a whole new level. It can take all that scattered data
+[00:01:25.460 → 00:01:29.660] Stitch it into a complete live picture of your life
+[00:01:30.180 → 00:01:31.360] automatically at
+[00:01:31.360 → 00:01:36.440] Population scale right and Anthropics position was just because it's technically legal today
+[00:01:36.440 → 00:01:43.560] Doesn't mean to say we should build the tool that supercharges it without revisiting the legality of that after Anthropics refused to agree
+[00:01:43.560 → 00:01:48.800] to their AI being used for all lawful purposes, as demanded by the Pentagon, Trump ordered
+[00:01:48.800 → 00:01:53.660] federal agencies to stop using their services, and the Secretary of War labelled them a supply
+[00:01:53.660 → 00:01:59.460] chain risk. Open AI then quickly secured what seems to be a very similar deal. But really,
+[00:01:59.760 → 00:02:05.840] the difference is that Open AI agreed to the all lawful purposes language that Anthropics
+[00:02:05.840 → 00:02:11.200] specifically refused in their contract. But Open AI then layered on their own protection
+[00:02:11.200 → 00:02:16.660] separately, so cloud-only deployment, meaning the AI models physically can't be loaded onto
+[00:02:16.660 → 00:02:21.800] weapons in the field, and they've got to use the cloud-based version hosted and run by OpenAI
+[00:02:21.800 → 00:02:27.000] so that they can keep their own safety systems built in, which the Pentagon can't override.
+[00:02:27.500 → 00:02:30.940] Plus, OpenAI engineers are going to be physically stationed at the Pentagon
+[00:02:30.940 → 00:02:36.100] to keep our own things. Sounds great, similar principles, but it's a totally different approach.
+[00:02:36.100 → 00:02:41.740] And Anthropic wanted the protections written into the contract, whereas OpenAI trust the
+[00:02:41.740 → 00:02:45.060] technical setup and existing law to protect those red lines.
+[00:02:45.420 → 00:02:50.140] But that comes with obvious problems, because if the law changes, or if the technical setup
+[00:02:50.140 → 00:02:55.200] changes or the administration and their approach changes, what falls into all lawful purposes
+[00:02:55.200 → 00:02:56.320] could also change.
+
+========================================================================================
+CLIP 05 · DW4fkQPDh6R.mp4
+instagram_url: https://www.instagram.com/reel/DW4fkQPDh6R/
+duration: 00:02:37.781 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Wikipedia's guide to the signs of AI writing is one of the best out there and it's been updated because they've just banned all AI generated content there. So here are the top 10 giveaways. Number one, the puffery problem. So AI loves to tell you how important things are and it can't help itself. A mention of a random place becomes nestled within a breathtaking region with a rich cultural heritage. AI can't just state facts, it editorializes them constantly and positively. Number two, the word list. There are specific words that were much rarer before 2022. Delve, Tapestry, Intricate, Underscore. If you see three or four of these in one piece of writing, that's a very strong signal. And different models have different favorite words. But that's a whole other video. Number three, the fake balance. So AI constantly uses this. It's not just X, it's also Y structure. Wikipedia calls these negative parallelisms, and they are a very signature style of AI. Number four, superficial analysis. A.I. loves attaching these little ing phrases to the end of sentences. So like, the population reached 12,000 in 2015, underscoring its role as a regional hub. And that little tag on, that finish to the sentence is very specific and often quite pointless but it's a real signature thing. Number 5. The Rule of Three. A.I. is obsessed with threes separated by commas in sentences. Obviously humans do this but it just shows up more in A.I. writing. Number 6. avoiding the word is or other simple words where it replaces it with a fancier alternative. So instead of saying this building is a gallery it says this building serves as a gallery. Instead of this school has four classrooms it'll write this school features four classrooms. It's a style common in certain books and magazines that it's learned but human written everyday blogs and essays and that kind of thing just wouldn't feature that much. Number seven M dashes you know about this the most famous sign of AI writing. OpenAI tried to train them out of ChatGPT actually, but failed, and they're still there in places where a human would be more likely to use commas or brackets. Number 8, Curly Quotes. So ChatGPT uses these curly quotation marks, curly apostrophes, whereas when you type that yourself on a keyboard, it will be straight ones. Now yes, things like Microsoft Word automatically correct to Curly, but the biggest giveaway is when it's a mixture of the two in the same piece of writing. And number 9, these very specific word for word phrases, you'll have to Google the guide and check them out yourself. One that jumped out to me was maintains an active social media presence those exact words when describing any person or brand that uses social media Number 10 fake references This is still one of the biggest problems with AI where it generates citations that look legit But are either completely made up or more frequently a bit wrong and link into a dead page
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.560] Wikipedia's guide to the signs of AI writing is one of the best out there and it's been
+[00:00:03.560 → 00:00:06.920] updated because they've just banned all AI generated content there.
+[00:00:07.180 → 00:00:08.860] So here are the top 10 giveaways.
+[00:00:09.320 → 00:00:10.880] Number one, the puffery problem.
+[00:00:11.280 → 00:00:14.520] So AI loves to tell you how important things are and it can't help itself.
+[00:00:14.840 → 00:00:19.340] A mention of a random place becomes nestled within a breathtaking region with a rich
+[00:00:19.340 → 00:00:20.220] cultural heritage.
+[00:00:20.420 → 00:00:24.540] AI can't just state facts, it editorializes them constantly and positively.
+[00:00:24.980 → 00:00:26.260] Number two, the word list.
+[00:00:26.260 → 00:00:29.500] There are specific words that were much rarer before 2022.
+[00:00:30.180 → 00:00:32.680] Delve, Tapestry, Intricate, Underscore.
+[00:00:32.980 → 00:00:36.400] If you see three or four of these in one piece of writing, that's a very strong signal.
+[00:00:36.820 → 00:00:38.740] And different models have different favorite words.
+[00:00:39.040 → 00:00:40.000] But that's a whole other video.
+[00:00:40.500 → 00:00:41.900] Number three, the fake balance.
+[00:00:42.320 → 00:00:43.960] So AI constantly uses this.
+[00:00:44.200 → 00:00:46.440] It's not just X, it's also Y structure.
+[00:00:46.880 → 00:00:49.140] Wikipedia calls these negative parallelisms,
+[00:00:49.300 → 00:00:51.320] and they are a very signature style of AI.
+[00:00:51.920 → 00:00:53.520] Number four, superficial analysis.
+[00:00:53.520 → 00:00:58.040] A.I. loves attaching these little ing phrases to the end of sentences.
+[00:00:58.620 → 00:01:04.260] So like, the population reached 12,000 in 2015, underscoring its role as a regional hub.
+[00:01:04.640 → 00:01:09.420] And that little tag on, that finish to the sentence is very specific and often quite
+[00:01:09.420 → 00:01:11.140] pointless but it's a real signature thing.
+[00:01:11.600 → 00:01:12.160] Number 5.
+[00:01:12.500 → 00:01:13.200] The Rule of Three.
+[00:01:13.440 → 00:01:17.160] A.I. is obsessed with threes separated by commas in sentences.
+[00:01:17.540 → 00:01:20.800] Obviously humans do this but it just shows up more in A.I. writing.
+[00:01:21.000 → 00:01:21.480] Number 6.
+[00:01:21.480 → 00:01:26.200] avoiding the word is or other simple words where it replaces it with a fancier alternative.
+[00:01:26.840 → 00:01:31.180] So instead of saying this building is a gallery it says this building serves as a gallery.
+[00:01:31.380 → 00:01:36.740] Instead of this school has four classrooms it'll write this school features four classrooms.
+[00:01:37.100 → 00:01:40.860] It's a style common in certain books and magazines that it's learned but human written
+[00:01:40.860 → 00:01:44.960] everyday blogs and essays and that kind of thing just wouldn't feature that much.
+[00:01:45.340 → 00:01:49.200] Number seven M dashes you know about this the most famous sign of AI writing.
+[00:01:49.200 → 00:01:53.920] OpenAI tried to train them out of ChatGPT actually, but failed, and they're still there
+[00:01:53.920 → 00:01:56.700] in places where a human would be more likely to use commas or brackets.
+[00:01:56.980 → 00:01:58.180] Number 8, Curly Quotes.
+[00:01:58.280 → 00:02:02.620] So ChatGPT uses these curly quotation marks, curly apostrophes, whereas when you type
+[00:02:02.620 → 00:02:04.840] that yourself on a keyboard, it will be straight ones.
+[00:02:05.260 → 00:02:09.620] Now yes, things like Microsoft Word automatically correct to Curly, but the biggest giveaway
+[00:02:09.620 → 00:02:11.980] is when it's a mixture of the two in the same piece of writing.
+[00:02:12.240 → 00:02:16.120] And number 9, these very specific word for word phrases, you'll have to Google
+[00:02:16.120 → 00:02:17.480] the guide and check them out yourself.
+[00:02:17.480 → 00:02:26.560] One that jumped out to me was maintains an active social media presence those exact words when describing any person or brand that uses social media
+[00:02:26.560 → 00:02:28.700] Number 10 fake references
+[00:02:28.700 → 00:02:33.340] This is still one of the biggest problems with AI where it generates citations that look legit
+[00:02:33.340 → 00:02:37.540] But are either completely made up or more frequently a bit wrong and link into a dead page
+
+========================================================================================
+CLIP 06 · DWB7p7XiHip.mp4
+instagram_url: https://www.instagram.com/reel/DWB7p7XiHip/
+duration: 00:01:34.762 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+I get asked how I make money from TikTok, and honestly, there are a few different ways. So there's creator rewards, brand deals, digital products. Most professional creators do those three things. But the one that people don't talk about so much is live streaming, and that's a massive missed opportunity specifically because TikTok have built a support network specifically for businesses who want to go live more. So there's actually a lot of help available directly from TikTok that a lot of agencies and businesses just don't know about. It's called the Tiktok live creator networks TCN And there's a highlighted link in the bottom of this video that will take to the contact us page Just go there fill in your details and they will start helping you They give you proper support like training and content guidance performance insights and data help understanding What actually works in your live streams so you can just constantly improve and I'm just getting started with it But I love that this is Tiktok directly helping you grow like what other platform does that and this compliance support So if you run into account issues, you're not sure about platform rules You've got someone at TikTok in your corner and the monetization side is more structured than I realized honestly So like gifting tipping Diversified income but with real strategy behind it and they help with that So you've got more chance of growing your account into something that makes sustainable income that you can actually live off Anyway, if you want to grow a sustainable business on TikTok specifically through live Click the link in this video fill in the information and submit you can also search Tiktok Live Creator Networks on Google for more information. It's definitely worth exploring. If you're serious about turning Tiktok into your long-term income stream, get in on it.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.460] I get asked how I make money from TikTok, and honestly, there are a few different ways.
+[00:00:03.660 → 00:00:06.600] So there's creator rewards, brand deals, digital products.
+[00:00:06.980 → 00:00:09.220] Most professional creators do those three things.
+[00:00:09.500 → 00:00:13.340] But the one that people don't talk about so much is live streaming, and that's a massive
+[00:00:13.340 → 00:00:18.100] missed opportunity specifically because TikTok have built a support network specifically
+[00:00:18.100 → 00:00:20.720] for businesses who want to go live more.
+[00:00:21.020 → 00:00:25.380] So there's actually a lot of help available directly from TikTok that a lot of agencies
+[00:00:25.380 → 00:00:26.980] and businesses just don't know about.
+[00:00:26.980 → 00:00:30.220] It's called the Tiktok live creator networks TCN
+[00:00:30.220 → 00:00:33.900] And there's a highlighted link in the bottom of this video that will take to the contact us page
+[00:00:33.900 → 00:00:37.720] Just go there fill in your details and they will start helping you
+[00:00:37.720 → 00:00:43.720] They give you proper support like training and content guidance performance insights and data help understanding
+[00:00:43.720 → 00:00:49.680] What actually works in your live streams so you can just constantly improve and I'm just getting started with it
+[00:00:49.680 → 00:00:55.700] But I love that this is Tiktok directly helping you grow like what other platform does that and this compliance support
+[00:00:55.700 → 00:00:58.780] So if you run into account issues, you're not sure about platform rules
+[00:00:58.780 → 00:01:05.140] You've got someone at TikTok in your corner and the monetization side is more structured than I realized honestly
+[00:01:05.140 → 00:01:06.840] So like gifting tipping
+[00:01:07.460 → 00:01:11.340] Diversified income but with real strategy behind it and they help with that
+[00:01:11.340 → 00:01:16.340] So you've got more chance of growing your account into something that makes sustainable income that you can actually live off
+[00:01:16.340 → 00:01:20.640] Anyway, if you want to grow a sustainable business on TikTok specifically through live
+[00:01:20.640 → 00:01:25.000] Click the link in this video fill in the information and submit you can also search
+[00:01:25.000 → 00:01:30.000] Tiktok Live Creator Networks on Google for more information. It's definitely worth exploring.
+[00:01:30.200 → 00:01:34.680] If you're serious about turning Tiktok into your long-term income stream, get in on it.
+
+========================================================================================
+CLIP 07 · DWmmBSiDmQp.mp4
+instagram_url: https://www.instagram.com/reel/DWmmBSiDmQp/
+duration: 00:02:47.023 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+This is happening because of AI, let me explain. So, Angine de Poitrine are breaking the internet right now and if you geeky about music, you've almost certainly seen this land in your feed, so I'm going to explain what's going on here, why people find it interesting, and why it's happening now, coincidentally, at almost exactly the same time that AI produced music has gone mainstream. So let's look at three things, the music, their style, and AI. So the reason that music geeks are loving this is because they're breaking the rules of music in very clever ways. They're using weird time signatures, meaning that sometimes a bar has four beats, sometimes sevens, sometimes 14, but they're also using a microtonal scale. So instead of just the 12 notes that we know and love in western music, they're using twice as many notes and their guitars have twice as many frets. So now they're playing these new notes that are halfway between the ones that we hear all the time, and that's what makes it sound kind of new and unexpected. So they also create very complex arrangements by using a loop pedal, which allows just that one person to layer their playing as they progress through the song, which makes it sound like there's a whole band playing, and he's controlling that loop pedal with his feet and toes, which is just really impressive in itself, and they do it all really skillfully. So that's the music, but their appearance is important too. It often gets described as being Dardais. And if you don't know, Dardais was an art movement about 100 years ago, which ultimately led to surrealism, and it was all about incongruity, about things that didn't belong together, things that broke the rules of what the viewer expected. It was even the birth of the whole what is art debate. And it's interesting that Dadaism back then was a direct response to the machinery of war and of modern life, and that's probably what's happening now. If you go back even further, look at the effect that photography had on art, and how once that anyone could create images using this simple little machine, art changed radically. Painters stopped trying to depict what was in front of them as perfectly as possible, figurative art, because what's the point? And they got more creative with Impressionism and ultimately that led to Dardyism, Expressionism, Cubism. Because what is the point of trying to paint what's in front of you perfectly when you can just take a photo? And that freed artists actually pushed them to do something more interesting with their paintbrush. Because right now in Google Gemini, as of this month, anyone can create fully produced music tracks with just a text prompt. Modern music is unbelievably formulaic and AI is trained on those formulas. So we've got an AI that's trained on that is pumping out more of that and that just forces us to walk away from it and break those rules and find different territory and that's what Angine de Poitrine have done really well. To be fair if you spend any time going beyond mainstream music artists have been breaking the rules for a very long time of course but what this shows and particularly go and look at the YouTube video go and look at the comments on this YouTube video that's gone viral and you will just witness how encouraged everybody body is by the plight of humanity and human creativity in the face of AI slop.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:02.280] This is happening because of AI, let me explain.
+[00:00:02.640 → 00:00:06.600] So, Angine de Poitrine are breaking the internet right now and if you geeky about music, you've
+[00:00:06.600 → 00:00:10.300] almost certainly seen this land in your feed, so I'm going to explain what's going on here,
+[00:00:10.540 → 00:00:14.780] why people find it interesting, and why it's happening now, coincidentally, at almost
+[00:00:14.780 → 00:00:18.220] exactly the same time that AI produced music has gone mainstream.
+[00:00:18.580 → 00:00:21.160] So let's look at three things, the music, their style, and AI.
+[00:00:21.620 → 00:00:24.720] So the reason that music geeks are loving this is because they're breaking the rules
+[00:00:24.720 → 00:00:26.240] of music in very clever ways.
+[00:00:26.240 → 00:00:30.520] They're using weird time signatures, meaning that sometimes a bar has four beats, sometimes
+[00:00:30.520 → 00:00:34.000] sevens, sometimes 14, but they're also using a microtonal scale.
+[00:00:34.360 → 00:00:38.260] So instead of just the 12 notes that we know and love in western music, they're using
+[00:00:38.260 → 00:00:41.140] twice as many notes and their guitars have twice as many frets.
+[00:00:41.380 → 00:00:45.720] So now they're playing these new notes that are halfway between the ones that we hear
+[00:00:45.720 → 00:00:48.600] all the time, and that's what makes it sound kind of new and unexpected.
+[00:00:49.000 → 00:00:53.060] So they also create very complex arrangements by using a loop pedal, which allows just
+[00:00:53.060 → 00:00:57.580] that one person to layer their playing as they progress through the song, which makes
+[00:00:57.580 → 00:01:01.060] it sound like there's a whole band playing, and he's controlling that loop pedal with
+[00:01:01.060 → 00:01:06.220] his feet and toes, which is just really impressive in itself, and they do it all really skillfully.
+[00:01:06.400 → 00:01:09.660] So that's the music, but their appearance is important too. It often gets described
+[00:01:09.660 → 00:01:13.820] as being Dardais. And if you don't know, Dardais was an art movement about 100 years
+[00:01:13.820 → 00:01:17.620] ago, which ultimately led to surrealism, and it was all about incongruity, about
+[00:01:17.620 → 00:01:20.580] things that didn't belong together, things that broke the rules of what the viewer
+[00:01:20.580 → 00:01:24.940] expected. It was even the birth of the whole what is art debate. And it's interesting that
+[00:01:24.940 → 00:01:30.180] Dadaism back then was a direct response to the machinery of war and of modern life, and that's
+[00:01:30.180 → 00:01:34.480] probably what's happening now. If you go back even further, look at the effect that photography had
+[00:01:34.480 → 00:01:38.860] on art, and how once that anyone could create images using this simple little machine,
+[00:01:39.300 → 00:01:43.280] art changed radically. Painters stopped trying to depict what was in front of them
+[00:01:43.280 → 00:01:47.240] as perfectly as possible, figurative art, because what's the point? And they got
+[00:01:47.240 → 00:01:52.020] more creative with Impressionism and ultimately that led to Dardyism, Expressionism, Cubism.
+[00:01:52.340 → 00:01:56.040] Because what is the point of trying to paint what's in front of you perfectly when you
+[00:01:56.040 → 00:02:00.580] can just take a photo? And that freed artists actually pushed them to do something more
+[00:02:00.580 → 00:02:04.420] interesting with their paintbrush. Because right now in Google Gemini, as of this month,
+[00:02:04.540 → 00:02:08.920] anyone can create fully produced music tracks with just a text prompt. Modern music is
+[00:02:08.920 → 00:02:14.620] unbelievably formulaic and AI is trained on those formulas. So we've got an AI
+[00:02:14.620 → 00:02:19.280] that's trained on that is pumping out more of that and that just forces us to walk away
+[00:02:19.280 → 00:02:24.100] from it and break those rules and find different territory and that's what Angine de Poitrine
+[00:02:24.100 → 00:02:27.900] have done really well. To be fair if you spend any time going beyond mainstream music
+[00:02:27.900 → 00:02:31.420] artists have been breaking the rules for a very long time of course but what this shows
+[00:02:31.420 → 00:02:35.020] and particularly go and look at the YouTube video go and look at the comments on this
+[00:02:35.020 → 00:02:39.860] YouTube video that's gone viral and you will just witness how encouraged everybody
+[00:02:39.860 → 00:02:46.660] body is by the plight of humanity and human creativity in the face of AI slop.
+
+========================================================================================
+CLIP 08 · DXKY8s5Dr4F.mp4
+instagram_url: https://www.instagram.com/reel/DXKY8s5Dr4F/
+duration: 00:01:36.666 · language: en (1.00)
+transcription_mode: full-word-timestamps
+
+FULL TEXT
+Here's how to use Claude to create gorgeous on-brand presentation decks. This is probably the most common thing people ask me in my workshops. Yes, you can use things like Gamma, but honestly, you just need to train Claude and it will do a fantastic job for you. This will work on a free or paid account, okay? So your skills, if you go to Customize and Left Hand Menu, you'll see that that's where they live, okay? Now Claude already has a skill for producing PowerPoint decks, but we're gonna create a new one. So open your best PowerPoint presentation and screenshot a few of the best slides or the different layouts that you want to capture. Maybe title slide, section title, bullet point slide, things like that, right? Start a new chat in Cloud, drop those screenshots in and say, I want to create a skill to produce on-brand PowerPoint presentations. Use these screenshots to define the rules. What I would also do is drop in your font files and also if you know your brand colors then paste them in as well. When it's done creating that skill, it might actually run a test and show you a few slides. Or if it doesn't just say test this skill with a five slide deck or social media performance Just make the numbers up for now Okay, and that will give you a sense of how it will respond when it's doing real work for you now There's probably going to be things you don't like things that need tweaking. That's normal So now you just say thanks a few amends and just list all the things you want to change Try and capture them all in one chat to save time But just keep tweaking it till it's perfect and then when you're happy hit save skill And that gets saved into those skills that we saw in the customized section and that's it And now any time you can give it spreadsheets raw data vague ideas for it to go and research And it will be able to create beautifully branded decks for you
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:01.080] Here's how to use Claude
+[00:00:01.080 → 00:00:03.460] to create gorgeous on-brand presentation decks.
+[00:00:03.680 → 00:00:04.760] This is probably the most common thing
+[00:00:04.760 → 00:00:06.100] people ask me in my workshops.
+[00:00:06.540 → 00:00:08.160] Yes, you can use things like Gamma,
+[00:00:08.380 → 00:00:10.280] but honestly, you just need to train Claude
+[00:00:10.280 → 00:00:12.180] and it will do a fantastic job for you.
+[00:00:12.460 → 00:00:14.840] This will work on a free or paid account, okay?
+[00:00:15.340 → 00:00:18.720] So your skills, if you go to Customize and Left Hand Menu,
+[00:00:18.880 → 00:00:20.580] you'll see that that's where they live, okay?
+[00:00:20.880 → 00:00:22.760] Now Claude already has a skill
+[00:00:22.760 → 00:00:24.300] for producing PowerPoint decks,
+[00:00:24.420 → 00:00:25.660] but we're gonna create a new one.
+[00:00:25.880 → 00:00:28.060] So open your best PowerPoint presentation
+[00:00:28.060 → 00:00:32.240] and screenshot a few of the best slides or the different layouts that you want to capture.
+[00:00:32.660 → 00:00:36.540] Maybe title slide, section title, bullet point slide, things like that, right?
+[00:00:37.020 → 00:00:40.420] Start a new chat in Cloud, drop those screenshots in and say,
+[00:00:40.680 → 00:00:43.780] I want to create a skill to produce on-brand PowerPoint presentations.
+[00:00:44.240 → 00:00:46.660] Use these screenshots to define the rules.
+[00:00:47.080 → 00:00:49.380] What I would also do is drop in your font files
+[00:00:49.380 → 00:00:52.800] and also if you know your brand colors then paste them in as well.
+[00:00:53.180 → 00:00:54.620] When it's done creating that skill,
+[00:00:54.880 → 00:00:57.600] it might actually run a test and show you a few slides.
+[00:00:57.600 → 00:01:03.160] Or if it doesn't just say test this skill with a five slide deck or social media performance
+[00:01:03.160 → 00:01:04.560] Just make the numbers up for now
+[00:01:04.560 → 00:01:08.980] Okay, and that will give you a sense of how it will respond when it's doing real work for you now
+[00:01:08.980 → 00:01:12.060] There's probably going to be things you don't like things that need tweaking. That's normal
+[00:01:12.060 → 00:01:17.060] So now you just say thanks a few amends and just list all the things you want to change
+[00:01:17.060 → 00:01:19.520] Try and capture them all in one chat to save time
+[00:01:19.520 → 00:01:23.360] But just keep tweaking it till it's perfect and then when you're happy hit save skill
+[00:01:23.360 → 00:01:28.180] And that gets saved into those skills that we saw in the customized section and that's it
+[00:01:28.180 → 00:01:33.660] And now any time you can give it spreadsheets raw data vague ideas for it to go and research
+[00:01:33.660 → 00:01:36.580] And it will be able to create beautifully branded decks for you

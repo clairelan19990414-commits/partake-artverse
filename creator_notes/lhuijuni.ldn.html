@@ -5,9 +5,78 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>@lhuijuni.ldn · creator notes · partake</title>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../shared.css?v=creator-notes-guided-8">
+<link rel="stylesheet" href="../shared.css?v=creator-notes-guided-12">
+<style>
+  .finance-page {
+    --finance-ink: #1d1d1b;
+    --finance-paper: #eeede8;
+    --finance-card: rgba(255,255,255,0.48);
+    --finance-green: #3f8a2f;
+    --finance-line: rgba(29,29,27,0.16);
+    --finance-wash: rgba(63,138,47,0.09);
+  }
+  .finance-page .page-header {
+    border-bottom: 1px solid var(--finance-line);
+    background:
+      radial-gradient(circle at 10% 16%, rgba(63,138,47,0.15), transparent 28%),
+      radial-gradient(circle at 80% 8%, rgba(29,29,27,0.07), transparent 26%),
+      linear-gradient(135deg, rgba(255,255,255,0.58), rgba(232,231,224,0.74));
+  }
+  .finance-hero-grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr); gap: 28px; align-items: start; }
+  .finance-thesis { max-width: 880px; }
+  .finance-thesis .header-subject { max-width: 830px; }
+  .finance-meta-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+  .finance-pill { border: 1px solid var(--finance-line); background: rgba(255,255,255,0.55); padding: 7px 10px; font-family: var(--mono); font-size: 0.64rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-2); }
+  .hero-atlas, .finance-visuals, .reference-atlas, .concept-weave, .source-grid, .quote-grid-compact { display: grid; gap: 10px; }
+  .hero-atlas { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .hero-atlas a, .inline-figure a, .visual-card a, .source-card a, .finance-roadmap a { color: inherit; text-decoration: none; }
+  .hero-atlas figure, .inline-figure, .visual-card { margin: 0; border: 1px solid var(--finance-line); background: var(--finance-card); overflow: hidden; }
+  .hero-atlas img, .inline-figure img, .visual-card img { width: 100%; display: block; aspect-ratio: 4 / 3; object-fit: cover; filter: saturate(0.9) contrast(1.03); }
+  .logo-fit img { object-fit: contain; padding: 22px; background: rgba(255,255,255,0.7); }
+  .hero-atlas figcaption, .inline-figure figcaption, .visual-card figcaption { padding: 10px 12px; font-size: 0.74rem; line-height: 1.45; color: var(--text-2); border-top: 1px solid var(--finance-line); }
+  .hero-atlas strong, .inline-figure strong, .visual-card strong { display: block; font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--finance-ink); margin-bottom: 4px; }
+  .finance-roadmap { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; margin-top: 34px; }
+  .finance-roadmap a { display: block; min-height: 122px; padding: 13px; border: 1px solid var(--finance-line); background: rgba(255,255,255,0.42); }
+  .finance-roadmap span { display: block; font-family: var(--mono); font-size: 0.62rem; color: var(--finance-green); letter-spacing: 0.12em; margin-bottom: 14px; }
+  .finance-roadmap strong { display: block; font-family: var(--mono); font-size: 0.78rem; line-height: 1.35; }
+  .finance-roadmap em { display: block; margin-top: 8px; font-style: normal; font-size: 0.72rem; color: var(--text-2); line-height: 1.42; }
+  .argument-section { margin: 54px 0; }
+  .argument-panel { display: grid; grid-template-columns: minmax(0, 0.98fr) minmax(340px, 1.02fr); gap: 22px; align-items: stretch; border: 1px solid var(--finance-line); background: rgba(255,255,255,0.38); }
+  .argument-panel.reverse { grid-template-columns: minmax(340px, 1.02fr) minmax(0, 0.98fr); }
+  .argument-copy { padding: 24px; }
+  .argument-kicker, .mini-kicker { font-family: var(--mono); font-size: 0.64rem; letter-spacing: 0.12em; color: var(--finance-green); text-transform: uppercase; margin-bottom: 12px; }
+  .argument-copy h2 { margin: 0 0 14px; font-family: var(--mono); font-size: clamp(1.35rem, 2.4vw, 2.1rem); line-height: 1.1; }
+  .argument-copy p { color: var(--text-2); line-height: 1.72; margin: 0 0 14px; }
+  .argument-list { display: grid; gap: 10px; margin-top: 18px; }
+  .argument-list a { display: block; padding: 12px; border-left: 3px solid var(--finance-green); background: rgba(255,255,255,0.45); color: inherit; text-decoration: none; }
+  .argument-list strong { display: block; font-family: var(--mono); font-size: 0.78rem; margin-bottom: 4px; }
+  .argument-list span { font-size: 0.75rem; color: var(--text-2); line-height: 1.45; }
+  .finance-visuals { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 10px; }
+  .finance-visuals.single { grid-template-columns: 1fr; }
+  .finance-visuals.single .inline-figure img { aspect-ratio: 16 / 10; }
+  .concept-weave { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .concept-weave article { border: 1px solid var(--finance-line); background: var(--finance-card); padding: 16px; }
+  .concept-weave h3 { margin: 0 0 9px; font-family: var(--mono); font-size: 0.92rem; line-height: 1.3; }
+  .concept-weave p { margin: 0 0 12px; color: var(--text-2); line-height: 1.58; font-size: 0.82rem; }
+  .concept-weave small { font-family: var(--mono); color: var(--text-3); letter-spacing: 0.06em; }
+  .source-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .source-card { border: 1px solid var(--finance-line); background: rgba(255,255,255,0.42); padding: 14px; }
+  .source-card h3 { margin: 0 0 10px; font-family: var(--mono); font-size: 0.86rem; line-height: 1.35; }
+  .source-card p { margin: 0; font-size: 0.74rem; color: var(--text-2); line-height: 1.52; }
+  .reference-atlas { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .quote-grid-compact { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .quote-grid-compact .quote-item { background: rgba(255,255,255,0.44); border-left-color: var(--finance-green); }
+  @media (max-width: 980px) {
+    .finance-hero-grid, .argument-panel, .argument-panel.reverse { grid-template-columns: 1fr; }
+    .finance-roadmap, .concept-weave, .source-grid, .reference-atlas, .quote-grid-compact { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 640px) {
+    .hero-atlas, .finance-visuals, .finance-roadmap, .concept-weave, .source-grid, .reference-atlas, .quote-grid-compact { grid-template-columns: 1fr; }
+    .argument-copy { padding: 18px; }
+  }
+</style>
 </head>
-<body class="creator-note-page guided-note-page">
+<body class="creator-note-page guided-note-page finance-page">
 <nav class="site-nav">
   <a class="nav-logo" href="../index.html">partake</a>
   <div class="nav-links">
@@ -17,312 +86,204 @@
     <a class="nav-link" href="../language_memory.html">language memory</a>
     <a class="nav-link" href="../platform_selfhood.html">platform selfhood</a>
     <a class="nav-link" href="../visual_taste_place.html">visual taste place</a>
+    <a class="nav-link" href="../timeline.html">timeline</a>
+    <a class="nav-link" href="../artist_map.html">artist map</a>
+    <a class="nav-link" href="../septemics.html">septemics</a>
   </div>
 </nav>
 <header class="page-header creator-hero guided-hero">
-  <div class="creator-hero-layout">
-    <div class="creator-hero-main">
+  <div class="finance-hero-grid">
+    <div class="finance-thesis">
       <div class="header-eyebrow">INSTAGRAM SOURCE NOTES · <a href="../language_memory.html">LANGUAGE MEMORY</a></div>
       <h1 class="header-title">@lhuijuni.ldn</h1>
-      <p class="header-subject">This creator operates at the intersection of personal finance and late-stage capitalism critique, examining how economic systems shape bodies, lifestyles, and aspirations—particularly for high-earning women in expensive cities like London. She reframes wealth not as a number but as a quality-of-life question, using frameworks like time affluence and the HENRY trap to expose the gap between earning well and feeling rich. Her lens is observational and slightly sardonic: capitalism produces absurdities (£300 gyms, body-as-brand culture, financial nihilism) and she documents them as a fellow participant, not a detached critic.</p>
-      <div class="header-meta"><span>8 concepts</span><span>10 references</span><span>5 positions</span></div>
+      <p class="header-subject">This page reads @lhuijuni.ldn as a field guide to high-cost-city capitalism. Money is not treated as a neutral spreadsheet; it becomes time, body maintenance, career signaling, housing math, platform soft power, luxury absurdity, and macro-finance folklore.</p>
+      <div class="finance-meta-row">
+        <span class="finance-pill">18 harvested captions</span>
+        <span class="finance-pill">8 core source posts</span>
+        <span class="finance-pill">9 real visual references</span>
+        <span class="finance-pill">no fake image cards</span>
+      </div>
     </div>
-    <aside class="roadmap-panel" aria-label="Reading road map">
-      <div class="roadmap-eyebrow">read this page as</div>
-      <h2>Road map</h2>
-      <p>Follow the argument through four linked ideas. Each step pairs a concept with a source reference and one strong position.</p>
-      <div class="roadmap-list"><a class="roadmap-step" href="#step-1">
-          <span class="roadmap-number">01</span>
-          <span><strong>Time Affluence</strong><em>The psychological feeling of having enough time; research shows this predicts…</em></span>
-        </a><a class="roadmap-step" href="#step-2">
-          <span class="roadmap-number">02</span>
-          <span><strong>HENRY Trap</strong><em>High Earner Not Rich Yet — the structural bind where top-3% earners in high-cost…</em></span>
-        </a><a class="roadmap-step" href="#step-3">
-          <span class="roadmap-number">03</span>
-          <span><strong>Body-as-Brand</strong><em>The shift of the body into a professional status signal in competitive cities,…</em></span>
-        </a><a class="roadmap-step" href="#step-4">
-          <span class="roadmap-number">04</span>
-          <span><strong>Financial Nihilism</strong><em>A generational loss of faith in traditional wealth-building paths — particularly…</em></span>
-        </a></div>
-    </aside>
-    <div class="inline-ref-strip inline-ref-strip--textual"><a class="inline-ref-chip inline-ref-chip--context" href="https://www.google.com/search?q=Hindenburg+Research"><span class="inline-ref-text-mark">context</span><span>Hindenburg Research</span></a><a class="inline-ref-chip inline-ref-chip--context" href="https://www.google.com/search?q=Adani+Group"><span class="inline-ref-text-mark">context</span><span>Adani Group</span></a><a class="inline-ref-chip inline-ref-chip--context" href="https://www.google.com/search?q=Block"><span class="inline-ref-text-mark">context</span><span>Block (Jack Dorsey)</span></a><a class="inline-ref-chip inline-ref-chip--context" href="https://www.google.com/search?q=Fumi+Wakabayashi"><span class="inline-ref-text-mark">context</span><span>Fumi Wakabayashi — I Love Stocks</span></a></div>
+    <div class="hero-atlas" aria-label="Opening visual references">
+      <figure><a href="https://en.wikipedia.org/wiki/Time_management" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/time-affluence-clock.jpg" alt="Benjamin Franklin daily schedule"></a><figcaption><strong>Time affluence</strong> The real luxury question is not only income, but whether income returns time.</figcaption></figure>
+      <figure><a href="https://en.wikipedia.org/wiki/City_of_London" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/city-of-london.jpg" alt="Bank junction in the City of London"></a><figcaption><strong>High-cost city</strong> London turns a strong salary into a fragile quality-of-life equation.</figcaption></figure>
+      <figure class="logo-fit"><a href="https://hindenburgresearch.com/" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/hindenburg-research.png" alt="Hindenburg Research logo"></a><figcaption><strong>Activist short-selling</strong> Finance appears as investigation, accusation, and reputational collapse.</figcaption></figure>
+      <figure><a href="https://commons.wikimedia.org/wiki/File:Browsing_for_Labubu.jpg" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/labubu-pop-mart.jpg" alt="Labubu retail display"></a><figcaption><strong>Soft power by desire</strong> Labubu shows consumer IP traveling faster than official cultural diplomacy.</figcaption></figure>
+    </div>
   </div>
+  <nav class="finance-roadmap" aria-label="Page roadmap">
+    <a href="#time"><span>01</span><strong>Wealth is time</strong><em>Income stops feeling like wealth when it buys no slack.</em></a>
+    <a href="#henry"><span>02</span><strong>The HENRY trap</strong><em>High earners can still be asset-poor in expensive cities.</em></a>
+    <a href="#body"><span>03</span><strong>Body as status asset</strong><em>Aesthetics become professional infrastructure.</em></a>
+    <a href="#finance"><span>04</span><strong>Finance as folklore</strong><em>Markets become stories ordinary people use to narrate risk.</em></a>
+    <a href="#soft-power"><span>05</span><strong>Soft-power absurdity</strong><em>Luxury, China, and attention culture scramble prestige.</em></a>
+  </nav>
 </header>
 <main class="page-body creator-note-body guided-note-body">
-  <section id="guided-route" class="guided-route-section">
-    <div class="section-label">Guided Route</div>
-    <div class="story-flow"><article class="story-step" id="step-1">
-        <div class="story-marker"><span>01</span></div>
-        <div class="story-copy">
-          <div class="story-kicker">DXCETV9DGj8</div>
-          <h2>Time Affluence</h2>
-          <p>The psychological feeling of having enough time; research shows this predicts wellbeing better than income once basic needs are met, making it the true metric of wealth for high earners.</p>
-          <a class="story-reference story-reference--context" href="https://www.google.com/search?q=Hindenburg+Research">
-            <span class="story-reference-context-mark">organization</span>
-            <span class="story-ref-label">organization</span>
-            <strong>Hindenburg Research</strong>
-            <em>via DU-9p61jCwi</em>
-          </a>
-          <blockquote>At some point, earning more only makes you happier if it also increases your time affluence.</blockquote>
-          
+  <section id="time" class="argument-section">
+    <div class="section-label">01 · Wealth Is Time</div>
+    <div class="argument-panel">
+      <div class="argument-copy">
+        <div class="argument-kicker">DXCETV9DGj8 · DVyM_1oCKFq</div>
+        <h2>The page starts by changing the unit of wealth.</h2>
+        <p>The creator's strongest personal-finance move is to stop asking whether someone earns enough in the abstract. She asks whether money turns into time affluence: the felt ability to decide what your hours are for.</p>
+        <p>This matters because high earners often buy convenience only after work has already consumed the day. Food delivery, Ubers, premium gyms, services, and biohacking routines can look like abundance while actually documenting time scarcity.</p>
+        <p>In this frame, wealth is not a number in a salary band. It is a relationship between money, calendar, body, commute, dependents, taxes, housing, and the psychological feeling that life is not always rushing past you.</p>
+        <div class="argument-list">
+          <a href="https://www.instagram.com/reel/DXCETV9DGj8/" target="_blank" rel="noopener"><strong>Time affluence</strong><span>Wellbeing is linked to the feeling of having enough time, not only to higher income after needs are met.</span></a>
+          <a href="https://en.wikipedia.org/wiki/Time_management" target="_blank" rel="noopener"><strong>Reference image</strong><span>The Franklin schedule works as a historical icon of arranging life around time rather than consumption.</span></a>
         </div>
-      </article><article class="story-step" id="step-2">
-        <div class="story-marker"><span>02</span></div>
-        <div class="story-copy">
-          <div class="story-kicker">DUl5YiHDgIe</div>
-          <h2>HENRY Trap</h2>
-          <p>High Earner Not Rich Yet — the structural bind where top-3% earners in high-cost cities remain asset-poor due to punitive tax thresholds, lifestyle inflation, and housing unaffordability.</p>
-          <a class="story-reference story-reference--context" href="https://www.google.com/search?q=Adani+Group">
-            <span class="story-reference-context-mark">company</span>
-            <span class="story-ref-label">company</span>
-            <strong>Adani Group</strong>
-            <em>via DU-9p61jCwi</em>
-          </a>
-          <blockquote>Your body is your brand now, whether you opted into that or not — you&#x27;re not vain for caring how you look, you&#x27;re just playing the game the way the game is currently set up.</blockquote>
-          
-        </div>
-      </article><article class="story-step" id="step-3">
-        <div class="story-marker"><span>03</span></div>
-        <div class="story-copy">
-          <div class="story-kicker">DWe5evKDiMJ</div>
-          <h2>Body-as-Brand</h2>
-          <p>The shift of the body into a professional status signal in competitive cities, where fitness, aesthetics, and biohacking vocabulary function as career credentials that have inflated beyond traditional markers like degrees and salaries.</p>
-          <a class="story-reference story-reference--context" href="https://www.google.com/search?q=Block">
-            <span class="story-reference-context-mark">company</span>
-            <span class="story-ref-label">company</span>
-            <strong>Block (Jack Dorsey)</strong>
-            <em>via DU-9p61jCwi</em>
-          </a>
-          <blockquote>If your credentials weren&#x27;t enough, and now your body is not enough either, what&#x27;s left to optimize?</blockquote>
-          
-        </div>
-      </article><article class="story-step" id="step-4">
-        <div class="story-marker"><span>04</span></div>
-        <div class="story-copy">
-          <div class="story-kicker">DVZRSsbDlEf</div>
-          <h2>Financial Nihilism</h2>
-          <p>A generational loss of faith in traditional wealth-building paths — particularly homeownership — causing Gen Z to redirect toward immediate consumption, volatile assets, and deprioritized career ambition.</p>
-          <a class="story-reference story-reference--context" href="https://www.google.com/search?q=Fumi+Wakabayashi">
-            <span class="story-reference-context-mark">book</span>
-            <span class="story-ref-label">book</span>
-            <strong>Fumi Wakabayashi — I Love Stocks</strong>
-            <em>via DUtDpjVjELv</em>
-          </a>
-          <blockquote>A Henry in London with two kids earning £99,999 might actually end up with more disposable income than someone in the same situation earning £149K — so people are refusing promotions just to stay below the 100K threshold.</blockquote>
-          
-        </div>
-      </article></div>
-  </section>
-  <section id="source-corpus" class="source-corpus-section">
-    <div class="section-label">Evidence Trail</div>
-    <div class="source-corpus-intro">
-      <p>This is the source texture behind the notes: a curated path through the harvested captions so the page reads less like an abstract summary and more like a map of what @lhuijuni.ldn actually kept returning to.</p>
-      <div class="corpus-meta"><span>18 harvested posts</span><span>12 source cards</span><span>class / capital, identity script, research / reading, source post, platform behavior</span></div>
+      </div>
+      <div class="finance-visuals">
+        <figure class="inline-figure"><a href="https://en.wikipedia.org/wiki/Time_management" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/time-affluence-clock.jpg" alt="Benjamin Franklin daily schedule"></a><figcaption><strong>Time as a wealth object</strong>The old schedule image makes the concept concrete: the scarce resource being optimized is life structure.</figcaption></figure>
+        <figure class="inline-figure"><a href="https://en.wikipedia.org/wiki/City_of_London" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/city-of-london.jpg" alt="City of London bank junction"></a><figcaption><strong>The city as pressure system</strong>High-cost urban life can turn a large income into a narrow corridor of choices.</figcaption></figure>
+      </div>
     </div>
-    <div class="corpus-grid"><a class="corpus-card" href="https://www.instagram.com/reel/DXCETV9DGj8/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 01 · DXCETV9DGj8</div>
-          <h3>At some point earning more only makes you happier if it also increase your time affluence.</h3>
-          <p>A source post from the harvested caption set that helps show the creator&#x27;s recurring terrain.</p>
-          <span class="corpus-role">class / capital</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DXPLGRhjHXq/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 02 · DXPLGRhjHXq</div>
-          <h3>This is not new but am I the only one who thinks that this is getting worse? #bodyasastatu</h3>
-          <p>This is not new but am I the only one who thinks that this is getting worse?</p>
-          <span class="corpus-role">identity script</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DWzO1vvjjhv/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 03 · DWzO1vvjjhv</div>
-          <h3>Both the body and the mind need to be taken care of. 🤍 #selfcare #mentalhealth #selfoptimi</h3>
-          <p>Both the body and the mind need to be taken care of. 🤍</p>
-          <span class="corpus-role">identity script</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DWvuOn8jFZn/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 04 · DWvuOn8jFZn</div>
-          <h3>Remember to check the full holdings list before you buy an ETF.</h3>
-          <p>Remember to check the full holdings list before you buy an ETF. *** I’m not a financial advisor, please do your own research before investing. This video is for educational purpose only. ***</p>
-          <span class="corpus-role">research / reading</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DWMFQHkjDIV/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 05 · DWMFQHkjDIV</div>
-          <h3>Is it really worth it to pay 300£ a month for a slightly better gym with a pool? #gym #wel</h3>
-          <p>Is it really worth it to pay 300£ a month for a slightly better gym with a pool?</p>
-          <span class="corpus-role">source post</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DWCr-mfDMHx/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 06 · DWCr-mfDMHx</div>
-          <h3>Zero shade to the creators featured!! Shoutout to them for finding these stuff. We’re all</h3>
-          <p>Zero shade to the creators featured!! Shoutout to them for finding these stuff. We’re all witnesses to late stage capitalism together 😭</p>
-          <span class="corpus-role">platform behavior</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DVjXE_tjBGE/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 07 · DVjXE_tjBGE</div>
-          <h3>is the trump put coming at all ?🥶 #stockmarket #financialmarket #trumpput #fedput</h3>
-          <p>is the trump put coming at all ?🥶</p>
-          <span class="corpus-role">source post</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DVFB_pUjCOK/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 08 · DVFB_pUjCOK</div>
-          <h3>What’s your take on the rise of the Chinese soft power? #chinamaxxing #youfoundmeataverych</h3>
-          <p>What’s your take on the rise of the Chinese soft power?</p>
-          <span class="corpus-role">source post</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DU-9p61jCwi/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 09 · DU-9p61jCwi</div>
-          <h3>Do you think they are white knights of the market or market manipulators? #finance #financ</h3>
-          <p>Do you think they are white knights of the market or market manipulators?</p>
-          <span class="corpus-role">class / capital</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DUtDpjVjELv/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 10 · DUtDpjVjELv</div>
-          <h3>Mrs Watanabe and their FX trading #personalfinanceforwomen #personalfinance #finance #inte</h3>
-          <p>Mrs Watanabe and their FX trading</p>
-          <span class="corpus-role">class / capital</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DUl5YiHDgIe/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 11 · DUl5YiHDgIe</div>
-          <h3>On being in the HENRY trap: high earners not rich yet #personalfinance #personalfinancefor</h3>
-          <p>On being in the HENRY trap: high earners not rich yet</p>
-          <span class="corpus-role">class / capital</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DUbw5AADDI1/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 12 · DUbw5AADDI1</div>
-          <h3>It’s a complex question because it’s a financial decision as much as it is an aspirational</h3>
-          <p>It’s a complex question because it’s a financial decision as much as it is an aspirational lifestyle choice!!</p>
-          <span class="corpus-role">visual culture</span>
-        </a></div>
   </section>
-  <section id="concepts">
+
+  <section id="henry" class="argument-section">
+    <div class="section-label">02 · The HENRY Trap</div>
+    <div class="argument-panel reverse">
+      <div class="finance-visuals">
+        <figure class="inline-figure"><a href="https://en.wikipedia.org/wiki/City_of_London" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/city-of-london.jpg" alt="City of London street scene"></a><figcaption><strong>London math</strong>The HENRY story needs a place image because the contradiction is spatial: income is high, but the city absorbs it.</figcaption></figure>
+        <figure class="inline-figure"><a href="https://commons.wikimedia.org/wiki/File:GoldmanSachsHeadquarters.JPG" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/goldman-sachs.jpg" alt="Goldman Sachs headquarters"></a><figcaption><strong>Prestige does not equal freedom</strong>Institutional status can coexist with tax cliffs, rent pressure, childcare costs, and asset anxiety.</figcaption></figure>
+      </div>
+      <div class="argument-copy">
+        <div class="argument-kicker">DUl5YiHDgIe · HENRY / London salary trap</div>
+        <h2>A high salary can become a strangely expensive form of precarity.</h2>
+        <p>HENRY means High Earner Not Rich Yet. The useful part of the framework is that it separates income status from actual security. A person can look economically successful while remaining far from ownership, slack, or resilience.</p>
+        <p>The London example is especially sharp because the story is not simply personal overspending. It combines tax thresholds, childcare, lifestyle inflation, rent, mortgage barriers, and professional expectations into a situation where earning more can feel like standing still.</p>
+        <p>That is why the creator's sardonic tone works. The absurdity is real: the system praises ambition, then makes the rewards feel too delayed or too conditional to stabilize a life.</p>
+        <div class="argument-list">
+          <a href="https://www.instagram.com/reel/DUl5YiHDgIe/" target="_blank" rel="noopener"><strong>Source clip</strong><span>A HENRY in London can be high earning on paper while squeezed by tax, housing, childcare, and lifestyle obligations.</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="body" class="argument-section">
+    <div class="section-label">03 · Body As Status Asset</div>
+    <div class="argument-panel">
+      <div class="argument-copy">
+        <div class="argument-kicker">DWe5evKDiMJ · DXPLGRhjHXq · DWMFQHkjDIV</div>
+        <h2>The body becomes another credential people are expected to maintain.</h2>
+        <p>The creator's body-as-brand argument is not a shallow comment about vanity. It is a diagnosis of professional inflation. Degrees, job titles, and salaries no longer feel like enough, so the polished body becomes another proof of discipline, taste, and competitiveness.</p>
+        <p>This is where wellness becomes economic language. The expensive gym, the calibrated body, the skincare routine, the biohacking phrase, and the optimized morning are all signals that a person can absorb pressure and still look composed.</p>
+        <p>The real critique is that this asks people to treat the body as a public-facing asset. Even refusal becomes difficult, because opting out can look like failing to play the game everyone else is forced to acknowledge.</p>
+        <div class="argument-list">
+          <a href="https://www.instagram.com/reel/DWe5evKDiMJ/" target="_blank" rel="noopener"><strong>Body-as-brand</strong><span>The body is described as a status signal in competitive cities, not just a private project.</span></a>
+          <a href="https://www.instagram.com/reel/DXPLGRhjHXq/" target="_blank" rel="noopener"><strong>Fitness as class signal</strong><span>Premium gym culture becomes a shorthand for discipline, access, and professional self-presentation.</span></a>
+        </div>
+      </div>
+      <div class="finance-visuals single">
+        <figure class="inline-figure"><a href="https://www.balenciaga.com/" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/balenciaga.png" alt="Balenciaga social thumbnail"></a><figcaption><strong>Luxury as body language</strong>Balenciaga stands in for a status system where identity, image, and economic position are read through surfaces.</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="finance" class="argument-section">
+    <div class="section-label">04 · Finance As Folklore</div>
+    <div class="argument-panel reverse">
+      <div class="finance-visuals">
+        <figure class="inline-figure logo-fit"><a href="https://hindenburgresearch.com/" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/hindenburg-research.png" alt="Hindenburg Research logo"></a><figcaption><strong>Hindenburg Research</strong>Activist short-selling turns financial research into a public narrative event.</figcaption></figure>
+        <figure class="inline-figure logo-fit"><a href="https://commons.wikimedia.org/wiki/File:Adani_2012_logo.png" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/adani-group.png" alt="Adani Group logo"></a><figcaption><strong>Adani Group</strong>The example gives the short-selling story a real corporate target rather than an abstract market mechanism.</figcaption></figure>
+        <figure class="inline-figure"><a href="https://block.xyz/" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/block-inc.png" alt="Block Inc visual mark"></a><figcaption><strong>Block</strong>Tech finance appears as both infrastructure and reputation object.</figcaption></figure>
+        <figure class="inline-figure"><a href="https://commons.wikimedia.org/wiki/File:GoldmanSachsHeadquarters.JPG" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/goldman-sachs.jpg" alt="Goldman Sachs headquarters"></a><figcaption><strong>Institutional finance</strong>The building makes the abstraction tangible: money culture has architecture.</figcaption></figure>
+      </div>
+      <div class="argument-copy">
+        <div class="argument-kicker">DU-9p61jCwi · DUtDpjVjELv · DVZRSsbDlEf</div>
+        <h2>Markets become stories people use to explain a broken future.</h2>
+        <p>The creator's finance posts often turn technical ideas into social folklore. Activist short-selling becomes detective work with a profit motive. Carry trade becomes a story about Japanese household investors. Financial nihilism becomes a generational mood after homeownership stops feeling reachable.</p>
+        <p>This is why the notes belong in the language-memory cluster. Terms like HENRY, Mrs. Watanabe, activist short-selling, and financial nihilism are not just finance vocabulary. They are cultural containers for fear, agency, gender, class position, and distrust.</p>
+        <p>The point is not to teach investing. It is to show how economic language gives people a way to narrate pressure when older promises of work, saving, and property no longer feel reliable.</p>
+        <div class="argument-list">
+          <a href="https://www.instagram.com/reel/DU-9p61jCwi/" target="_blank" rel="noopener"><strong>Activist short-selling</strong><span>Forensic investigation meets market incentive: expose the company, short the stock, publish the case.</span></a>
+          <a href="https://www.instagram.com/reel/DUtDpjVjELv/" target="_blank" rel="noopener"><strong>Mrs. Watanabe / carry trade</strong><span>A technical currency strategy becomes memorable through a household-investor folk figure.</span></a>
+          <a href="https://www.instagram.com/reel/DVZRSsbDlEf/" target="_blank" rel="noopener"><strong>Financial nihilism</strong><span>When ownership feels impossible, people redirect hope into immediate consumption or volatile bets.</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="soft-power" class="argument-section">
+    <div class="section-label">05 · Soft-Power Absurdity</div>
+    <div class="argument-panel">
+      <div class="argument-copy">
+        <div class="argument-kicker">DVFB_pUjCOK · DWCr-mfDMHx</div>
+        <h2>Prestige is no longer distributed from one cultural center.</h2>
+        <p>The China soft-power post is strongest when it contrasts official cultural institutions with attention-economy desire. A Confucius Institute represents state-backed cultural projection. Labubu represents a different route: consumer IP, collectability, meme velocity, and the global spread of cute objects.</p>
+        <p>That sits next to the late-capitalism luxury posts because both ask who gets to define aspiration now. Goldman, Balenciaga, Pop Mart, and platform celebrity do not belong to the same category, but they collide in the same attention environment.</p>
+        <p>The result is multipolar modernity as lived confusion: people read brands, countries, influencers, and institutions as competing signals of what progress, taste, status, and belonging are supposed to look like.</p>
+        <div class="argument-list">
+          <a href="https://www.instagram.com/reel/DVFB_pUjCOK/" target="_blank" rel="noopener"><strong>China soft power</strong><span>Official cultural diplomacy is compared with the faster, stranger spread of consumer attention objects.</span></a>
+          <a href="https://www.instagram.com/reel/DWCr-mfDMHx/" target="_blank" rel="noopener"><strong>Late-stage capitalism</strong><span>Luxury and finance are treated as cultural absurdities, not separate economic sectors.</span></a>
+        </div>
+      </div>
+      <div class="finance-visuals">
+        <figure class="inline-figure"><a href="https://commons.wikimedia.org/wiki/File:Browsing_for_Labubu.jpg" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/labubu-pop-mart.jpg" alt="Labubu display in a shop window"></a><figcaption><strong>Labubu / Pop Mart</strong>A collectible toy becomes a more emotionally efficient soft-power carrier than a policy memo.</figcaption></figure>
+        <figure class="inline-figure"><a href="https://commons.wikimedia.org/wiki/File:Confucius_Institute_Troy_University.jpg" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/confucius-institutes.jpg" alt="Confucius Institute building"></a><figcaption><strong>Confucius Institute</strong>The institutional image shows the older, formal version of cultural projection.</figcaption></figure>
+        <figure class="inline-figure"><a href="https://www.balenciaga.com/" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/balenciaga.png" alt="Balenciaga social thumbnail"></a><figcaption><strong>Balenciaga</strong>Luxury becomes a language for absurd aspiration and social reading.</figcaption></figure>
+        <figure class="inline-figure"><a href="https://commons.wikimedia.org/wiki/File:GoldmanSachsHeadquarters.JPG" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/goldman-sachs.jpg" alt="Goldman Sachs headquarters"></a><figcaption><strong>Goldman Sachs</strong>Finance prestige enters the same symbolic field as fashion and collectible IP.</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="concepts" class="argument-section">
     <div class="section-label">Concept Library</div>
-    <div class="note-cards-grid"><article class="note-card compact-note" id="concept-time-affluence">
-          <div class="note-card-kicker">concept 01 · DXCETV9DGj8</div>
-          <h3><a href="#concept-time-affluence">Time Affluence</a></h3>
-          <p>The psychological feeling of having enough time; research shows this predicts wellbeing better than income once basic needs are met, making it the true metric of wealth for high earners.</p>
-        </article><article class="note-card compact-note" id="concept-henry-trap">
-          <div class="note-card-kicker">concept 02 · DUl5YiHDgIe</div>
-          <h3><a href="#concept-henry-trap">HENRY Trap</a></h3>
-          <p>High Earner Not Rich Yet — the structural bind where top-3% earners in high-cost cities remain asset-poor due to punitive tax thresholds, lifestyle inflation, and housing unaffordability.</p>
-        </article><article class="note-card compact-note" id="concept-body-as-brand">
-          <div class="note-card-kicker">concept 03 · DWe5evKDiMJ</div>
-          <h3><a href="#concept-body-as-brand">Body-as-Brand</a></h3>
-          <p>The shift of the body into a professional status signal in competitive cities, where fitness, aesthetics, and biohacking vocabulary function as career credentials that have inflated beyond traditional markers like degrees and salaries.</p>
-        </article><article class="note-card compact-note" id="concept-financial-nihilism">
-          <div class="note-card-kicker">concept 04 · DVZRSsbDlEf</div>
-          <h3><a href="#concept-financial-nihilism">Financial Nihilism</a></h3>
-          <p>A generational loss of faith in traditional wealth-building paths — particularly homeownership — causing Gen Z to redirect toward immediate consumption, volatile assets, and deprioritized career ambition.</p>
-        </article><article class="note-card compact-note" id="concept-lifestyle-inflation">
-          <div class="note-card-kicker">concept 05 · DUl5YiHDgIe</div>
-          <h3><a href="#concept-lifestyle-inflation">Lifestyle Inflation</a></h3>
-          <p>The voluntary (image maintenance) and involuntary (convenience purchasing under time scarcity) escalation of spending that accompanies high-pressure professional roles, eroding the practical gains of higher income.</p>
-        </article><article class="note-card compact-note" id="concept-carry-trade-mrs-watanabe">
-          <div class="note-card-kicker">concept 06 · DUtDpjVjELv</div>
-          <h3><a href="#concept-carry-trade-mrs-watanabe">Carry Trade / Mrs. Watanabe</a></h3>
-          <p>A currency strategy — borrow in a low-interest currency, invest in a high-interest one — popularized by ordinary Japanese housewives managing household savings, reframing finance as democratically accessible rather than Wall Street-exclusive.</p>
-        </article><article class="note-card compact-note" id="concept-activist-short-selling">
-          <div class="note-card-kicker">concept 07 · DU-9p61jCwi</div>
-          <h3><a href="#concept-activist-short-selling">Activist Short-Selling</a></h3>
-          <p>A market practice of forensic investigation into corporate fraud or misconduct, followed by taking a short position before publishing findings publicly — controversial because profit is structurally tied to reputational damage.</p>
-        </article><article class="note-card compact-note" id="concept-multipolar-modernity">
-          <div class="note-card-kicker">concept 08 · DVFB_pUjCOK</div>
-          <h3><a href="#concept-multipolar-modernity">Multipolar Modernity</a></h3>
-          <p>The fracturing of Western modernity as the global default reference point, with China&#x27;s rising cultural visibility via the attention economy signaling a shift toward multiple parallel versions of what progress and lifestyle look like.</p>
-        </article></div>
+    <div class="concept-weave">
+      <article><h3>Time affluence</h3><p>The feeling of having enough discretionary time. The creator treats it as the real wealth metric once basic needs are met, because money without time still feels like scarcity.</p><small>via DXCETV9DGj8</small></article>
+      <article><h3>HENRY trap</h3><p>High Earner Not Rich Yet: the status contradiction where a person earns well but remains far from durable wealth because housing, taxes, childcare, and lifestyle costs absorb the gain.</p><small>via DUl5YiHDgIe</small></article>
+      <article><h3>Body-as-brand</h3><p>The body becomes a public credential in competitive cities, signaling discipline, taste, and economic capacity alongside degrees, jobs, and salaries.</p><small>via DWe5evKDiMJ</small></article>
+      <article><h3>Financial nihilism</h3><p>A loss of faith in traditional wealth-building paths. When ownership feels unreachable, immediate pleasure and volatile bets can start to feel rational.</p><small>via DVZRSsbDlEf</small></article>
+      <article><h3>Lifestyle inflation</h3><p>Spending rises both voluntarily and defensively: image maintenance, convenience purchases, premium health routines, and services that compensate for time scarcity.</p><small>via DUl5YiHDgIe</small></article>
+      <article><h3>Carry trade folklore</h3><p>A technical currency strategy becomes culturally memorable through the figure of Mrs. Watanabe, turning household finance into macro-finance mythology.</p><small>via DUtDpjVjELv</small></article>
+      <article><h3>Activist short-selling</h3><p>Research, accusation, public evidence, and profit become intertwined. The practice is ethically tense because reputation damage and market gain arrive together.</p><small>via DU-9p61jCwi</small></article>
+      <article><h3>Multipolar modernity</h3><p>Western aspiration is no longer the only reference point. Cultural power now moves through institutions, brands, toys, platforms, and attention loops at once.</p><small>via DVFB_pUjCOK</small></article>
+    </div>
   </section>
-  <section id="references">
-    <div class="section-label">Reference Atlas</div>
-    <div class="reference-grid"><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>organization</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Hindenburg+Research">Hindenburg Research</a></h3>
-            <div class="reference-type">organization</div>
-            <p>via DU-9p61jCwi</p>
-            <p class="reference-context-copy">Used in @lhuijuni.ldn to anchor “Activist Short-Selling”: A market practice of forensic investigation into corporate fraud or misconduct, followed by taking a short position before publishing findings publicly — controversial because profit is structurally tied to...</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>company</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Adani+Group">Adani Group</a></h3>
-            <div class="reference-type">company</div>
-            <p>via DU-9p61jCwi</p>
-            <p class="reference-context-copy">Used in @lhuijuni.ldn to anchor “Activist Short-Selling”: A market practice of forensic investigation into corporate fraud or misconduct, followed by taking a short position before publishing findings publicly — controversial because profit is structurally tied to...</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>company</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Block">Block (Jack Dorsey)</a></h3>
-            <div class="reference-type">company</div>
-            <p>via DU-9p61jCwi</p>
-            <p class="reference-context-copy">Used in @lhuijuni.ldn to anchor “Activist Short-Selling”: A market practice of forensic investigation into corporate fraud or misconduct, followed by taking a short position before publishing findings publicly — controversial because profit is structurally tied to...</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>book</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Fumi+Wakabayashi">Fumi Wakabayashi — I Love Stocks</a></h3>
-            <div class="reference-type">book</div>
-            <p>via DUtDpjVjELv</p>
-            <p class="reference-context-copy">Used in @lhuijuni.ldn to anchor “Carry Trade / Mrs. Watanabe”: A currency strategy — borrow in a low-interest currency, invest in a high-interest one — popularized by ordinary Japanese housewives managing household savings, reframing finance as democratically accessible...</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>book/social club</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Mayumi+Tori">Mayumi Tori — FX Beauty Club</a></h3>
-            <div class="reference-type">book/social club</div>
-            <p>via DUtDpjVjELv</p>
-            <p class="reference-context-copy">Used in @lhuijuni.ldn to anchor “Carry Trade / Mrs. Watanabe”: A currency strategy — borrow in a low-interest currency, invest in a high-interest one — popularized by ordinary Japanese housewives managing household savings, reframing finance as democratically accessible...</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>brand</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Pop+Mart">Pop Mart (labubu/boo-boos)</a></h3>
-            <div class="reference-type">brand</div>
-            <p>via DVFB_pUjCOK</p>
-            <p class="reference-context-copy">Used in @lhuijuni.ldn to anchor “Multipolar Modernity”: The fracturing of Western modernity as the global default reference point, with China&#x27;s rising cultural visibility via the attention economy signaling a shift toward multiple parallel versions of what progress...</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>person</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=I+Show+Speed">I Show Speed</a></h3>
-            <div class="reference-type">person</div>
-            <p>via DVFB_pUjCOK</p>
-            <p class="reference-context-copy">Used in @lhuijuni.ldn to anchor “Multipolar Modernity”: The fracturing of Western modernity as the global default reference point, with China&#x27;s rising cultural visibility via the attention economy signaling a shift toward multiple parallel versions of what progress...</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>institution</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Confucius+Institutes">Confucius Institutes</a></h3>
-            <div class="reference-type">institution</div>
-            <p>via DVFB_pUjCOK</p>
-            <p class="reference-context-copy">Used in @lhuijuni.ldn to anchor “Multipolar Modernity”: The fracturing of Western modernity as the global default reference point, with China&#x27;s rising cultural visibility via the attention economy signaling a shift toward multiple parallel versions of what progress...</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>institution</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Goldman+Sachs">Goldman Sachs</a></h3>
-            <div class="reference-type">institution</div>
-            <p>via DWCr-mfDMHx</p>
-            <p class="reference-context-copy">Context for @lhuijuni.ldn: this institution sits inside the creator’s broader argument: This creator operates at the intersection of personal finance and late-stage capitalism critique, examining how economic systems shape bodies, lifestyles, and aspirations—particularly for high-earning women in expensive...</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>brand</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Balenciaga">Balenciaga</a></h3>
-            <div class="reference-type">brand</div>
-            <p>via DWCr-mfDMHx</p>
-            <p class="reference-context-copy">Context for @lhuijuni.ldn: this brand sits inside the creator’s broader argument: This creator operates at the intersection of personal finance and late-stage capitalism critique, examining how economic systems shape bodies, lifestyles, and aspirations—particularly for high-earning women in expensive...</p>
-          </div>
-        </article></div>
+
+  <section id="source-trail" class="argument-section">
+    <div class="section-label">Source Trail</div>
+    <div class="source-grid">
+      <article class="source-card"><a href="https://www.instagram.com/reel/DXCETV9DGj8/" target="_blank" rel="noopener"><div class="mini-kicker">DXCETV9DGj8</div><h3>Time Affluence</h3><p>Reframes wealth as the ability to control time, not only the ability to buy more.</p></a></article>
+      <article class="source-card"><a href="https://www.instagram.com/reel/DUl5YiHDgIe/" target="_blank" rel="noopener"><div class="mini-kicker">DUl5YiHDgIe</div><h3>HENRY Trap</h3><p>Explains how a high income in London can fail to become security or freedom.</p></a></article>
+      <article class="source-card"><a href="https://www.instagram.com/reel/DWe5evKDiMJ/" target="_blank" rel="noopener"><div class="mini-kicker">DWe5evKDiMJ</div><h3>Body-as-Brand</h3><p>Reads bodily maintenance as a new professional status signal.</p></a></article>
+      <article class="source-card"><a href="https://www.instagram.com/reel/DVZRSsbDlEf/" target="_blank" rel="noopener"><div class="mini-kicker">DVZRSsbDlEf</div><h3>Financial Nihilism</h3><p>Connects homeownership despair with consumption, volatile assets, and work refusal.</p></a></article>
+      <article class="source-card"><a href="https://www.instagram.com/reel/DUtDpjVjELv/" target="_blank" rel="noopener"><div class="mini-kicker">DUtDpjVjELv</div><h3>Mrs. Watanabe</h3><p>Turns carry trade into a gendered household-finance story.</p></a></article>
+      <article class="source-card"><a href="https://www.instagram.com/reel/DU-9p61jCwi/" target="_blank" rel="noopener"><div class="mini-kicker">DU-9p61jCwi</div><h3>Activist Short-Selling</h3><p>Explains how public research, corporate accusation, and market position connect.</p></a></article>
+      <article class="source-card"><a href="https://www.instagram.com/reel/DVFB_pUjCOK/" target="_blank" rel="noopener"><div class="mini-kicker">DVFB_pUjCOK</div><h3>China Soft Power</h3><p>Compares formal cultural institutions with the faster spread of consumer IP.</p></a></article>
+      <article class="source-card"><a href="https://www.instagram.com/reel/DWCr-mfDMHx/" target="_blank" rel="noopener"><div class="mini-kicker">DWCr-mfDMHx</div><h3>Luxury Absurdity</h3><p>Places Goldman, Balenciaga, and late capitalism inside the same symbolic economy.</p></a></article>
+    </div>
   </section>
-  <section id="positions">
+
+  <section id="atlas" class="argument-section">
+    <div class="section-label">Reference Atlas · real images only</div>
+    <div class="reference-atlas">
+      <figure class="visual-card"><a href="https://en.wikipedia.org/wiki/Time_management" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/time-affluence-clock.jpg" alt="Benjamin Franklin schedule"></a><figcaption><strong>Time management</strong>Useful for the time-affluence argument because it makes time itself visible as a designed resource.</figcaption></figure>
+      <figure class="visual-card"><a href="https://en.wikipedia.org/wiki/City_of_London" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/city-of-london.jpg" alt="City of London street"></a><figcaption><strong>City of London</strong>The place image anchors the HENRY trap in urban cost, work culture, and finance geography.</figcaption></figure>
+      <figure class="visual-card logo-fit"><a href="https://hindenburgresearch.com/" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/hindenburg-research.png" alt="Hindenburg Research logo"></a><figcaption><strong>Hindenburg Research</strong>An activist short-seller becomes a public knowledge producer and market actor at once.</figcaption></figure>
+      <figure class="visual-card logo-fit"><a href="https://commons.wikimedia.org/wiki/File:Adani_2012_logo.png" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/adani-group.png" alt="Adani Group logo"></a><figcaption><strong>Adani Group</strong>The corporate reference gives the short-selling explanation stakes and specificity.</figcaption></figure>
+      <figure class="visual-card"><a href="https://block.xyz/" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/block-inc.png" alt="Block Inc visual"></a><figcaption><strong>Block</strong>Tech-finance branding becomes part of the reputation economy around public research.</figcaption></figure>
+      <figure class="visual-card"><a href="https://commons.wikimedia.org/wiki/File:GoldmanSachsHeadquarters.JPG" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/goldman-sachs.jpg" alt="Goldman Sachs headquarters"></a><figcaption><strong>Goldman Sachs</strong>Finance prestige appears as architecture, brand memory, and class symbol.</figcaption></figure>
+      <figure class="visual-card"><a href="https://www.balenciaga.com/" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/balenciaga.png" alt="Balenciaga brand image"></a><figcaption><strong>Balenciaga</strong>Luxury branding helps explain why late capitalism feels aesthetic, not only economic.</figcaption></figure>
+      <figure class="visual-card"><a href="https://commons.wikimedia.org/wiki/File:Browsing_for_Labubu.jpg" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/labubu-pop-mart.jpg" alt="Labubu retail display"></a><figcaption><strong>Labubu / Pop Mart</strong>Consumer IP becomes a soft-power object because desire travels faster than policy.</figcaption></figure>
+      <figure class="visual-card"><a href="https://commons.wikimedia.org/wiki/File:Confucius_Institute_Troy_University.jpg" target="_blank" rel="noopener"><img src="../assets/creator_references/lhuijuni.ldn/confucius-institutes.jpg" alt="Confucius Institute building"></a><figcaption><strong>Confucius Institute</strong>Formal cultural diplomacy sits beside a newer, messier attention-economy version of influence.</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="positions" class="argument-section">
     <div class="section-label">Positions</div>
-    <div class="quotes-list"><article class="quote-item note-position" id="position-1">
-          <div class="quote-text">At some point, earning more only makes you happier if it also increases your time affluence.</div>
-          
-        </article><article class="quote-item note-position" id="position-2">
-          <div class="quote-text">Your body is your brand now, whether you opted into that or not — you&#x27;re not vain for caring how you look, you&#x27;re just playing the game the way the game is currently set up.</div>
-          
-        </article><article class="quote-item note-position" id="position-3">
-          <div class="quote-text">If your credentials weren&#x27;t enough, and now your body is not enough either, what&#x27;s left to optimize?</div>
-          
-        </article><article class="quote-item note-position" id="position-4">
-          <div class="quote-text">A Henry in London with two kids earning £99,999 might actually end up with more disposable income than someone in the same situation earning £149K — so people are refusing promotions just to stay below the 100K threshold.</div>
-          
-        </article><article class="quote-item note-position" id="position-5">
-          <div class="quote-text">If owning a home becomes completely out of reach, the incentive weakens — people spend on immediate satisfaction, tolerate less at work, and chase volatile assets not because they&#x27;re irrational but because they&#x27;re searching for a different path.</div>
-          
-        </article></div>
+    <div class="quote-grid-compact">
+      <article class="quote-item"><div class="quote-text">At some point, earning more only makes you happier if it also increases your time affluence.</div></article>
+      <article class="quote-item"><div class="quote-text">Your body is your brand now, whether you opted into that or not; caring how you look is part of playing the game as it is currently set up.</div></article>
+      <article class="quote-item"><div class="quote-text">If credentials were not enough, and now the body is not enough either, the next question is what people are expected to optimize.</div></article>
+      <article class="quote-item"><div class="quote-text">If owning a home becomes completely out of reach, the incentive structure changes; spending now or chasing volatile assets can start to look less irrational.</div></article>
+    </div>
   </section>
-  <section id="tags">
+
+  <section id="tags" class="argument-section">
     <div class="section-label">Tags</div>
-    <div class="report-tags"><span class="report-tag">personal finance</span><span class="report-tag">late-stage capitalism</span><span class="report-tag">gender &amp; wealth</span></div>
+    <div class="report-tags"><span class="report-tag">personal finance</span><span class="report-tag">late capitalism</span><span class="report-tag">gender and wealth</span><span class="report-tag">urban class</span><span class="report-tag">soft power</span><span class="report-tag">financial language</span></div>
   </section>
 </main>
 <footer class="site-footer">partake · creator notes · <a href="../language_memory.html">back to cluster</a></footer>

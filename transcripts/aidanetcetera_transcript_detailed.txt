@@ -1,0 +1,439 @@
+@aidanetcetera · detailed transcript
+model: faster-whisper small
+clips: 8
+format: per-clip transcript with segment timestamps; generated from local mp4 files
+
+========================================================================================
+CLIP 01 · DTQVFCVkcuY.mp4
+instagram_url: https://www.instagram.com/reel/DTQVFCVkcuY/
+duration: 00:01:00.675 · language: en (1.00)
+
+FULL TEXT
+Am I going to have that moment when I'm realizing, my God, they're doing basically this meme again. And I do think there will be meme cycles the way there are like nostalgia trend cycles. That's a great question. I mean, in a way they already, the way there already are a lot of meme cycles, like the sort of the EFoc edits, which were like a big brain rot thing this year, too. The core, they spliced together a bunch of different little video volume, video footage from around the internet. that. And the core piece of that is this one video of a guy saying, you know, coffee spelled backward is, backward is e-fock. And that's good because I don't get e-fock in the morning. Yeah. But it's like some cringe thing that was posted like back in, you know, the early 2020s. And it was mildly known then and then people took it and made it big again in 2025. Yeah. So in a way that already happens, like memes are always drawing from the past and cannibalizing themselves. And, you know, it's not like I've never seen big chungus on the feed since like 2017. You know, he's still there all the time.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:03.560] Am I going to have that moment when I'm realizing, my God,
+[00:00:03.700 → 00:00:05.440] they're doing basically this meme again.
+[00:00:05.660 → 00:00:09.900] And I do think there will be meme cycles the way there are like nostalgia trend cycles.
+[00:00:10.420 → 00:00:11.560] That's a great question.
+[00:00:11.780 → 00:00:15.400] I mean, in a way they already, the way there already are a lot of meme cycles,
+[00:00:15.760 → 00:00:20.600] like the sort of the EFoc edits, which were like a big brain rot thing this year, too.
+[00:00:20.920 → 00:00:24.400] The core, they spliced together a bunch of different little video
+[00:00:24.400 → 00:00:27.020] volume, video footage from around the internet.
+[00:00:27.020 → 00:00:31.160] that. And the core piece of that is this one video of a guy saying, you know, coffee
+[00:00:31.160 → 00:00:35.680] spelled backward is, backward is e-fock. And that's good because I don't get e-fock in
+[00:00:35.680 → 00:00:36.020] the morning.
+[00:00:36.480 → 00:00:36.880] Yeah.
+[00:00:37.520 → 00:00:42.760] But it's like some cringe thing that was posted like back in, you know, the early 2020s.
+[00:00:42.760 → 00:00:47.300] And it was mildly known then and then people took it and made it big again in
+[00:00:47.300 → 00:00:47.960] 2025.
+[00:00:48.620 → 00:00:48.820] Yeah.
+[00:00:48.820 → 00:00:52.240] So in a way that already happens, like memes are always drawing from the past
+[00:00:52.240 → 00:00:56.060] and cannibalizing themselves. And, you know, it's not like I've never seen
+[00:00:56.060 → 00:01:00.640] big chungus on the feed since like 2017. You know, he's still there all the time.
+
+========================================================================================
+CLIP 02 · DU13kuJjLzq.mp4
+instagram_url: https://www.instagram.com/reel/DU13kuJjLzq/
+duration: 00:02:47.858 · language: en (1.00)
+
+FULL TEXT
+AI is probably haunted by the ghosts of Civil War soldiers because they keep building data centers on battlefields in northern Virginia where a lot of people died. I wrote an article about this for the BBC last summer, describing the controversy over a data center proposed on the battlefield of Manassas Bull Run. It's one of the largest centers anyone's ever proposed, and it's happening in Prince William County. A century and a half ago, almost all of this land was farmland, much of it worked by enslaved people. But now the most valuable industry in northern Virginia is data centers. The region is the number one data center hub in the world and all types of things are circuited through here If you're a Brazilian all of your health care data is housed in northern Virginia If you're on this app on social media odds are northern Virginia has something to do with it with the rise of AI the demand for Data centers has skyrocketed the Sierra Club estimates There's around 340 data centers in Virginia right now Which is slightly less than the total number of McDonald's locations in the state but over the next few years, companies have proposed to build over 1200 more. Not everything that gets proposed ends up getting built, but if even some of this build-out occurs, that will be a massive increase in an area that is already the most data-centered place in the world. The cost of this, in terms of energy, is going to be insane. I talked to a representative of Dominion, which is the state's energy utility, and he told me that demand for energy from data centers is expected to quadruple in the next 10 years across Virginia. And in the whole state, overall it's expected to double over the next 10 years, much of that driven by the data center industry. What activists across the state worry about is first of all these companies might end up using energy that is less clean and we're in a moment of climate crisis where they want to reduce emissions, but they're also worried that the cost of providing all of that electricity is going to get put onto regular people who pay their electric bills. And in a way, regular people already have underwritten the data center explosion in Virginia because the state has given the data center industry an extremely generous series of tax breaks. With the promise that these data centers do bring jobs to Virginia, especially in construction, but once they're built, they just need to be maintained by a set of people. So the question is whether that calculation still works at all. Are taxpayers and ratepayers getting a bad deal and the companies that want to build AI getting a good deal here? And it's a political issue in Virginia on a local and state level. But the other thing to keep in mind is that when some chud on Twitter asks Grock something is true or when some high schooler uses chat GBT to generate an English assignment that they don't want to do themselves, that electrical charge is going into hallowed ground in northern Virginia and disturbing the souls of Union and Confederate soldiers who fought it out on that battlefield over the identity of the country. And so the data center build out is at odds now with this long tradition in northern Virginia of protecting and maintaining these historic sites because they are important to the United States and they're also important as places where we continue to hash out and battle over who we were and what we did to one another in the past.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.260] AI is probably haunted by the ghosts of Civil War soldiers because they keep building data
+[00:00:04.260 → 00:00:07.540] centers on battlefields in northern Virginia where a lot of people died.
+[00:00:07.700 → 00:00:11.900] I wrote an article about this for the BBC last summer, describing the controversy over a
+[00:00:11.900 → 00:00:14.860] data center proposed on the battlefield of Manassas Bull Run.
+[00:00:15.020 → 00:00:18.520] It's one of the largest centers anyone's ever proposed, and it's happening in Prince
+[00:00:18.520 → 00:00:19.220] William County.
+[00:00:19.380 → 00:00:23.000] A century and a half ago, almost all of this land was farmland, much of it worked
+[00:00:23.000 → 00:00:24.060] by enslaved people.
+[00:00:24.200 → 00:00:27.380] But now the most valuable industry in northern Virginia is data centers.
+[00:00:27.380 → 00:00:32.640] The region is the number one data center hub in the world and all types of things are circuited through here
+[00:00:32.640 → 00:00:36.340] If you're a Brazilian all of your health care data is housed in northern Virginia
+[00:00:36.340 → 00:00:42.560] If you're on this app on social media odds are northern Virginia has something to do with it with the rise of AI the demand for
+[00:00:42.560 → 00:00:45.200] Data centers has skyrocketed the Sierra Club estimates
+[00:00:45.200 → 00:00:48.380] There's around 340 data centers in Virginia right now
+[00:00:48.380 → 00:00:52.120] Which is slightly less than the total number of McDonald's locations in the state
+[00:00:52.120 → 00:00:58.020] but over the next few years, companies have proposed to build over 1200 more. Not everything that gets
+[00:00:58.020 → 00:01:03.240] proposed ends up getting built, but if even some of this build-out occurs, that will be a massive
+[00:01:03.240 → 00:01:07.500] increase in an area that is already the most data-centered place in the world. The cost of this,
+[00:01:07.580 → 00:01:11.380] in terms of energy, is going to be insane. I talked to a representative of Dominion,
+[00:01:11.500 → 00:01:15.960] which is the state's energy utility, and he told me that demand for energy from data centers
+[00:01:15.960 → 00:01:20.380] is expected to quadruple in the next 10 years across Virginia. And in the whole state,
+[00:01:20.380 → 00:01:25.000] overall it's expected to double over the next 10 years, much of that driven by the data center
+[00:01:25.000 → 00:01:29.620] industry. What activists across the state worry about is first of all these companies might end
+[00:01:29.620 → 00:01:34.060] up using energy that is less clean and we're in a moment of climate crisis where they want to
+[00:01:34.060 → 00:01:38.600] reduce emissions, but they're also worried that the cost of providing all of that electricity is
+[00:01:38.600 → 00:01:43.020] going to get put onto regular people who pay their electric bills. And in a way,
+[00:01:43.020 → 00:01:47.440] regular people already have underwritten the data center explosion in Virginia
+[00:01:47.440 → 00:01:50.180] because the state has given the data center industry
+[00:01:50.180 → 00:01:52.540] an extremely generous series of tax breaks.
+[00:01:52.840 → 00:01:54.500] With the promise that these data centers
+[00:01:54.500 → 00:01:57.620] do bring jobs to Virginia, especially in construction,
+[00:01:57.900 → 00:01:58.820] but once they're built,
+[00:01:59.160 → 00:02:00.940] they just need to be maintained by a set of people.
+[00:02:01.240 → 00:02:02.760] So the question is whether that calculation
+[00:02:02.760 → 00:02:03.980] still works at all.
+[00:02:04.160 → 00:02:06.500] Are taxpayers and ratepayers getting a bad deal
+[00:02:06.500 → 00:02:08.220] and the companies that want to build AI
+[00:02:08.220 → 00:02:09.540] getting a good deal here?
+[00:02:09.820 → 00:02:11.380] And it's a political issue in Virginia
+[00:02:11.380 → 00:02:12.800] on a local and state level.
+[00:02:12.940 → 00:02:14.140] But the other thing to keep in mind
+[00:02:14.140 → 00:02:16.460] is that when some chud on Twitter asks Grock
+[00:02:16.460 → 00:02:21.280] something is true or when some high schooler uses chat GBT to generate an English assignment that
+[00:02:21.280 → 00:02:25.280] they don't want to do themselves, that electrical charge is going into hallowed ground in northern
+[00:02:25.280 → 00:02:30.280] Virginia and disturbing the souls of Union and Confederate soldiers who fought it out on that
+[00:02:30.280 → 00:02:34.300] battlefield over the identity of the country. And so the data center build out is at odds now
+[00:02:34.300 → 00:02:38.680] with this long tradition in northern Virginia of protecting and maintaining these historic sites
+[00:02:38.680 → 00:02:42.420] because they are important to the United States and they're also important as places
+[00:02:42.420 → 00:02:47.580] where we continue to hash out and battle over who we were and what we did to one another in the past.
+
+========================================================================================
+CLIP 03 · DUexfGzDf88.mp4
+instagram_url: https://www.instagram.com/reel/DUexfGzDf88/
+duration: 00:01:23.245 · language: en (1.00)
+
+FULL TEXT
+Is this going to be transhumanist? I think yes. I'm so sorry. But I don't know, I mean, because there's a sense of humans being this vanished group that used to run the planet. And now it's all the cyborgs and the robots here. But then there's also this feeling of they do remain humanoid formed cyborgs. And so I think it in the sense that it also puts the viewer in the shoes and in the I guess like CBU of the robot computer it is transhumanist and I don't know if that says like radical a break is like you're human now you're transhuman It's like a spectrum, you know, and we all have different moments are on different parts of that You know like I'm being filmed right now. There's a camera behind me. My voice is being augmented And so I think it's somewhere on that spectrum, for sure. That's not my answer. It doesn't feel like an sort of apocalyptic world. We're very nigh to the end of the world in that dystopia, which makes me think that Skippity Toilet takes the scatological and merges it with the eschatological. That would be a great hook for a TikTok video. And on that, I want to thank you all for being here.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:01.720] Is this going to be transhumanist?
+[00:00:06.810 → 00:00:08.130] I think yes.
+[00:00:08.210 → 00:00:08.970] I'm so sorry.
+[00:00:10.530 → 00:00:12.490] But I don't know, I mean, because there's
+[00:00:12.490 → 00:00:17.850] a sense of humans being this vanished group that
+[00:00:17.850 → 00:00:18.910] used to run the planet.
+[00:00:19.130 → 00:00:21.690] And now it's all the cyborgs and the robots here.
+[00:00:22.750 → 00:00:23.830] But then there's also this feeling
+[00:00:23.830 → 00:00:27.690] of they do remain humanoid formed cyborgs.
+[00:00:27.690 → 00:00:35.510] And so I think it in the sense that it also puts the viewer in the shoes and in the I guess like CBU of the robot computer
+[00:00:36.070 → 00:00:42.990] it is transhumanist and I don't know if that says like radical a break is like you're human now you're transhuman
+[00:00:42.990 → 00:00:47.190] It's like a spectrum, you know, and we all have different moments are on different parts of that
+[00:00:47.190 → 00:00:52.210] You know like I'm being filmed right now. There's a camera behind me. My voice is being augmented
+[00:00:53.190 → 00:00:57.230] And so I think it's somewhere on that spectrum, for sure.
+[00:00:57.490 → 00:00:58.130] That's not my answer.
+[00:00:58.310 → 00:01:03.010] It doesn't feel like an sort of apocalyptic world.
+[00:01:03.830 → 00:01:06.970] We're very nigh to the end of the world in that dystopia,
+[00:01:07.250 → 00:01:10.670] which makes me think that Skippity Toilet takes the
+[00:01:10.970 → 00:01:13.710] scatological and merges it with the eschatological.
+[00:01:16.130 → 00:01:19.050] That would be a great hook for a TikTok video.
+[00:01:20.490 → 00:01:22.470] And on that, I want to thank you all for being here.
+
+========================================================================================
+CLIP 04 · DVCr4dZDU7p.mp4
+instagram_url: https://www.instagram.com/reel/DVCr4dZDU7p/
+duration: 00:02:51.016 · language: en (1.00)
+
+FULL TEXT
+When Clavicular was brutally frame-mocked by the ASU frat leader, why did his cortisol spike so much? It wasn't just because of the ASU frat leader's impeccable aura and jacked physique, it was because his broad shoulders pushed Clavicular to the margins of Clavicular's own frame, turning him into a supporting character of his own stream. In that moment, like in every other moment, Clavicular is living more as an image inside of a frame than as a body inside of a room. And so what happens inside of the frame matters more than what happens inside of the room. In fact, he is destroying his actual physical body in order to be a more compelling and popular image inside of a digital frame. He's taking drugs, smashing his face with a hammer, and overall wrecking his life so that he can be popular on the internet. They care about the body not as it is, but as it is represented via measurement. And those measurements can be things like Cantville Tilt or Maxillary Distance, but they can also be things like views, engagement rate, retention, likes, shares, and comments. These measurements are not an accurate or fair way to assess human social interaction, just as the Lux Maxer measurements are not really an accurate or reasonable way to assess how attractive people are. And yet we find ourselves hostage to the world that the measurements incentivize others to make around us, the world that the measurements then train the AIs to create around us, for the algorithms to recommend around us. We are swaddled, just like clavicular, in what is in part a self-constructed sheath of illusions that are fueled by math that ultimately doesn't care about us at all, and I think that's part of why he's popular. We sympathize with him because we also find ourselves living more and more of our lives inside of frames, even as we inhabit full-on rooms. The same thing an algorithm does to a discussion clavicular does to his own face, a series of micro fractures precisely targeted with a blunt object to make it correspond to some kind of numerical pattern that doesn't really match what anybody really thinks is beautiful. Because when you're having a discussion on the internet, you might be trying to convince somebody, you might be trying to win the argument, you might be trying to express yourself. But because everything has to be anchored to what the device itself can measure, what the machine can understand, the metric that it can spit back out at you, I think that without meaning it, we tend to align ourselves with that goal of more and more and more, and we kind of forget what that measurement is supposed to correspond to in real life. because we let the map overtake the territory that it's supposed to be representing. We end up doing this thing that deforms public discourse, that deforms a public group of people, just in general, in the service of a machine that doesn't care about us. To sum the solution to that problem might be to log off or to prevent other people like kids from logging on, but to me that's not at all the case. The solution is to frame bog. The solution is to be aware of the medium itself, to be aware of the ways it's distorting you and decide to make decisions that will push bad actors out of the frame and take control of it. Hack this slot machine they built to sell Tima and make it do something more interesting.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.060] When Clavicular was brutally frame-mocked by the ASU frat leader, why did his cortisol
+[00:00:04.060 → 00:00:05.180] spike so much?
+[00:00:05.300 → 00:00:09.720] It wasn't just because of the ASU frat leader's impeccable aura and jacked physique, it was
+[00:00:09.720 → 00:00:13.820] because his broad shoulders pushed Clavicular to the margins of Clavicular's own frame,
+[00:00:13.980 → 00:00:16.460] turning him into a supporting character of his own stream.
+[00:00:16.700 → 00:00:20.620] In that moment, like in every other moment, Clavicular is living more as an image inside
+[00:00:20.620 → 00:00:22.880] of a frame than as a body inside of a room.
+[00:00:23.060 → 00:00:26.820] And so what happens inside of the frame matters more than what happens inside
+[00:00:26.820 → 00:00:27.360] of the room.
+[00:00:27.360 → 00:00:33.720] In fact, he is destroying his actual physical body in order to be a more compelling and popular image inside of a digital frame.
+[00:00:33.900 → 00:00:39.860] He's taking drugs, smashing his face with a hammer, and overall wrecking his life so that he can be popular on the internet.
+[00:00:40.020 → 00:00:44.000] They care about the body not as it is, but as it is represented via measurement.
+[00:00:44.200 → 00:00:47.560] And those measurements can be things like Cantville Tilt or Maxillary Distance,
+[00:00:47.660 → 00:00:53.260] but they can also be things like views, engagement rate, retention, likes, shares, and comments.
+[00:00:53.260 → 00:00:57.980] These measurements are not an accurate or fair way to assess human social interaction,
+[00:00:58.260 → 00:01:02.440] just as the Lux Maxer measurements are not really an accurate or reasonable way to assess
+[00:01:02.440 → 00:01:04.000] how attractive people are.
+[00:01:04.120 → 00:01:08.540] And yet we find ourselves hostage to the world that the measurements incentivize others
+[00:01:08.540 → 00:01:13.620] to make around us, the world that the measurements then train the AIs to create around us,
+[00:01:13.660 → 00:01:15.740] for the algorithms to recommend around us.
+[00:01:15.940 → 00:01:21.300] We are swaddled, just like clavicular, in what is in part a self-constructed sheath
+[00:01:21.300 → 00:01:25.480] of illusions that are fueled by math that ultimately doesn't care about us at all, and
+[00:01:25.480 → 00:01:26.860] I think that's part of why he's popular.
+[00:01:27.180 → 00:01:30.980] We sympathize with him because we also find ourselves living more and more of our lives
+[00:01:30.980 → 00:01:33.840] inside of frames, even as we inhabit full-on rooms.
+[00:01:34.100 → 00:01:38.240] The same thing an algorithm does to a discussion clavicular does to his own face, a series
+[00:01:38.240 → 00:01:43.080] of micro fractures precisely targeted with a blunt object to make it correspond to some
+[00:01:43.080 → 00:01:48.540] kind of numerical pattern that doesn't really match what anybody really thinks is beautiful.
+[00:01:48.540 → 00:01:52.420] Because when you're having a discussion on the internet, you might be trying to convince somebody,
+[00:01:52.640 → 00:01:55.820] you might be trying to win the argument, you might be trying to express yourself.
+[00:01:56.140 → 00:02:00.200] But because everything has to be anchored to what the device itself can measure,
+[00:02:00.460 → 00:02:04.500] what the machine can understand, the metric that it can spit back out at you,
+[00:02:04.800 → 00:02:10.080] I think that without meaning it, we tend to align ourselves with that goal of more and more and more,
+[00:02:10.300 → 00:02:14.560] and we kind of forget what that measurement is supposed to correspond to in real life.
+[00:02:14.560 → 00:02:17.640] because we let the map overtake the territory
+[00:02:17.640 → 00:02:19.080] that it's supposed to be representing.
+[00:02:19.560 → 00:02:22.900] We end up doing this thing that deforms public discourse,
+[00:02:23.140 → 00:02:26.120] that deforms a public group of people, just in general,
+[00:02:26.420 → 00:02:29.140] in the service of a machine that doesn't care about us.
+[00:02:29.380 → 00:02:32.140] To sum the solution to that problem might be to log off
+[00:02:32.140 → 00:02:34.500] or to prevent other people like kids from logging on,
+[00:02:34.620 → 00:02:36.020] but to me that's not at all the case.
+[00:02:36.140 → 00:02:37.620] The solution is to frame bog.
+[00:02:37.880 → 00:02:39.980] The solution is to be aware of the medium itself,
+[00:02:40.100 → 00:02:41.900] to be aware of the ways it's distorting you
+[00:02:41.900 → 00:02:43.280] and decide to make decisions
+[00:02:43.280 → 00:02:48.300] that will push bad actors out of the frame and take control of it. Hack this slot machine they
+[00:02:48.300 → 00:02:50.660] built to sell Tima and make it do something more interesting.
+
+========================================================================================
+CLIP 05 · DVXc2PgDXxm.mp4
+instagram_url: https://www.instagram.com/reel/DVXc2PgDXxm/
+duration: 00:02:57.425 · language: en (1.00)
+
+FULL TEXT
+When AI first came out, everybody was asking, will it be smart enough someday to take our jobs or murder us all? When really what they should have been asking is how are schools, power grids, and governments responding to this new technology? Because that's what will determine the way it impacts you and what you care about. Which is why my friend Mike Pepe's idea of a slop tax really interested me when he came out with it. He's also talked about it to Politico. And I'm not sure if it's like the perfect answer, but something like it needs to be done. Maybe we need to do something even more radical than this, like take out the data centers or whatever, but there needs to be some kind of intervention into the political economy of AI because it's not going to go away and if people don't act to do something around it, it will end up screwing over everybody. Mike's idea is that you tax every tech or AI company just 1% of its total capitalized market value and you put that 1% into a cultural trust vehicle, a big pool of money run by an elected or an appointed board, but the idea is that this cultural trust vehicle is independent from both the tech companies and it has some kind of set up like the Federal Reserve or NPR or PBS, where it's kind of insulated from the back and forth of Washington politics, too. My guesstimate is that just that 1% tax would lead to $200 billion inside of the cultural trust vehicle, and you could use that money to repair some of the damage that AI is doing across our economy and our culture. So you could use it to compensate some of the artists and authors whose work AI stole in order to create the training data sets that make the model so powerful and so able to eloquently produce English prose. You could use the money to prevent a race to the bottom from the TV channels in major studios where they're using AI to cut production costs But make a shittier movie and they still break even because even though people don't like watching the film They don't have to pay any actors so you actually can make a profit off content that isn't good You could also use the slop tax to support institutions that AI is parasitic on like schools ChatGPT has revolutionized the way education works and in many ways and shitified it And so what you could do is you could use some of this money from the slop tax to pay more teachers so that you don't have classes of 25 students, where people can't get the individualized attention they need, and so they turn to an AI chatbot that's gonna give it to them. Instead, we could provide that infrastructure of care by taxing the company that is profiting off of the current lack of that in our system. We're in the middle of a technological revolution that promises to change everything about the way that we work, play, fall in love, raise our children, do everything in the world. But the one thing that they say is off the table is the way that money works. Everything else is going to change. except the fact that Sam Alton is a multi-billionaire and you have trouble finding a job and you can't afford a house. Anything that we the people could ask the tech companies or the government to do pales in comparison to what they have already demanded that the public accept as the inevitable cost of doing progress. But it is not inevitable at all. It is negotiable. It is something that we can figure out. We can use things like a slop tax or another policy tool to say to the powers that be that the thing that informs AI development can't just be money. It has to be the voices of people, it has to be democracy.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:02.000] When AI first came out, everybody was asking,
+[00:00:02.220 → 00:00:04.280] will it be smart enough someday to take our jobs
+[00:00:04.280 → 00:00:05.200] or murder us all?
+[00:00:05.340 → 00:00:06.800] When really what they should have been asking
+[00:00:06.800 → 00:00:08.500] is how are schools, power grids,
+[00:00:08.620 → 00:00:10.920] and governments responding to this new technology?
+[00:00:11.040 → 00:00:13.540] Because that's what will determine the way it impacts you
+[00:00:13.540 → 00:00:14.660] and what you care about.
+[00:00:14.780 → 00:00:16.660] Which is why my friend Mike Pepe's idea
+[00:00:16.660 → 00:00:18.620] of a slop tax really interested me
+[00:00:18.620 → 00:00:19.620] when he came out with it.
+[00:00:19.680 → 00:00:21.440] He's also talked about it to Politico.
+[00:00:21.660 → 00:00:23.740] And I'm not sure if it's like the perfect answer,
+[00:00:23.840 → 00:00:25.640] but something like it needs to be done.
+[00:00:25.880 → 00:00:27.540] Maybe we need to do something even more radical
+[00:00:27.540 → 00:00:29.120] than this, like take out the data centers
+[00:00:29.120 → 00:00:33.740] or whatever, but there needs to be some kind of intervention into the political economy of AI
+[00:00:33.740 → 00:00:38.080] because it's not going to go away and if people don't act to do something around it,
+[00:00:38.160 → 00:00:42.840] it will end up screwing over everybody. Mike's idea is that you tax every tech or AI company just
+[00:00:42.840 → 00:00:48.640] 1% of its total capitalized market value and you put that 1% into a cultural trust vehicle,
+[00:00:48.800 → 00:00:53.740] a big pool of money run by an elected or an appointed board, but the idea is that this
+[00:00:53.740 → 00:00:57.900] cultural trust vehicle is independent from both the tech companies and it has some kind of
+[00:00:57.900 → 00:01:02.540] set up like the Federal Reserve or NPR or PBS, where it's kind of insulated from the
+[00:01:02.540 → 00:01:04.400] back and forth of Washington politics, too.
+[00:01:04.580 → 00:01:09.300] My guesstimate is that just that 1% tax would lead to $200 billion inside of the cultural
+[00:01:09.300 → 00:01:13.820] trust vehicle, and you could use that money to repair some of the damage that AI is
+[00:01:13.820 → 00:01:16.160] doing across our economy and our culture.
+[00:01:16.440 → 00:01:19.960] So you could use it to compensate some of the artists and authors whose work
+[00:01:19.960 → 00:01:24.340] AI stole in order to create the training data sets that make the model so powerful
+[00:01:24.340 → 00:01:27.220] and so able to eloquently produce English prose.
+[00:01:27.220 → 00:01:33.780] You could use the money to prevent a race to the bottom from the TV channels in major studios where they're using AI to cut production costs
+[00:01:33.780 → 00:01:38.160] But make a shittier movie and they still break even because even though people don't like watching the film
+[00:01:38.160 → 00:01:42.460] They don't have to pay any actors so you actually can make a profit off content that isn't good
+[00:01:42.460 → 00:01:47.560] You could also use the slop tax to support institutions that AI is parasitic on like schools
+[00:01:47.560 → 00:01:52.120] ChatGPT has revolutionized the way education works and in many ways and shitified it
+[00:01:52.120 → 00:01:56.560] And so what you could do is you could use some of this money from the slop tax to pay more teachers
+[00:01:56.560 → 00:01:58.820] so that you don't have classes of 25 students,
+[00:01:58.960 → 00:02:00.960] where people can't get the individualized attention
+[00:02:00.960 → 00:02:03.240] they need, and so they turn to an AI chatbot
+[00:02:03.240 → 00:02:04.260] that's gonna give it to them.
+[00:02:04.380 → 00:02:07.160] Instead, we could provide that infrastructure of care
+[00:02:07.160 → 00:02:09.320] by taxing the company that is profiting
+[00:02:09.320 → 00:02:12.040] off of the current lack of that in our system.
+[00:02:12.300 → 00:02:14.300] We're in the middle of a technological revolution
+[00:02:14.300 → 00:02:16.520] that promises to change everything about the way
+[00:02:16.520 → 00:02:19.540] that we work, play, fall in love, raise our children,
+[00:02:19.700 → 00:02:21.040] do everything in the world.
+[00:02:21.120 → 00:02:23.020] But the one thing that they say is off the table
+[00:02:23.020 → 00:02:24.300] is the way that money works.
+[00:02:24.580 → 00:02:26.280] Everything else is going to change.
+[00:02:26.280 → 00:02:29.200] except the fact that Sam Alton is a multi-billionaire
+[00:02:29.200 → 00:02:30.980] and you have trouble finding a job
+[00:02:30.980 → 00:02:32.440] and you can't afford a house.
+[00:02:32.700 → 00:02:34.960] Anything that we the people could ask the tech companies
+[00:02:34.960 → 00:02:37.100] or the government to do pales in comparison
+[00:02:37.100 → 00:02:40.000] to what they have already demanded that the public accept
+[00:02:40.000 → 00:02:42.120] as the inevitable cost of doing progress.
+[00:02:42.440 → 00:02:43.840] But it is not inevitable at all.
+[00:02:44.040 → 00:02:44.820] It is negotiable.
+[00:02:45.240 → 00:02:46.620] It is something that we can figure out.
+[00:02:46.700 → 00:02:48.300] We can use things like a slop tax
+[00:02:48.300 → 00:02:51.340] or another policy tool to say to the powers that be
+[00:02:51.340 → 00:02:53.260] that the thing that informs AI development
+[00:02:53.260 → 00:02:54.320] can't just be money.
+[00:02:54.320 → 00:02:57.140] It has to be the voices of people, it has to be democracy.
+
+========================================================================================
+CLIP 06 · DW5QL37ja0J.mp4
+instagram_url: https://www.instagram.com/reel/DW5QL37ja0J/
+duration: 00:02:59.608 · language: en (1.00)
+
+FULL TEXT
+Axios just reported on a poll for which no human being was actually asked a question. It's called Silicon Sampling and it's becoming more and more common. You just get a bunch of AI models and you ask them something like, do you support XYZ policy? And because they've been programmed to represent and mimic the way the public would act, you just say what the AI said to you and say, that's what people must think. The New York Times called them out for it in an op-ed published by Benjamin Wrecked and Leif Weatherby. I love his book, language machines is one of our best thinkers on AI. But what they're pretty much saying is that public opinion poll was always kind of sketchy. Like people weren't sure how much biases kind of crept into the numbers, different types of interpretation, different ways of skewing the question had a really major impact. And then polls kind of fed back into the political process because they were the foundation of kind of narratives of like who was winning an race or what issues were important. The way politicians oriented themselves was by saying, okay, the poll says people care about say immigration or something. So I'm going to talk about immigration more. And then the poll asks people what they think about the politician who is influenced by a poll. And so the poll isn't just an objective like tool of measurement, but in kind of a participant in this system. And that's the question that's never going to get resolved. The tools we use to measure the world to measure other people are always going to bring in distortions that affect our understanding. But you can be more or less careful about how you deal with those distortions, you can be more or less like self-critical about the conclusions you come to. And if you're using AI to simulate a public rather than asking real people, you're not being sufficiently self-critical or thoughtful. People are always saying like AI is a problem for the information ecosystem, and usually what they mean by that is like social media platforms and AI slump, but the real threat is like in consulting firms, it is in universities, it is in companies, it is in the political process. Because these numbers in public opinion polls, they were suss because they were never really about reality, they were about the incentives within institutions. These are numbers that help you as a polling firm get another contract or help you as a mid-level employee get a promotion. They're not numbers that are supposed to make things happen in the world or get stuff done. And if that was always the point of polling or a lot of other businesses, then AI doesn't make it all that different. And that's why AI is effective in a lot of these instances where people aren't actually doing work, where people aren't actually thinking, and maybe never work, but where it's going to bite us in the butt is where we actually need to be thinking about stuff, where we actually need to know what public opinion might be, where we actually need to know because it matters whether policymakers are making the right call. And they're going to be seeing the world not just through like rose tinted glasses, but through money tinted glasses, according to what people who can fund the AI models and can fund the research want them to see. And those people are going to be deluding themselves. And we've already had so much of that without AI happening inside of the system that I worry that artificial intelligence and the adoption of this kind of polling is just going to be like yet another straw on the back of a camel that is lost in the desert and has no idea where it's going.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.360] Axios just reported on a poll for which no human being was actually asked a question.
+[00:00:04.660 → 00:00:08.680] It's called Silicon Sampling and it's becoming more and more common. You just get a bunch of
+[00:00:08.680 → 00:00:14.120] AI models and you ask them something like, do you support XYZ policy? And because they've been
+[00:00:14.120 → 00:00:19.420] programmed to represent and mimic the way the public would act, you just say what the AI said
+[00:00:19.420 → 00:00:23.020] to you and say, that's what people must think. The New York Times called them out for
+[00:00:23.020 → 00:00:27.040] it in an op-ed published by Benjamin Wrecked and Leif Weatherby. I love his book,
+[00:00:27.040 → 00:00:31.560] language machines is one of our best thinkers on AI. But what they're pretty much saying is that
+[00:00:31.560 → 00:00:36.420] public opinion poll was always kind of sketchy. Like people weren't sure how much biases kind of
+[00:00:36.420 → 00:00:40.500] crept into the numbers, different types of interpretation, different ways of skewing the
+[00:00:40.500 → 00:00:44.960] question had a really major impact. And then polls kind of fed back into the political process
+[00:00:44.960 → 00:00:49.740] because they were the foundation of kind of narratives of like who was winning an race or
+[00:00:49.740 → 00:00:54.260] what issues were important. The way politicians oriented themselves was by saying, okay,
+[00:00:54.260 → 00:00:58.420] the poll says people care about say immigration or something. So I'm going to talk about immigration
+[00:00:58.420 → 00:01:03.360] more. And then the poll asks people what they think about the politician who is influenced by a poll.
+[00:01:03.520 → 00:01:08.360] And so the poll isn't just an objective like tool of measurement, but in kind of a participant
+[00:01:08.360 → 00:01:12.400] in this system. And that's the question that's never going to get resolved. The tools we use
+[00:01:12.400 → 00:01:16.140] to measure the world to measure other people are always going to bring in distortions that
+[00:01:16.140 → 00:01:20.520] affect our understanding. But you can be more or less careful about how you deal with
+[00:01:20.520 → 00:01:24.760] those distortions, you can be more or less like self-critical about the conclusions you
+[00:01:24.760 → 00:01:25.120] come to.
+[00:01:25.500 → 00:01:30.160] And if you're using AI to simulate a public rather than asking real people, you're not
+[00:01:30.160 → 00:01:32.760] being sufficiently self-critical or thoughtful.
+[00:01:33.060 → 00:01:36.500] People are always saying like AI is a problem for the information ecosystem, and usually
+[00:01:36.500 → 00:01:40.360] what they mean by that is like social media platforms and AI slump, but the real threat
+[00:01:40.360 → 00:01:45.640] is like in consulting firms, it is in universities, it is in companies, it is in the political
+[00:01:45.640 → 00:01:46.100] process.
+[00:01:46.100 → 00:01:50.600] Because these numbers in public opinion polls, they were suss because they were never really
+[00:01:50.600 → 00:01:54.060] about reality, they were about the incentives within institutions.
+[00:01:54.440 → 00:01:58.580] These are numbers that help you as a polling firm get another contract or help you as a
+[00:01:58.580 → 00:02:00.300] mid-level employee get a promotion.
+[00:02:00.600 → 00:02:03.960] They're not numbers that are supposed to make things happen in the world or get
+[00:02:03.960 → 00:02:04.600] stuff done.
+[00:02:04.940 → 00:02:10.180] And if that was always the point of polling or a lot of other businesses, then AI doesn't
+[00:02:10.180 → 00:02:11.060] make it all that different.
+[00:02:11.200 → 00:02:14.660] And that's why AI is effective in a lot of these instances where people aren't
+[00:02:14.660 → 00:02:19.040] actually doing work, where people aren't actually thinking, and maybe never work, but
+[00:02:19.040 → 00:02:22.440] where it's going to bite us in the butt is where we actually need to be thinking about
+[00:02:22.440 → 00:02:26.760] stuff, where we actually need to know what public opinion might be, where we actually
+[00:02:26.760 → 00:02:31.340] need to know because it matters whether policymakers are making the right call.
+[00:02:31.580 → 00:02:34.840] And they're going to be seeing the world not just through like rose tinted glasses,
+[00:02:34.840 → 00:02:39.500] but through money tinted glasses, according to what people who can fund the AI models
+[00:02:39.500 → 00:02:42.560] and can fund the research want them to see.
+[00:02:42.560 → 00:02:44.540] And those people are going to be deluding themselves.
+[00:02:45.020 → 00:02:49.960] And we've already had so much of that without AI happening inside of the system that I worry
+[00:02:49.960 → 00:02:53.740] that artificial intelligence and the adoption of this kind of polling is just going to
+[00:02:53.740 → 00:02:58.560] be like yet another straw on the back of a camel that is lost in the desert and has
+[00:02:58.560 → 00:02:59.480] no idea where it's going.
+
+========================================================================================
+CLIP 07 · DWaVTwXDSDQ.mp4
+instagram_url: https://www.instagram.com/reel/DWaVTwXDSDQ/
+duration: 00:02:57.425 · language: en (1.00)
+
+FULL TEXT
+The being with a head of a bowl that is depicted in a lot of the Iranian AI slot propaganda videos that are circulating right now does not symbolize Wall Street or capitalism as a lot of people have said, but it is Baal who is a biblical deity also referenced in the Quran that was a false idol which people worshiped instead of the one true God. And Baal has kind of had a moment in the past few months. In February, Iranian people at a rally organized by the government burned an effigy of Baal that had a printout of Donald Trump taped to it along with a star of David printout. And around February as well, there is an Epstein file released which appeared to show Epstein wiring some money to BALL, which may have been a typo, or like a transcription error, or it may have been the literal, you know, false deity god-demon thing himself. The Epstein story continues to be the dominant political narrative of our time, so the crimes of a system not just of one man, and the Iranian appropriation of it makes sense tactically. It's a way to send out a message about what the United States and Israeli governments have done, which at the very least was to allow Epstein to happen, and if not actively collaborate with his crimes. And in one recent video, they actually depict the structure on Epstein's Island that people thought was his temple, a blue and white striped kind of like hut, which apparently had a gold dome at one point. And in the AI generated videos, you also see representations of little blonde girls holding Epstein files alongside little Iranian girls representing those who were killed in the US airstrike on the school early on when this war began. The ball worship also places this war in a much larger context than the American propaganda has placed it. it sees Trump and Netanyahu as pawns or puppets rather than independent agents. And this larger force of ball is moving history rather than these individual actors. In a way, what it reminds me of is Peter Thiel, who's always bringing up like Abrahamic lore from the Bible to explain modern day situations or kind of finding a lot of God and whatever it is that makes him money. And you could say the same thing is being done by the Iranian regime, by the American regime, by whoever it is is invoking God to make money and that's like the oldest story in the book. Understanding it purely from like the monetary like capitalism doing what capitalism does, perspective doesn't quite work because in the psychology of the actors that are doing this stuff I think that they really do believe these stories. I think they really see this mythological vocabulary as more adequately explaining what's happening around them. Often we have this instinct of like you take this chaos of the world and you translate it, you boil it down into the chart, into the New York Times article that explains why X is with Y, why ABC happened in the way that it did. But really, there is something kind of stranger and weirder. And a lot of the people who have fingers-on buttons of missiles across the world believe that we are heading towards the apocalypse. If we don't factor that into kind of the way that we consider or understand what's happening around us, And we don't understand why leaders do such self-destructive things. They're seeing everything that's happening around us, not in the light of like secular fact, but in the light of prophetic revelation.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.280] The being with a head of a bowl that is depicted in a lot of the Iranian AI slot propaganda
+[00:00:04.280 → 00:00:08.980] videos that are circulating right now does not symbolize Wall Street or capitalism as
+[00:00:08.980 → 00:00:13.420] a lot of people have said, but it is Baal who is a biblical deity also referenced in
+[00:00:13.420 → 00:00:17.460] the Quran that was a false idol which people worshiped instead of the one true God.
+[00:00:17.620 → 00:00:20.340] And Baal has kind of had a moment in the past few months.
+[00:00:20.600 → 00:00:25.320] In February, Iranian people at a rally organized by the government burned an effigy of
+[00:00:25.320 → 00:00:28.860] Baal that had a printout of Donald Trump taped to it along with a star of David
+[00:00:28.860 → 00:00:29.380] printout.
+[00:00:29.380 → 00:00:33.480] And around February as well, there is an Epstein file released which appeared to show Epstein
+[00:00:33.480 → 00:00:38.000] wiring some money to BALL, which may have been a typo, or like a transcription error,
+[00:00:38.180 → 00:00:42.240] or it may have been the literal, you know, false deity god-demon thing himself.
+[00:00:42.540 → 00:00:46.080] The Epstein story continues to be the dominant political narrative of our time,
+[00:00:46.200 → 00:00:50.040] so the crimes of a system not just of one man, and the Iranian appropriation of it
+[00:00:50.040 → 00:00:54.000] makes sense tactically. It's a way to send out a message about what the United States and
+[00:00:54.000 → 00:00:57.960] Israeli governments have done, which at the very least was to allow Epstein to happen,
+[00:00:57.960 → 00:01:00.380] and if not actively collaborate with his crimes.
+[00:01:00.580 → 00:01:01.460] And in one recent video,
+[00:01:01.500 → 00:01:03.540] they actually depict the structure on Epstein's Island
+[00:01:03.540 → 00:01:05.100] that people thought was his temple,
+[00:01:05.440 → 00:01:07.400] a blue and white striped kind of like hut,
+[00:01:07.460 → 00:01:09.520] which apparently had a gold dome at one point.
+[00:01:09.660 → 00:01:10.860] And in the AI generated videos,
+[00:01:11.020 → 00:01:13.460] you also see representations of little blonde girls
+[00:01:13.460 → 00:01:17.040] holding Epstein files alongside little Iranian girls
+[00:01:17.040 → 00:01:18.560] representing those who were killed
+[00:01:18.560 → 00:01:20.980] in the US airstrike on the school early on
+[00:01:20.980 → 00:01:21.900] when this war began.
+[00:01:22.100 → 00:01:23.900] The ball worship also places this war
+[00:01:23.900 → 00:01:25.080] in a much larger context
+[00:01:25.080 → 00:01:27.240] than the American propaganda has placed it.
+[00:01:27.240 → 00:01:32.420] it sees Trump and Netanyahu as pawns or puppets rather than independent agents. And this larger
+[00:01:32.420 → 00:01:37.820] force of ball is moving history rather than these individual actors. In a way, what it reminds me
+[00:01:37.820 → 00:01:44.140] of is Peter Thiel, who's always bringing up like Abrahamic lore from the Bible to explain modern
+[00:01:44.140 → 00:01:49.140] day situations or kind of finding a lot of God and whatever it is that makes him money. And
+[00:01:49.140 → 00:01:53.580] you could say the same thing is being done by the Iranian regime, by the American regime,
+[00:01:53.580 → 00:01:57.580] by whoever it is is invoking God to make money and that's like the oldest story in the book.
+[00:01:57.800 → 00:02:02.260] Understanding it purely from like the monetary like capitalism doing what capitalism does,
+[00:02:02.360 → 00:02:07.000] perspective doesn't quite work because in the psychology of the actors that are doing this
+[00:02:07.000 → 00:02:11.520] stuff I think that they really do believe these stories. I think they really see this
+[00:02:11.520 → 00:02:15.380] mythological vocabulary as more adequately explaining what's happening around them.
+[00:02:15.460 → 00:02:19.960] Often we have this instinct of like you take this chaos of the world and you translate it,
+[00:02:19.960 → 00:02:26.040] you boil it down into the chart, into the New York Times article that explains why X is with Y,
+[00:02:26.400 → 00:02:31.660] why ABC happened in the way that it did. But really, there is something kind of stranger
+[00:02:32.170 → 00:02:37.380] and weirder. And a lot of the people who have fingers-on buttons of missiles across the world
+[00:02:37.380 → 00:02:41.280] believe that we are heading towards the apocalypse. If we don't factor that into
+[00:02:41.280 → 00:02:45.380] kind of the way that we consider or understand what's happening around us,
+[00:02:45.380 → 00:02:49.440] And we don't understand why leaders do such self-destructive things.
+[00:02:49.620 → 00:02:53.560] They're seeing everything that's happening around us, not in the light of like secular
+[00:02:53.560 → 00:02:57.040] fact, but in the light of prophetic revelation.
+
+========================================================================================
+CLIP 08 · DXfmuu1j_gp.mp4
+instagram_url: https://www.instagram.com/reel/gp/
+duration: 00:02:59.050 · language: en (1.00)
+
+FULL TEXT
+It is beneath both you and me to care about the latest to Saan Piker controversy, but the thing to hold in mind is that the hypothetical grocery store they are stealing from is Whole Foods, which tells you everything you need to know about the entire discourse, the entire debate. It is built to trigger people on the left and people on the center who live in Brooklyn or a place like it, and it's built for nobody else. These people are a tiny internet niche. You look at all the tweets involved in this, it's like max 7k likes. Eventually it's going to become an op-ed in the Atlantic that somebody's, you know, grandmother in Michigan is going to read and say, oh, that young Hassan piker man. And then she's going to go to her No Kings rally where she's actually going to be saying things that are like eight times crazier than what Hassan says. So that's like actually where the American electorate is at. And the interesting thing about this is that it's not a new media story. It is not an internet story. It is an old media story. The New York Times decided to run with us. And the reason they did it is because they are looking for attention. They are looking for clicks. This is totally abstract. They're talking about something that happened 14 months ago, Luigi Mangione. The discourse hasn't moved on, like healthcare is still horrible, violence is still bad. But 14 months ago they're reheating nachos that were on the floor, that nobody I don't even know if I'm using that idiom correctly. But the thing is, like, this is just totally abstract when you look at other pages of the New York Times. What happened today? One of them that I read an article about was someone laid off by USAID still hasn't had a job and because of health insurance had something that her doctor found and said this could be cancer, but they're waiting to biopsy it because of the health insurance. The other thing that happened was that a journalist in Lebanon was killed in a double tap strike by Israel, which was in the active voice in the New York Times headline. And as medical workers came to go help her, they were fired upon by soldiers. And that's happening in the same world where the people who claim to be responsible for discourse claim to be experts, claim to care about these issues. I'm going to say both out in the center and in the left are here talking about Hassan Piker. And Hasan's been on every single one of these New York Times podcasts because they need him more than he needs them. And I think he probably has a theory of change, far be it from me to guess what's going on in his head, but that if he can get some of these ideas out there in front of an audience of those grandmothers in Michigan that are about to go to the No Kings rally and say something eight times crazier than what he's gonna say on stream, then it's worth it for him. But along the way, you're gonna have a bunch of these people at the Atlantic who smell some blood in the water and they're gonna go pick at it because they themselves aren't that relevant. And that's all that they have. And it's already clear the direction this is evolving and pretty soon it's just going to be Ezra Klein and Madaglasi is sitting alone in a room talking to each other like it was in 2007 before Vox was even a thing. This moment has peaked and this configuration of American political discourse and life is over. It's ended not just because of the internet but because they're all like 45 now and the system has changed around them and I'm not sure if Hassan Piker is the future of that because Hassan's like what 35 too but all these millennials are just going to keep you know being in these graves interiors and just yap it. And frankly, like, there's, you know, better things we could do. Anyways, it's beneath me to have a take on it, but I guess I do because, like, everyone, I'm just a degenerate on this phone, so.
+
+TIMESTAMPED SEGMENTS
+[00:00:00.000 → 00:00:04.180] It is beneath both you and me to care about the latest to Saan Piker controversy, but the thing
+[00:00:04.180 → 00:00:07.960] to hold in mind is that the hypothetical grocery store they are stealing from is Whole Foods,
+[00:00:08.180 → 00:00:12.100] which tells you everything you need to know about the entire discourse, the entire debate.
+[00:00:12.540 → 00:00:17.220] It is built to trigger people on the left and people on the center who live in Brooklyn or
+[00:00:17.220 → 00:00:21.160] a place like it, and it's built for nobody else. These people are a tiny internet niche.
+[00:00:21.500 → 00:00:24.280] You look at all the tweets involved in this, it's like max 7k likes.
+[00:00:24.660 → 00:00:27.600] Eventually it's going to become an op-ed in the Atlantic that somebody's,
+[00:00:27.600 → 00:00:30.060] you know, grandmother in Michigan is going to read and say,
+[00:00:30.100 → 00:00:31.640] oh, that young Hassan piker man.
+[00:00:31.820 → 00:00:33.440] And then she's going to go to her No Kings rally
+[00:00:33.440 → 00:00:35.140] where she's actually going to be saying things
+[00:00:35.140 → 00:00:37.660] that are like eight times crazier than what Hassan says.
+[00:00:37.860 → 00:00:40.520] So that's like actually where the American electorate is at.
+[00:00:40.680 → 00:00:41.580] And the interesting thing about this is
+[00:00:41.580 → 00:00:42.900] that it's not a new media story.
+[00:00:43.000 → 00:00:44.080] It is not an internet story.
+[00:00:44.360 → 00:00:45.460] It is an old media story.
+[00:00:45.600 → 00:00:47.280] The New York Times decided to run with us.
+[00:00:47.580 → 00:00:48.500] And the reason they did it
+[00:00:48.500 → 00:00:50.200] is because they are looking for attention.
+[00:00:50.560 → 00:00:51.500] They are looking for clicks.
+[00:00:51.700 → 00:00:52.820] This is totally abstract.
+[00:00:53.140 → 00:00:55.220] They're talking about something that happened 14 months ago,
+[00:00:55.420 → 00:00:56.200] Luigi Mangione.
+[00:00:56.200 → 00:01:00.860] The discourse hasn't moved on, like healthcare is still horrible, violence is still bad.
+[00:01:01.220 → 00:01:05.420] But 14 months ago they're reheating nachos that were on the floor, that nobody I don't
+[00:01:05.420 → 00:01:07.080] even know if I'm using that idiom correctly.
+[00:01:07.240 → 00:01:12.300] But the thing is, like, this is just totally abstract when you look at other pages of the
+[00:01:12.300 → 00:01:12.820] New York Times.
+[00:01:13.020 → 00:01:14.080] What happened today?
+[00:01:14.320 → 00:01:18.420] One of them that I read an article about was someone laid off by USAID still hasn't
+[00:01:18.420 → 00:01:22.340] had a job and because of health insurance had something that her doctor found and
+[00:01:22.340 → 00:01:26.080] said this could be cancer, but they're waiting to biopsy it because of the health insurance.
+[00:01:26.400 → 00:01:30.420] The other thing that happened was that a journalist in Lebanon was killed in a double tap strike
+[00:01:30.420 → 00:01:33.540] by Israel, which was in the active voice in the New York Times headline.
+[00:01:33.900 → 00:01:37.440] And as medical workers came to go help her, they were fired upon by soldiers.
+[00:01:37.840 → 00:01:41.740] And that's happening in the same world where the people who claim to be responsible for
+[00:01:41.740 → 00:01:44.880] discourse claim to be experts, claim to care about these issues.
+[00:01:45.020 → 00:01:48.860] I'm going to say both out in the center and in the left are here talking about Hassan
+[00:01:48.860 → 00:01:49.160] Piker.
+[00:01:49.160 → 00:01:52.980] And Hasan's been on every single one of these New York Times podcasts because they need him more
+[00:01:52.980 → 00:01:56.960] than he needs them. And I think he probably has a theory of change, far be it from me to guess
+[00:01:56.960 → 00:02:00.500] what's going on in his head, but that if he can get some of these ideas out there in front of an
+[00:02:00.500 → 00:02:03.820] audience of those grandmothers in Michigan that are about to go to the No Kings rally and say
+[00:02:03.820 → 00:02:07.400] something eight times crazier than what he's gonna say on stream, then it's worth it for him.
+[00:02:07.540 → 00:02:11.020] But along the way, you're gonna have a bunch of these people at the Atlantic who smell
+[00:02:11.020 → 00:02:14.400] some blood in the water and they're gonna go pick at it because they themselves aren't that
+[00:02:14.400 → 00:02:18.240] relevant. And that's all that they have. And it's already clear the direction this is
+[00:02:18.240 → 00:02:22.480] evolving and pretty soon it's just going to be Ezra Klein and Madaglasi is sitting alone in a room
+[00:02:22.480 → 00:02:28.200] talking to each other like it was in 2007 before Vox was even a thing. This moment has peaked and
+[00:02:28.200 → 00:02:33.200] this configuration of American political discourse and life is over. It's ended not just because
+[00:02:33.200 → 00:02:37.360] of the internet but because they're all like 45 now and the system has changed around them
+[00:02:37.360 → 00:02:41.620] and I'm not sure if Hassan Piker is the future of that because Hassan's like what 35 too
+[00:02:41.620 → 00:02:45.940] but all these millennials are just going to keep you know being in these graves interiors
+[00:02:45.940 → 00:02:49.900] and just yap it. And frankly, like, there's, you know, better things we could do.
+[00:02:51.200 → 00:02:55.940] Anyways, it's beneath me to have a take on it, but I guess I do because, like, everyone,
+[00:02:56.080 → 00:02:58.780] I'm just a degenerate on this phone, so.
