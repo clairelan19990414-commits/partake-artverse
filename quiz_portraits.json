@@ -1304,8 +1304,8 @@
     "source": "Wikipedia: Emmi_Whitehorse"
   },
   "a706": {
-    "url": null,
-    "source": null
+    "url": "https://static-assets.artlogic.net/w_3000,h_2000,c_limit,f_auto,fl_lossy,q_auto:good/ws-ropac/usr/images/artists/hero_image/items/4b/4b05e8f1ce614883b84f709c1f0ed2b6/portrait_eva-helene_pade_photo.-a-smund-sollih-gda.jpg?focal=53,60",
+    "source": "Thaddaeus Ropac artist page: Eva Helene Pade"
   },
   "a609": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Dexter_Dalwood_in_1977_%28cropped%29.jpg",
@@ -1556,8 +1556,8 @@
     "source": "Wikipedia: Georges_Mathieu"
   },
   "a670": {
-    "url": null,
-    "source": null
+    "url": "https://static-assets.artlogic.net/w_3000,h_2000,c_limit,f_auto,fl_lossy,q_auto:good/ws-ropac/usr/images/artists/hero_image/items/f9/f9740c9fb6c64e0785dd82846493057f/heemin-chung_photo-by-artifacts.jpg",
+    "source": "Thaddaeus Ropac artist page: Heemin Chung"
   },
   "a677": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Faroki02.jpg",
@@ -1660,8 +1660,8 @@
     "source": null
   },
   "a668": {
-    "url": null,
-    "source": null
+    "url": "https://static-assets.artlogic.net/w_800,h_800,c_limit,f_auto,fl_lossy,q_auto:good/ws-ropac/usr/images/artists/artwork_image_for_artists_page/items/88/88e610e06dab4660aa5630bf3b759500/jean-marc-bustamante-photo-olivier-blanckart.jpg",
+    "source": "Thaddaeus Ropac artist page: Jean-Marc Bustamante"
   },
   "a225": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Jo_Baer_by_Billie_Savage.JPG",
@@ -1908,8 +1908,8 @@
     "source": "Wikipedia: Martine_Syms"
   },
   "a675": {
-    "url": null,
-    "source": null
+    "url": "https://static-assets.artlogic.net/w_800,h_800,c_limit,f_auto,fl_lossy,q_auto:good/ws-ropac/usr/images/artists/artwork_image_for_artists_page/items/48/48e4df34b7d345f89fb7f2e5547d2bb9/mes_by-eva-herzog_1.jpg?focal=50,15",
+    "source": "Thaddaeus Ropac artist page: Mandy El-Sayegh"
   },
   "a787": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Loris_Cecchini.jpg",
@@ -3166,5 +3166,25 @@
   "a188": {
     "url": "https://cdn.sanity.io/images/juzvn5an/release-adp/55b510fa6893dbca6c6d325188095839efdf120f-1080x1350.jpg?w=2048",
     "source": "David Zwirner artist page: Yu Nishimura"
+  },
+  "a689": {
+    "url": "https://static-assets.artlogic.net/w_3000,h_2000,c_limit,f_auto,fl_lossy,q_auto:good/ws-ropac/usr/images/artists/hero_image/items/b7/b795f93404f74973910d7b4179726915/2021-lee-kang-so.-photo-by-park-chan-woo.-3.jpg?focal=50,64",
+    "source": "Thaddaeus Ropac artist page: Lee Kang So"
+  },
+  "a687": {
+    "url": "https://static-assets.artlogic.net/c_limit,f_auto,fl_lossy,q_auto:good/ws-ropac/usr/images/video_entries/main_image/items/0b/0b3f707766ec45268c0a080cc74bc243/stillportrait.png",
+    "source": "Thaddaeus Ropac artist page/video still: Martha Jungwirth"
+  },
+  "a723": {
+    "url": "https://static-assets.artlogic.net/w_3000,h_2000,c_limit,f_auto,fl_lossy,q_auto:good/ws-ropac/usr/images/artists/artwork_image_for_artists_page/items/7d/7d3b12d365f04cbfa0c294a019d89dfa/andreas-slominski-img_5199-_extended-_crop.jpg?focal=44,37",
+    "source": "Thaddaeus Ropac artist page: Andreas Slominski"
+  },
+  "a693": {
+    "url": "https://static-assets.artlogic.net/w_3000,h_2000,c_limit,f_auto,fl_lossy,q_auto:good/ws-ropac/usr/images/artists/hero_image/items/24/248bce1bb3fc48d8ad983788cc6028a6/laib_wolfgang_18a3730.jpg?focal=48,33",
+    "source": "Thaddaeus Ropac artist page: Wolfgang Laib"
+  },
+  "a683": {
+    "url": "https://static-assets.artlogic.net/c_limit,f_auto,fl_lossy,q_auto:good/ws-ropac/usr/images/video_entries/main_image/items/13/134afcb0df4f44d98c62abafa2260e32/screenshot-2023-08-29-at-12.40.58.png",
+    "source": "Thaddaeus Ropac artist page/video still: Han Bing"
   }
 }
