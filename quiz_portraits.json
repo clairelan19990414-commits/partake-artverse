@@ -1604,8 +1604,8 @@
     "source": "Wikipedia: Lawrence_Weiner"
   },
   "a738": {
-    "url": null,
-    "source": null
+    "url": "https://www.artdugrandparis.fr/sites/default/files/styles/content/public/2021-10/Laurent-Grasso-%C2%A9-Claire-Dorn-Courtesy-Perrotin.jpg?itok=akOQnqJ8",
+    "source": "L art du Grand Paris artist portrait by Claire Dorn, courtesy Perrotin"
   },
   "a141": {
     "url": "https://upload.wikimedia.org/wikipedia/en/9/9e/Josef_Albers.jpg",
@@ -2352,8 +2352,8 @@
     "source": "Wikipedia: TeamLab"
   },
   "a615": {
-    "url": null,
-    "source": null
+    "url": "https://d7hftxdivxxvm.cloudfront.net/?quality=85&resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2F91pyvFu-vQrWH1OZ7v6-JQ%252FEDIT_HANO_Portrait-Photo%2Bby%2BKaty%2BGrannan-KG%2B387%2B%25282%2529.jpg&width=450",
+    "source": "Artsy profile portrait by Katy Grannan, courtesy Lisson Gallery"
   },
   "a354": {
     "url": "https://upload.wikimedia.org/wikipedia/en/e/e7/Foam_6%2C_1998%2C_Zhang_Huan_at_Hirshhorn_2022.jpg",
@@ -2718,5 +2718,13 @@
   "a462": {
     "url": "https://thumbnails.thecrimson.com/photos/2026/02/14/205907_1383852.jpeg.2000x1884_q95_crop-smart_upscale.jpg",
     "source": "Harvard Crimson profile image"
+  },
+  "a981": {
+    "url": "https://www.moz.ac.at/cache-buster-3/Personen/bildende-sbg/3233/image-thumb__3233__headerTitleImage/Agnes_Scherer_Wetter_Feb_202320230224_0009.35cdf7b5.png",
+    "source": "Universität Mozarteum artist/faculty portrait by André Simonow"
+  },
+  "a971": {
+    "url": "https://dbt5olve39xco.cloudfront.net/production/media_items/attachments/000/000/371/large/Nabuqi--1598330420.jpg",
+    "source": "Bridge Projects artist page portrait"
   }
 }
