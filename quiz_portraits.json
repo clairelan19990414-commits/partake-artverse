@@ -2702,5 +2702,13 @@
   "a364": {
     "url": "https://white-cube.transforms.svdcdn.com/production/news-images/Miroslaw-Balka/RIA-Residency-_-Miroslaw-Balka-credit_-Eddy-Charlton-3-crop.jpg?w=960&h=960&q=80&auto=format&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1720537874&s=c1ef8ae8c7b100fae9081dc55dc453b9",
     "source": "White Cube residency portrait"
+  },
+  "a132": {
+    "url": "https://news.artnet.com/app/news-upload/2020/01/maxresdefault.jpg",
+    "source": "Artnet interview/video still"
+  },
+  "a957": {
+    "url": "https://www.juxtapoz.com/media/k2/items/cache/7308a1db2e0e3c76eb94caf26e73600b_L.jpg?t=1710759178",
+    "source": "Juxtapoz portrait by Qhawe Luthuli"
   }
 }
