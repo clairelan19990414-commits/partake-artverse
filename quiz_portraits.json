@@ -52,8 +52,8 @@
     "source": "Wikipedia: Cristina_Iglesias"
   },
   "a384": {
-    "url": null,
-    "source": null
+    "url": "https://d7hftxdivxxvm.cloudfront.net/?quality=85&resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2FQHA6JcQN5CPkVzzOZvtO3w%252FVitali_Gelwich_Klara_Hosnedlova_Fashion_Exhibition_Paris_Berlin28.jpg&width=910",
+    "source": "Artsy editorial portrait"
   },
   "a257": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Requin_%28Hai%29_keelboat.svg/960px-Requin_%28Hai%29_keelboat.svg.png",
@@ -1528,8 +1528,8 @@
     "source": "Wikipedia: Geta_Br%C4%83tescu"
   },
   "a633": {
-    "url": null,
-    "source": null
+    "url": "https://www.180studios.com/artist-photos/haroon-mirza.jpg",
+    "source": "180 Studios artist page"
   },
   "a965": {
     "url": "https://sadie-coles.transforms.svdcdn.com/production/images/Artists/Hilary-Lloyd/Exhibitions/2019-SCHQ/Install_view__Car_Park__Sadie_Coles_HQ__Davies_St__London_3.jpeg?w=1200&amp;h=630&amp;q=82&amp;auto=format&amp;fit=crop&amp;crop=focalpoint&amp;fp-x=0.6061&amp;fp-y=0.5032&amp;dm=1763723422&amp;s=6b0d3bb92886abfef201e9814e7e4cce",
@@ -1920,8 +1920,8 @@
     "source": "Wikipedia: Mária_Bartuszová"
   },
   "a654": {
-    "url": null,
-    "source": null
+    "url": "https://imgix.bustle.com/uploads/image/2025/12/3/c429810c/cf219637.jpg?w=900&h=1200&fit=crop&crop=focalpoint&fp-x=0.4874&fp-y=0.4232",
+    "source": "W Magazine studio profile"
   },
   "a720": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Markus_Schinwald_MAK_2026_BHO-9726.jpg/3840px-Markus_Schinwald_MAK_2026_BHO-9726.jpg",
@@ -2072,8 +2072,8 @@
     "source": null
   },
   "a175": {
-    "url": null,
-    "source": null
+    "url": "https://cdn.sanity.io/images/juzvn5an/release-adp/b0a2c2d7d9ce54def182e8227e5e955ab49b6ae5-2013x1132.jpg?w=1200",
+    "source": "David Zwirner portrait news page"
   },
   "a170": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Paul_Klee_by_Hugo_Erfurth%2C_1922.jpg",
@@ -2524,8 +2524,8 @@
     "source": "External link og:image — www.tate.org.uk"
   },
   "a600": {
-    "url": null,
-    "source": null
+    "url": "https://images.squarespace-cdn.com/content/v1/62e206827519224527f08846/207e091f-da93-402a-a540-b56313368817/Tony%2BBechara.png",
+    "source": "Studio Institute memorial profile"
   },
   "a525": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Thomas_Demand_by_David_Shankbone.jpg",
@@ -3210,5 +3210,17 @@
   "a291": {
     "url": "https://www.pacegallery.com/media/images/Mao_Yan.width-2000.jpg",
     "source": "Pace Gallery artist page: Mao Yan"
+  },
+  "a398": {
+    "url": "https://www.macfound.org/media/fellows/profile_photos/mcelheny-2006_profile-240.jpg",
+    "source": "MacArthur Foundation fellow profile"
+  },
+  "a359": {
+    "url": "https://i.vimeocdn.com/video/2061735550-89dc2f9b37c34559e2e8f59c5bec4d62ca46eb2166219209d85f14f0aa741902-d_1280?region=us",
+    "source": "White Cube studio video still"
+  },
+  "a180": {
+    "url": "https://www.airdeparis.com/now/january_2022/mcintyre/images/@em_creditDavidStraight.jpg",
+    "source": "Air de Paris artist profile"
   }
 }
