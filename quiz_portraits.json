@@ -1864,8 +1864,8 @@
     "source": "Wikipedia: Pablo_Picasso"
   },
   "a743": {
-    "url": null,
-    "source": null
+    "url": "https://s3.perrotin.com/d:400xauto/artiste/31_1968.jpg",
+    "source": "Perrotin artist portrait"
   },
   "a625": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Peter_Joseph.jpg",
@@ -2726,5 +2726,17 @@
   "a971": {
     "url": "https://dbt5olve39xco.cloudfront.net/production/media_items/attachments/000/000/371/large/Nabuqi--1598330420.jpg",
     "source": "Bridge Projects artist page portrait"
+  },
+  "a959": {
+    "url": "https://static-assets.artlogic.net/w_1000%2Ch_1000%2Cc_limit/exhibit-e/5ee8d205bd3ab4ab008b4568/cd64b0aaa990577a64d801f75b6ff3cb.jpeg",
+    "source": "Kurimanzutto archive portrait"
+  },
+  "a803": {
+    "url": "https://www.artdugrandparis.fr/sites/default/files/styles/content/public/2021-11/%C2%A9-Eva-Jospin.jpeg?itok=nMTZnCD3",
+    "source": "L art du Grand Paris artist portrait"
+  },
+  "a826": {
+    "url": "https://uss58003.s3.amazonaws.com/uploads-migrated/2017/01/9256.jpg",
+    "source": "Asia Society artist profile image, courtesy Getty Images"
   }
 }
