@@ -412,8 +412,8 @@
     "source": "Wikipedia: Piotr_Ukla%C5%84ski"
   },
   "a833": {
-    "url": null,
-    "source": null
+    "url": "https://ibiza.contemporaryartnow.com/media/a-Marta-Ritratto-BW.webp",
+    "source": "CAN Art Fair artist portrait"
   },
   "a250": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Sam_Gilliam_Art_in_Embassies_Medals_2015.png",
@@ -504,8 +504,8 @@
     "source": "Wikipedia: Tobias_Rehberger"
   },
   "a820": {
-    "url": null,
-    "source": null
+    "url": "https://www.artribune.com/wp-content/uploads/2023/01/Rudi-Ninov-alla-galleria-Continua-San-Gimignano-photo-Manuela-De-Leonardis-1024x716.jpg",
+    "source": "Artribune interview portrait by Manuela De Leonardis"
   },
   "a825": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Michelangelo_Pistoletto%2C_Blenheim_Palace%2C14_September_2016.jpg",
@@ -1908,8 +1908,8 @@
     "source": "Wikipedia: Oliver_Beer_(artist)"
   },
   "a819": {
-    "url": null,
-    "source": null
+    "url": "https://artecontinua.org/wp-content/uploads/elementor/thumbs/MoatazNasr-r6wx2fp0wkzdeoh9dzh3yh59xxwj2cprm23j0edils.jpg",
+    "source": "Arte Continua artist portrait"
   },
   "a195": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Rauch_neo_bruehl_maxernstmuseum_281007_06.jpg",
@@ -2738,5 +2738,13 @@
   "a826": {
     "url": "https://uss58003.s3.amazonaws.com/uploads-migrated/2017/01/9256.jpg",
     "source": "Asia Society artist profile image, courtesy Getty Images"
+  },
+  "a793": {
+    "url": "https://www.180studios.com/artist-photos/Jonathas-de-Andrade.jpg",
+    "source": "180 Studios artist portrait by Jéssica Bernardo"
+  },
+  "a844": {
+    "url": "https://www.chinesenewart.com/chinese-artists16/zhuanghuiport.jpg",
+    "source": "Chinese New Art artist portrait"
   }
 }
