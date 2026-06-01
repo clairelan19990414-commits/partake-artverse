@@ -1664,8 +1664,8 @@
     "source": "Wikipedia: Lionel_Est%C3%A8ve"
   },
   "a510": {
-    "url": null,
-    "source": null
+    "url": "https://static-assets.artlogic.net/w_800,h_800,c_limit,f_auto,fl_lossy,q_auto/ws-mariangoodman/usr/images/news/main_image/items/51/5107123f139d48ca95aa0c351084f0a4/jongsuk-yoon-photo-laura-stevens-for-transfuge-2025.png",
+    "source": "Marian Goodman news portrait"
   },
   "a184": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Jardim_da_Cordoaria_-_Porto.jpg",
@@ -2710,5 +2710,9 @@
   "a957": {
     "url": "https://www.juxtapoz.com/media/k2/items/cache/7308a1db2e0e3c76eb94caf26e73600b_L.jpg?t=1710759178",
     "source": "Juxtapoz portrait by Qhawe Luthuli"
+  },
+  "a936": {
+    "url": "https://karimahashadu.com/wp-content/uploads/2025/01/Karimah-Ashadu-Portrait_Aaron-Leithauser-for-Frankfurter-Allegemein-Germany.jpg",
+    "source": "artist website portrait"
   }
 }
