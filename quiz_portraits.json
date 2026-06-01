@@ -192,8 +192,8 @@
     "source": "Wikipedia: Ferrari_Sheppard"
   },
   "a315": {
-    "url": null,
-    "source": null
+    "url": "https://www.pacegallery.com/media/images/PINEIRO_BELLO_PORTRAIT_v02_web.width-1100.webp",
+    "source": "Pace Gallery artist portrait"
   },
   "a864": {
     "url": null,
@@ -2694,5 +2694,13 @@
   "a180": {
     "url": "https://www.airdeparis.com/now/january_2022/mcintyre/images/@em_creditDavidStraight.jpg",
     "source": "Air de Paris artist profile"
+  },
+  "a630": {
+    "url": "https://cdn.voyagela.com/wp-content/uploads/2022/02/c-PersonalRanLi__DSC4652_1645032784011.jpg",
+    "source": "VoyageLA interview portrait"
+  },
+  "a364": {
+    "url": "https://white-cube.transforms.svdcdn.com/production/news-images/Miroslaw-Balka/RIA-Residency-_-Miroslaw-Balka-credit_-Eddy-Charlton-3-crop.jpg?w=960&h=960&q=80&auto=format&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1720537874&s=c1ef8ae8c7b100fae9081dc55dc453b9",
+    "source": "White Cube residency portrait"
   }
 }
