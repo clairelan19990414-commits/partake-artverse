@@ -308,8 +308,8 @@
     "source": "Wikipedia: Lee_Krasner"
   },
   "a785": {
-    "url": null,
-    "source": null
+    "url": "https://iniva.org/wp-content/uploads/2017/02/portrait_0.jpg",
+    "source": "Iniva artist page portrait of Iván Capote"
   },
   "a810": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/JannisKounellis.jpg",
@@ -380,8 +380,8 @@
     "source": "Wikipedia: Serse"
   },
   "a910": {
-    "url": null,
-    "source": null
+    "url": "https://mdc-space.fra1.cdn.digitaloceanspaces.com/prod/_jpg600/Pietro_Roccasalva_Photo-by-Albrecht_Fuchs_2018.jpg",
+    "source": "Massimo De Carlo artist portrait of Pietro Roccasalva, photo by Albrecht Fuchs, 2018"
   },
   "a444": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Tony_Cragg_%28cropped%29.jpg",
@@ -1620,8 +1620,8 @@
     "source": "Wikipedia: Leiko_Ikemura"
   },
   "a807": {
-    "url": null,
-    "source": null
+    "url": "https://www.chinesenewart.com/chinese-artists12/kanxuanpotraitt.jpg",
+    "source": "Chinese New Art artist-page portrait of Kan Xuan"
   },
   "a641": {
     "url": "https://upload.wikimedia.org/wikipedia/en/c/cb/Photo_of_Joyce_Pensato.jpg",
@@ -2828,5 +2828,9 @@
   "a447": {
     "url": "https://blog.kunstsammlungen-chemnitz.de/wp-content/uploads/2021/01/Edith-Dekyndt.jpeg",
     "source": "Kunstsammlungen Chemnitz museum blog portrait of Edith Dekyndt, Pinault Collection residency in Lens, 2017, photo by Maxime Tétard"
+  },
+  "a394": {
+    "url": "https://www.juxtapoz.com/media/k2/items/src/7fe6f0f29cb55805eedbb5a35c650a29.jpg?t=1606870228",
+    "source": "Juxtapoz magazine portrait of Danica Lundy, portrait by the artist"
   }
 }
