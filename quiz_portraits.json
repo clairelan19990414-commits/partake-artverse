@@ -1848,8 +1848,8 @@
     "source": "Wikipedia: Paola_Pivi"
   },
   "a705": {
-    "url": null,
-    "source": null
+    "url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto:good/ws-ropac/usr/images/artists/artwork_image_for_artists_page/items/0a/0ad84855c58d4ae08c915fc6d21230d5/_chd0634.jpg?focal=52,15",
+    "source": "Thaddaeus Ropac artist portrait of Nick Oberthaler"
   },
   "a50": {
     "url": "https://gagosian.com/media/images/artists/nathaniel-mary-quinn/5cpvwdlHb3Nw_1200x1200.jpg",
@@ -2820,5 +2820,9 @@
   "a437": {
     "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Eric%20Orr%20Interview%20Still.jpg",
     "source": "Wikimedia Commons interview still of Eric Orr, author Orrstudios, 1997"
+  },
+  "a704": {
+    "url": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto:good/ws-ropac/usr/images/artists/artwork_image_for_artists_page/items/51/51cd202931f7460da72ba5d2954849b0/l1110298-2.jpg",
+    "source": "Thaddaeus Ropac artist portrait of Patrick Neu"
   }
 }
