@@ -452,8 +452,8 @@
     "source": "Wikipedia: Paul_Graham_(photographer)"
   },
   "a181": {
-    "url": null,
-    "source": null
+    "url": "https://images.prismic.io/fca-website/portrait_Michelson.jpg?rect=23,0,326,372&w=280&h=320",
+    "source": "Foundation for Contemporary Arts portrait of Sarah Michelson, photo by Paula Court"
   },
   "a82": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/20081202_Rashid_Johnson_at_the_Rubell_Family_Collection.jpg",
@@ -2776,5 +2776,17 @@
     "url": "https://white-cube.transforms.svdcdn.com/production/uploads/Exhibitions/Gallery-Exhibitions/Masons-Yard/2024/Yoko-Matsumoto/Yokomatsumoto.jpg?w=960&q=80&auto=format&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1718706939&s=9de3a43cca211560039ac03ed0e5e6b6",
     "source": "White Cube studio portrait/photo by Mikio Kubota",
     "notes": "Verified archival studio portrait, courtesy Hino Gallery and White Cube."
+  },
+  "a413": {
+    "url": "https://white-cube.transforms.svdcdn.com/production/news-images/Marina-Rheingantz/Photo-Denise-Andrade-2022.jpg?w=960&q=80&auto=format&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1692614314&s=4f937527f770389e755b6b0367fea9fe",
+    "source": "White Cube portrait of Marina Rheingantz, photo by Denise Andrade, 2022"
+  },
+  "a960": {
+    "url": "https://galerie-karsten-greve.com/fileadmin/_processed_/1/c/csm_GKG-Lucia_Laguna-Portrait-1_02f363c013.jpg",
+    "source": "Galerie Karsten Greve artist portrait of Lucia Laguna, photo by Robson Bolsoni"
+  },
+  "a970": {
+    "url": "https://www.artofwishes.org.uk/wp-content/uploads/2022/12/Victoria-Morton_Portrait_Photo-Audrey-Bizouerne__MG_21196.png",
+    "source": "Art of Wishes portrait of Victoria Morton, photo by Audrey Bizouerne, courtesy Sadie Coles HQ"
   }
 }
