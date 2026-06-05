@@ -68,10 +68,23 @@ def unique(seq: list[str]) -> list[str]:
     return out
 
 
-def gather_ids(handle: str, limit: int) -> list[str]:
-    ids = ids_from_curation_json(handle) or ids_from_curation_txt(handle)
-    if len(ids) < min(8, limit):
-        ids.extend(ids_from_captions(handle, limit))
+def gather_ids(handle: str, limit: int, source: str = 'captions') -> list[str]:
+    """Return post ids for the requested workflow.
+
+    The full-transcript workflow must not silently collapse to an 8-post
+    curation. Captions are the broadest local inventory we have, so they are
+    now the default source for download/transcription coverage.
+    """
+    if source == 'captions':
+        ids = ids_from_captions(handle, limit)
+    elif source == 'curation':
+        ids = ids_from_curation_json(handle) or ids_from_curation_txt(handle)
+    elif source == 'combined':
+        ids = ids_from_captions(handle, limit)
+        ids.extend(ids_from_curation_json(handle))
+        ids.extend(ids_from_curation_txt(handle))
+    else:
+        raise ValueError(f'unknown source: {source}')
     return unique(ids)[:limit]
 
 
@@ -100,15 +113,24 @@ def download(handle: str, ids: list[str]) -> None:
             print(proc.stdout.strip().split('\n')[-1] if proc.stdout.strip() else f'{post_id}: failed', flush=True)
     count = len(list(out_dir.glob('*.mp4')))
     print(f'@{handle}: local_mp4s={count}', flush=True)
+    missing = [post_id for post_id in ids if not any(out_dir.glob(f'{post_id}.mp4'))]
+    if missing:
+        print(f'@{handle}: missing_requested_ids={", ".join(missing)}', flush=True)
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument('handles', nargs='+')
-    parser.add_argument('--limit', type=int, default=12)
+    parser.add_argument('--limit', type=int, default=40)
+    parser.add_argument(
+        '--source',
+        choices=['captions', 'curation', 'combined'],
+        default='captions',
+        help='ID source. Default is captions for the full-transcript workflow; use curation only for a deliberate sample.',
+    )
     args = parser.parse_args()
     for handle in args.handles:
-        ids = gather_ids(handle, args.limit)
+        ids = gather_ids(handle, args.limit, args.source)
         if not ids:
             print(f'========== @{handle}: no ids found ==========', flush=True)
             continue

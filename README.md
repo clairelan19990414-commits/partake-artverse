@@ -44,22 +44,35 @@ Instagram reels download to: `~/Desktop/partake_videos/<handle>/`
 
 ## Workflow B: Instagram creator (batch Reels)
 
-1. **Download all Reels** — run in Terminal:
+The creator-page source of truth is the downloaded video transcript corpus, not captions, curation files, or an 8-post sample. Captions are useful for finding post IDs, but final notes/pages should be rebuilt from `transcripts/<handle>_transcript_detailed.txt/json`.
+
+1. **Harvest/download/transcribe the full available corpus** — run:
+   ```bash
+   ./full_instagram_transcript.sh didoriot 40
+   # saves mp4s to ~/Desktop/partake_videos/didoriot/
+   # outputs transcripts/didoriot_transcript_detailed.txt
+   # outputs transcripts/didoriot_transcript_detailed.json
+   ```
+   To check download coverage without starting a long Whisper pass:
+   ```bash
+   PARTAKE_SKIP_TRANSCRIBE=1 ./full_instagram_transcript.sh didoriot 40
+   ```
+2. **Legacy download-only option** — if needed, run in Terminal:
    ```bash
    bash download_instagram.sh
    # enter handle without @, e.g.: didoriot
    # saves to ~/Desktop/partake_videos/didoriot/
    ```
-2. **Transcribe all clips** — run:
+3. **Legacy transcript-only option** — run:
    ```bash
    bash transcribe_instagram.sh didoriot
    # processes every mp4 in the folder
    # outputs: transcripts/didoriot_transcript.txt
    ```
-3. **Extract notes** — paste the merged transcript into Claude.ai with:
+4. **Extract notes** — paste the detailed merged transcript into Claude.ai with:
    > "This is a merged transcript of ~30-60 short Instagram Reels by a single creator. Extract structured notes: their main thesis or worldview, recurring concepts or frameworks they use (with definitions), people or works they reference, and 5-8 memorable direct quotes. Format as structured notes."
-4. **Generate HTML** — build `<handle>.html` using same CSS classes, same structure
-5. **Update index.html** — add card tagged `[instagram]`
+5. **Generate HTML** — build `<handle>.html` using same CSS classes, same structure. Make the coverage visible: caption IDs, local mp4s, transcribed clips, transcript word count, and missing IDs.
+6. **Update index.html** — add card tagged `[instagram]`
 
 ---
 

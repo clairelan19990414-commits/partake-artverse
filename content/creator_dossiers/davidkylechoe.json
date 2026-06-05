@@ -1,146 +1,520 @@
 {
   "handle": "davidkylechoe",
   "source_counts": {
-    "captions": 40,
-    "transcript_clips": 8
+    "caption_ids": 40,
+    "local_mp4s": 38,
+    "transcript_clips": 38,
+    "transcript_words": 17512,
+    "missing_caption_ids": [
+      "DVj5LuRCX1n",
+      "DVTY-QMDqK0"
+    ]
   },
+  "source_standard": "Full creator pages must be rebuilt from downloaded video transcripts, not caption-only notes or 8-post curation files.",
   "dossiers": [
     {
-      "id": "DVbB1cyjqpU",
-      "title": "The future of branding will look and read very differently. When humans aren’t the only on",
-      "url": "https://www.instagram.com/reel/DVbB1cyjqpU/",
-      "source_type": "transcript + caption",
-      "word_count": 390,
-      "concepts": [
-        "Agentic branding",
-        "Original perspective as scarce asset"
-      ],
-      "role": "creative practice",
-      "summary": "Develops Agentic branding, Original perspective as scarce asset through this source: We're seeing the headlines every day around agents and AI.",
-      "source_excerpt": "But what's the relationship between agents and branding?",
-      "why_it_matters": "This gives the page primary-source backing for Agentic branding, Original perspective as scarce asset, turning the concept from a label into an actual clip-level argument.",
-      "tags": []
-    },
-    {
-      "id": "DVWZGQ6iQv7",
-      "title": "Idk much but one thing I know is that as access to information and reliance on AI goes...",
-      "url": "https://www.instagram.com/reel/DVWZGQ6iQv7/",
-      "source_type": "transcript + caption",
-      "word_count": 366,
-      "concepts": [
-        "Brand-maxing",
-        "Worldbuilding depth",
-        "Original perspective as scarce asset"
-      ],
-      "role": "creative practice",
-      "summary": "Develops Brand-maxing, Worldbuilding depth through this source: They know they're being resold synthetic plastic slop at 100x markup and they're not buying it anymore.",
-      "source_excerpt": "They know they're being resold synthetic plastic slop at 100x markup and they're not buying it anymore.",
-      "why_it_matters": "This gives the page primary-source backing for Brand-maxing, Worldbuilding depth, Original perspective as scarce asset, turning the concept from a label into an actual clip-level argument.",
-      "tags": []
-    },
-    {
-      "id": "DU11vjUDGww",
-      "title": "Chrome Hearts doesn’t have ecommerce, doesn’t run ads, and barely shows product on social",
-      "url": "https://www.instagram.com/reel/DU11vjUDGww/",
-      "source_type": "transcript + caption",
-      "word_count": 521,
-      "concepts": [
-        "Founder principles as brand DNA",
-        "Anti-scale / intentional scarcity",
-        "Dynastic stewardship"
-      ],
-      "role": "creative practice",
-      "summary": "Develops Founder principles as brand DNA, Anti-scale / intentional scarcity through this source: This founder will hate that I'm making this video.",
-      "source_excerpt": "Chrome Hearts is a luxury jewelry and lifestyle company worth over a billion dollars with 34 locations worldwide.",
-      "why_it_matters": "This gives the page primary-source backing for Founder principles as brand DNA, Anti-scale / intentional scarcity, Dynastic stewardship, turning the concept from a label into an actual clip-level argument.",
-      "tags": [
-        "founderstory",
-        "fashionmarketing",
-        "brandstrategist",
-        "luxurymarketing"
+      "id": "DSIf633iTS5",
+      "title": "Potential is invisible until the voice is recognized",
+      "url": "https://www.instagram.com/reel/DSIf633iTS5/",
+      "source_type": "full video transcript",
+      "word_count": 401,
+      "duration_seconds": 112.64,
+      "summary": "People are bad at recognizing potential early, so the creator has to protect and train their own voice before external evidence arrives.",
+      "editorial_tags": [
+        "potential",
+        "voice",
+        "creator psychology"
       ]
     },
     {
-      "id": "DVtJaCvt9jj",
-      "title": "This new brand campaign by stopped me in my tracks",
-      "url": "https://www.instagram.com/reel/DVtJaCvt9jj/",
-      "source_type": "transcript + caption",
-      "word_count": 295,
-      "concepts": [],
-      "role": "creative practice",
-      "summary": "Develops a creative practice thread through this source: NPR just dropped the hardest brand campaign this year.",
-      "source_excerpt": "Let's talk about why it works from the perspective of 11 year brand strategist who's worked on brand campaigns for Coca-Cola, Netflix, and skin condoms and more.",
-      "why_it_matters": "This adds texture around good, brand, guys, know, showing a recurring concern that was easy to flatten in the shorter notes.",
-      "tags": []
+      "id": "DSLUN72iZkz",
+      "title": "Distance is neutral; capacity is the variable",
+      "url": "https://www.instagram.com/reel/DSLUN72iZkz/",
+      "source_type": "full video transcript",
+      "word_count": 468,
+      "duration_seconds": 117.84,
+      "summary": "The gap between present and future is less important than strengthening the person doing the walking.",
+      "editorial_tags": [
+        "capacity",
+        "self-development"
+      ]
     },
     {
-      "id": "DW6XsWwjqE8",
-      "title": "Project Hail Mary is undoubtedly a masterpiece and deserving of all the praise it’s gettin",
-      "url": "https://www.instagram.com/reel/DW6XsWwjqE8/",
-      "source_type": "transcript + caption",
-      "word_count": 436,
-      "concepts": [
-        "Worldbuilding depth"
-      ],
-      "role": "creative practice",
-      "summary": "Develops Worldbuilding depth through this source: Project Hail Mary is brand world building at its best.",
-      "source_excerpt": "Project Hail Mary is set to be one of the most iconic movies of this decade as the second highest grossing film of this year at over $400 million.",
-      "why_it_matters": "This gives the page primary-source backing for Worldbuilding depth, turning the concept from a label into an actual clip-level argument.",
-      "tags": [
-        "brandstrategist",
+      "id": "DSNsEnIDwIl",
+      "title": "Reading as active extraction",
+      "url": "https://www.instagram.com/reel/DSNsEnIDwIl/",
+      "source_type": "full video transcript",
+      "word_count": 265,
+      "duration_seconds": 72.7,
+      "summary": "Memory improves when reading begins with the assumption that something useful is inside and a plan to retrieve it.",
+      "editorial_tags": [
+        "learning",
+        "reading"
+      ]
+    },
+    {
+      "id": "DSSMg12jsqx",
+      "title": "Eric Berne and hidden relational scripts",
+      "url": "https://www.instagram.com/reel/DSSMg12jsqx/",
+      "source_type": "full video transcript",
+      "word_count": 400,
+      "duration_seconds": 114.08,
+      "summary": "Games People Play becomes a lens for noticing parent/adult/child roles and the scripts people unconsciously replay.",
+      "editorial_tags": [
+        "psychology",
+        "scripts"
+      ]
+    },
+    {
+      "id": "DSU4OcijqsD",
+      "title": "The trap of accusation games",
+      "url": "https://www.instagram.com/reel/DSU4OcijqsD/",
+      "source_type": "full video transcript",
+      "word_count": 395,
+      "duration_seconds": 119.14,
+      "summary": "The NIGYSOB game shows how people bait each other into confirmation, grievance, and control.",
+      "editorial_tags": [
+        "psychology",
+        "conflict"
+      ]
+    },
+    {
+      "id": "DSnvzvfkTXb",
+      "title": "Responsibility games and displaced blame",
+      "url": "https://www.instagram.com/reel/DSnvzvfkTXb/",
+      "source_type": "full video transcript",
+      "word_count": 411,
+      "duration_seconds": 113.94,
+      "summary": "The See What You Made Me Do pattern reveals how one person can outsource responsibility for their own actions.",
+      "editorial_tags": [
+        "psychology",
+        "responsibility"
+      ]
+    },
+    {
+      "id": "DSuzBDADqXH",
+      "title": "Let the child loose",
+      "url": "https://www.instagram.com/reel/DSuzBDADqXH/",
+      "source_type": "full video transcript",
+      "word_count": 354,
+      "duration_seconds": 122.67,
+      "summary": "Authentic creative energy comes from recovering the playful, experimental child without abandoning adult discipline.",
+      "editorial_tags": [
+        "creativity",
+        "selfhood"
+      ]
+    },
+    {
+      "id": "DT-fhUGjrcT",
+      "title": "Aman and the power of staying small",
+      "url": "https://www.instagram.com/reel/DT-fhUGjrcT/",
+      "source_type": "full video transcript",
+      "word_count": 547,
+      "duration_seconds": 168.88,
+      "summary": "Adrian Zecha makes hospitality feel sacred by refusing generic luxury scale and protecting intimacy.",
+      "editorial_tags": [
+        "hospitality",
+        "anti-scale"
+      ]
+    },
+    {
+      "id": "DTAnQM4Dk3y",
+      "title": "Potential trinity for high performers",
+      "url": "https://www.instagram.com/reel/DTAnQM4Dk3y/",
+      "source_type": "full video transcript",
+      "word_count": 420,
+      "duration_seconds": 133.91,
+      "summary": "Potential becomes usable when identity, performance, and lived capacity line up instead of staying abstract.",
+      "editorial_tags": [
+        "potential",
+        "performance"
+      ]
+    },
+    {
+      "id": "DTJsq-gCV-R",
+      "title": "Beams and the excitement of basic",
+      "url": "https://www.instagram.com/reel/DTJsq-gCV-R/",
+      "source_type": "full video transcript",
+      "word_count": 600,
+      "duration_seconds": 176.54,
+      "summary": "Beams turns ordinary retail into a culture machine through sub-brands, curation, and Japanese specificity.",
+      "editorial_tags": [
+        "retail",
+        "Japan"
+      ]
+    },
+    {
+      "id": "DTNsUxBDorF",
+      "title": "Gentle Monster and newness as moat",
+      "url": "https://www.instagram.com/reel/DTNsUxBDorF/",
+      "source_type": "full video transcript",
+      "word_count": 616,
+      "duration_seconds": 178.54,
+      "summary": "The eyewear brand treats stores as art installations, making novelty a repeatable experience rather than a seasonal trick.",
+      "editorial_tags": [
+        "retail",
+        "experience"
+      ]
+    },
+    {
+      "id": "DTYqvCXCeQd",
+      "title": "HeyTea and product invention",
+      "url": "https://www.instagram.com/reel/DTYqvCXCeQd/",
+      "source_type": "full video transcript",
+      "word_count": 596,
+      "duration_seconds": 179.61,
+      "summary": "Cheese foam becomes a category-making idea because the brand uses product format, not just campaign language, to change behavior.",
+      "editorial_tags": [
+        "product",
+        "China"
+      ]
+    },
+    {
+      "id": "DTkrNhgDoOZ",
+      "title": "Arc teryx and detail obsession",
+      "url": "https://www.instagram.com/reel/DTkrNhgDoOZ/",
+      "source_type": "full video transcript",
+      "word_count": 544,
+      "duration_seconds": 174.41,
+      "summary": "Technical details, refusal of convention, and mountain-use truth become the brand promise.",
+      "editorial_tags": [
+        "product craft",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "DTnRTTmDjD9",
+      "title": "Nishiyama Onsen Keiunkan and time horizon",
+      "url": "https://www.instagram.com/reel/DTnRTTmDjD9/",
+      "source_type": "full video transcript",
+      "word_count": 515,
+      "duration_seconds": 148.45,
+      "summary": "A 1300-year hotel reframes brand endurance as stewardship across generations, not quarterly growth.",
+      "editorial_tags": [
+        "longevity",
+        "hospitality"
+      ]
+    },
+    {
+      "id": "DU-4KNqDmmA",
+      "title": "Nothing and transparent clarity",
+      "url": "https://www.instagram.com/reel/DU-4KNqDmmA/",
+      "source_type": "full video transcript",
+      "word_count": 497,
+      "duration_seconds": 132.19,
+      "summary": "Carl Pei positions hardware through visible design logic, community energy, and the dream of making tech exciting again.",
+      "editorial_tags": [
+        "technology",
+        "design"
+      ]
+    },
+    {
+      "id": "DU11vjUDGww",
+      "title": "Chrome Hearts as anti-scale system",
+      "url": "https://www.instagram.com/reel/DU11vjUDGww/",
+      "source_type": "full video transcript",
+      "word_count": 575,
+      "duration_seconds": 147.01,
+      "summary": "Anti-fashion, vertical integration, family continuity, and refusal of ecommerce turn founder conviction into infrastructure.",
+      "editorial_tags": [
+        "luxury",
+        "anti-scale"
+      ]
+    },
+    {
+      "id": "DUDqSmmDsJM",
+      "title": "Ralph Lauren and life as worldbuilding",
+      "url": "https://www.instagram.com/reel/DUDqSmmDsJM/",
+      "source_type": "full video transcript",
+      "word_count": 596,
+      "duration_seconds": 158.29,
+      "summary": "Ralph Lauren builds a movie-set universe where the founder belief becomes a coherent emotional environment.",
+      "editorial_tags": [
         "worldbuilding",
-        "projecthailmary"
+        "fashion"
       ]
     },
     {
       "id": "DUGvruEiWJT",
-      "title": "Team 🇺🇸 with Starbucks or Team 🇨🇳 with Luckin? Lmk below",
+      "title": "Luckin vs Starbucks as market-fit test",
       "url": "https://www.instagram.com/reel/DUGvruEiWJT/",
-      "source_type": "transcript + caption",
-      "word_count": 382,
-      "concepts": [],
-      "role": "money / class",
-      "summary": "Develops a money / class thread through this source: Here are the numbers so you can decide.",
-      "source_excerpt": "Luckin, on the other hand, has 29,000 stores, almost all in China, but they're growing 50% a year.",
-      "why_it_matters": "This adds texture around starbucks, china, coffee, they're, showing a recurring concern that was easy to flatten in the shorter notes.",
-      "tags": []
+      "source_type": "full video transcript",
+      "word_count": 446,
+      "duration_seconds": 140.09,
+      "summary": "Luckin succeeds by matching Chinese consumer behavior through mobile ordering, pickup speed, and product cadence.",
+      "editorial_tags": [
+        "market fit",
+        "coffee"
+      ]
+    },
+    {
+      "id": "DUvgAwHjqg-",
+      "title": "Laopu Gold and Chinese luxury confidence",
+      "url": "https://www.instagram.com/reel/DUvgAwHjqg-/",
+      "source_type": "full video transcript",
+      "word_count": 481,
+      "duration_seconds": 146.54,
+      "summary": "Laopu Gold suggests luxury can be built from Chinese craft codes instead of Western validation.",
+      "editorial_tags": [
+        "luxury",
+        "China"
+      ]
+    },
+    {
+      "id": "DV0y4p9ONfT",
+      "title": "Onitsuka Tiger and determined reinvention",
+      "url": "https://www.instagram.com/reel/DV0y4p9ONfT/",
+      "source_type": "full video transcript",
+      "word_count": 560,
+      "duration_seconds": 153.42,
+      "summary": "The Asics lineage becomes fashionable again by holding onto performance principles while sharpening cultural presentation.",
+      "editorial_tags": [
+        "fashion",
+        "sportswear"
+      ]
+    },
+    {
+      "id": "DVPWceOifKl",
+      "title": "To Summer and non-Western fragrance luxury",
+      "url": "https://www.instagram.com/reel/DVPWceOifKl/",
+      "source_type": "full video transcript",
+      "word_count": 511,
+      "duration_seconds": 152.39,
+      "summary": "Shen Li frames fragrance through Chinese seasonal, poetic, and material traditions rather than European aristocratic perfume logic.",
+      "editorial_tags": [
+        "fragrance",
+        "China"
+      ]
+    },
+    {
+      "id": "DVWZGQ6iQv7",
+      "title": "Brand-maxing against synthetic sameness",
+      "url": "https://www.instagram.com/reel/DVWZGQ6iQv7/",
+      "source_type": "full video transcript",
+      "word_count": 404,
+      "duration_seconds": 114.17,
+      "summary": "In a world of AI-flattened taste, brands need a full-send point of view, dense worlds, and prolific specificity.",
+      "editorial_tags": [
+        "brand-maxing",
+        "worldbuilding"
+      ]
+    },
+    {
+      "id": "DVbB1cyjqpU",
+      "title": "Agentic branding",
+      "url": "https://www.instagram.com/reel/DVbB1cyjqpU/",
+      "source_type": "full video transcript",
+      "word_count": 426,
+      "duration_seconds": 124.86,
+      "summary": "AI agents can parse metadata and consensus, but they cannot feel aura, taste, or emotional conviction the way humans do.",
+      "editorial_tags": [
+        "AI",
+        "brand legibility"
+      ]
+    },
+    {
+      "id": "DVlbFBDNupr",
+      "title": "Snow Peak and fun as operating principle",
+      "url": "https://www.instagram.com/reel/DVlbFBDNupr/",
+      "source_type": "full video transcript",
+      "word_count": 442,
+      "duration_seconds": 133.03,
+      "summary": "Outdoor products become community infrastructure when the brand treats fun and use as a founder-level commitment.",
+      "editorial_tags": [
+        "outdoor",
+        "community"
+      ]
+    },
+    {
+      "id": "DVoMf5rtUmX",
+      "title": "Rocky s Matcha and constraint entrepreneurship",
+      "url": "https://www.instagram.com/reel/DVoMf5rtUmX/",
+      "source_type": "full video transcript",
+      "word_count": 577,
+      "duration_seconds": 148.4,
+      "summary": "A founder with a 9-to-5 shows how strong product taste, internet fluency, and constraint can still build momentum.",
+      "editorial_tags": [
+        "matcha",
+        "founder constraint"
+      ]
+    },
+    {
+      "id": "DVtJaCvt9jj",
+      "title": "NPR and civic brand memory",
+      "url": "https://www.instagram.com/reel/DVtJaCvt9jj/",
+      "source_type": "full video transcript",
+      "word_count": 309,
+      "duration_seconds": 86.73,
+      "summary": "The campaign works by using familiar legacy cues to clarify a side, a moral orientation, and a reason to trust.",
+      "editorial_tags": [
+        "campaign",
+        "media"
+      ]
+    },
+    {
+      "id": "DW6XsWwjqE8",
+      "title": "Project Hail Mary and difficult worldbuilding",
+      "url": "https://www.instagram.com/reel/DW6XsWwjqE8/",
+      "source_type": "full video transcript",
+      "word_count": 451,
+      "duration_seconds": 123.32,
+      "summary": "The craft lesson is that worlds feel real when makers choose the hard path, even in details viewers may not consciously notice.",
+      "editorial_tags": [
+        "worldbuilding",
+        "craft"
+      ]
+    },
+    {
+      "id": "DW9EPTgjmIL",
+      "title": "Malbon and the Instagram moodboard brand",
+      "url": "https://www.instagram.com/reel/DW9EPTgjmIL/",
+      "source_type": "full video transcript",
+      "word_count": 569,
+      "duration_seconds": 144.5,
+      "summary": "Golf becomes culturally refreshed through image logic, casualness, and a moodboard that understands younger leisure codes.",
+      "editorial_tags": [
+        "sport culture",
+        "moodboard"
+      ]
+    },
+    {
+      "id": "DWCbDjVEv1Y",
+      "title": "Krave Beauty and refusal to launch",
+      "url": "https://www.instagram.com/reel/DWCbDjVEv1Y/",
+      "source_type": "full video transcript",
+      "word_count": 570,
+      "duration_seconds": 170.92,
+      "summary": "The skincare brand uses restraint, sustainability, and product discipline as its differentiation against launch addiction.",
+      "editorial_tags": [
+        "beauty",
+        "restraint"
+      ]
+    },
+    {
+      "id": "DWJqMjLjxYo",
+      "title": "Weekly brand scan: cognitive gummies",
+      "url": "https://www.instagram.com/reel/DWJqMjLjxYo/",
+      "source_type": "full video transcript",
+      "word_count": 277,
+      "duration_seconds": 70.33,
+      "summary": "Small category experiments reveal how wellness, taste, and performance branding keep merging into snackable formats.",
+      "editorial_tags": [
+        "brand scan",
+        "wellness"
+      ]
+    },
+    {
+      "id": "DWY59U2j0Xw",
+      "title": "Daymaker and cakes as sales infrastructure",
+      "url": "https://www.instagram.com/reel/DWY59U2j0Xw/",
+      "source_type": "full video transcript",
+      "word_count": 304,
+      "duration_seconds": 78.46,
+      "summary": "Cake delivery becomes more than novelty when it replaces cold outreach with a warmer relationship ritual.",
+      "editorial_tags": [
+        "service design",
+        "sales"
+      ]
+    },
+    {
+      "id": "DWowPBpDo3w",
+      "title": "Nonfiction and Korean lifestyle fragrance",
+      "url": "https://www.instagram.com/reel/DWowPBpDo3w/",
+      "source_type": "full video transcript",
+      "word_count": 476,
+      "duration_seconds": 134.14,
+      "summary": "The brand turns scent into spatial, editorial, and flagship experience rather than just another cosmetics SKU.",
+      "editorial_tags": [
+        "fragrance",
+        "Korea"
+      ]
     },
     {
       "id": "DWq6XTQDink",
-      "title": "If you’ve been to then you know the impact of the brand experience, but I f",
+      "title": "Din Tai Fung and quality as proof",
       "url": "https://www.instagram.com/reel/DWq6XTQDink/",
-      "source_type": "transcript + caption",
-      "word_count": 456,
-      "concepts": [
-        "Founder principles as brand DNA",
-        "Anti-scale / intentional scarcity",
-        "Dynastic stewardship",
-        "Quality as the only growth strategy"
-      ],
-      "role": "money / class",
-      "summary": "Develops Founder principles as brand DNA, Anti-scale / intentional scarcity through this source: This restaurant makes more money per store than any chain in America and yet they refuse to grow any faster.",
-      "source_excerpt": "This restaurant makes more money per store than any chain in America and yet they refuse to grow any faster.",
-      "why_it_matters": "This gives the page primary-source backing for Founder principles as brand DNA, Anti-scale / intentional scarcity, Dynastic stewardship, turning the concept from a label into an actual clip-level argument.",
-      "tags": [
-        "founderstory",
-        "brandstrategist",
-        "luxurymarketing",
-        "startupbusinesses",
-        "brandstrategy"
+      "source_type": "full video transcript",
+      "word_count": 495,
+      "duration_seconds": 142.04,
+      "summary": "Exact dumpling folds, open kitchens, and slow growth make operational quality visible to the customer.",
+      "editorial_tags": [
+        "quality",
+        "hospitality"
+      ]
+    },
+    {
+      "id": "DWtgcKHEW9v",
+      "title": "With Raw Materials and material imagination",
+      "url": "https://www.instagram.com/reel/DWtgcKHEW9v/",
+      "source_type": "full video transcript",
+      "word_count": 318,
+      "duration_seconds": 82.32,
+      "summary": "Stella Lee treats algae yarn, mushrooms, fish skin, and manufacturing experiments as the center of product design.",
+      "editorial_tags": [
+        "materials",
+        "design"
+      ]
+    },
+    {
+      "id": "DWyrnrEjqPE",
+      "title": "Savannah Bananas and participatory sports",
+      "url": "https://www.instagram.com/reel/DWyrnrEjqPE/",
+      "source_type": "full video transcript",
+      "word_count": 529,
+      "duration_seconds": 145.47,
+      "summary": "The team reinvents baseball by designing entertainment rules, audience delight, and scarcity before marketing spend.",
+      "editorial_tags": [
+        "sports",
+        "participation"
+      ]
+    },
+    {
+      "id": "DXHPQ0Sjbs6",
+      "title": "Ceiling Service and third-space repair",
+      "url": "https://www.instagram.com/reel/DXHPQ0Sjbs6/",
+      "source_type": "full video transcript",
+      "word_count": 267,
+      "duration_seconds": 62.9,
+      "summary": "The Seoul audio-visual concept points toward venues that make rest, sound, and gathering feel intentionally designed.",
+      "editorial_tags": [
+        "third places",
+        "Seoul"
+      ]
+    },
+    {
+      "id": "DXb2VcHjkpX",
+      "title": "Stone Island and archive as engine",
+      "url": "https://www.instagram.com/reel/DXb2VcHjkpX/",
+      "source_type": "full video transcript",
+      "word_count": 575,
+      "duration_seconds": 155.04,
+      "summary": "Material research, garment dyeing, and archive discipline make experimentation cumulative instead of random.",
+      "editorial_tags": [
+        "archive",
+        "fashion"
       ]
     },
     {
       "id": "DXeai-RDrxF",
-      "title": "Comment Skymall and I’ll send you a link to my archive of all the airline magazines",
+      "title": "In-flight magazines as analog brand worlds",
       "url": "https://www.instagram.com/reel/DXeai-RDrxF/",
-      "source_type": "transcript + caption",
-      "word_count": 292,
-      "concepts": [],
-      "role": "creative practice",
-      "summary": "Develops a creative practice thread through this source: Before airplane Wi-Fi, the only source of entertainment for most of us were in-flight magazines.",
-      "source_excerpt": "In a world where people are craving analog, thoughtful, non-AI, non-synthetic products, and with the growing resurgence of print magazines with 55% of GenZ reported buying or reading a physical magazine the past year, plus major titles relaunching and print, such as...",
-      "why_it_matters": "This adds texture around magazine, magazines, airline, back, showing a recurring concern that was easy to flatten in the shorter notes.",
-      "tags": []
+      "source_type": "full video transcript",
+      "word_count": 325,
+      "duration_seconds": 92.63,
+      "summary": "Airline magazines show how owned media can turn travel brands into cultural curators and attention sanctuaries.",
+      "editorial_tags": [
+        "owned media",
+        "print"
+      ]
     }
-  ]
+  ],
+  "editorial_reading": {
+    "core_contribution": "Brand as trained conviction under optimization pressure.",
+    "site_connections": [
+      "brand_systems",
+      "platform_selfhood",
+      "visual_taste_place"
+    ],
+    "editorial_standard": "Use the detailed transcript as proof; avoid auto-generated filler and fake reference imagery."
+  }
 }

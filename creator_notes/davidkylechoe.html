@@ -3,11 +3,77 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>@davidkylechoe · creator notes · partake</title>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../shared.css?v=creator-notes-guided-10">
+<title>@davidkylechoe · integrated creator reading · partake</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared.css?v=david-integrated-1">
+<style id="cw-compliance">
+  .cw-skip{position:fixed;top:8px;left:8px;z-index:9999;padding:10px 16px;background:#16181b;color:#fff;text-decoration:none;border-radius:4px;font:500 14px/1 system-ui,sans-serif;transform:translateY(-150%);transition:transform .18s ease}
+  .cw-skip:focus{transform:translateY(0)}
+  a:focus-visible,button:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:2px solid currentColor;outline-offset:2px}
+  @media (prefers-reduced-motion: reduce){*,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}}
+</style>
+<style>
+  body.david-integrated{--ink:#1e211d;--muted:#62675f;--paper:#f5f3eb;--card:#fffdf6;--line:#c8c6bc;--green:#2f8a1f;--deep:#121812;background:radial-gradient(circle at 9% 0%,rgba(47,138,31,.14),transparent 30%),linear-gradient(135deg,#fbfaf4,#ecebe5 54%,#f8f6ed);color:var(--ink);}
+  .david-integrated .site-nav{background:rgba(245,243,235,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);}
+  .page-shell{max-width:1240px;margin:0 auto;padding:0 22px 76px;}
+  .hero{padding:74px 22px 38px;border-bottom:1px solid var(--line);}
+  .hero-grid{max-width:1240px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:32px;align-items:end;}
+  .eyebrow,.section-kicker,.section-label,.framework-top,.source-chip,.name-chip{font-family:'JetBrains Mono',monospace;letter-spacing:.16em;text-transform:uppercase;}
+  .eyebrow,.section-kicker,.section-label{font-size:.74rem;color:var(--green);font-weight:700;}
+  .hero h1{font-family:'JetBrains Mono',monospace;font-size:clamp(2.7rem,8vw,7rem);line-height:.9;letter-spacing:-.08em;margin:.25em 0;}
+  .hero-lede{font-size:clamp(1.08rem,2vw,1.42rem);line-height:1.62;color:#3e433d;max-width:850px;}
+  .hero-note{background:var(--deep);color:#eef1e8;border:1px solid var(--green);padding:24px;box-shadow:18px 18px 0 rgba(47,138,31,.12);}
+  .hero-note h2{font-family:'JetBrains Mono',monospace;margin:0 0 12px;font-size:1.12rem;}
+  .hero-note p{color:#bfc7ba;line-height:1.62;margin:0 0 16px;}
+  .metric-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;}
+  .metric{border:1px solid rgba(255,255,255,.18);padding:12px;background:rgba(255,255,255,.04);}
+  .metric strong{display:block;color:#91df76;font-family:'JetBrains Mono',monospace;font-size:1.4rem;}
+  .metric span{font-size:.76rem;color:#bec6b8;}
+  .quick-nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px;}
+  .quick-nav a{border:1px solid var(--line);background:rgba(255,253,246,.72);color:var(--ink);text-decoration:none;padding:9px 12px;font-family:'JetBrains Mono',monospace;font-size:.76rem;}
+  .quick-nav a:hover{border-color:var(--green);transform:translateY(-1px);}
+  .section-label{display:flex;align-items:center;gap:14px;margin:48px 0 18px;}
+  .section-label:after{content:'';height:1px;background:var(--line);flex:1;}
+  .thesis-board{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+  .thesis-card,.framework-card,.case-band,.tension-card,.reference-table,.method-card{background:rgba(255,253,246,.86);border:1px solid var(--line);box-shadow:0 20px 50px rgba(37,40,35,.06);}
+  .thesis-card{padding:24px;min-height:220px;}
+  .thesis-card h2,.framework-card h3,.case-copy h3,.tension-card h3,.reference-table h3,.method-card h3{font-family:'JetBrains Mono',monospace;letter-spacing:-.045em;}
+  .thesis-card p,.framework-card p,.case-copy p,.tension-card p,.method-card p{line-height:1.68;color:var(--muted);}
+  .thesis-card.big{grid-row:span 2;background:linear-gradient(145deg,#fffdf6,#eef3eb);border-left:4px solid var(--green);}
+  .thesis-card.big h2{font-size:2rem;}
+  .framework-grid{display:grid;grid-template-columns:repeat(5,minmax(210px,1fr));gap:12px;overflow-x:auto;padding-bottom:10px;}
+  .framework-card{padding:18px;min-width:220px;}
+  .framework-top{font-size:.64rem;color:#888d85;display:flex;justify-content:space-between;gap:10px;}
+  .framework-top span{color:var(--green);font-weight:700;}
+  .framework-card h3{font-size:1rem;min-height:48px;}
+  .source-chips,.case-names{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px;}
+  .source-chip,.name-chip{font-size:.58rem;letter-spacing:.08em;border:1px solid var(--line);background:#f5f3eb;padding:5px 7px;color:#5c6259;}
+  .name-chip{color:var(--ink);background:#fff;border-color:#b8b6ad;}
+  .muted{opacity:.72;}
+  .case-stack{display:grid;gap:18px;}
+  .case-band{display:grid;grid-template-columns:320px minmax(0,1fr);min-height:300px;overflow:hidden;}
+  .case-image{background:#d9d8d0;border-right:1px solid var(--line);display:grid;grid-template-rows:1fr auto;}
+  .case-image img{width:100%;height:100%;min-height:230px;object-fit:cover;filter:saturate(.95) contrast(.97);}
+  .case-image p{margin:0;padding:13px 15px;font-size:.82rem;line-height:1.45;color:#555b53;background:#efeee8;border-top:1px solid var(--line);}
+  .case-copy{padding:28px;display:flex;flex-direction:column;justify-content:center;}
+  .case-copy h3{font-size:clamp(1.45rem,3vw,2.4rem);margin:.2em 0;}
+  .tension-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+  .tension-card{padding:22px;border-top:4px solid var(--green);}
+  .reference-table{padding:20px;overflow:auto;}
+  table{width:100%;border-collapse:collapse;}
+  th,td{border-bottom:1px solid var(--line);padding:12px 10px;text-align:left;vertical-align:top;}
+  th{font-family:'JetBrains Mono',monospace;color:var(--green);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;}
+  .method-card{padding:20px;}
+  details summary{cursor:pointer;font-family:'JetBrains Mono',monospace;color:var(--green);font-weight:700;}
+  .audit-list{margin-top:16px;font-family:'JetBrains Mono',monospace;font-size:.72rem;line-height:1.8;color:#60665d;word-break:break-word;}
+  .cw-foot{margin-top:48px;padding:24px 20px;border-top:1px solid rgba(128,128,128,.28);font:400 13px/1.6 system-ui,sans-serif;text-align:center;opacity:.85}
+  .cw-foot a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+  .cw-foot .sep{opacity:.5;margin:0 8px}
+  @media (max-width:980px){.hero-grid,.thesis-board,.case-band,.tension-grid{grid-template-columns:1fr;}.case-image{border-right:0;border-bottom:1px solid var(--line);}.framework-grid{grid-template-columns:1fr;overflow:visible;}}
+</style>
 </head>
-<body class="creator-note-page guided-note-page">
+<body class="creator-note-page david-integrated">
+<a class="cw-skip" href="#cw-main">Skip to content</a>
 <nav class="site-nav">
   <a class="nav-logo" href="../index.html">partake</a>
   <div class="nav-links">
@@ -22,408 +88,169 @@
     <a class="nav-link" href="../septemics.html">septemics</a>
   </div>
 </nav>
-<header class="page-header creator-hero guided-hero">
-  <div class="creator-hero-layout">
-    <div class="creator-hero-main">
-      <div class="header-eyebrow">INSTAGRAM SOURCE NOTES · <a href="../platform_selfhood.html">PLATFORM SELFHOOD</a></div>
-      <h1 class="header-title">@davidkylechoe</h1>
-      <p class="header-subject">David Kyle Choe profiles founder-led brands — especially underappreciated non-Western ones (Chinese, Japanese, Korean) — to extract the principled thinking behind their longevity and cultural resonance. His central argument is that enduring brands are built on deep conviction and a strong point of view, not scale or conventional marketing tactics. He is increasingly interested in how AI will force a rethinking of what brand identity even means.</p>
-      <div class="header-meta"><span>8 concepts</span><span>13 references</span><span>5 positions</span></div>
+<header class="hero">
+  <div class="hero-grid">
+    <div>
+      <div class="eyebrow">Instagram Creator Reading · Full Transcript Digest</div>
+      <h1>@davidkylechoe</h1>
+      <p class="hero-lede">David’s material is not just a stack of brand case studies. Read across the full transcript corpus, it becomes a theory of how conviction survives pressure: first inside a person, then inside a founder, then inside a brand, and finally inside a machine-mediated culture that keeps trying to average everything out.</p>
+      <div class="quick-nav"><a href="#thesis">Thesis</a><a href="#framework">Framework</a><a href="#cases">Case studies</a><a href="#tensions">Tensions</a><a href="#references">References</a><a href="#method">Method</a></div>
     </div>
-    <aside class="roadmap-panel" aria-label="Reading road map">
-      <div class="roadmap-eyebrow">read this page as</div>
-      <h2>Road map</h2>
-      <p>Follow the argument through four linked ideas. Each step pairs a concept with a source reference and one strong position.</p>
-      <div class="roadmap-list"><a class="roadmap-step" href="#step-1">
-          <span class="roadmap-number">01</span>
-          <span><strong>Founder principles as brand DNA</strong><em>The original convictions and intent of a founder become the structural backbone…</em></span>
-        </a><a class="roadmap-step" href="#step-2">
-          <span class="roadmap-number">02</span>
-          <span><strong>Anti-scale / intentional scarcity</strong><em>Deliberately refusing ecommerce, advertising, or fast expansion to protect brand…</em></span>
-        </a><a class="roadmap-step" href="#step-3">
-          <span class="roadmap-number">03</span>
-          <span><strong>Brand-maxing</strong><em>Having a strong, specific point of view and executing it at maximum intensity and…</em></span>
-        </a><a class="roadmap-step" href="#step-4">
-          <span class="roadmap-number">04</span>
-          <span><strong>Agentic branding</strong><em>The emerging challenge of building brands that communicate positioning to AI…</em></span>
-        </a></div>
+    <aside class="hero-note">
+      <h2>Evidence, digested</h2>
+      <p>The full transcript audit stays available, but the page now leads with synthesis rather than a video list.</p>
+      <div class="metric-grid">
+        <div class="metric"><strong>40</strong><span>caption IDs</span></div>
+        <div class="metric"><strong>38</strong><span>videos transcribed</span></div>
+        <div class="metric"><strong>17,512</strong><span>transcript words</span></div>
+        <div class="metric"><strong>2</strong><span>unavailable IDs</span></div>
+      </div>
     </aside>
-    <div class="inline-ref-strip"><a class="inline-ref-chip" href="https://www.google.com/search?q=Virgil+Abloh"><img src="../assets/references/virgil-abloh-d2279095.jpg" alt="Virgil Abloh"><span>Virgil Abloh</span></a><a class="inline-ref-chip" href="https://www.google.com/search?q=Chrome+Hearts"><img src="../assets/references/chrome-hearts-19aa9429.jpg" alt="Chrome Hearts"><span>Chrome Hearts</span></a><a class="inline-ref-chip" href="https://www.google.com/search?q=Din+Tai+Fung"><img src="../assets/references/din-tai-fung-48310b4c.jpg" alt="Din Tai Fung"><span>Din Tai Fung</span></a></div>
   </div>
 </header>
-<main class="page-body creator-note-body guided-note-body">
-  <section id="guided-route" class="guided-route-section">
-    <div class="section-label">Guided Route</div>
-    <div class="story-flow"><article class="story-step" id="step-1">
-        <div class="story-marker"><span>01</span></div>
-        <div class="story-copy">
-          <div class="story-kicker">DU11vjUDGww, DWq6XTQDink</div>
-          <h2>Founder principles as brand DNA</h2>
-          <p>The original convictions and intent of a founder become the structural backbone of a durable brand, outlasting acquisitions, management changes, and cultural shifts.</p>
-          <a class="story-reference story-reference--context" href="https://www.google.com/search?q=Richard+Stark">
-            <span class="story-reference-context-mark">person</span>
-            <span class="story-ref-label">person</span>
-            <strong>Richard Stark</strong>
-            <em>via DU11vjUDGww</em>
-          </a>
-          <blockquote>Chrome Hearts has no ecommerce, runs no ads, and barely shows product on social — they leave millions on the table on purpose. That&#x27;s not bad business, that&#x27;s a founder who knows exactly what he&#x27;s building and refuses to compromise it.</blockquote>
-          
-        </div>
-      </article><article class="story-step" id="step-2">
-        <div class="story-marker"><span>02</span></div>
-        <div class="story-copy">
-          <div class="story-kicker">DU11vjUDGww, DWq6XTQDink</div>
-          <h2>Anti-scale / intentional scarcity</h2>
-          <p>Deliberately refusing ecommerce, advertising, or fast expansion to protect brand integrity — treating forgone revenue as evidence of long-term conviction rather than poor business sense.</p>
-          <a class="story-reference" href="https://www.google.com/search?q=Virgil+Abloh">
-            <img src="../assets/references/virgil-abloh-d2279095.jpg" alt="Virgil Abloh">
-            <span class="story-ref-label">person</span>
-            <strong>Virgil Abloh</strong>
-            <em>via DU11vjUDGww</em>
-          </a>
-          <blockquote>As access to information and reliance on AI goes up, prevalence of original thought and perspective goes down. So following supply and demand, what becomes more valuable?</blockquote>
-          
-        </div>
-      </article><article class="story-step" id="step-3">
-        <div class="story-marker"><span>03</span></div>
-        <div class="story-copy">
-          <div class="story-kicker">DVWZGQ6iQv7</div>
-          <h2>Brand-maxing</h2>
-          <p>Having a strong, specific point of view and executing it at maximum intensity and volume — being prolific, not fully legible, and refusing the commercially safe middle ground.</p>
-          <a class="story-reference" href="https://www.google.com/search?q=Chrome+Hearts">
-            <img src="../assets/references/chrome-hearts-19aa9429.jpg" alt="Chrome Hearts">
-            <span class="story-ref-label">brand</span>
-            <strong>Chrome Hearts</strong>
-            <em>via DU11vjUDGww</em>
-          </a>
-          <blockquote>Agents can read brand, but they cannot feel it — they default to a weighted average of what humans have historically valued, picking the safe, well-reviewed, middle-of-the-road choice. Brands will need to cut through this agentic averaging.</blockquote>
-          
-        </div>
-      </article><article class="story-step" id="step-4">
-        <div class="story-marker"><span>04</span></div>
-        <div class="story-copy">
-          <div class="story-kicker">DVbB1cyjqpU</div>
-          <h2>Agentic branding</h2>
-          <p>The emerging challenge of building brands that communicate positioning to AI agents, which can read brand signals but cannot feel them and default to consensus taste — demanding semantic clarity and metadata legibility over purely visual or emotional differentiation.</p>
-          <a class="story-reference" href="https://www.google.com/search?q=Din+Tai+Fung">
-            <img src="../assets/references/din-tai-fung-48310b4c.jpg" alt="Din Tai Fung">
-            <span class="story-ref-label">brand</span>
-            <strong>Din Tai Fung</strong>
-            <em>via DWq6XTQDink</em>
-          </a>
-          <blockquote>Brand-maxing at its core is having a point of view and doing a full send on that POV — it won&#x27;t make sense to most people, it won&#x27;t be commercially successful most of the time, and you have to be prolific.</blockquote>
-          
-        </div>
-      </article></div>
-  </section>
-  <section id="source-corpus" class="source-corpus-section">
-    <div class="section-label">Evidence Trail</div>
-    <div class="source-corpus-intro">
-      <p>This is the source texture behind the notes: a curated path through the harvested captions so the page reads less like an abstract summary and more like a map of what @davidkylechoe actually kept returning to.</p>
-      <div class="corpus-meta"><span>40 harvested posts</span><span>12 source cards</span><span>brand / market signal, platform behavior, domain taxonomy, source post</span></div>
+<main class="page-shell" id="cw-main" tabindex="-1">
+  <section id="thesis">
+    <div class="section-label">What He Is Really Arguing</div>
+    <div class="thesis-board">
+      <article class="thesis-card big">
+        <div class="section-kicker">compressed thesis</div>
+        <h2>Brand is the visible residue of trained conviction.</h2>
+        <p>Across the transcripts, David keeps translating “belief” into proof. A person proves belief by training voice and capacity. A founder proves belief by turning principles into constraints. A brand proves belief by making its standards visible in products, spaces, rituals, media, and refusals.</p>
+      </article>
+      <article class="thesis-card">
+        <div class="section-kicker">why the self-help clips belong here</div>
+        <h2>The brand logic starts in the person.</h2>
+        <p>The early clips about potential, reading, psychological games, and childlike creativity are not separate from the business clips. They define the human machinery behind any strong brand: voice, attention, responsibility, play, and capacity.</p>
+      </article>
+      <article class="thesis-card">
+        <div class="section-kicker">why the AI clip matters</div>
+        <h2>Legibility is becoming technical.</h2>
+        <p>If agents begin reading brands for us, brands need machine-readable structure. But David’s wager is that the part machines cannot feel - aura, enemy, history, weirdness, allegiance - becomes even more valuable.</p>
+      </article>
     </div>
-    <div class="corpus-grid"><a class="corpus-card" href="https://www.instagram.com/reel/DVPWceOifKl/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 01 · DVPWceOifKl</div>
-          <h3>@tosummerofficial is taking over, and most of the West has no idea. Shen Li is one of the</h3>
-          <p>is taking over, and most of the West has no idea. Shen Li is one of the most principled founders I’ve come across. One of my fav quotes from her is amazing: “Western perfumery emerged from the practical needs of European aristocracy: perfumes were...</p>
-          <div class="corpus-tags"><span>#founderstory</span><span>#fashionmarketing</span><span>#brandstrategist</span><span>#luxurymarketing</span></div>
-          <span class="corpus-role">brand / market signal</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DXHPQ0Sjbs6/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 02 · DXHPQ0Sjbs6</div>
-          <h3>The roundup today is really interesting</h3>
-          <p>The roundup today is really interesting really standouts. While it says a lot about the current state of our world and culture that we even need something like this, I’m glad it does and what are building is exactly what I like seeing in markets that have...</p>
-          
-          <span class="corpus-role">platform behavior</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DW6XsWwjqE8/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 03 · DW6XsWwjqE8</div>
-          <h3>Project Hail Mary is undoubtedly a masterpiece and deserving of all the praise it’s gettin</h3>
-          <p>Project Hail Mary is undoubtedly a masterpiece and deserving of all the praise it’s getting AND its a master class in world building. At the end of the day it comes down to depth and how FAR you’re willing to go with your craft or art or story. If you...</p>
-          <div class="corpus-tags"><span>#brandstrategist</span><span>#worldbuilding</span><span>#projecthailmary</span></div>
-          <span class="corpus-role">brand / market signal</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DWtgcKHEW9v/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 04 · DWtgcKHEW9v</div>
-          <h3>The craft and guts of these founders and brands is remarkable. I really love when people j</h3>
-          <p>The craft and guts of these founders and brands is remarkable. I really love when people just go all in on the thing they love. It’s like they can’t help themselves. I think people really need to keep an eye out for &amp; I wouldn’t be surprised if major...</p>
-          
-          <span class="corpus-role">brand / market signal</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DV0y4p9ONfT/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 05 · DV0y4p9ONfT</div>
-          <h3>If you’ve been to Tokyo in the last year, you know how insane the lines to every onitsuka</h3>
-          <p>If you’ve been to Tokyo in the last year, you know how insane the lines to every onitsuka tiger are. Often a queue around the block. Which is incredible considering this brand wouldn’t have made it if it weren’t for the sheer determination and conviction...</p>
-          <div class="corpus-tags"><span>#founderstory</span></div>
-          <span class="corpus-role">brand / market signal</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DVoMf5rtUmX/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 06 · DVoMf5rtUmX</div>
-          <h3>@rockyxu is a real inspiration for me personally. He’s taking a measured, principled appro</h3>
-          <p>is a real inspiration for me personally. He’s taking a measured, principled approach to how he’s building arguably the most well known matcha brand. I didn’t cover this in the video but seeing how came out of a spiritual exploration also resonates with me....</p>
-          
-          <span class="corpus-role">brand / market signal</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DVbB1cyjqpU/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 07 · DVbB1cyjqpU</div>
-          <h3>The future of branding will look and read very differently. When humans aren’t the only on</h3>
-          <p>The future of branding will look and read very differently. When humans aren’t the only ones that need to be influenced, how do founders and brand builders need to think about how their brands show up in the world? What’s an “ai-optimized” brand look like?...</p>
-          
-          <span class="corpus-role">brand / market signal</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DVWZGQ6iQv7/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 08 · DVWZGQ6iQv7</div>
-          <h3>Idk much but one thing I know is that as access to information and reliance on AI goes up,</h3>
-          <p>Idk much but one thing I know is that as access to information and reliance on AI goes up, prevalence of original thought and perspective goes down. So following supply and demand, what becomes more valuable? Shoutout to and for doing it right 🤝🫡</p>
-          
-          <span class="corpus-role">domain taxonomy</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DU11vjUDGww/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 09 · DU11vjUDGww</div>
-          <h3>Chrome Hearts doesn’t have ecommerce, doesn’t run ads, and barely shows product on social.</h3>
-          <p>Chrome Hearts doesn’t have ecommerce, doesn’t run ads, and barely shows product on social. They leave millions on the table on purpose. That’s not bad business — that’s a founder who knows exactly what he’s building and refuses to compromise it.</p>
-          <div class="corpus-tags"><span>#founderstory</span><span>#fashionmarketing</span><span>#brandstrategist</span><span>#luxurymarketing</span></div>
-          <span class="corpus-role">brand / market signal</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DUGvruEiWJT/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 10 · DUGvruEiWJT</div>
-          <h3>Team 🇺🇸 with Starbucks or Team 🇨🇳 with Luckin? Lmk below</h3>
-          <p>Team 🇺🇸 with Starbucks or Team 🇨🇳 with Luckin? Lmk below It’s a bit facetious to say there can only be one winner… but also there can only be one number one. What are the gaps in the analysis? Tell me your alpha.</p>
-          
-          <span class="corpus-role">source post</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DUDqSmmDsJM/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 11 · DUDqSmmDsJM</div>
-          <h3>@ralphlauren set the standard for what American “fashion” is. The standard came from an in</h3>
-          <p>set the standard for what American “fashion” is. The standard came from an insanely strong conviction and need to create the world that he wanted to live. The world is Ralph Lauren’s movie set and we’re all just living in it. Shoutout to for the data....</p>
-          <div class="corpus-tags"><span>#brandstrategist</span><span>#founderstory</span><span>#fashionmarketing</span></div>
-          <span class="corpus-role">brand / market signal</span>
-        </a><a class="corpus-card" href="https://www.instagram.com/reel/DTkrNhgDoOZ/" target="_blank" rel="noopener">
-          <div class="corpus-kicker">source 12 · DTkrNhgDoOZ</div>
-          <h3>@arcteryx is truly a word class case study in how Founder Principles can live on even afte</h3>
-          <p>is truly a word class case study in how Founder Principles can live on even after acquisitions, new leadership, and rapidly changing culture. Jeremy Guard’s original principles still define how Arc’teryx looks to lead in their category. Shoutout to for the...</p>
-          <div class="corpus-tags"><span>#brandstrategist</span><span>#marketing</span><span>#founderstory</span></div>
-          <span class="corpus-role">brand / market signal</span>
-        </a></div>
   </section>
-  <section id="clip-dossiers" class="clip-dossiers-section">
-    <div class="section-label">Clip Dossiers</div>
-    <div class="clip-dossiers-intro">
-      <p>These cards go back to the raw transcript and caption material. They are intentionally fuller than the concept library: each one keeps the source clip visible, names what it contributes, and preserves a short line from the material without turning the page into a transcript dump.</p>
+
+  <section id="framework">
+    <div class="section-label">Five-Part Framework</div>
+    <div class="framework-grid">
+      <article class="framework-card">
+        <div class="framework-top"><span>01</span><em>Potential, distance/capacity, reading, child creativity</em></div>
+        <h3>Voice Before Evidence</h3>
+        <p>David opens from the creator side: people are unreliable judges of early potential, so the first task is to cultivate a recognizable voice before the world has proof. This is why the brand cases later feel personal rather than purely commercial.</p>
+        <div class="source-chips"><span class="source-chip">DSIf633iTS5</span><span class="source-chip">DSLUN72iZkz</span><span class="source-chip">DSNsEnIDwIl</span><span class="source-chip">DSuzBDADqXH</span></div>
+      </article>
+      <article class="framework-card">
+        <div class="framework-top"><span>02</span><em>Aman, Chrome Hearts, Din Tai Fung, Snow Peak, Ralph Lauren</em></div>
+        <h3>Founder Principles Become Infrastructure</h3>
+        <p>The repeat question across his brand profiles is not “what is the vibe?” but “what rule did the founder make real?” Distribution, production, store design, launch cadence, and refusal are where values either become durable or dissolve.</p>
+        <div class="source-chips"><span class="source-chip">DT-fhUGjrcT</span><span class="source-chip">DU11vjUDGww</span><span class="source-chip">DWq6XTQDink</span><span class="source-chip">DVlbFBDNupr</span><span class="source-chip">DUDqSmmDsJM</span></div>
+      </article>
+      <article class="framework-card">
+        <div class="framework-top"><span>03</span><em>Chrome Hearts, Krave Beauty, Aman, Din Tai Fung</em></div>
+        <h3>Refusal Is The Proof</h3>
+        <p>The brands he admires often grow by making sacrifice visible: no ecommerce, slow expansion, fewer launches, no generic luxury template, more craft than the market requires. Refusal becomes evidence of a standard.</p>
+        <div class="source-chips"><span class="source-chip">DU11vjUDGww</span><span class="source-chip">DWCbDjVEv1Y</span><span class="source-chip">DT-fhUGjrcT</span><span class="source-chip">DWq6XTQDink</span></div>
+      </article>
+      <article class="framework-card">
+        <div class="framework-top"><span>04</span><em>To Summer, Laopu Gold, HeyTea, Beams, Gentle Monster, Nonfiction, Onitsuka Tiger</em></div>
+        <h3>Non-Western Luxury Is A Future, Not A Footnote</h3>
+        <p>The Asia-centered clips are the page’s real expansion. David treats Chinese, Japanese, and Korean brands as category authors with their own cultural codes rather than as late copies of Western prestige.</p>
+        <div class="source-chips"><span class="source-chip">DVPWceOifKl</span><span class="source-chip">DUvgAwHjqg-</span><span class="source-chip">DTYqvCXCeQd</span><span class="source-chip">DTJsq-gCV-R</span><span class="source-chip">DTNsUxBDorF</span><span class="source-chip">DWowPBpDo3w</span><span class="source-chip">DV0y4p9ONfT</span></div>
+      </article>
+      <article class="framework-card">
+        <div class="framework-top"><span>05</span><em>Agentic branding, NPR, in-flight magazines</em></div>
+        <h3>Machine Legibility Cannot Replace Aura</h3>
+        <p>The AI-agent clip reframes the whole corpus. Brands may need clearer metadata and semantic structure for machines, but the actual advantage remains human: enemy, story, texture, memory, oddness, and emotional allegiance.</p>
+        <div class="source-chips"><span class="source-chip">DVbB1cyjqpU</span><span class="source-chip">DVtJaCvt9jj</span><span class="source-chip">DXeai-RDrxF</span></div>
+      </article>
     </div>
-    <div class="clip-dossier-grid"><article class="clip-dossier-card" id="clip-DVbB1cyjqpU">
-          <div class="clip-dossier-topline"><span>01</span><a href="https://www.instagram.com/reel/DVbB1cyjqpU/" target="_blank" rel="noopener">DVbB1cyjqpU</a><em>transcript + caption · 390w</em></div>
-          <h3>The future of branding will look and read very differently. When humans aren’t the only on</h3>
-          <p>Develops Agentic branding, Original perspective as scarce asset through this source: We&#x27;re seeing the headlines every day around agents and AI.</p>
-          <blockquote>But what&#x27;s the relationship between agents and branding?</blockquote>
-          <p class="clip-dossier-why">This gives the page primary-source backing for Agentic branding, Original perspective as scarce asset, turning the concept from a label into an actual clip-level argument.</p>
-          <div class="clip-dossier-tags"><span>Agentic branding</span><span>Original perspective as scarce asset</span><span>creative practice</span></div>
-        </article><article class="clip-dossier-card" id="clip-DVWZGQ6iQv7">
-          <div class="clip-dossier-topline"><span>02</span><a href="https://www.instagram.com/reel/DVWZGQ6iQv7/" target="_blank" rel="noopener">DVWZGQ6iQv7</a><em>transcript + caption · 366w</em></div>
-          <h3>Idk much but one thing I know is that as access to information and reliance on AI goes...</h3>
-          <p>Develops Brand-maxing, Worldbuilding depth through this source: They know they&#x27;re being resold synthetic plastic slop at 100x markup and they&#x27;re not buying it anymore.</p>
-          <blockquote>They know they&#x27;re being resold synthetic plastic slop at 100x markup and they&#x27;re not buying it anymore.</blockquote>
-          <p class="clip-dossier-why">This gives the page primary-source backing for Brand-maxing, Worldbuilding depth, Original perspective as scarce asset, turning the concept from a label into an actual clip-level argument.</p>
-          <div class="clip-dossier-tags"><span>Brand-maxing</span><span>Worldbuilding depth</span><span>Original perspective as scarce asset</span><span>creative practice</span></div>
-        </article><article class="clip-dossier-card" id="clip-DU11vjUDGww">
-          <div class="clip-dossier-topline"><span>03</span><a href="https://www.instagram.com/reel/DU11vjUDGww/" target="_blank" rel="noopener">DU11vjUDGww</a><em>transcript + caption · 521w</em></div>
-          <h3>Chrome Hearts doesn’t have ecommerce, doesn’t run ads, and barely shows product on social</h3>
-          <p>Develops Founder principles as brand DNA, Anti-scale / intentional scarcity through this source: This founder will hate that I&#x27;m making this video.</p>
-          <blockquote>Chrome Hearts is a luxury jewelry and lifestyle company worth over a billion dollars with 34 locations worldwide.</blockquote>
-          <p class="clip-dossier-why">This gives the page primary-source backing for Founder principles as brand DNA, Anti-scale / intentional scarcity, Dynastic stewardship, turning the concept from a label into an actual clip-level argument.</p>
-          <div class="clip-dossier-tags"><span>Founder principles as brand DNA</span><span>Anti-scale / intentional scarcity</span><span>Dynastic stewardship</span><span>#founderstory</span><span>#fashionmarketing</span><span>#brandstrategist</span><span>#luxurymarketing</span><span>creative practice</span></div>
-        </article><article class="clip-dossier-card" id="clip-DVtJaCvt9jj">
-          <div class="clip-dossier-topline"><span>04</span><a href="https://www.instagram.com/reel/DVtJaCvt9jj/" target="_blank" rel="noopener">DVtJaCvt9jj</a><em>transcript + caption · 295w</em></div>
-          <h3>This new brand campaign by stopped me in my tracks</h3>
-          <p>Develops a creative practice thread through this source: NPR just dropped the hardest brand campaign this year.</p>
-          <blockquote>Let&#x27;s talk about why it works from the perspective of 11 year brand strategist who&#x27;s worked on brand campaigns for Coca-Cola, Netflix, and skin condoms and more.</blockquote>
-          <p class="clip-dossier-why">This adds texture around good, brand, guys, know, showing a recurring concern that was easy to flatten in the shorter notes.</p>
-          <div class="clip-dossier-tags"><span>creative practice</span></div>
-        </article><article class="clip-dossier-card" id="clip-DW6XsWwjqE8">
-          <div class="clip-dossier-topline"><span>05</span><a href="https://www.instagram.com/reel/DW6XsWwjqE8/" target="_blank" rel="noopener">DW6XsWwjqE8</a><em>transcript + caption · 436w</em></div>
-          <h3>Project Hail Mary is undoubtedly a masterpiece and deserving of all the praise it’s gettin</h3>
-          <p>Develops Worldbuilding depth through this source: Project Hail Mary is brand world building at its best.</p>
-          <blockquote>Project Hail Mary is set to be one of the most iconic movies of this decade as the second highest grossing film of this year at over $400 million.</blockquote>
-          <p class="clip-dossier-why">This gives the page primary-source backing for Worldbuilding depth, turning the concept from a label into an actual clip-level argument.</p>
-          <div class="clip-dossier-tags"><span>Worldbuilding depth</span><span>#brandstrategist</span><span>#worldbuilding</span><span>#projecthailmary</span><span>creative practice</span></div>
-        </article><article class="clip-dossier-card" id="clip-DUGvruEiWJT">
-          <div class="clip-dossier-topline"><span>06</span><a href="https://www.instagram.com/reel/DUGvruEiWJT/" target="_blank" rel="noopener">DUGvruEiWJT</a><em>transcript + caption · 382w</em></div>
-          <h3>Team 🇺🇸 with Starbucks or Team 🇨🇳 with Luckin? Lmk below</h3>
-          <p>Develops a money / class thread through this source: Here are the numbers so you can decide.</p>
-          <blockquote>Luckin, on the other hand, has 29,000 stores, almost all in China, but they&#x27;re growing 50% a year.</blockquote>
-          <p class="clip-dossier-why">This adds texture around starbucks, china, coffee, they&#x27;re, showing a recurring concern that was easy to flatten in the shorter notes.</p>
-          <div class="clip-dossier-tags"><span>money / class</span></div>
-        </article><article class="clip-dossier-card" id="clip-DWq6XTQDink">
-          <div class="clip-dossier-topline"><span>07</span><a href="https://www.instagram.com/reel/DWq6XTQDink/" target="_blank" rel="noopener">DWq6XTQDink</a><em>transcript + caption · 456w</em></div>
-          <h3>If you’ve been to then you know the impact of the brand experience, but I f</h3>
-          <p>Develops Founder principles as brand DNA, Anti-scale / intentional scarcity through this source: This restaurant makes more money per store than any chain in America and yet they refuse to grow any faster.</p>
-          <blockquote>This restaurant makes more money per store than any chain in America and yet they refuse to grow any faster.</blockquote>
-          <p class="clip-dossier-why">This gives the page primary-source backing for Founder principles as brand DNA, Anti-scale / intentional scarcity, Dynastic stewardship, turning the concept from a label into an actual clip-level argument.</p>
-          <div class="clip-dossier-tags"><span>Founder principles as brand DNA</span><span>Anti-scale / intentional scarcity</span><span>Dynastic stewardship</span><span>#founderstory</span><span>#brandstrategist</span><span>#luxurymarketing</span><span>#startupbusinesses</span><span>money / class</span></div>
-        </article><article class="clip-dossier-card" id="clip-DXeai-RDrxF">
-          <div class="clip-dossier-topline"><span>08</span><a href="https://www.instagram.com/reel/DXeai-RDrxF/" target="_blank" rel="noopener">DXeai-RDrxF</a><em>transcript + caption · 292w</em></div>
-          <h3>Comment Skymall and I’ll send you a link to my archive of all the airline magazines</h3>
-          <p>Develops a creative practice thread through this source: Before airplane Wi-Fi, the only source of entertainment for most of us were in-flight magazines.</p>
-          <blockquote>In a world where people are craving analog, thoughtful, non-AI, non-synthetic products, and with the growing resurgence of print magazines with 55% of GenZ reported buying or reading a physical magazine the past year, plus major titles relaunching and print, such as...</blockquote>
-          <p class="clip-dossier-why">This adds texture around magazine, magazines, airline, back, showing a recurring concern that was easy to flatten in the shorter notes.</p>
-          <div class="clip-dossier-tags"><span>creative practice</span></div>
-        </article></div>
   </section>
-  <section id="concepts">
-    <div class="section-label">Concept Library</div>
-    <div class="note-cards-grid"><article class="note-card compact-note" id="concept-founder-principles-as-brand-dna">
-          <div class="note-card-kicker">concept 01 · DU11vjUDGww, DWq6XTQDink</div>
-          <h3><a href="#concept-founder-principles-as-brand-dna">Founder principles as brand DNA</a></h3>
-          <p>The original convictions and intent of a founder become the structural backbone of a durable brand, outlasting acquisitions, management changes, and cultural shifts.</p>
-        </article><article class="note-card compact-note" id="concept-anti-scale-intentional-scarcity">
-          <div class="note-card-kicker">concept 02 · DU11vjUDGww, DWq6XTQDink</div>
-          <h3><a href="#concept-anti-scale-intentional-scarcity">Anti-scale / intentional scarcity</a></h3>
-          <p>Deliberately refusing ecommerce, advertising, or fast expansion to protect brand integrity — treating forgone revenue as evidence of long-term conviction rather than poor business sense.</p>
-        </article><article class="note-card compact-note" id="concept-brand-maxing">
-          <div class="note-card-kicker">concept 03 · DVWZGQ6iQv7</div>
-          <h3><a href="#concept-brand-maxing">Brand-maxing</a></h3>
-          <p>Having a strong, specific point of view and executing it at maximum intensity and volume — being prolific, not fully legible, and refusing the commercially safe middle ground.</p>
-        </article><article class="note-card compact-note" id="concept-agentic-branding">
-          <div class="note-card-kicker">concept 04 · DVbB1cyjqpU</div>
-          <h3><a href="#concept-agentic-branding">Agentic branding</a></h3>
-          <p>The emerging challenge of building brands that communicate positioning to AI agents, which can read brand signals but cannot feel them and default to consensus taste — demanding semantic clarity and metadata legibility over purely visual or emotional differentiation.</p>
-        </article><article class="note-card compact-note" id="concept-dynastic-stewardship">
-          <div class="note-card-kicker">concept 05 · DWq6XTQDink, DU11vjUDGww</div>
-          <h3><a href="#concept-dynastic-stewardship">Dynastic stewardship</a></h3>
-          <p>Family or founder continuity in leadership as a structural moat that preserves brand soul across generations in ways professional management rarely replicates.</p>
-        </article><article class="note-card compact-note" id="concept-worldbuilding-depth">
-          <div class="note-card-kicker">concept 06 · DW6XsWwjqE8, DVWZGQ6iQv7</div>
-          <h3><a href="#concept-worldbuilding-depth">Worldbuilding depth</a></h3>
-          <p>Choosing the most difficult path in craft, story, and creative detail — going further than anyone else in building out a brand world — as the separator between generational brands and forgettable ones.</p>
-        </article><article class="note-card compact-note" id="concept-original-perspective-as-scarce-asset">
-          <div class="note-card-kicker">concept 07 · DVWZGQ6iQv7, DVbB1cyjqpU</div>
-          <h3><a href="#concept-original-perspective-as-scarce-asset">Original perspective as scarce asset</a></h3>
-          <p>As AI floods the information supply and original thought declines, independent curation and a genuine POV become the highest-value signal by basic supply and demand.</p>
-        </article><article class="note-card compact-note" id="concept-quality-as-the-only-growth-strategy">
-          <div class="note-card-kicker">concept 08 · DWq6XTQDink</div>
-          <h3><a href="#concept-quality-as-the-only-growth-strategy">Quality as the only growth strategy</a></h3>
-          <p>Treating product excellence and craft consistency as the primary growth driver — rejecting marketing and investor-led expansion in favor of protecting standards at any cost to speed.</p>
-        </article></div>
+
+  <section id="cases">
+    <div class="section-label">Integrated Case Studies</div>
+    <div class="case-stack">
+      <article class="case-band" id="case-1">
+        <div class="case-image"><img src="../assets/references/chrome-hearts-19aa9429.jpg" alt="Anti-Scale Institutions reference"><p>Chrome Hearts as a visual shorthand for anti-scale luxury: not clean lifestyle branding, but institution, material control, and refusal.</p></div>
+        <div class="case-copy">
+          <div class="section-kicker">Case cluster 01</div>
+          <h3>Anti-Scale Institutions</h3>
+          <p>These cases treat constraint as institutional architecture. Aman protects intimacy; Chrome Hearts protects craft and distribution; Din Tai Fung protects quality through visible labor; Nishiyama Onsen Keiunkan protects continuity over centuries. David’s deeper point is that some brands become stronger when they refuse the most obvious growth path.</p>
+          <div class="case-names"><span class="name-chip">Aman</span><span class="name-chip">Chrome Hearts</span><span class="name-chip">Din Tai Fung</span><span class="name-chip">Nishiyama Onsen Keiunkan</span></div>
+          <div class="source-chips muted"><span class="source-chip">DT-fhUGjrcT</span><span class="source-chip">DU11vjUDGww</span><span class="source-chip">DWq6XTQDink</span><span class="source-chip">DTnRTTmDjD9</span></div>
+        </div>
+      </article>
+      <article class="case-band" id="case-2">
+        <div class="case-image"><img src="../assets/references/luckin-coffee-sixth-avenue-2025.jpg" alt="Asia As Category Author reference"><p>Luckin stands in for David’s market-fit lens: the winning model is often the one tuned to local behavior, not inherited prestige.</p></div>
+        <div class="case-copy">
+          <div class="section-kicker">Case cluster 02</div>
+          <h3>Asia As Category Author</h3>
+          <p>Instead of treating Asian brands as trend examples, David uses them to show how categories are rewritten from different cultural assumptions: tea as product invention, fragrance as seasonal poetics, gold as Chinese luxury confidence, eyewear stores as spectacle, retail as subcultural curation.</p>
+          <div class="case-names"><span class="name-chip">To Summer</span><span class="name-chip">Laopu Gold</span><span class="name-chip">HeyTea</span><span class="name-chip">Gentle Monster</span><span class="name-chip">Beams</span><span class="name-chip">Nonfiction</span></div>
+          <div class="source-chips muted"><span class="source-chip">DVPWceOifKl</span><span class="source-chip">DUvgAwHjqg-</span><span class="source-chip">DTYqvCXCeQd</span><span class="source-chip">DTNsUxBDorF</span><span class="source-chip">DTJsq-gCV-R</span><span class="source-chip">DWowPBpDo3w</span></div>
+        </div>
+      </article>
+      <article class="case-band" id="case-3">
+        <div class="case-image"><img src="../assets/references/real/air-afrique-balafon.png" alt="Worlds With Depth reference"><p>Air Afrique’s Balafon reference shows owned media as a cultural world, not a disposable brand newsletter.</p></div>
+        <div class="case-copy">
+          <div class="section-kicker">Case cluster 03</div>
+          <h3>Worlds With Depth</h3>
+          <p>The worldbuilding clips are about the burden of detail. Project Hail Mary, Stone Island, Malbon, Savannah Bananas, and in-flight magazines all show that a world is not a graphic style; it is an accumulation of rules, artifacts, rituals, archives, and audience participation.</p>
+          <div class="case-names"><span class="name-chip">Project Hail Mary</span><span class="name-chip">Stone Island</span><span class="name-chip">Malbon</span><span class="name-chip">Savannah Bananas</span><span class="name-chip">Air Afrique / Balafon</span></div>
+          <div class="source-chips muted"><span class="source-chip">DW6XsWwjqE8</span><span class="source-chip">DXb2VcHjkpX</span><span class="source-chip">DW9EPTgjmIL</span><span class="source-chip">DWyrnrEjqPE</span><span class="source-chip">DXeai-RDrxF</span></div>
+        </div>
+      </article>
+      <article class="case-band" id="case-4">
+        <div class="case-image"><img src="../assets/references/npr-logo-2024.svg" alt="Human Choice After AI reference"><p>NPR’s familiar identity becomes a civic memory device: the campaign works because the old cue now names a side.</p></div>
+        <div class="case-copy">
+          <div class="section-kicker">Case cluster 04</div>
+          <h3>Human Choice After AI</h3>
+          <p>The agentic-branding material is not a side note. David is asking how brands survive when nonhuman systems mediate search, recommendation, and purchase. The answer is not simply “more metadata”; it is clearer structure plus more unmistakable human orientation.</p>
+          <div class="case-names"><span class="name-chip">Agentic branding</span><span class="name-chip">NPR campaign</span><span class="name-chip">Brand-maxing</span></div>
+          <div class="source-chips muted"><span class="source-chip">DVbB1cyjqpU</span><span class="source-chip">DVtJaCvt9jj</span><span class="source-chip">DVWZGQ6iQv7</span></div>
+        </div>
+      </article>
+    </div>
   </section>
+
+  <section id="tensions">
+    <div class="section-label">Useful Tensions</div>
+    <div class="tension-grid">
+      <article class="tension-card"><h3>Scale vs. Standard</h3><p>David admires growth, but only when growth does not erase the original constraint. Din Tai Fung and Chrome Hearts become opposite-looking versions of the same question: what must not be optimized away?</p></article>
+      <article class="tension-card"><h3>Legible vs. Unforgettable</h3><p>AI pushes brands toward clearer semantic signals. Brand-maxing pushes them toward stranger specificity. The interesting work is holding both: readable enough for systems, alive enough for humans.</p></article>
+      <article class="tension-card"><h3>Heritage vs. New Category</h3><p>Some brands win through continuity; others win by inventing the category behavior. David’s corpus includes both, which keeps the page from becoming simple nostalgia for founder-led craft.</p></article>
+    </div>
+  </section>
+
   <section id="references">
     <div class="section-label">Reference Atlas</div>
-    <div class="reference-grid"><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>person</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Richard+Stark">Richard Stark</a></h3>
-            <div class="reference-type">person</div>
-            <p>via DU11vjUDGww</p>
-            <p class="reference-context-copy">Used in @davidkylechoe to anchor “Founder principles as brand DNA”: The original convictions and intent of a founder become the structural backbone of a durable brand, outlasting acquisitions, management changes, and cultural shifts.</p>
-          </div>
-        </article><article class="reference-card">
-          <a class="reference-image" href="https://www.google.com/search?q=Virgil+Abloh"><img src="../assets/references/virgil-abloh-d2279095.jpg" alt="Virgil Abloh"></a>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Virgil+Abloh">Virgil Abloh</a></h3>
-            <div class="reference-type">person</div>
-            <p>via DU11vjUDGww</p>
-          </div>
-        </article><article class="reference-card">
-          <a class="reference-image" href="https://www.google.com/search?q=Chrome+Hearts"><img src="../assets/references/chrome-hearts-19aa9429.jpg" alt="Chrome Hearts"></a>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Chrome+Hearts">Chrome Hearts</a></h3>
-            <div class="reference-type">brand</div>
-            <p>via DU11vjUDGww</p>
-          </div>
-        </article><article class="reference-card">
-          <a class="reference-image" href="https://www.google.com/search?q=Din+Tai+Fung"><img src="../assets/references/din-tai-fung-48310b4c.jpg" alt="Din Tai Fung"></a>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Din+Tai+Fung">Din Tai Fung</a></h3>
-            <div class="reference-type">brand</div>
-            <p>via DWq6XTQDink</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>brand</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Luckin+Coffee">Luckin Coffee</a></h3>
-            <div class="reference-type">brand</div>
-            <p>via DUGvruEiWJT</p>
-            <p class="reference-context-copy">Context for @davidkylechoe: this brand sits inside the creator’s broader argument: David Kyle Choe profiles founder-led brands — especially underappreciated non-Western ones (Chinese, Japanese, Korean) — to extract the principled thinking behind their longevity and cultural resonance. His central...</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>film</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Project+Hail+Mary">Project Hail Mary</a></h3>
-            <div class="reference-type">film</div>
-            <p>via DW6XsWwjqE8</p>
-            <p class="reference-context-copy">Used in @davidkylechoe to anchor “Worldbuilding depth”: Choosing the most difficult path in craft, story, and creative detail — going further than anyone else in building out a brand world — as the separator between generational brands and forgettable ones.</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>agency</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Mischief+USA">Mischief USA</a></h3>
-            <div class="reference-type">agency</div>
-            <p>via DVtJaCvt9jj</p>
-            <p class="reference-context-copy">Context for @davidkylechoe: this agency sits inside the creator’s broader argument: David Kyle Choe profiles founder-led brands — especially underappreciated non-Western ones (Chinese, Japanese, Korean) — to extract the principled thinking behind their longevity and cultural resonance. His central...</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>organization</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=NPR">NPR</a></h3>
-            <div class="reference-type">organization</div>
-            <p>via DVtJaCvt9jj</p>
-            <p class="reference-context-copy">Context for @davidkylechoe: this organization sits inside the creator’s broader argument: David Kyle Choe profiles founder-led brands — especially underappreciated non-Western ones (Chinese, Japanese, Korean) — to extract the principled thinking behind their longevity and cultural resonance. His central...</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>brand</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Fishing+for+Scale">Fishing for Scale</a></h3>
-            <div class="reference-type">brand</div>
-            <p>via DVWZGQ6iQv7</p>
-            <p class="reference-context-copy">Used in @davidkylechoe to anchor “Brand-maxing”: Having a strong, specific point of view and executing it at maximum intensity and volume — being prolific, not fully legible, and refusing the commercially safe middle ground.</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>brand</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=StoryMFG">StoryMFG</a></h3>
-            <div class="reference-type">brand</div>
-            <p>via DVWZGQ6iQv7</p>
-            <p class="reference-context-copy">Used in @davidkylechoe to anchor “Brand-maxing”: Having a strong, specific point of view and executing it at maximum intensity and volume — being prolific, not fully legible, and refusing the commercially safe middle ground.</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>brand</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Ffern">Ffern</a></h3>
-            <div class="reference-type">brand</div>
-            <p>via DVWZGQ6iQv7</p>
-            <p class="reference-context-copy">Used in @davidkylechoe to anchor “Brand-maxing”: Having a strong, specific point of view and executing it at maximum intensity and volume — being prolific, not fully legible, and refusing the commercially safe middle ground.</p>
-          </div>
-        </article><article class="reference-card reference-card--context">
-          <div class="reference-context-mark"><span>person</span></div>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=James+Ortiz">James Ortiz</a></h3>
-            <div class="reference-type">person</div>
-            <p>via DW6XsWwjqE8</p>
-            <p class="reference-context-copy">Used in @davidkylechoe to anchor “Worldbuilding depth”: Choosing the most difficult path in craft, story, and creative detail — going further than anyone else in building out a brand world — as the separator between generational brands and forgettable ones.</p>
-          </div>
-        </article><article class="reference-card">
-          <a class="reference-image" href="https://www.google.com/search?q=Air+Afrique"><img src="../assets/references/real/air-afrique-balafon.png" alt="Air Afrique (Balafon)"></a>
-          <div class="reference-info">
-            <h3><a href="https://www.google.com/search?q=Air+Afrique">Air Afrique (Balafon)</a></h3>
-            <div class="reference-type">publication</div>
-            <p>via DXeai-RDrxF</p>
-            <p class="reference-context-copy">Context for @davidkylechoe: this publication sits inside the creator’s broader argument: David Kyle Choe profiles founder-led brands — especially underappreciated non-Western ones (Chinese, Japanese, Korean) — to extract the principled thinking behind their longevity and cultural resonance. His central...</p>
-          </div>
-        </article></div>
+    <div class="reference-table">
+      <h3>References woven through the reading</h3>
+      <table><thead><tr><th>Name</th><th>Type</th><th>Why it matters here</th></tr></thead><tbody>
+<tr><td>Eric Berne / Games People Play</td><td>psychology book</td><td>Relational scripts become David’s model for noticing hidden games in people and institutions.</td></tr>
+<tr><td>Aman / Adrian Zecha</td><td>hospitality</td><td>Staying small becomes a luxury operating principle.</td></tr>
+<tr><td>Chrome Hearts</td><td>luxury fashion</td><td>Founder conviction translated into craft, distribution, and family stewardship.</td></tr>
+<tr><td>Din Tai Fung</td><td>restaurant system</td><td>Quality made visible through open kitchens, exacting labor, and slow growth.</td></tr>
+<tr><td>To Summer / Shen Li</td><td>Chinese fragrance</td><td>Non-Western fragrance luxury built from Chinese seasonal and poetic codes.</td></tr>
+<tr><td>Laopu Gold</td><td>Chinese jewelry</td><td>Luxury confidence rooted in Chinese gold craft rather than Western validation.</td></tr>
+<tr><td>Gentle Monster</td><td>eyewear / retail</td><td>Stores as art installations and newness as repeatable moat.</td></tr>
+<tr><td>Beams</td><td>Japanese retail</td><td>Basicness, sub-brands, and cultural curation as retail worldbuilding.</td></tr>
+<tr><td>Project Hail Mary</td><td>film / craft</td><td>Worldbuilding through difficult production choices and invisible detail.</td></tr>
+<tr><td>Stone Island / Massimo Osti</td><td>fashion archive</td><td>Material experimentation and archive as cumulative creative engine.</td></tr>
+<tr><td>NPR</td><td>media institution</td><td>Inherited brand memory turned into contemporary civic alignment.</td></tr>
+<tr><td>Air Afrique / Balafon</td><td>owned media</td><td>In-flight magazine as analog attention and cultural container.</td></tr>
+      </tbody></table>
+    </div>
   </section>
-  <section id="positions">
-    <div class="section-label">Positions</div>
-    <div class="quotes-list"><article class="quote-item note-position" id="position-1">
-          <div class="quote-text">Chrome Hearts has no ecommerce, runs no ads, and barely shows product on social — they leave millions on the table on purpose. That&#x27;s not bad business, that&#x27;s a founder who knows exactly what he&#x27;s building and refuses to compromise it.</div>
-          
-        </article><article class="quote-item note-position" id="position-2">
-          <div class="quote-text">As access to information and reliance on AI goes up, prevalence of original thought and perspective goes down. So following supply and demand, what becomes more valuable?</div>
-          
-        </article><article class="quote-item note-position" id="position-3">
-          <div class="quote-text">Agents can read brand, but they cannot feel it — they default to a weighted average of what humans have historically valued, picking the safe, well-reviewed, middle-of-the-road choice. Brands will need to cut through this agentic averaging.</div>
-          
-        </article><article class="quote-item note-position" id="position-4">
-          <div class="quote-text">Brand-maxing at its core is having a point of view and doing a full send on that POV — it won&#x27;t make sense to most people, it won&#x27;t be commercially successful most of the time, and you have to be prolific.</div>
-          
-        </article><article class="quote-item note-position" id="position-5">
-          <div class="quote-text">The dynastic approach to brand building is one of the lasting moats — family or founder continuity preserves brand soul in ways professional management rarely replicates.</div>
-          
-        </article></div>
-  </section>
-  <section id="tags">
-    <div class="section-label">Tags</div>
-    <div class="report-tags"><span class="report-tag">brand strategy</span><span class="report-tag">founder-led business</span><span class="report-tag">AI and branding</span></div>
+
+  <section id="method">
+    <div class="section-label">Method, Not Main Content</div>
+    <details class="method-card">
+      <summary>Open transcript coverage and source audit</summary>
+      <p>This page is based on <strong>38 downloaded and transcribed reels</strong> from a 40-ID caption inventory. The two requested IDs that did not become usable local mp4s after retry are <strong>DVj5LuRCX1n, DVTY-QMDqK0</strong>. The full transcript files are <code>transcripts/davidkylechoe_transcript_detailed.txt</code> and <code>transcripts/davidkylechoe_transcript_detailed.json</code>.</p>
+      <div class="audit-list">Processed clip IDs: DSIf633iTS5, DSLUN72iZkz, DSNsEnIDwIl, DSSMg12jsqx, DSU4OcijqsD, DSnvzvfkTXb, DSuzBDADqXH, DT-fhUGjrcT, DTAnQM4Dk3y, DTJsq-gCV-R, DTNsUxBDorF, DTYqvCXCeQd, DTkrNhgDoOZ, DTnRTTmDjD9, DU-4KNqDmmA, DU11vjUDGww, DUDqSmmDsJM, DUGvruEiWJT, DUvgAwHjqg-, DV0y4p9ONfT, DVPWceOifKl, DVWZGQ6iQv7, DVbB1cyjqpU, DVlbFBDNupr, DVoMf5rtUmX, DVtJaCvt9jj, DW6XsWwjqE8, DW9EPTgjmIL, DWCbDjVEv1Y, DWJqMjLjxYo, DWY59U2j0Xw, DWowPBpDo3w, DWq6XTQDink, DWtgcKHEW9v, DWyrnrEjqPE, DXHPQ0Sjbs6, DXb2VcHjkpX, DXeai-RDrxF</div>
+    </details>
   </section>
 </main>
-<footer class="site-footer">partake · creator notes · <a href="../platform_selfhood.html">back to cluster</a></footer>
+<footer class="cw-foot" role="contentinfo"><a href="../index.html">Home</a><span class="sep">·</span><a href="../master.html">Synthesis</a><span class="sep">·</span><a href="#cw-main">Back to top</a></footer>
 </body>
 </html>
