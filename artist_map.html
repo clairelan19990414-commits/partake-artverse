@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Artist Map · partake notes</title>
+<link rel="icon" href="data:,">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="shared.css">
 <style>
@@ -289,6 +290,328 @@ body { background: #f8f5ee; color: #1a1a1a; }
   margin-left: 5px;
 }
 
+/* ── Multi-gallery career routes ────────────────────────────── */
+.career-route-section {
+  background: linear-gradient(135deg, rgba(255,255,255,0.92), rgba(250,247,240,0.96));
+  border: 1px solid #d4cdc0;
+  padding: 24px;
+}
+.route-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin: 18px 0;
+}
+.route-stat {
+  background: #fff;
+  border: 1px solid #e8e2d4;
+  padding: 14px;
+}
+.route-stat-num {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  line-height: 1;
+  color: #8b1f4d;
+}
+.route-stat-label {
+  margin-top: 6px;
+  font-family: var(--mono);
+  font-size: 0.54rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: #888;
+}
+.route-cases {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin-top: 20px;
+}
+.route-card {
+  background: #fff;
+  border: 1px solid #d4cdc0;
+  padding: 18px;
+}
+.route-journey-card {
+  padding: 0;
+  overflow: hidden;
+}
+.route-journey-card summary {
+  list-style: none;
+  cursor: pointer;
+}
+.route-journey-card summary::-webkit-details-marker { display: none; }
+.route-journey-summary {
+  display: grid;
+  grid-template-columns: 56px minmax(180px, 1fr) minmax(220px, 0.85fr) minmax(120px, 0.5fr);
+  gap: 14px;
+  align-items: center;
+  padding: 16px 18px;
+  background: linear-gradient(90deg, #fff, #fbf8f1);
+}
+.route-journey-card[open] .route-journey-summary {
+  border-bottom: 1px solid #e8e2d4;
+}
+.route-rank {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #c8a96e;
+  background: #faf2dd;
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  color: #8b1f4d;
+}
+.route-summary-kicker,
+.route-summary-meta {
+  font-family: var(--mono);
+  font-size: 0.54rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #999;
+}
+.route-summary-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.45rem;
+  line-height: 1.05;
+  color: #1a1a1a;
+}
+.route-summary-meta {
+  text-align: right;
+  color: #8b1f4d;
+}
+.route-journey-body {
+  padding: 18px;
+}
+.route-card-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.35rem;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+.route-card-meta {
+  font-family: var(--mono);
+  font-size: 0.54rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #999;
+  margin-bottom: 14px;
+}
+.route-steps {
+  display: grid;
+  gap: 8px;
+}
+.route-journey-timeline {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(180px, 1fr));
+  gap: 10px;
+  align-items: stretch;
+}
+.route-step {
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  gap: 10px;
+  align-items: start;
+  min-height: 100%;
+  border: 1px solid #eee6d8;
+  background: #fffdf8;
+  padding: 12px;
+  position: relative;
+}
+.route-step::after {
+  content: "";
+  position: absolute;
+  top: 24px;
+  right: -11px;
+  width: 11px;
+  border-top: 1px solid #c8a96e;
+}
+.route-step:last-child::after { display: none; }
+.route-step.route-step-researched {
+  background: #fff9f6;
+  border-color: #e6c6b0;
+}
+.route-step-index {
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #c8a96e;
+  background: #faf2dd;
+  font-family: var(--mono);
+  font-size: 0.56rem;
+  color: #8b1f4d;
+}
+.route-step-title {
+  font-family: var(--mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #2d8c00;
+  margin-bottom: 2px;
+}
+.route-step-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.55;
+  color: #555;
+}
+.route-card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 14px;
+}
+.route-evidence-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+.route-evidence-card {
+  border: 1px solid #e8e2d4;
+  background: #faf8f3;
+  padding: 10px 12px;
+  min-height: 72px;
+}
+.route-evidence-label {
+  font-family: var(--mono);
+  font-size: 0.5rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #999;
+  margin-bottom: 6px;
+}
+.route-evidence-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: #555;
+}
+.route-card-links a,
+.route-open-btn,
+.route-filter-btn {
+  font-family: var(--mono);
+  font-size: 0.52rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #555;
+  text-decoration: none;
+  border: 1px solid #d4cdc0;
+  background: #fff;
+  padding: 6px 8px;
+}
+.route-card-links a:hover,
+.route-open-btn:hover,
+.route-filter-btn:hover {
+  color: #1a1a1a;
+  border-color: #c8a96e;
+}
+.route-tools {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 22px 0 10px;
+}
+.route-tools-note {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.74rem;
+  color: #777;
+  line-height: 1.5;
+}
+.route-table-wrap {
+  border: 1px solid #d4cdc0;
+  background: #fff;
+  max-height: 520px;
+  overflow: auto;
+}
+.route-chart-details {
+  margin-top: 12px;
+  border: 1px solid #d4cdc0;
+  background: #fff;
+}
+.route-chart-details > summary {
+  cursor: pointer;
+  padding: 12px 14px;
+  font-family: var(--mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #555;
+  background: #faf8f3;
+}
+.route-chart-details .route-table-wrap {
+  border: 0;
+  border-top: 1px solid #d4cdc0;
+}
+.route-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.76rem;
+}
+.route-table th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #1a1a1a;
+  color: #f8f5ee;
+  font-family: var(--mono);
+  font-size: 0.54rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 10px 12px;
+}
+.route-table td {
+  border-top: 1px solid #f0ece2;
+  padding: 10px 12px;
+  vertical-align: top;
+  color: #555;
+}
+.route-table .route-artist-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+  color: #1a1a1a;
+}
+.route-gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.route-gallery-pill {
+  font-family: var(--mono);
+  font-size: 0.5rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border: 1px solid #e8e2d4;
+  background: #faf8f3;
+  padding: 3px 6px;
+  color: #666;
+}
+@media (max-width: 860px) {
+  .route-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .career-route-section { padding: 18px; }
+  .route-journey-summary {
+    grid-template-columns: 44px 1fr;
+  }
+  .route-journey-summary .route-gallery-list,
+  .route-summary-meta {
+    grid-column: 2;
+    text-align: left;
+  }
+  .route-journey-timeline,
+  .route-evidence-grid {
+    grid-template-columns: 1fr;
+  }
+  .route-step::after {
+    display: none;
+  }
+}
+
 /* ── Rosters ─────────────────────────────────────────────────── */
 .rosters-grid {
   display: grid;
@@ -366,6 +689,10 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
   gap: 12px;
 }
 .roster-artist:hover { background: #f0ece2; border-left-color: #c8a96e; }
+.roster-artist.highlight {
+  background: #faf2dd;
+  border-left-color: #c8a96e;
+}
 .roster-artist.matched {
   background: #ffe4ec;
   border-left-color: #d63384;
@@ -692,6 +1019,11 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
   color: #fff;
 }
 .dp-work-card.no-img { background: #faf8f3; border-style: dashed; }
+.dp-work-card.source-pending {
+  background:
+    linear-gradient(135deg, rgba(200,169,110,0.12), rgba(45,140,0,0.08)),
+    #faf8f3;
+}
 .dp-work-card-title {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
@@ -704,6 +1036,41 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
   font-size: 0.55rem;
   letter-spacing: 0.06em;
   opacity: 0.85;
+}
+.dp-work-source {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+}
+.dp-work-source:hover { color: #c8a96e; }
+.dp-work-pending {
+  margin-top: 8px;
+  font-family: var(--mono);
+  font-size: 0.52rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #9b7a35;
+}
+.dp-work-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+.dp-work-links a {
+  font-family: var(--mono);
+  font-size: 0.5rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #555;
+  text-decoration: none;
+  border: 1px solid #d4cdc0;
+  background: rgba(255,255,255,0.58);
+  padding: 4px 6px;
+}
+.dp-work-links a:hover {
+  color: #1a1a1a;
+  border-color: #c8a96e;
 }
 .dp-no-works {
   font-family: var(--mono);
@@ -919,6 +1286,7 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
 }
 .quiz-next:hover { background: #2d8c00; }
 .quiz-next[disabled] { opacity: 0.3; cursor: not-allowed; }
+
 
 /* Result screen */
 .quiz-result-score {
@@ -1201,6 +1569,16 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
 .kc-footer .gallery-line { color: #1a1a1a; }
 .kc-footer .born-line { font-style: normal; }
 </style>
+<style id="cw-compliance">
+  .cw-skip{position:fixed;top:8px;left:8px;z-index:9999;padding:10px 16px;background:#16181b;color:#fff;text-decoration:none;border-radius:4px;font:500 14px/1 system-ui,sans-serif;transform:translateY(-150%);transition:transform .18s ease}
+  .cw-skip:focus{transform:translateY(0)}
+  a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,[tabindex]:focus-visible{outline:2px solid currentColor;outline-offset:2px}
+  @media (prefers-reduced-motion: reduce){*,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}}
+  .cw-foot{margin-top:48px;padding:24px 20px;border-top:1px solid rgba(128,128,128,.28);font:400 13px/1.6 system-ui,sans-serif;text-align:center;opacity:.85}
+  .cw-foot a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+  .cw-foot a:hover{opacity:.65}
+  .cw-foot .sep{opacity:.5;margin:0 8px}
+</style>
 </head>
 <body>
 
@@ -1286,6 +1664,24 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
     </div>
   </section>
 
+  <!-- ── Multi-gallery career routes ── -->
+  <section class="map-section career-route-section" id="career-route-section">
+    <div class="map-section-label">Multi-Gallery Career Routes</div>
+    <p class="map-section-note">A route atlas for artists whose names recur across multiple major-gallery rosters. Each card reads the artist as a career arc: formation, early platform, institutional signal, and current mega-gallery footprint. The atlas starts with artists represented by the most galleries, then folds down into the full overlap chart for audit work.</p>
+    <div class="route-stats" id="route-stats"></div>
+    <div class="route-cases" id="route-cases"></div>
+    <div class="route-tools">
+      <div class="route-tools-note">The cards are generated from this page’s gallery roster, local artist facts, notable works, and museum data. Source-deep early-gallery routes are marked with external references; the other cards stay grounded in local evidence instead of pretending to be fully sourced biographies.</div>
+      <button class="route-filter-btn" id="route-highlight-multi" type="button">Highlight multi-gallery artists</button>
+    </div>
+    <details class="route-chart-details" id="route-chart-details">
+      <summary>Open full overlap chart</summary>
+      <div class="route-table-wrap">
+        <table class="route-table" id="route-table"></table>
+      </div>
+    </details>
+  </section>
+
   <!-- ── Spreadsheet ── -->
   <section class="map-section">
     <div class="map-section-label">Gallery × Institution</div>
@@ -1301,6 +1697,8 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
     <p class="map-section-note">The complete roster at each gallery — click any header to expand. Hover an artist for works and connections; click for the full profile.</p>
     <div class="rosters-grid" id="rosters-grid"></div>
   </section>
+
+
 
 </div>
 
@@ -1595,7 +1993,7 @@ const ARTISTS = [
   { id:'a199', name:'Thomas Ruff', dates:'b. 1958', gallery:'g3', museums:[], edu:null, collectors:[], works:[], bio:'German artist, represented by David Zwirner.' },
   { id:'a200', name:'Robert Ryman', dates:'1930–2019', gallery:'g3', museums:[], edu:null, collectors:[], works:[], bio:'American artist, represented by David Zwirner.' },
   { id:'a201', name:'Fred Sandback', dates:'1943–2003', gallery:'g3', museums:[], edu:null, collectors:[], works:[], bio:'American artist, represented by David Zwirner.' },
-  { id:'a202', name:'Raymond Saunders', dates:'b. 1934', gallery:'g3', museums:[], edu:null, collectors:[], works:[{t:'Marie\'s Bill',y:'1970'},{t:'Jack Johnson',y:'1972'}], bio:'American painter and assemblagist known for richly layered, blackboard-like canvases incorporating found objects and text. Author of the 1967 essay \'Black Is a Color.\'' },
+  { id:'a202', name:'Raymond Saunders', dates:'1934–2025', gallery:'g3', museums:[], edu:null, collectors:[], works:[{t:'Marie\'s Bill',y:'1970'},{t:'Jack Johnson',y:'1972'}], bio:'American painter and assemblagist known for richly layered, blackboard-like canvases incorporating found objects and text. Author of the 1967 essay \'Black Is a Color.\'' },
   { id:'a203', name:'Dana Schutz', dates:'b. 1976', gallery:'g3', museums:[], edu:null, collectors:[], works:[{t:'Presentation',y:'2005'},{t:'Open Casket',y:'2016'}], bio:'American painter known for vivid, often surreal figurative compositions exploring imagined narratives. Based in Brooklyn, New York.' },
   { id:'a204', name:'Richard Serra', dates:'1938–2024', gallery:'g3', museums:['moma','guggenheim'], edu:'e2', collectors:['c3'], works:[{t:'Prop',y:'1968'},{t:'Tilted Arc',y:'1981',wiki:'Tilted_Arc'},{t:'Torqued Ellipses',y:'1996–99'},{t:'Band',y:'2006'}], bio:'Defining sculptor of postwar minimalism. His torqued steel works permanently altered the understanding of embodied space.' },
   { id:'a205', name:'Steven Shearer', dates:'b. 1968', gallery:'g3', museums:[], edu:null, collectors:[], works:[], bio:'Canadian artist, represented by Massimo De Carlo.' },
@@ -3452,13 +3850,142 @@ ARTISTS.forEach(a => {
   a.gen = computeGeneration(a.dates);
 });
 
+// David Zwirner roster upgrades: these replace thin imported placeholders and
+// correct older cross-gallery bios while keeping the main roster compact.
+const ZWIRNER_ARTIST_ENRICHMENTS = {
+  a138:{works:[{t:'Noeme',y:'2004',source:'Tate',url:'https://www.tate.org.uk/art/artworks/abts-noeme-t12275',image:'https://media.tate.org.uk/art/images/work/T/T12/T12275_7.jpg'},{t:'Feke',y:'2013',source:'David Zwirner',url:'https://www.davidzwirner.com/artworks/tomma-abts-feke-e9d4f',image:'https://cdn.sanity.io/images/juzvn5an/release-adp/18b5de9588d98229b3f1bf38e535b21f70ac6b62-2533x3000.jpg?w=640'},{t:'Loert',y:'2005',source:'David Zwirner',url:'https://www.davidzwirner.com/artworks/tomma-abts-loert-54f59',image:'https://cdn.sanity.io/images/juzvn5an/release-adp/743a9ad69e39869bd12da2bc50707c6c74d6c179-2432x3000.jpg?w=640'}],tipImages:['https://media.tate.org.uk/art/images/work/T/T12/T12275_7.jpg','https://cdn.sanity.io/images/juzvn5an/release-adp/18b5de9588d98229b3f1bf38e535b21f70ac6b62-2533x3000.jpg?w=640','https://cdn.sanity.io/images/juzvn5an/release-adp/743a9ad69e39869bd12da2bc50707c6c74d6c179-2432x3000.jpg?w=640'],bio:'German abstract painter whose hard-edged, invented forms are built through slow, iterative decisions; each canvas reads like a compressed logic system rather than a picture of something seen.'},
+  a140:{works:[{t:'Wall Hanging',y:'1926'},{t:'Black White Yellow',y:'1926'},{t:'Six Prayers',y:'1966-67'}],bio:'Bauhaus textile artist who transformed weaving from craft hierarchy into modernist abstraction, using thread as structure, image, and architectural thinking.'},
+  a141:{works:[{t:'Homage to the Square',y:'1950-76'},{t:'Interaction of Color',y:'1963'},{t:'Variant / Adobe',y:'1947-55'}],bio:'Painter, teacher, and color theorist whose Homage to the Square series and Interaction of Color made perception itself the subject of modernist painting.'},
+  a142:{works:[{t:'The Collector',y:'1990-92'},{t:'Paradox of Praxis 1',y:'1997'},{t:'When Faith Moves Mountains',y:'2002'}],bio:'Belgian-born, Mexico City-based artist whose walks, films, actions, and small narrative gestures turn social friction into poetic systems.'},
+  a143:{works:[{t:'About a Girl',y:'2005'},{t:'Stargazer',y:'2012'},{t:'The Lost Paradise',y:'2020'}],bio:'Swedish painter of uncanny interiors, forests, theaters, and half-remembered images where Nordic landscape and cinema become psychological atmosphere.'},
+  a145:{works:[{t:'The Chicken Thief',y:'2019'},{t:'Paradise Edict',y:'2019'},{t:'The Promised Land',y:'2019'}],bio:'Kenyan-British painter whose works on lubugo bark cloth fold East African politics, colonial history, dream logic, and lush painterly atmosphere into unstable narrative scenes.'},
+  a147:{works:[{t:'Untitled (S.108, hanging sculpture)',y:'1950s'},{t:'Untitled (S.055)',y:'c. 1954'},{t:'Aurora Fountain',y:'1986'}],bio:'American sculptor whose looped-wire forms, public commissions, and Black Mountain training recast craft, labor, and biomorphic abstraction as one continuous practice.'},
+  a148:{works:[{t:'Pink Panther and E.T.',y:'2016'},{t:'Windex and Watermelon',y:'2014'},{t:'Dole + Darth Vader',y:'2021'}],bio:'American painter whose repeat icons, food brands, cartoon characters, and tropical patterns turn consumer imagery into bright, deliberately excessive all-over composition.'},
+  a150:{works:[{t:'The Devil\'s Dress',y:'2011'},{t:'The Angel',y:'2013'},{t:'The Duck',y:'2011'}],bio:'Belgian painter whose technically immaculate figures and staged scenes feel antique, cinematic, and morally chilled, often suspending narrative at its most uncanny moment.'},
+  a151:{works:[{t:'Schmagoo Paintings',y:'2008'},{t:'Mummy Paintings',y:'2011'},{t:'Foot and Mouth',y:'2012'}],bio:'American painter who moves between crude figuration, spare abstraction, and studio-gesture jokes, treating style as something provisional and deliberately unstable.'},
+  a152:{works:[{t:'Fritz the Cat',y:'1965-'},{t:'Zap Comix',y:'1968-'},{t:'The Book of Genesis Illustrated',y:'2009'}],bio:'American underground cartoonist whose obsessive line, satire, and countercultural grotesque made comics a major language for social critique and sexual anxiety.'},
+  a153:{works:[{t:'40 Acres and a Unicorn',y:'2007'},{t:'Isis',y:'2009'},{t:'Pueblo del Rio: Arabesque',y:'2014'}],bio:'American painter and founder of the Underground Museum whose scenes of Black life combine cinematic stillness, surreal domesticity, and quiet institutional ambition.'},
+  a154:{works:[{t:'Retour 3',y:'1999'},{t:'Hill',y:'2001'},{t:'Come on, play it again',y:'2001'}],bio:'Belgian painter whose apparently modest abstractions make small shifts of color, mark, and edge feel like a complete theory of pictorial attention.'},
+  a155:{works:[{t:'Graduation',y:'1949'},{t:'Mississippi Freedom Marcher',y:'1963'},{t:'Hallway',y:'1953'}],bio:'American photographer of Harlem, jazz musicians, labor, protest, and everyday Black life, using shadow and tonal richness as both atmosphere and politics.'},
+  a156:{works:[{t:'Hustlers',y:'1990-92'},{t:'Heads',y:'2000-01'},{t:'A Storybook Life',y:'1975-99'}],bio:'American photographer whose staged street, fashion, and portrait images blur documentary encounter with cinematic construction.'},
+  a157:{works:[{t:'Abbott & Cordova, 7 August 1971',y:'2008'},{t:'Luanda-Kinshasa',y:'2013'},{t:'Penn Station\'s Half Century',y:'2021'}],bio:'Canadian artist whose films, photographs, and installations rebuild historical moments as elaborate media architectures of memory, race, labor, and urban change.'},
+  a163:{works:[{t:'oil painting, red',y:'2008'},{t:'three varieties of red',y:'2014'},{t:'dark red moving',y:'2016'}],bio:'American abstract painter whose matte, mineral pigments and irregular forms make color feel architectural, ancient, and bodily at once.'},
+  a164:{works:[{t:'Rose II',y:'2007'},{t:'Oil XI',y:'2007'},{t:'Schauspieler',y:'2013'}],bio:'German artist whose sculptures, photographs, mannequins, and architectural fragments turn consumer display and modernist design into brittle social theater.'},
+  a165:{works:[{t:'Untitled (Portrait of Ross in L.A.)',y:'1991'},{t:'Untitled (Perfect Lovers)',y:'1987-90'},{t:'Untitled (Lover Boys)',y:'1991'}],bio:'Cuban-born American conceptual artist whose minimal gestures of candy, clocks, paper stacks, and light strings turned love, loss, AIDS, and publicness into shared forms.'},
+  a169:{works:[{t:'Untitled (Mountains)',y:'2002'},{t:'Untitled (Doors)',y:'1996'},{t:'Untitled (Rooms)',y:'1997'}],bio:'Australian artist whose large wax-on-paper images of rooms, doors, windows, and architecture make emptiness feel monumental and psychologically charged.'},
+  a170:{works:[{t:'Twittering Machine',y:'1922'},{t:'Angelus Novus',y:'1920'},{t:'Fish Magic',y:'1925'}],bio:'Swiss-German modernist whose small, lyrical paintings and drawings compress music, sign systems, childhood, satire, and abstraction into strange pictorial grammars.'},
+  a172:{works:[{t:'Porcelain vessels',y:'ongoing'},{t:'Dinosaur pots',y:'ongoing'},{t:'Line-pattern ceramics',y:'ongoing'}],bio:'Japanese ceramic artist whose vessels use pattern, repetition, and subtle irregularity to bridge functional pottery, painting, and sculptural rhythm.'},
+  a175:{works:[{t:'Bullet Hole paintings',y:'2005-'},{t:'Maps',y:'2011-'},{t:'Studio All Stars',y:'2010'}],bio:'American artist whose paintings and objects sample crime-scene graphics, advertising, maps, and news culture to make American violence feel both designed and banal.'},
+  a177:{works:[{t:'Many Mansions',y:'1994'},{t:'Souvenir I',y:'1997'},{t:'A Portrait of the Artist as a Shadow of His Former Self',y:'1980'}],bio:'American painter whose monumental Black figures, domestic spaces, and art-historical revisions insist that Black life is central to the grand tradition of painting.'},
+  a178:{works:[{t:'Splitting',y:'1974'},{t:'Conical Intersect',y:'1975'},{t:'Day\'s End',y:'1975'}],bio:'American artist whose building cuts, films, and social projects turned architecture into a material to be opened, wounded, and socially reimagined.'},
+  a179:{works:[{t:'The Absolutely Naked Fragrance',y:'1967'},{t:'Red Plank',y:'1969'},{t:'Star',y:'2008'}],bio:'American minimalist sculptor whose lacquered planks and geometric forms make industrial finish, surf culture, and mystical space feel strangely aligned.'},
+  a182:{works:[{t:'Hemlock',y:'1956'},{t:'La Grande Vallee',y:'1983-84'},{t:'Sunflower',y:'1969'}],bio:'American Abstract Expressionist whose charged color, sweeping marks, and landscape-inflected structures pushed gestural painting toward memory and weather.'},
+  a184:{works:[{t:'Double Bind',y:'2001'},{t:'Many Times',y:'1999'},{t:'Conversation Piece',y:'1994-95'}],bio:'Spanish sculptor whose theatrical groups of figures, balconies, and sound works stage spectatorship, absence, and the unease of public space.'},
+  a187:{works:[{t:'Andy Warhol',y:'1970'},{t:'Pregnant Maria',y:'1964'},{t:'Self-Portrait',y:'1980'}],bio:'American figurative painter whose portraits of friends, activists, mothers, artists, and neighbors formed one of the most psychologically direct social records of the twentieth century.'},
+  a189:{works:[{t:'The Holy Virgin Mary',y:'1996'},{t:'No Woman, No Cry',y:'1998'},{t:'The Upper Room',y:'1999-2002'}],bio:'British painter whose saturated surfaces, mythology, music, and layered materials fuse beauty with diasporic, spiritual, and political charge.'},
+  a192:{works:[{t:'Napoleon',y:'1991'},{t:'Kurt Cobain',y:'1995'},{t:'Liam Gallagher',y:'1996'}],bio:'American painter whose intimate portraits of musicians, monarchs, writers, friends, and historical figures made fandom and desire into a delicate portrait language.'},
+  a195:{works:[{t:'Die Fuge',y:'2007'},{t:'Die Kontrolle',y:'2010'},{t:'Der Vorhang',y:'2005'}],bio:'German painter associated with the New Leipzig School, known for dreamlike industrial scenes where socialist realism, comics, and surreal historical theatre collide.'},
+  a196:{works:[{t:'My Brother/Brancuzi',y:'1995'},{t:'Perfect World',y:'1999'},{t:'Tijuanatanjierchandelier',y:'2006'}],bio:'American installation artist whose sprawling systems of neon, tools, merchandise, language, and labor made consumer abundance feel ecstatic and deranged.'},
+  a198:{works:[{t:'Movement in Squares',y:'1961'},{t:'Cataract 3',y:'1967'},{t:'Blaze 1',y:'1962'}],bio:'British painter whose optical abstractions make perception physical through vibration, rhythm, curve, and color.'},
+  a199:{works:[{t:'Portraits',y:'1981-85'},{t:'jpegs',y:'2004-'},{t:'Häuser',y:'1987-91'}],bio:'German photographer from the Düsseldorf School whose series investigate the image as dataset, typology, surface, and technological artifact.'},
+  a200:{works:[{t:'Winsor',y:'1966'},{t:'Surface Veil',y:'1970-'},{t:'Classico',y:'1968'}],bio:'American painter whose white-on-white works test how canvas, edge, brush, wall, and light can make painting visible as an object and an event.'},
+  a201:{works:[{t:'Untitled (Sculptural Study, Ten-part Vertical Construction)',y:'1977'},{t:'Untitled',y:'1969'},{t:'Ten Vertical Constructions',y:'1977'}],bio:'American sculptor whose stretched yarn lines create drawings in space, making volume out of almost nothing.'},
+  a202:{ageAtDeath:90},
+  a205:{works:[{t:'Sleep II',y:'2015'},{t:'Poem for Venice',y:'2011'},{t:'Album Covers',y:'ongoing'}],bio:'Canadian artist whose paintings, drawings, and archives mine heavy metal, adolescent rooms, fan images, and outsider intensity.'},
+  a208:{works:[{t:'Pet Stains',y:'1989'},{t:'Wire Instruments',y:'1990s'},{t:'A/B Leaky Pieces',y:'1990s'}],bio:'American artist whose drawings and sculptural constructions treat puddles, stains, wires, and everyday systems as diagrams of motion.'},
+  a209:{works:[{t:'Delphine',y:'1999'},{t:'Chernobyl',y:'2011'},{t:'Science, Fiction',y:'2015'}],bio:'American video installation artist whose saturated projections and architectural environments examine animals, extinction, perception, and media space.'},
+  a215:{works:[{t:'Glass House',y:'2009'},{t:'Flowers',y:'2004-'},{t:'Degradés',y:'1986'}],bio:'American photographer whose abstractions, architectural studies, and color experiments test how photography can behave like painting, memory, and design.'},
+  a216:{works:[{t:'Adaptives',y:'1974-'},{t:'Lemur Heads',y:'1992'},{t:'Auditorium',y:'1992'}],bio:'Austrian sculptor and the gallery\'s inaugural artist, known for participatory Adaptives, bulbous papier-mache forms, furniture-like installations, and a deliberately social sculpture of use.'},
+  a217:{works:[{t:'SA MI 75 DZ NY 12',y:'2012'},{t:'PSAD Synthetic Desert III',y:'1971'},{t:'RM 669',y:'1969'}],bio:'American Light and Space artist whose white rooms and luminous voids make perception, atmosphere, and architecture nearly indistinguishable.'},
+  a219:{works:[{t:'Female Figure',y:'2014'},{t:'Colored Sculpture',y:'2016'},{t:'Raspberry Poser',y:'2012'}],bio:'American artist whose animatronic figures, VR works, videos, and installations provoke unease around technology, spectacle, violence, and desire.'},
+  a220:{works:[{t:'PV Windows and Floorboards',y:'2011'},{t:'Queen with Pansies',y:'2016'},{t:'Film Notes',y:'ongoing'}],bio:'British painter whose apparently unruly canvases turn cinema, memory, sports, animals, and domestic fragments into large, sharp, off-kilter compositions.'},
+  a222:{works:[{t:'Ndakaoneswa murima',y:'2014'},{t:'Hapana chitsva',y:'2015'},{t:'Rwendo',y:'2019'}],bio:'Zimbabwean painter whose layered, dreamlike works draw on spirituality, family, grief, and Shona visual traditions through dense fields of pattern and figure.'}
+};
+Object.entries(ZWIRNER_ARTIST_ENRICHMENTS).forEach(([id, patch]) => {
+  const a = ARTISTS.find(artist => artist.id === id);
+  if (a) Object.assign(a, patch);
+});
+
 // ── Lookups ─────────────────────────────────────────────────
 const ARTIST_BY_ID = {};
 ARTISTS.forEach(a => ARTIST_BY_ID[a.id] = a);
+function artistNameKey(name) {
+  return (name || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+}
+const ARTIST_IDS_BY_NAME_KEY = {};
+ARTISTS.forEach(a => {
+  const key = artistNameKey(a.name);
+  if (!key) return;
+  (ARTIST_IDS_BY_NAME_KEY[key] ||= []).push(a.id);
+});
 const GALLERY_BY_ID = {};
 GALLERIES.forEach(g => GALLERY_BY_ID[g.id] = g);
 const MUSEUM_BY_ID = {};
 MUSEUMS.forEach(m => MUSEUM_BY_ID[m.id] = m);
+
+const CAREER_ROUTE_CASES = [
+  {
+    name:'Adrian Ghenie',
+    routeType:'regional space to global painting market',
+    steps:[
+      { label:'Local engine', text:'After Vienna, Ghenie returned to Cluj and co-founded Galeria Plan B in 2005; Pace notes that Plan B held his first solo exhibition in 2006.' },
+      { label:'Institutional signal', text:'Romania selected Ghenie for the 56th Venice Biennale in 2015, turning a regional painter-market story into international art-world consensus.' },
+      { label:'Mega-gallery overlap', text:'In this roster he appears with Pace and Thaddaeus Ropac: the route reads as Cluj production space → biennial/museum validation → transatlantic mega-gallery distribution.' },
+    ],
+    sources:[
+      { label:'Pace bio', url:'https://www.pacegallery.com/artists/adrian-ghenie/' },
+      { label:'Ropac bio', url:'https://ropac.net/artists/44-adrian-ghenie/' },
+    ],
+  },
+  {
+    name:'JR',
+    routeType:'street/public project to multi-gallery civic brand',
+    steps:[
+      { label:'Non-gallery origin', text:'JR’s first platform is the street: his own bio describes a practice built in public space, community participation, and large-scale urban images.' },
+      { label:'Museum/public expansion', text:'His retrospectives and museum projects made the public-art practice legible to institutions without stripping away the activist spectacle.' },
+      { label:'Mega-gallery overlap', text:'JR is listed here across Pace, Perrotin, and Galleria Continua; his official site also names Nara Roesler, showing a gallery route built around geographic reach rather than medium purity.' },
+    ],
+    sources:[
+      { label:'JR official', url:'https://www.jr-art.net/about' },
+      { label:'Galleria Continua', url:'https://www.galleriacontinua.com/artists/jr-258' },
+    ],
+  },
+  {
+    name:'Urs Fischer',
+    routeType:'independent circulation to mega-gallery saturation',
+    steps:[
+      { label:'Early circulation', text:'Fischer’s exhibition history moves through independent and mid-size platforms such as Gavin Brown’s Enterprise, The Modern Institute, JTT, Karma, and Vito Schnabel.' },
+      { label:'Public object phase', text:'Large public and museum-scale works made the practice portable across sculpture parks, foundations, and institutional plazas.' },
+      { label:'Mega-gallery overlap', text:'In this dataset he sits with Gagosian, Massimo De Carlo, and Sadie Coles HQ: a model of market saturation across New York, Milan, and London.' },
+    ],
+    sources:[
+      { label:'Gagosian CV', url:'https://gagosian.com/media/artists/urs-fischer/Fischer-Urs-Bio-2025-01-14.pdf' },
+      { label:'Official bio', url:'https://ursfischer.com/pages/biography' },
+    ],
+  },
+  {
+    name:'Alvaro Barrington',
+    routeType:'independent/community network to multi-gallery ascent',
+    steps:[
+      { label:'Independent network', text:'Barrington’s CV threads through artist-run, independent, and smaller platforms including Emalin, Nicola Vassell, Karma, and project-based public/community settings.' },
+      { label:'Public-cultural signal', text:'Ropac frames the practice through Notting Hill Carnival, Glastonbury, public projects, and community commitments — visibility outside the white cube becomes part of the value system.' },
+      { label:'Mega-gallery overlap', text:'Here he appears with Thaddaeus Ropac, Massimo De Carlo, and Sadie Coles HQ: a route where cultural fluency and event-scale visibility precede blue-chip distribution.' },
+    ],
+    sources:[
+      { label:'Ropac file', url:'https://ropac.net/gallery-documents/2/' },
+      { label:'Karma bio', url:'https://karmakarma.org/artists/alvaro-barrington/bio/' },
+    ],
+  },
+];
+
+let QUIZ_IMAGES_DATA = null;
+let QUIZ_PORTRAITS_DATA = null;
+let quizState = null;
 
 // ── Filter state ────────────────────────────────────────────
 const filterState = { gen:new Set(), nat:new Set(), medium:new Set(), theme:new Set() };
@@ -3562,6 +4089,254 @@ function applyFilters() {
     : txt;
 }
 
+function uniqueBy(arr, fn) {
+  const seen = new Set();
+  return arr.filter(item => {
+    const key = fn(item);
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function getMultiGalleryGroups() {
+  const groups = {};
+  ARTISTS.forEach(a => {
+    const key = artistNameKey(a.name);
+    if (!key) return;
+    (groups[key] ||= []).push(a);
+  });
+  return Object.values(groups)
+    .filter(group => new Set(group.map(a => a.gallery)).size > 1)
+    .map(group => {
+      const galleries = uniqueBy(group.map(a => GALLERY_BY_ID[a.gallery]).filter(Boolean), g => g.id);
+      const museums = uniqueBy(group.flatMap(a => a.museums || []).map(id => MUSEUM_BY_ID[id]).filter(Boolean), m => m.id);
+      const works = uniqueBy(group.flatMap(a => a.works || []), w => (w.t || '').toLowerCase());
+      const ids = group.map(a => a.id);
+      const record = group.find(a => (a.museums || []).length || (a.works || []).length) || group[0];
+      return {
+        name: group[0].name,
+        dates: group[0].dates,
+        ids,
+        primaryId: record.id,
+        galleries,
+        museums,
+        works,
+        records: group.length,
+      };
+    })
+    .sort((a, b) => b.galleries.length - a.galleries.length || b.records - a.records || a.name.localeCompare(b.name));
+}
+
+function routePattern(group) {
+  if (!/^b\./i.test(group.dates || '')) return 'Estate / canon relay';
+  if (group.galleries.length >= 4) return 'Four-gallery global distribution';
+  if (group.galleries.length >= 3 && group.museums.length) return 'Institution-backed multi-market artist';
+  if (group.galleries.length >= 3) return 'Fast contemporary ascent';
+  if (group.museums.length) return 'Museum-validated dual representation';
+  return 'Dual-gallery overlap candidate';
+}
+
+function routeResearchFor(name) {
+  return CAREER_ROUTE_CASES.find(item => artistNameKey(item.name) === artistNameKey(name));
+}
+
+function routeGalleryPills(galleries) {
+  return `<div class="route-gallery-list">${galleries.map(g => `<span class="route-gallery-pill">${safeText(g.name)}</span>`).join('')}</div>`;
+}
+
+function safeText(text) {
+  return String(text ?? '').replace(/[&<>"']/g, ch => ({
+    '&':'&amp;',
+    '<':'&lt;',
+    '>':'&gt;',
+    '"':'&quot;',
+    "'":'&#39;',
+  }[ch]));
+}
+
+function routePrimaryRecord(group) {
+  return ARTIST_BY_ID[group.primaryId] || group.ids.map(id => ARTIST_BY_ID[id]).find(Boolean) || {};
+}
+
+function routeFactsForGroup(group) {
+  if (typeof QUIZ_FACTS === 'undefined') return null;
+  return group.ids.map(id => QUIZ_FACTS[id]).find(Boolean) || null;
+}
+
+function routeWorkText(group, limit = 4) {
+  return group.works.slice(0, limit).map(w => `${w.t}${w.y ? ` (${w.y})` : ''}`).join(' · ');
+}
+
+function routeMuseumText(group, limit = 4) {
+  return group.museums.slice(0, limit).map(m => m.name).join(' · ');
+}
+
+function routeGalleryText(group) {
+  return group.galleries.map(g => `${g.name}${g.city ? ` (${g.city})` : ''}`).join(' → ');
+}
+
+function routeLocalEvidence(group, facts) {
+  const primary = routePrimaryRecord(group);
+  const works = routeWorkText(group);
+  const museums = routeMuseumText(group);
+  return [
+    {
+      label: 'Practice signal',
+      text: facts?.signature || facts?.method || primary.bio || `${primary.nat || 'Artist'} profile; richer practice notes can be attached in the next research pass.`,
+    },
+    {
+      label: 'Works / institutions',
+      text: [works, museums].filter(Boolean).join(' · ') || 'This overlap record has representation data but no local work/museum evidence attached yet.',
+    },
+    {
+      label: 'Roster footprint',
+      text: `${group.galleries.length} galleries · ${group.records} roster records · ${routePattern(group)}.`,
+    },
+  ];
+}
+
+function routeGeneratedSteps(group) {
+  const facts = routeFactsForGroup(group);
+  const primary = routePrimaryRecord(group);
+  const works = routeWorkText(group, 3);
+  const museums = routeMuseumText(group, 3);
+  const formation = facts?.training
+    ? `${facts.training}. ${facts.born ? `Origin: ${facts.born}.` : ''}`
+    : facts?.born
+      ? `Origin: ${facts.born}. ${facts.based ? `Working base: ${facts.based}.` : ''}`
+      : `${group.dates || 'Dates unlisted'} · ${primary.nat || 'nationality unlisted'} artist in the roster database.`;
+  const scene = facts?.cohort
+    ? facts.cohort
+    : primary.bio
+      ? primary.bio
+      : `The early platform still needs source-deep research; this page currently begins from the visible roster overlap.`;
+  const validation = [facts?.signature, facts?.method, facts?.thesis, works ? `Key works: ${works}.` : '', museums ? `Institutional signal: ${museums}.` : '']
+    .filter(Boolean)
+    .slice(0, 3)
+    .join(' ');
+  const overlap = `${routeGalleryText(group)}. The local pattern reads as ${routePattern(group).toLowerCase()}: repeated representation makes the artist legible as a cross-market asset rather than a single-gallery story.`;
+  return [
+    { label: 'Formation', text: formation },
+    { label: 'Scene / first platform', text: scene },
+    { label: 'Validation signal', text: validation || 'The local record needs stronger work and museum evidence; the overlap itself is the current signal.' },
+    { label: 'Mega-gallery footprint', text: overlap },
+  ];
+}
+
+function routeStepsForGroup(group) {
+  const research = routeResearchFor(group.name);
+  if (!research) return routeGeneratedSteps(group);
+  return [
+    ...research.steps.map(step => ({ ...step, researched: true })),
+    {
+      label: 'Current roster map',
+      text: `${routeGalleryText(group)}. In this atlas, the researched route is paired with the current overlap record so the early platform and mega-gallery distribution sit in one sequence.`,
+      researched: true,
+    },
+  ];
+}
+
+function routeCardForGroup(group, index) {
+  const research = routeResearchFor(group.name);
+  const facts = routeFactsForGroup(group);
+  const primary = routePrimaryRecord(group);
+  const steps = routeStepsForGroup(group);
+  const evidence = routeLocalEvidence(group, facts);
+  const openAttr = index < 10 ? ' open' : '';
+  const routeType = research?.routeType || routePattern(group);
+  const sourceLinks = research
+    ? research.sources.map(source => `<a href="${source.url}" target="_blank" rel="noopener">${safeText(source.label)}</a>`).join('')
+    : '';
+  return `<details class="route-card route-journey-card"${openAttr}>
+    <summary class="route-journey-summary">
+      <div class="route-rank">${String(index + 1).padStart(2, '0')}</div>
+      <div>
+        <div class="route-summary-kicker">${safeText(routeType)}</div>
+        <div class="route-summary-title">${safeText(group.name)}</div>
+      </div>
+      ${routeGalleryPills(group.galleries)}
+      <div class="route-summary-meta">${group.galleries.length} galleries · ${group.records} records</div>
+    </summary>
+    <div class="route-journey-body">
+      <div class="route-journey-timeline">
+        ${steps.map((step, idx) => `<div class="route-step${step.researched ? ' route-step-researched' : ''}">
+          <div class="route-step-index">${String(idx + 1).padStart(2, '0')}</div>
+          <div><div class="route-step-title">${safeText(step.label)}</div><div class="route-step-text">${safeText(step.text)}</div></div>
+        </div>`).join('')}
+      </div>
+      <div class="route-evidence-grid">
+        ${evidence.map(item => `<div class="route-evidence-card">
+          <div class="route-evidence-label">${safeText(item.label)}</div>
+          <div class="route-evidence-text">${safeText(item.text)}</div>
+        </div>`).join('')}
+      </div>
+      <div class="route-card-links">
+        <button class="route-open-btn" type="button" onclick="openPanel('${safeText(group.primaryId)}')">Open profile</button>
+        ${facts?.wiki ? `<a href="https://en.wikipedia.org/wiki/${safeText(facts.wiki)}" target="_blank" rel="noopener">Wiki context</a>` : ''}
+        ${sourceLinks}
+      </div>
+    </div>
+  </details>`;
+}
+
+function renderCareerRoutes() {
+  const statsEl = document.getElementById('route-stats');
+  const casesEl = document.getElementById('route-cases');
+  const tableEl = document.getElementById('route-table');
+  if (!statsEl || !casesEl || !tableEl) return;
+
+  const groups = getMultiGalleryGroups();
+  const records = groups.reduce((sum, group) => sum + group.records, 0);
+  const threePlus = groups.filter(group => group.galleries.length >= 3).length;
+  const fourPlus = groups.filter(group => group.galleries.length >= 4).length;
+  const researched = CAREER_ROUTE_CASES.filter(item => groups.some(group => artistNameKey(group.name) === artistNameKey(item.name))).length;
+
+  statsEl.innerHTML = [
+    { num: groups.length, label:'artists with gallery overlap' },
+    { num: records, label:'roster records involved' },
+    { num: threePlus, label:'artists at 3+ major galleries' },
+    { num: researched, label:'source-deep roadmap cases' },
+  ].map(stat => `<div class="route-stat"><div class="route-stat-num">${stat.num}</div><div class="route-stat-label">${stat.label}</div></div>`).join('');
+
+  casesEl.innerHTML = groups.map((group, index) => routeCardForGroup(group, index)).join('');
+
+  tableEl.innerHTML = `<thead><tr>
+    <th>Artist</th>
+    <th>Current mega-gallery overlap</th>
+    <th>Signal</th>
+    <th>Works / institutions</th>
+    <th>Action</th>
+  </tr></thead><tbody>
+    ${groups.map(group => {
+      const research = routeResearchFor(group.name);
+      const works = group.works.slice(0, 3).map(w => safeText(w.t)).join(' · ');
+      const institutions = group.museums.map(m => safeText(m.name)).join(' · ');
+      const evidence = [works, institutions].filter(Boolean).join('<br>');
+      return `<tr>
+        <td><div class="route-artist-name">${safeText(group.name)}</div><div class="roster-artist-dates">${safeText(group.dates || '')}</div></td>
+        <td>${routeGalleryPills(group.galleries)}</td>
+        <td>${safeText(research ? research.routeType : routePattern(group))}</td>
+        <td>${evidence || '<span style="color:#aaa;">local evidence pending</span>'}</td>
+        <td><button class="route-open-btn" type="button" onclick="openPanel('${safeText(group.primaryId)}')">Open</button></td>
+      </tr>`;
+    }).join('')}
+  </tbody>`;
+
+  const btn = document.getElementById('route-highlight-multi');
+  if (btn) {
+    let active = false;
+    btn.onclick = () => {
+      active = !active;
+      btn.textContent = active ? 'Clear multi-gallery highlight' : 'Highlight multi-gallery artists';
+      const ids = new Set(groups.flatMap(group => group.ids));
+      document.querySelectorAll('.artist-chip, .roster-artist').forEach(el => {
+        if (ids.has(el.dataset.id)) el.classList.toggle('highlight', active);
+      });
+    };
+  }
+}
+
 // ── Render spreadsheet ──────────────────────────────────────
 function renderGrid() {
   const tbl = document.getElementById('grid-table');
@@ -3659,6 +4434,7 @@ function renderRosters() {
   });
 }
 
+
 // ── Tooltip ─────────────────────────────────────────────────
 const tip = document.getElementById('map-tip');
 let mouseX = 0, mouseY = 0;
@@ -3685,7 +4461,7 @@ function wikiImage(name) {
 }
 
 // Fetch the short description + first-paragraph extract for an artist via
-// Wikipedia's REST summary endpoint. Falls back to a search query when the
+// Wikipedia\'s REST summary endpoint. Falls back to a search query when the
 // direct slug lookup misses (alternate transliteration, disambig, etc.).
 const _summaryCache = {};
 const _resolvedTitleCache = {};
@@ -3732,7 +4508,7 @@ async function pageSummary(name) {
   return s;
 }
 
-// Fetch a list of image URLs from an artist's Wikipedia page (works, install
+// Fetch a list of image URLs from an artist\'s Wikipedia page (works, install
 // shots, etc.) — filtered to real photos, excluding UI icons. Falls back to
 // search when the direct title lookup returns nothing.
 const _pageImgCache = {};
@@ -3767,7 +4543,7 @@ function _pageImagesByTitle(name) {
 }
 
 // Try several Wikipedia slug variants for a work title, falling back to the
-// artist's portrait if no work-specific image is found.
+// artist\'s portrait if no work-specific image is found.
 async function workImage(work, artist) {
   if (work.wiki) {
     const url = await wikiImage(work.wiki);
@@ -3792,6 +4568,102 @@ async function workImage(work, artist) {
     if (url) return url;
   }
   return null;
+}
+
+function localPortraitUrl(id) {
+  return QUIZ_PORTRAITS_DATA?.[id]?.url || null;
+}
+
+function normalizedImageUrl(url) {
+  return String(url || '')
+    .split('?')[0]
+    .replace(/\.width-\d+/g, '')
+    .replace(/\.original\b/g, '')
+    .replace(/\/_jpg\d+\//g, '/')
+    .replace(/\/_webp\d+\//g, '/')
+    .replace(/-\d+x\d+(?=\.\w+$)/g, '');
+}
+
+function localWorkCandidates(id) {
+  const a = ARTIST_BY_ID[id];
+  const ids = a
+    ? [id, ...(ARTIST_IDS_BY_NAME_KEY[artistNameKey(a.name)] || [])]
+    : [id];
+  const seenIds = new Set();
+  const seenImages = new Set();
+  const out = [];
+  ids.forEach(candidateId => {
+    if (!candidateId || seenIds.has(candidateId)) return;
+    seenIds.add(candidateId);
+    (QUIZ_IMAGES_DATA?.[candidateId]?.candidates || []).forEach(c => {
+      if (!c || !c.image) return;
+      const imageKey = normalizedImageUrl(c.image);
+      if (seenImages.has(imageKey)) return;
+      seenImages.add(imageKey);
+      out.push(c);
+    });
+  });
+  return out;
+}
+
+function curatedTipImages(a) {
+  return Array.isArray(a?.tipImages) ? a.tipImages.filter(Boolean) : [];
+}
+
+function localWorkForTitle(id, title) {
+  const norm = (title || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+  if (!norm) return null;
+  return localWorkCandidates(id).find(c => {
+    const ct = (c.title || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    return ct && (ct === norm || ct.includes(norm) || norm.includes(ct));
+  }) || null;
+}
+
+function localWorkForIndex(id, index) {
+  return localWorkCandidates(id)[index] || null;
+}
+
+function workCandidateForCard(a, work, index) {
+  if (work?.image) return {
+    image: work.image,
+    title: work.t,
+    year: work.y,
+    source: work.source,
+    url: work.url,
+  };
+  return localWorkForTitle(a.id, work.t) || localWorkForIndex(a.id, index);
+}
+
+function workMetaHtml(year, source, url) {
+  const parts = [];
+  if (year) parts.push(year);
+  if (source) {
+    const label = url
+      ? `<a class="dp-work-source" href="${url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${source}</a>`
+      : source;
+    parts.push(label);
+  }
+  return parts.join(' · ');
+}
+
+function workFallbackLinksHtml(artist, work) {
+  const query = `${artist.name} ${work?.t || 'artwork'} artwork`;
+  const encoded = encodeURIComponent(query);
+  const wiki = `https://en.wikipedia.org/w/index.php?search=${encoded}`;
+  const images = `https://www.google.com/search?tbm=isch&q=${encoded}`;
+  return `<div class="dp-work-pending">image source pending</div>
+    <div class="dp-work-links">
+      <a href="${wiki}" target="_blank" rel="noopener" onclick="event.stopPropagation()">wiki search</a>
+      <a href="${images}" target="_blank" rel="noopener" onclick="event.stopPropagation()">image search</a>
+    </div>`;
+}
+
+function artistLookupTitle(a) {
+  return a?.wiki || a?.name || '';
+}
+
+function visualDataReady() {
+  return _loadQuizData();
 }
 
 function showTip(id, ev) {
@@ -3823,7 +4695,7 @@ function showTip(id, ev) {
   const extEl  = document.getElementById('tip-extract');
   descEl.textContent = '';
   extEl.textContent  = '';
-  pageSummary(a.name).then(s => {
+  pageSummary(artistLookupTitle(a)).then(s => {
     if (tipToken !== _tipToken || !s) return;
     if (s.description) descEl.textContent = s.description;
     if (s.extract) {
@@ -3833,14 +4705,20 @@ function showTip(id, ev) {
     positionTip(ev);
   });
 
-  // Image strip — fetch all images from the artist's Wikipedia page, show
+  // Image strip — fetch all images from the artist\'s Wikipedia page, show
   // up to 3 that successfully load. Failed/broken cells stay hidden.
   const stripEl = document.getElementById('tip-img-strip');
   stripEl.classList.remove('has-imgs');
   stripEl.innerHTML = '';
+  const seenTipImages = new Set();
+  const curatedImgs = curatedTipImages(a);
 
   function appendStripCell(url) {
     if (tipToken !== _tipToken) return;
+    if (!url) return;
+    const normalizedUrl = String(url).replace(/([?&])(width|w|dpr|auto|fit|crop)=[^&]+/g, '$1').replace(/[?&]+$/, '');
+    if (seenTipImages.has(normalizedUrl)) return;
+    seenTipImages.add(normalizedUrl);
     const cell = document.createElement('div');
     cell.className = 'tip-img-cell';
     const img = document.createElement('img');
@@ -3857,13 +4735,28 @@ function showTip(id, ev) {
     img.src = url;
   }
 
-  pageImages(a.name).then(imgs => {
+  // Curated fixes should not depend on JSON fetches. This matters when the
+  // page is opened directly from file://, where local fetch behavior can vary.
+  curatedImgs.slice(0, 3).forEach(appendStripCell);
+
+  visualDataReady().then(() => {
     if (tipToken !== _tipToken) return;
-    if (imgs.length) {
-      imgs.slice(0, 3).forEach(appendStripCell);
-    } else {
-      wikiImage(a.name).then(u => { if (u) appendStripCell(u); });
+    const localImgs = [
+      localPortraitUrl(a.id),
+      ...localWorkCandidates(a.id).slice(0, 3).map(c => c.image)
+    ].filter(Boolean);
+    if (localImgs.length) {
+      localImgs.slice(0, 3).forEach(appendStripCell);
+      return;
     }
+    pageImages(artistLookupTitle(a)).then(imgs => {
+      if (tipToken !== _tipToken) return;
+      if (imgs.length) {
+        imgs.slice(0, 3).forEach(appendStripCell);
+      } else {
+        wikiImage(artistLookupTitle(a)).then(u => { if (u) appendStripCell(u); });
+      }
+    });
   });
 
   let body = '';
@@ -3942,7 +4835,7 @@ function openPanel(id) {
   // first 2-3 sentences of the Wikipedia extract when available.
   const isDefaultBio = /artist, represented by/i.test(a.bio || '') || !a.bio;
   if (isDefaultBio) {
-    pageSummary(a.name).then(s => {
+    pageSummary(artistLookupTitle(a)).then(s => {
       if (!s?.extract) return;
       const sentences = s.extract.match(/[^.!?]+[.!?]+/g) || [s.extract];
       bioEl.textContent = sentences.slice(0, 3).join(' ').trim();
@@ -3960,7 +4853,7 @@ function openPanel(id) {
   document.getElementById('dp-tags').innerHTML = tagsHtml;
 
   // Image — only reveal the hero wrapper when the image actually loads;
-  // hide on error so we never show the browser's broken-image icon.
+  // hide on error so we never show the browser\'s broken-image icon.
   const imgWrap = document.getElementById('dp-img-wrap');
   const imgEl = document.getElementById('dp-img');
   imgWrap.classList.remove('has-img');
@@ -3985,17 +4878,38 @@ function openPanel(id) {
     imgEl.src = url;
   }
 
-  const target = (a.works && a.works[0]?.wiki) || a.name;
-  wikiImage(target).then(url => {
+  visualDataReady().then(() => {
     if (tok !== _panelToken) return;
-    if (url) setHeroFromUrl(url);
-    else if (target !== a.name) wikiImage(a.name).then(setHeroFromUrl);
+    const portrait = localPortraitUrl(a.id);
+    if (portrait) {
+      setHeroFromUrl(portrait);
+      return;
+    }
+    pageSummary(artistLookupTitle(a)).then(summary => {
+      if (tok !== _panelToken) return;
+      if (summary?.thumbnail) {
+        setHeroFromUrl(summary.thumbnail);
+        return;
+      }
+      const firstWork = localWorkCandidates(a.id)[0]?.image || null;
+      if (firstWork) {
+        setHeroFromUrl(firstWork);
+        return;
+      }
+      const target = (a.works && a.works[0]?.wiki) || artistLookupTitle(a);
+      wikiImage(target).then(url => {
+        if (tok !== _panelToken) return;
+        if (url) setHeroFromUrl(url);
+        else if (target !== artistLookupTitle(a)) wikiImage(artistLookupTitle(a)).then(setHeroFromUrl);
+      });
+    });
   });
 
   // Works gallery — show curated works (with titles) when present, plus all
-  // additional images from the artist's Wikipedia page below.
+  // additional images from the artist\'s Wikipedia page below.
   const galEl = document.getElementById('dp-works-gallery');
   galEl.innerHTML = '';
+  const usedWorkImages = new Set();
 
   if (a.works && a.works.length) {
     const cards = a.works.map((w, i) =>
@@ -4003,43 +4917,60 @@ function openPanel(id) {
         <img class="dp-work-img" alt="">
         <div class="dp-work-card-text">
           <div class="dp-work-card-title">${w.t}</div>
-          <div class="dp-work-card-year">${w.y || ''}</div>
+          <div class="dp-work-card-year">${workMetaHtml(w.y, w.source, w.url)}</div>
         </div>
       </div>`
     ).join('');
     galEl.insertAdjacentHTML('beforeend', cards);
     a.works.forEach((w, i) => {
-      workImage(w, a).then(url => {
-        if (tok !== _panelToken || !url) return;
+      visualDataReady()
+        .then(() => workCandidateForCard(a, w, i))
+        .then(candidate => {
+          if (candidate?.image) return candidate;
+          return workImage(w, a).then(url => url ? { image:url, title:w.t, year:w.y, source:w.source || 'Wikipedia', url:w.url } : null);
+        })
+        .then(candidate => {
+        if (tok !== _panelToken) return;
         const card = galEl.querySelector(`[data-work-idx="${i}"]`);
         if (!card) return;
         const img = card.querySelector('.dp-work-img');
+        const meta = card.querySelector('.dp-work-card-year');
+        const title = card.querySelector('.dp-work-card-title');
+        if (!candidate?.image) {
+          card.classList.add('source-pending');
+          if (meta) meta.innerHTML = [workMetaHtml(w.y, w.source, w.url), workFallbackLinksHtml(a, w)].filter(Boolean).join('');
+          if (img) img.removeAttribute('src');
+          return;
+        }
+        if (title && (!w.t || /^untitled work$/i.test(w.t)) && candidate.title) title.textContent = candidate.title;
+        if (meta) meta.innerHTML = workMetaHtml(w.y || candidate.year, candidate.source, candidate.url);
+        usedWorkImages.add(candidate.image);
         img.onload = () => {
           if (tok !== _panelToken) return;
           card.classList.remove('no-img');
           card.classList.add('has-img');
         };
         img.onerror = () => { /* leave card as no-img placeholder */ };
-        img.src = url;
+        img.src = candidate.image;
       });
     });
   }
 
-  // Always pull additional images from the artist's Wikipedia page.
-  pageImages(a.name).then(imgs => {
+  // Add the shared quiz artwork candidates first, then fall back to Wikipedia
+  // page images for artists not yet covered by the local resource files.
+  visualDataReady().then(() => {
     if (tok !== _panelToken) return;
-    if (!imgs.length) {
-      if (!a.works || !a.works.length) {
-        galEl.innerHTML = '<div class="dp-no-works">— no works recorded —</div>';
-      }
-      return;
-    }
-    imgs.slice(0, 8).forEach(url => {
+    const reservedWorkImages = new Set((a.works || [])
+      .map((w, i) => workCandidateForCard(a, w, i)?.image)
+      .filter(Boolean));
+    const candidates = localWorkCandidates(a.id).slice(0, 8);
+    candidates.forEach(c => {
+      if (usedWorkImages.has(c.image) || reservedWorkImages.has(c.image)) return;
       const card = document.createElement('div');
       card.className = 'dp-work-card no-img';
       const img = document.createElement('img');
       img.className = 'dp-work-img';
-      img.alt = (w && w.t ? w.t : a.name) + ' artwork image';
+      img.alt = (c.title || a.name) + ' artwork image';
       img.onload = () => {
         if (tok !== _panelToken) return;
         card.classList.remove('no-img');
@@ -4047,8 +4978,41 @@ function openPanel(id) {
       };
       img.onerror = () => { card.remove(); };
       card.appendChild(img);
+      if (c.title || c.year) {
+        const caption = document.createElement('div');
+        caption.className = 'dp-work-card-text';
+        caption.innerHTML = `<div class="dp-work-card-title">${c.title || 'Untitled work'}</div><div class="dp-work-card-year">${workMetaHtml(c.year, c.source, c.url)}</div>`;
+        card.appendChild(caption);
+      }
       galEl.appendChild(card);
-      img.src = url;
+      img.src = c.image;
+    });
+    if (candidates.length) return;
+
+    pageImages(artistLookupTitle(a)).then(imgs => {
+      if (tok !== _panelToken) return;
+      if (!imgs.length) {
+        if (!a.works || !a.works.length) {
+          galEl.innerHTML = '<div class="dp-no-works">— no works recorded —</div>';
+        }
+        return;
+      }
+      imgs.slice(0, 8).forEach(url => {
+        const card = document.createElement('div');
+        card.className = 'dp-work-card no-img';
+        const img = document.createElement('img');
+        img.className = 'dp-work-img';
+        img.alt = a.name + ' artwork image';
+        img.onload = () => {
+          if (tok !== _panelToken) return;
+          card.classList.remove('no-img');
+          card.classList.add('has-img');
+        };
+        img.onerror = () => { card.remove(); };
+        card.appendChild(img);
+        galEl.appendChild(card);
+        img.src = url;
+      });
     });
   });
 
@@ -4081,9 +5045,11 @@ function closePanel() {
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closePanel(); });
 
 // ── Boot ────────────────────────────────────────────────────
+visualDataReady();
 renderFilters();
 renderGrid();
 renderRosters();
+renderCareerRoutes();
 
 // ── Quiz ────────────────────────────────────────────────────
 const QUIZ_POOL_IDS = [
@@ -4153,10 +5119,6 @@ const QUIZ_POOL_IDS = [
   'a988', 'a990', 'a993', 'a994', 'a996'
 ];
 
-let QUIZ_IMAGES_DATA = null;
-let QUIZ_PORTRAITS_DATA = null;
-let quizState = null;
-
 function _shuffle(arr) {
   const a = arr.slice();
   for (let i = a.length - 1; i > 0; i--) {
@@ -4203,7 +5165,7 @@ function _buildQuestion(aid, type) {
   if (!facts) return null;
 
   if (type === 'artwork') {
-    const c = QUIZ_IMAGES_DATA?.[aid]?.candidates?.[0];
+    const c = localWorkCandidates(aid)[0];
     if (!c) return _buildQuestion(aid, 'training'); // fallback
     const wrong = _pickWrongIds(aid, 3);
     return {
@@ -4321,7 +5283,7 @@ function _renderQuestion() {
       `<button class="quiz-option" data-i="${i}">${_artistById(opt)?.name || opt}</button>`).join('');
   }
   else if (q.type === 'cohort-attr') {
-    promptHtml = `<p class="quiz-prompt">Which artist's career fits this description?</p>
+    promptHtml = `<p class="quiz-prompt">Which artist\'s career fits this description?</p>
       <div class="kc-message" style="margin-bottom:18px;">${q.prompt_text}</div>`;
     optsHtml = q.options.map((opt, i) =>
       `<button class="quiz-option" data-i="${i}">${_artistById(opt)?.name || opt}</button>`).join('');
@@ -4380,7 +5342,7 @@ function _renderKnowledgeCard(aid) {
   const facts = QUIZ_FACTS[aid] || {};
   const portraitObj = (QUIZ_PORTRAITS_DATA || {})[aid] || {};
   const portraitUrl = portraitObj.url;
-  const candidates = ((QUIZ_IMAGES_DATA || {})[aid] || {}).candidates || [];
+  const candidates = localWorkCandidates(aid);
   const gallery = GALLERY_BY_ID[artist.gallery]?.name || '';
   const message = (window.QUIZ_MESSAGES?.[aid] || {}).message || '';
 
@@ -4498,7 +5460,7 @@ function _nextQuestion() {
     _renderResult();
   }
   // Always scroll back to the top of the quiz so the new question (or result)
-  // is in view. The previous question's knowledge card pushed the page tall,
+  // is in view. The previous question\'s knowledge card pushed the page tall,
   // so without this the user lands in the section below.
   if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
   requestAnimationFrame(() => {
@@ -4566,5 +5528,12 @@ document.getElementById('q-next').addEventListener('click', _nextQuestion);
 // Warm up voice list on browsers that load it asynchronously
 if ('speechSynthesis' in window) { window.speechSynthesis.getVoices(); }
 </script>
+<footer class="cw-foot">
+  <a href="https://commonwealth.la/">Commonwealth</a>
+  <span class="sep">·</span>
+  <a href="https://commonwealth.la/privacy/">Privacy</a>
+  <span class="sep">·</span>
+  <a href="https://commonwealth.la/accessibility/">Accessibility</a>
+</footer>
 </body>
 </html>
