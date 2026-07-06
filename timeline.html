@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="data:,">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="shared.css">
 <title>Timeline &middot; partake</title>
@@ -47,6 +48,10 @@ body{font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#111;background
 .sub-hd{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:#999;margin:3px 0 1px;padding-left:148px}
 /* semi-transparent bar fill — colour comes through, text stays sharp */
 .bar{background-image:linear-gradient(rgba(255,255,255,.45),rgba(255,255,255,.45))}
+.art-movement-atlas{position:relative;width:2550px;margin-top:3px}
+.art-movement-item{position:absolute;height:30px}
+.art-movement-item .bar{position:relative;left:auto!important;top:auto!important;width:100%!important;height:11px}
+.art-movement-item .nm{position:relative;left:auto!important;top:2px!important;display:block;white-space:nowrap}
 #tt{display:none;position:fixed;z-index:9999;width:272px;background:#fff;border:1px solid #ddd;border-radius:10px;overflow:hidden;pointer-events:auto;box-shadow:0 4px 20px rgba(0,0,0,.18)}
 #tt-img{width:100%;height:130px;object-fit:cover;object-position:center top;background:#eee;display:none}
 #tt-ph{width:100%;height:60px;background:#f2efea;display:flex;align-items:center;justify-content:center;font-size:10px;color:#bbb}
@@ -59,6 +64,16 @@ body{font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#111;background
 #tt-links a{color:#0055cc;text-decoration:none}
 #tt-links a:hover{text-decoration:underline}
 #tt-links span{color:#ccc}
+</style>
+<style id="cw-compliance">
+  .cw-skip{position:fixed;top:8px;left:8px;z-index:9999;padding:10px 16px;background:#16181b;color:#fff;text-decoration:none;border-radius:4px;font:500 14px/1 system-ui,sans-serif;transform:translateY(-150%);transition:transform .18s ease}
+  .cw-skip:focus{transform:translateY(0)}
+  a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,[tabindex]:focus-visible{outline:2px solid currentColor;outline-offset:2px}
+  @media (prefers-reduced-motion: reduce){*,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}}
+  .cw-foot{margin-top:48px;padding:24px 20px;border-top:1px solid rgba(128,128,128,.28);font:400 13px/1.6 system-ui,sans-serif;text-align:center;opacity:.85}
+  .cw-foot a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+  .cw-foot a:hover{opacity:.65}
+  .cw-foot .sep{opacity:.5;margin:0 8px}
 </style>
 </head>
 <body>
@@ -171,330 +186,445 @@ body{font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#111;background
 
 <!-- ═══════════ ART ═══════════ -->
 <div class="sec-hd">Art</div>
-<div class="row"><div class="lc"></div><div class="tc">
-
-<!-- NEOCLASSICISM (1760-1850): left=0, width=900 -->
-<div class="br"><div class="bar" data-k="Neoclassicism" style="background:#e8dcc8;color:#5a4200;left:0;width:900px">NEOCLASSICISM / ENLIGHTENMENT HISTORY PAINTING (1760&#8211;1850)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Jacques-Louis David" style="left:0">J-L. David</span>
-  <span class="nm" data-k="Antonio Canova" style="left:320px">Canova</span>
-  <span class="nm" data-k="Jean-Auguste-Dominique Ingres" style="left:500px">Ingres</span>
-  <span class="nm" data-k="John Flaxman" style="left:700px">Flaxman</span>
+<div class="row"><div class="lc">Movements</div><div class="tc">
+<div class="art-movement-atlas" aria-label="Unified chronological atlas of art movements" style="height:1368px">
+  <div class="art-movement-item" style="left:0px;top:0px;width:900px">
+    <div class="bar" data-k="Neoclassicism" style="background:#e8dcc8;color:#5a4200;font-size:7.4px">NEOCLASSICISM (1760-1850)</div>
+    <span class="nm" data-k="Neoclassicism">Neoclassicism (1760–1850)</span>
+  </div>
+  <div class="art-movement-item" style="left:200px;top:34px;width:700px">
+    <div class="bar" data-k="Romanticism" style="background:#f5c4b3;color:#712B13;font-size:7.4px">ROMANTICISM (1780-1850)</div>
+    <span class="nm" data-k="Romanticism">Romanticism (1780–1850)</span>
+  </div>
+  <div class="art-movement-item" style="left:800px;top:68px;width:500px">
+    <div class="bar" data-k="Realism" style="background:#d4e8c8;color:#27500A;font-size:7.4px">REALISM (1840-1890)</div>
+    <span class="nm" data-k="Realism">Realism (1840–1890)</span>
+  </div>
+  <div class="art-movement-item" style="left:1000px;top:0px;width:400px">
+    <div class="bar" data-k="Impressionism" style="background:#ffc0cb;color:#4B1528;font-size:7.4px">IMPRESSIONISM (1860-1900)</div>
+    <span class="nm" data-k="Impressionism">Impressionism (1860–1900)</span>
+  </div>
+  <div class="art-movement-item" style="left:1200px;top:34px;width:340px">
+    <div class="bar" data-k="Art Nouveau" style="background:#f0d28a;color:#4d3300;font-size:7.4px">ART NOUVEAU (1880-1914)</div>
+    <span class="nm" data-k="Art Nouveau">Art Nouveau (1880s-1914)</span>
+  </div>
+  <div class="art-movement-item" style="left:1200px;top:102px;width:400px">
+    <div class="bar" data-k="Arts and Crafts" style="background:#d8c7a0;color:#3d2400;font-size:7.4px">ARTS AND CRAFTS (1880-1920)</div>
+    <span class="nm" data-k="Arts and Crafts">Arts and Crafts (1880s-1920)</span>
+  </div>
+  <div class="art-movement-item" style="left:1260px;top:136px;width:158px">
+    <div class="bar" data-k="Pointillism" style="background:#f2c8e0;color:#712B13;font-size:7.4px">POINTILLISM (1886-1900)</div>
+    <span class="nm" data-k="Pointillism">Pointillism (1886-1900)</span>
+  </div>
+  <div class="art-movement-item" style="left:1260px;top:170px;width:240px">
+    <div class="bar" data-k="Post-Impressionism" style="background:#f2c8e0;color:#712B13;font-size:7.4px">POST-IMPRESSIONISM (1886-1910)</div>
+    <span class="nm" data-k="Post-Impressionism">Post-Impressionism (1886–1910)</span>
+  </div>
+  <div class="art-movement-item" style="left:1260px;top:204px;width:240px">
+    <div class="bar" data-k="Symbolism" style="background:#c8b5f0;color:#26215C;font-size:7.4px">SYMBOLISM (1886-1910)</div>
+    <span class="nm" data-k="Symbolism">Symbolism (1886–1910)</span>
+  </div>
+  <div class="art-movement-item" style="left:1260px;top:238px;width:900px">
+    <div class="bar" data-k="Naïve Art" style="background:#c8d89a;color:#1e3800;font-size:7.4px">NAÏVE ART (1886-)</div>
+    <span class="nm" data-k="Naïve Art">Naïve Art (1886–)</span>
+  </div>
+  <div class="art-movement-item" style="left:1280px;top:272px;width:146px">
+    <div class="bar" data-k="Les Nabis" style="background:#d7c0ec;color:#26215C;font-size:7.4px">LES NABIS (1888-1900)</div>
+    <span class="nm" data-k="Les Nabis">Les Nabis (1888-1900)</span>
+  </div>
+  <div class="art-movement-item" style="left:1350px;top:68px;width:152px">
+    <div class="bar" data-k="Jugendstil" style="background:#ead79a;color:#4d3300;font-size:7.4px">JUGENDSTIL (1895-1910)</div>
+    <span class="nm" data-k="Jugendstil">Jugendstil (1895-1910)</span>
+  </div>
+  <div class="art-movement-item" style="left:1450px;top:0px;width:134px">
+    <div class="bar" data-k="Fauvism" style="background:#f4a58a;color:#712B13;font-size:7.4px">FAUVISM (1905-1908)</div>
+    <span class="nm" data-k="Fauvism">Fauvism (1905-1908)</span>
+  </div>
+  <div class="art-movement-item" style="left:1450px;top:136px;width:152px">
+    <div class="bar" data-k="Die Brücke" style="background:#ef9478;color:#712B13;font-size:7.4px">DIE BRÜCKE (1905-1913)</div>
+    <span class="nm" data-k="Die Brücke">Die Brücke (1905-1913)</span>
+  </div>
+  <div class="art-movement-item" style="left:1450px;top:306px;width:280px">
+    <div class="bar" data-k="Expressionism" style="background:#f4a58a;color:#712B13;font-size:7.4px">EXPRESSIONISM (1905-1933)</div>
+    <span class="nm" data-k="Expressionism">Expressionism (1905–1933)</span>
+  </div>
+  <div class="art-movement-item" style="left:1470px;top:272px;width:230px">
+    <div class="bar" data-k="Cubism" style="background:#ddd;color:#333;font-size:7.4px">CUBISM (1907-1930)</div>
+    <span class="nm" data-k="Cubism">Cubism (1907–1930)</span>
+  </div>
+  <div class="art-movement-item" style="left:1490px;top:340px;width:350px">
+    <div class="bar" data-k="Futurism" style="background:#f4a58a;color:#712B13;font-size:7.4px">FUTURISM (1909-1944)</div>
+    <span class="nm" data-k="Futurism">Futurism (1909–1944)</span>
+  </div>
+  <div class="art-movement-item" style="left:1500px;top:374px;width:180px">
+    <div class="bar" data-k="Metaphysical Painting" style="background:#dbb9f5;color:#26215C;font-size:7.4px">METAPHYSICAL PAINTING (1910-1920)</div>
+    <span class="nm" data-k="Metaphysical Painting">Metaphysical Painting (1910-1920)</span>
+  </div>
+  <div class="art-movement-item" style="left:1500px;top:408px;width:300px">
+    <div class="bar" data-k="École de Paris" style="background:#ddd;color:#333;font-size:7.4px">ÉCOLE DE PARIS (1910-1940)</div>
+    <span class="nm" data-k="École de Paris">École de Paris (c.1910-1940s)</span>
+  </div>
+  <div class="art-movement-item" style="left:1510px;top:442px;width:180px">
+    <div class="bar" data-k="Camden Town Group" style="background:#d4e8c8;color:#27500A;font-size:7.4px">CAMDEN TOWN GROUP (1911-1913)</div>
+    <span class="nm" data-k="Camden Town Group">Camden Town Group (1911-1913)</span>
+  </div>
+  <div class="art-movement-item" style="left:1510px;top:476px;width:180px">
+    <div class="bar" data-k="Der Blaue Reiter" style="background:#ee9f86;color:#712B13;font-size:7.4px">DER BLAUE REITER (1911-1914)</div>
+    <span class="nm" data-k="Der Blaue Reiter">Der Blaue Reiter (1911-1914)</span>
+  </div>
+  <div class="art-movement-item" style="left:1510px;top:510px;width:140px">
+    <div class="bar" data-k="Rayonism" style="background:#f4a58a;color:#712B13;font-size:7.4px">RAYONISM (1911-1914)</div>
+    <span class="nm" data-k="Rayonism">Rayonism (1911-1914)</span>
+  </div>
+  <div class="art-movement-item" style="left:1520px;top:544px;width:146px">
+    <div class="bar" data-k="Vorticism" style="background:#f4a58a;color:#712B13;font-size:7.4px">VORTICISM (1912-1915)</div>
+    <span class="nm" data-k="Vorticism">Vorticism (1912-1915)</span>
+  </div>
+  <div class="art-movement-item" style="left:1530px;top:170px;width:170px">
+    <div class="bar" data-k="Suprematism" style="background:#f2d264;color:#4d3300;font-size:7.4px">SUPREMATISM (1913-1930)</div>
+    <span class="nm" data-k="Suprematism">Suprematism (1913-1930)</span>
+  </div>
+  <div class="art-movement-item" style="left:1550px;top:68px;width:190px">
+    <div class="bar" data-k="Russian Constructivism" style="background:#f4a58a;color:#712B13;font-size:7.4px">RUSSIAN CONSTRUCTIVISM (1915-1934)</div>
+    <span class="nm" data-k="Russian Constructivism">Russian Constructivism (1915–1934)</span>
+  </div>
+  <div class="art-movement-item" style="left:1560px;top:204px;width:116px">
+    <div class="bar" data-k="Dada" style="background:#c8b5f0;color:#26215C;font-size:7.4px">DADA (1916-1924)</div>
+    <span class="nm" data-k="Dada">Dada (1916–1924)</span>
+  </div>
+  <div class="art-movement-item" style="left:1570px;top:34px;width:140px">
+    <div class="bar" data-k="De Stijl" style="background:#f2d264;color:#4d3300;font-size:7.4px">DE STIJL (1917-1931)</div>
+    <span class="nm" data-k="De Stijl">De Stijl (1917-1931)</span>
+  </div>
+  <div class="art-movement-item" style="left:1570px;top:578px;width:176px">
+    <div class="bar" data-k="Neo-Plasticism" style="background:#f2d264;color:#4d3300;font-size:7.4px">NEO-PLASTICISM (1917-1931)</div>
+    <span class="nm" data-k="Neo-Plasticism">Neo-Plasticism (1917-1931)</span>
+  </div>
+  <div class="art-movement-item" style="left:1580px;top:612px;width:180px">
+    <div class="bar" data-k="Valori Plastici" style="background:#d8c7a0;color:#3d2400;font-size:7.4px">VALORI PLASTICI (1918-1922)</div>
+    <span class="nm" data-k="Valori Plastici">Valori Plastici (1918-1922)</span>
+  </div>
+  <div class="art-movement-item" style="left:1580px;top:646px;width:140px">
+    <div class="bar" data-k="De Ploeg" style="background:#ef9478;color:#712B13;font-size:7.4px">DE PLOEG (1918-1930)</div>
+    <span class="nm" data-k="De Ploeg">De Ploeg (1918-1930)</span>
+  </div>
+  <div class="art-movement-item" style="left:1580px;top:680px;width:180px">
+    <div class="bar" data-k="Neue Sachlichkeit" style="background:#b8bfaa;color:#1e2414;font-size:7.4px">NEUE SACHLICHKEIT (1918-1933)</div>
+    <span class="nm" data-k="Neue Sachlichkeit">Neue Sachlichkeit (1918–1933)</span>
+  </div>
+  <div class="art-movement-item" style="left:1580px;top:714px;width:176px">
+    <div class="bar" data-k="Novembergruppe" style="background:#b8bfaa;color:#1e2414;font-size:7.4px">NOVEMBERGRUPPE (1918-1933)</div>
+    <span class="nm" data-k="Novembergruppe">Novembergruppe (1918-1933)</span>
+  </div>
+  <div class="art-movement-item" style="left:1590px;top:748px;width:128px">
+    <div class="bar" data-k="UNOVIS" style="background:#f2d264;color:#4d3300;font-size:7.4px">UNOVIS (1919-1922)</div>
+    <span class="nm" data-k="UNOVIS">UNOVIS (1919-1922)</span>
+  </div>
+  <div class="art-movement-item" style="left:1590px;top:782px;width:140px">
+    <div class="bar" data-k="Bauhaus" style="background:#85b7eb;color:#042C53;font-size:7.4px">BAUHAUS (1919-1933)</div>
+    <span class="nm" data-k="Bauhaus">Bauhaus (1919-1933)</span>
+  </div>
+  <div class="art-movement-item" style="left:1600px;top:816px;width:176px">
+    <div class="bar" data-k="Group of Seven" style="background:#a8d8bc;color:#085041;font-size:7.4px">GROUP OF SEVEN (1920-1933)</div>
+    <span class="nm" data-k="Group of Seven">Group of Seven (1920-1933)</span>
+  </div>
+  <div class="art-movement-item" style="left:1600px;top:850px;width:190px">
+    <div class="bar" data-k="Art Deco" style="background:#f0d28a;color:#4d3300;font-size:7.4px">ART DECO (1920-1939)</div>
+    <span class="nm" data-k="Art Deco">Art Deco (1920s-1939)</span>
+  </div>
+  <div class="art-movement-item" style="left:1600px;top:884px;width:300px">
+    <div class="bar" data-k="Magic Realism" style="background:#dbb9f5;color:#26215C;font-size:7.4px">MAGIC REALISM (1920-1950)</div>
+    <span class="nm" data-k="Magic Realism">Magic Realism (1920s-1950s)</span>
+  </div>
+  <div class="art-movement-item" style="left:1640px;top:0px;width:310px">
+    <div class="bar" data-k="Surrealism" style="background:#dbb9f5;color:#26215C;font-size:7.4px">SURREALISM (1924-1955)</div>
+    <span class="nm" data-k="Surrealism">Surrealism (1924–1950s)</span>
+  </div>
+  <div class="art-movement-item" style="left:1700px;top:102px;width:650px">
+    <div class="bar" data-k="Concrete Art" style="background:#f2d264;color:#4d3300;font-size:7.4px">CONCRETE ART (1930-)</div>
+    <span class="nm" data-k="Concrete Art">Concrete Art (1930-)</span>
+  </div>
+  <div class="art-movement-item" style="left:1800px;top:34px;width:180px">
+    <div class="bar" data-k="Organic Abstraction" style="background:#a8d8bc;color:#085041;font-size:7.4px">ORGANIC ABSTRACTION (1940-1955)</div>
+    <span class="nm" data-k="Organic Abstraction">Organic Abstraction (1940s-1950s)</span>
+  </div>
+  <div class="art-movement-item" style="left:1830px;top:68px;width:220px">
+    <div class="bar" data-k="Abstract Expressionism" style="background:#f0997b;color:#4A1B0C;font-size:7.4px">ABSTRACT EXPRESSIONISM (1943-1965)</div>
+    <span class="nm" data-k="Abstract Expressionism">Abstract Expressionism (1943–1965)</span>
+  </div>
+  <div class="art-movement-item" style="left:1850px;top:136px;width:650px">
+    <div class="bar" data-k="Outsider Art" style="background:#d4a870;color:#3a1800;font-size:7.4px">OUTSIDER ART / ART BRUT (1945-)</div>
+    <span class="nm" data-k="Outsider Art">Outsider Art (1945–)</span>
+  </div>
+  <div class="art-movement-item" style="left:1860px;top:170px;width:650px">
+    <div class="bar" data-k="Lettrism" style="background:#c8b5f0;color:#26215C;font-size:7.4px">LETTRISM (1946-)</div>
+    <span class="nm" data-k="Lettrism">Lettrism (1946-)</span>
+  </div>
+  <div class="art-movement-item" style="left:1880px;top:204px;width:164px">
+    <div class="bar" data-k="Homme Témoin" style="background:#d4e8c8;color:#27500A;font-size:7.4px">HOMME TÉMOIN (1948-1950)</div>
+    <span class="nm" data-k="Homme Témoin">Homme Témoin (1948-1950)</span>
+  </div>
+  <div class="art-movement-item" style="left:1880px;top:272px;width:122px">
+    <div class="bar" data-k="CoBrA" style="background:#f4a58a;color:#712B13;font-size:7.4px">COBRA (1948-1951)</div>
+    <span class="nm" data-k="CoBrA">CoBrA (1948-1951)</span>
+  </div>
+  <div class="art-movement-item" style="left:1900px;top:306px;width:180px">
+    <div class="bar" data-k="Existential Art" style="background:#b8bfaa;color:#1e2414;font-size:7.4px">EXISTENTIAL ART (1950-1960)</div>
+    <span class="nm" data-k="Existential Art">Existential Art (1950s)</span>
+  </div>
+  <div class="art-movement-item" style="left:1900px;top:340px;width:164px">
+    <div class="bar" data-k="Art Informel" style="background:#f0997b;color:#4A1B0C;font-size:7.4px">ART INFORMEL (1950-1965)</div>
+    <span class="nm" data-k="Art Informel">Art Informel (early 1950s-1960s)</span>
+  </div>
+  <div class="art-movement-item" style="left:1900px;top:374px;width:180px">
+    <div class="bar" data-k="Bay Area Figurative Movement" style="background:#f4c8b3;color:#712B13;font-size:7.4px">BAY AREA FIGURATIVE (1950-1965)</div>
+    <span class="nm" data-k="Bay Area Figurative Movement">Bay Area Figurative Movement (1950-1965)</span>
+  </div>
+  <div class="art-movement-item" style="left:1900px;top:408px;width:150px">
+    <div class="bar" data-k="Décollage" style="background:#c6b08a;color:#3d2400;font-size:7.4px">DÉCOLLAGE (1950-1965)</div>
+    <span class="nm" data-k="Décollage">Décollage (1950s-1960s)</span>
+  </div>
+  <div class="art-movement-item" style="left:1900px;top:442px;width:150px">
+    <div class="bar" data-k="Neo-Dada" style="background:#c8b5f0;color:#26215C;font-size:7.4px">NEO-DADA (1950-1965)</div>
+    <span class="nm" data-k="Neo-Dada">Neo-Dada (early 1950s-1960s)</span>
+  </div>
+  <div class="art-movement-item" style="left:1920px;top:476px;width:140px">
+    <div class="bar" data-k="Beat Art" style="background:#d4e8c8;color:#27500A;font-size:7.4px">BEAT ART (1952-1965)</div>
+    <span class="nm" data-k="Beat Art">Beat Art (1952-1960s)</span>
+  </div>
+  <div class="art-movement-item" style="left:1940px;top:510px;width:164px">
+    <div class="bar" data-k="Kitchen Sink" style="background:#d4e8c8;color:#27500A;font-size:7.4px">KITCHEN SINK (1954-1960)</div>
+    <span class="nm" data-k="Kitchen Sink">Kitchen Sink (mid-1950s-1960)</span>
+  </div>
+  <div class="art-movement-item" style="left:1940px;top:544px;width:180px">
+    <div class="bar" data-k="Gutai" style="background:#f0997b;color:#4A1B0C;font-size:7.4px">GUTAI (1954-1972)</div>
+    <span class="nm" data-k="Gutai">Gutai (1954-1972)</span>
+  </div>
+  <div class="art-movement-item" style="left:1940px;top:578px;width:210px">
+    <div class="bar" data-k="Pop Art" style="background:#f7d76b;color:#5a4200;font-size:7.4px">POP ART (1954-1975)</div>
+    <span class="nm" data-k="Pop Art">Pop Art (1955–1975)</span>
+  </div>
+  <div class="art-movement-item" style="left:1950px;top:612px;width:150px">
+    <div class="bar" data-k="Op Art" style="background:#f5d97a;color:#5a4200;font-size:7.4px">OP ART (1955-1970)</div>
+    <span class="nm" data-k="Op Art">Op Art (mid-1950s-1970s)</span>
+  </div>
+  <div class="art-movement-item" style="left:1950px;top:646px;width:200px">
+    <div class="bar" data-k="Kinetic Art" style="background:#85b7eb;color:#042C53;font-size:7.4px">KINETIC ART (1955-1975)</div>
+    <span class="nm" data-k="Kinetic Art">Kinetic Art (1955-1970s)</span>
+  </div>
+  <div class="art-movement-item" style="left:1960px;top:680px;width:300px">
+    <div class="bar" data-k="Nonconformist Art" style="background:#bbbdb6;color:#2C2C2A;font-size:7.4px">NONCONFORMIST ART (1956-1986)</div>
+    <span class="nm" data-k="Nonconformist Art">Nonconformist Art (1956-1986)</span>
+  </div>
+  <div class="art-movement-item" style="left:1970px;top:714px;width:116px">
+    <div class="bar" data-k="ZERO" style="background:#ddd;color:#333;font-size:7.4px">ZERO (1957-1966)</div>
+    <span class="nm" data-k="ZERO">ZERO (1957-1966)</span>
+  </div>
+  <div class="art-movement-item" style="left:1970px;top:748px;width:180px">
+    <div class="bar" data-k="Situationist International" style="background:#85b7eb;color:#042C53;font-size:7.4px">SITUATIONIST INTERNATIONAL (1957-1972)</div>
+    <span class="nm" data-k="Situationist International">Situationist International (1957-1972)</span>
+  </div>
+  <div class="art-movement-item" style="left:1990px;top:0px;width:128px">
+    <div class="bar" data-k="NO!art" style="background:#bbbdb6;color:#2C2C2A;font-size:7.4px">NO!ART (1959-1964)</div>
+    <span class="nm" data-k="NO!art">NO!art (1959-1964)</span>
+  </div>
+  <div class="art-movement-item" style="left:1990px;top:782px;width:160px">
+    <div class="bar" data-k="Hard Edge" style="background:#f5d97a;color:#5a4200;font-size:7.4px">HARD EDGE (1959-1975)</div>
+    <span class="nm" data-k="Hard Edge">Hard Edge (1959-1970s)</span>
+  </div>
+  <div class="art-movement-item" style="left:2000px;top:816px;width:180px">
+    <div class="bar" data-k="Nouveau Réalisme" style="background:#c6b08a;color:#3d2400;font-size:7.4px">NOUVEAU RÉALISME (1960-1970)</div>
+    <span class="nm" data-k="Nouveau Réalisme">Nouveau Réalisme (1960-1970)</span>
+  </div>
+  <div class="art-movement-item" style="left:2000px;top:850px;width:180px">
+    <div class="bar" data-k="Funk Art" style="background:#c6b08a;color:#3d2400;font-size:7.4px">FUNK ART / BAY AREA FUNK (1960-1975)</div>
+    <span class="nm" data-k="Funk Art">Funk Art (1960s-1970s)</span>
+  </div>
+  <div class="art-movement-item" style="left:2000px;top:884px;width:152px">
+    <div class="bar" data-k="Minimalism" style="background:#f5d97a;color:#5a4200;font-size:7.4px">MINIMALISM (1960-1975)</div>
+    <span class="nm" data-k="Minimalism">Minimalism (1960–1975)</span>
+  </div>
+  <div class="art-movement-item" style="left:2000px;top:918px;width:200px">
+    <div class="bar" data-k="Body Art" style="background:#ffc0cb;color:#4B1528;font-size:7.4px">BODY ART (1960-1980)</div>
+    <span class="nm" data-k="Body Art">Body Art (1960s-1970s)</span>
+  </div>
+  <div class="art-movement-item" style="left:2000px;top:952px;width:200px">
+    <div class="bar" data-k="Light and Space" style="background:#d9eff7;color:#03314B;font-size:7.4px">LIGHT AND SPACE (1960-1980)</div>
+    <span class="nm" data-k="Light and Space">Light and Space (1960s-1970s)</span>
+  </div>
+  <div class="art-movement-item" style="left:2000px;top:986px;width:550px">
+    <div class="bar" data-k="Conceptual Art" style="background:#b5d4f4;color:#0C447C;font-size:7.4px">CONCEPTUAL ART (1960-)</div>
+    <span class="nm" data-k="Conceptual Art">Conceptual Art (1960s–)</span>
+  </div>
+  <div class="art-movement-item" style="left:2000px;top:1020px;width:550px">
+    <div class="bar" data-k="Cybernetic Art" style="background:#85b7eb;color:#042C53;font-size:7.4px">CYBERNETIC ART (1960-)</div>
+    <span class="nm" data-k="Cybernetic Art">Cybernetic Art (1960s–)</span>
+  </div>
+  <div class="art-movement-item" style="left:2000px;top:1054px;width:550px">
+    <div class="bar" data-k="Performance Art" style="background:#ffc0cb;color:#4B1528;font-size:7.4px">PERFORMANCE ART (1960-)</div>
+    <span class="nm" data-k="Performance Art">Performance Art (1960s–)</span>
+  </div>
+  <div class="art-movement-item" style="left:2010px;top:34px;width:170px">
+    <div class="bar" data-k="Fluxus" style="background:#ffc0cb;color:#4B1528;font-size:7.4px">FLUXUS (1961-1978)</div>
+    <span class="nm" data-k="Fluxus">Fluxus (1961-1978)</span>
+  </div>
+  <div class="art-movement-item" style="left:2040px;top:272px;width:180px">
+    <div class="bar" data-k="Post-Painterly Abstraction" style="background:#f5d97a;color:#5a4200;font-size:7.4px">POST-PAINTERLY ABSTRACTION (1964-1975)</div>
+    <span class="nm" data-k="Post-Painterly Abstraction">Post-Painterly Abstraction (1964-1970s)</span>
+  </div>
+  <div class="art-movement-item" style="left:2050px;top:1088px;width:500px">
+    <div class="bar" data-k="Algorithmic Art" style="background:#ddd4fa;color:#3C3489;font-size:7.4px">ALGORITHMIC ART (1965-)</div>
+    <span class="nm" data-k="Algorithmic Art">Algorithmic Art (1965–)</span>
+  </div>
+  <div class="art-movement-item" style="left:2050px;top:1122px;width:500px">
+    <div class="bar" data-k="Video Art" style="background:#b5d4f4;color:#0C447C;font-size:7.4px">VIDEO ART (1965-)</div>
+    <span class="nm" data-k="Video Art">Video Art (1965–)</span>
+  </div>
+  <div class="art-movement-item" style="left:2060px;top:1156px;width:152px">
+    <div class="bar" data-k="BMPT Group" style="background:#b5d4f4;color:#0C447C;font-size:7.4px">BMPT GROUP (1966-1967)</div>
+    <span class="nm" data-k="BMPT Group">BMPT Group (1966-1967)</span>
+  </div>
+  <div class="art-movement-item" style="left:2060px;top:1190px;width:180px">
+    <div class="bar" data-k="Post-Minimalism" style="background:#bbbdb6;color:#2C2C2A;font-size:7.4px">POST-MINIMALISM (1966-1980)</div>
+    <span class="nm" data-k="Post-Minimalism">Post-Minimalism (late 1960s-1970s)</span>
+  </div>
+  <div class="art-movement-item" style="left:2070px;top:1224px;width:146px">
+    <div class="bar" data-k="Earth Art" style="background:#a8d8bc;color:#085041;font-size:7.4px">EARTH ART (1967-1975)</div>
+    <span class="nm" data-k="Earth Art">Earth Art (1968–1975)</span>
+  </div>
+  <div class="art-movement-item" style="left:2070px;top:1258px;width:158px">
+    <div class="bar" data-k="Arte Povera" style="background:#c6b08a;color:#3d2400;font-size:7.4px">ARTE POVERA (1967-1977)</div>
+    <span class="nm" data-k="Arte Povera">Arte Povera (1967–1977)</span>
+  </div>
+  <div class="art-movement-item" style="left:2080px;top:68px;width:134px">
+    <div class="bar" data-k="Mono-ha" style="background:#c4c0b4;color:#2a2820;font-size:7.4px">MONO-HA (1968-1975)</div>
+    <span class="nm" data-k="Mono-ha">Mono-ha (1968–1975)</span>
+  </div>
+  <div class="art-movement-item" style="left:2080px;top:204px;width:164px">
+    <div class="bar" data-k="Photorealism" style="background:#ddd;color:#333;font-size:7.4px">PHOTOREALISM (1968-1980)</div>
+    <span class="nm" data-k="Photorealism">Photorealism (late 1960s-1980s)</span>
+  </div>
+  <div class="art-movement-item" style="left:2090px;top:408px;width:180px">
+    <div class="bar" data-k="Supports/Surfaces" style="background:#c6b08a;color:#3d2400;font-size:7.4px">SUPPORTS/SURFACES (1969-1972)</div>
+    <span class="nm" data-k="Supports/Surfaces">Supports/Surfaces (1969-1972)</span>
+  </div>
+  <div class="art-movement-item" style="left:2100px;top:340px;width:180px">
+    <div class="bar" data-k="Moscow Conceptualism" style="background:#b5d4f4;color:#0C447C;font-size:7.4px">MOSCOW CONCEPTUALISM (1970-1988)</div>
+    <span class="nm" data-k="Moscow Conceptualism">Moscow Conceptualism (1970-1980s)</span>
+  </div>
+  <div class="art-movement-item" style="left:2100px;top:442px;width:450px">
+    <div class="bar" data-k="Graffiti" style="background:#f5c4b3;color:#712B13;font-size:7.4px">GRAFFITI (1970-)</div>
+    <span class="nm" data-k="Graffiti">Graffiti (1970s–)</span>
+  </div>
+  <div class="art-movement-item" style="left:2100px;top:476px;width:450px">
+    <div class="bar" data-k="Lowbrow" style="background:#f4c8b3;color:#712B13;font-size:7.4px">LOWBROW (1970-)</div>
+    <span class="nm" data-k="Lowbrow">Lowbrow (1970s–)</span>
+  </div>
+  <div class="art-movement-item" style="left:2100px;top:1292px;width:450px">
+    <div class="bar" data-k="Post-Modern Sculpture" style="background:#bbbdb6;color:#2C2C2A;font-size:7.4px">POST-MODERN SCULPTURE (1970-)</div>
+    <span class="nm" data-k="Post-Modern Sculpture">Post-Modern Sculpture (1970s–)</span>
+  </div>
+  <div class="art-movement-item" style="left:2100px;top:1326px;width:450px">
+    <div class="bar" data-k="Postmodernism" style="background:#85b7eb;color:#042C53;font-size:7.4px">POSTMODERNISM (1970-)</div>
+    <span class="nm" data-k="Postmodernism">Postmodernism (1970s–)</span>
+  </div>
+  <div class="art-movement-item" style="left:2180px;top:0px;width:180px">
+    <div class="bar" data-k="New Image Painting" style="background:#f4c8b3;color:#712B13;font-size:7.4px">NEW IMAGE PAINTING (1978-1985)</div>
+    <span class="nm" data-k="New Image Painting">New Image Painting (late 1970s-1980s)</span>
+  </div>
+  <div class="art-movement-item" style="left:2180px;top:306px;width:180px">
+    <div class="bar" data-k="Neo-Expressionism" style="background:#f08a60;color:#4A1500;font-size:7.4px">NEO-EXPRESSIONISM (1978-1990)</div>
+    <span class="nm" data-k="Neo-Expressionism">Neo-Expressionism (1978–1990)</span>
+  </div>
+  <div class="art-movement-item" style="left:2180px;top:374px;width:370px">
+    <div class="bar" data-k="Neo-Conceptualism" style="background:#b5d4f4;color:#0C447C;font-size:7.4px">NEO-CONCEPTUALISM (1978-)</div>
+    <span class="nm" data-k="Neo-Conceptualism">Neo-Conceptualism (late 1970s-)</span>
+  </div>
+  <div class="art-movement-item" style="left:2190px;top:238px;width:180px">
+    <div class="bar" data-k="Mülheimer Freiheit" style="background:#f08a60;color:#4A1500;font-size:7.4px">MÜLHEIMER FREIHEIT (1979-1984)</div>
+    <span class="nm" data-k="Mülheimer Freiheit">Mülheimer Freiheit (1979-1984)</span>
+  </div>
+  <div class="art-movement-item" style="left:2190px;top:510px;width:180px">
+    <div class="bar" data-k="Transavantgarde" style="background:#f08a60;color:#4A1500;font-size:7.4px">TRANSAVANTGARDE (1979-1990)</div>
+    <span class="nm" data-k="Transavantgarde">Transavantgarde (late 1970s-1980s)</span>
+  </div>
+  <div class="art-movement-item" style="left:2200px;top:544px;width:158px">
+    <div class="bar" data-k="Nuovi Nuovi" style="background:#f4c8b3;color:#712B13;font-size:7.4px">NUOVI NUOVI (1980-1990)</div>
+    <span class="nm" data-k="Nuovi Nuovi">Nuovi Nuovi (1980s)</span>
+  </div>
+  <div class="art-movement-item" style="left:2210px;top:34px;width:180px">
+    <div class="bar" data-k="Figuration Libre" style="background:#f5c4b3;color:#712B13;font-size:7.4px">FIGURATION LIBRE (1981-1989)</div>
+    <span class="nm" data-k="Figuration Libre">Figuration Libre (1981-1980s)</span>
+  </div>
+  <div class="art-movement-item" style="left:2230px;top:578px;width:320px">
+    <div class="bar" data-k="Hacking (Exploratory)" style="background:#c0dff5;color:#0C447C;font-size:7.4px">HACKING (EXPLORATORY) (1983-)</div>
+    <span class="nm" data-k="Hacking (Exploratory)">Hacking (Exploratory) (1983–)</span>
+  </div>
+  <div class="art-movement-item" style="left:2250px;top:68px;width:300px">
+    <div class="bar" data-k="Generative Art" style="background:#c8b5f0;color:#26215C;font-size:7.4px">GENERATIVE ART (1985-)</div>
+    <span class="nm" data-k="Generative Art">Generative Art (1985–)</span>
+  </div>
+  <div class="art-movement-item" style="left:2260px;top:272px;width:290px">
+    <div class="bar" data-k="Organic Art / Artificial Life" style="background:#a8d8bc;color:#085041;font-size:7.4px">ORGANIC ART / ARTIFICIAL LIFE (1986-)</div>
+    <span class="nm" data-k="Organic Art / Artificial Life">Organic Art / Artificial Life (1986–)</span>
+  </div>
+  <div class="art-movement-item" style="left:2280px;top:204px;width:270px">
+    <div class="bar" data-k="Neo-Pop" style="background:#f7d76b;color:#5a4200;font-size:7.4px">NEO-POP (1988-)</div>
+    <span class="nm" data-k="Neo-Pop">Neo-Pop (late 1980s-)</span>
+  </div>
+  <div class="art-movement-item" style="left:2300px;top:408px;width:250px">
+    <div class="bar" data-k="Contemporary Conceptual Art" style="background:#b5d4f4;color:#0C447C;font-size:7.4px">CONTEMPORARY CONCEPTUAL ART (1990-)</div>
+    <span class="nm" data-k="Contemporary Conceptual Art">Contemporary Conceptual Art (1990s–)</span>
+  </div>
+  <div class="art-movement-item" style="left:2300px;top:612px;width:250px">
+    <div class="bar" data-k="Internet Art / Cyberculture Art" style="background:#378ADD;color:#E6F1FB;font-size:7.4px">INTERNET ART / CYBERCULTURE (1990-)</div>
+    <span class="nm" data-k="Internet Art / Cyberculture Art">Internet Art / Cyberculture Art (1990s–)</span>
+  </div>
+  <div class="art-movement-item" style="left:2300px;top:646px;width:250px">
+    <div class="bar" data-k="New Leipzig School" style="background:#f4c8b3;color:#712B13;font-size:7.4px">NEW LEIPZIG SCHOOL (1990-)</div>
+    <span class="nm" data-k="New Leipzig School">New Leipzig School (1990s-)</span>
+  </div>
+  <div class="art-movement-item" style="left:2300px;top:680px;width:250px">
+    <div class="bar" data-k="Pop Surrealism" style="background:#f4b8cb;color:#4B1528;font-size:7.4px">POP SURREALISM (1990-)</div>
+    <span class="nm" data-k="Pop Surrealism">Pop Surrealism (1990s–)</span>
+  </div>
+  <div class="art-movement-item" style="left:2320px;top:340px;width:176px">
+    <div class="bar" data-k="Britart" style="background:#bbbdb6;color:#2C2C2A;font-size:7.4px">BRITART / YBAS (1992-2005)</div>
+    <span class="nm" data-k="Britart">Britart (1992-2000s)</span>
+  </div>
+  <div class="art-movement-item" style="left:2340px;top:714px;width:210px">
+    <div class="bar" data-k="Hacktivist Art" style="background:#85b7eb;color:#042C53;font-size:7.4px">HACKTIVIST ART (1994-)</div>
+    <span class="nm" data-k="Hacktivist Art">Hacktivist Art (1994–)</span>
+  </div>
+  <div class="art-movement-item" style="left:2360px;top:748px;width:190px">
+    <div class="bar" data-k="Tactical Media" style="background:#4d90d1;color:#E6F1FB;font-size:7.4px">TACTICAL MEDIA (1996-)</div>
+    <span class="nm" data-k="Tactical Media">Tactical Media (1996–)</span>
+  </div>
+  <div class="art-movement-item" style="left:2390px;top:0px;width:160px">
+    <div class="bar" data-k="Stuckism" style="background:#d4e8c8;color:#27500A;font-size:7.4px">STUCKISM (1999-)</div>
+    <span class="nm" data-k="Stuckism">Stuckism (1999-)</span>
+  </div>
+  <div class="art-movement-item" style="left:2410px;top:102px;width:140px">
+    <div class="bar" data-k="Superflat" style="background:#f7d76b;color:#5a4200;font-size:7.4px">SUPERFLAT (2001-)</div>
+    <span class="nm" data-k="Superflat">Superflat (2001-)</span>
+  </div>
+  <div class="art-movement-item" style="left:2420px;top:34px;width:152px">
+    <div class="bar" data-k="Relational Art" style="background:#7ab870;color:#0a2800;font-size:7.4px">RELATIONAL ART (2002-)</div>
+    <span class="nm" data-k="Relational Art">Relational Art (2002-)</span>
+  </div>
+  <div class="art-movement-item" style="left:2460px;top:238px;width:170px">
+    <div class="bar" data-k="Post-Internet Art" style="background:#8ab8d8;color:#03314B;font-size:7.4px">POST-INTERNET ART (2006-)</div>
+    <span class="nm" data-k="Post-Internet Art">Post-Internet Art (2006–2015)</span>
+  </div>
+  <div class="art-movement-item" style="left:2510px;top:306px;width:122px">
+    <div class="bar" data-k="Arte Útil" style="background:#7ab870;color:#0a2800;font-size:7.4px">ARTE ÚTIL (2011-)</div>
+    <span class="nm" data-k="Arte Útil">Arte Útil (2011–)</span>
+  </div>
+  <div class="art-movement-item" style="left:2510px;top:510px;width:164px">
+    <div class="bar" data-k="Zombie Formalism" style="background:#888780;color:#F1EFE8;font-size:7.4px">ZOMBIE FORMALISM (2011-)</div>
+    <span class="nm" data-k="Zombie Formalism">Zombie Formalism (2011–2015)</span>
+  </div>
 </div>
-
-<!-- ROMANTICISM (1780-1850): left=200, width=700 -->
-<div class="br"><div class="bar" data-k="Romanticism" style="background:#f5c4b3;color:#712B13;left:200px;width:700px">ROMANTICISM (1780&#8211;1850)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Francisco Goya" style="left:200px">Goya</span>
-  <span class="nm" data-k="William Blake" style="left:320px">Blake</span>
-  <span class="nm" data-k="Caspar David Friedrich" style="left:430px">C.D. Friedrich</span>
-  <span class="nm" data-k="J.M.W. Turner" style="left:580px">Turner</span>
-  <span class="nm" data-k="Eug&#232;ne Delacroix" style="left:680px">Delacroix</span>
-</div>
-
-<!-- REALISM (1840-1890): left=800, width=500 -->
-<div class="br"><div class="bar" data-k="Realism" style="background:#d4e8c8;color:#27500A;left:800px;width:500px">REALISM (1840&#8211;1890)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Gustave Courbet" style="left:800px">Courbet</span>
-  <span class="nm" data-k="Honor&#233; Daumier" style="left:900px">Daumier</span>
-  <span class="nm" data-k="&#201;douard Manet" style="left:1030px">Manet</span>
-  <span class="nm" data-k="Jean-Fran&#231;ois Millet" style="left:1180px">Millet</span>
-</div>
-
-<!-- IMPRESSIONISM (1860-1900): left=1000, width=400 -->
-<div class="br"><div class="bar" data-k="Impressionism" style="background:#ffc0cb;color:#4B1528;left:1000px;width:400px">IMPRESSIONISM (1860&#8211;1900)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Claude Monet" style="left:1000px">Monet</span>
-  <span class="nm" data-k="Pierre-Auguste Renoir" style="left:1090px">Renoir</span>
-  <span class="nm" data-k="Edgar Degas" style="left:1190px">Degas</span>
-  <span class="nm" data-k="Paul C&#233;zanne" style="left:1280px">C&#233;zanne</span>
-  <span class="nm" data-k="Vincent van Gogh" style="left:1360px">Van Gogh</span>
-</div>
-
-<!-- POST-IMPRESSIONISM (1886-1910): left=1260, width=240 -->
-<div class="br"><div class="bar" data-k="Post-Impressionism" style="background:#f2c8e0;color:#712B13;left:1260px;width:240px">POST-IMPRESSIONISM (1886&#8211;1910)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Paul Gauguin" style="left:1260px">Gauguin</span>
-  <span class="nm" data-k="Georges Seurat" style="left:1340px">Seurat</span>
-  <span class="nm" data-k="Henri de Toulouse-Lautrec" style="left:1430px">Toulouse-Lautrec</span>
-</div>
-
-<!-- SYMBOLISM (1886-1910): left=1260, width=240 -->
-<div class="br"><div class="bar" data-k="Symbolism" style="background:#c8b5f0;color:#26215C;left:1260px;width:240px">SYMBOLISM (1886&#8211;1910)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Gustav Klimt" style="left:1260px">Klimt</span>
-  <span class="nm" data-k="Edvard Munch" style="left:1340px">Munch</span>
-  <span class="nm" data-k="Odilon Redon" style="left:1420px">Redon</span>
-
-<!-- NAÏVE ART (1886-): left=1260, width=1290 -->
-<div class="br"><div class="bar" data-k="Naïve Art" style="background:#c8d89a;color:#1e3800;left:1260px;width:1290px">NAÏVE ART (1886‑)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Henri Rousseau" style="left:1260px">Henri Rousseau</span>
-  <span class="nm" data-k="Grandma Moses" style="left:1820px">Grandma Moses</span>
-</div>
-
-</div>
-
-<div class="gap3"></div>
-<!-- EXPRESSIONISM (1905-1933) -->
-<div class="br"><div class="bar" data-k="Expressionism" style="background:#f4a58a;color:#712B13;left:1450px;width:280px">EXPRESSIONISM (1905&#8211;1933)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Henri Matisse" style="left:1450px">Matisse</span>
-  <span class="nm" data-k="Ernst Ludwig Kirchner" style="left:1530px">Kirchner</span>
-  <span class="nm" data-k="Wassily Kandinsky" style="left:1600px">Kandinsky</span>
-  <span class="nm" data-k="Emil Nolde" style="left:1680px">Nolde</span>
-</div>
-
-<!-- CUBISM (1907-1930) -->
-<div class="br"><div class="bar" data-k="Cubism" style="background:#ddd;color:#333;left:1470px;width:230px">CUBISM (1907&#8211;1930)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Pablo Picasso" style="left:1470px">Picasso</span>
-  <span class="nm" data-k="Georges Braque" style="left:1540px">Braque</span>
-  <span class="nm" data-k="Juan Gris" style="left:1620px">Juan Gris</span>
-</div>
-
-<!-- FUTURISM (1909-1944) -->
-<div class="br"><div class="bar" data-k="Futurism" style="background:#f4a58a;color:#712B13;left:1490px;width:350px">FUTURISM (1909&#8211;1944)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Umberto Boccioni" style="left:1490px">Boccioni</span>
-  <span class="nm" data-k="Giacomo Balla" style="left:1570px">Balla</span>
-</div>
-
-<!-- DADA (1916-1924) -->
-<div class="br"><div class="bar" data-k="Dada" style="background:#c8b5f0;color:#26215C;left:1560px;width:80px">DADA</div></div>
-<div class="lr">
-  <span class="nm" data-k="Marcel Duchamp" style="left:1560px">Duchamp</span>
-  <span class="nm" data-k="Hannah H&#246;ch" style="left:1640px">Hannah H&#246;ch</span>
-</div>
-
-<!-- RUSSIAN CONSTRUCTIVISM (1915-1934) -->
-<div class="br"><div class="bar" data-k="Russian Constructivism" style="background:#f4a58a;color:#712B13;left:1550px;width:190px">RUSSIAN CONSTRUCTIVISM (1915&#8211;34)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Alexander Rodchenko" style="left:1550px">Rodchenko</span>
-  <span class="nm" data-k="El Lissitzky" style="left:1650px">El Lissitzky</span>
-
-<!-- NEUE SACHLICHKEIT (1918-1933): left=1580, width=150 -->
-<div class="br"><div class="bar" data-k="Neue Sachlichkeit" style="background:#b8bfaa;color:#1e2414;left:1580px;width:150px">NEUE SACHLICHKEIT (1918‑33)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Otto Dix" style="left:1580px">Otto Dix</span>
-  <span class="nm" data-k="George Grosz" style="left:1640px">Grosz</span>
-  <span class="nm" data-k="Christian Schad" style="left:1700px">Schad</span>
-</div>
-
-</div>
-
-<!-- SURREALISM (1924-1955) -->
-<div class="br"><div class="bar" data-k="Surrealism" style="background:#dbb9f5;color:#26215C;left:1640px;width:310px">SURREALISM / PSYCHOANALYTIC MODERNISM (1924&#8211;50s)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Andr&#233; Breton" style="left:1640px">Breton</span>
-  <span class="nm" data-k="Salvador Dal&#237;" style="left:1710px">Dal&#237;</span>
-  <span class="nm" data-k="Max Ernst" style="left:1770px">M. Ernst</span>
-  <span class="nm" data-k="Ren&#233; Magritte" style="left:1840px">Magritte</span>
-  <span class="nm" data-k="Frida Kahlo" style="left:1920px">Kahlo</span>
-
-<!-- OUTSIDER ART / ART BRUT (1945-): left=1850, width=700 -->
-<div class="br"><div class="bar" data-k="Outsider Art" style="background:#d4a870;color:#3a1800;left:1850px;width:700px">OUTSIDER ART / ART BRUT (1945‑)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Jean Dubuffet" style="left:1850px">Dubuffet</span>
-  <span class="nm" data-k="Adolf Wölfli" style="left:1960px">Wölfli</span>
-  <span class="nm" data-k="Henry Darger" style="left:2060px">Darger</span>
-</div>
-
-</div>
-
-<div class="gap3"></div>
-<!-- ABSTRACT EXPRESSIONISM (1943-1965): left=1830, width=220 -->
-<div class="br"><div class="bar" data-k="Abstract Expressionism" style="background:#f0997b;color:#4A1B0C;left:1830px;width:220px">ABSTRACT EXPRESSIONISM (1943&#8211;65)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Jackson Pollock" style="left:1870px">Pollock</span>
-  <span class="nm" data-k="Willem de Kooning" style="left:1930px">de Kooning</span>
-  <span class="nm" data-k="Mark Rothko" style="left:2000px">Rothko</span>
-  <span class="nm" data-k="Franz Kline" style="left:2060px">Kline</span>
-</div>
-
-<!-- POP ART (1954-1975): left=1940, width=210 -->
-<div class="br"><div class="bar" data-k="Pop Art" style="background:#f7d76b;color:#5a4200;left:1940px;width:210px">POP ART (1954&#8211;1975)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Jasper Johns" style="left:1940px">Jasper Johns</span>
-  <span class="nm" data-k="Andy Warhol" style="left:2020px">Warhol</span>
-  <span class="nm" data-k="Claes Oldenburg" style="left:2060px">Oldenburg</span>
-</div>
-
-<!-- MINIMALISM (1960-1975): left=2000, width=150 -->
-<div class="br"><div class="bar" data-k="Minimalism" style="background:#f5d97a;color:#5a4200;left:2000px;width:150px">MINIMALISM (1960&#8211;75)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Frank Stella" style="left:2000px">F. Stella</span>
-  <span class="nm" data-k="Sol LeWitt" style="left:2060px">Sol LeWitt</span>
-  <span class="nm" data-k="Richard Serra" style="left:2110px">R. Serra</span>
-</div>
-
-<!-- CONCEPTUAL ART (1960s-): left=2000, width=550 -->
-<div class="br"><div class="bar" data-k="Conceptual Art" style="background:#b5d4f4;color:#0C447C;left:2000px;width:550px">CONCEPTUAL ART / INSTITUTIONAL CRITIQUE (1960s&#8211;)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Joseph Beuys" style="left:2000px">Beuys</span>
-  <span class="nm" data-k="Joseph Kosuth" style="left:2060px">Kosuth</span>
-  <span class="nm" data-k="Hans Haacke" style="left:2130px">Haacke</span>
-  <span class="nm" data-k="Marcel Broodthaers" style="left:2200px">Broodthaers</span>
-</div>
-
-<!-- PERFORMANCE ART (1960s-): left=2000, width=550 -->
-<div class="br"><div class="bar" data-k="Performance Art" style="background:#ffc0cb;color:#4B1528;left:2000px;width:550px">PERFORMANCE ART (1960s&#8211;)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Performance Art" style="left:2000px">Fluxus / Happenings</span>
-  <span class="nm" data-k="Stelarc" style="left:2180px">Stelarc</span>
-  <span class="nm" data-k="Performance Art" style="left:2260px">Abramovi&#263;, Acconci</span>
-</div>
-
-<!-- ARTE POVERA (1967-1977): left=2070, width=110 -->
-<div class="br"><div class="bar" data-k="Arte Povera" style="background:#c6b08a;color:#3d2400;left:2070px;width:110px">ARTE POVERA (1967&#8211;77)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Michelangelo Pistoletto" style="left:2070px">Pistoletto</span>
-  <span class="nm" data-k="Jannis Kounellis" style="left:2100px">Kounellis</span>
-  <span class="nm" data-k="Mario Merz" style="left:2133px">M. Merz</span>
-  <span class="nm" data-k="Giovanni Anselmo" style="left:2163px">Anselmo</span>
-</div>
-
-<!-- MONO-HA (1968-1975): left=2080, width=70 -->
-<div class="br"><div class="bar" data-k="Mono-ha" style="background:#c4c0b4;color:#2a2820;left:2080px;width:70px">MONO-HA (1968&#8211;75)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Lee Ufan" style="left:2080px">Lee Ufan</span>
-  <span class="nm" data-k="Nobuo Sekine" style="left:2120px">Sekine</span>
-</div>
-
-<!-- EARTH ART (1967-1975): left=2070, width=80 -->
-<div class="br"><div class="bar" data-k="Earth Art" style="background:#a8d8bc;color:#085041;left:2070px;width:80px">EARTH ART</div></div>
-<div class="lr">
-  <span class="nm" data-k="Robert Smithson" style="left:2070px">Robert Smithson &#8212; Spiral Jetty (1970)</span>
-</div>
-
-<!-- POSTMODERNISM (1970s-): left=2100, width=450 -->
-<div class="br"><div class="bar" data-k="Postmodernism" style="background:#85b7eb;color:#042C53;left:2100px;width:450px">POSTMODERNISM / SIMULATION / APPROPRIATION ART (1970s&#8211;)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Sherrie Levine" style="left:2100px">Sherrie Levine</span>
-  <span class="nm" data-k="Cindy Sherman" style="left:2195px">Cindy Sherman</span>
-  <span class="nm" data-k="Barbara Kruger" style="left:2295px">Barbara Kruger</span>
-  <span class="nm" data-k="Richard Prince" style="left:2400px">Richard Prince</span>
-
-<!-- NEO-EXPRESSIONISM (1978-1990): left=2180, width=120 -->
-<div class="br"><div class="bar" data-k="Neo-Expressionism" style="background:#f08a60;color:#4A1500;left:2180px;width:120px">NEO-EXPRESSIONISM (1978‑90)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Georg Baselitz" style="left:2180px">Baselitz</span>
-  <span class="nm" data-k="Anselm Kiefer" style="left:2220px">Kiefer</span>
-  <span class="nm" data-k="Julian Schnabel" style="left:2270px">Schnabel</span>
-  <span class="nm" data-k="Francesco Clemente" style="left:2310px">Clemente</span>
-</div>
-
-</div>
-
-<!-- POST-MODERN SCULPTURE (1970s-): left=2100, width=450 -->
-<div class="br"><div class="bar" data-k="Post-Modern Sculpture" style="background:#bbbdb6;color:#2C2C2A;left:2100px;width:450px">POST-MODERN SCULPTURE (1970s&#8211;)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Jeff Koons" style="left:2250px">Jeff Koons</span>
-  <span class="nm" data-k="Damien Hirst" style="left:2320px">Damien Hirst</span>
-</div>
-
-<!-- GRAFFITI (1970s-): left=2100, width=450 -->
-<div class="br"><div class="bar" data-k="Graffiti" style="background:#f5c4b3;color:#712B13;left:2100px;width:450px">GRAFFITI (1970s&#8211;)</div></div>
-<div class="lr">
-  <span class="nm" data-k="TAKI 183" style="left:2100px">TAKI 183</span>
-  <span class="nm" data-k="Jean-Michel Basquiat" style="left:2200px">Basquiat</span>
-  <span class="nm" data-k="Keith Haring" style="left:2260px">Keith Haring</span>
-</div>
-
-<!-- LOWBROW (1970s-): left=2100, width=450 -->
-<div class="br"><div class="bar" data-k="Lowbrow" style="background:#f4c8b3;color:#712B13;left:2100px;width:450px">LOWBROW / UNDERGROUND (1970s&#8211;)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Robert Williams" style="left:2100px">R. Williams</span>
-  <span class="an" style="left:2340px">Juxtapoz 1994</span>
-</div>
-
-<!-- CYBERNETIC ART (1960s-): left=2000, width=550 -->
-<div class="br"><div class="bar" data-k="Cybernetic Art" style="background:#85b7eb;color:#042C53;left:2000px;width:550px">CYBERNETIC ART (1960s&#8211;)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Nam June Paik" style="left:2000px">Nam June Paik</span>
-  <span class="an" style="position:absolute;right:0;font-size:9px;font-weight:700;color:#888">new media &#8594;</span>
-</div>
-
-<!-- VIDEO ART (1965-): left=2050, width=500 -->
-<div class="br"><div class="bar" data-k="Video Art" style="background:#b5d4f4;color:#0C447C;left:2050px;width:500px">VIDEO ART (1965&#8211;)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Nam June Paik" style="left:2050px">Paik</span>
-  <span class="nm" data-k="Bill Viola" style="left:2110px">Viola</span>
-  <span class="nm" data-k="Bruce Nauman" style="left:2165px">Nauman</span>
-</div>
-
-<!-- ALGORITHMIC ART (1965-): left=2050, width=500 -->
-<div class="br"><div class="bar" data-k="Algorithmic Art" style="background:#ddd4fa;color:#3C3489;left:2050px;width:500px">ALGORITHMIC ART (1965&#8211;)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Algorithmic Art" style="left:2050px">Nees, Nake, Molnar</span>
-  <span class="nm" data-k="Harold Cohen (AARON)" style="left:2150px">H. Cohen (AARON)</span>
-</div>
-
-<!-- GENERATIVE ART (1985-): left=2250, width=300 -->
-<div class="br"><div class="bar" data-k="Generative Art" style="background:#c8b5f0;color:#26215C;left:2250px;width:300px">GENERATIVE ART (1985&#8211;)</div></div>
-<div class="lr"><span class="nm" data-k="Karl Sims" style="left:2340px">Karl Sims</span></div>
-
-<!-- ORGANIC ART / ARTIFICIAL LIFE (1986-): left=2260, width=290 -->
-<div class="br"><div class="bar" data-k="Organic Art / Artificial Life" style="background:#a8d8bc;color:#085041;left:2260px;width:290px">ORGANIC ART / ARTIFICIAL LIFE (1986&#8211;)</div></div>
-<div class="lr"><span class="nm" data-k="Eduardo Kac" style="left:2400px">Eduardo Kac</span></div>
-
-<!-- HACKING EXPLORATORY (1983-): left=2230, width=320 -->
-<div class="br"><div class="bar" data-k="Hacking (Exploratory)" style="background:#c0dff5;color:#0C447C;left:2230px;width:320px">HACKING (EXPLORATORY) (1983&#8211;)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Hacking (Exploratory)" style="left:2230px">phreakers / BBS / demo scene</span>
-  <span class="nm" data-k="Steven Levy" style="left:2390px">Levy &#8216;Hackers&#8217; (1984)</span>
-</div>
-
-<!-- HACKTIVIST ART (1994-): left=2340, width=210 -->
-<div class="br"><div class="bar" data-k="Hacktivist Art" style="background:#85b7eb;color:#042C53;left:2340px;width:210px">HACKTIVIST ART (1994&#8211;)</div></div>
-<div class="lr"><span class="nm" data-k="Hacktivist Art" style="left:2340px">Electronic Disturbance Theater, Critical Art Ensemble</span></div>
-
-<!-- TACTICAL MEDIA (1996-): left=2360, width=190 -->
-<div class="br"><div class="bar" data-k="Tactical Media" style="background:#4d90d1;color:#E6F1FB;left:2360px;width:190px">TACTICAL MEDIA (1996&#8211;)</div></div>
-<div class="lr"><span class="nm" data-k="Tactical Media" style="left:2360px">Next 5 Minutes, RTMark, Yes Men</span></div>
-
-<!-- INTERNET ART / CYBERCULTURE (1990s-): left=2300, width=250 -->
-<div class="br"><div class="bar" data-k="Internet Art / Cyberculture Art" style="background:#378ADD;color:#E6F1FB;left:2300px;width:250px">INTERNET ART / CYBERCULTURE ART (1990s&#8211;)</div></div>
-<div class="lr">
-  <span class="nm" data-k="jodi.org" style="left:2300px">jodi.org</span>
-  <span class="nm" data-k="Olia Lialina" style="left:2360px">Olia Lialina</span>
-  <span class="nm" data-k="Josh On" style="left:2450px">Josh On</span>
-</div>
-
-<!-- POP SURREALISM (1990s-): left=2300, width=250 -->
-<div class="br"><div class="bar" data-k="Pop Surrealism" style="background:#f4b8cb;color:#4B1528;left:2300px;width:250px">POP SURREALISM (1990s&#8211;)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Mark Ryden" style="left:2300px">Mark Ryden</span>
-  <span class="nm" data-k="Robert Williams" style="left:2380px">R. Williams</span>
-</div>
-
-<!-- CONTEMPORARY CONCEPTUAL / POST-CONCEPTUAL (1990s-): left=2300, width=250 -->
-<div class="br"><div class="bar" data-k="Contemporary Conceptual Art" style="background:#b5d4f4;color:#0C447C;left:2300px;width:250px">CONTEMPORARY CONCEPTUAL / POST-CONCEPTUAL (1990s&#8211;)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Ai Weiwei" style="left:2300px">Ai Weiwei</span>
-  <span class="nm" data-k="Kara Walker" style="left:2370px">Kara Walker</span>
-  <span class="nm" data-k="Olafur Eliasson" style="left:2440px">Olafur Eliasson</span>
-</div>
-
-<!-- POST-INTERNET ART (2006-2015): left=2460, width=90 -->
-<div class="br"><div class="bar" data-k="Post-Internet Art" style="background:#8ab8d8;color:#03314B;left:2460px;width:90px">POST-INTERNET ART (2006&#8211;15)</div></div>
-<div class="lr">
-  <span class="nm" data-k="Cory Arcangel" style="left:2460px">Arcangel</span>
-  <span class="nm" data-k="Ryan Trecartin" style="left:2493px">Trecartin</span>
-  <span class="nm" data-k="Hito Steyerl" style="left:2524px">Steyerl</span>
-</div>
-
-<!-- ZOMBIE FORMALISM (2011-2015): left=2510, width=40 -->
-<div class="br"><div class="bar" data-k="Zombie Formalism" style="background:#888780;color:#F1EFE8;left:2510px;width:40px;font-size:7.5px">ZF</div></div>
-<div class="lr"><span class="nm" data-k="Zombie Formalism" style="left:2480px">Zombie Formalism (2011&#8211;15)</span></div>
-
-
-<!-- ARTE ÚTIL (2011-): left=2510, width=40 -->
-<div class="br"><div class="bar" data-k="Arte Útil" style="background:#7ab870;color:#0a2800;left:2510px;width:40px;font-size:7.5px">AÚT</div></div>
-<div class="lr"><span class="nm" data-k="Arte Útil" style="left:2470px">Arte Útil (2011‑)</span>
-  <span class="nm" data-k="Tania Bruguera" style="left:2510px"></span>
-</div>
-
 </div></div><!-- end art -->
 <div class="hdiv"></div>
 
@@ -755,6 +885,74 @@ const D={
 "Zombie Formalism":{t:"Art Trend",bg:"#888780",tc:"#F1EFE8",d:"2011\u20132015",desc:"Pejorative term coined by critic Walter Robinson (2014) for market-driven abstract painting mimicking Modernist formalism without conceptual depth. Oscar Murillo and Lucien Smith produced gestural works rapidly consumed by speculative buyers in the post-2008 art market boom. Troemel\u2019s analysis identifies its structural cause: the Federal Reserve\u2019s Zero Interest Rate Policy (ZERP) post-2008 pushed venture capital into high-risk bets including the art market\u2014inflating a bubble that selected for rapidly producible, legible-as-art inventory over conceptual seriousness.",wiki:"Zombie_formalism"},
 "Jeff Koons":{t:"Artist",bg:"#bbbdb6",tc:"#2C2C2A",d:"1955\u2013",desc:"American artist known for stainless steel balloon sculptures and kitsch appropriation. Rabbit (1986) sold for $91.1M in 2019. Koons\u2019s work simultaneously embodies and critiques the commodity status of art and celebrity culture.",wiki:"Jeff_Koons"},
 "Damien Hirst":{t:"Artist",bg:"#bbbdb6",tc:"#2C2C2A",d:"1965\u2013",desc:"British artist and leader of the Young British Artists (YBAs). The Physical Impossibility of Death in the Mind of Someone Living (1991)\u2014a shark in formaldehyde\u2014became the defining image of 1990s art-world spectacle.",wiki:"Damien_Hirst"},
+/* ── Supplemental art movements from reference list; awards omitted ── */
+"Art Nouveau":{"t":"Art Movement","bg":"#f0d28a","tc":"#4d3300","d":"1880s-1914","desc":"International decorative style of sinuous lines, organic forms, ironwork, posters, glass, and architecture. It tried to dissolve the hierarchy between fine art and applied design at the turn of the century.","wiki":"Art_Nouveau"},
+"Jugendstil":{"t":"Art Movement","bg":"#ead79a","tc":"#4d3300","d":"1895-1910","desc":"German and Austrian branch of Art Nouveau, named after the Munich magazine Jugend. Its flattened ornament, typography, and graphic line helped modern design move away from historicist revival styles.","wiki":"Jugendstil"},
+"Pointillism":{"t":"Art Movement","bg":"#f2c8e0","tc":"#712B13","d":"1886-1900","desc":"Neo-Impressionist technique using small dots of pure color that optically mix in the viewer's eye. Georges Seurat and Paul Signac made color theory a compositional system.","wiki":"Pointillism"},
+"Arts and Crafts":{"t":"Art Movement","bg":"#d8c7a0","tc":"#3d2400","d":"1880s-1920","desc":"Design reform movement associated with William Morris and John Ruskin. It opposed industrial shoddiness by reviving craft, material honesty, and the unity of art, labor, and daily life.","wiki":"Arts_and_Crafts_movement"},
+"Les Nabis":{"t":"Art Movement","bg":"#d7c0ec","tc":"#26215C","d":"1888-1900","desc":"French Post-Impressionist group including Bonnard, Vuillard, Denis, and Sérusier. They treated painting as flat decorative arrangement rather than illusionistic window.","wiki":"Les_Nabis"},
+"Fauvism":{"t":"Art Movement","bg":"#f4a58a","tc":"#712B13","d":"1905-1908","desc":"Short-lived but explosive movement led by Matisse and Derain. Fauvism liberated color from natural description, using saturated chroma as structure and emotional force.","wiki":"Fauvism"},
+"Die Brücke":{"t":"Art Movement","bg":"#ef9478","tc":"#712B13","d":"1905-1913","desc":"Dresden Expressionist group founded by Kirchner, Heckel, Schmidt-Rottluff, and Bleyl. Its jagged nudes, urban anxiety, and woodcut edges made modern life feel raw and unstable.","wiki":"Die_Br%C3%BCcke"},
+"Rayonism":{"t":"Art Movement","bg":"#f4a58a","tc":"#712B13","d":"1911-1914","desc":"Russian avant-garde movement by Larionov and Goncharova that translated objects into intersecting rays of light. It pushed Cubo-Futurism toward abstraction.","wiki":"Rayonism"},
+"École de Paris":{"t":"Art Movement","bg":"#ddd","tc":"#333","d":"c.1910-1940s","desc":"Loose term for the international artists working in Paris before and between the wars: Modigliani, Chagall, Soutine, Brancusi, and others. More a scene than a single style.","wiki":"%C3%89cole_de_Paris"},
+"Metaphysical Painting":{"t":"Art Movement","bg":"#dbb9f5","tc":"#26215C","d":"1910-1920","desc":"Italian movement around Giorgio de Chirico and Carlo Carrà. Empty piazzas, mannequins, shadows, and impossible stillness became a crucial prehistory of Surrealism.","wiki":"Metaphysical_art"},
+"Der Blaue Reiter":{"t":"Art Movement","bg":"#ee9f86","tc":"#712B13","d":"1911-1914","desc":"Munich Expressionist circle led by Kandinsky and Marc. It connected color, spirituality, folk art, music, and abstraction into a theory of inner necessity.","wiki":"Der_Blaue_Reiter"},
+"Camden Town Group":{"t":"Art Movement","bg":"#d4e8c8","tc":"#27500A","d":"1911-1913","desc":"British group around Walter Sickert that painted urban interiors, music halls, and modern London life with post-Impressionist structure and social observation.","wiki":"Camden_Town_Group"},
+"Group of Seven":{"t":"Art Movement","bg":"#a8d8bc","tc":"#085041","d":"1920-1933","desc":"Canadian modernist landscape group that turned northern wilderness into a national visual language. The group helped define Canadian cultural identity through bold landscape painting.","wiki":"Group_of_Seven_(artists)"},
+"Vorticism":{"t":"Art Movement","bg":"#f4a58a","tc":"#712B13","d":"1912-1915","desc":"British avant-garde movement led by Wyndham Lewis. It fused Cubist fragmentation with machine-age aggression and published its program in BLAST.","wiki":"Vorticism"},
+"Suprematism":{"t":"Art Movement","bg":"#f2d264","tc":"#4d3300","d":"1913-1930","desc":"Malevich's Russian abstraction based on pure geometric feeling. Black Square (1915) became one of modernism's most radical reductions of image to sign.","wiki":"Suprematism"},
+"De Stijl":{"t":"Art Movement","bg":"#f2d264","tc":"#4d3300","d":"1917-1931","desc":"Dutch movement founded by Theo van Doesburg with Mondrian as its most famous painter. It reduced art, design, and architecture to grids, primary colors, and right angles.","wiki":"De_Stijl"},
+"Neo-Plasticism":{"t":"Art Movement","bg":"#f2d264","tc":"#4d3300","d":"1917-1931","desc":"Mondrian's theory of pure abstraction: vertical and horizontal lines, primary colors, and dynamic equilibrium. It is the painterly doctrine inside De Stijl.","wiki":"Neo-plasticism"},
+"Novembergruppe":{"t":"Art Movement","bg":"#b8bfaa","tc":"#1e2414","d":"1918-1933","desc":"German artists' association formed after the November Revolution. It gathered Expressionists, Dadaists, Constructivists, and architects around a left-modernist cultural program.","wiki":"Novembergruppe"},
+"Valori Plastici":{"t":"Art Movement","bg":"#d8c7a0","tc":"#3d2400","d":"1918-1922","desc":"Italian magazine and movement that promoted a return to order after the avant-garde rupture. It linked Metaphysical Painting to classical stillness and postwar conservatism.","wiki":"Valori_plastici"},
+"De Ploeg":{"t":"Art Movement","bg":"#ef9478","tc":"#712B13","d":"1918-1930","desc":"Dutch artist collective from Groningen. Its members adapted Expressionist color, modernist form, and regional landscape into a northern Dutch avant-garde language.","wiki":"De_Ploeg"},
+"UNOVIS":{"t":"Art Movement","bg":"#f2d264","tc":"#4d3300","d":"1919-1922","desc":"Malevich's Suprematist teaching group at Vitebsk. UNOVIS turned geometric abstraction into a collective design and propaganda program.","wiki":"UNOVIS"},
+"Bauhaus":{"t":"Art Movement","bg":"#85b7eb","tc":"#042C53","d":"1919-1933","desc":"German school founded by Walter Gropius that fused art, craft, design, architecture, typography, and industrial production. Its pedagogy became the template for modern design education.","wiki":"Bauhaus"},
+"Art Deco":{"t":"Art Movement","bg":"#f0d28a","tc":"#4d3300","d":"1920s-1939","desc":"International decorative style of streamlined luxury, geometry, chrome, lacquer, skyscrapers, fashion, and cinema glamour. It translated modernity into ornament and consumption.","wiki":"Art_Deco"},
+"Magic Realism":{"t":"Art Movement","bg":"#dbb9f5","tc":"#26215C","d":"1920s-1950s","desc":"Post-Expressionist tendency that rendered ordinary scenes with uncanny clarity. In painting, it made everyday reality feel suspended, exact, and quietly strange.","wiki":"Magic_realism"},
+"Concrete Art":{"t":"Art Movement","bg":"#f2d264","tc":"#4d3300","d":"1930-","desc":"Abstract art with no symbolic reference to the visible world, named by Theo van Doesburg in 1930. A painting becomes a concrete object of color, line, and plane.","wiki":"Concrete_art"},
+"Organic Abstraction":{"t":"Art Movement","bg":"#a8d8bc","tc":"#085041","d":"1940s-1950s","desc":"Abstraction based on biomorphic, natural, and bodily forms rather than hard geometry. Arp, Miró, Hepworth, and Moore helped make modernism feel cellular and living.","wiki":"Organic_abstraction"},
+"Lettrism":{"t":"Art Movement","bg":"#c8b5f0","tc":"#26215C","d":"1946-","desc":"French avant-garde founded by Isidore Isou, treating letters, sounds, and signs as raw artistic material. It anticipated sound poetry, concrete poetry, and Situationist détournement.","wiki":"Lettrism"},
+"Homme Témoin":{"t":"Art Movement","bg":"#d4e8c8","tc":"#27500A","d":"1948-1950","desc":"French postwar figurative tendency centered on the witness figure. It insisted that painting could still testify to human experience after wartime catastrophe.","wiki":"L%27Homme_t%C3%A9moin"},
+"CoBrA":{"t":"Art Movement","bg":"#f4a58a","tc":"#712B13","d":"1948-1951","desc":"Copenhagen-Brussels-Amsterdam group favoring childlike mark-making, myth, folk imagery, and spontaneous expression. It rejected both academic realism and cold abstraction.","wiki":"CoBrA"},
+"Existential Art":{"t":"Art Movement","bg":"#b8bfaa","tc":"#1e2414","d":"1950s","desc":"Postwar art shaped by existentialism: anxiety, absurdity, alienation, embodiment, and responsibility after catastrophe. It is less a formal movement than a philosophical atmosphere.","wiki":"Existentialism"},
+"Art Informel":{"t":"Art Movement","bg":"#f0997b","tc":"#4A1B0C","d":"early 1950s-1960s","desc":"European gestural abstraction emphasizing matter, impulse, and anti-geometric form. It paralleled Abstract Expressionism while carrying a more postwar European sense of ruin.","wiki":"Art_Informel"},
+"Neo-Dada":{"t":"Art Movement","bg":"#c8b5f0","tc":"#26215C","d":"early 1950s-1960s","desc":"Postwar return to chance, found objects, collage, and everyday materials. Rauschenberg and Johns bridged Abstract Expressionism, Pop, Fluxus, and Conceptual Art.","wiki":"Neo-Dada"},
+"Beat Art":{"t":"Art Movement","bg":"#d4e8c8","tc":"#27500A","d":"1952-1960s","desc":"Visual art orbiting Beat poetry, jazz, assemblage, and counterculture. It valued spontaneity, spiritual searching, urban marginality, and anti-bourgeois life.","wiki":"Beat_Generation"},
+"Gutai":{"t":"Art Movement","bg":"#f0997b","tc":"#4A1B0C","d":"1954-1972","desc":"Japanese avant-garde group whose name means concreteness. Gutai artists used mud, bodies, smoke, light, and performance-like actions to make matter behave as event.","wiki":"Gutai_group"},
+"ZERO":{"t":"Art Movement","bg":"#ddd","tc":"#333","d":"1957-1966","desc":"European postwar network around Heinz Mack, Otto Piene, and Günther Uecker. ZERO sought a new beginning through light, vibration, monochrome, seriality, and kinetic effects.","wiki":"Zero_(art)"},
+"Kitchen Sink":{"t":"Art Movement","bg":"#d4e8c8","tc":"#27500A","d":"mid-1950s-1960","desc":"British realist tendency focused on working-class domestic life, ordinary interiors, and social grit. In painting it paralleled literature and theatre's kitchen-sink realism.","wiki":"Kitchen_sink_realism"},
+"Op Art":{"t":"Art Movement","bg":"#f5d97a","tc":"#5a4200","d":"mid-1950s-1970s","desc":"Optical art using pattern, contrast, and geometry to produce vibration, movement, and retinal instability. Bridget Riley and Victor Vasarely made perception itself the subject.","wiki":"Op_art"},
+"Décollage":{"t":"Art Movement","bg":"#c6b08a","tc":"#3d2400","d":"1950s-1960s","desc":"Technique and tendency based on tearing away layers of posters and printed matter. It reverses collage by revealing urban image sediment, damage, and public surfaces.","wiki":"D%C3%A9collage"},
+"Situationist International":{"t":"Art Movement","bg":"#85b7eb","tc":"#042C53","d":"1957-1972","desc":"Revolutionary avant-garde group around Guy Debord. It developed dérive, psychogeography, détournement, and critique of the spectacle, influencing 1968 and later tactical media.","wiki":"Situationist_International"},
+"Hard Edge":{"t":"Art Movement","bg":"#f5d97a","tc":"#5a4200","d":"1959-1970s","desc":"Abstract painting with crisp boundaries, flat color, and impersonal finish. It pushed postwar abstraction toward clarity, optical force, and design-like precision.","wiki":"Hard-edge_painting"},
+"NO!art":{"t":"Art Movement","bg":"#bbbdb6","tc":"#2C2C2A","d":"1959-1964","desc":"New York anti-art tendency associated with Boris Lurie and the March Gallery. It confronted Holocaust memory, consumer culture, sex, trash, and political violence with abrasive refusal.","wiki":"NO!art"},
+"Nouveau Réalisme":{"t":"Art Movement","bg":"#c6b08a","tc":"#3d2400","d":"1960-1970","desc":"French movement named by Pierre Restany. Arman, Klein, Spoerri, Tinguely, and others used real objects, accumulations, actions, and urban fragments as direct signs of modern life.","wiki":"Nouveau_r%C3%A9alisme"},
+"Kinetic Art":{"t":"Art Movement","bg":"#85b7eb","tc":"#042C53","d":"1955-1970s","desc":"Art built around actual or optical movement. Motors, light, balance, viewer motion, and mechanical systems made the work unfold in time.","wiki":"Kinetic_art"},
+"Fluxus":{"t":"Art Movement","bg":"#ffc0cb","tc":"#4B1528","d":"1961-1978","desc":"International network of artists, composers, and performers around George Maciunas. Fluxus made scores, events, mail art, humor, and anti-commercial gestures into art.","wiki":"Fluxus"},
+"Post-Painterly Abstraction":{"t":"Art Movement","bg":"#f5d97a","tc":"#5a4200","d":"1964-1970s","desc":"Clement Greenberg's term for cool, open, non-gestural abstraction after Abstract Expressionism. It favored stained color, clarity, and optical expansiveness.","wiki":"Post-painterly_abstraction"},
+"Body Art":{"t":"Art Movement","bg":"#ffc0cb","tc":"#4B1528","d":"1960s-1970s","desc":"Performance and conceptual art using the artist's body as site, material, and limit. It foregrounded endurance, vulnerability, identity, pain, and social discipline.","wiki":"Body_art"},
+"Photorealism":{"t":"Art Movement","bg":"#ddd","tc":"#333","d":"late 1960s-1980s","desc":"Painting and sculpture that reproduce photographic vision with extreme technical precision. It made cameras, reflections, cars, diners, and streets into tests of perception and craft.","wiki":"Photorealism"},
+"Supports/Surfaces":{"t":"Art Movement","bg":"#c6b08a","tc":"#3d2400","d":"1969-1972","desc":"French movement that deconstructed painting into canvas, stretcher, dye, weave, and support. It treated painting as material system rather than image.","wiki":"Supports/Surfaces"},
+"BMPT Group":{"t":"Art Movement","bg":"#b5d4f4","tc":"#0C447C","d":"1966-1967","desc":"Short-lived French conceptual painting group: Buren, Mosset, Parmentier, Toroni. BMPT repeated impersonal motifs to attack authorship, expression, and painting's aura.","wiki":"BMPT"},
+"Mülheimer Freiheit":{"t":"Art Movement","bg":"#f08a60","tc":"#4A1500","d":"1979-1984","desc":"Cologne-based group associated with the Junge Wilde and German Neo-Expressionism. It brought punk energy, bright color, and aggressive figuration back into painting.","wiki":"M%C3%BClheimer_Freiheit"},
+"Transavantgarde":{"t":"Art Movement","bg":"#f08a60","tc":"#4A1500","d":"late 1970s-1980s","desc":"Italian Neo-Expressionist movement named by Achille Bonito Oliva. Chia, Clemente, Cucchi, Paladino, and De Maria revived myth, figuration, and painterly subjectivity.","wiki":"Transavantgarde"},
+"Nuovi Nuovi":{"t":"Art Movement","bg":"#f4c8b3","tc":"#712B13","d":"1980s","desc":"Italian postmodern painting tendency named by Renato Barilli. It emphasized playful eclecticism, quotation, and renewed figuration after Conceptual Art.","wiki":"Nuovi_Nuovi"},
+"Figuration Libre":{"t":"Art Movement","bg":"#f5c4b3","tc":"#712B13","d":"1981-1980s","desc":"French free figuration associated with Combas, Di Rosa, Blanchard, and Boisrond. It mixed comics, street culture, rock, graffiti energy, and anti-academic painting.","wiki":"Figuration_Libre"},
+"New Image Painting":{"t":"Art Movement","bg":"#f4c8b3","tc":"#712B13","d":"late 1970s-1980s","desc":"American painting tendency after the 1978 Whitney exhibition New Image Painting. It returned recognizable images to abstract painting through sparse signs, symbols, and fragments.","wiki":"New_Image_Painting"},
+"Neo-Conceptualism":{"t":"Art Movement","bg":"#b5d4f4","tc":"#0C447C","d":"late 1970s-","desc":"Post-1970s continuation of Conceptual Art in photography, installation, text, institutional critique, and identity politics. It kept the idea as artwork while re-entering the market and museum.","wiki":"Neo-conceptual_art"},
+"Moscow Conceptualism":{"t":"Art Movement","bg":"#b5d4f4","tc":"#0C447C","d":"1970-1980s","desc":"Soviet underground movement using text, absurd bureaucracy, unofficial performance, and apartment exhibitions. Kabakov, Monastyrsky, and Collective Actions turned Soviet language into conceptual material.","wiki":"Moscow_Conceptualists"},
+"Nonconformist Art":{"t":"Art Movement","bg":"#bbbdb6","tc":"#2C2C2A","d":"1956-1986","desc":"Unofficial Soviet art made outside state Socialist Realism. Apartment shows, underground networks, abstraction, religious imagery, and conceptual strategies formed a parallel culture.","wiki":"Soviet_Nonconformist_Art"},
+"Neo-Pop":{"t":"Art Movement","bg":"#f7d76b","tc":"#5a4200","d":"late 1980s-","desc":"Renewed Pop strategy after Warhol, often merging consumer imagery, toys, anime, celebrity, branding, and glossy production. It runs through Koons, Murakami, Hirst, and market-era spectacle.","wiki":"Neo-pop"},
+"New Leipzig School":{"t":"Art Movement","bg":"#f4c8b3","tc":"#712B13","d":"1990s-","desc":"German painting tendency around the Leipzig Academy after reunification. Neo Rauch and peers combined socialist realism, surreal allegory, graphic clarity, and historical dislocation.","wiki":"New_Leipzig_School"},
+"Post-Minimalism":{"t":"Art Movement","bg":"#bbbdb6","tc":"#2C2C2A","d":"late 1960s-1970s","desc":"Art after Minimalism that kept simple forms while adding process, bodily reference, soft materials, entropy, and contingency. Eva Hesse is the central figure.","wiki":"Postminimalism"},
+"Britart":{"t":"Art Movement","bg":"#bbbdb6","tc":"#2C2C2A","d":"1992-2000s","desc":"British 1990s art scene around Damien Hirst, Sarah Lucas, Tracey Emin, and the Saatchi network. It mixed shock, media fluency, entrepreneurial branding, and institutional spectacle.","wiki":"Young_British_Artists"},
+"Stuckism":{"t":"Art Movement","bg":"#d4e8c8","tc":"#27500A","d":"1999-","desc":"Pro-painting movement founded by Billy Childish and Charles Thomson as a polemic against conceptual art and the YBAs. Its name came from Tracey Emin's insult that Childish was stuck.","wiki":"Stuckism"},
+"Superflat":{"t":"Art Movement","bg":"#f7d76b","tc":"#5a4200","d":"2001-","desc":"Japanese movement theorized by Takashi Murakami, linking anime, manga, Edo-period flatness, consumer culture, and postwar Japanese visual identity.","wiki":"Superflat"},
+"Relational Art":{"t":"Art Movement","bg":"#7ab870","tc":"#0a2800","d":"2002-","desc":"Art centered on social relations, participation, and temporary situations rather than autonomous objects. Nicolas Bourriaud theorized it as relational aesthetics.","wiki":"Relational_art"},
+"Bay Area Figurative Movement":{"t":"Art Movement",bg:"#f4c8b3",tc:"#712B13",d:"1950-1965",desc:"Northern California movement that turned away from pure Abstract Expressionism and returned the figure to gestural painting. David Park initiated the shift around 1950; Richard Diebenkorn, Elmer Bischoff, Paul Wonner, Theophilus Brown, and others made Bay Area figuration a regional counter-model to New York abstraction.",wiki:"Bay_Area_Figurative_Movement"},
+"Light and Space":{"t":"Art Movement",bg:"#d9eff7",tc:"#03314B",d:"1960s-1970s",desc:"Southern California movement focused on perceptual experience: light, volume, reflection, transparency, atmosphere, and architectural space. Robert Irwin, James Turrell, Doug Wheeler, Larry Bell, Mary Corse, Helen Pashgian, and others used glass, acrylic, neon, fluorescent light, and environmental conditions to make seeing itself the artwork.",wiki:"Light_and_Space"},
+"Funk Art":{"t":"Art Movement",bg:"#c6b08a",tc:"#3d2400",d:"1960s-1970s",desc:"Bay Area movement known for irreverent, earthy, messy, handmade, and comic resistance to clean Minimalism and East Coast formalism. Robert Arneson, William T. Wiley, Roy De Forest, Manuel Neri, and related artists used ceramics, found objects, satire, wordplay, grotesque figuration, and studio dirt as virtues rather than defects.",wiki:"Funk_art"},
 /* ── Consumer Art ── */
 "Animation (Golden Age)":{t:"Consumer Art",bg:"#b5d4f4",tc:"#0C447C",d:"1928\u20131960",desc:"Golden Age from Mickey Mouse\u2019s Steamboat Willie (1928) through Disney\u2019s feature films and Warner Bros.\u2019 Looney Tunes. Key films: Snow White (1937), Pinocchio (1940), Bambi (1942), Duck Amuck (1953).",wiki:"Golden_Age_of_American_animation"},
 "Animation (Pixar Era)":{t:"Consumer Art",bg:"#85b7eb",tc:"#042C53",d:"1995\u2013",desc:"Pixar\u2019s Toy Story (1995)\u2014the first fully CGI feature film\u2014launched a new era of digital animation. Dreamworks, Sony, and Disney followed. Pixar\u2019s story culture and technical innovation redefined family entertainment.",wiki:"Pixar"},
@@ -878,12 +1076,147 @@ const ttYt=document.getElementById('tt-yt');
 let hideTimer=null;
 const imgCache={};
 
-function fetchImg(wikiTitle,cb){
-  if(imgCache[wikiTitle]!==undefined){cb(imgCache[wikiTitle]);return;}
-  fetch('https://en.wikipedia.org/api/rest_v1/page/summary/'+encodeURIComponent(wikiTitle))
-    .then(r=>r.json())
-    .then(d=>{const s=d&&d.thumbnail&&d.thumbnail.source?d.thumbnail.source:null;imgCache[wikiTitle]=s;cb(s);})
-    .catch(()=>{imgCache[wikiTitle]=null;cb(null);});
+const IMAGE_WIKI_ALIASES={
+  "Bay Area Figurative Movement":["Bay_Area_Figurative_Movement","Richard_Diebenkorn","David_Park_(painter)","Elmer_Bischoff"],
+  "Light and Space":["Light_and_Space","Robert_Irwin_(artist)","James_Turrell","Larry_Bell_(artist)","Mary_Corse"],
+  "Funk Art":["Funk_art","Robert_Arneson","William_T._Wiley","Roy_De_Forest"],
+  "Art Nouveau":["Art_Nouveau","Alphonse_Mucha","H%C3%B4tel_Tassel"],
+  "Arts and Crafts":["Arts_and_Crafts_movement","William_Morris","Red_House,_Bexleyheath"],
+  "Jugendstil":["Jugendstil","Vienna_Secession"],
+  "Symbolism":["Symbolism_(arts)","Odilon_Redon","Gustav_Klimt","The_Kiss_(Klimt)"],
+  "Les Nabis":["Les_Nabis","Pierre_Bonnard","%C3%89douard_Vuillard"],
+  "École de Paris":["%C3%89cole_de_Paris","Amedeo_Modigliani","Marc_Chagall","Cha%C3%AFm_Soutine"],
+  "Metaphysical Painting":["Metaphysical_art","Giorgio_de_Chirico"],
+  "Der Blaue Reiter":["Der_Blaue_Reiter","Wassily_Kandinsky","Franz_Marc"],
+  "Rayonism":["Rayonism","Natalia_Goncharova","Mikhail_Larionov"],
+  "Vorticism":["Vorticism","Wyndham_Lewis"],
+  "Suprematism":["Suprematism","Kazimir_Malevich"],
+  "De Stijl":["De_Stijl","Piet_Mondrian","Theo_van_Doesburg"],
+  "Neo-Plasticism":["Neo-plasticism","Piet_Mondrian"],
+  "Valori Plastici":["Valori_plastici","Giorgio_de_Chirico","Carlo_Carr%C3%A0"],
+  "De Ploeg":["De_Ploeg","Johan_Dijkstra","Jan_Altink","Hendrik_Nicolaas_Werkman"],
+  "Novembergruppe":["Novembergruppe","Otto_Dix","George_Grosz","Hannah_H%C3%B6ch"],
+  "UNOVIS":["UNOVIS","Kazimir_Malevich","El_Lissitzky"],
+  "Bauhaus":["Bauhaus","Bauhaus_Building","Walter_Gropius"],
+  "Magic Realism":["Magic_realism","Giorgio_de_Chirico","Edward_Hopper","Franz_Roh"],
+  "Concrete Art":["Concrete_art","Theo_van_Doesburg","Max_Bill"],
+  "Abstract Expressionism":["Abstract_expressionism","Jackson_Pollock","Willem_de_Kooning","Mark_Rothko"],
+  "Lettrism":["Lettrism","Isidore_Isou"],
+  "Homme Témoin":["Bernard_Buffet","Jean_Fautrier","Germaine_Richier"],
+  "CoBrA":["CoBrA","Asger_Jorn","Karel_Appel"],
+  "Existential Art":["Existentialism","Alberto_Giacometti","Francis_Bacon_(artist)","Jean-Paul_Sartre"],
+  "Décollage":["D%C3%A9collage","Mimmo_Rotella","Wolf_Vostell","Jacques_Villegl%C3%A9"],
+  "Neo-Dada":["Neo-Dada","Robert_Rauschenberg","Jasper_Johns","John_Cage"],
+  "Gutai":["Gutai_group","Kazuo_Shiraga","Atsuko_Tanaka"],
+  "Nonconformist Art":["Soviet_Nonconformist_Art","Ilya_Kabakov","Erik_Bulatov"],
+  "ZERO":["Zero_(art)","Heinz_Mack","Otto_Piene","G%C3%BCnther_Uecker"],
+  "Situationist International":["Situationist_International","Guy_Debord"],
+  "NO!art":["NO!art","Boris_Lurie"],
+  "Post-Painterly Abstraction":["Post-painterly_abstraction","Helen_Frankenthaler","Morris_Louis","Kenneth_Noland"],
+  "Nouveau Réalisme":["Nouveau_r%C3%A9alisme","Yves_Klein","Jean_Tinguely","Arman"],
+  "Fluxus":["Fluxus","George_Maciunas","Nam_June_Paik"],
+  "Post-Minimalism":["Postminimalism","Eva_Hesse","Richard_Serra","Robert_Morris_(artist)"],
+  "BMPT Group":["BMPT","Daniel_Buren"],
+  "Supports/Surfaces":["Supports/Surfaces","Claude_Viallat","Louis_Cane"],
+  "Neo-Expressionism":["Neo-expressionism","Jean-Michel_Basquiat","Anselm_Kiefer","Julian_Schnabel"],
+  "Mülheimer Freiheit":["M%C3%BClheimer_Freiheit","Walter_Dahn","Ji%C5%99%C3%AD_Georg_Dokoupil"],
+  "Transavantgarde":["Transavantgarde","Francesco_Clemente","Sandro_Chia"],
+  "Nuovi Nuovi":["Nuovi_Nuovi","Sandro_Chia","Mimmo_Paladino"],
+  "Figuration Libre":["Figuration_Libre","Robert_Combas","Herv%C3%A9_Di_Rosa"],
+  "New Image Painting":["New_Image_Painting","Susan_Rothenberg"],
+  "Moscow Conceptualism":["Moscow_Conceptualists","Ilya_Kabakov"],
+  "Neo-Pop":["Neo-pop","Jeff_Koons","Takashi_Murakami"],
+  "Hacking (Exploratory)":["Hacker_culture","Phreaking","Homebrew_Computer_Club","Levy_Hackers"],
+  "Tactical Media":["Tactical_media","The_Yes_Men","Critical_Art_Ensemble"],
+  "New Leipzig School":["New_Leipzig_School","Neo_Rauch"],
+  "Britart":["Young_British_Artists","Damien_Hirst","Tracey_Emin"],
+  "Stuckism":["Stuckism","Billy_Childish"],
+  "Superflat":["Superflat","Takashi_Murakami"],
+  "Relational Art":["Relational_art","Rirkrit_Tiravanija","Nicolas_Bourriaud"],
+  "Arte Útil":["Arte_%C3%BAtil","Tania_Bruguera"],
+  "Zombie Formalism":["Zombie_formalism","Oscar_Murillo","Lucien_Smith_(artist)"]
+};
+
+function normalizeWikiTitle(title){
+  let t=String(title||'').trim().replace(/^https?:\/\/en\.wikipedia\.org\/wiki\//,'');
+  try{t=decodeURIComponent(t);}catch(e){}
+  return t.replace(/ /g,'_');
+}
+
+function candidateWikiTitles(key,wikiTitle){
+  const out=[];
+  function add(t){t=normalizeWikiTitle(t);if(t&&!out.includes(t))out.push(t);}
+  const aliases=IMAGE_WIKI_ALIASES[key]||[];
+  aliases.forEach(add);
+  add(wikiTitle);
+  add(key);
+  return out;
+}
+
+function fetchSummaryThumb(title){
+  const t=normalizeWikiTitle(title);
+  return fetch('https://en.wikipedia.org/api/rest_v1/page/summary/'+encodeURIComponent(t))
+    .then(r=>r.ok?r.json():null)
+    .then(d=>d&&d.thumbnail&&d.thumbnail.source?d.thumbnail.source:null)
+    .catch(()=>null);
+}
+
+function fetchPageImageThumb(title){
+  const t=normalizeWikiTitle(title);
+  const url='https://en.wikipedia.org/w/api.php?origin=*&action=query&format=json&prop=pageimages&pithumbsize=720&redirects=1&titles='+encodeURIComponent(t);
+  return fetch(url)
+    .then(r=>r.ok?r.json():null)
+    .then(d=>{
+      const pages=d&&d.query&&d.query.pages?Object.values(d.query.pages):[];
+      const page=pages.find(p=>p&&p.thumbnail&&p.thumbnail.source);
+      return page?page.thumbnail.source:null;
+    })
+    .catch(()=>null);
+}
+
+function fetchMediaListThumb(title){
+  const t=normalizeWikiTitle(title);
+  return fetch('https://en.wikipedia.org/api/rest_v1/page/media-list/'+encodeURIComponent(t))
+    .then(r=>r.ok?r.json():null)
+    .then(d=>{
+      const items=d&&Array.isArray(d.items)?d.items:[];
+      const img=items.find(item=>item&&item.type==='image'&&item.showInGallery!==false&&item.thumbnail&&item.thumbnail.source);
+      return img?img.thumbnail.source:null;
+    })
+    .catch(()=>null);
+}
+
+function fetchArticleImageThumb(title){
+  const t=normalizeWikiTitle(title);
+  const url='https://en.wikipedia.org/w/api.php?origin=*&action=query&format=json&generator=images&gimlimit=24&prop=imageinfo&iiprop=url|mime&iiurlwidth=720&redirects=1&titles='+encodeURIComponent(t);
+  return fetch(url)
+    .then(r=>r.ok?r.json():null)
+    .then(d=>{
+      const pages=d&&d.query&&d.query.pages?Object.values(d.query.pages):[];
+      const bad=/\\b(icon|logo|symbol|map|flag|wikidata|commons|question|blank|placeholder|seal)\\b/i;
+      const imgs=pages
+        .filter(p=>p&&p.title&&p.imageinfo&&p.imageinfo[0])
+        .filter(p=>/\\.(jpe?g|png|webp)$/i.test(p.title)&&!bad.test(p.title))
+        .map(p=>p.imageinfo[0].thumburl||p.imageinfo[0].url)
+        .filter(Boolean);
+      return imgs[0]||null;
+    })
+    .catch(()=>null);
+}
+
+function fetchImg(wikiTitle,key,cb){
+  if(typeof key==='function'){cb=key;key=wikiTitle;}
+  const cacheKey=key+'|'+wikiTitle;
+  if(imgCache[cacheKey]!==undefined){cb(imgCache[cacheKey]);return;}
+  const candidates=candidateWikiTitles(key,wikiTitle);
+  (async()=>{
+    for(const title of candidates){
+      const src=await fetchPageImageThumb(title) || await fetchSummaryThumb(title) || await fetchArticleImageThumb(title) || await fetchMediaListThumb(title);
+      if(src){imgCache[cacheKey]=src;cb(src);return;}
+    }
+    imgCache[cacheKey]=null;
+    cb(null);
+  })();
 }
 
 function positionTT(el){
@@ -918,7 +1251,7 @@ function showTT(el,key){
   ttPh.querySelector('span').textContent='loading\u2026';
   tt.style.display='block';
   positionTT(el);
-  fetchImg(wikiKey,function(src){
+  fetchImg(wikiKey,key,function(src){
     if(src){
       ttImg.onload=function(){ttPh.style.display='none';ttImg.style.display='block';positionTT(el);};
       ttImg.onerror=function(){ttPh.querySelector('span').textContent='no image';};
@@ -1124,5 +1457,12 @@ document.querySelectorAll('[data-k]').forEach(el=>{
 tt.addEventListener('mouseenter',()=>clearTimeout(hideTimer));
 tt.addEventListener('mouseleave',startHide);
 </script>
+<footer class="cw-foot">
+  <a href="https://commonwealth.la/">Commonwealth</a>
+  <span class="sep">·</span>
+  <a href="https://commonwealth.la/privacy/">Privacy</a>
+  <span class="sep">·</span>
+  <a href="https://commonwealth.la/accessibility/">Accessibility</a>
+</footer>
 </body>
 </html>
