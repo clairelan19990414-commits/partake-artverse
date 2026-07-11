@@ -749,3 +749,134 @@
     padding: 34px 18px 70px;
   }
 }
+
+@media (max-width: 760px) {
+  .home-header {
+    overflow: hidden;
+  }
+
+  .home-logo {
+    max-width: 100%;
+    font-size: clamp(1.62rem, 8.5vw, 2rem);
+    line-height: 1.08;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .sept-main {
+    padding-top: 26px;
+  }
+
+  .assessment-hero {
+    padding: 12px;
+    margin-bottom: 18px;
+  }
+
+  .assessment-hero-head {
+    padding: 5px 4px 13px;
+  }
+
+  .assessment-hero-title {
+    font-size: 0.92rem;
+    line-height: 1.6;
+  }
+
+  .assessment-panel,
+  .summary-card,
+  .panel {
+    padding: 16px;
+  }
+
+  .scale-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  .scale-card {
+    padding: 17px;
+  }
+
+  .scale-name {
+    font-size: 0.86rem;
+  }
+
+  .scale-next,
+  .level-description,
+  .work-on-body,
+  .assessment-instruction,
+  .assessment-option-body,
+  .assessment-setup-copy,
+  .assessment-summary-item,
+  .empty-state {
+    font-size: 0.84rem;
+    line-height: 1.62;
+  }
+
+  .assessment-scale {
+    font-size: 1.05rem;
+    line-height: 1.4;
+  }
+
+  .assessment-option {
+    min-height: 54px;
+    padding: 12px;
+  }
+
+  .assessment-option input {
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+  }
+
+  .assessment-option-title {
+    font-size: 0.76rem;
+  }
+
+  .assessment-actions,
+  .assessment-setup-actions,
+  .saved-progress-actions {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+  }
+
+  .assessment-btn,
+  .data-load-btn,
+  .back-btn,
+  .level-set-btn {
+    min-height: 44px;
+    padding: 10px 13px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .score-btn {
+    width: 44px;
+    height: 44px;
+  }
+
+  .saved-progress-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .summary-value {
+    font-size: 1.45rem;
+  }
+}
+
+@media (min-width: 761px) and (max-width: 1024px) {
+  .assessment-btn,
+  .data-load-btn,
+  .back-btn,
+  .level-set-btn {
+    min-height: 42px;
+    padding: 10px 13px;
+  }
+
+  .score-btn {
+    width: 40px;
+    height: 40px;
+  }
+}

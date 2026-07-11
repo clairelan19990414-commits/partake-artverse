@@ -1568,6 +1568,127 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
 }
 .kc-footer .gallery-line { color: #1a1a1a; }
 .kc-footer .born-line { font-style: normal; }
+
+@media (max-width: 760px) {
+  .page-header { padding: 30px 20px 28px; }
+  .header-title { font-size: 2rem; }
+  .artist-map-header { gap: 24px; }
+  .hdr-right {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px 22px;
+    padding-top: 18px;
+    border-top: 1px solid rgba(45,140,0,.34);
+  }
+  .hdr-stat-num { font-size: 2rem; }
+  .map-body { padding: 28px 14px 72px; }
+  .map-section { margin-bottom: 44px; }
+  .map-section-note { font-size: .88rem; line-height: 1.68; }
+
+  .filter-bar { padding: 16px 14px 12px; margin-bottom: 24px; }
+  .filter-group { grid-template-columns: minmax(0, 1fr); gap: 7px; padding: 9px 0; }
+  .filter-group-label { padding-top: 0; }
+  .filter-chips {
+    flex-wrap: nowrap;
+    max-width: 100%;
+    padding-bottom: 6px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+  }
+  .filter-chip {
+    min-height: 42px;
+    padding: 8px 11px;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+  }
+  .filter-reset-btn { min-height: 42px; padding: 8px 12px; }
+
+  .grid-scroll,
+  .route-table-wrap {
+    max-width: 100%;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+    box-shadow: inset -18px 0 20px -22px rgba(0,0,0,.7);
+  }
+  .art-grid { min-width: 1720px; }
+  .art-grid col.col-museum { width: 116px; }
+  .art-grid col.col-gallery { width: 122px; }
+  .museum-cell { padding: 13px 10px; }
+  .artist-chip { min-height: 34px; padding: 8px; }
+
+  .career-route-section { padding: 15px; }
+  .route-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .route-stat { padding: 12px; }
+  .route-journey-summary { grid-template-columns: 42px minmax(0, 1fr); padding: 14px; gap: 11px; }
+  .route-summary-title { font-size: 1.3rem; }
+  .route-journey-body { padding: 14px; }
+  .route-journey-timeline,
+  .route-evidence-grid { grid-template-columns: minmax(0, 1fr); }
+  .route-card-links a,
+  .route-open-btn,
+  .route-filter-btn,
+  .route-chart-details > summary {
+    min-height: 42px;
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 10px;
+  }
+
+  .rosters-grid { grid-template-columns: minmax(0, 1fr); }
+  .roster-card { padding: 18px 16px; }
+  .roster-bio { font-size: .84rem; }
+  .roster-artist { min-height: 44px; padding: 10px 11px; }
+  .roster-artist-name { font-size: 1.08rem; }
+  .roster-expand-trigger { min-height: 44px; display: flex; align-items: center; }
+
+  #detail-panel { width: 100%; right: -105%; }
+  .dp-close-bar { padding: max(12px,env(safe-area-inset-top)) 16px 0; }
+  .dp-close-btn { min-height: 44px; padding: 9px 13px; }
+  .dp-img-wrap { height: 230px; }
+  .dp-header { padding: 16px 20px 23px; }
+  .dp-name { font-size: 2rem; line-height: 1.05; }
+  .dp-bio { font-size: .9rem; line-height: 1.65; }
+  .dp-section { padding: 21px 20px; }
+  .dp-works-gallery { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; }
+  .dp-work-card { min-width: 0; }
+  .dp-work-links a,
+  .dp-link { min-height: 40px; display: inline-flex; align-items: center; }
+
+  #map-tip { display: none!important; }
+
+  .quiz-section { margin-top: 54px; }
+  .quiz-intro h2 { font-size: 1.85rem; }
+  .quiz-intro p { font-size: .9rem; }
+  .quiz-start-btn,
+  .quiz-next,
+  .quiz-option { min-height: 48px; }
+  .quiz-frame { padding: 22px 16px 24px; }
+  .quiz-head { align-items: flex-start; gap: 8px; flex-wrap: wrap; }
+  .quiz-prompt { font-size: 1.45rem; }
+  .quiz-artwork-wrap { min-height: 210px; max-height: 360px; }
+  .quiz-option { padding: 12px 14px; font-size: .84rem; }
+  .quiz-foot { align-items: stretch; flex-direction: column; }
+  .quiz-next { width: 100%; }
+  .kc-works-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 15px 10px; }
+  .kc-footer { align-items: flex-start; flex-direction: column; gap: 8px; }
+}
+
+@media (min-width: 761px) and (max-width: 1024px) {
+  .filter-chip,
+  .filter-reset-btn,
+  .route-open-btn,
+  .route-filter-btn,
+  .dp-close-btn {
+    min-height: 38px;
+  }
+
+  .roster-expand-trigger {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+  }
+}
 </style>
 <style id="cw-compliance">
   .cw-skip{position:fixed;top:8px;left:8px;z-index:9999;padding:10px 16px;background:#16181b;color:#fff;text-decoration:none;border-radius:4px;font:500 14px/1 system-ui,sans-serif;transform:translateY(-150%);transition:transform .18s ease}
@@ -1601,7 +1722,7 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
   <div class="hdr-left">
     <div class="header-eyebrow">Reference · Blue-Chip · 2025</div>
     <h1 class="header-title">Artist Map</h1>
-    <p class="header-subject">Where the blue chip lives. A grid of thirteen leading international galleries — their artists arrayed across the institutions that hold them. Filter, hover, click.</p>
+    <p class="header-subject">Where the blue chip lives. A grid of thirteen leading international galleries — their artists arrayed across the institutions that hold them. Filter, then tap or click an artist to explore.</p>
   </div>
   <div class="hdr-right">
     <div class="hdr-stat"><div class="hdr-stat-num">13</div><div class="hdr-stat-label">Galleries</div></div>
@@ -1685,7 +1806,7 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
   <!-- ── Spreadsheet ── -->
   <section class="map-section">
     <div class="map-section-label">Gallery × Institution</div>
-    <p class="map-section-note">Each cell shows the artists represented by that gallery whose work is held in significant depth by that institution. Use the filters above to highlight artists by generation, nationality, or theme — matches glow coral. Hover any artist to see school and collector ties; click for the full profile.</p>
+    <p class="map-section-note">Each cell shows the artists represented by that gallery whose work is held in significant depth by that institution. Use the filters above to highlight artists by generation, nationality, or theme — matches glow coral. Tap or click any artist for the full visual profile; pointer users also get a quick preview on hover.</p>
     <div class="grid-scroll" id="grid-scroll">
       <table class="art-grid" id="grid-table"></table>
     </div>
@@ -1694,7 +1815,7 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
   <!-- ── Rosters ── -->
   <section class="map-section">
     <div class="map-section-label">Full Rosters</div>
-    <p class="map-section-note">The complete roster at each gallery — click any header to expand. Hover an artist for works and connections; click for the full profile.</p>
+    <p class="map-section-note">The complete roster at each gallery — tap any header to expand, then tap an artist for works, links, and connections.</p>
     <div class="rosters-grid" id="rosters-grid"></div>
   </section>
 

@@ -64,6 +64,61 @@ body{font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#111;background
 #tt-links a{color:#0055cc;text-decoration:none}
 #tt-links a:hover{text-decoration:underline}
 #tt-links span{color:#ccc}
+
+@media (max-width:760px){
+  .p-intro{
+    padding:30px max(20px,env(safe-area-inset-right)) 26px max(20px,env(safe-area-inset-left));
+  }
+  .p-intro h1{font-size:1.45rem;line-height:1.35;text-wrap:balance}
+  .p-intro p{font-size:.88rem;line-height:1.7;padding-left:14px}
+  .p-intro-hint{font-size:.6rem;line-height:1.6;color:#6f6f6f}
+  .outer{
+    max-width:100vw;
+    overflow-x:auto;
+    overscroll-behavior-x:contain;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-color:#2d8c00 #d8d3c8;
+    border-top:1px solid #d5cfc2;
+    border-bottom:1px solid #d5cfc2;
+  }
+  .page{zoom:1.4;padding-top:10px;padding-bottom:28px}
+  .bar{height:13px;font-size:9px}
+  .nm{font-size:9.5px}
+  .art-movement-item .bar{height:14px}
+  .lc{
+    position:sticky;
+    left:0;
+    z-index:30;
+    width:112px;
+    padding:4px 8px 0 4px;
+    background:rgba(236,233,224,.96);
+    border-right:1px solid #d0c9ba;
+    box-shadow:8px 0 10px rgba(236,233,224,.9);
+  }
+  [data-k]{touch-action:manipulation}
+  #tt{
+    width:auto;
+    max-width:none;
+    max-height:72dvh;
+    left:max(12px,env(safe-area-inset-left))!important;
+    right:max(12px,env(safe-area-inset-right));
+    top:auto!important;
+    bottom:max(12px,env(safe-area-inset-bottom));
+    overflow-y:auto;
+    border-color:#aaa;
+    border-radius:14px;
+    box-shadow:0 16px 54px rgba(0,0,0,.28);
+  }
+  #tt-img{height:170px}
+  #tt-ph{height:84px}
+  #tt-body{padding:14px 16px 16px}
+  #tt-name{font-size:17px;margin-bottom:5px}
+  #tt-type,#tt-dates{font-size:10px}
+  #tt-desc{font-size:13px;line-height:1.55;margin:7px 0 12px}
+  #tt-links{gap:6px;font-size:12px;flex-wrap:wrap}
+  #tt-links a{min-height:40px;padding:8px 10px;display:inline-flex;align-items:center;border:1px solid #d8d8d8;border-radius:6px}
+  #tt-links span{display:none}
+}
 </style>
 <style id="cw-compliance">
   .cw-skip{position:fixed;top:8px;left:8px;z-index:9999;padding:10px 16px;background:#16181b;color:#fff;text-decoration:none;border-radius:4px;font:500 14px/1 system-ui,sans-serif;transform:translateY(-150%);transition:transform .18s ease}
@@ -94,8 +149,8 @@ body{font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#111;background
 <div class="p-intro">
   <div class="p-intro-ey">Research Tool &middot; Interactive</div>
   <h1>Art, Philosophy &amp; New Media &middot; 1760&#8211;2015</h1>
-  <p>Interactive timeline of art movements, philosophers, media theorists, and cultural events. Hover any bar or name for a full tooltip. Scroll horizontally to navigate 255 years. Informed by Brad Troemel&#8217;s critical analysis of Post-Internet, contemporary, and digital art.</p>
-  <div class="p-intro-hint">&#8592; scroll or drag to move through history &nbsp;&nbsp;&middot;&nbsp;&nbsp; hover any element to explore</div>
+  <p>Interactive timeline of art movements, philosophers, media theorists, and cultural events. Tap or hover any bar or name for its visual reference and full context. Scroll horizontally to navigate 255 years. Informed by Brad Troemel&#8217;s critical analysis of Post-Internet, contemporary, and digital art.</p>
+  <div class="p-intro-hint">&#8592; drag to move through history &nbsp;&nbsp;&middot;&nbsp;&nbsp; tap any element to explore</div>
 </div>
 
 <h1 class="sr-only">Interactive Timeline of Art, Philosophy and New Media 1760&#8211;2015</h1>
@@ -1462,14 +1517,51 @@ function clearConnections(){
   });
 }
 
-function startHide(){hideTimer=setTimeout(()=>{tt.style.display='none';clearConnections();},220);}
+let activeTrigger=null;
+function closeTT(){
+  clearTimeout(hideTimer);
+  tt.dataset.pinned='false';
+  tt.style.display='none';
+  activeTrigger=null;
+  clearConnections();
+}
+function startHide(){
+  if(tt.dataset.pinned==='true')return;
+  hideTimer=setTimeout(closeTT,220);
+}
 
 document.querySelectorAll('[data-k]').forEach(el=>{
   el.addEventListener('mouseenter',()=>{showTT(el,el.dataset.k);drawConnections(el,el.dataset.k);});
   el.addEventListener('mouseleave',startHide);
+  el.setAttribute('tabindex','0');
+  el.setAttribute('role','button');
+  el.setAttribute('aria-label','Explore '+el.dataset.k);
+  el.addEventListener('click',event=>{
+    event.stopPropagation();
+    if(activeTrigger===el&&tt.dataset.pinned==='true'){
+      closeTT();
+      return;
+    }
+    tt.dataset.pinned='true';
+    activeTrigger=el;
+    showTT(el,el.dataset.k);
+    drawConnections(el,el.dataset.k);
+  });
+  el.addEventListener('keydown',event=>{
+    if(event.key!=='Enter'&&event.key!==' ')return;
+    event.preventDefault();
+    el.click();
+  });
 });
 tt.addEventListener('mouseenter',()=>clearTimeout(hideTimer));
 tt.addEventListener('mouseleave',startHide);
+tt.addEventListener('click',event=>event.stopPropagation());
+document.addEventListener('click',()=>{
+  if(tt.dataset.pinned==='true')closeTT();
+});
+document.addEventListener('keydown',event=>{
+  if(event.key==='Escape')closeTT();
+});
 </script>
 <footer class="cw-foot">
   <a href="https://commonwealth.la/">Commonwealth</a>
