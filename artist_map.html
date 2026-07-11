@@ -235,6 +235,32 @@ body { background: #f8f5ee; color: #1a1a1a; }
   gap: 12px;
 }
 .filter-bar-count { color: #d63384; font-weight: 600; }
+.filter-scope-note {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 12px;
+  align-items: start;
+  margin-bottom: 14px;
+  padding: 12px 14px;
+  background: #faf7f0;
+  border: 1px solid #e8e2d4;
+  border-left: 3px solid #2d8c00;
+}
+.filter-scope-label {
+  font-family: var(--mono);
+  font-size: 0.54rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #2d8c00;
+  padding-top: 2px;
+}
+.filter-scope-copy {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.76rem;
+  line-height: 1.55;
+  color: #666;
+}
 .filter-reset-btn {
   font-family: var(--mono);
   font-size: 0.56rem;
@@ -1585,6 +1611,17 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
   .map-section-note { font-size: .88rem; line-height: 1.68; }
 
   .filter-bar { padding: 16px 14px 12px; margin-bottom: 24px; }
+  .filter-bar-head { align-items: stretch; gap: 10px; }
+  .filter-bar-title { width: 100%; }
+  .filter-bar-status {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+  }
+  .filter-scope-note { grid-template-columns: minmax(0, 1fr); gap: 5px; }
+  .filter-scope-copy { font-size: .83rem; }
   .filter-group { grid-template-columns: minmax(0, 1fr); gap: 7px; padding: 9px 0; }
   .filter-group-label { padding-top: 0; }
   .filter-chips {
@@ -1602,7 +1639,7 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
     flex: 0 0 auto;
     scroll-snap-align: start;
   }
-  .filter-reset-btn { min-height: 42px; padding: 8px 12px; }
+  .filter-reset-btn { min-width: 72px; min-height: 42px; padding: 8px 12px; white-space: nowrap; }
 
   .grid-scroll,
   .route-table-wrap {
@@ -1722,7 +1759,7 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
   <div class="hdr-left">
     <div class="header-eyebrow">Reference · Blue-Chip · 2025</div>
     <h1 class="header-title">Artist Map</h1>
-    <p class="header-subject">Where the blue chip lives. A grid of thirteen leading international galleries — their artists arrayed across the institutions that hold them. Filter, then tap or click an artist to explore.</p>
+    <p class="header-subject">Where the blue chip lives. Start with artists validated by seven world-class museums, then move down through multi-gallery career routes and complete gallery rosters. Filter, then tap or click an artist to explore.</p>
   </div>
   <div class="hdr-right">
     <div class="hdr-stat"><div class="hdr-stat-num">13</div><div class="hdr-stat-label">Galleries</div></div>
@@ -1761,11 +1798,15 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
   <!-- ── Filter bar ── -->
   <section class="filter-bar" id="filter-bar">
     <div class="filter-bar-head">
-      <div class="filter-bar-title">Filter Artists</div>
+      <div class="filter-bar-title">Filter Museum-Represented Artists</div>
       <div class="filter-bar-status">
-        <span id="filter-status-text">996 artists shown · no filter active</span>
+        <span id="filter-status-text">Loading institutional artist set…</span>
         <button class="filter-reset-btn" id="filter-reset" disabled>Reset</button>
       </div>
+    </div>
+    <div class="filter-scope-note">
+      <span class="filter-scope-label">Filter scope</span>
+      <p class="filter-scope-copy" id="filter-scope-copy">These controls apply only to the world-class museum representation matrix directly below. They do not filter the later career-route atlas or full gallery rosters.</p>
     </div>
     <div class="filter-group">
       <div class="filter-group-label">Generation</div>
@@ -1785,10 +1826,19 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
     </div>
   </section>
 
+  <!-- ── Spreadsheet ── -->
+  <section class="map-section" id="institutional-representation">
+    <div class="map-section-label">World-Class Museum Representation</div>
+    <p class="map-section-note">This is the primary institutional view: artists represented by one of the thirteen galleries whose work is held by at least one of the seven selected world-class museums. The filters above act only on this matrix. Matches glow coral; non-matches recede. Tap or click any artist for the full visual profile.</p>
+    <div class="grid-scroll" id="grid-scroll">
+      <table class="art-grid" id="grid-table"></table>
+    </div>
+  </section>
+
   <!-- ── Multi-gallery career routes ── -->
   <section class="map-section career-route-section" id="career-route-section">
     <div class="map-section-label">Multi-Gallery Career Routes</div>
-    <p class="map-section-note">A route atlas for artists whose names recur across multiple major-gallery rosters. Each card reads the artist as a career arc: formation, early platform, institutional signal, and current mega-gallery footprint. The atlas starts with artists represented by the most galleries, then folds down into the full overlap chart for audit work.</p>
+    <p class="map-section-note">This secondary career signal follows the museum view above. It tracks artists whose names recur across multiple major-gallery rosters, reading each as an arc from formation and early platform through institutional validation and the current mega-gallery footprint. The atlas starts with artists represented by the most galleries, then folds down into the full overlap chart.</p>
     <div class="route-stats" id="route-stats"></div>
     <div class="route-cases" id="route-cases"></div>
     <div class="route-tools">
@@ -1803,19 +1853,10 @@ details.roster-expand[open] .hide-text { display: inline; color: #d63384; }
     </details>
   </section>
 
-  <!-- ── Spreadsheet ── -->
-  <section class="map-section">
-    <div class="map-section-label">Gallery × Institution</div>
-    <p class="map-section-note">Each cell shows the artists represented by that gallery whose work is held in significant depth by that institution. Use the filters above to highlight artists by generation, nationality, or theme — matches glow coral. Tap or click any artist for the full visual profile; pointer users also get a quick preview on hover.</p>
-    <div class="grid-scroll" id="grid-scroll">
-      <table class="art-grid" id="grid-table"></table>
-    </div>
-  </section>
-
   <!-- ── Rosters ── -->
   <section class="map-section">
     <div class="map-section-label">Full Rosters</div>
-    <p class="map-section-note">The complete roster at each gallery — tap any header to expand, then tap an artist for works, links, and connections.</p>
+    <p class="map-section-note">The complete roster at each gallery, including artists without a selected-museum holding in this map. These rosters are intentionally not affected by the museum filter above. Tap any header to expand, then tap an artist for works, links, and connections.</p>
     <div class="rosters-grid" id="rosters-grid"></div>
   </section>
 
@@ -4110,14 +4151,35 @@ let quizState = null;
 
 // ── Filter state ────────────────────────────────────────────
 const filterState = { gen:new Set(), nat:new Set(), medium:new Set(), theme:new Set() };
+const MUSEUM_FILTER_GROUPS = (() => {
+  const groups = new Map();
+  ARTISTS.filter(a => Array.isArray(a.museums) && a.museums.length).forEach(a => {
+    const key = artistNameKey(a.name);
+    if (!groups.has(key)) {
+      groups.set(key, { key, name:a.name, records:[], gens:new Set(), nats:new Set(), themes:new Set() });
+    }
+    const group = groups.get(key);
+    group.records.push(a);
+    if (a.gen) group.gens.add(a.gen);
+    if (a.nat) group.nats.add(a.nat);
+    (a.themes || []).forEach(theme => group.themes.add(theme));
+  });
+  return Array.from(groups.values());
+})();
+const MUSEUM_FILTER_BY_NAME = new Map(MUSEUM_FILTER_GROUPS.map(group => [group.key, group]));
+
+function isMuseumGroupMatched(group) {
+  if (!anyFilterActive()) return null;
+  const genOK = filterState.gen.size === 0 || Array.from(group.gens).some(value => filterState.gen.has(value));
+  const natOK = filterState.nat.size === 0 || Array.from(group.nats).some(value => filterState.nat.has(value));
+  const mediumOK = filterState.medium.size === 0 || Array.from(group.themes).some(value => filterState.medium.has(value));
+  const themeOK = filterState.theme.size === 0 || Array.from(group.themes).some(value => filterState.theme.has(value));
+  return genOK && natOK && mediumOK && themeOK;
+}
 
 function isArtistMatched(a) {
-  if (!anyFilterActive()) return null;
-  const genOK    = filterState.gen.size === 0    || (a.gen && filterState.gen.has(a.gen));
-  const natOK    = filterState.nat.size === 0    || filterState.nat.has(a.nat);
-  const mediumOK = filterState.medium.size === 0 || a.themes.some(t => filterState.medium.has(t));
-  const themeOK  = filterState.theme.size === 0  || a.themes.some(t => filterState.theme.has(t));
-  return genOK && natOK && mediumOK && themeOK;
+  const group = MUSEUM_FILTER_BY_NAME.get(artistNameKey(a.name));
+  return group ? isMuseumGroupMatched(group) : false;
 }
 function anyFilterActive() {
   return filterState.gen.size + filterState.nat.size + filterState.medium.size + filterState.theme.size > 0;
@@ -4125,9 +4187,10 @@ function anyFilterActive() {
 
 // ── Filter rendering ────────────────────────────────────────
 function renderFilters() {
+  const filterUniverse = MUSEUM_FILTER_GROUPS;
   // Generations
   const genCounts = {};
-  ARTISTS.forEach(a => { if (a.gen) genCounts[a.gen] = (genCounts[a.gen]||0) + 1; });
+  filterUniverse.forEach(group => group.gens.forEach(gen => { genCounts[gen] = (genCounts[gen]||0) + 1; }));
   document.getElementById('chips-gen').innerHTML = GEN_DEFS
     .filter(g => genCounts[g.id])
     .map(g => `<button class="filter-chip" data-group="gen" data-val="${g.id}">${g.label} <span class="count">${genCounts[g.id]}</span></button>`)
@@ -4135,7 +4198,7 @@ function renderFilters() {
 
   // Nationalities — top by count
   const natCounts = {};
-  ARTISTS.forEach(a => { natCounts[a.nat] = (natCounts[a.nat]||0) + 1; });
+  filterUniverse.forEach(group => group.nats.forEach(nat => { natCounts[nat] = (natCounts[nat]||0) + 1; }));
   const sortedNats = Object.entries(natCounts).sort((a,b) => b[1]-a[1]).slice(0, 14);
   document.getElementById('chips-nat').innerHTML = sortedNats
     .map(([nat,n]) => `<button class="filter-chip" data-group="nat" data-val="${nat}">${nat} <span class="count">${n}</span></button>`)
@@ -4143,7 +4206,7 @@ function renderFilters() {
 
   // Medium and Theme — separate buckets
   const mediumCounts = {}, themeCounts = {};
-  ARTISTS.forEach(a => a.themes.forEach(t => {
+  filterUniverse.forEach(group => group.themes.forEach(t => {
     if (MEDIUM_TAGS.has(t)) mediumCounts[t] = (mediumCounts[t]||0) + 1;
     else if (THEME_TAGS.has(t)) themeCounts[t] = (themeCounts[t]||0) + 1;
   }));
@@ -4178,36 +4241,24 @@ function renderFilters() {
 function applyFilters() {
   const active = anyFilterActive();
   document.getElementById('filter-reset').disabled = !active;
-  let matched = 0;
 
   document.querySelectorAll('.artist-chip').forEach(chip => {
     const a = ARTIST_BY_ID[chip.dataset.id];
     if (!a) return;
     chip.classList.remove('matched','unmatched');
     if (active) {
-      if (isArtistMatched(a)) { chip.classList.add('matched'); matched++; }
+      if (isArtistMatched(a)) { chip.classList.add('matched'); }
       else                    { chip.classList.add('unmatched'); }
     }
   });
 
-  // Roster artist tags too
-  document.querySelectorAll('.roster-artist').forEach(el => {
-    const a = ARTIST_BY_ID[el.dataset.id];
-    if (!a) return;
-    el.classList.remove('matched','unmatched');
-    if (active) {
-      if (isArtistMatched(a)) el.classList.add('matched');
-      else                    el.classList.add('unmatched');
-    }
-  });
-
-  const totalMatched = active ? ARTISTS.filter(a => isArtistMatched(a)).length : ARTISTS.length;
-  const txt = active
-    ? `${totalMatched} of ${ARTISTS.length} match`
-    : `${ARTISTS.length} artists shown · no filter active`;
+  const totalMatched = active ? MUSEUM_FILTER_GROUPS.filter(group => isMuseumGroupMatched(group)).length : MUSEUM_FILTER_GROUPS.length;
+  const galleryRecords = MUSEUM_FILTER_GROUPS.reduce((sum, group) => sum + group.records.length, 0);
   document.getElementById('filter-status-text').innerHTML = active
-    ? `<span class="filter-bar-count">${totalMatched}</span> of ${ARTISTS.length} match`
-    : txt;
+    ? `<span class="filter-bar-count">${totalMatched}</span> of ${MUSEUM_FILTER_GROUPS.length} museum-represented artists match`
+    : `${MUSEUM_FILTER_GROUPS.length} museum-represented artists · ${galleryRecords} gallery records`;
+  document.getElementById('filter-scope-copy').textContent =
+    `${MUSEUM_FILTER_GROUPS.length} unique artists appear in the museum matrix through ${galleryRecords} gallery roster records. These controls affect only that institutional view, not the career routes or full rosters below.`;
 }
 
 function uniqueBy(arr, fn) {
@@ -5167,10 +5218,11 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closePanel()
 
 // ── Boot ────────────────────────────────────────────────────
 visualDataReady();
-renderFilters();
 renderGrid();
 renderRosters();
 renderCareerRoutes();
+renderFilters();
+applyFilters();
 
 // ── Quiz ────────────────────────────────────────────────────
 const QUIZ_POOL_IDS = [
